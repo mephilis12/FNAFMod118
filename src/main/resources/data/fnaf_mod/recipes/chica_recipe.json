@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fnaf_mod:cupcake"
+    },
+    {
+      "item": "fnaf_mod:chica_fabric"
+    },
+    {
+      "item": "fnaf_mod:endo"
+    },
+    {
+      "item": "fnaf_mod:chica_fabric"
+    },
+    {
+      "item": "fnaf_mod:chica_fabric"
+    },
+    {
+      "item": "fnaf_mod:chica_fabric"
+    },
+    {
+      "item": "fnaf_mod:chica_fabric"
+    }
+  ],
+  "result": {
+    "item": "fnaf_mod:statue_chica_item",
+    "count": 1
+  }
+}

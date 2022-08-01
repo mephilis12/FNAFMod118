@@ -1,0 +1,17 @@
+{
+  "_fv": 28,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "bad_ending",
+    "name": "Music Disc",
+    "description": "Bad Ending - LordSmugDread",
+    "creativeTab": {
+      "value": "CUSTOM:MusicDiscs"
+    },
+    "music": {
+      "value": "CUSTOM:happiest_day"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

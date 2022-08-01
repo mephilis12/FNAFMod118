@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "fnaf_mod:foxy_fabric"
+    },
+    "1": {
+      "item": "fnaf_mod:foxy_fabric"
+    },
+    "2": {
+      "item": "fnaf_mod:foxy_fabric"
+    },
+    "3": {
+      "item": "fnaf_mod:foxy_fabric"
+    },
+    "4": {
+      "tag": "minecraft:wool"
+    },
+    "5": {
+      "item": "fnaf_mod:foxy_fabric"
+    },
+    "6": {
+      "item": "fnaf_mod:foxy_fabric"
+    },
+    "7": {
+      "item": "fnaf_mod:foxy_fabric"
+    },
+    "8": {
+      "item": "fnaf_mod:foxy_fabric"
+    }
+  },
+  "result": {
+    "item": "fnaf_mod:foxy_plushie",
+    "count": 1
+  }
+}

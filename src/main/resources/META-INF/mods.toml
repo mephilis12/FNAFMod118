@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="fnaf_mod"
+version="3"
+displayName="The Five Nights at Freddy's Mod"
+credits="Made Using Mcreator, Models By Mephilis,Rashi,ItsIdyllic,Kiseki and Mosdi.Music,LordSmugDread,GreatPlays and SomethingFunky. By Textures By Beph,Fredo,ItsIdyllic,Rashi. Structures Rashi,Mephilis,Beph,ItsIdyllic  Code By Mephilis Additional Help By WyldDog and Sajevius."
+displayURL="https://www.curseforge.com/minecraft/mc-mods/the-five-nights-at-freddys-mod"
+logoFile="logo.png"
+authors="mephilis,"
+description='''
+Five Nights at Freddy's in Minecraft!
+'''
+
+[[dependencies.fnaf_mod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

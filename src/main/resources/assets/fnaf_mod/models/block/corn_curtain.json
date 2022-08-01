@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fnaf_mod:blocks/corn_curtain",
+    "up": "fnaf_mod:blocks/corn_curtain",
+    "north": "fnaf_mod:blocks/corn_curtain",
+    "east": "fnaf_mod:blocks/corn_curtain",
+    "south": "fnaf_mod:blocks/corn_curtain",
+    "west": "fnaf_mod:blocks/corn_curtain",
+    "particle": "fnaf_mod:blocks/corn_curtain"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BlackWhiteTileCracked"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BlackWhiteTileCracked"
+      },
+      {
+        "value": "CUSTOM:BlackWhiteTileCracked"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BlackWhiteTileCracked"
+      },
+      {
+        "value": "CUSTOM:BlackWhiteTileCracked"
+      },
+      {
+        "value": "CUSTOM:BlackWhiteTileCracked"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BlackWhiteTileStairsCracked"
+    },
+    "name": "cracked_tile_stair",
+    "namespace": "mod"
+  }
+}

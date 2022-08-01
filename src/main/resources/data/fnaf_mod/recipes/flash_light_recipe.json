@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "fnaf_mod:black_plastic"
+    },
+    "1": {
+      "tag": "forge:stained_glass"
+    },
+    "2": {
+      "item": "fnaf_mod:black_plastic"
+    },
+    "3": {
+      "item": "minecraft:stone_button"
+    },
+    "4": {
+      "item": "minecraft:redstone_lamp"
+    },
+    "5": {
+      "item": "fnaf_mod:black_plastic"
+    },
+    "7": {
+      "item": "fnaf_mod:black_plastic"
+    }
+  },
+  "result": {
+    "item": "fnaf_mod:flash_light",
+    "count": 1
+  }
+}

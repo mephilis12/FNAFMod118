@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "5": "freddys_pizza_box"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fnaf_mod:block/purple_fan"
+    },
+    "facing=east": {
+      "model": "fnaf_mod:block/purple_fan",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fnaf_mod:block/purple_fan",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fnaf_mod:block/purple_fan",
+      "y": 270
+    }
+  }
+}

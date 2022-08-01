@@ -1,0 +1,20 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 0.1,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:RedBlueTile"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:RedBlueTileCracked"
+    },
+    "name": "cracked_tiles_red_blue",
+    "namespace": "mod"
+  }
+}

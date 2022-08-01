@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "table_cloth"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "fnaf_mod:black_white_tile_cracked"
+    },
+    "1": {
+      "item": "fnaf_mod:black_white_tile_cracked"
+    },
+    "2": {
+      "item": "fnaf_mod:black_white_tile_cracked"
+    }
+  },
+  "result": {
+    "item": "fnaf_mod:black_white_tile_slab_cracked",
+    "count": 6
+  }
+}

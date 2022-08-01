@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fnaf_mod:microphone"
+    },
+    {
+      "item": "fnaf_mod:freddy_fabric"
+    },
+    {
+      "item": "fnaf_mod:endo"
+    },
+    {
+      "item": "fnaf_mod:freddy_fabric"
+    },
+    {
+      "item": "fnaf_mod:freddy_fabric"
+    },
+    {
+      "item": "fnaf_mod:freddy_fabric"
+    },
+    {
+      "item": "fnaf_mod:freddy_fabric"
+    }
+  ],
+  "result": {
+    "item": "fnaf_mod:statue_freddy_item",
+    "count": 1
+  }
+}

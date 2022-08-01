@@ -1,0 +1,8 @@
+{
+  "parent": "fnaf_mod:custom/golden_cupcake_drawing",
+  "textures": {
+    "all": "fnaf_mod:blocks/goldencupcakedrawing",
+    "particle": "fnaf_mod:blocks/goldencupcakedrawing",
+    "2": "fnaf_mod:blocks/goldencupcakedrawing"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "door_close": {
+    "category": "block",
+    "subtitle": "subtitles.door_close",
+    "sounds": [
+      {
+        "name": "fnaf_mod:doorslam",
+        "stream": false
+      }
+    ]
+  },
+  "animatronic_step": {
+    "category": "master",
+    "subtitle": "subtitles.animatronic_step",
+    "sounds": [
+      {
+        "name": "fnaf_mod:animatronic_step",
+        "stream": false
+      }
+    ]
+  },
+  "golden_freddy_scram": {
+    "category": "master",
+    "subtitle": "subtitles.golden_freddy_scram",
+    "sounds": [
+      {
+        "name": "fnaf_mod:golden_freddy_scream",
+        "stream": false
+      }
+    ]
+  },
+  "dont_go": {
+    "category": "music",
+    "subtitle": "subtitles.dont_go",
+    "sounds": [
+      {
+        "name": "fnaf_mod:dont_go",
+        "stream": true
+      }
+    ]
+  },
+  "happiest_day": {
+    "category": "music",
+    "subtitle": "subtitles.happiest_day",
+    "sounds": [
+      {
+        "name": "fnaf_mod:happiest_day",
+        "stream": true
+      }
+    ]
+  },
+  "toreador_march": {
+    "category": "music",
+    "subtitle": "subtitles.toreador_march",
+    "sounds": [
+      {
+        "name": "fnaf_mod:toreador_march",
+        "stream": true
+      }
+    ]
+  },
+  "nosehonk": {
+    "category": "block",
+    "subtitle": "subtitles.nosehonk",
+    "sounds": [
+      {
+        "name": "fnaf_mod:fnaf_nose_honk",
+        "stream": false
+      }
+    ]
+  },
+  "god": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "fnaf_mod:funny_bunny",
+        "stream": false
+      }
+    ]
+  },
+  "ventwalk": {
+    "category": "neutral",
+    "subtitle": "subtitles.ventwalk",
+    "sounds": [
+      {
+        "name": "fnaf_mod:ventwalk1",
+        "stream": false
+      }
+    ]
+  },
+  "fnaf1_scream": {
+    "category": "master",
+    "subtitle": "subtitles.fnaf1_scream",
+    "sounds": [
+      {
+        "name": "fnaf_mod:fnaf_1_jumpscare",
+        "stream": false
+      }
+    ]
+  },
+  "fnaf2_scream": {
+    "category": "neutral",
+    "subtitle": "subtitles.fnaf2_scream",
+    "sounds": [
+      {
+        "name": "fnaf_mod:xscream2",
+        "stream": false
+      }
+    ]
+  },
+  "fnaf3scream": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "fnaf_mod:scream3",
+        "stream": false
+      }
+    ]
+  }
+}

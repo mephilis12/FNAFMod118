@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "door_button"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 2,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:RedPlastic"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:RedPlastic"
+      },
+      {
+        "value": "CUSTOM:WhitePlastic"
+      },
+      {
+        "value": "CUSTOM:RedPlastic"
+      },
+      {
+        "value": "CUSTOM:RedPlastic"
+      },
+      {
+        "value": "CUSTOM:BlackPlastic"
+      },
+      {
+        "value": "CUSTOM:RedPlastic"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:WarningSign"
+    },
+    "name": "warning_sign_recipe",
+    "namespace": "mod"
+  }
+}

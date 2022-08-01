@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fnaf_mod:bonnie_guitar"
+    },
+    {
+      "item": "fnaf_mod:bonnie_fabric"
+    },
+    {
+      "item": "fnaf_mod:endo"
+    },
+    {
+      "item": "fnaf_mod:bonnie_fabric"
+    },
+    {
+      "item": "fnaf_mod:bonnie_fabric"
+    },
+    {
+      "item": "fnaf_mod:bonnie_fabric"
+    },
+    {
+      "item": "fnaf_mod:bonnie_fabric"
+    }
+  ],
+  "result": {
+    "item": "fnaf_mod:statue_bonnie_spawn",
+    "count": 1
+  }
+}

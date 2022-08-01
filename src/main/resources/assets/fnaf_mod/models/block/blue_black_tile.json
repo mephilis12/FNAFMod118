@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fnaf_mod:blocks/blue_tile",
+    "up": "fnaf_mod:blocks/blue_tile",
+    "north": "fnaf_mod:blocks/blue_tile",
+    "east": "fnaf_mod:blocks/blue_tile",
+    "south": "fnaf_mod:blocks/blue_tile",
+    "west": "fnaf_mod:blocks/blue_tile",
+    "particle": "fnaf_mod:blocks/blue_tile"
+  }
+}

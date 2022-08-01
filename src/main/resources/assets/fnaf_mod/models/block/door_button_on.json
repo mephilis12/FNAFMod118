@@ -1,0 +1,8 @@
+{
+  "parent": "fnaf_mod:custom/door_button_on",
+  "textures": {
+    "all": "fnaf_mod:blocks/door_button_active",
+    "particle": "fnaf_mod:blocks/door_button_active",
+    "0": "fnaf_mod:blocks/door_button_active"
+  }
+}

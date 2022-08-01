@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BonnieGuitar"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BonnieFabric"
+      },
+      {
+        "value": "CUSTOM:Endo"
+      },
+      {
+        "value": "CUSTOM:BonnieFabric"
+      },
+      {
+        "value": "CUSTOM:BonnieFabric"
+      },
+      {
+        "value": "CUSTOM:BonnieFabric"
+      },
+      {
+        "value": "CUSTOM:BonnieFabric"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:StatueBonnieSpawn"
+    },
+    "name": "bonnie_recipe",
+    "namespace": "mod"
+  }
+}

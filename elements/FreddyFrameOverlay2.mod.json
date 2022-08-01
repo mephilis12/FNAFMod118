@@ -1,0 +1,20 @@
+{
+  "_fv": 28,
+  "_type": "overlay",
+  "definition": {
+    "priority": "LOWEST",
+    "components": [],
+    "baseTexture": "freddy2.png",
+    "overlayTarget": "Ingame",
+    "displayCondition": {
+      "name": "FreddyFrame2"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "hanging_wires_main"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fnaf_mod:microphone"
+    },
+    {
+      "item": "fnaf_mod:remnant"
+    },
+    {
+      "item": "fnaf_mod:chica_fabric"
+    },
+    {
+      "item": "fnaf_mod:endo"
+    },
+    {
+      "item": "fnaf_mod:chica_fabric"
+    },
+    {
+      "item": "fnaf_mod:chica_fabric"
+    },
+    {
+      "item": "fnaf_mod:bonnie_fabric"
+    },
+    {
+      "item": "fnaf_mod:chica_fabric"
+    }
+  ],
+  "result": {
+    "item": "fnaf_mod:fredbear_item",
+    "count": 1
+  }
+}

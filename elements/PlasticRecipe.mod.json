@@ -1,0 +1,20 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 4.0,
+    "cookingTime": 400,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "Items.IRON_NUGGET"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:WhitePlastic"
+    },
+    "name": "plastic_recipe",
+    "namespace": "mod"
+  }
+}

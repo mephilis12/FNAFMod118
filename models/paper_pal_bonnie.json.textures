@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "6": "paper_pal_bonnie"
+      },
+      "name": "default"
+    }
+  }
+}

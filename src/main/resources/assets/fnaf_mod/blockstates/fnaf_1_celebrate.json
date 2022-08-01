@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fnaf_mod:block/fnaf_1_celebrate"
+    },
+    "facing=east": {
+      "model": "fnaf_mod:block/fnaf_1_celebrate",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fnaf_mod:block/fnaf_1_celebrate",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fnaf_mod:block/fnaf_1_celebrate",
+      "y": 270
+    }
+  }
+}

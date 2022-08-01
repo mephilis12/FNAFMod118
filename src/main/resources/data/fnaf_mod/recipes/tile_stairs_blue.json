@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "fnaf_mod:blue_black_tile"
+    },
+    "3": {
+      "item": "fnaf_mod:blue_black_tile"
+    },
+    "4": {
+      "item": "fnaf_mod:blue_black_tile"
+    },
+    "6": {
+      "item": "fnaf_mod:blue_black_tile"
+    },
+    "7": {
+      "item": "fnaf_mod:blue_black_tile"
+    },
+    "8": {
+      "item": "fnaf_mod:blue_black_tile"
+    }
+  },
+  "result": {
+    "item": "fnaf_mod:blue_black_tile_stair",
+    "count": 4
+  }
+}

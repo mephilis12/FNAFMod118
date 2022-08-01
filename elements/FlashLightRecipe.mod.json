@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BlackPlastic"
+      },
+      {
+        "value": "Blocks.STAINED_GLASS"
+      },
+      {
+        "value": "CUSTOM:BlackPlastic"
+      },
+      {
+        "value": "Blocks.STONE_BUTTON"
+      },
+      {
+        "value": "Blocks.REDSTONE_LAMP"
+      },
+      {
+        "value": "CUSTOM:BlackPlastic"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BlackPlastic"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:FlashLight"
+    },
+    "name": "flash_light_recipe",
+    "namespace": "mod"
+  }
+}

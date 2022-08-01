@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fnaf_mod:block/closet_right_open_top"
+    },
+    "facing=east": {
+      "model": "fnaf_mod:block/closet_right_open_top",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fnaf_mod:block/closet_right_open_top",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fnaf_mod:block/closet_right_open_top",
+      "y": 270
+    }
+  }
+}

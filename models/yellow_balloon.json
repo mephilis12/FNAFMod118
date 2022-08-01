@@ -1,0 +1,115 @@
+{
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "Desktop/Balloons",
+		"particle": "Desktop/Balloons"
+	},
+	"elements": [
+		{
+			"name": "0",
+			"from": [7, 8, 7],
+			"to": [7, 15, 8],
+			"faces": {
+				"north": {"uv": [0, 0, 0, 3.5], "texture": "#0"},
+				"east": {"uv": [12, 10, 12.5, 13.5], "texture": "#0"},
+				"south": {"uv": [0, 0, 0, 3.5], "texture": "#0"},
+				"west": {"uv": [0, 12.5, 0.5, 16], "texture": "#0"},
+				"up": {"uv": [0, 0.5, 0, 0], "texture": "#0"},
+				"down": {"uv": [0, 0, 0, 0.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "1",
+			"from": [7, 0, 8],
+			"to": [7, 8, 9],
+			"faces": {
+				"north": {"uv": [0, 0, 0, 4], "texture": "#0"},
+				"east": {"uv": [10, 10, 10.5, 14], "texture": "#0"},
+				"south": {"uv": [0, 0, 0, 4], "texture": "#0"},
+				"west": {"uv": [10.5, 10, 11, 14], "texture": "#0"},
+				"up": {"uv": [0, 0.5, 0, 0], "texture": "#0"},
+				"down": {"uv": [0, 0, 0, 0.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "balloon",
+			"from": [4.5, 15, 5],
+			"to": [9.5, 20, 10],
+			"faces": {
+				"north": {"uv": [2.5, 10, 5, 12.5], "texture": "#0"},
+				"east": {"uv": [10, 2.5, 12.5, 5], "texture": "#0"},
+				"south": {"uv": [5, 10, 7.5, 12.5], "texture": "#0"},
+				"west": {"uv": [10, 5, 12.5, 7.5], "texture": "#0"},
+				"up": {"uv": [10, 12.5, 7.5, 10], "texture": "#0"},
+				"down": {"uv": [12.5, 7.5, 10, 10], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0.25, 0.75, 0],
+			"scale": [0.45, 0.45, 0.45]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0.25, 0.75, 0],
+			"scale": [0.45, 0.45, 0.45]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -69, 0],
+			"translation": [9, 0, -6.25]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -69, 0],
+			"translation": [7.5, 0, -8.25]
+		},
+		"ground": {
+			"translation": [0, 10.75, 0],
+			"scale": [0.64, 0.64, 0.64]
+		},
+		"gui": {
+			"rotation": [21, 32, 0],
+			"scale": [0.64, 0.64, 0.64]
+		},
+		"head": {
+			"translation": [0, 14.25, 0]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0, -12.25],
+			"scale": [1.64, 1.64, 1.64]
+		}
+	},
+	"groups": [
+		{
+			"name": "Balloons",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [
+				{
+					"name": "Red Balloon",
+					"origin": [0, 0, 0],
+					"color": 0,
+					"children": []
+				},
+				{
+					"name": "Green Balloon",
+					"origin": [0, 0, 0],
+					"color": 0,
+					"children": []
+				},
+				{
+					"name": "Blue Balloon",
+					"origin": [0, 0, 0],
+					"color": 0,
+					"children": []
+				},
+				{
+					"name": "Yellow Balloon",
+					"origin": [0, 0, 0],
+					"color": 0,
+					"children": [0, 1, 2]
+				}
+			]
+		}
+	]
+}

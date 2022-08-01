@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fnaf_mod:block/fnaf_3_posters"
+    },
+    "facing=east": {
+      "model": "fnaf_mod:block/fnaf_3_posters",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fnaf_mod:block/fnaf_3_posters",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fnaf_mod:block/fnaf_3_posters",
+      "y": 270
+    }
+  }
+}

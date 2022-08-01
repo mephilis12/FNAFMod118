@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fnaf_mod:block/paper_pal"
+    },
+    "facing=east": {
+      "model": "fnaf_mod:block/paper_pal",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fnaf_mod:block/paper_pal",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fnaf_mod:block/paper_pal",
+      "y": 270
+    }
+  }
+}

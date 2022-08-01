@@ -1,0 +1,20 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "xpReward": 20.0,
+    "cookingTime": 100,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:EndoBlock"
+    },
+    "blastingReturnStack": {
+      "value": "Blocks.IRON_BLOCK"
+    },
+    "name": "endo_blast",
+    "namespace": "mod"
+  }
+}

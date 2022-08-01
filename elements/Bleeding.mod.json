@@ -1,0 +1,23 @@
+{
+  "_fv": 28,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Bleeding",
+    "icon": "bleeding.png",
+    "color": {
+      "value": -12844542,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "BleedingEffectStartedapplied"
+    },
+    "onActiveTick": {
+      "name": "BleedingOnEffectActiveTick"
+    }
+  }
+}

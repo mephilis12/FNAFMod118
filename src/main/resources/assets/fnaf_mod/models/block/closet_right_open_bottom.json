@@ -1,0 +1,8 @@
+{
+  "parent": "fnaf_mod:custom/closet_door_open_right_bottom",
+  "textures": {
+    "all": "fnaf_mod:blocks/fnaf_4_closet_door",
+    "particle": "fnaf_mod:blocks/fnaf_4_closet_door",
+    "0": "fnaf_mod:blocks/fnaf_4_closet_door"
+  }
+}

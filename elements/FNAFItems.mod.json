@@ -1,0 +1,11 @@
+{
+  "_fv": 28,
+  "_type": "tab",
+  "definition": {
+    "name": "FNAF Items",
+    "icon": {
+      "value": "CUSTOM:RedBlueTile"
+    },
+    "showSearch": false
+  }
+}

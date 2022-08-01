@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "bonnie_the_bunny"
+      },
+      "name": "default"
+    }
+  }
+}

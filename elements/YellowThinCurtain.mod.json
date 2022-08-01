@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 16,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CornCurtain"
+      },
+      {
+        "value": "CUSTOM:CornCurtain"
+      },
+      {
+        "value": "CUSTOM:CornCurtain"
+      },
+      {
+        "value": "CUSTOM:CornCurtain"
+      },
+      {
+        "value": "CUSTOM:CornCurtain"
+      },
+      {
+        "value": "CUSTOM:CornCurtain"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ThinCornCurtain"
+    },
+    "name": "yellow_thin_curtain",
+    "namespace": "mod"
+  }
+}

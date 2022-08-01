@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:ChicaFabric"
+      },
+      {
+        "value": "CUSTOM:ChicaFabric"
+      },
+      {
+        "value": "CUSTOM:ChicaFabric"
+      },
+      {
+        "value": "CUSTOM:ChicaFabric"
+      },
+      {
+        "value": "Blocks.WOOL"
+      },
+      {
+        "value": "CUSTOM:ChicaFabric"
+      },
+      {
+        "value": "CUSTOM:ChicaFabric"
+      },
+      {
+        "value": "CUSTOM:ChicaFabric"
+      },
+      {
+        "value": "CUSTOM:ChicaFabric"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ChicaPlushie"
+    },
+    "name": "chica_plushie_recipe",
+    "namespace": "mod"
+  }
+}

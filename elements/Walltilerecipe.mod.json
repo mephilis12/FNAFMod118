@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.CONCRETE#14"
+      },
+      {
+        "value": "Blocks.CONCRETE#14"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BlackWall"
+      },
+      {
+        "value": "CUSTOM:BlackWall"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:WallTile"
+    },
+    "name": "walltilerecipe",
+    "namespace": "mod"
+  }
+}

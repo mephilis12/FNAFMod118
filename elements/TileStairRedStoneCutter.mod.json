@@ -1,0 +1,20 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Stone cutting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "stoneCuttingInputStack": {
+      "value": "CUSTOM:RedBlackTile"
+    },
+    "stoneCuttingReturnStack": {
+      "value": "CUSTOM:RedBlackTileStair"
+    },
+    "name": "tile_stair_red_stone_cutter",
+    "namespace": "mod"
+  }
+}

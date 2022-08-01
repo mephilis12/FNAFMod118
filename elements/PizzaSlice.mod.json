@@ -1,0 +1,43 @@
+{
+  "_fv": 28,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "pizza_slice",
+    "customModelName": "Normal",
+    "name": "Pizza Slice",
+    "rarity": "COMMON",
+    "creativeTab": {
+      "value": "CUSTOM:FNAFItems"
+    },
+    "stackSize": 8,
+    "enchantability": 0,
+    "useDuration": 32,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "hasDispenseBehavior": false,
+    "isFood": true,
+    "nutritionalValue": 6,
+    "saturation": 1.0,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": true,
+    "isAlwaysEdible": false,
+    "animation": "eat"
+  }
+}

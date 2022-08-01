@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fnaf_mod:block/black_white_tile_slab_cracked"
+    },
+    "type=top": {
+      "model": "fnaf_mod:block/black_white_tile_slab_cracked_top"
+    },
+    "type=double": {
+      "model": "fnaf_mod:block/black_white_tile_slab_cracked_full"
+    }
+  }
+}

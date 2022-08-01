@@ -1,0 +1,8 @@
+{
+  "parent": "fnaf_mod:custom/bonnie_arcade",
+  "textures": {
+    "all": "fnaf_mod:blocks/arcade_machine",
+    "particle": "fnaf_mod:blocks/arcade_machine",
+    "0": "fnaf_mod:blocks/arcade_machine"
+  }
+}

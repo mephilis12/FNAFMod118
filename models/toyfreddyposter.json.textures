@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "toy_freddy_poster"
+      },
+      "name": "default"
+    }
+  }
+}

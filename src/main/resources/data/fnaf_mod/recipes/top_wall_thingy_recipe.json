@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:white_concrete"
+    },
+    "1": {
+      "item": "minecraft:black_concrete"
+    },
+    "2": {
+      "item": "minecraft:white_concrete"
+    },
+    "3": {
+      "item": "minecraft:black_concrete"
+    }
+  },
+  "result": {
+    "item": "fnaf_mod:top_normal",
+    "count": 4
+  }
+}

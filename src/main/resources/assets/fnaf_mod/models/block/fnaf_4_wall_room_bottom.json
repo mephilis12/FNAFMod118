@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fnaf_mod:blocks/house_wall_bottom",
+    "up": "fnaf_mod:blocks/house_wall_bottom",
+    "north": "fnaf_mod:blocks/house_wall_bottom",
+    "east": "fnaf_mod:blocks/house_wall_bottom",
+    "south": "fnaf_mod:blocks/house_wall_bottom",
+    "west": "fnaf_mod:blocks/house_wall_bottom",
+    "particle": "fnaf_mod:blocks/house_wall_bottom"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:red_concrete"
+    },
+    "1": {
+      "item": "minecraft:red_concrete"
+    },
+    "2": {
+      "item": "fnaf_mod:stage_bricks"
+    },
+    "3": {
+      "item": "fnaf_mod:stage_bricks"
+    }
+  },
+  "result": {
+    "item": "fnaf_mod:stage_brick_tiles",
+    "count": 1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_fv": 28,
+  "_type": "tab",
+  "definition": {
+    "name": "Structure Spawners",
+    "icon": {
+      "value": "CUSTOM:StructureSpawningBlock"
+    },
+    "showSearch": false
+  }
+}

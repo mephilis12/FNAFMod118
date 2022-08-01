@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fnaf_mod:block/light_button_on"
+    },
+    "facing=east": {
+      "model": "fnaf_mod:block/light_button_on",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fnaf_mod:block/light_button_on",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fnaf_mod:block/light_button_on",
+      "y": 270
+    }
+  }
+}

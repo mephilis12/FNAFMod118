@@ -1,0 +1,11 @@
+{
+  "_fv": 28,
+  "_type": "tab",
+  "definition": {
+    "name": "Music Discs",
+    "icon": {
+      "value": "CUSTOM:HappiestDay"
+    },
+    "showSearch": false
+  }
+}

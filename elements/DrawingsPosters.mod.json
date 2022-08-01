@@ -1,0 +1,11 @@
+{
+  "_fv": 28,
+  "_type": "tab",
+  "definition": {
+    "name": "Drawings and Posters",
+    "icon": {
+      "value": "CUSTOM:ChildrenDrawings"
+    },
+    "showSearch": false
+  }
+}

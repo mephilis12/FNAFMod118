@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_glass_pane_side_alt",
+  "textures": {
+    "edge": "fnaf_mod:blocks/candy_curtain",
+    "pane": "fnaf_mod:blocks/candy_curtain"
+  }
+}

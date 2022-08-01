@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    " 45",
+    "  8"
+  ],
+  "key": {
+    "0": {
+      "item": "fnaf_mod:black_plastic"
+    },
+    "4": {
+      "item": "fnaf_mod:red_plastic"
+    },
+    "5": {
+      "item": "minecraft:string"
+    },
+    "8": {
+      "item": "fnaf_mod:red_plastic"
+    }
+  },
+  "result": {
+    "item": "fnaf_mod:bonnie_guitar",
+    "count": 1
+  }
+}

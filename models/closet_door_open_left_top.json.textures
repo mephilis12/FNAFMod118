@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "fnaf_4_closet_door"
+      },
+      "name": "default"
+    }
+  }
+}
