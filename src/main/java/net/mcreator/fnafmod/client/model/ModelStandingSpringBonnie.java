@@ -15,7 +15,7 @@ import net.minecraft.client.model.EntityModel;
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import com.mojang.blaze3d.vertex.PoseStack;
 
-// Made with Blockbench 4.2.4
+// Made with Blockbench 4.3.1
 // Exported for Minecraft version 1.17 - 1.18 with Mojang mappings
 // Paste this class into your mod and generate all required imports
 public class ModelStandingSpringBonnie<T extends Entity> extends EntityModel<T> {
@@ -35,7 +35,7 @@ public class ModelStandingSpringBonnie<T extends Entity> extends EntityModel<T> 
 		PartDefinition Body = partdefinition.addOrReplaceChild("Body",
 				CubeListBuilder.create().texOffs(58, 73).addBox(-8.05F, -13.6F, -1.0F, 2.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)).texOffs(58, 73)
 						.addBox(6.05F, -13.6F, -1.0F, 2.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)).texOffs(0, 34)
-						.addBox(-4.5F, -4.5F, -3.0F, 9.0F, 3.0F, 6.0F, new CubeDeformation(0.0F)).texOffs(77, 1)
+						.addBox(-4.5F, -4.5F, -3.0F, 9.0F, 3.0F, 6.0F, new CubeDeformation(0.0F)).texOffs(16, 104)
 						.addBox(-2.0F, -5.5F, 3.0F, 4.0F, 4.0F, 4.0F, new CubeDeformation(0.0F)).texOffs(59, 17)
 						.addBox(-4.0F, -15.0F, -5.0F, 8.0F, 4.0F, 0.0F, new CubeDeformation(0.0F)).texOffs(0, 0)
 						.addBox(-5.0F, -15.0F, -4.5F, 10.0F, 9.0F, 8.0F, new CubeDeformation(0.0F)).texOffs(0, 34)
@@ -52,7 +52,7 @@ public class ModelStandingSpringBonnie<T extends Entity> extends EntityModel<T> 
 				CubeListBuilder.create().texOffs(12, 46).addBox(-2.5F, -3.2F, -6.0F, 5.0F, 2.0F, 1.0F, new CubeDeformation(0.0F)).texOffs(0, 43)
 						.addBox(-6.5F, -3.2F, -5.5F, 13.0F, 3.0F, 0.0F, new CubeDeformation(0.0F)).texOffs(24, 26).addBox(-4.0F, -7.2F, -5.0F, 8.0F,
 								6.0F, 8.0F, new CubeDeformation(0.0F)),
-				PartPose.offsetAndRotation(0.0F, -16.8F, 0.0F, 0.0866F, -0.0321F, -0.1342F));
+				PartPose.offsetAndRotation(0.0F, -16.8F, 0.0F, -0.2189F, -0.0321F, -0.1342F));
 		PartDefinition cube_r1 = Head.addOrReplaceChild("cube_r1",
 				CubeListBuilder.create().texOffs(32, 19).addBox(-3.5F, -0.8F, -3.4F, 7.0F, 1.0F, 6.0F, new CubeDeformation(0.0F)),
 				PartPose.offsetAndRotation(0.0F, -1.4F, -1.5F, 0.0873F, 0.0F, 0.0F));
@@ -214,11 +214,12 @@ public class ModelStandingSpringBonnie<T extends Entity> extends EntityModel<T> 
 	}
 
 	@Override
+	public void setupAnim(T entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
+	}
+
+	@Override
 	public void renderToBuffer(PoseStack poseStack, VertexConsumer vertexConsumer, int packedLight, int packedOverlay, float red, float green,
 			float blue, float alpha) {
 		Body.render(poseStack, vertexConsumer, packedLight, packedOverlay, red, green, blue, alpha);
-	}
-
-	public void setupAnim(T entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
 	}
 }

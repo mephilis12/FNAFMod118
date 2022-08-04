@@ -31,6 +31,7 @@ public class FnafModModSounds {
 		REGISTRY.put(new ResourceLocation("fnaf_mod", "fnaf1_scream"), new SoundEvent(new ResourceLocation("fnaf_mod", "fnaf1_scream")));
 		REGISTRY.put(new ResourceLocation("fnaf_mod", "fnaf2_scream"), new SoundEvent(new ResourceLocation("fnaf_mod", "fnaf2_scream")));
 		REGISTRY.put(new ResourceLocation("fnaf_mod", "fnaf3scream"), new SoundEvent(new ResourceLocation("fnaf_mod", "fnaf3scream")));
+		REGISTRY.put(new ResourceLocation("fnaf_mod", "doorcreak"), new SoundEvent(new ResourceLocation("fnaf_mod", "doorcreak")));
 	}
 
 	@SubscribeEvent

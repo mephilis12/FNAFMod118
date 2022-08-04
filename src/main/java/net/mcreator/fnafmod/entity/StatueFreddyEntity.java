@@ -73,7 +73,7 @@ public class StatueFreddyEntity extends PathfinderMob {
 
 	@Override
 	public SoundEvent getDeathSound() {
-		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.anvil.destroy"));
+		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.wool.break"));
 	}
 
 	@Override

@@ -63,6 +63,7 @@ import net.mcreator.fnafmod.block.ShelfBlock;
 import net.mcreator.fnafmod.block.ShackRandomizerBlock;
 import net.mcreator.fnafmod.block.SecurityDoorOpenBlock;
 import net.mcreator.fnafmod.block.RemantInfuserBlock;
+import net.mcreator.fnafmod.block.RedWoodDoorBlock;
 import net.mcreator.fnafmod.block.RedBlueTileStairsCrackedBlock;
 import net.mcreator.fnafmod.block.RedBlueTileStairBlock;
 import net.mcreator.fnafmod.block.RedBlueTileSlabCrackedBlock;
@@ -89,6 +90,7 @@ import net.mcreator.fnafmod.block.Poster2Block;
 import net.mcreator.fnafmod.block.Poster1Block;
 import net.mcreator.fnafmod.block.PizzaBoxOpenBlock;
 import net.mcreator.fnafmod.block.PizzaBoxClosedBlock;
+import net.mcreator.fnafmod.block.PhoneBlock;
 import net.mcreator.fnafmod.block.PaperPalFreddyBlock;
 import net.mcreator.fnafmod.block.PaperPalBonnieBlock;
 import net.mcreator.fnafmod.block.PaperPalBlock;
@@ -179,6 +181,7 @@ import net.mcreator.fnafmod.block.CheckeredWallBlock;
 import net.mcreator.fnafmod.block.CheckeredTileBlock;
 import net.mcreator.fnafmod.block.ChairBlock;
 import net.mcreator.fnafmod.block.CandyCurtainBlock;
+import net.mcreator.fnafmod.block.CameraBlock;
 import net.mcreator.fnafmod.block.CactusCurtainBlock;
 import net.mcreator.fnafmod.block.BonniePlushieBlock;
 import net.mcreator.fnafmod.block.BonnieHeadBlock;
@@ -451,6 +454,9 @@ public class FnafModModBlocks {
 			() -> new ToyFoxySpawnBlockIdleBlock());
 	public static final RegistryObject<Block> TOY_FREDDY_SPAWN_BLOCK_IDLE = REGISTRY.register("toy_freddy_spawn_block_idle",
 			() -> new ToyFreddySpawnBlockIdleBlock());
+	public static final RegistryObject<Block> CAMERA = REGISTRY.register("camera", () -> new CameraBlock());
+	public static final RegistryObject<Block> PHONE = REGISTRY.register("phone", () -> new PhoneBlock());
+	public static final RegistryObject<Block> RED_WOOD_DOOR = REGISTRY.register("red_wood_door", () -> new RedWoodDoorBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -562,6 +568,9 @@ public class FnafModModBlocks {
 			ToyChicaSpawnBlockIdleBlock.registerRenderLayer();
 			ToyFoxySpawnBlockIdleBlock.registerRenderLayer();
 			ToyFreddySpawnBlockIdleBlock.registerRenderLayer();
+			CameraBlock.registerRenderLayer();
+			PhoneBlock.registerRenderLayer();
+			RedWoodDoorBlock.registerRenderLayer();
 		}
 	}
 }

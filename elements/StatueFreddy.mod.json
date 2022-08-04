@@ -86,7 +86,7 @@
       "value": "block.cloth.break"
     },
     "deathSound": {
-      "value": "block.anvil.destroy"
+      "value": "block.cloth.break"
     },
     "stepSound": {
       "value": ""

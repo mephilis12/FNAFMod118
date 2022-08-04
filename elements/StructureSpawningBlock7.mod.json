@@ -36,7 +36,7 @@
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
-    "hasGravity": false,
+    "hasGravity": true,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "CUSTOM:StructureSpawners"
@@ -45,7 +45,7 @@
     "customDrop": {
       "value": ""
     },
-    "dropAmount": 1,
+    "dropAmount": 0,
     "useLootTableForDrops": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
@@ -125,12 +125,6 @@
       "name": "StructureSpawningBlock7UpdateTick"
     },
     "onBlockAdded": {
-      "name": "StructureSpawningBlock7UpdateTick"
-    },
-    "onNeighbourBlockChanges": {
-      "name": "StructureSpawningBlock7UpdateTick"
-    },
-    "onTickUpdate": {
       "name": "StructureSpawningBlock7UpdateTick"
     },
     "spawnWorldTypes": [],

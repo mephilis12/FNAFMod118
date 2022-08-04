@@ -21,6 +21,10 @@ import net.mcreator.fnafmod.entity.WitheredFreddyEntity;
 import net.mcreator.fnafmod.entity.WitheredFoxyEntity;
 import net.mcreator.fnafmod.entity.WitheredChicaEntity;
 import net.mcreator.fnafmod.entity.WitheredBonnieEntity;
+import net.mcreator.fnafmod.entity.UnwitheredFreddyStatueEntity;
+import net.mcreator.fnafmod.entity.UnwitheredFoxyStatueEntity;
+import net.mcreator.fnafmod.entity.UnwitheredChicaStatueEntity;
+import net.mcreator.fnafmod.entity.UnwitheredBonnieStatueEntity;
 import net.mcreator.fnafmod.entity.ToyFreddyEntity;
 import net.mcreator.fnafmod.entity.ToyFoxyEntity;
 import net.mcreator.fnafmod.entity.ToyChicaEntity;
@@ -35,6 +39,8 @@ import net.mcreator.fnafmod.entity.StandingDaytimeSpringtrapEntity;
 import net.mcreator.fnafmod.entity.SpringtrapEntity;
 import net.mcreator.fnafmod.entity.SpringlockedZombieFredbearEntity;
 import net.mcreator.fnafmod.entity.SpringLockedZombieSpringBonnieEntity;
+import net.mcreator.fnafmod.entity.SpringBonnieStatueEntity;
+import net.mcreator.fnafmod.entity.SpringBonnieCutOutEntity;
 import net.mcreator.fnafmod.entity.SpringBonnieCreatureEntity;
 import net.mcreator.fnafmod.entity.SpringBonnieCreature2TheSequelEntity;
 import net.mcreator.fnafmod.entity.SittingWitheredChicaEntity;
@@ -66,12 +72,16 @@ import net.mcreator.fnafmod.entity.MangleSittingEntity;
 import net.mcreator.fnafmod.entity.MangleEntity;
 import net.mcreator.fnafmod.entity.JJEntity;
 import net.mcreator.fnafmod.entity.GoldenFreddyEntity;
+import net.mcreator.fnafmod.entity.GlitchBonnieStatueEntity;
+import net.mcreator.fnafmod.entity.GlitchBonnieCutOutEntity;
 import net.mcreator.fnafmod.entity.FullHostileFreddyEntity;
 import net.mcreator.fnafmod.entity.FullHostileFoxyEntity;
 import net.mcreator.fnafmod.entity.FullHostileChicaEntity;
 import net.mcreator.fnafmod.entity.FullHostileBonnieEntity;
 import net.mcreator.fnafmod.entity.FreddyStandEntity;
 import net.mcreator.fnafmod.entity.FreddyFazbearEntity;
+import net.mcreator.fnafmod.entity.FredbearStatueEntity;
+import net.mcreator.fnafmod.entity.FredbearCutOutEntity;
 import net.mcreator.fnafmod.entity.FredbearCreatureEntity;
 import net.mcreator.fnafmod.entity.FredBearCratureEntity;
 import net.mcreator.fnafmod.entity.FoxyPirateEntity;
@@ -511,6 +521,60 @@ public class FnafModModEntities {
 					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CrawlingSpringtrapEntity::new)
 
 					.sized(0.8f, 0.8f));
+	public static final RegistryObject<EntityType<SpringBonnieStatueEntity>> SPRING_BONNIE_STATUE = register("spring_bonnie_statue",
+			EntityType.Builder.<SpringBonnieStatueEntity>of(SpringBonnieStatueEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
+					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SpringBonnieStatueEntity::new)
+
+					.sized(0.7f, 1.8f));
+	public static final RegistryObject<EntityType<FredbearStatueEntity>> FREDBEAR_STATUE = register("fredbear_statue",
+			EntityType.Builder.<FredbearStatueEntity>of(FredbearStatueEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
+					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(FredbearStatueEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<GlitchBonnieStatueEntity>> GLITCH_BONNIE_STATUE = register("glitch_bonnie_statue",
+			EntityType.Builder.<GlitchBonnieStatueEntity>of(GlitchBonnieStatueEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
+					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GlitchBonnieStatueEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<FredbearCutOutEntity>> FREDBEAR_CUT_OUT = register("fredbear_cut_out",
+			EntityType.Builder.<FredbearCutOutEntity>of(FredbearCutOutEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
+					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(FredbearCutOutEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<SpringBonnieCutOutEntity>> SPRING_BONNIE_CUT_OUT = register("spring_bonnie_cut_out",
+			EntityType.Builder.<SpringBonnieCutOutEntity>of(SpringBonnieCutOutEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
+					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SpringBonnieCutOutEntity::new)
+
+					.sized(0.9f, 0.9f));
+	public static final RegistryObject<EntityType<GlitchBonnieCutOutEntity>> GLITCH_BONNIE_CUT_OUT = register("glitch_bonnie_cut_out",
+			EntityType.Builder.<GlitchBonnieCutOutEntity>of(GlitchBonnieCutOutEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
+					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GlitchBonnieCutOutEntity::new)
+
+					.sized(1.4f, 0.9f));
+	public static final RegistryObject<EntityType<UnwitheredFreddyStatueEntity>> UNWITHERED_FREDDY_STATUE = register("unwithered_freddy_statue",
+			EntityType.Builder.<UnwitheredFreddyStatueEntity>of(UnwitheredFreddyStatueEntity::new, MobCategory.MONSTER)
+					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(UnwitheredFreddyStatueEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<UnwitheredBonnieStatueEntity>> UNWITHERED_BONNIE_STATUE = register("unwithered_bonnie_statue",
+			EntityType.Builder.<UnwitheredBonnieStatueEntity>of(UnwitheredBonnieStatueEntity::new, MobCategory.MONSTER)
+					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(UnwitheredBonnieStatueEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<UnwitheredChicaStatueEntity>> UNWITHERED_CHICA_STATUE = register("unwithered_chica_statue",
+			EntityType.Builder.<UnwitheredChicaStatueEntity>of(UnwitheredChicaStatueEntity::new, MobCategory.MONSTER)
+					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(UnwitheredChicaStatueEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<UnwitheredFoxyStatueEntity>> UNWITHERED_FOXY_STATUE = register("unwithered_foxy_statue",
+			EntityType.Builder.<UnwitheredFoxyStatueEntity>of(UnwitheredFoxyStatueEntity::new, MobCategory.MONSTER)
+					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(UnwitheredFoxyStatueEntity::new)
+
+					.sized(0.6f, 1.95f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -600,6 +664,16 @@ public class FnafModModEntities {
 			CrawlingToyFoxyEntity.init();
 			CrawlingToyChicaEntity.init();
 			CrawlingSpringtrapEntity.init();
+			SpringBonnieStatueEntity.init();
+			FredbearStatueEntity.init();
+			GlitchBonnieStatueEntity.init();
+			FredbearCutOutEntity.init();
+			SpringBonnieCutOutEntity.init();
+			GlitchBonnieCutOutEntity.init();
+			UnwitheredFreddyStatueEntity.init();
+			UnwitheredBonnieStatueEntity.init();
+			UnwitheredChicaStatueEntity.init();
+			UnwitheredFoxyStatueEntity.init();
 		});
 	}
 
@@ -686,5 +760,15 @@ public class FnafModModEntities {
 		event.put(CRAWLING_TOY_FOXY.get(), CrawlingToyFoxyEntity.createAttributes().build());
 		event.put(CRAWLING_TOY_CHICA.get(), CrawlingToyChicaEntity.createAttributes().build());
 		event.put(CRAWLING_SPRINGTRAP.get(), CrawlingSpringtrapEntity.createAttributes().build());
+		event.put(SPRING_BONNIE_STATUE.get(), SpringBonnieStatueEntity.createAttributes().build());
+		event.put(FREDBEAR_STATUE.get(), FredbearStatueEntity.createAttributes().build());
+		event.put(GLITCH_BONNIE_STATUE.get(), GlitchBonnieStatueEntity.createAttributes().build());
+		event.put(FREDBEAR_CUT_OUT.get(), FredbearCutOutEntity.createAttributes().build());
+		event.put(SPRING_BONNIE_CUT_OUT.get(), SpringBonnieCutOutEntity.createAttributes().build());
+		event.put(GLITCH_BONNIE_CUT_OUT.get(), GlitchBonnieCutOutEntity.createAttributes().build());
+		event.put(UNWITHERED_FREDDY_STATUE.get(), UnwitheredFreddyStatueEntity.createAttributes().build());
+		event.put(UNWITHERED_BONNIE_STATUE.get(), UnwitheredBonnieStatueEntity.createAttributes().build());
+		event.put(UNWITHERED_CHICA_STATUE.get(), UnwitheredChicaStatueEntity.createAttributes().build());
+		event.put(UNWITHERED_FOXY_STATUE.get(), UnwitheredFoxyStatueEntity.createAttributes().build());
 	}
 }

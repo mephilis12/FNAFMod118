@@ -1,8 +1,13 @@
 package net.mcreator.fnafmod.procedures;
 
+import net.minecraftforge.registries.ForgeRegistries;
+
 import net.minecraft.world.level.block.state.properties.Property;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.level.Level;
+import net.minecraft.sounds.SoundSource;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.fnafmod.init.FnafModModBlocks;
@@ -38,6 +43,15 @@ public class ClosetRightOpenBottomOnBlockRightClickedProcedure {
 					}
 			}
 			world.setBlock(_bp, _bs, 3);
+		}
+		if (world instanceof Level _level) {
+			if (!_level.isClientSide()) {
+				_level.playSound(null, new BlockPos(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("fnaf_mod:doorcreak")),
+						SoundSource.BLOCKS, 1, 1);
+			} else {
+				_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("fnaf_mod:doorcreak")), SoundSource.BLOCKS,
+						1, 1, false);
+			}
 		}
 	}
 }

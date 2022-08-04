@@ -52,7 +52,7 @@
     "movementSpeed": 0.0,
     "armorBaseValue": 0.0,
     "trackingRange": 64,
-    "health": 50,
+    "health": 10,
     "xpAmount": 0,
     "waterMob": true,
     "flyingMob": false,
@@ -86,7 +86,7 @@
       "value": "block.cloth.hit"
     },
     "deathSound": {
-      "value": "block.anvil.destroy"
+      "value": "block.cloth.break"
     },
     "stepSound": {
       "value": "CUSTOM:animatronic_step"

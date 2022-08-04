@@ -125,7 +125,7 @@ public class StatueFoxyEntity extends PathfinderMob {
 
 	@Override
 	public SoundEvent getDeathSound() {
-		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.anvil.destroy"));
+		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.wool.break"));
 	}
 
 	@Override
@@ -172,7 +172,7 @@ public class StatueFoxyEntity extends PathfinderMob {
 	public static AttributeSupplier.Builder createAttributes() {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
 		builder = builder.add(Attributes.MOVEMENT_SPEED, 0);
-		builder = builder.add(Attributes.MAX_HEALTH, 50);
+		builder = builder.add(Attributes.MAX_HEALTH, 10);
 		builder = builder.add(Attributes.ARMOR, 0);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 1);
 		builder = builder.add(Attributes.KNOCKBACK_RESISTANCE, 2);

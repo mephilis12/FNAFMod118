@@ -65,6 +65,7 @@ import net.mcreator.fnafmod.item.CircuitBoardItem;
 import net.mcreator.fnafmod.item.ChicaSpawnItemItem;
 import net.mcreator.fnafmod.item.ChicaItem;
 import net.mcreator.fnafmod.item.ChicaFabricItem;
+import net.mcreator.fnafmod.item.CameraMonitorItem;
 import net.mcreator.fnafmod.item.BrownPlasticItem;
 import net.mcreator.fnafmod.item.BonnieStandItemItem;
 import net.mcreator.fnafmod.item.BonnieSpawnItem;
@@ -558,6 +559,38 @@ public class FnafModModItems {
 			() -> new GlitchtrapSuitItem.Leggings());
 	public static final RegistryObject<Item> GLITCHTRAP_SUIT_BOOTS = REGISTRY.register("glitchtrap_suit_boots", () -> new GlitchtrapSuitItem.Boots());
 	public static final RegistryObject<Item> GUARD_HAT_HELMET = REGISTRY.register("guard_hat_helmet", () -> new GuardHatItem.Helmet());
+	public static final RegistryObject<Item> SPRING_BONNIE_STATUE = REGISTRY.register("spring_bonnie_statue_spawn_egg",
+			() -> new ForgeSpawnEggItem(FnafModModEntities.SPRING_BONNIE_STATUE, -4810998, -12582330,
+					new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
+	public static final RegistryObject<Item> FREDBEAR_STATUE = REGISTRY.register("fredbear_statue_spawn_egg",
+			() -> new ForgeSpawnEggItem(FnafModModEntities.FREDBEAR_STATUE, -4810998, -12582330,
+					new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
+	public static final RegistryObject<Item> GLITCH_BONNIE_STATUE = REGISTRY.register("glitch_bonnie_statue_spawn_egg",
+			() -> new ForgeSpawnEggItem(FnafModModEntities.GLITCH_BONNIE_STATUE, -4810998, -12582330, new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> FREDBEAR_CUT_OUT = REGISTRY.register("fredbear_cut_out_spawn_egg",
+			() -> new ForgeSpawnEggItem(FnafModModEntities.FREDBEAR_CUT_OUT, -4810998, -12582330,
+					new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
+	public static final RegistryObject<Item> SPRING_BONNIE_CUT_OUT = REGISTRY.register("spring_bonnie_cut_out_spawn_egg",
+			() -> new ForgeSpawnEggItem(FnafModModEntities.SPRING_BONNIE_CUT_OUT, -4810998, -12582330,
+					new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
+	public static final RegistryObject<Item> GLITCH_BONNIE_CUT_OUT = REGISTRY.register("glitch_bonnie_cut_out_spawn_egg",
+			() -> new ForgeSpawnEggItem(FnafModModEntities.GLITCH_BONNIE_CUT_OUT, -4810998, -12582330, new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> CAMERA = block(FnafModModBlocks.CAMERA, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> PHONE = block(FnafModModBlocks.PHONE, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> CAMERA_MONITOR = REGISTRY.register("camera_monitor", () -> new CameraMonitorItem());
+	public static final RegistryObject<Item> RED_WOOD_DOOR = doubleBlock(FnafModModBlocks.RED_WOOD_DOOR, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> UNWITHERED_FREDDY_STATUE = REGISTRY.register("unwithered_freddy_statue_spawn_egg",
+			() -> new ForgeSpawnEggItem(FnafModModEntities.UNWITHERED_FREDDY_STATUE, -11587051, -16777216,
+					new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
+	public static final RegistryObject<Item> UNWITHERED_BONNIE_STATUE = REGISTRY.register("unwithered_bonnie_statue_spawn_egg",
+			() -> new ForgeSpawnEggItem(FnafModModEntities.UNWITHERED_BONNIE_STATUE, -13628544, -3604480,
+					new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
+	public static final RegistryObject<Item> UNWITHERED_CHICA_STATUE = REGISTRY.register("unwithered_chica_statue_spawn_egg",
+			() -> new ForgeSpawnEggItem(FnafModModEntities.UNWITHERED_CHICA_STATUE, -3232495, -1318688,
+					new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
+	public static final RegistryObject<Item> UNWITHERED_FOXY_STATUE = REGISTRY.register("unwithered_foxy_statue_spawn_egg",
+			() -> new ForgeSpawnEggItem(FnafModModEntities.UNWITHERED_FOXY_STATUE, -9499893, -12902649,
+					new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

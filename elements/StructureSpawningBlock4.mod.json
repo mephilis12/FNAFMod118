@@ -36,7 +36,7 @@
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
-    "hasGravity": false,
+    "hasGravity": true,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "CUSTOM:StructureSpawners"
@@ -96,7 +96,7 @@
     },
     "luminance": 0,
     "unbreakable": true,
-    "breakHarvestLevel": 1,
+    "breakHarvestLevel": 0,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -125,12 +125,6 @@
       "name": "StructureSpawningBlock4BlockAdded"
     },
     "onBlockAdded": {
-      "name": "StructureSpawningBlock4BlockAdded"
-    },
-    "onNeighbourBlockChanges": {
-      "name": "StructureSpawningBlock4BlockAdded"
-    },
-    "onTickUpdate": {
       "name": "StructureSpawningBlock4BlockAdded"
     },
     "spawnWorldTypes": [],

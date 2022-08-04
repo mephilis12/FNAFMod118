@@ -86,7 +86,7 @@
       "value": "entity.generic.hurt"
     },
     "deathSound": {
-      "value": "entity.generic.death"
+      "value": "block.cloth.break"
     },
     "stepSound": {
       "value": ""

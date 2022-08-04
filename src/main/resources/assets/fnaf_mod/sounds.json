@@ -116,5 +116,23 @@
         "stream": false
       }
     ]
+  },
+  "doorcreak": {
+    "category": "block",
+    "subtitle": "subtitles.doorcreak",
+    "sounds": [
+      {
+        "name": "fnaf_mod:doorcreak",
+        "stream": false
+      },
+      {
+        "name": "fnaf_mod:doorcreak2",
+        "stream": false
+      },
+      {
+        "name": "fnaf_mod:doorcreak3",
+        "stream": false
+      }
+    ]
   }
 }
