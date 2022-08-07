@@ -111,15 +111,41 @@ public class FnafModModItems {
 			FnafModModTabs.TAB_FNAF_BLOCKS);
 	public static final RegistryObject<Item> BLUE_BLACK_TILE_STAIRS_CRACKED = block(FnafModModBlocks.BLUE_BLACK_TILE_STAIRS_CRACKED,
 			FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> RED_WHITE_TILE = block(FnafModModBlocks.RED_WHITE_TILE, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> RED_WHITE_TILE_SLAB = block(FnafModModBlocks.RED_WHITE_TILE_SLAB, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> RED_WHITE_TILE_STAIR = block(FnafModModBlocks.RED_WHITE_TILE_STAIR, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> RED_WHITE_TILE_CRACKED = block(FnafModModBlocks.RED_WHITE_TILE_CRACKED, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> RED_WHITE_TILE_SLAB_CRACKED = block(FnafModModBlocks.RED_WHITE_TILE_SLAB_CRACKED,
+			FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> RED_WHITE_TILE_STAIR_CRACKED = block(FnafModModBlocks.RED_WHITE_TILE_STAIR_CRACKED,
+			FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> GREEN_BLUE_TILE = block(FnafModModBlocks.GREEN_BLUE_TILE, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> GREEN_BLUE_TILE_SLAB = block(FnafModModBlocks.GREEN_BLUE_TILE_SLAB, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> GREEN_BLUE_TILE_STAIR = block(FnafModModBlocks.GREEN_BLUE_TILE_STAIR, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> GREEN_BLUE_TILE_CRACKED = block(FnafModModBlocks.GREEN_BLUE_TILE_CRACKED,
+			FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> GREEN_BLUE_TILE_SLAB_CRACKED = block(FnafModModBlocks.GREEN_BLUE_TILE_SLAB_CRACKED,
+			FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> GREEN_BLUE_TILE_STAIR_CRACKED = block(FnafModModBlocks.GREEN_BLUE_TILE_STAIR_CRACKED,
+			FnafModModTabs.TAB_FNAF_BLOCKS);
 	public static final RegistryObject<Item> FREDBEAR_FLOOR = block(FnafModModBlocks.FREDBEAR_FLOOR, FnafModModTabs.TAB_FNAF_BLOCKS);
 	public static final RegistryObject<Item> STAGE_BRICKS = block(FnafModModBlocks.STAGE_BRICKS, FnafModModTabs.TAB_FNAF_BLOCKS);
 	public static final RegistryObject<Item> STAGE_BRICK_TILES = block(FnafModModBlocks.STAGE_BRICK_TILES, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> PURPLE_STAGE_BRICK_TILES = block(FnafModModBlocks.PURPLE_STAGE_BRICK_TILES,
+			FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> ALTERNATE_PURPLE_STAGE_BRICK_TILES = block(FnafModModBlocks.ALTERNATE_PURPLE_STAGE_BRICK_TILES,
+			FnafModModTabs.TAB_FNAF_BLOCKS);
 	public static final RegistryObject<Item> WALL_TILE = block(FnafModModBlocks.WALL_TILE, FnafModModTabs.TAB_FNAF_BLOCKS);
 	public static final RegistryObject<Item> ALTERNATE_WALL_TILE = block(FnafModModBlocks.ALTERNATE_WALL_TILE, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> BLACK_PURPLE_WALL_TILE = block(FnafModModBlocks.BLACK_PURPLE_WALL_TILE, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> ALTERNATE_BLACK_PURPLE_WALL_TILE = block(FnafModModBlocks.ALTERNATE_BLACK_PURPLE_WALL_TILE,
+			FnafModModTabs.TAB_FNAF_BLOCKS);
 	public static final RegistryObject<Item> WHITE_RED_WALL_TILE = block(FnafModModBlocks.WHITE_RED_WALL_TILE, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> ALTERNATE_WHITE_RED_WALL_TILE = block(FnafModModBlocks.ALTERNATE_WHITE_RED_WALL_TILE,
+			FnafModModTabs.TAB_FNAF_BLOCKS);
 	public static final RegistryObject<Item> WHITE_BLACK_WALL_TILE = block(FnafModModBlocks.WHITE_BLACK_WALL_TILE, FnafModModTabs.TAB_FNAF_BLOCKS);
 	public static final RegistryObject<Item> WHITE_PURPLE_WALL_TILE = block(FnafModModBlocks.WHITE_PURPLE_WALL_TILE, FnafModModTabs.TAB_FNAF_BLOCKS);
-	public static final RegistryObject<Item> ALTERNATE_WHITE_RED_WALL_TILE = block(FnafModModBlocks.ALTERNATE_WHITE_RED_WALL_TILE,
+	public static final RegistryObject<Item> ALTERNATE_WHITE_PURPLE_WALL_TILES = block(FnafModModBlocks.ALTERNATE_WHITE_PURPLE_WALL_TILES,
 			FnafModModTabs.TAB_FNAF_BLOCKS);
 	public static final RegistryObject<Item> CHECKERED_TILE = block(FnafModModBlocks.CHECKERED_TILE, FnafModModTabs.TAB_FNAF_BLOCKS);
 	public static final RegistryObject<Item> CHECKERED_WALL = block(FnafModModBlocks.CHECKERED_WALL, FnafModModTabs.TAB_FNAF_BLOCKS);
@@ -127,6 +153,40 @@ public class FnafModModItems {
 	public static final RegistryObject<Item> CHECKERED_WHITE_WALL_TILE = block(FnafModModBlocks.CHECKERED_WHITE_WALL_TILE,
 			FnafModModTabs.TAB_FNAF_BLOCKS);
 	public static final RegistryObject<Item> BLACK_WALL = block(FnafModModBlocks.BLACK_WALL, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> BIG_STAGE_BRICK_TILES = block(FnafModModBlocks.BIG_STAGE_BRICK_TILES, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> ALTERNATE_BIG_STAGE_BRICK_TILES = block(FnafModModBlocks.ALTERNATE_BIG_STAGE_BRICK_TILES,
+			FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> BIG_PURPLE_STAGE_BRICK_TILES = block(FnafModModBlocks.BIG_PURPLE_STAGE_BRICK_TILES,
+			FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> ALTERNATE_BIG_PURPLE_STAGE_BRICK_TILES = block(FnafModModBlocks.ALTERNATE_BIG_PURPLE_STAGE_BRICK_TILES,
+			FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> BIG_WALL_TILE = block(FnafModModBlocks.BIG_WALL_TILE, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> ALTERNATE_BIG_WALL_TILE = block(FnafModModBlocks.ALTERNATE_BIG_WALL_TILE,
+			FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> BIG_BLACK_PURPLE_WALL_TILE = block(FnafModModBlocks.BIG_BLACK_PURPLE_WALL_TILE,
+			FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> ALTERNATE_BIG_BLACK_PURPLE_WALL_TILE = block(FnafModModBlocks.ALTERNATE_BIG_BLACK_PURPLE_WALL_TILE,
+			FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> BIG_WHITE_RED_WALL_TILE = block(FnafModModBlocks.BIG_WHITE_RED_WALL_TILE,
+			FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> ALTERNATE_BIG_WHITE_RED_WALL_TILE = block(FnafModModBlocks.ALTERNATE_BIG_WHITE_RED_WALL_TILE,
+			FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> BIG_WHITE_BLACK_WALL_TILE = block(FnafModModBlocks.BIG_WHITE_BLACK_WALL_TILE,
+			FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> ALTERNATE_BIG_WHITE_BLACK_WALL_TILE = block(FnafModModBlocks.ALTERNATE_BIG_WHITE_BLACK_WALL_TILE,
+			FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> BIG_WHITE_PURPLE_TILE = block(FnafModModBlocks.BIG_WHITE_PURPLE_TILE, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> ALTERNATE_BIG_WHITE_PURPLE_TILE = block(FnafModModBlocks.ALTERNATE_BIG_WHITE_PURPLE_TILE,
+			FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> BIG_CHECKERED_TILES = block(FnafModModBlocks.BIG_CHECKERED_TILES, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> BIG_CHECKERED_WALL = block(FnafModModBlocks.BIG_CHECKERED_WALL, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> BIG_CHECKERED_WALL_TILE = block(FnafModModBlocks.BIG_CHECKERED_WALL_TILE,
+			FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> BIG_CHECKERED_WHITE_WALL_TILE = block(FnafModModBlocks.BIG_CHECKERED_WHITE_WALL_TILE,
+			FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> BIG_RANCID_WALL_TILES = block(FnafModModBlocks.BIG_RANCID_WALL_TILES, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> ALTERNATE_BIG_RANCID_WALL_TILES = block(FnafModModBlocks.ALTERNATE_BIG_RANCID_WALL_TILES,
+			FnafModModTabs.TAB_FNAF_BLOCKS);
 	public static final RegistryObject<Item> WHITE_WALL = block(FnafModModBlocks.WHITE_WALL, FnafModModTabs.TAB_FNAF_BLOCKS);
 	public static final RegistryObject<Item> TOP_NORMAL = block(FnafModModBlocks.TOP_NORMAL, FnafModModTabs.TAB_FNAF_BLOCKS);
 	public static final RegistryObject<Item> FNAF_3_WALL_TILE = block(FnafModModBlocks.FNAF_3_WALL_TILE, FnafModModTabs.TAB_FNAF_BLOCKS);
@@ -393,6 +453,15 @@ public class FnafModModItems {
 	public static final RegistryObject<Item> UNWITHERED_FOXY_STATUE = REGISTRY.register("unwithered_foxy_statue_spawn_egg",
 			() -> new ForgeSpawnEggItem(FnafModModEntities.UNWITHERED_FOXY_STATUE, -9499893, -12902649,
 					new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
+	public static final RegistryObject<Item> NIGHTMARE_FREDDY_STATUE = REGISTRY.register("nightmare_freddy_statue_spawn_egg",
+			() -> new ForgeSpawnEggItem(FnafModModEntities.NIGHTMARE_FREDDY_STATUE, -13032690, -16777216,
+					new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
+	public static final RegistryObject<Item> NIGHTMARE_BONNIE_STATUE = REGISTRY.register("nightmare_bonnie_statue_spawn_egg",
+			() -> new ForgeSpawnEggItem(FnafModModEntities.NIGHTMARE_BONNIE_STATUE, -14282920, -10919532,
+					new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
+	public static final RegistryObject<Item> NIGHTMARE_CHICA_STATUE = REGISTRY.register("nightmare_chica_statue_spawn_egg",
+			() -> new ForgeSpawnEggItem(FnafModModEntities.NIGHTMARE_CHICA_STATUE, -5269983, -5882725,
+					new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
 	public static final RegistryObject<Item> STRUCTURE_SPAWNING_BLOCK = block(FnafModModBlocks.STRUCTURE_SPAWNING_BLOCK,
 			FnafModModTabs.TAB_STRUCTURE_SPAWNERS);
 	public static final RegistryObject<Item> STRUCTURE_SPAWNING_BLOCK_2 = block(FnafModModBlocks.STRUCTURE_SPAWNING_BLOCK_2,
@@ -592,15 +661,6 @@ public class FnafModModItems {
 			() -> new ForgeSpawnEggItem(FnafModModEntities.GLITCH_BONNIE_STATUE, -4810998, -12582330, new Item.Properties().tab(null)));
 	public static final RegistryObject<Item> GLITCH_BONNIE_CUT_OUT = REGISTRY.register("glitch_bonnie_cut_out_spawn_egg",
 			() -> new ForgeSpawnEggItem(FnafModModEntities.GLITCH_BONNIE_CUT_OUT, -4810998, -12582330, new Item.Properties().tab(null)));
-	public static final RegistryObject<Item> ALTERNATE_WHITE_PURPLE_WALL_TILES = block(FnafModModBlocks.ALTERNATE_WHITE_PURPLE_WALL_TILES,
-			FnafModModTabs.TAB_FNAF_BLOCKS);
-	public static final RegistryObject<Item> BLACK_PURPLE_WALL_TILE = block(FnafModModBlocks.BLACK_PURPLE_WALL_TILE, FnafModModTabs.TAB_FNAF_BLOCKS);
-	public static final RegistryObject<Item> ALTERNATE_BLACK_PURPLE_WALL_TILE = block(FnafModModBlocks.ALTERNATE_BLACK_PURPLE_WALL_TILE,
-			FnafModModTabs.TAB_FNAF_BLOCKS);
-	public static final RegistryObject<Item> PURPLE_STAGE_BRICK_TILES = block(FnafModModBlocks.PURPLE_STAGE_BRICK_TILES,
-			FnafModModTabs.TAB_FNAF_BLOCKS);
-	public static final RegistryObject<Item> ALTERNATE_PURPLE_STAGE_BRICK_TILES = block(FnafModModBlocks.ALTERNATE_PURPLE_STAGE_BRICK_TILES,
-			FnafModModTabs.TAB_FNAF_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

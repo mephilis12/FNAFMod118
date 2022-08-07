@@ -65,6 +65,12 @@ import net.mcreator.fnafmod.block.ShackRandomizerBlock;
 import net.mcreator.fnafmod.block.SecurityDoorOpenBlock;
 import net.mcreator.fnafmod.block.RemantInfuserBlock;
 import net.mcreator.fnafmod.block.RedWoodDoorBlock;
+import net.mcreator.fnafmod.block.RedWhiteTileStairCrackedBlock;
+import net.mcreator.fnafmod.block.RedWhiteTileStairBlock;
+import net.mcreator.fnafmod.block.RedWhiteTileSlabCrackedBlock;
+import net.mcreator.fnafmod.block.RedWhiteTileSlabBlock;
+import net.mcreator.fnafmod.block.RedWhiteTileCrackedBlock;
+import net.mcreator.fnafmod.block.RedWhiteTileBlock;
 import net.mcreator.fnafmod.block.RedBlueTileStairsCrackedBlock;
 import net.mcreator.fnafmod.block.RedBlueTileStairBlock;
 import net.mcreator.fnafmod.block.RedBlueTileSlabCrackedBlock;
@@ -108,6 +114,12 @@ import net.mcreator.fnafmod.block.LocketBottomBlock;
 import net.mcreator.fnafmod.block.LockerTopBlock;
 import net.mcreator.fnafmod.block.LightButtonOnBlock;
 import net.mcreator.fnafmod.block.LightButtonOffBlock;
+import net.mcreator.fnafmod.block.GreenBlueTileStairCrackedBlock;
+import net.mcreator.fnafmod.block.GreenBlueTileStairBlock;
+import net.mcreator.fnafmod.block.GreenBlueTileSlabCrackedBlock;
+import net.mcreator.fnafmod.block.GreenBlueTileSlabBlock;
+import net.mcreator.fnafmod.block.GreenBlueTileCrackedBlock;
+import net.mcreator.fnafmod.block.GreenBlueTileBlock;
 import net.mcreator.fnafmod.block.GoldenFreddyPlushieBlock;
 import net.mcreator.fnafmod.block.FreddyPlushieBlock;
 import net.mcreator.fnafmod.block.FreddyHeadBlock;
@@ -201,6 +213,18 @@ import net.mcreator.fnafmod.block.BlackWhiteTileCrackedBlock;
 import net.mcreator.fnafmod.block.BlackWhiteTileBlock;
 import net.mcreator.fnafmod.block.BlackWallBlock;
 import net.mcreator.fnafmod.block.BlackPurpleWallTileBlock;
+import net.mcreator.fnafmod.block.BigWhiteRedWallTileBlock;
+import net.mcreator.fnafmod.block.BigWhitePurpleTileBlock;
+import net.mcreator.fnafmod.block.BigWhiteBlackWallTileBlock;
+import net.mcreator.fnafmod.block.BigWallTileBlock;
+import net.mcreator.fnafmod.block.BigStageBrickTilesBlock;
+import net.mcreator.fnafmod.block.BigRancidWallTilesBlock;
+import net.mcreator.fnafmod.block.BigPurpleStageBrickTilesBlock;
+import net.mcreator.fnafmod.block.BigCheckeredWhiteWallTileBlock;
+import net.mcreator.fnafmod.block.BigCheckeredWallTileBlock;
+import net.mcreator.fnafmod.block.BigCheckeredWallBlock;
+import net.mcreator.fnafmod.block.BigCheckeredTilesBlock;
+import net.mcreator.fnafmod.block.BigBlackPurpleWallTileBlock;
 import net.mcreator.fnafmod.block.BalloonsBlock;
 import net.mcreator.fnafmod.block.BalloonYellowBlock;
 import net.mcreator.fnafmod.block.BalloonGreenBlock;
@@ -215,6 +239,14 @@ import net.mcreator.fnafmod.block.AlternateWhitePurpleWallTilesBlock;
 import net.mcreator.fnafmod.block.AlternateWallTileBlock;
 import net.mcreator.fnafmod.block.AlternatePurpleStageBrickTilesBlock;
 import net.mcreator.fnafmod.block.AlternateBlackPurpleWallTileBlock;
+import net.mcreator.fnafmod.block.AlternateBigWhiteRedWallTileBlock;
+import net.mcreator.fnafmod.block.AlternateBigWhitePurpleTileBlock;
+import net.mcreator.fnafmod.block.AlternateBigWhiteBlackWallTileBlock;
+import net.mcreator.fnafmod.block.AlternateBigWallTileBlock;
+import net.mcreator.fnafmod.block.AlternateBigStageBrickTilesBlock;
+import net.mcreator.fnafmod.block.AlternateBigRancidWallTilesBlock;
+import net.mcreator.fnafmod.block.AlternateBigPurpleStageBrickTilesBlock;
+import net.mcreator.fnafmod.block.AlternateBigBlackPurpleWallTileBlock;
 import net.mcreator.fnafmod.FnafModMod;
 
 public class FnafModModBlocks {
@@ -255,23 +287,85 @@ public class FnafModModBlocks {
 			() -> new BlueBlackTileSlabCrackedBlock());
 	public static final RegistryObject<Block> BLUE_BLACK_TILE_STAIRS_CRACKED = REGISTRY.register("blue_black_tile_stairs_cracked",
 			() -> new BlueBlackTileStairsCrackedBlock());
+	public static final RegistryObject<Block> RED_WHITE_TILE = REGISTRY.register("red_white_tile", () -> new RedWhiteTileBlock());
+	public static final RegistryObject<Block> RED_WHITE_TILE_SLAB = REGISTRY.register("red_white_tile_slab", () -> new RedWhiteTileSlabBlock());
+	public static final RegistryObject<Block> RED_WHITE_TILE_STAIR = REGISTRY.register("red_white_tile_stair", () -> new RedWhiteTileStairBlock());
+	public static final RegistryObject<Block> RED_WHITE_TILE_CRACKED = REGISTRY.register("red_white_tile_cracked",
+			() -> new RedWhiteTileCrackedBlock());
+	public static final RegistryObject<Block> RED_WHITE_TILE_SLAB_CRACKED = REGISTRY.register("red_white_tile_slab_cracked",
+			() -> new RedWhiteTileSlabCrackedBlock());
+	public static final RegistryObject<Block> RED_WHITE_TILE_STAIR_CRACKED = REGISTRY.register("red_white_tile_stair_cracked",
+			() -> new RedWhiteTileStairCrackedBlock());
+	public static final RegistryObject<Block> GREEN_BLUE_TILE = REGISTRY.register("green_blue_tile", () -> new GreenBlueTileBlock());
+	public static final RegistryObject<Block> GREEN_BLUE_TILE_SLAB = REGISTRY.register("green_blue_tile_slab", () -> new GreenBlueTileSlabBlock());
+	public static final RegistryObject<Block> GREEN_BLUE_TILE_STAIR = REGISTRY.register("green_blue_tile_stair", () -> new GreenBlueTileStairBlock());
+	public static final RegistryObject<Block> GREEN_BLUE_TILE_CRACKED = REGISTRY.register("green_blue_tile_cracked",
+			() -> new GreenBlueTileCrackedBlock());
+	public static final RegistryObject<Block> GREEN_BLUE_TILE_SLAB_CRACKED = REGISTRY.register("green_blue_tile_slab_cracked",
+			() -> new GreenBlueTileSlabCrackedBlock());
+	public static final RegistryObject<Block> GREEN_BLUE_TILE_STAIR_CRACKED = REGISTRY.register("green_blue_tile_stair_cracked",
+			() -> new GreenBlueTileStairCrackedBlock());
 	public static final RegistryObject<Block> FREDBEAR_FLOOR = REGISTRY.register("fredbear_floor", () -> new FredbearFloorBlock());
 	public static final RegistryObject<Block> STAGE_BRICKS = REGISTRY.register("stage_bricks", () -> new StageBricksBlock());
 	public static final RegistryObject<Block> STAGE_BRICK_TILES = REGISTRY.register("stage_brick_tiles", () -> new StageBrickTilesBlock());
+	public static final RegistryObject<Block> PURPLE_STAGE_BRICK_TILES = REGISTRY.register("purple_stage_brick_tiles",
+			() -> new PurpleStageBrickTilesBlock());
+	public static final RegistryObject<Block> ALTERNATE_PURPLE_STAGE_BRICK_TILES = REGISTRY.register("alternate_purple_stage_brick_tiles",
+			() -> new AlternatePurpleStageBrickTilesBlock());
 	public static final RegistryObject<Block> WALL_TILE = REGISTRY.register("wall_tile", () -> new WallTileBlock());
 	public static final RegistryObject<Block> ALTERNATE_WALL_TILE = REGISTRY.register("alternate_wall_tile", () -> new AlternateWallTileBlock());
+	public static final RegistryObject<Block> BLACK_PURPLE_WALL_TILE = REGISTRY.register("black_purple_wall_tile",
+			() -> new BlackPurpleWallTileBlock());
+	public static final RegistryObject<Block> ALTERNATE_BLACK_PURPLE_WALL_TILE = REGISTRY.register("alternate_black_purple_wall_tile",
+			() -> new AlternateBlackPurpleWallTileBlock());
 	public static final RegistryObject<Block> WHITE_RED_WALL_TILE = REGISTRY.register("white_red_wall_tile", () -> new WhiteRedWallTileBlock());
+	public static final RegistryObject<Block> ALTERNATE_WHITE_RED_WALL_TILE = REGISTRY.register("alternate_white_red_wall_tile",
+			() -> new AlternateWhiteRedWallTileBlock());
 	public static final RegistryObject<Block> WHITE_BLACK_WALL_TILE = REGISTRY.register("white_black_wall_tile", () -> new WhiteBlackWallTileBlock());
 	public static final RegistryObject<Block> WHITE_PURPLE_WALL_TILE = REGISTRY.register("white_purple_wall_tile",
 			() -> new WhitePurpleWallTileBlock());
-	public static final RegistryObject<Block> ALTERNATE_WHITE_RED_WALL_TILE = REGISTRY.register("alternate_white_red_wall_tile",
-			() -> new AlternateWhiteRedWallTileBlock());
+	public static final RegistryObject<Block> ALTERNATE_WHITE_PURPLE_WALL_TILES = REGISTRY.register("alternate_white_purple_wall_tiles",
+			() -> new AlternateWhitePurpleWallTilesBlock());
 	public static final RegistryObject<Block> CHECKERED_TILE = REGISTRY.register("checkered_tile", () -> new CheckeredTileBlock());
 	public static final RegistryObject<Block> CHECKERED_WALL = REGISTRY.register("checkered_wall", () -> new CheckeredWallBlock());
 	public static final RegistryObject<Block> CHECKERED_WALL_TILE = REGISTRY.register("checkered_wall_tile", () -> new CheckeredWallTileBlock());
 	public static final RegistryObject<Block> CHECKERED_WHITE_WALL_TILE = REGISTRY.register("checkered_white_wall_tile",
 			() -> new CheckeredWhiteWallTileBlock());
 	public static final RegistryObject<Block> BLACK_WALL = REGISTRY.register("black_wall", () -> new BlackWallBlock());
+	public static final RegistryObject<Block> BIG_STAGE_BRICK_TILES = REGISTRY.register("big_stage_brick_tiles", () -> new BigStageBrickTilesBlock());
+	public static final RegistryObject<Block> ALTERNATE_BIG_STAGE_BRICK_TILES = REGISTRY.register("alternate_big_stage_brick_tiles",
+			() -> new AlternateBigStageBrickTilesBlock());
+	public static final RegistryObject<Block> BIG_PURPLE_STAGE_BRICK_TILES = REGISTRY.register("big_purple_stage_brick_tiles",
+			() -> new BigPurpleStageBrickTilesBlock());
+	public static final RegistryObject<Block> ALTERNATE_BIG_PURPLE_STAGE_BRICK_TILES = REGISTRY.register("alternate_big_purple_stage_brick_tiles",
+			() -> new AlternateBigPurpleStageBrickTilesBlock());
+	public static final RegistryObject<Block> BIG_WALL_TILE = REGISTRY.register("big_wall_tile", () -> new BigWallTileBlock());
+	public static final RegistryObject<Block> ALTERNATE_BIG_WALL_TILE = REGISTRY.register("alternate_big_wall_tile",
+			() -> new AlternateBigWallTileBlock());
+	public static final RegistryObject<Block> BIG_BLACK_PURPLE_WALL_TILE = REGISTRY.register("big_black_purple_wall_tile",
+			() -> new BigBlackPurpleWallTileBlock());
+	public static final RegistryObject<Block> ALTERNATE_BIG_BLACK_PURPLE_WALL_TILE = REGISTRY.register("alternate_big_black_purple_wall_tile",
+			() -> new AlternateBigBlackPurpleWallTileBlock());
+	public static final RegistryObject<Block> BIG_WHITE_RED_WALL_TILE = REGISTRY.register("big_white_red_wall_tile",
+			() -> new BigWhiteRedWallTileBlock());
+	public static final RegistryObject<Block> ALTERNATE_BIG_WHITE_RED_WALL_TILE = REGISTRY.register("alternate_big_white_red_wall_tile",
+			() -> new AlternateBigWhiteRedWallTileBlock());
+	public static final RegistryObject<Block> BIG_WHITE_BLACK_WALL_TILE = REGISTRY.register("big_white_black_wall_tile",
+			() -> new BigWhiteBlackWallTileBlock());
+	public static final RegistryObject<Block> ALTERNATE_BIG_WHITE_BLACK_WALL_TILE = REGISTRY.register("alternate_big_white_black_wall_tile",
+			() -> new AlternateBigWhiteBlackWallTileBlock());
+	public static final RegistryObject<Block> BIG_WHITE_PURPLE_TILE = REGISTRY.register("big_white_purple_tile", () -> new BigWhitePurpleTileBlock());
+	public static final RegistryObject<Block> ALTERNATE_BIG_WHITE_PURPLE_TILE = REGISTRY.register("alternate_big_white_purple_tile",
+			() -> new AlternateBigWhitePurpleTileBlock());
+	public static final RegistryObject<Block> BIG_CHECKERED_TILES = REGISTRY.register("big_checkered_tiles", () -> new BigCheckeredTilesBlock());
+	public static final RegistryObject<Block> BIG_CHECKERED_WALL = REGISTRY.register("big_checkered_wall", () -> new BigCheckeredWallBlock());
+	public static final RegistryObject<Block> BIG_CHECKERED_WALL_TILE = REGISTRY.register("big_checkered_wall_tile",
+			() -> new BigCheckeredWallTileBlock());
+	public static final RegistryObject<Block> BIG_CHECKERED_WHITE_WALL_TILE = REGISTRY.register("big_checkered_white_wall_tile",
+			() -> new BigCheckeredWhiteWallTileBlock());
+	public static final RegistryObject<Block> BIG_RANCID_WALL_TILES = REGISTRY.register("big_rancid_wall_tiles", () -> new BigRancidWallTilesBlock());
+	public static final RegistryObject<Block> ALTERNATE_BIG_RANCID_WALL_TILES = REGISTRY.register("alternate_big_rancid_wall_tiles",
+			() -> new AlternateBigRancidWallTilesBlock());
 	public static final RegistryObject<Block> WHITE_WALL = REGISTRY.register("white_wall", () -> new WhiteWallBlock());
 	public static final RegistryObject<Block> TOP_NORMAL = REGISTRY.register("top_normal", () -> new TopNormalBlock());
 	public static final RegistryObject<Block> FNAF_3_WALL_TILE = REGISTRY.register("fnaf_3_wall_tile", () -> new FNAF3WallTileBlock());
@@ -465,16 +559,6 @@ public class FnafModModBlocks {
 			() -> new ToyFoxySpawnBlockIdleBlock());
 	public static final RegistryObject<Block> TOY_FREDDY_SPAWN_BLOCK_IDLE = REGISTRY.register("toy_freddy_spawn_block_idle",
 			() -> new ToyFreddySpawnBlockIdleBlock());
-	public static final RegistryObject<Block> ALTERNATE_WHITE_PURPLE_WALL_TILES = REGISTRY.register("alternate_white_purple_wall_tiles",
-			() -> new AlternateWhitePurpleWallTilesBlock());
-	public static final RegistryObject<Block> BLACK_PURPLE_WALL_TILE = REGISTRY.register("black_purple_wall_tile",
-			() -> new BlackPurpleWallTileBlock());
-	public static final RegistryObject<Block> ALTERNATE_BLACK_PURPLE_WALL_TILE = REGISTRY.register("alternate_black_purple_wall_tile",
-			() -> new AlternateBlackPurpleWallTileBlock());
-	public static final RegistryObject<Block> PURPLE_STAGE_BRICK_TILES = REGISTRY.register("purple_stage_brick_tiles",
-			() -> new PurpleStageBrickTilesBlock());
-	public static final RegistryObject<Block> ALTERNATE_PURPLE_STAGE_BRICK_TILES = REGISTRY.register("alternate_purple_stage_brick_tiles",
-			() -> new AlternatePurpleStageBrickTilesBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
