@@ -140,6 +140,14 @@ public class FnafModModEntityRenderers {
 		event.registerEntityRenderer(FnafModModEntities.PHANTOM_PUPPET.get(), PhantomPuppetRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.PHANTOM_MANGLE.get(), PhantomMangleRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.PHANTOM_FOXY.get(), PhantomFoxyRenderer::new);
+		event.registerEntityRenderer(FnafModModEntities.SPRING_BONNIE_STATUE.get(), SpringBonnieStatueRenderer::new);
+		event.registerEntityRenderer(FnafModModEntities.FREDBEAR_STATUE.get(), FredbearStatueRenderer::new);
+		event.registerEntityRenderer(FnafModModEntities.FREDBEAR_CUT_OUT.get(), FredbearCutOutRenderer::new);
+		event.registerEntityRenderer(FnafModModEntities.SPRING_BONNIE_CUT_OUT.get(), SpringBonnieCutOutRenderer::new);
+		event.registerEntityRenderer(FnafModModEntities.UNWITHERED_FREDDY_STATUE.get(), UnwitheredFreddyStatueRenderer::new);
+		event.registerEntityRenderer(FnafModModEntities.UNWITHERED_BONNIE_STATUE.get(), UnwitheredBonnieStatueRenderer::new);
+		event.registerEntityRenderer(FnafModModEntities.UNWITHERED_CHICA_STATUE.get(), UnwitheredChicaStatueRenderer::new);
+		event.registerEntityRenderer(FnafModModEntities.UNWITHERED_FOXY_STATUE.get(), UnwitheredFoxyStatueRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.THE_GROOBLER.get(), TheCrooblerRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.FREDDY_FAZBEAR.get(), FreddyFazbearRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.BONNIE_BUNNY.get(), BonnieBunnyRenderer::new);
@@ -186,15 +194,7 @@ public class FnafModModEntityRenderers {
 		event.registerEntityRenderer(FnafModModEntities.CRAWLING_TOY_FOXY.get(), CrawlingToyFoxyRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.CRAWLING_TOY_CHICA.get(), CrawlingToyChicaRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.CRAWLING_SPRINGTRAP.get(), CrawlingSpringtrapRenderer::new);
-		event.registerEntityRenderer(FnafModModEntities.SPRING_BONNIE_STATUE.get(), SpringBonnieStatueRenderer::new);
-		event.registerEntityRenderer(FnafModModEntities.FREDBEAR_STATUE.get(), FredbearStatueRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.GLITCH_BONNIE_STATUE.get(), GlitchBonnieStatueRenderer::new);
-		event.registerEntityRenderer(FnafModModEntities.FREDBEAR_CUT_OUT.get(), FredbearCutOutRenderer::new);
-		event.registerEntityRenderer(FnafModModEntities.SPRING_BONNIE_CUT_OUT.get(), SpringBonnieCutOutRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.GLITCH_BONNIE_CUT_OUT.get(), GlitchBonnieCutOutRenderer::new);
-		event.registerEntityRenderer(FnafModModEntities.UNWITHERED_FREDDY_STATUE.get(), UnwitheredFreddyStatueRenderer::new);
-		event.registerEntityRenderer(FnafModModEntities.UNWITHERED_BONNIE_STATUE.get(), UnwitheredBonnieStatueRenderer::new);
-		event.registerEntityRenderer(FnafModModEntities.UNWITHERED_CHICA_STATUE.get(), UnwitheredChicaStatueRenderer::new);
-		event.registerEntityRenderer(FnafModModEntities.UNWITHERED_FOXY_STATUE.get(), UnwitheredFoxyStatueRenderer::new);
 	}
 }

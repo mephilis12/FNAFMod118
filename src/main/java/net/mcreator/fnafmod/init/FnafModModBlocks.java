@@ -17,6 +17,7 @@ import net.minecraft.world.level.block.Block;
 import net.mcreator.fnafmod.block.WiresBlock;
 import net.mcreator.fnafmod.block.WhiteWallBlock;
 import net.mcreator.fnafmod.block.WhiteRedWallTileBlock;
+import net.mcreator.fnafmod.block.WhitePurpleWallTileBlock;
 import net.mcreator.fnafmod.block.WhiteBlackWallTileBlock;
 import net.mcreator.fnafmod.block.WarningSignBlock;
 import net.mcreator.fnafmod.block.WallWiresBlock;
@@ -76,6 +77,7 @@ import net.mcreator.fnafmod.block.RedBlackTileSlabCrackedBlock;
 import net.mcreator.fnafmod.block.RedBlackTileSlabBlock;
 import net.mcreator.fnafmod.block.RedBlackTileCrackedBlock;
 import net.mcreator.fnafmod.block.RedBlackTileBlock;
+import net.mcreator.fnafmod.block.PurpleStageBrickTilesBlock;
 import net.mcreator.fnafmod.block.PurpleFanBlock;
 import net.mcreator.fnafmod.block.PurpleCurtainBlock;
 import net.mcreator.fnafmod.block.PuppetMaskBlock;
@@ -198,6 +200,7 @@ import net.mcreator.fnafmod.block.BlackWhiteTileSlabBlock;
 import net.mcreator.fnafmod.block.BlackWhiteTileCrackedBlock;
 import net.mcreator.fnafmod.block.BlackWhiteTileBlock;
 import net.mcreator.fnafmod.block.BlackWallBlock;
+import net.mcreator.fnafmod.block.BlackPurpleWallTileBlock;
 import net.mcreator.fnafmod.block.BalloonsBlock;
 import net.mcreator.fnafmod.block.BalloonYellowBlock;
 import net.mcreator.fnafmod.block.BalloonGreenBlock;
@@ -208,7 +211,10 @@ import net.mcreator.fnafmod.block.ArcadeMachineFoxyBlock;
 import net.mcreator.fnafmod.block.ArcadeMachineBonnieBlock;
 import net.mcreator.fnafmod.block.ArcadeMachineBBBlock;
 import net.mcreator.fnafmod.block.AlternateWhiteRedWallTileBlock;
+import net.mcreator.fnafmod.block.AlternateWhitePurpleWallTilesBlock;
 import net.mcreator.fnafmod.block.AlternateWallTileBlock;
+import net.mcreator.fnafmod.block.AlternatePurpleStageBrickTilesBlock;
+import net.mcreator.fnafmod.block.AlternateBlackPurpleWallTileBlock;
 import net.mcreator.fnafmod.FnafModMod;
 
 public class FnafModModBlocks {
@@ -256,6 +262,8 @@ public class FnafModModBlocks {
 	public static final RegistryObject<Block> ALTERNATE_WALL_TILE = REGISTRY.register("alternate_wall_tile", () -> new AlternateWallTileBlock());
 	public static final RegistryObject<Block> WHITE_RED_WALL_TILE = REGISTRY.register("white_red_wall_tile", () -> new WhiteRedWallTileBlock());
 	public static final RegistryObject<Block> WHITE_BLACK_WALL_TILE = REGISTRY.register("white_black_wall_tile", () -> new WhiteBlackWallTileBlock());
+	public static final RegistryObject<Block> WHITE_PURPLE_WALL_TILE = REGISTRY.register("white_purple_wall_tile",
+			() -> new WhitePurpleWallTileBlock());
 	public static final RegistryObject<Block> ALTERNATE_WHITE_RED_WALL_TILE = REGISTRY.register("alternate_white_red_wall_tile",
 			() -> new AlternateWhiteRedWallTileBlock());
 	public static final RegistryObject<Block> CHECKERED_TILE = REGISTRY.register("checkered_tile", () -> new CheckeredTileBlock());
@@ -291,6 +299,7 @@ public class FnafModModBlocks {
 	public static final RegistryObject<Block> THIN_CACTUS_CURTAIN = REGISTRY.register("thin_cactus_curtain", () -> new ThinCactusCurtainBlock());
 	public static final RegistryObject<Block> BACKSTAGE_DOOR = REGISTRY.register("backstage_door", () -> new BackstageDoorBlock());
 	public static final RegistryObject<Block> FNAF_4_DOOR = REGISTRY.register("fnaf_4_door", () -> new Fnaf4DoorBlock());
+	public static final RegistryObject<Block> RED_WOOD_DOOR = REGISTRY.register("red_wood_door", () -> new RedWoodDoorBlock());
 	public static final RegistryObject<Block> CLOSET_LEFT_BOTTOM = REGISTRY.register("closet_left_bottom", () -> new ClosetLeftBottomBlock());
 	public static final RegistryObject<Block> CLOSET_RIGHT_BOTTOM = REGISTRY.register("closet_right_bottom", () -> new ClosetRightBottomBlock());
 	public static final RegistryObject<Block> TABLE_CLOTH = REGISTRY.register("table_cloth", () -> new TableClothBlock());
@@ -355,6 +364,8 @@ public class FnafModModBlocks {
 	public static final RegistryObject<Block> TOY_FOXY_SPAWN_BLOCK = REGISTRY.register("toy_foxy_spawn_block", () -> new ToyFoxySpawnBlockBlock());
 	public static final RegistryObject<Block> TOY_FREDDY_SPAWN_BLOCK = REGISTRY.register("toy_freddy_spawn_block",
 			() -> new ToyFreddySpawnBlockBlock());
+	public static final RegistryObject<Block> CAMERA = REGISTRY.register("camera", () -> new CameraBlock());
+	public static final RegistryObject<Block> PHONE = REGISTRY.register("phone", () -> new PhoneBlock());
 	public static final RegistryObject<Block> STRUCTURE_SPAWNING_BLOCK = REGISTRY.register("structure_spawning_block",
 			() -> new StructureSpawningBlockBlock());
 	public static final RegistryObject<Block> STRUCTURE_SPAWNING_BLOCK_2 = REGISTRY.register("structure_spawning_block_2",
@@ -454,9 +465,16 @@ public class FnafModModBlocks {
 			() -> new ToyFoxySpawnBlockIdleBlock());
 	public static final RegistryObject<Block> TOY_FREDDY_SPAWN_BLOCK_IDLE = REGISTRY.register("toy_freddy_spawn_block_idle",
 			() -> new ToyFreddySpawnBlockIdleBlock());
-	public static final RegistryObject<Block> CAMERA = REGISTRY.register("camera", () -> new CameraBlock());
-	public static final RegistryObject<Block> PHONE = REGISTRY.register("phone", () -> new PhoneBlock());
-	public static final RegistryObject<Block> RED_WOOD_DOOR = REGISTRY.register("red_wood_door", () -> new RedWoodDoorBlock());
+	public static final RegistryObject<Block> ALTERNATE_WHITE_PURPLE_WALL_TILES = REGISTRY.register("alternate_white_purple_wall_tiles",
+			() -> new AlternateWhitePurpleWallTilesBlock());
+	public static final RegistryObject<Block> BLACK_PURPLE_WALL_TILE = REGISTRY.register("black_purple_wall_tile",
+			() -> new BlackPurpleWallTileBlock());
+	public static final RegistryObject<Block> ALTERNATE_BLACK_PURPLE_WALL_TILE = REGISTRY.register("alternate_black_purple_wall_tile",
+			() -> new AlternateBlackPurpleWallTileBlock());
+	public static final RegistryObject<Block> PURPLE_STAGE_BRICK_TILES = REGISTRY.register("purple_stage_brick_tiles",
+			() -> new PurpleStageBrickTilesBlock());
+	public static final RegistryObject<Block> ALTERNATE_PURPLE_STAGE_BRICK_TILES = REGISTRY.register("alternate_purple_stage_brick_tiles",
+			() -> new AlternatePurpleStageBrickTilesBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -465,6 +483,7 @@ public class FnafModModBlocks {
 			ThinCornCurtainBlock.registerRenderLayer();
 			BackstageDoorBlock.registerRenderLayer();
 			Fnaf4DoorBlock.registerRenderLayer();
+			RedWoodDoorBlock.registerRenderLayer();
 			ClosetLeftBottomBlock.registerRenderLayer();
 			ClosetRightBottomBlock.registerRenderLayer();
 			TableClothBlock.registerRenderLayer();
@@ -520,6 +539,8 @@ public class FnafModModBlocks {
 			ToyChicaSpawnBlockBlock.registerRenderLayer();
 			ToyFoxySpawnBlockBlock.registerRenderLayer();
 			ToyFreddySpawnBlockBlock.registerRenderLayer();
+			CameraBlock.registerRenderLayer();
+			PhoneBlock.registerRenderLayer();
 			ChildrenDrawingsBlock.registerRenderLayer();
 			ChildrenDrawings2Block.registerRenderLayer();
 			ChildrenDrawings3Block.registerRenderLayer();
@@ -568,9 +589,6 @@ public class FnafModModBlocks {
 			ToyChicaSpawnBlockIdleBlock.registerRenderLayer();
 			ToyFoxySpawnBlockIdleBlock.registerRenderLayer();
 			ToyFreddySpawnBlockIdleBlock.registerRenderLayer();
-			CameraBlock.registerRenderLayer();
-			PhoneBlock.registerRenderLayer();
-			RedWoodDoorBlock.registerRenderLayer();
 		}
 	}
 }

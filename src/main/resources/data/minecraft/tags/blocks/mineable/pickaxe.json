@@ -32,6 +32,7 @@
     "fnaf_mod:alternate_wall_tile",
     "fnaf_mod:white_red_wall_tile",
     "fnaf_mod:white_black_wall_tile",
+    "fnaf_mod:white_purple_wall_tile",
     "fnaf_mod:alternate_white_red_wall_tile",
     "fnaf_mod:black_wall",
     "fnaf_mod:white_wall",
@@ -74,6 +75,11 @@
     "fnaf_mod:orange_speaker_left",
     "fnaf_mod:orange_speake_right",
     "fnaf_mod:speaker_left",
-    "fnaf_mod:speaker_right"
+    "fnaf_mod:speaker_right",
+    "fnaf_mod:alternate_white_purple_wall_tiles",
+    "fnaf_mod:black_purple_wall_tile",
+    "fnaf_mod:alternate_black_purple_wall_tile",
+    "fnaf_mod:purple_stage_brick_tiles",
+    "fnaf_mod:alternate_purple_stage_brick_tiles"
   ]
 }

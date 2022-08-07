@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fnaf_mod:blocks/stage_bricks",
+    "up": "fnaf_mod:blocks/stage_bricks",
+    "north": "fnaf_mod:blocks/purple_stage_bricks_tile",
+    "east": "fnaf_mod:blocks/purple_stage_bricks_tile",
+    "south": "fnaf_mod:blocks/purple_stage_bricks_tile",
+    "west": "fnaf_mod:blocks/purple_stage_bricks_tile",
+    "particle": "fnaf_mod:blocks/purple_stage_bricks_tile"
+  }
+}
