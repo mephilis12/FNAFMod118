@@ -67,6 +67,9 @@ import net.mcreator.fnafmod.entity.PassiveFoxyEntity;
 import net.mcreator.fnafmod.entity.PassiveChicaEntity;
 import net.mcreator.fnafmod.entity.PassiveBonnieEntity;
 import net.mcreator.fnafmod.entity.OfficeChairEntity;
+import net.mcreator.fnafmod.entity.NightmareFreddyStatueEntity;
+import net.mcreator.fnafmod.entity.NightmareChicaStatueEntity;
+import net.mcreator.fnafmod.entity.NightmareBonnieStatueEntity;
 import net.mcreator.fnafmod.entity.NightimeToyChicaEntity;
 import net.mcreator.fnafmod.entity.MangleSittingEntity;
 import net.mcreator.fnafmod.entity.MangleEntity;
@@ -291,6 +294,24 @@ public class FnafModModEntities {
 	public static final RegistryObject<EntityType<FreddyFazbearEntity>> FREDDY_FAZBEAR = register("freddy_fazbear",
 			EntityType.Builder.<FreddyFazbearEntity>of(FreddyFazbearEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
 					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(FreddyFazbearEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<NightmareFreddyStatueEntity>> NIGHTMARE_FREDDY_STATUE = register("nightmare_freddy_statue",
+			EntityType.Builder.<NightmareFreddyStatueEntity>of(NightmareFreddyStatueEntity::new, MobCategory.MONSTER)
+					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(NightmareFreddyStatueEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<NightmareBonnieStatueEntity>> NIGHTMARE_BONNIE_STATUE = register("nightmare_bonnie_statue",
+			EntityType.Builder.<NightmareBonnieStatueEntity>of(NightmareBonnieStatueEntity::new, MobCategory.MONSTER)
+					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(NightmareBonnieStatueEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<NightmareChicaStatueEntity>> NIGHTMARE_CHICA_STATUE = register("nightmare_chica_statue",
+			EntityType.Builder.<NightmareChicaStatueEntity>of(NightmareChicaStatueEntity::new, MobCategory.MONSTER)
+					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(NightmareChicaStatueEntity::new)
 
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<BonnieBunnyEntity>> BONNIE_BUNNY = register("bonnie_bunny",
@@ -620,6 +641,9 @@ public class FnafModModEntities {
 			PhantomFoxyEntity.init();
 			TheCrooblerEntity.init();
 			FreddyFazbearEntity.init();
+			NightmareFreddyStatueEntity.init();
+			NightmareBonnieStatueEntity.init();
+			NightmareChicaStatueEntity.init();
 			BonnieBunnyEntity.init();
 			ChicaChickenEntity.init();
 			FoxyPirateEntity.init();
@@ -716,6 +740,9 @@ public class FnafModModEntities {
 		event.put(PHANTOM_FOXY.get(), PhantomFoxyEntity.createAttributes().build());
 		event.put(THE_GROOBLER.get(), TheCrooblerEntity.createAttributes().build());
 		event.put(FREDDY_FAZBEAR.get(), FreddyFazbearEntity.createAttributes().build());
+		event.put(NIGHTMARE_FREDDY_STATUE.get(), NightmareFreddyStatueEntity.createAttributes().build());
+		event.put(NIGHTMARE_BONNIE_STATUE.get(), NightmareBonnieStatueEntity.createAttributes().build());
+		event.put(NIGHTMARE_CHICA_STATUE.get(), NightmareChicaStatueEntity.createAttributes().build());
 		event.put(BONNIE_BUNNY.get(), BonnieBunnyEntity.createAttributes().build());
 		event.put(CHICA_CHICKEN.get(), ChicaChickenEntity.createAttributes().build());
 		event.put(FOXY_PIRATE.get(), FoxyPirateEntity.createAttributes().build());

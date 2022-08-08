@@ -1,0 +1,9 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "particle": "fnaf_mod:blocks/crack_blue_green_tile",
+    "bottom": "fnaf_mod:blocks/crack_blue_green_tile",
+    "top": "fnaf_mod:blocks/crack_blue_green_tile",
+    "side": "fnaf_mod:blocks/crack_blue_green_tile"
+  }
+}

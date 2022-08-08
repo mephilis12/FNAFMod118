@@ -14647,6 +14647,375 @@
       "locked_code": false,
       "registry_name": "unwithered_foxy_statue",
       "path": "~/Mobs/StatueAnimatronics"
+    },
+    {
+      "name": "BlackPurpleWallTile",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_purple_wall_tile",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AlternateBigStageBrickTiles",
+      "type": "block",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alternate_big_stage_brick_tiles",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BigRancidWallTiles",
+      "type": "block",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_rancid_wall_tiles",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BigWhitePurpleTile",
+      "type": "block",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_white_purple_tile",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "NightmareBonnieStatue",
+      "type": "livingentity",
+      "sortid": 256,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightmare_bonnie_statue",
+      "path": "~/Mobs/StatueAnimatronics"
+    },
+    {
+      "name": "AlternateBigWhitePurpleTile",
+      "type": "block",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alternate_big_white_purple_tile",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "RedWhiteTileSlabCracked",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_white_tile_slab_cracked",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BigStageBrickTiles",
+      "type": "block",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_stage_brick_tiles",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AlternateBlackPurpleWallTile",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alternate_black_purple_wall_tile",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "GreenBlueTileStair",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_blue_tile_stair",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BigBlackPurpleWallTile",
+      "type": "block",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_black_purple_wall_tile",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BigCheckeredWall",
+      "type": "block",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_checkered_wall",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "GreenBlueTileStairCracked",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_blue_tile_stair_cracked",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AlternateBigRancidWallTiles",
+      "type": "block",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alternate_big_rancid_wall_tiles",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BigWallTile",
+      "type": "block",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_wall_tile",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AlternateBigBlackPurpleWallTile",
+      "type": "block",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alternate_big_black_purple_wall_tile",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "GreenBlueTileSlab",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_blue_tile_slab",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "WhitePurpleWallTile",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_purple_wall_tile",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AlternateWhitePurpleWallTiles",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alternate_white_purple_wall_tiles",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "RedWhiteTile",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_white_tile",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BigCheckeredWallTile",
+      "type": "block",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_checkered_wall_tile",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "GreenBlueTileCracked",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_blue_tile_cracked",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AlternateBigWallTile",
+      "type": "block",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alternate_big_wall_tile",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BigCheckeredTiles",
+      "type": "block",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_checkered_tiles",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "RedWhiteTileSlab",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_white_tile_slab",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AlternateBigPurpleStageBrickTiles",
+      "type": "block",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alternate_big_purple_stage_brick_tiles",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "RedWhiteTileStairCracked",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_white_tile_stair_cracked",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AlternateBigWhiteBlackWallTile",
+      "type": "block",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alternate_big_white_black_wall_tile",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "GreenBlueTileSlabCracked",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_blue_tile_slab_cracked",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "RedWhiteTileStair",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_white_tile_stair",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BigCheckeredWhiteWallTile",
+      "type": "block",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_checkered_white_wall_tile",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "NightmareChicaStatue",
+      "type": "livingentity",
+      "sortid": 257,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightmare_chica_statue",
+      "path": "~/Mobs/StatueAnimatronics"
+    },
+    {
+      "name": "BigPurpleStageBrickTiles",
+      "type": "block",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_purple_stage_brick_tiles",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BigWhiteBlackWallTile",
+      "type": "block",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_white_black_wall_tile",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "NightmareFreddyStatue",
+      "type": "livingentity",
+      "sortid": 255,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightmare_freddy_statue",
+      "path": "~/Mobs/StatueAnimatronics"
+    },
+    {
+      "name": "GreenBlueTile",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_blue_tile",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AlternateBigWhiteRedWallTile",
+      "type": "block",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alternate_big_white_red_wall_tile",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "PurpleStageBrickTiles",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_stage_brick_tiles",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AlternatePurpleStageBrickTiles",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alternate_purple_stage_brick_tiles",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BigWhiteRedWallTile",
+      "type": "block",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_white_red_wall_tile",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "RedWhiteTileCracked",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_white_tile_cracked",
+      "path": "~/Blocks"
     }
   ],
   "variable_elements": [
@@ -15526,7 +15895,15 @@
         "children": []
       },
       {
-        "name": "Items",
+        "name": "LootTables",
+        "children": []
+      },
+      {
+        "name": "GUIs and Extras",
+        "children": []
+      },
+      {
+        "name": "Jumpscares",
         "children": []
       },
       {
@@ -15534,40 +15911,19 @@
         "children": []
       },
       {
-        "name": "Mobs",
-        "children": [
-          {
-            "name": "StatueAnimatronics",
-            "children": []
-          },
-          {
-            "name": "NighttimeAnimatronics",
-            "children": []
-          },
-          {
-            "name": "DaytimeAnimatronics",
-            "children": []
-          },
-          {
-            "name": "FriendlyAnimatronics",
-            "children": []
-          },
-          {
-            "name": "FullHostileAnimatronics",
-            "children": []
-          },
-          {
-            "name": "Phantoms",
-            "children": []
-          },
-          {
-            "name": "VentCrawler",
-            "children": []
-          }
-        ]
+        "name": "Structure Spawners",
+        "children": []
+      },
+      {
+        "name": "Items",
+        "children": []
       },
       {
         "name": "Overlays",
+        "children": []
+      },
+      {
+        "name": "Spawning Blocks",
         "children": []
       },
       {
@@ -15579,31 +15935,44 @@
         "children": []
       },
       {
-        "name": "LootTables",
-        "children": []
-      },
-      {
-        "name": "GUIs and Extras",
-        "children": []
-      },
-      {
         "name": "Posters",
         "children": []
       },
       {
+        "name": "Mobs",
+        "children": [
+          {
+            "name": "Phantoms",
+            "children": []
+          },
+          {
+            "name": "VentCrawler",
+            "children": []
+          },
+          {
+            "name": "FriendlyAnimatronics",
+            "children": []
+          },
+          {
+            "name": "FullHostileAnimatronics",
+            "children": []
+          },
+          {
+            "name": "StatueAnimatronics",
+            "children": []
+          },
+          {
+            "name": "NighttimeAnimatronics",
+            "children": []
+          },
+          {
+            "name": "DaytimeAnimatronics",
+            "children": []
+          }
+        ]
+      },
+      {
         "name": "Discs",
-        "children": []
-      },
-      {
-        "name": "Spawning Blocks",
-        "children": []
-      },
-      {
-        "name": "Jumpscares",
-        "children": []
-      },
-      {
-        "name": "Structure Spawners",
         "children": []
       }
     ]

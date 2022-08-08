@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fnaf_mod:block/green_blue_tile_slab"
+    },
+    "type=top": {
+      "model": "fnaf_mod:block/green_blue_tile_slab_top"
+    },
+    "type=double": {
+      "model": "fnaf_mod:block/green_blue_tile_slab_full"
+    }
+  }
+}

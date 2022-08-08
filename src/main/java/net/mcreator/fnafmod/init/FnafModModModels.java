@@ -53,6 +53,9 @@ import net.mcreator.fnafmod.client.model.ModelPhantom_Freddy;
 import net.mcreator.fnafmod.client.model.ModelPhantom_Foxy;
 import net.mcreator.fnafmod.client.model.ModelPhantom_BB;
 import net.mcreator.fnafmod.client.model.ModelPatPat;
+import net.mcreator.fnafmod.client.model.ModelNightmare_Freddy_Statue;
+import net.mcreator.fnafmod.client.model.ModelNightmare_Chica_Statue;
+import net.mcreator.fnafmod.client.model.ModelNightmare_Bonnie_Statue;
 import net.mcreator.fnafmod.client.model.ModelMangle_Day;
 import net.mcreator.fnafmod.client.model.ModelMangle;
 import net.mcreator.fnafmod.client.model.ModelJJ;
@@ -114,6 +117,7 @@ public class FnafModModModels {
 		event.registerLayerDefinition(ModelPhantom_BB.LAYER_LOCATION, ModelPhantom_BB::createBodyLayer);
 		event.registerLayerDefinition(ModelFreddyStand.LAYER_LOCATION, ModelFreddyStand::createBodyLayer);
 		event.registerLayerDefinition(ModelDaytimePuppet.LAYER_LOCATION, ModelDaytimePuppet::createBodyLayer);
+		event.registerLayerDefinition(ModelNightmare_Freddy_Statue.LAYER_LOCATION, ModelNightmare_Freddy_Statue::createBodyLayer);
 		event.registerLayerDefinition(ModelSpringBonnieMask.LAYER_LOCATION, ModelSpringBonnieMask::createBodyLayer);
 		event.registerLayerDefinition(ModelUnwitheredChica_Posed.LAYER_LOCATION, ModelUnwitheredChica_Posed::createBodyLayer);
 		event.registerLayerDefinition(Modeltoybox.LAYER_LOCATION, Modeltoybox::createBodyLayer);
@@ -133,6 +137,7 @@ public class FnafModModModels {
 		event.registerLayerDefinition(ModelPatPat.LAYER_LOCATION, ModelPatPat::createBodyLayer);
 		event.registerLayerDefinition(ModelToy_Chica.LAYER_LOCATION, ModelToy_Chica::createBodyLayer);
 		event.registerLayerDefinition(ModelWitheredChica.LAYER_LOCATION, ModelWitheredChica::createBodyLayer);
+		event.registerLayerDefinition(ModelNightmare_Chica_Statue.LAYER_LOCATION, ModelNightmare_Chica_Statue::createBodyLayer);
 		event.registerLayerDefinition(ModelFredbear_Cutout.LAYER_LOCATION, ModelFredbear_Cutout::createBodyLayer);
 		event.registerLayerDefinition(ModelToy_Chica_Daytime.LAYER_LOCATION, ModelToy_Chica_Daytime::createBodyLayer);
 		event.registerLayerDefinition(ModelThe_Croobler.LAYER_LOCATION, ModelThe_Croobler::createBodyLayer);
@@ -149,6 +154,7 @@ public class FnafModModModels {
 		event.registerLayerDefinition(ModelToy_Freddy.LAYER_LOCATION, ModelToy_Freddy::createBodyLayer);
 		event.registerLayerDefinition(ModelUnwitheredFreddy.LAYER_LOCATION, ModelUnwitheredFreddy::createBodyLayer);
 		event.registerLayerDefinition(ModelWithered_Freddy_Daytime.LAYER_LOCATION, ModelWithered_Freddy_Daytime::createBodyLayer);
+		event.registerLayerDefinition(ModelNightmare_Bonnie_Statue.LAYER_LOCATION, ModelNightmare_Bonnie_Statue::createBodyLayer);
 		event.registerLayerDefinition(ModelFoxyDayTime.LAYER_LOCATION, ModelFoxyDayTime::createBodyLayer);
 		event.registerLayerDefinition(ModelToy_Foxy.LAYER_LOCATION, ModelToy_Foxy::createBodyLayer);
 		event.registerLayerDefinition(ModelCrawling_Toy_Chica.LAYER_LOCATION, ModelCrawling_Toy_Chica::createBodyLayer);
