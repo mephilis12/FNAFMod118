@@ -6,7 +6,6 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.CollisionContext;
-import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
@@ -58,23 +57,23 @@ public class DoorButtonOffBlock extends Block {
 
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
-		Vec3 offset = state.getOffset(world, pos);
-		switch ((Direction) state.getValue(FACING)) {
-			case SOUTH :
-			default :
-				return box(4, 0, 0, 12, 9, 4).move(offset.x, offset.y, offset.z);
-			case NORTH :
-				return box(4, 0, 12, 12, 9, 16).move(offset.x, offset.y, offset.z);
-			case EAST :
-				return box(0, 0, 4, 4, 9, 12).move(offset.x, offset.y, offset.z);
-			case WEST :
-				return box(12, 0, 4, 16, 9, 12).move(offset.x, offset.y, offset.z);
-		}
+
+		return switch (state.getValue(FACING)) {
+			default -> box(4, 0, 0, 12, 9, 4);
+			case NORTH -> box(4, 0, 12, 12, 9, 16);
+			case EAST -> box(0, 0, 4, 4, 9, 12);
+			case WEST -> box(12, 0, 4, 16, 9, 12);
+		};
 	}
 
 	@Override
 	protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
 		builder.add(FACING);
+	}
+
+	@Override
+	public BlockState getStateForPlacement(BlockPlaceContext context) {
+		return this.defaultBlockState().setValue(FACING, context.getHorizontalDirection().getOpposite());
 	}
 
 	public BlockState rotate(BlockState state, Rotation rot) {
@@ -83,12 +82,6 @@ public class DoorButtonOffBlock extends Block {
 
 	public BlockState mirror(BlockState state, Mirror mirrorIn) {
 		return state.rotate(mirrorIn.getRotation(state.getValue(FACING)));
-	}
-
-	@Override
-	public BlockState getStateForPlacement(BlockPlaceContext context) {
-		;
-		return this.defaultBlockState().setValue(FACING, context.getHorizontalDirection().getOpposite());
 	}
 
 	@Override

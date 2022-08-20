@@ -15,6 +15,6 @@ public class DayTimeFreddyRenderer extends MobRenderer<DayTimeFreddyEntity, Mode
 
 	@Override
 	public ResourceLocation getTextureLocation(DayTimeFreddyEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/freddyfazbeartexture.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/freddyfazbeartexture.png");
 	}
 }

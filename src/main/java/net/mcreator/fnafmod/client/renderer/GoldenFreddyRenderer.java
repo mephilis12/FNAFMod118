@@ -16,13 +16,13 @@ public class GoldenFreddyRenderer extends MobRenderer<GoldenFreddyEntity, Modelg
 		this.addLayer(new EyesLayer<GoldenFreddyEntity, Modelgolden_freddy<GoldenFreddyEntity>>(this) {
 			@Override
 			public RenderType renderType() {
-				return RenderType.eyes(new ResourceLocation("fnaf_mod:textures/freddy_model_white_eye_glow.png"));
+				return RenderType.eyes(new ResourceLocation("fnaf_mod:textures/entities/freddy_model_white_eye_glow.png"));
 			}
 		});
 	}
 
 	@Override
 	public ResourceLocation getTextureLocation(GoldenFreddyEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/real_golden_freddy.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/real_golden_freddy.png");
 	}
 }

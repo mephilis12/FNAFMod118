@@ -101,7 +101,7 @@ public abstract class PitBonnieSuitItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "fnaf_mod:textures/pit_bonnie_head.png";
+			return "fnaf_mod:textures/entities/pit_bonnie_head.png";
 		}
 
 		@Override
@@ -144,7 +144,7 @@ public abstract class PitBonnieSuitItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "fnaf_mod:textures/pit_bonnie_layer1.png";
+			return "fnaf_mod:textures/entities/pit_bonnie_layer1.png";
 		}
 
 		@Override
@@ -160,7 +160,7 @@ public abstract class PitBonnieSuitItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "fnaf_mod:textures/pit_bonnie_layer2.png";
+			return "fnaf_mod:textures/entities/pit_bonnie_layer2.png";
 		}
 
 		@Override
@@ -176,7 +176,7 @@ public abstract class PitBonnieSuitItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "fnaf_mod:textures/pit_bonnie_layer1.png";
+			return "fnaf_mod:textures/entities/pit_bonnie_layer1.png";
 		}
 
 		@Override

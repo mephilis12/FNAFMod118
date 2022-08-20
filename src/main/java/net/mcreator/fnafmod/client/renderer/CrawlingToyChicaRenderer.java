@@ -16,13 +16,13 @@ public class CrawlingToyChicaRenderer extends MobRenderer<CrawlingToyChicaEntity
 		this.addLayer(new EyesLayer<CrawlingToyChicaEntity, ModelCrawling_Toy_Chica<CrawlingToyChicaEntity>>(this) {
 			@Override
 			public RenderType renderType() {
-				return RenderType.eyes(new ResourceLocation("fnaf_mod:textures/toy_chica_night_eye_spooky.png"));
+				return RenderType.eyes(new ResourceLocation("fnaf_mod:textures/entities/toy_chica_night_eye_spooky.png"));
 			}
 		});
 	}
 
 	@Override
 	public ResourceLocation getTextureLocation(CrawlingToyChicaEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/toy_chica_night.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/toy_chica_night.png");
 	}
 }

@@ -8,7 +8,6 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.CollisionContext;
-import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
@@ -54,23 +53,23 @@ public class ChicaHeadDecorationBlock extends Block {
 
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
-		Vec3 offset = state.getOffset(world, pos);
-		switch ((Direction) state.getValue(FACING)) {
-			case SOUTH :
-			default :
-				return box(5, 0, 5, 12, 9, 13).move(offset.x, offset.y, offset.z);
-			case NORTH :
-				return box(4, 0, 3, 11, 9, 11).move(offset.x, offset.y, offset.z);
-			case EAST :
-				return box(5, 0, 4, 13, 9, 11).move(offset.x, offset.y, offset.z);
-			case WEST :
-				return box(3, 0, 5, 11, 9, 12).move(offset.x, offset.y, offset.z);
-		}
+
+		return switch (state.getValue(FACING)) {
+			default -> box(5, 0, 5, 12, 9, 13);
+			case NORTH -> box(4, 0, 3, 11, 9, 11);
+			case EAST -> box(5, 0, 4, 13, 9, 11);
+			case WEST -> box(3, 0, 5, 11, 9, 12);
+		};
 	}
 
 	@Override
 	protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
 		builder.add(FACING);
+	}
+
+	@Override
+	public BlockState getStateForPlacement(BlockPlaceContext context) {
+		return this.defaultBlockState().setValue(FACING, context.getHorizontalDirection().getOpposite());
 	}
 
 	public BlockState rotate(BlockState state, Rotation rot) {
@@ -79,12 +78,6 @@ public class ChicaHeadDecorationBlock extends Block {
 
 	public BlockState mirror(BlockState state, Mirror mirrorIn) {
 		return state.rotate(mirrorIn.getRotation(state.getValue(FACING)));
-	}
-
-	@Override
-	public BlockState getStateForPlacement(BlockPlaceContext context) {
-		;
-		return this.defaultBlockState().setValue(FACING, context.getHorizontalDirection().getOpposite());
 	}
 
 	@Override

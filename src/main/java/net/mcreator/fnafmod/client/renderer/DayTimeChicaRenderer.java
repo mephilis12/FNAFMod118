@@ -15,6 +15,6 @@ public class DayTimeChicaRenderer extends MobRenderer<DayTimeChicaEntity, ModelD
 
 	@Override
 	public ResourceLocation getTextureLocation(DayTimeChicaEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/chica.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/chica.png");
 	}
 }

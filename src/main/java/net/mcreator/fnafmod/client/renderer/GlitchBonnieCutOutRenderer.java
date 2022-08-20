@@ -15,6 +15,6 @@ public class GlitchBonnieCutOutRenderer extends MobRenderer<GlitchBonnieCutOutEn
 
 	@Override
 	public ResourceLocation getTextureLocation(GlitchBonnieCutOutEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/glitchbon_cutout.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/glitchbon_cutout.png");
 	}
 }

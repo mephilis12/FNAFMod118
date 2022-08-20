@@ -45,7 +45,7 @@ public class RemnantInfuserScreen extends AbstractContainerScreen<RemnantInfuser
 		this.imageHeight = 166;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("fnaf_mod:textures/remnant_infuser.png");
+	private static final ResourceLocation texture = new ResourceLocation("fnaf_mod:textures/screens/remnant_infuser.png");
 
 	@Override
 	public void render(PoseStack ms, int mouseX, int mouseY, float partialTicks) {
@@ -62,55 +62,55 @@ public class RemnantInfuserScreen extends AbstractContainerScreen<RemnantInfuser
 		RenderSystem.setShaderTexture(0, texture);
 		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("fnaf_mod:textures/remnant_infuser_bbackground.png"));
+		RenderSystem.setShaderTexture(0, new ResourceLocation("fnaf_mod:textures/screens/remnant_infuser_bbackground.png"));
 		this.blit(ms, this.leftPos + 0, this.topPos + 0, 0, 0, 176, 166, 176, 166);
 
 		if (Remnant1Procedure.execute(world, x, y, z)) {
-			RenderSystem.setShaderTexture(0, new ResourceLocation("fnaf_mod:textures/energy_low.png"));
+			RenderSystem.setShaderTexture(0, new ResourceLocation("fnaf_mod:textures/screens/energy_low.png"));
 			this.blit(ms, this.leftPos + 8, this.topPos + 9, 0, 0, 16, 64, 16, 64);
 		}
 		if (Remant2Procedure.execute(world, x, y, z)) {
-			RenderSystem.setShaderTexture(0, new ResourceLocation("fnaf_mod:textures/energy_2.png"));
+			RenderSystem.setShaderTexture(0, new ResourceLocation("fnaf_mod:textures/screens/energy_2.png"));
 			this.blit(ms, this.leftPos + 8, this.topPos + 9, 0, 0, 16, 64, 16, 64);
 		}
 		if (Remant3Procedure.execute(world, x, y, z)) {
-			RenderSystem.setShaderTexture(0, new ResourceLocation("fnaf_mod:textures/energy_full.png"));
+			RenderSystem.setShaderTexture(0, new ResourceLocation("fnaf_mod:textures/screens/energy_full.png"));
 			this.blit(ms, this.leftPos + 8, this.topPos + 9, 0, 0, 16, 64, 16, 64);
 		}
 		if (Progress1Procedure.execute(world, x, y, z)) {
-			RenderSystem.setShaderTexture(0, new ResourceLocation("fnaf_mod:textures/progress_1.png"));
+			RenderSystem.setShaderTexture(0, new ResourceLocation("fnaf_mod:textures/screens/progress_1.png"));
 			this.blit(ms, this.leftPos + 152, this.topPos + 9, 0, 0, 16, 64, 16, 64);
 		}
 		if (Progress2Procedure.execute(world, x, y, z)) {
-			RenderSystem.setShaderTexture(0, new ResourceLocation("fnaf_mod:textures/progress_2nd.png"));
+			RenderSystem.setShaderTexture(0, new ResourceLocation("fnaf_mod:textures/screens/progress_2nd.png"));
 			this.blit(ms, this.leftPos + 152, this.topPos + 9, 0, 0, 16, 64, 16, 64);
 		}
 		if (Progress3Procedure.execute(world, x, y, z)) {
-			RenderSystem.setShaderTexture(0, new ResourceLocation("fnaf_mod:textures/progress_3rd.png"));
+			RenderSystem.setShaderTexture(0, new ResourceLocation("fnaf_mod:textures/screens/progress_3rd.png"));
 			this.blit(ms, this.leftPos + 152, this.topPos + 9, 0, 0, 16, 64, 16, 64);
 		}
 		if (Progress4Procedure.execute(world, x, y, z)) {
-			RenderSystem.setShaderTexture(0, new ResourceLocation("fnaf_mod:textures/progress_2nd_to_last.png"));
+			RenderSystem.setShaderTexture(0, new ResourceLocation("fnaf_mod:textures/screens/progress_2nd_to_last.png"));
 			this.blit(ms, this.leftPos + 152, this.topPos + 9, 0, 0, 16, 64, 16, 64);
 		}
 		if (Progress5Procedure.execute(world, x, y, z)) {
-			RenderSystem.setShaderTexture(0, new ResourceLocation("fnaf_mod:textures/progress_last.png"));
+			RenderSystem.setShaderTexture(0, new ResourceLocation("fnaf_mod:textures/screens/progress_last.png"));
 			this.blit(ms, this.leftPos + 152, this.topPos + 9, 0, 0, 16, 64, 16, 64);
 		}
 		if (Progress6Procedure.execute(world, x, y, z)) {
-			RenderSystem.setShaderTexture(0, new ResourceLocation("fnaf_mod:textures/progress_full.png"));
+			RenderSystem.setShaderTexture(0, new ResourceLocation("fnaf_mod:textures/screens/progress_full.png"));
 			this.blit(ms, this.leftPos + 152, this.topPos + 9, 0, 0, 16, 64, 16, 64);
 		}
 		if (DarkRemnant3Procedure.execute(world, x, y, z)) {
-			RenderSystem.setShaderTexture(0, new ResourceLocation("fnaf_mod:textures/darkremnant.png"));
+			RenderSystem.setShaderTexture(0, new ResourceLocation("fnaf_mod:textures/screens/darkremnant.png"));
 			this.blit(ms, this.leftPos + 8, this.topPos + 9, 0, 0, 16, 64, 16, 64);
 		}
 		if (DarkRemnant2Procedure.execute(world, x, y, z)) {
-			RenderSystem.setShaderTexture(0, new ResourceLocation("fnaf_mod:textures/darkremnant2.png"));
+			RenderSystem.setShaderTexture(0, new ResourceLocation("fnaf_mod:textures/screens/darkremnant2.png"));
 			this.blit(ms, this.leftPos + 8, this.topPos + 9, 0, 0, 16, 64, 16, 64);
 		}
 		if (DarkRemnant1Procedure.execute(world, x, y, z)) {
-			RenderSystem.setShaderTexture(0, new ResourceLocation("fnaf_mod:textures/darkremnantlow.png"));
+			RenderSystem.setShaderTexture(0, new ResourceLocation("fnaf_mod:textures/screens/darkremnantlow.png"));
 			this.blit(ms, this.leftPos + 8, this.topPos + 9, 0, 0, 16, 64, 16, 64);
 		}
 		RenderSystem.disableBlend();

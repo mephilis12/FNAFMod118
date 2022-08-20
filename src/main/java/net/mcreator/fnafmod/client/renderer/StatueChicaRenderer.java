@@ -15,6 +15,6 @@ public class StatueChicaRenderer extends MobRenderer<StatueChicaEntity, ModelDay
 
 	@Override
 	public ResourceLocation getTextureLocation(StatueChicaEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/chica.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/chica.png");
 	}
 }

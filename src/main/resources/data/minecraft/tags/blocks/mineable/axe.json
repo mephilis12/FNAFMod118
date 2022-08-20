@@ -7,14 +7,14 @@
     "fnaf_mod:closet_right_bottom",
     "fnaf_mod:chair",
     "fnaf_mod:shelf",
+    "fnaf_mod:camera",
+    "fnaf_mod:phone",
+    "fnaf_mod:red_wood_door",
     "fnaf_mod:closet_left_top",
     "fnaf_mod:closet_right_top",
     "fnaf_mod:closet_left_open_bottom",
     "fnaf_mod:closet_left_open_top",
     "fnaf_mod:closet_right_open_bottom",
-    "fnaf_mod:closet_right_open_top",
-    "fnaf_mod:camera",
-    "fnaf_mod:phone",
-    "fnaf_mod:red_wood_door"
+    "fnaf_mod:closet_right_open_top"
   ]
 }

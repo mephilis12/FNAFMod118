@@ -1,5 +1,5 @@
 {
-  "_fv": 28,
+  "_fv": 33,
   "_type": "block",
   "definition": {
     "texture": "light_button",
@@ -9,8 +9,9 @@
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "light_botton_off:default",
+    "customModelName": "light_button_off:default",
     "rotationMode": 1,
+    "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "light_button",
@@ -47,6 +48,7 @@
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
+    "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,

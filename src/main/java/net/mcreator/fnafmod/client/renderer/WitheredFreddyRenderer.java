@@ -15,6 +15,6 @@ public class WitheredFreddyRenderer extends MobRenderer<WitheredFreddyEntity, Mo
 
 	@Override
 	public ResourceLocation getTextureLocation(WitheredFreddyEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/witheredfreddytexture.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/witheredfreddytexture.png");
 	}
 }

@@ -1,5 +1,5 @@
 {
-  "_fv": 28,
+  "_fv": 33,
   "_type": "block",
   "definition": {
     "texture": "red_and_white_floor_tile",
@@ -11,10 +11,11 @@
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
+    "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
-    "particleTexture": "other_red_tile",
+    "particleTexture": "red_and_white_floor_tile",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": false,
@@ -47,6 +48,7 @@
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
+    "requiresCorrectTool": true,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,

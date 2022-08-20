@@ -1,5 +1,5 @@
 {
-  "_fv": 28,
+  "_fv": 33,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
@@ -26,7 +26,7 @@
       "value": "CUSTOM:FNAFItems"
     },
     "armorTextureFile": "springbonniesuit_",
-    "helmetName": "Spring Bonnie Head",
+    "helmetName": "Spring Lock Suit Head",
     "bodyName": "Spring Lock Suit Body",
     "leggingsName": "Spring Lock Suit Legs",
     "bootsName": "Spring Lock Suit Boots",

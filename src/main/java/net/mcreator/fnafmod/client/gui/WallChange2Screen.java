@@ -37,7 +37,7 @@ public class WallChange2Screen extends AbstractContainerScreen<WallChange2Menu> 
 		this.imageHeight = 169;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("fnaf_mod:textures/wall_change_2.png");
+	private static final ResourceLocation texture = new ResourceLocation("fnaf_mod:textures/screens/wall_change_2.png");
 
 	@Override
 	public void render(PoseStack ms, int mouseX, int mouseY, float partialTicks) {

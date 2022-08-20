@@ -6,7 +6,6 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.CollisionContext;
-import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
@@ -52,23 +51,23 @@ public class FoxyHeadBlock extends Block {
 
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
-		Vec3 offset = state.getOffset(world, pos);
-		switch ((Direction) state.getValue(FACING)) {
-			case SOUTH :
-			default :
-				return box(3.5, 0, 5, 13.5, 9.5, 16).move(offset.x, offset.y, offset.z);
-			case NORTH :
-				return box(2.5, 0, 0, 12.5, 9.5, 11).move(offset.x, offset.y, offset.z);
-			case EAST :
-				return box(5, 0, 2.5, 16, 9.5, 12.5).move(offset.x, offset.y, offset.z);
-			case WEST :
-				return box(0, 0, 3.5, 11, 9.5, 13.5).move(offset.x, offset.y, offset.z);
-		}
+
+		return switch (state.getValue(FACING)) {
+			default -> box(3.5, 0, 5, 13.5, 9.5, 16);
+			case NORTH -> box(2.5, 0, 0, 12.5, 9.5, 11);
+			case EAST -> box(5, 0, 2.5, 16, 9.5, 12.5);
+			case WEST -> box(0, 0, 3.5, 11, 9.5, 13.5);
+		};
 	}
 
 	@Override
 	protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
 		builder.add(FACING);
+	}
+
+	@Override
+	public BlockState getStateForPlacement(BlockPlaceContext context) {
+		return this.defaultBlockState().setValue(FACING, context.getHorizontalDirection().getOpposite());
 	}
 
 	public BlockState rotate(BlockState state, Rotation rot) {
@@ -77,12 +76,6 @@ public class FoxyHeadBlock extends Block {
 
 	public BlockState mirror(BlockState state, Mirror mirrorIn) {
 		return state.rotate(mirrorIn.getRotation(state.getValue(FACING)));
-	}
-
-	@Override
-	public BlockState getStateForPlacement(BlockPlaceContext context) {
-		;
-		return this.defaultBlockState().setValue(FACING, context.getHorizontalDirection().getOpposite());
 	}
 
 	@Override

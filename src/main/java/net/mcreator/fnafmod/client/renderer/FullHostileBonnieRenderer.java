@@ -16,13 +16,13 @@ public class FullHostileBonnieRenderer extends MobRenderer<FullHostileBonnieEnti
 		this.addLayer(new EyesLayer<FullHostileBonnieEntity, ModelBonnie_The_Bunny<FullHostileBonnieEntity>>(this) {
 			@Override
 			public RenderType renderType() {
-				return RenderType.eyes(new ResourceLocation("fnaf_mod:textures/freddy_spooky_eyes_glow.png"));
+				return RenderType.eyes(new ResourceLocation("fnaf_mod:textures/entities/freddy_spooky_eyes_glow.png"));
 			}
 		});
 	}
 
 	@Override
 	public ResourceLocation getTextureLocation(FullHostileBonnieEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/evil_eyes_bonnie.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/evil_eyes_bonnie.png");
 	}
 }

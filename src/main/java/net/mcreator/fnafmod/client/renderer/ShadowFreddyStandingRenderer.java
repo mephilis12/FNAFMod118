@@ -16,13 +16,13 @@ public class ShadowFreddyStandingRenderer extends MobRenderer<ShadowFreddyStandi
 		this.addLayer(new EyesLayer<ShadowFreddyStandingEntity, ModelFreddyFazbear<ShadowFreddyStandingEntity>>(this) {
 			@Override
 			public RenderType renderType() {
-				return RenderType.eyes(new ResourceLocation("fnaf_mod:textures/shadow_freddy_white_eye_glow.png"));
+				return RenderType.eyes(new ResourceLocation("fnaf_mod:textures/entities/shadow_freddy_white_eye_glow.png"));
 			}
 		});
 	}
 
 	@Override
 	public ResourceLocation getTextureLocation(ShadowFreddyStandingEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/shadow_freddy.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/shadow_freddy.png");
 	}
 }

@@ -52,7 +52,7 @@ public class BonnieFrameOverlay5Overlay {
 					GlStateManager.SourceFactor.ONE, GlStateManager.DestFactor.ZERO);
 			RenderSystem.setShaderColor(1, 1, 1, 1);
 			if (BonnieFrameOverlay5DisplayOverlayIngameProcedure.execute(entity)) {
-				RenderSystem.setShaderTexture(0, new ResourceLocation("fnaf_mod:textures/bonnie4.png"));
+				RenderSystem.setShaderTexture(0, new ResourceLocation("fnaf_mod:textures/screens/bonnie4.png"));
 				Minecraft.getInstance().gui.blit(event.getMatrixStack(), 0, 0, 0, 0, w, h, w, h);
 			}
 			RenderSystem.depthMask(true);

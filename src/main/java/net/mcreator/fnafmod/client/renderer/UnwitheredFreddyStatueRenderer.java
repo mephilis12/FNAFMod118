@@ -17,6 +17,6 @@ public class UnwitheredFreddyStatueRenderer
 
 	@Override
 	public ResourceLocation getTextureLocation(UnwitheredFreddyStatueEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/unwithered_freddy.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/unwithered_freddy.png");
 	}
 }

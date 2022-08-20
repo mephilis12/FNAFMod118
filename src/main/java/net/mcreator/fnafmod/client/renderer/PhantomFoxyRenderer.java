@@ -15,6 +15,6 @@ public class PhantomFoxyRenderer extends MobRenderer<PhantomFoxyEntity, ModelPha
 
 	@Override
 	public ResourceLocation getTextureLocation(PhantomFoxyEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/phantom_foxy.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/phantom_foxy.png");
 	}
 }

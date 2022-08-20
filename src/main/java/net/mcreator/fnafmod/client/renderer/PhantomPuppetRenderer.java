@@ -15,6 +15,6 @@ public class PhantomPuppetRenderer extends MobRenderer<PhantomPuppetEntity, Mode
 
 	@Override
 	public ResourceLocation getTextureLocation(PhantomPuppetEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/phantom_puppet.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/phantom_puppet.png");
 	}
 }

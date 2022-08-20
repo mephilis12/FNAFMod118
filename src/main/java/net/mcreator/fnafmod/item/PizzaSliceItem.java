@@ -2,7 +2,6 @@
 package net.mcreator.fnafmod.item;
 
 import net.minecraft.world.item.Rarity;
-import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.food.FoodProperties;
 
@@ -14,10 +13,5 @@ public class PizzaSliceItem extends Item {
 				.food((new FoodProperties.Builder()).nutrition(6).saturationMod(1f)
 
 						.meat().build()));
-	}
-
-	@Override
-	public int getUseDuration(ItemStack itemstack) {
-		return 32;
 	}
 }

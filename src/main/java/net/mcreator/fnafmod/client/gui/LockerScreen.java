@@ -33,7 +33,7 @@ public class LockerScreen extends AbstractContainerScreen<LockerMenu> {
 		this.imageHeight = 166;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("fnaf_mod:textures/locker.png");
+	private static final ResourceLocation texture = new ResourceLocation("fnaf_mod:textures/screens/locker.png");
 
 	@Override
 	public void render(PoseStack ms, int mouseX, int mouseY, float partialTicks) {

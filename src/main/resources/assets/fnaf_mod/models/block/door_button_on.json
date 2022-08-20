@@ -3,6 +3,6 @@
   "textures": {
     "all": "fnaf_mod:blocks/door_button_active",
     "particle": "fnaf_mod:blocks/door_button_active",
-    "0": "fnaf_mod:blocks/door_button_active"
+    "1": "fnaf_mod:blocks/door_button_active"
   }
 }

@@ -15,6 +15,6 @@ public class PhantomMangleRenderer extends MobRenderer<PhantomMangleEntity, Mode
 
 	@Override
 	public ResourceLocation getTextureLocation(PhantomMangleEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/phantom_mangle.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/phantom_mangle.png");
 	}
 }

@@ -15,6 +15,6 @@ public class UnwitheredFoxyStatueRenderer extends MobRenderer<UnwitheredFoxyStat
 
 	@Override
 	public ResourceLocation getTextureLocation(UnwitheredFoxyStatueEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/unwithered_foxy.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/unwithered_foxy.png");
 	}
 }

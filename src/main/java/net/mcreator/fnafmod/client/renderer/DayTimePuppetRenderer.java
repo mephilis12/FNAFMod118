@@ -15,6 +15,6 @@ public class DayTimePuppetRenderer extends MobRenderer<DayTimePuppetEntity, Mode
 
 	@Override
 	public ResourceLocation getTextureLocation(DayTimePuppetEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/daytimepuppet.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/daytimepuppet.png");
 	}
 }

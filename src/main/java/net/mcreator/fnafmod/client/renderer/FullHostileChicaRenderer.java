@@ -16,13 +16,13 @@ public class FullHostileChicaRenderer extends MobRenderer<FullHostileChicaEntity
 		this.addLayer(new EyesLayer<FullHostileChicaEntity, ModelChica<FullHostileChicaEntity>>(this) {
 			@Override
 			public RenderType renderType() {
-				return RenderType.eyes(new ResourceLocation("fnaf_mod:textures/freddy_spooky_eyes_glow.png"));
+				return RenderType.eyes(new ResourceLocation("fnaf_mod:textures/entities/freddy_spooky_eyes_glow.png"));
 			}
 		});
 	}
 
 	@Override
 	public ResourceLocation getTextureLocation(FullHostileChicaEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/spooky_eye_chica.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/spooky_eye_chica.png");
 	}
 }

@@ -15,6 +15,6 @@ public class SittingWitheredBonnieRenderer extends MobRenderer<SittingWitheredBo
 
 	@Override
 	public ResourceLocation getTextureLocation(SittingWitheredBonnieEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/witheredbonnietexture.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/witheredbonnietexture.png");
 	}
 }

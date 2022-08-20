@@ -15,6 +15,6 @@ public class BBRenderer extends MobRenderer<BBEntity, ModelBB<BBEntity>> {
 
 	@Override
 	public ResourceLocation getTextureLocation(BBEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/balloonboytexture.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/balloonboytexture.png");
 	}
 }

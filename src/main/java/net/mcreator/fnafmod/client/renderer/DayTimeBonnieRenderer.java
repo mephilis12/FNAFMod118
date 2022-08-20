@@ -15,6 +15,6 @@ public class DayTimeBonnieRenderer extends MobRenderer<DayTimeBonnieEntity, Mode
 
 	@Override
 	public ResourceLocation getTextureLocation(DayTimeBonnieEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/fnaf_1_bonnie_daytime.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/fnaf_1_bonnie_daytime.png");
 	}
 }

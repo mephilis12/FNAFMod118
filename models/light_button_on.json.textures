@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "light_button"
+        "1": "light_button_active"
       },
       "name": "default"
     }

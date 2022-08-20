@@ -15,6 +15,6 @@ public class StatueBonnieRenderer extends MobRenderer<StatueBonnieEntity, ModelD
 
 	@Override
 	public ResourceLocation getTextureLocation(StatueBonnieEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/fnaf_1_bonnie_daytime.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/fnaf_1_bonnie_daytime.png");
 	}
 }

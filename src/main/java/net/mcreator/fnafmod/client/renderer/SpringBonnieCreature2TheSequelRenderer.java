@@ -17,6 +17,6 @@ public class SpringBonnieCreature2TheSequelRenderer
 
 	@Override
 	public ResourceLocation getTextureLocation(SpringBonnieCreature2TheSequelEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/springbonniewithvestandwhiskers.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/springbonniewithvestandwhiskers.png");
 	}
 }

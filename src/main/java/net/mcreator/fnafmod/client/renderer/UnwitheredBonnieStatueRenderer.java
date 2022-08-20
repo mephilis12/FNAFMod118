@@ -17,6 +17,6 @@ public class UnwitheredBonnieStatueRenderer
 
 	@Override
 	public ResourceLocation getTextureLocation(UnwitheredBonnieStatueEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/unwithered_bonnie.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/unwithered_bonnie.png");
 	}
 }

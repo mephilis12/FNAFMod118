@@ -150,6 +150,7 @@ public class PatPatEntity extends Monster {
 		builder = builder.add(Attributes.MAX_HEALTH, 500);
 		builder = builder.add(Attributes.ARMOR, 0);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 3);
+		builder = builder.add(Attributes.FOLLOW_RANGE, 16);
 		builder = builder.add(ForgeMod.SWIM_SPEED.get(), 0.3);
 		return builder;
 	}

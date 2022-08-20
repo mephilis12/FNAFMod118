@@ -16,13 +16,13 @@ public class SittingFredbearRenderer extends MobRenderer<SittingFredbearEntity, 
 		this.addLayer(new EyesLayer<SittingFredbearEntity, Modelsitting_fredbear<SittingFredbearEntity>>(this) {
 			@Override
 			public RenderType renderType() {
-				return RenderType.eyes(new ResourceLocation("fnaf_mod:textures/freddy_model_white_eye_glow.png"));
+				return RenderType.eyes(new ResourceLocation("fnaf_mod:textures/entities/freddy_model_white_eye_glow.png"));
 			}
 		});
 	}
 
 	@Override
 	public ResourceLocation getTextureLocation(SittingFredbearEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/sitting_fredbear.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/sitting_fredbear.png");
 	}
 }

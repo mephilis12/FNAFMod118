@@ -16,13 +16,13 @@ public class FullHostileFreddyRenderer extends MobRenderer<FullHostileFreddyEnti
 		this.addLayer(new EyesLayer<FullHostileFreddyEntity, ModelFreddyFazbear<FullHostileFreddyEntity>>(this) {
 			@Override
 			public RenderType renderType() {
-				return RenderType.eyes(new ResourceLocation("fnaf_mod:textures/freddy_spooky_eyes_glow.png"));
+				return RenderType.eyes(new ResourceLocation("fnaf_mod:textures/entities/freddy_spooky_eyes_glow.png"));
 			}
 		});
 	}
 
 	@Override
 	public ResourceLocation getTextureLocation(FullHostileFreddyEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/freddy_spooky_eyes_texture.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/freddy_spooky_eyes_texture.png");
 	}
 }
