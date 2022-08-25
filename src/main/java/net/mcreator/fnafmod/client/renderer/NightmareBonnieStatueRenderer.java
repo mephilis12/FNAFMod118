@@ -17,6 +17,6 @@ public class NightmareBonnieStatueRenderer
 
 	@Override
 	public ResourceLocation getTextureLocation(NightmareBonnieStatueEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/nightmare_bonnie.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/nightmare_bonnie.png");
 	}
 }

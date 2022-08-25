@@ -15,6 +15,6 @@ public class StatueFoxyRenderer extends MobRenderer<StatueFoxyEntity, ModelFoxyD
 
 	@Override
 	public ResourceLocation getTextureLocation(StatueFoxyEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/foxy.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/foxy.png");
 	}
 }

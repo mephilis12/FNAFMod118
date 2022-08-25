@@ -16,13 +16,13 @@ public class FullHostileFoxyRenderer extends MobRenderer<FullHostileFoxyEntity, 
 		this.addLayer(new EyesLayer<FullHostileFoxyEntity, ModelFoxy<FullHostileFoxyEntity>>(this) {
 			@Override
 			public RenderType renderType() {
-				return RenderType.eyes(new ResourceLocation("fnaf_mod:textures/evil_foxy_eye_glow.png"));
+				return RenderType.eyes(new ResourceLocation("fnaf_mod:textures/entities/evil_foxy_eye_glow.png"));
 			}
 		});
 	}
 
 	@Override
 	public ResourceLocation getTextureLocation(FullHostileFoxyEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/foxy_evil_eyes.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/foxy_evil_eyes.png");
 	}
 }

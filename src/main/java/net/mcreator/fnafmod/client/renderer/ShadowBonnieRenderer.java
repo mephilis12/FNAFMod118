@@ -16,13 +16,13 @@ public class ShadowBonnieRenderer extends MobRenderer<ShadowBonnieEntity, ModelT
 		this.addLayer(new EyesLayer<ShadowBonnieEntity, ModelToy_Bonnie<ShadowBonnieEntity>>(this) {
 			@Override
 			public RenderType renderType() {
-				return RenderType.eyes(new ResourceLocation("fnaf_mod:textures/shadow_bonnie_glow.png"));
+				return RenderType.eyes(new ResourceLocation("fnaf_mod:textures/entities/shadow_bonnie_glow.png"));
 			}
 		});
 	}
 
 	@Override
 	public ResourceLocation getTextureLocation(ShadowBonnieEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/shadow_bonnie.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/shadow_bonnie.png");
 	}
 }

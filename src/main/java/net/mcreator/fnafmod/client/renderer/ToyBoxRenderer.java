@@ -15,6 +15,6 @@ public class ToyBoxRenderer extends MobRenderer<ToyBoxEntity, Modeltoybox<ToyBox
 
 	@Override
 	public ResourceLocation getTextureLocation(ToyBoxEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/toybox.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/toybox.png");
 	}
 }

@@ -15,6 +15,6 @@ public class CrawlingToyFoxyRenderer extends MobRenderer<CrawlingToyFoxyEntity, 
 
 	@Override
 	public ResourceLocation getTextureLocation(CrawlingToyFoxyEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/toy_foxy.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/toy_foxy.png");
 	}
 }

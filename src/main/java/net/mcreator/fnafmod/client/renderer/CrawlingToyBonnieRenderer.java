@@ -15,6 +15,6 @@ public class CrawlingToyBonnieRenderer extends MobRenderer<CrawlingToyBonnieEnti
 
 	@Override
 	public ResourceLocation getTextureLocation(CrawlingToyBonnieEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/toy_bonnie.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/toy_bonnie.png");
 	}
 }

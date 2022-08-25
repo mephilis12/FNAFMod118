@@ -52,7 +52,7 @@ public class FreddyFrameOverlay5Overlay {
 					GlStateManager.SourceFactor.ONE, GlStateManager.DestFactor.ZERO);
 			RenderSystem.setShaderColor(1, 1, 1, 1);
 			if (FreddyFrame5Procedure.execute(entity)) {
-				RenderSystem.setShaderTexture(0, new ResourceLocation("fnaf_mod:textures/freddy5.png"));
+				RenderSystem.setShaderTexture(0, new ResourceLocation("fnaf_mod:textures/screens/freddy5.png"));
 				Minecraft.getInstance().gui.blit(event.getMatrixStack(), 0, 0, 0, 0, w, h, w, h);
 			}
 			RenderSystem.depthMask(true);

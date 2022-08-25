@@ -52,7 +52,7 @@ public class WitheredChicaFrame2Overlay {
 					GlStateManager.SourceFactor.ONE, GlStateManager.DestFactor.ZERO);
 			RenderSystem.setShaderColor(1, 1, 1, 1);
 			if (WitheredChicaFrame2DisplayOverlayIngameProcedure.execute(entity)) {
-				RenderSystem.setShaderTexture(0, new ResourceLocation("fnaf_mod:textures/witheredchica2.png"));
+				RenderSystem.setShaderTexture(0, new ResourceLocation("fnaf_mod:textures/screens/witheredchica2.png"));
 				Minecraft.getInstance().gui.blit(event.getMatrixStack(), 0, 0, 0, 0, w, h, w, h);
 			}
 			RenderSystem.depthMask(true);

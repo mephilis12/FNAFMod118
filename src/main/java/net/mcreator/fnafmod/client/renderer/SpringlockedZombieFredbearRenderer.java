@@ -21,6 +21,6 @@ public class SpringlockedZombieFredbearRenderer
 
 	@Override
 	public ResourceLocation getTextureLocation(SpringlockedZombieFredbearEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/springlocked_zombie.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/springlocked_zombie.png");
 	}
 }

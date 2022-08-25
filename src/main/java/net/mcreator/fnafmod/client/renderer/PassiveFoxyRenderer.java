@@ -15,6 +15,6 @@ public class PassiveFoxyRenderer extends MobRenderer<PassiveFoxyEntity, ModelFox
 
 	@Override
 	public ResourceLocation getTextureLocation(PassiveFoxyEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/foxy.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/foxy.png");
 	}
 }

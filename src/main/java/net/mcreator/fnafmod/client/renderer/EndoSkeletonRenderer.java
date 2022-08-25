@@ -15,6 +15,6 @@ public class EndoSkeletonRenderer extends MobRenderer<EndoSkeletonEntity, ModelE
 
 	@Override
 	public ResourceLocation getTextureLocation(EndoSkeletonEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/endoskeleton.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/endoskeleton.png");
 	}
 }

@@ -15,6 +15,6 @@ public class SpringtrapRenderer extends MobRenderer<SpringtrapEntity, ModelSprin
 
 	@Override
 	public ResourceLocation getTextureLocation(SpringtrapEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/springtrap.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/springtrap.png");
 	}
 }

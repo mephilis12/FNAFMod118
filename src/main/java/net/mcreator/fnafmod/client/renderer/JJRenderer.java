@@ -15,6 +15,6 @@ public class JJRenderer extends MobRenderer<JJEntity, ModelJJ<JJEntity>> {
 
 	@Override
 	public ResourceLocation getTextureLocation(JJEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/jj.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/jj.png");
 	}
 }

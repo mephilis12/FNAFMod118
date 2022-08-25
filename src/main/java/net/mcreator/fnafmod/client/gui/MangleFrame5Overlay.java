@@ -52,7 +52,7 @@ public class MangleFrame5Overlay {
 					GlStateManager.SourceFactor.ONE, GlStateManager.DestFactor.ZERO);
 			RenderSystem.setShaderColor(1, 1, 1, 1);
 			if (MangleFrame5DisplayOverlayIngameProcedure.execute(entity)) {
-				RenderSystem.setShaderTexture(0, new ResourceLocation("fnaf_mod:textures/mangle5.png"));
+				RenderSystem.setShaderTexture(0, new ResourceLocation("fnaf_mod:textures/screens/mangle5.png"));
 				Minecraft.getInstance().gui.blit(event.getMatrixStack(), 0, 0, 0, 0, w, h, w, h);
 			}
 			RenderSystem.depthMask(true);

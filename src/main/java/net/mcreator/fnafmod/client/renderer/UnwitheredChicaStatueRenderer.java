@@ -15,6 +15,6 @@ public class UnwitheredChicaStatueRenderer extends MobRenderer<UnwitheredChicaSt
 
 	@Override
 	public ResourceLocation getTextureLocation(UnwitheredChicaStatueEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/unwithered_chica.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/unwithered_chica.png");
 	}
 }

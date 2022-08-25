@@ -15,6 +15,6 @@ public class FredbearCutOutRenderer extends MobRenderer<FredbearCutOutEntity, Mo
 
 	@Override
 	public ResourceLocation getTextureLocation(FredbearCutOutEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/fredbear_cutout.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/fredbear_cutout.png");
 	}
 }

@@ -15,6 +15,6 @@ public class OfficeChairRenderer extends MobRenderer<OfficeChairEntity, Modeloff
 
 	@Override
 	public ResourceLocation getTextureLocation(OfficeChairEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/office_chair_texture.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/office_chair_texture.png");
 	}
 }

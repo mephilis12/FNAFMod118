@@ -15,6 +15,6 @@ public class ShadowFreddyRenderer extends MobRenderer<ShadowFreddyEntity, ModelW
 
 	@Override
 	public ResourceLocation getTextureLocation(ShadowFreddyEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/shadowfreddytexture.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/shadowfreddytexture.png");
 	}
 }

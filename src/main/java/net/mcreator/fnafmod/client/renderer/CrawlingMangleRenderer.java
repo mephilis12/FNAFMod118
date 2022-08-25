@@ -16,13 +16,13 @@ public class CrawlingMangleRenderer extends MobRenderer<CrawlingMangleEntity, Mo
 		this.addLayer(new EyesLayer<CrawlingMangleEntity, ModelCrawling_Mangle<CrawlingMangleEntity>>(this) {
 			@Override
 			public RenderType renderType() {
-				return RenderType.eyes(new ResourceLocation("fnaf_mod:textures/eyemangle.png"));
+				return RenderType.eyes(new ResourceLocation("fnaf_mod:textures/entities/eyemangle.png"));
 			}
 		});
 	}
 
 	@Override
 	public ResourceLocation getTextureLocation(CrawlingMangleEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/mangle.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/mangle.png");
 	}
 }

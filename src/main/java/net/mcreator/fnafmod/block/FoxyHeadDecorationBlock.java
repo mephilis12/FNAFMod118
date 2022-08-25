@@ -8,7 +8,6 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.CollisionContext;
-import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
@@ -54,23 +53,25 @@ public class FoxyHeadDecorationBlock extends Block {
 
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
-		Vec3 offset = state.getOffset(world, pos);
-		switch ((Direction) state.getValue(FACING)) {
-			case SOUTH :
-			default :
-				return box(3.5, 0, 0, 13.5, 15, 11).move(offset.x, offset.y, offset.z);
-			case NORTH :
-				return box(2.5, 0, 5, 12.5, 15, 16).move(offset.x, offset.y, offset.z);
-			case EAST :
-				return box(0, 0, 2.5, 11, 15, 12.5).move(offset.x, offset.y, offset.z);
-			case WEST :
-				return box(5, 0, 3.5, 16, 15, 13.5).move(offset.x, offset.y, offset.z);
-		}
+
+		return switch (state.getValue(FACING)) {
+			default -> box(3.5, 0, 0, 13.5, 15, 11);
+			case NORTH -> box(2.5, 0, 5, 12.5, 15, 16);
+			case EAST -> box(0, 0, 2.5, 11, 15, 12.5);
+			case WEST -> box(5, 0, 3.5, 16, 15, 13.5);
+		};
 	}
 
 	@Override
 	protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
 		builder.add(FACING);
+	}
+
+	@Override
+	public BlockState getStateForPlacement(BlockPlaceContext context) {
+		if (context.getClickedFace().getAxis() == Direction.Axis.Y)
+			return this.defaultBlockState().setValue(FACING, Direction.NORTH);
+		return this.defaultBlockState().setValue(FACING, context.getClickedFace());
 	}
 
 	public BlockState rotate(BlockState state, Rotation rot) {
@@ -79,14 +80,6 @@ public class FoxyHeadDecorationBlock extends Block {
 
 	public BlockState mirror(BlockState state, Mirror mirrorIn) {
 		return state.rotate(mirrorIn.getRotation(state.getValue(FACING)));
-	}
-
-	@Override
-	public BlockState getStateForPlacement(BlockPlaceContext context) {
-		;
-		if (context.getClickedFace() == Direction.UP || context.getClickedFace() == Direction.DOWN)
-			return this.defaultBlockState().setValue(FACING, Direction.NORTH);
-		return this.defaultBlockState().setValue(FACING, context.getClickedFace());
 	}
 
 	@Override

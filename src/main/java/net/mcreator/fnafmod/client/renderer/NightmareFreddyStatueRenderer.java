@@ -17,6 +17,6 @@ public class NightmareFreddyStatueRenderer
 
 	@Override
 	public ResourceLocation getTextureLocation(NightmareFreddyStatueEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/nightmarefreddy.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/nightmarefreddy.png");
 	}
 }

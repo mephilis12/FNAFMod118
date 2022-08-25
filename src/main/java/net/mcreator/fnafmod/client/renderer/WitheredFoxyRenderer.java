@@ -15,6 +15,6 @@ public class WitheredFoxyRenderer extends MobRenderer<WitheredFoxyEntity, ModelW
 
 	@Override
 	public ResourceLocation getTextureLocation(WitheredFoxyEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/witheredfoxytexture.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/witheredfoxytexture.png");
 	}
 }

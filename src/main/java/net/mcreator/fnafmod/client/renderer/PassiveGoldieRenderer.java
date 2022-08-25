@@ -15,6 +15,6 @@ public class PassiveGoldieRenderer extends MobRenderer<PassiveGoldieEntity, Mode
 
 	@Override
 	public ResourceLocation getTextureLocation(PassiveGoldieEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/golden_freddy_normal_eyes.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/golden_freddy_normal_eyes.png");
 	}
 }

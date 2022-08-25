@@ -15,6 +15,6 @@ public class TheCrooblerRenderer extends MobRenderer<TheCrooblerEntity, ModelThe
 
 	@Override
 	public ResourceLocation getTextureLocation(TheCrooblerEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/the_croobler.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/the_croobler.png");
 	}
 }

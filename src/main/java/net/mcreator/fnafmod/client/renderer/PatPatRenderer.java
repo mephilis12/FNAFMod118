@@ -16,13 +16,13 @@ public class PatPatRenderer extends MobRenderer<PatPatEntity, ModelPatPat<PatPat
 		this.addLayer(new EyesLayer<PatPatEntity, ModelPatPat<PatPatEntity>>(this) {
 			@Override
 			public RenderType renderType() {
-				return RenderType.eyes(new ResourceLocation("fnaf_mod:textures/patpat_e.png"));
+				return RenderType.eyes(new ResourceLocation("fnaf_mod:textures/entities/patpat_e.png"));
 			}
 		});
 	}
 
 	@Override
 	public ResourceLocation getTextureLocation(PatPatEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/patpat.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/patpat.png");
 	}
 }

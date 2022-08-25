@@ -15,6 +15,6 @@ public class Endo02Renderer extends MobRenderer<Endo02Entity, ModelEndo02<Endo02
 
 	@Override
 	public ResourceLocation getTextureLocation(Endo02Entity entity) {
-		return new ResourceLocation("fnaf_mod:textures/endo02.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/endo02.png");
 	}
 }

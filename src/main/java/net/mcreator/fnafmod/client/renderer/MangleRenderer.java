@@ -16,13 +16,13 @@ public class MangleRenderer extends MobRenderer<MangleEntity, ModelMangle<Mangle
 		this.addLayer(new EyesLayer<MangleEntity, ModelMangle<MangleEntity>>(this) {
 			@Override
 			public RenderType renderType() {
-				return RenderType.eyes(new ResourceLocation("fnaf_mod:textures/eyemangle.png"));
+				return RenderType.eyes(new ResourceLocation("fnaf_mod:textures/entities/eyemangle.png"));
 			}
 		});
 	}
 
 	@Override
 	public ResourceLocation getTextureLocation(MangleEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/mangle.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/mangle.png");
 	}
 }

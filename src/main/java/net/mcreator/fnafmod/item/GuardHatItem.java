@@ -97,7 +97,7 @@ public abstract class GuardHatItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "fnaf_mod:textures/guard_hat.png";
+			return "fnaf_mod:textures/entities/guard_hat.png";
 		}
 	}
 }

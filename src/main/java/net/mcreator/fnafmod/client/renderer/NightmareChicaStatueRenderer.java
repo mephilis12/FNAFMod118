@@ -15,6 +15,6 @@ public class NightmareChicaStatueRenderer extends MobRenderer<NightmareChicaStat
 
 	@Override
 	public ResourceLocation getTextureLocation(NightmareChicaStatueEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/nightmare_chica.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/nightmare_chica.png");
 	}
 }

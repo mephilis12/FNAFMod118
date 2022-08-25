@@ -15,6 +15,6 @@ public class SittingWitheredChicaRenderer extends MobRenderer<SittingWitheredChi
 
 	@Override
 	public ResourceLocation getTextureLocation(SittingWitheredChicaEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/witheredchicatexture.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/witheredchicatexture.png");
 	}
 }

@@ -15,6 +15,6 @@ public class DayTimeBBRenderer extends MobRenderer<DayTimeBBEntity, ModelDaytime
 
 	@Override
 	public ResourceLocation getTextureLocation(DayTimeBBEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/balloonboytexture.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/balloonboytexture.png");
 	}
 }

@@ -96,7 +96,7 @@ public abstract class GlitchtrapSuitItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "fnaf_mod:textures/glitchtrap_mask.png";
+			return "fnaf_mod:textures/entities/glitchtrap_mask.png";
 		}
 	}
 
@@ -107,7 +107,7 @@ public abstract class GlitchtrapSuitItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "fnaf_mod:textures/glitchtrap_1.png";
+			return "fnaf_mod:textures/entities/glitchtrap_1.png";
 		}
 	}
 
@@ -118,7 +118,7 @@ public abstract class GlitchtrapSuitItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "fnaf_mod:textures/glitchtrap_2.png";
+			return "fnaf_mod:textures/entities/glitchtrap_2.png";
 		}
 	}
 
@@ -129,7 +129,7 @@ public abstract class GlitchtrapSuitItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "fnaf_mod:textures/glitchtrap_1.png";
+			return "fnaf_mod:textures/entities/glitchtrap_1.png";
 		}
 	}
 }

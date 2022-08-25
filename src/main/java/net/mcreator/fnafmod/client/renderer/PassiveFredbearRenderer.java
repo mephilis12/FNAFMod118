@@ -15,6 +15,6 @@ public class PassiveFredbearRenderer extends MobRenderer<PassiveFredbearEntity, 
 
 	@Override
 	public ResourceLocation getTextureLocation(PassiveFredbearEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/fredbear.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/fredbear.png");
 	}
 }

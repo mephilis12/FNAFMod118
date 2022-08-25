@@ -16,13 +16,13 @@ public class NightimeToyChicaRenderer extends MobRenderer<NightimeToyChicaEntity
 		this.addLayer(new EyesLayer<NightimeToyChicaEntity, ModelToy_Chica<NightimeToyChicaEntity>>(this) {
 			@Override
 			public RenderType renderType() {
-				return RenderType.eyes(new ResourceLocation("fnaf_mod:textures/toy_chica_night_eye_spooky.png"));
+				return RenderType.eyes(new ResourceLocation("fnaf_mod:textures/entities/toy_chica_night_eye_spooky.png"));
 			}
 		});
 	}
 
 	@Override
 	public ResourceLocation getTextureLocation(NightimeToyChicaEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/toy_chica_night.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/toy_chica_night.png");
 	}
 }

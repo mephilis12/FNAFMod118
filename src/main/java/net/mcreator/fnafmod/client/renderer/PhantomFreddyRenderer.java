@@ -15,6 +15,6 @@ public class PhantomFreddyRenderer extends MobRenderer<PhantomFreddyEntity, Mode
 
 	@Override
 	public ResourceLocation getTextureLocation(PhantomFreddyEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/phantom_freddy.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/phantom_freddy.png");
 	}
 }

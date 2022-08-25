@@ -17,6 +17,6 @@ public class SittingDaytimeSpringtrapRenderer
 
 	@Override
 	public ResourceLocation getTextureLocation(SittingDaytimeSpringtrapEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/springtrap.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/springtrap.png");
 	}
 }

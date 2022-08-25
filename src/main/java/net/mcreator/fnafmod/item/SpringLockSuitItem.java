@@ -102,7 +102,7 @@ public abstract class SpringLockSuitItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "fnaf_mod:textures/spring_bonnie_head.png";
+			return "fnaf_mod:textures/entities/spring_bonnie_head.png";
 		}
 
 		@Override
@@ -145,7 +145,7 @@ public abstract class SpringLockSuitItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "fnaf_mod:textures/spring_bonnie_layer_1.png";
+			return "fnaf_mod:textures/entities/spring_bonnie_layer_1.png";
 		}
 
 		@Override
@@ -161,7 +161,7 @@ public abstract class SpringLockSuitItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "fnaf_mod:textures/spring_bonnie_layer_2.png";
+			return "fnaf_mod:textures/entities/spring_bonnie_layer_2.png";
 		}
 
 		@Override
@@ -177,7 +177,7 @@ public abstract class SpringLockSuitItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "fnaf_mod:textures/spring_bonnie_layer_1.png";
+			return "fnaf_mod:textures/entities/spring_bonnie_layer_1.png";
 		}
 
 		@Override

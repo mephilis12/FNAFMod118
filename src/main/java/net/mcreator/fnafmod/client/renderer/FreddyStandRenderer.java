@@ -15,6 +15,6 @@ public class FreddyStandRenderer extends MobRenderer<FreddyStandEntity, ModelFre
 
 	@Override
 	public ResourceLocation getTextureLocation(FreddyStandEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/freddystand.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/freddystand.png");
 	}
 }

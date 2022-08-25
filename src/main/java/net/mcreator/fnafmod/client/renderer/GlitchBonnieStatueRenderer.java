@@ -15,6 +15,6 @@ public class GlitchBonnieStatueRenderer extends MobRenderer<GlitchBonnieStatueEn
 
 	@Override
 	public ResourceLocation getTextureLocation(GlitchBonnieStatueEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/springbonniewithvestandwhiskers.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/springbonniewithvestandwhiskers.png");
 	}
 }

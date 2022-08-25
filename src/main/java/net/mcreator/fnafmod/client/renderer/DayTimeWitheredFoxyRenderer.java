@@ -15,6 +15,6 @@ public class DayTimeWitheredFoxyRenderer extends MobRenderer<DayTimeWitheredFoxy
 
 	@Override
 	public ResourceLocation getTextureLocation(DayTimeWitheredFoxyEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/witheredfoxytexture.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/witheredfoxytexture.png");
 	}
 }

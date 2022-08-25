@@ -15,6 +15,6 @@ public class ChicaChickenRenderer extends MobRenderer<ChicaChickenEntity, ModelC
 
 	@Override
 	public ResourceLocation getTextureLocation(ChicaChickenEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/chica.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/chica.png");
 	}
 }

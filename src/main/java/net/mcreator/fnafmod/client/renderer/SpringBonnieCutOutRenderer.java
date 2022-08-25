@@ -15,6 +15,6 @@ public class SpringBonnieCutOutRenderer extends MobRenderer<SpringBonnieCutOutEn
 
 	@Override
 	public ResourceLocation getTextureLocation(SpringBonnieCutOutEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/spring_bonnie_cutout.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/spring_bonnie_cutout.png");
 	}
 }

@@ -15,6 +15,6 @@ public class SittingSpringBonnieRenderer extends MobRenderer<SittingSpringBonnie
 
 	@Override
 	public ResourceLocation getTextureLocation(SittingSpringBonnieEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/springbonnie.png");
+		return new ResourceLocation("fnaf_mod:textures/entities/springbonnie.png");
 	}
 }
