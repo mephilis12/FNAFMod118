@@ -134,5 +134,14 @@
         "stream": false
       }
     ]
+  },
+  "showtimebitemarkremixbysynoxsis": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "fnaf_mod:showtimeremixedbysynoxsis",
+        "stream": true
+      }
+    ]
   }
 }

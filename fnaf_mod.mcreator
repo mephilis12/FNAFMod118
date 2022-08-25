@@ -15016,6 +15016,60 @@
       "locked_code": false,
       "registry_name": "green_blue_tile_stair_cracked",
       "path": "~/Blocks"
+    },
+    {
+      "name": "UnwitheredChicaCutout",
+      "type": "livingentity",
+      "sortid": 261,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_chica_cutout",
+      "path": "~/Mobs/StatueAnimatronics"
+    },
+    {
+      "name": "BigWhiteCheckeredWall",
+      "type": "block",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_white_checkered_wall",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "UnwitheredBonnieCutout",
+      "type": "livingentity",
+      "sortid": 260,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_bonnie_cutout",
+      "path": "~/Mobs/StatueAnimatronics"
+    },
+    {
+      "name": "ShowtimeMadameMacabreBitemarkRemix",
+      "type": "musicdisc",
+      "sortid": 278,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "showtime_madame_macabre_bitemark_remix",
+      "path": "~/Discs"
+    },
+    {
+      "name": "UnwitheredFreddyCutout",
+      "type": "livingentity",
+      "sortid": 259,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_freddy_cutout",
+      "path": "~/Mobs/StatueAnimatronics"
+    },
+    {
+      "name": "UnwitheredFoxyCutout",
+      "type": "livingentity",
+      "sortid": 262,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unwithered_foxy_cutout",
+      "path": "~/Mobs/StatueAnimatronics"
     }
   ],
   "variable_elements": [
@@ -15396,6 +15450,14 @@
       ],
       "category": "block",
       "subtitle": "Closet Sound"
+    },
+    {
+      "name": "showtimebitemarkremixbysynoxsis",
+      "files": [
+        "showtimeremixedbysynoxsis"
+      ],
+      "category": "music",
+      "subtitle": ""
     }
   ],
   "language_map": {
@@ -15583,6 +15645,7 @@
       "entity.fnaf_mod.day_time_freddy": "DayTime Freddy",
       "block.fnaf_mod.green_blue_tile_slab": "Green Blue Tile Slab",
       "entity.fnaf_mod.phantom_puppet": "Phantom Puppet",
+      "subtitles.showtimebitemarkremixbysynoxsis": "",
       "item.fnaf_mod.toy_bonnie_spawn_egg": "Toy Bonnie Spawn Egg",
       "block.fnaf_mod.fnaf_4_wall_room_bottom": "Tapestry Bottom Blue",
       "entity.fnaf_mod.full_hostile_freddy": "Freddy Fazbear",
@@ -15939,7 +16002,15 @@
         "children": []
       },
       {
-        "name": "Items",
+        "name": "LootTables",
+        "children": []
+      },
+      {
+        "name": "GUIs and Extras",
+        "children": []
+      },
+      {
+        "name": "Jumpscares",
         "children": []
       },
       {
@@ -15947,40 +16018,19 @@
         "children": []
       },
       {
-        "name": "Mobs",
-        "children": [
-          {
-            "name": "StatueAnimatronics",
-            "children": []
-          },
-          {
-            "name": "NighttimeAnimatronics",
-            "children": []
-          },
-          {
-            "name": "DaytimeAnimatronics",
-            "children": []
-          },
-          {
-            "name": "FriendlyAnimatronics",
-            "children": []
-          },
-          {
-            "name": "FullHostileAnimatronics",
-            "children": []
-          },
-          {
-            "name": "Phantoms",
-            "children": []
-          },
-          {
-            "name": "VentCrawler",
-            "children": []
-          }
-        ]
+        "name": "Structure Spawners",
+        "children": []
+      },
+      {
+        "name": "Items",
+        "children": []
       },
       {
         "name": "Overlays",
+        "children": []
+      },
+      {
+        "name": "Spawning Blocks",
         "children": []
       },
       {
@@ -15992,31 +16042,44 @@
         "children": []
       },
       {
-        "name": "LootTables",
-        "children": []
-      },
-      {
-        "name": "GUIs and Extras",
-        "children": []
-      },
-      {
         "name": "Posters",
         "children": []
       },
       {
+        "name": "Mobs",
+        "children": [
+          {
+            "name": "Phantoms",
+            "children": []
+          },
+          {
+            "name": "VentCrawler",
+            "children": []
+          },
+          {
+            "name": "FriendlyAnimatronics",
+            "children": []
+          },
+          {
+            "name": "FullHostileAnimatronics",
+            "children": []
+          },
+          {
+            "name": "StatueAnimatronics",
+            "children": []
+          },
+          {
+            "name": "NighttimeAnimatronics",
+            "children": []
+          },
+          {
+            "name": "DaytimeAnimatronics",
+            "children": []
+          }
+        ]
+      },
+      {
         "name": "Discs",
-        "children": []
-      },
-      {
-        "name": "Spawning Blocks",
-        "children": []
-      },
-      {
-        "name": "Jumpscares",
-        "children": []
-      },
-      {
-        "name": "Structure Spawners",
         "children": []
       }
     ]
@@ -16041,5 +16104,5 @@
     "modElementsPackage": "net.mcreator.fnafmod",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200234517
+  "mcreatorVersion": 202200120510
 }

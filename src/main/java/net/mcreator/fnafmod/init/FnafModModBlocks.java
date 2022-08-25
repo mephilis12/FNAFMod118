@@ -215,6 +215,7 @@ import net.mcreator.fnafmod.block.BlackWallBlock;
 import net.mcreator.fnafmod.block.BlackPurpleWallTileBlock;
 import net.mcreator.fnafmod.block.BigWhiteRedWallTileBlock;
 import net.mcreator.fnafmod.block.BigWhitePurpleTileBlock;
+import net.mcreator.fnafmod.block.BigWhiteCheckeredWallBlock;
 import net.mcreator.fnafmod.block.BigWhiteBlackWallTileBlock;
 import net.mcreator.fnafmod.block.BigWallTileBlock;
 import net.mcreator.fnafmod.block.BigStageBrickTilesBlock;
@@ -363,6 +364,8 @@ public class FnafModModBlocks {
 			() -> new BigCheckeredWallTileBlock());
 	public static final RegistryObject<Block> BIG_CHECKERED_WHITE_WALL_TILE = REGISTRY.register("big_checkered_white_wall_tile",
 			() -> new BigCheckeredWhiteWallTileBlock());
+	public static final RegistryObject<Block> BIG_WHITE_CHECKERED_WALL = REGISTRY.register("big_white_checkered_wall",
+			() -> new BigWhiteCheckeredWallBlock());
 	public static final RegistryObject<Block> BIG_RANCID_WALL_TILES = REGISTRY.register("big_rancid_wall_tiles", () -> new BigRancidWallTilesBlock());
 	public static final RegistryObject<Block> ALTERNATE_BIG_RANCID_WALL_TILES = REGISTRY.register("alternate_big_rancid_wall_tiles",
 			() -> new AlternateBigRancidWallTilesBlock());

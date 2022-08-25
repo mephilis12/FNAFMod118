@@ -22,9 +22,13 @@ import net.mcreator.fnafmod.entity.WitheredFoxyEntity;
 import net.mcreator.fnafmod.entity.WitheredChicaEntity;
 import net.mcreator.fnafmod.entity.WitheredBonnieEntity;
 import net.mcreator.fnafmod.entity.UnwitheredFreddyStatueEntity;
+import net.mcreator.fnafmod.entity.UnwitheredFreddyCutoutEntity;
 import net.mcreator.fnafmod.entity.UnwitheredFoxyStatueEntity;
+import net.mcreator.fnafmod.entity.UnwitheredFoxyCutoutEntity;
 import net.mcreator.fnafmod.entity.UnwitheredChicaStatueEntity;
+import net.mcreator.fnafmod.entity.UnwitheredChicaCutoutEntity;
 import net.mcreator.fnafmod.entity.UnwitheredBonnieStatueEntity;
+import net.mcreator.fnafmod.entity.UnwitheredBonnieCutoutEntity;
 import net.mcreator.fnafmod.entity.ToyFreddyEntity;
 import net.mcreator.fnafmod.entity.ToyFoxyEntity;
 import net.mcreator.fnafmod.entity.ToyChicaEntity;
@@ -307,7 +311,7 @@ public class FnafModModEntities {
 			EntityType.Builder.<SpringBonnieCutOutEntity>of(SpringBonnieCutOutEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
 					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SpringBonnieCutOutEntity::new)
 
-					.sized(0.9f, 0.9f));
+					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<UnwitheredFreddyStatueEntity>> UNWITHERED_FREDDY_STATUE = register("unwithered_freddy_statue",
 			EntityType.Builder.<UnwitheredFreddyStatueEntity>of(UnwitheredFreddyStatueEntity::new, MobCategory.MONSTER)
 					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
@@ -348,6 +352,30 @@ public class FnafModModEntities {
 			EntityType.Builder.<NightmareChicaStatueEntity>of(NightmareChicaStatueEntity::new, MobCategory.MONSTER)
 					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 					.setCustomClientFactory(NightmareChicaStatueEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<UnwitheredFreddyCutoutEntity>> UNWITHERED_FREDDY_CUTOUT = register("unwithered_freddy_cutout",
+			EntityType.Builder.<UnwitheredFreddyCutoutEntity>of(UnwitheredFreddyCutoutEntity::new, MobCategory.MONSTER)
+					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(UnwitheredFreddyCutoutEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<UnwitheredBonnieCutoutEntity>> UNWITHERED_BONNIE_CUTOUT = register("unwithered_bonnie_cutout",
+			EntityType.Builder.<UnwitheredBonnieCutoutEntity>of(UnwitheredBonnieCutoutEntity::new, MobCategory.MONSTER)
+					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(UnwitheredBonnieCutoutEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<UnwitheredChicaCutoutEntity>> UNWITHERED_CHICA_CUTOUT = register("unwithered_chica_cutout",
+			EntityType.Builder.<UnwitheredChicaCutoutEntity>of(UnwitheredChicaCutoutEntity::new, MobCategory.MONSTER)
+					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(UnwitheredChicaCutoutEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<UnwitheredFoxyCutoutEntity>> UNWITHERED_FOXY_CUTOUT = register("unwithered_foxy_cutout",
+			EntityType.Builder.<UnwitheredFoxyCutoutEntity>of(UnwitheredFoxyCutoutEntity::new, MobCategory.MONSTER)
+					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(UnwitheredFoxyCutoutEntity::new)
 
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<TheCrooblerEntity>> THE_GROOBLER = register("the_groobler",
@@ -595,7 +623,7 @@ public class FnafModModEntities {
 			EntityType.Builder.<GlitchBonnieCutOutEntity>of(GlitchBonnieCutOutEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
 					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GlitchBonnieCutOutEntity::new)
 
-					.sized(1.4f, 0.9f));
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -650,6 +678,10 @@ public class FnafModModEntities {
 			NightmareFreddyStatueEntity.init();
 			NightmareBonnieStatueEntity.init();
 			NightmareChicaStatueEntity.init();
+			UnwitheredFreddyCutoutEntity.init();
+			UnwitheredBonnieCutoutEntity.init();
+			UnwitheredChicaCutoutEntity.init();
+			UnwitheredFoxyCutoutEntity.init();
 			TheCrooblerEntity.init();
 			FreddyFazbearEntity.init();
 			BonnieBunnyEntity.init();
@@ -749,6 +781,10 @@ public class FnafModModEntities {
 		event.put(NIGHTMARE_FREDDY_STATUE.get(), NightmareFreddyStatueEntity.createAttributes().build());
 		event.put(NIGHTMARE_BONNIE_STATUE.get(), NightmareBonnieStatueEntity.createAttributes().build());
 		event.put(NIGHTMARE_CHICA_STATUE.get(), NightmareChicaStatueEntity.createAttributes().build());
+		event.put(UNWITHERED_FREDDY_CUTOUT.get(), UnwitheredFreddyCutoutEntity.createAttributes().build());
+		event.put(UNWITHERED_BONNIE_CUTOUT.get(), UnwitheredBonnieCutoutEntity.createAttributes().build());
+		event.put(UNWITHERED_CHICA_CUTOUT.get(), UnwitheredChicaCutoutEntity.createAttributes().build());
+		event.put(UNWITHERED_FOXY_CUTOUT.get(), UnwitheredFoxyCutoutEntity.createAttributes().build());
 		event.put(THE_GROOBLER.get(), TheCrooblerEntity.createAttributes().build());
 		event.put(FREDDY_FAZBEAR.get(), FreddyFazbearEntity.createAttributes().build());
 		event.put(BONNIE_BUNNY.get(), BonnieBunnyEntity.createAttributes().build());

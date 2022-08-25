@@ -2,10 +2,11 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"1": "Models/security_door"
+		"1": "security_door"
 	},
 	"elements": [
 		{
+			"name": "door",
 			"from": [0, 30, 7],
 			"to": [16, 32, 9],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 39, 15]},
@@ -14,7 +15,7 @@
 				"east": {"uv": [0.5, 15, 1.5, 16], "texture": "#1"},
 				"south": {"uv": [0, 15, 8, 16], "texture": "#1"},
 				"west": {"uv": [0, 15, 1, 16], "texture": "#1"},
-				"up": {"uv": [0, 15, 8, 16], "texture": "#1"},
+				"up": {"uv": [15.5, 0, 16, 0.5], "texture": "#1"},
 				"down": {"uv": [0, 15, 8, 16], "texture": "#1"}
 			}
 		}

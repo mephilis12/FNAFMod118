@@ -11,7 +11,7 @@
     "renderType": 2,
     "customModelName": "small_piles:default",
     "rotationMode": 1,
-    "enablePitch": false,
+    "enablePitch": true,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",

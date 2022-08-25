@@ -29,6 +29,7 @@ import net.mcreator.fnafmod.item.SpringlockedSuitItem;
 import net.mcreator.fnafmod.item.SpringlockedFredbearSuitItem;
 import net.mcreator.fnafmod.item.SpringLockSuitItem;
 import net.mcreator.fnafmod.item.SpringBonnieItem;
+import net.mcreator.fnafmod.item.ShowtimeMadameMacabreBitemarkRemixItem;
 import net.mcreator.fnafmod.item.ShadowRemnantItem;
 import net.mcreator.fnafmod.item.RemnantItem;
 import net.mcreator.fnafmod.item.RedPlasticItem;
@@ -183,6 +184,8 @@ public class FnafModModItems {
 	public static final RegistryObject<Item> BIG_CHECKERED_WALL_TILE = block(FnafModModBlocks.BIG_CHECKERED_WALL_TILE,
 			FnafModModTabs.TAB_FNAF_BLOCKS);
 	public static final RegistryObject<Item> BIG_CHECKERED_WHITE_WALL_TILE = block(FnafModModBlocks.BIG_CHECKERED_WHITE_WALL_TILE,
+			FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> BIG_WHITE_CHECKERED_WALL = block(FnafModModBlocks.BIG_WHITE_CHECKERED_WALL,
 			FnafModModTabs.TAB_FNAF_BLOCKS);
 	public static final RegistryObject<Item> BIG_RANCID_WALL_TILES = block(FnafModModBlocks.BIG_RANCID_WALL_TILES, FnafModModTabs.TAB_FNAF_BLOCKS);
 	public static final RegistryObject<Item> ALTERNATE_BIG_RANCID_WALL_TILES = block(FnafModModBlocks.ALTERNATE_BIG_RANCID_WALL_TILES,
@@ -466,12 +469,24 @@ public class FnafModModItems {
 			FnafModModTabs.TAB_STRUCTURE_SPAWNERS);
 	public static final RegistryObject<Item> STRUCTURE_SPAWNING_BLOCK_2 = block(FnafModModBlocks.STRUCTURE_SPAWNING_BLOCK_2,
 			FnafModModTabs.TAB_STRUCTURE_SPAWNERS);
+	public static final RegistryObject<Item> UNWITHERED_FREDDY_CUTOUT = REGISTRY.register("unwithered_freddy_cutout_spawn_egg",
+			() -> new ForgeSpawnEggItem(FnafModModEntities.UNWITHERED_FREDDY_CUTOUT, -12509169, -5679320,
+					new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
 	public static final RegistryObject<Item> STRUCTURE_SPAWNING_BLOCK_3 = block(FnafModModBlocks.STRUCTURE_SPAWNING_BLOCK_3,
 			FnafModModTabs.TAB_STRUCTURE_SPAWNERS);
+	public static final RegistryObject<Item> UNWITHERED_BONNIE_CUTOUT = REGISTRY.register("unwithered_bonnie_cutout_spawn_egg",
+			() -> new ForgeSpawnEggItem(FnafModModEntities.UNWITHERED_BONNIE_CUTOUT, -13229216, -9998433,
+					new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
 	public static final RegistryObject<Item> STRUCTURE_SPAWNING_BLOCK_4 = block(FnafModModBlocks.STRUCTURE_SPAWNING_BLOCK_4,
 			FnafModModTabs.TAB_STRUCTURE_SPAWNERS);
+	public static final RegistryObject<Item> UNWITHERED_CHICA_CUTOUT = REGISTRY.register("unwithered_chica_cutout_spawn_egg",
+			() -> new ForgeSpawnEggItem(FnafModModEntities.UNWITHERED_CHICA_CUTOUT, -9728, -328966,
+					new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
 	public static final RegistryObject<Item> STRUCTURE_SPAWNING_BLOCK_5 = block(FnafModModBlocks.STRUCTURE_SPAWNING_BLOCK_5,
 			FnafModModTabs.TAB_STRUCTURE_SPAWNERS);
+	public static final RegistryObject<Item> UNWITHERED_FOXY_CUTOUT = REGISTRY.register("unwithered_foxy_cutout_spawn_egg",
+			() -> new ForgeSpawnEggItem(FnafModModEntities.UNWITHERED_FOXY_CUTOUT, -8903644, -681860,
+					new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
 	public static final RegistryObject<Item> STRUCTURE_SPAWNING_BLOCK_6 = block(FnafModModBlocks.STRUCTURE_SPAWNING_BLOCK_6,
 			FnafModModTabs.TAB_STRUCTURE_SPAWNERS);
 	public static final RegistryObject<Item> STRUCTURE_SPAWNING_BLOCK_7 = block(FnafModModBlocks.STRUCTURE_SPAWNING_BLOCK_7,
@@ -494,6 +509,8 @@ public class FnafModModItems {
 	public static final RegistryObject<Item> CHILDREN_DRAWINGS_4 = block(FnafModModBlocks.CHILDREN_DRAWINGS_4, FnafModModTabs.TAB_DRAWINGS_POSTERS);
 	public static final RegistryObject<Item> CHILDREN_DRAWINGS_5 = block(FnafModModBlocks.CHILDREN_DRAWINGS_5, FnafModModTabs.TAB_DRAWINGS_POSTERS);
 	public static final RegistryObject<Item> CHILDREN_DRAWINGS_6 = block(FnafModModBlocks.CHILDREN_DRAWINGS_6, FnafModModTabs.TAB_DRAWINGS_POSTERS);
+	public static final RegistryObject<Item> SHOWTIME_MADAME_MACABRE_BITEMARK_REMIX = REGISTRY.register("showtime_madame_macabre_bitemark_remix",
+			() -> new ShowtimeMadameMacabreBitemarkRemixItem());
 	public static final RegistryObject<Item> CHILDREN_DRAWINGS_7 = block(FnafModModBlocks.CHILDREN_DRAWINGS_7, FnafModModTabs.TAB_DRAWINGS_POSTERS);
 	public static final RegistryObject<Item> POSTER_1 = block(FnafModModBlocks.POSTER_1, FnafModModTabs.TAB_DRAWINGS_POSTERS);
 	public static final RegistryObject<Item> POSTER_2 = block(FnafModModBlocks.POSTER_2, FnafModModTabs.TAB_DRAWINGS_POSTERS);
