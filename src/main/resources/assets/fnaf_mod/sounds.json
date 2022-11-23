@@ -143,5 +143,115 @@
         "stream": true
       }
     ]
+  },
+  "breathing": {
+    "category": "hostile",
+    "subtitle": "subtitles.breathing",
+    "sounds": [
+      {
+        "name": "fnaf_mod:breathe1",
+        "stream": false
+      },
+      {
+        "name": "fnaf_mod:breath2",
+        "stream": false
+      },
+      {
+        "name": "fnaf_mod:breath3",
+        "stream": false
+      },
+      {
+        "name": "fnaf_mod:breath4",
+        "stream": false
+      },
+      {
+        "name": "fnaf_mod:breath5",
+        "stream": false
+      },
+      {
+        "name": "fnaf_mod:breath6",
+        "stream": false
+      },
+      {
+        "name": "fnaf_mod:breath7",
+        "stream": false
+      }
+    ]
+  },
+  "fredbearlaugh": {
+    "category": "hostile",
+    "subtitle": "subtitles.fredbearlaugh",
+    "sounds": [
+      {
+        "name": "fnaf_mod:fredlaugh1",
+        "stream": false
+      },
+      {
+        "name": "fnaf_mod:fredlaugh2",
+        "stream": false
+      },
+      {
+        "name": "fnaf_mod:fredlaugh3",
+        "stream": false
+      },
+      {
+        "name": "fnaf_mod:fredlaugh4",
+        "stream": false
+      }
+    ]
+  },
+  "camerablip": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "fnaf_mod:blip3",
+        "stream": false
+      }
+    ]
+  },
+  "cameraup": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "fnaf_mod:cemaraup",
+        "stream": false
+      }
+    ]
+  },
+  "cameradown": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "fnaf_mod:cameradown",
+        "stream": false
+      }
+    ]
+  },
+  "ourlittlehorrorstory": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "fnaf_mod:little_horror_storymp3",
+        "stream": true
+      }
+    ]
+  },
+  "showtimefunky": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "fnaf_mod:fnaf_showtime",
+        "stream": false
+      }
+    ]
+  },
+  "itsbeensolong": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "fnaf_mod:itsbeensolong",
+        "stream": false
+      }
+    ]
   }
 }

@@ -15,7 +15,7 @@ import net.minecraft.client.model.EntityModel;
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import com.mojang.blaze3d.vertex.PoseStack;
 
-// Made with Blockbench 4.2.4
+// Made with Blockbench 4.4.3
 // Exported for Minecraft version 1.17 - 1.18 with Mojang mappings
 // Paste this class into your mod and generate all required imports
 public class ModelFredbearMask<T extends Entity> extends EntityModel<T> {
@@ -32,10 +32,10 @@ public class ModelFredbearMask<T extends Entity> extends EntityModel<T> {
 		MeshDefinition meshdefinition = new MeshDefinition();
 		PartDefinition partdefinition = meshdefinition.getRoot();
 		PartDefinition Head = partdefinition.addOrReplaceChild("Head",
-				CubeListBuilder.create().texOffs(0, 0).addBox(-4.0F, -8.0F, -4.0F, 8.0F, 8.0F, 8.0F, new CubeDeformation(1.0F)).texOffs(32, 0)
-						.addBox(-4.0F, -8.0F, -4.0F, 8.0F, 8.0F, 8.0F, new CubeDeformation(1.5F)).texOffs(24, 29)
-						.addBox(-6.0F, -11.0F, 0.1F, 12.0F, 3.0F, 0.0F, new CubeDeformation(0.3F)).texOffs(0, 29)
-						.addBox(-6.0F, -11.0F, 0.0F, 12.0F, 3.0F, 0.0F, new CubeDeformation(0.3F)).texOffs(40, 22)
+				CubeListBuilder.create().texOffs(9, 16).addBox(4.0F, -11.0F, -1.0F, 3.0F, 3.0F, 1.0F, new CubeDeformation(0.0F)).texOffs(0, 16)
+						.addBox(-7.0F, -11.0F, -1.0F, 3.0F, 3.0F, 1.0F, new CubeDeformation(0.0F)).texOffs(0, 0)
+						.addBox(-4.0F, -8.0F, -4.0F, 8.0F, 8.0F, 8.0F, new CubeDeformation(1.0F)).texOffs(32, 0)
+						.addBox(-4.0F, -8.0F, -4.0F, 8.0F, 8.0F, 8.0F, new CubeDeformation(1.5F)).texOffs(40, 22)
 						.addBox(-3.0F, -10.0F, -3.0F, 6.0F, 1.0F, 6.0F, new CubeDeformation(0.1F)).texOffs(20, 18)
 						.addBox(-2.5F, -14.0F, -2.5F, 5.0F, 4.0F, 5.0F, new CubeDeformation(0.0F)),
 				PartPose.offset(0.0F, 0.0F, 0.0F));

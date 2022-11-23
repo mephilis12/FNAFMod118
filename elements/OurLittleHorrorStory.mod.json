@@ -1,0 +1,19 @@
+{
+  "_fv": 34,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Music Disc",
+    "texture": "horror_story_disc",
+    "description": "Our Little Horror Story Funky Mix - SomethingFunky",
+    "creativeTab": {
+      "value": "CUSTOM:MusicDiscs"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:ourlittlehorrorstory"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "foxy_arcade_machine"
+      },
+      "name": "default"
+    }
+  }
+}

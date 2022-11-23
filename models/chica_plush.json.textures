@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "2": "plush_chica"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -2,7 +2,8 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "desk3texture"
+        "0": "desk3texture",
+        "missing": "desk3texture"
       },
       "name": "default"
     }

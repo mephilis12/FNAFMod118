@@ -66,7 +66,7 @@ public class FnafModModTabs {
 		TAB_MUSIC_DISCS = new CreativeModeTab("tabmusic_discs") {
 			@Override
 			public ItemStack makeIcon() {
-				return new ItemStack(FnafModModItems.HAPPIEST_DAY.get());
+				return new ItemStack(FnafModModItems.TOREADOR_MARCH.get());
 			}
 
 			@OnlyIn(Dist.CLIENT)

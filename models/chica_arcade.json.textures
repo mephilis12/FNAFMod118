@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "chica_arcade_machine"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "_fv": 33,
+  "_fv": 34,
   "_type": "livingentity",
   "definition": {
     "mobName": "Shadow Freddy",
@@ -49,7 +49,7 @@
     "attackStrength": 20,
     "attackKnockback": 0.0,
     "knockbackResistance": 2.0,
-    "movementSpeed": 0.0,
+    "movementSpeed": 0.25,
     "armorBaseValue": 0.0,
     "trackingRange": 64,
     "followRange": 16,

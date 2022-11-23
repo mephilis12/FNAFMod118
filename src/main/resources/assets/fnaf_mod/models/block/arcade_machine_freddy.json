@@ -1,0 +1,8 @@
+{
+  "parent": "fnaf_mod:custom/freddy_arcade",
+  "textures": {
+    "all": "fnaf_mod:blocks/arcade_machine_freddy",
+    "particle": "fnaf_mod:blocks/arcade_machine_freddy",
+    "0": "fnaf_mod:blocks/arcade_machine_freddy"
+  }
+}

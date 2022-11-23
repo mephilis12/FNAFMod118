@@ -1,0 +1,12 @@
+{
+  "_fv": 34,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "Z",
+    "keyBindingName": "Exit Camera",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "ExitKeyPressed"
+    }
+  }
+}

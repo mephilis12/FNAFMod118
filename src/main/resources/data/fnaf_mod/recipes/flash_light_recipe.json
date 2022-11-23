@@ -3,7 +3,7 @@
   "pattern": [
     "012",
     "345",
-    " 7 "
+    " 78"
   ],
   "key": {
     "0": {
@@ -26,6 +26,9 @@
     },
     "7": {
       "item": "fnaf_mod:black_plastic"
+    },
+    "8": {
+      "item": "fnaf_mod:battery"
     }
   },
   "result": {

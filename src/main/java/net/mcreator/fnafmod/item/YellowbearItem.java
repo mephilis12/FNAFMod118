@@ -23,9 +23,9 @@ public class YellowbearItem extends Item {
 
 	@Override
 	public InteractionResult useOn(UseOnContext context) {
-		InteractionResult retval = super.useOn(context);
+		super.useOn(context);
 		YellowbearRightClickedOnBlockProcedure.execute(context.getLevel(), context.getClickedPos().getX(), context.getClickedPos().getY(),
 				context.getClickedPos().getZ(), context.getPlayer());
-		return retval;
+		return InteractionResult.SUCCESS;
 	}
 }

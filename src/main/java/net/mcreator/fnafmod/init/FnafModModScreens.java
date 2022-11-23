@@ -15,6 +15,7 @@ import net.mcreator.fnafmod.client.gui.WallChange2Screen;
 import net.mcreator.fnafmod.client.gui.WallChange1Screen;
 import net.mcreator.fnafmod.client.gui.RemnantInfuserScreen;
 import net.mcreator.fnafmod.client.gui.LockerScreen;
+import net.mcreator.fnafmod.client.gui.CameraGUIScreen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class FnafModModScreens {
@@ -25,6 +26,7 @@ public class FnafModModScreens {
 			MenuScreens.register(FnafModModMenus.WALL_CHANGE_1, WallChange1Screen::new);
 			MenuScreens.register(FnafModModMenus.WALL_CHANGE_2, WallChange2Screen::new);
 			MenuScreens.register(FnafModModMenus.REMNANT_INFUSER, RemnantInfuserScreen::new);
+			MenuScreens.register(FnafModModMenus.CAMERA_GUI, CameraGUIScreen::new);
 		});
 	}
 }

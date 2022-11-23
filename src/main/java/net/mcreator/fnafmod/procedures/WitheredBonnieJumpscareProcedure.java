@@ -67,8 +67,12 @@ public class WitheredBonnieJumpscareProcedure {
 				}
 
 				private void run() {
-					if (entity instanceof LivingEntity _entity)
-						_entity.setHealth(0);
+					{
+						Entity _ent = entity;
+						if (!_ent.level.isClientSide() && _ent.getServer() != null)
+							_ent.getServer().getCommands().performCommand(_ent.createCommandSourceStack().withSuppressedOutput().withPermission(4),
+									"kill");
+					}
 					MinecraftForge.EVENT_BUS.unregister(this);
 				}
 			}.start(world, 20);

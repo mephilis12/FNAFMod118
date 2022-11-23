@@ -1,5 +1,5 @@
 {
-  "_fv": 33,
+  "_fv": 34,
   "_type": "block",
   "definition": {
     "texture": "desk2texture",
@@ -28,7 +28,7 @@
         "my": 0.0,
         "mz": 0.0,
         "Mx": 31.0,
-        "My": 17.0,
+        "My": 16.0,
         "Mz": 16.0,
         "subtract": false
       }

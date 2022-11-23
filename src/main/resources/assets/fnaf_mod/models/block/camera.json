@@ -1,8 +1,0 @@
-{
-  "parent": "fnaf_mod:custom/camera",
-  "textures": {
-    "all": "fnaf_mod:blocks/camera",
-    "particle": "fnaf_mod:blocks/camera",
-    "0": "fnaf_mod:blocks/camera"
-  }
-}

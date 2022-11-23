@@ -34,6 +34,15 @@ public class FnafModModSounds {
 		REGISTRY.put(new ResourceLocation("fnaf_mod", "doorcreak"), new SoundEvent(new ResourceLocation("fnaf_mod", "doorcreak")));
 		REGISTRY.put(new ResourceLocation("fnaf_mod", "showtimebitemarkremixbysynoxsis"),
 				new SoundEvent(new ResourceLocation("fnaf_mod", "showtimebitemarkremixbysynoxsis")));
+		REGISTRY.put(new ResourceLocation("fnaf_mod", "breathing"), new SoundEvent(new ResourceLocation("fnaf_mod", "breathing")));
+		REGISTRY.put(new ResourceLocation("fnaf_mod", "fredbearlaugh"), new SoundEvent(new ResourceLocation("fnaf_mod", "fredbearlaugh")));
+		REGISTRY.put(new ResourceLocation("fnaf_mod", "camerablip"), new SoundEvent(new ResourceLocation("fnaf_mod", "camerablip")));
+		REGISTRY.put(new ResourceLocation("fnaf_mod", "cameraup"), new SoundEvent(new ResourceLocation("fnaf_mod", "cameraup")));
+		REGISTRY.put(new ResourceLocation("fnaf_mod", "cameradown"), new SoundEvent(new ResourceLocation("fnaf_mod", "cameradown")));
+		REGISTRY.put(new ResourceLocation("fnaf_mod", "ourlittlehorrorstory"),
+				new SoundEvent(new ResourceLocation("fnaf_mod", "ourlittlehorrorstory")));
+		REGISTRY.put(new ResourceLocation("fnaf_mod", "showtimefunky"), new SoundEvent(new ResourceLocation("fnaf_mod", "showtimefunky")));
+		REGISTRY.put(new ResourceLocation("fnaf_mod", "itsbeensolong"), new SoundEvent(new ResourceLocation("fnaf_mod", "itsbeensolong")));
 	}
 
 	@SubscribeEvent

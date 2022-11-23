@@ -201,6 +201,7 @@ public class FnafModModVariables {
 	public static class MapVariables extends SavedData {
 		public static final String DATA_NAME = "fnaf_mod_mapvars";
 		public double Rand1 = 0;
+		public boolean IsItDay = false;
 
 		public static MapVariables load(CompoundTag tag) {
 			MapVariables data = new MapVariables();
@@ -210,11 +211,13 @@ public class FnafModModVariables {
 
 		public void read(CompoundTag nbt) {
 			Rand1 = nbt.getDouble("Rand1");
+			IsItDay = nbt.getBoolean("IsItDay");
 		}
 
 		@Override
 		public CompoundTag save(CompoundTag nbt) {
 			nbt.putDouble("Rand1", Rand1);
+			nbt.putBoolean("IsItDay", IsItDay);
 			return nbt;
 		}
 

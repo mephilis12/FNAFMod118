@@ -16,6 +16,7 @@ import net.mcreator.fnafmod.world.inventory.WallChange2Menu;
 import net.mcreator.fnafmod.world.inventory.WallChange1Menu;
 import net.mcreator.fnafmod.world.inventory.RemnantInfuserMenu;
 import net.mcreator.fnafmod.world.inventory.LockerMenu;
+import net.mcreator.fnafmod.world.inventory.CameraGUIMenu;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -30,6 +31,7 @@ public class FnafModModMenus {
 			(id, inv, extraData) -> new WallChange2Menu(id, inv, extraData));
 	public static final MenuType<RemnantInfuserMenu> REMNANT_INFUSER = register("remnant_infuser",
 			(id, inv, extraData) -> new RemnantInfuserMenu(id, inv, extraData));
+	public static final MenuType<CameraGUIMenu> CAMERA_GUI = register("camera_gui", (id, inv, extraData) -> new CameraGUIMenu(id, inv, extraData));
 
 	private static <T extends AbstractContainerMenu> MenuType<T> register(String registryname, IContainerFactory<T> containerFactory) {
 		MenuType<T> menuType = new MenuType<T>(containerFactory);

@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "desktexture"
+        "1": "desktexture"
       },
       "name": "default"
     }

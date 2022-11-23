@@ -96,6 +96,13 @@ import net.mcreator.fnafmod.block.Poster4Block;
 import net.mcreator.fnafmod.block.Poster3Block;
 import net.mcreator.fnafmod.block.Poster2Block;
 import net.mcreator.fnafmod.block.Poster1Block;
+import net.mcreator.fnafmod.block.PlushtrapSittingSideBlock;
+import net.mcreator.fnafmod.block.PlushrapSittingOnTopBlock;
+import net.mcreator.fnafmod.block.PlushFreddyBlock;
+import net.mcreator.fnafmod.block.PlushFredbearBlock;
+import net.mcreator.fnafmod.block.PlushFoxyBlock;
+import net.mcreator.fnafmod.block.PlushChicaBlock;
+import net.mcreator.fnafmod.block.PlushBonnieBlock;
 import net.mcreator.fnafmod.block.PizzaBoxOpenBlock;
 import net.mcreator.fnafmod.block.PizzaBoxClosedBlock;
 import net.mcreator.fnafmod.block.PhoneBlock;
@@ -125,11 +132,13 @@ import net.mcreator.fnafmod.block.FreddyPlushieBlock;
 import net.mcreator.fnafmod.block.FreddyHeadBlock;
 import net.mcreator.fnafmod.block.FredbearPlushieBlock;
 import net.mcreator.fnafmod.block.FredbearPlushBlock;
+import net.mcreator.fnafmod.block.FredbearFloorCleanBlock;
 import net.mcreator.fnafmod.block.FredbearFloorBlock;
 import net.mcreator.fnafmod.block.FoxyPlushieBlock;
 import net.mcreator.fnafmod.block.FoxyHeadDecorationBlock;
 import net.mcreator.fnafmod.block.FoxyHeadBlock;
 import net.mcreator.fnafmod.block.Fnaf4DoorBlock;
+import net.mcreator.fnafmod.block.FlashLightLightBlock;
 import net.mcreator.fnafmod.block.FanBlock;
 import net.mcreator.fnafmod.block.FNAFWallTopRotableBlock;
 import net.mcreator.fnafmod.block.FNAFWallTopRotable4Block;
@@ -195,7 +204,6 @@ import net.mcreator.fnafmod.block.CheckeredWallBlock;
 import net.mcreator.fnafmod.block.CheckeredTileBlock;
 import net.mcreator.fnafmod.block.ChairBlock;
 import net.mcreator.fnafmod.block.CandyCurtainBlock;
-import net.mcreator.fnafmod.block.CameraBlock;
 import net.mcreator.fnafmod.block.CactusCurtainBlock;
 import net.mcreator.fnafmod.block.BonniePlushieBlock;
 import net.mcreator.fnafmod.block.BonnieHeadBlock;
@@ -232,12 +240,17 @@ import net.mcreator.fnafmod.block.BalloonGreenBlock;
 import net.mcreator.fnafmod.block.BalloonBlueBlock;
 import net.mcreator.fnafmod.block.BalloonBlock;
 import net.mcreator.fnafmod.block.BackstageDoorBlock;
+import net.mcreator.fnafmod.block.ArcadeMachineShadowFreddyBlock;
+import net.mcreator.fnafmod.block.ArcadeMachineFreddyBlock;
 import net.mcreator.fnafmod.block.ArcadeMachineFoxyBlock;
+import net.mcreator.fnafmod.block.ArcadeMachineFoxy2Block;
+import net.mcreator.fnafmod.block.ArcadeMachineChicaBlock;
 import net.mcreator.fnafmod.block.ArcadeMachineBonnieBlock;
 import net.mcreator.fnafmod.block.ArcadeMachineBBBlock;
 import net.mcreator.fnafmod.block.AlternateWhiteRedWallTileBlock;
 import net.mcreator.fnafmod.block.AlternateWhitePurpleWallTilesBlock;
 import net.mcreator.fnafmod.block.AlternateWallTileBlock;
+import net.mcreator.fnafmod.block.AlternateStageBrickTilesBlock;
 import net.mcreator.fnafmod.block.AlternatePurpleStageBrickTilesBlock;
 import net.mcreator.fnafmod.block.AlternateBlackPurpleWallTileBlock;
 import net.mcreator.fnafmod.block.AlternateBigWhiteRedWallTileBlock;
@@ -307,8 +320,11 @@ public class FnafModModBlocks {
 	public static final RegistryObject<Block> GREEN_BLUE_TILE_SLAB_CRACKED = REGISTRY.register("green_blue_tile_slab_cracked",
 			() -> new GreenBlueTileSlabCrackedBlock());
 	public static final RegistryObject<Block> FREDBEAR_FLOOR = REGISTRY.register("fredbear_floor", () -> new FredbearFloorBlock());
+	public static final RegistryObject<Block> FREDBEAR_FLOOR_CLEAN = REGISTRY.register("fredbear_floor_clean", () -> new FredbearFloorCleanBlock());
 	public static final RegistryObject<Block> STAGE_BRICKS = REGISTRY.register("stage_bricks", () -> new StageBricksBlock());
 	public static final RegistryObject<Block> STAGE_BRICK_TILES = REGISTRY.register("stage_brick_tiles", () -> new StageBrickTilesBlock());
+	public static final RegistryObject<Block> ALTERNATE_STAGE_BRICK_TILES = REGISTRY.register("alternate_stage_brick_tiles",
+			() -> new AlternateStageBrickTilesBlock());
 	public static final RegistryObject<Block> PURPLE_STAGE_BRICK_TILES = REGISTRY.register("purple_stage_brick_tiles",
 			() -> new PurpleStageBrickTilesBlock());
 	public static final RegistryObject<Block> ALTERNATE_PURPLE_STAGE_BRICK_TILES = REGISTRY.register("alternate_purple_stage_brick_tiles",
@@ -430,8 +446,19 @@ public class FnafModModBlocks {
 	public static final RegistryObject<Block> CHICA_PLUSHIE = REGISTRY.register("chica_plushie", () -> new ChicaPlushieBlock());
 	public static final RegistryObject<Block> SPRING_BONNIE_PLUSHIE = REGISTRY.register("spring_bonnie_plushie",
 			() -> new SpringBonniePlushieBlock());
+	public static final RegistryObject<Block> PLUSH_FREDDY = REGISTRY.register("plush_freddy", () -> new PlushFreddyBlock());
+	public static final RegistryObject<Block> PLUSH_BONNIE = REGISTRY.register("plush_bonnie", () -> new PlushBonnieBlock());
+	public static final RegistryObject<Block> PLUSH_CHICA = REGISTRY.register("plush_chica", () -> new PlushChicaBlock());
+	public static final RegistryObject<Block> PLUSH_FOXY = REGISTRY.register("plush_foxy", () -> new PlushFoxyBlock());
+	public static final RegistryObject<Block> PLUSH_FREDBEAR = REGISTRY.register("plush_fredbear", () -> new PlushFredbearBlock());
+	public static final RegistryObject<Block> PLUSHTRAP_SITTING_SIDE = REGISTRY.register("plushtrap_sitting_side",
+			() -> new PlushtrapSittingSideBlock());
 	public static final RegistryObject<Block> ARCADE_MACHINE_BONNIE = REGISTRY.register("arcade_machine_bonnie",
 			() -> new ArcadeMachineBonnieBlock());
+	public static final RegistryObject<Block> ARCADE_MACHINE_FREDDY = REGISTRY.register("arcade_machine_freddy",
+			() -> new ArcadeMachineFreddyBlock());
+	public static final RegistryObject<Block> ARCADE_MACHINE_FOXY_2 = REGISTRY.register("arcade_machine_foxy_2", () -> new ArcadeMachineFoxy2Block());
+	public static final RegistryObject<Block> ARCADE_MACHINE_CHICA = REGISTRY.register("arcade_machine_chica", () -> new ArcadeMachineChicaBlock());
 	public static final RegistryObject<Block> ARCADE_MACHINE_FOXY = REGISTRY.register("arcade_machine_foxy", () -> new ArcadeMachineFoxyBlock());
 	public static final RegistryObject<Block> ARCADE_MACHINE_BB = REGISTRY.register("arcade_machine_bb", () -> new ArcadeMachineBBBlock());
 	public static final RegistryObject<Block> LOCKET_BOTTOM = REGISTRY.register("locket_bottom", () -> new LocketBottomBlock());
@@ -460,7 +487,6 @@ public class FnafModModBlocks {
 	public static final RegistryObject<Block> TOY_FOXY_SPAWN_BLOCK = REGISTRY.register("toy_foxy_spawn_block", () -> new ToyFoxySpawnBlockBlock());
 	public static final RegistryObject<Block> TOY_FREDDY_SPAWN_BLOCK = REGISTRY.register("toy_freddy_spawn_block",
 			() -> new ToyFreddySpawnBlockBlock());
-	public static final RegistryObject<Block> CAMERA = REGISTRY.register("camera", () -> new CameraBlock());
 	public static final RegistryObject<Block> PHONE = REGISTRY.register("phone", () -> new PhoneBlock());
 	public static final RegistryObject<Block> RED_WOOD_DOOR = REGISTRY.register("red_wood_door", () -> new RedWoodDoorBlock());
 	public static final RegistryObject<Block> STRUCTURE_SPAWNING_BLOCK = REGISTRY.register("structure_spawning_block",
@@ -562,6 +588,11 @@ public class FnafModModBlocks {
 			() -> new ToyFoxySpawnBlockIdleBlock());
 	public static final RegistryObject<Block> TOY_FREDDY_SPAWN_BLOCK_IDLE = REGISTRY.register("toy_freddy_spawn_block_idle",
 			() -> new ToyFreddySpawnBlockIdleBlock());
+	public static final RegistryObject<Block> FLASH_LIGHT_LIGHT = REGISTRY.register("flash_light_light", () -> new FlashLightLightBlock());
+	public static final RegistryObject<Block> PLUSHTRAP_SITTING_ON_TOP = REGISTRY.register("plushtrap_sitting_on_top",
+			() -> new PlushrapSittingOnTopBlock());
+	public static final RegistryObject<Block> ARCADE_MACHINE_SHADOW_FREDDY = REGISTRY.register("arcade_machine_shadow_freddy",
+			() -> new ArcadeMachineShadowFreddyBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -602,7 +633,16 @@ public class FnafModModBlocks {
 			FoxyPlushieBlock.registerRenderLayer();
 			ChicaPlushieBlock.registerRenderLayer();
 			SpringBonniePlushieBlock.registerRenderLayer();
+			PlushFreddyBlock.registerRenderLayer();
+			PlushBonnieBlock.registerRenderLayer();
+			PlushChicaBlock.registerRenderLayer();
+			PlushFoxyBlock.registerRenderLayer();
+			PlushFredbearBlock.registerRenderLayer();
+			PlushtrapSittingSideBlock.registerRenderLayer();
 			ArcadeMachineBonnieBlock.registerRenderLayer();
+			ArcadeMachineFreddyBlock.registerRenderLayer();
+			ArcadeMachineFoxy2Block.registerRenderLayer();
+			ArcadeMachineChicaBlock.registerRenderLayer();
 			ArcadeMachineFoxyBlock.registerRenderLayer();
 			ArcadeMachineBBBlock.registerRenderLayer();
 			WiresBlock.registerRenderLayer();
@@ -625,7 +665,6 @@ public class FnafModModBlocks {
 			ToyChicaSpawnBlockBlock.registerRenderLayer();
 			ToyFoxySpawnBlockBlock.registerRenderLayer();
 			ToyFreddySpawnBlockBlock.registerRenderLayer();
-			CameraBlock.registerRenderLayer();
 			PhoneBlock.registerRenderLayer();
 			RedWoodDoorBlock.registerRenderLayer();
 			ChildrenDrawingsBlock.registerRenderLayer();
@@ -676,6 +715,9 @@ public class FnafModModBlocks {
 			ToyChicaSpawnBlockIdleBlock.registerRenderLayer();
 			ToyFoxySpawnBlockIdleBlock.registerRenderLayer();
 			ToyFreddySpawnBlockIdleBlock.registerRenderLayer();
+			FlashLightLightBlock.registerRenderLayer();
+			PlushrapSittingOnTopBlock.registerRenderLayer();
+			ArcadeMachineShadowFreddyBlock.registerRenderLayer();
 		}
 	}
 }

@@ -1,17 +1,19 @@
 {
-  "_fv": 33,
+  "_fv": 34,
   "_type": "musicdisc",
   "definition": {
-    "texture": "dont_go",
     "name": "Music Disc",
+    "texture": "dont_go",
     "description": "Don't Go - LordSmugDread",
     "creativeTab": {
       "value": "CUSTOM:MusicDiscs"
     },
+    "specialInfo": [],
+    "hasGlow": false,
     "music": {
       "value": "CUSTOM:dont_go"
     },
-    "specialInfo": [],
-    "hasGlow": false
+    "lengthInTicks": 0,
+    "analogOutput": 0
   }
 }

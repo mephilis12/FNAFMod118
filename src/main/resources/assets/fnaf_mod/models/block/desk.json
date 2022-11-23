@@ -3,6 +3,6 @@
   "textures": {
     "all": "fnaf_mod:blocks/desktexture",
     "particle": "fnaf_mod:blocks/desktexture",
-    "0": "fnaf_mod:blocks/desktexture"
+    "1": "fnaf_mod:blocks/desktexture"
   }
 }

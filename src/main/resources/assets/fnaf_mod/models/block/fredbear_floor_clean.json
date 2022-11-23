@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fnaf_mod:blocks/fredbear_carpet_clean",
+    "up": "fnaf_mod:blocks/fredbear_carpet_clean",
+    "north": "fnaf_mod:blocks/fredbear_carpet_clean",
+    "east": "fnaf_mod:blocks/fredbear_carpet_clean",
+    "south": "fnaf_mod:blocks/fredbear_carpet_clean",
+    "west": "fnaf_mod:blocks/fredbear_carpet_clean",
+    "particle": "fnaf_mod:blocks/fredbear_carpet_clean"
+  }
+}

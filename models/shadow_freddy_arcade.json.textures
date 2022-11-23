@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "shadow_fredy_arcade_machine"
+      },
+      "name": "default"
+    }
+  }
+}

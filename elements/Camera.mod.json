@@ -1,104 +1,97 @@
 {
-  "_fv": 33,
-  "_type": "block",
+  "_fv": 34,
+  "_type": "livingentity",
   "definition": {
-    "texture": "camera",
-    "textureTop": "",
-    "textureLeft": "",
-    "textureFront": "",
-    "textureRight": "",
-    "textureBack": "",
-    "renderType": 2,
-    "customModelName": "camera:default",
-    "rotationMode": 1,
-    "enablePitch": false,
-    "emissiveRendering": false,
-    "displayFluidOverlay": false,
-    "itemTexture": "",
-    "particleTexture": "",
-    "tintType": "No tint",
-    "isItemTinted": false,
-    "hasTransparency": true,
-    "connectedSides": false,
-    "transparencyType": "SOLID",
-    "disableOffset": false,
-    "boundingBoxes": [
-      {
-        "mx": 3.0,
-        "my": 0.0,
-        "mz": 3.0,
-        "Mx": 12.0,
-        "My": 9.0,
-        "Mz": 12.0,
-        "subtract": false
-      }
-    ],
-    "name": "Camera",
-    "specialInfo": [],
-    "hardness": 1.2,
-    "resistance": 10.0,
-    "hasGravity": false,
-    "isWaterloggable": false,
+    "mobName": "Camera",
+    "mobLabel": "",
+    "mobModelName": "Modelcamera",
+    "mobModelTexture": "camera.png",
+    "mobModelGlowTexture": "",
+    "modelWidth": 0.6,
+    "modelHeight": 0.4,
+    "modelShadowSize": 0.5,
+    "mountedYOffset": 0.0,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -10066330,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -6710887,
+      "falpha": 0.0
+    },
     "creativeTab": {
       "value": "CUSTOM:FNAFBlocks"
     },
-    "destroyTool": "axe",
-    "customDrop": {
+    "isBoss": false,
+    "bossBarColor": "PINK",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
       "value": ""
     },
-    "dropAmount": 1,
-    "useLootTableForDrops": false,
-    "requiresCorrectTool": true,
-    "enchantPowerBonus": 0.0,
-    "plantsGrowOn": false,
-    "canRedstoneConnect": false,
-    "lightOpacity": 0,
-    "material": {
-      "value": "IRON"
-    },
-    "tickRate": 10,
-    "tickRandomly": false,
-    "isReplaceable": false,
-    "canProvidePower": false,
-    "emittedRedstonePower": {
-      "fixedValue": 15.0
-    },
-    "colorOnMap": "DEFAULT",
-    "creativePickItem": {
+    "equipmentOffHand": {
       "value": ""
     },
-    "offsetType": "NONE",
-    "aiPathNodeType": "DEFAULT",
-    "flammability": 0,
-    "fireSpreadSpeed": 0,
-    "isLadder": false,
-    "slipperiness": 0.6,
-    "speedFactor": 1.0,
-    "jumpFactor": 1.0,
-    "reactionToPushing": "NORMAL",
-    "isNotColidable": false,
-    "isCustomSoundType": false,
-    "soundOnStep": {
-      "value": "NETHERITE"
-    },
-    "breakSound": {
+    "equipmentHelmet": {
       "value": ""
     },
-    "fallSound": {
+    "equipmentBody": {
       "value": ""
     },
-    "hitSound": {
+    "equipmentLeggings": {
       "value": ""
     },
-    "placeSound": {
+    "equipmentBoots": {
+      "value": ""
+    },
+    "mobBehaviourType": "Creature",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 3,
+    "attackKnockback": 0.0,
+    "knockbackResistance": 0.0,
+    "movementSpeed": 0.3,
+    "armorBaseValue": 0.0,
+    "trackingRange": 64,
+    "followRange": 16,
+    "health": 10,
+    "xpAmount": 0,
+    "waterMob": false,
+    "flyingMob": true,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "disableCollisions": false,
+    "ridable": false,
+    "canControlForward": false,
+    "canControlStrafe": false,
+    "immuneToFire": true,
+    "immuneToArrows": false,
+    "immuneToFallDamage": true,
+    "immuneToCactus": false,
+    "immuneToDrowning": false,
+    "immuneToLightning": false,
+    "immuneToPotions": true,
+    "immuneToPlayer": false,
+    "immuneToExplosion": true,
+    "immuneToTrident": false,
+    "immuneToAnvil": true,
+    "immuneToWither": true,
+    "immuneToDragonBreath": false,
+    "mobDrop": {
+      "value": ""
+    },
+    "livingSound": {
+      "value": ""
+    },
+    "hurtSound": {
+      "value": ""
+    },
+    "deathSound": {
       "value": ""
     },
     "stepSound": {
       "value": ""
     },
-    "luminance": 0,
-    "unbreakable": false,
-    "breakHarvestLevel": 0,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -106,34 +99,30 @@
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
-    "hasInventory": false,
-    "guiBoundTo": "<NONE>",
-    "openGUIOnRightClick": false,
-    "inventorySize": 9,
-    "inventoryStackSize": 64,
-    "inventoryDropWhenDestroyed": true,
-    "inventoryComparatorPower": true,
-    "inventoryOutSlotIDs": [],
-    "inventoryInSlotIDs": [],
-    "hasEnergyStorage": false,
-    "energyInitial": 0,
-    "energyCapacity": 400000,
-    "energyMaxReceive": 200,
-    "energyMaxExtract": 200,
-    "isFluidTank": false,
-    "fluidCapacity": 8000,
-    "fluidRestrictions": [],
-    "spawnWorldTypes": [],
+    "onRightClickedOn": {
+      "name": "SettingCamera"
+    },
+    "onInitialSpawn": {
+      "name": "StatueSpawn"
+    },
+    "hasAI": false,
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"></block></xml>",
+    "breedable": false,
+    "tameable": false,
+    "breedTriggerItems": [],
+    "ranged": false,
+    "rangedAttackItem": {
+      "value": ""
+    },
+    "rangedItemType": "Default item",
+    "spawnThisMob": false,
+    "doesDespawnWhenIdle": false,
+    "spawningProbability": 20,
+    "mobSpawningType": "monster",
+    "minNumberOfMobsPerGroup": 4,
+    "maxNumberOfMobsPerGroup": 4,
     "restrictionBiomes": [],
-    "blocksToReplace": [
-      {
-        "value": "Blocks.STONE"
-      }
-    ],
-    "generationShape": "UNIFORM",
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
-    "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "spawnInDungeons": false
   }
 }

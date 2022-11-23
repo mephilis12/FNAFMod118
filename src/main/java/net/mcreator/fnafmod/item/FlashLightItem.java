@@ -31,7 +31,7 @@ public class FlashLightItem extends Item {
 		double y = entity.getY();
 		double z = entity.getZ();
 
-		FlashLightRightClickedInAirProcedure.execute(entity);
+		FlashLightRightClickedInAirProcedure.execute(world, x, y, z, entity, itemstack);
 		return ar;
 	}
 }

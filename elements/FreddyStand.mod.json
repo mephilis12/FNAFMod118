@@ -1,5 +1,5 @@
 {
-  "_fv": 33,
+  "_fv": 34,
   "_type": "livingentity",
   "definition": {
     "mobName": "Freddy Stand",
@@ -11,7 +11,7 @@
     "modelHeight": 1.8,
     "modelShadowSize": 0.5,
     "mountedYOffset": 0.0,
-    "hasSpawnEgg": false,
+    "hasSpawnEgg": true,
     "spawnEggBaseColor": {
       "value": -1,
       "falpha": 0.0
@@ -21,7 +21,7 @@
       "falpha": 0.0
     },
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "CUSTOM:FNAFBlocks"
     },
     "isBoss": false,
     "bossBarColor": "PINK",
@@ -78,7 +78,7 @@
     "immuneToWither": false,
     "immuneToDragonBreath": false,
     "mobDrop": {
-      "value": "CUSTOM:FreddyStandItem"
+      "value": ""
     },
     "livingSound": {
       "value": ""

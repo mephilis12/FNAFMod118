@@ -61,10 +61,10 @@ public class Desk2Block extends Block
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 
 		return switch (state.getValue(FACING)) {
-			default -> box(-15, 0, 0, 31, 17, 16);
-			case NORTH -> box(-15, 0, 0, 31, 17, 16);
-			case EAST -> box(0, 0, -15, 16, 17, 31);
-			case WEST -> box(0, 0, -15, 16, 17, 31);
+			default -> box(-15, 0, 0, 31, 16, 16);
+			case NORTH -> box(-15, 0, 0, 31, 16, 16);
+			case EAST -> box(0, 0, -15, 16, 16, 31);
+			case WEST -> box(0, 0, -15, 16, 16, 31);
 		};
 	}
 

@@ -18,7 +18,7 @@ import java.util.Collections;
 
 public class FredbearFloorBlock extends Block {
 	public FredbearFloorBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(1f, 10f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.WOOL).sound(SoundType.WOOL).strength(1f, 10f).requiresCorrectToolForDrops());
 	}
 
 	@Override
