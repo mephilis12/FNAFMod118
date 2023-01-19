@@ -80,6 +80,7 @@ public class FnafModModVariables {
 			PlayerVariables clone = ((PlayerVariables) event.getEntity().getCapability(PLAYER_VARIABLES_CAPABILITY, null)
 					.orElse(new PlayerVariables()));
 			clone.Mask = original.Mask;
+			clone.CanPoison = original.CanPoison;
 			if (!event.isWasDeath()) {
 				clone.goldenkill = original.goldenkill;
 				clone.FreddyFrame1 = original.FreddyFrame1;
@@ -345,6 +346,7 @@ public class FnafModModVariables {
 		public double WitheredChicaJumpscare = 0;
 		public double WitheredFoxyJumpscare = 0;
 		public double MangleJumpscare = 0;
+		public double CanPoison = 0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -391,6 +393,7 @@ public class FnafModModVariables {
 			nbt.putDouble("WitheredChicaJumpscare", WitheredChicaJumpscare);
 			nbt.putDouble("WitheredFoxyJumpscare", WitheredFoxyJumpscare);
 			nbt.putDouble("MangleJumpscare", MangleJumpscare);
+			nbt.putDouble("CanPoison", CanPoison);
 			return nbt;
 		}
 
@@ -434,6 +437,7 @@ public class FnafModModVariables {
 			WitheredChicaJumpscare = nbt.getDouble("WitheredChicaJumpscare");
 			WitheredFoxyJumpscare = nbt.getDouble("WitheredFoxyJumpscare");
 			MangleJumpscare = nbt.getDouble("MangleJumpscare");
+			CanPoison = nbt.getDouble("CanPoison");
 		}
 	}
 
@@ -497,6 +501,7 @@ public class FnafModModVariables {
 					variables.WitheredChicaJumpscare = message.data.WitheredChicaJumpscare;
 					variables.WitheredFoxyJumpscare = message.data.WitheredFoxyJumpscare;
 					variables.MangleJumpscare = message.data.MangleJumpscare;
+					variables.CanPoison = message.data.CanPoison;
 				}
 			});
 			context.setPacketHandled(true);

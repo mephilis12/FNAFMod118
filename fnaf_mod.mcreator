@@ -15965,6 +15965,42 @@
       "locked_code": false,
       "registry_name": "its_been_so_long",
       "path": "~/Discs"
+    },
+    {
+      "name": "MaskPoison",
+      "type": "procedure",
+      "sortid": 1025,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mask_poison",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MaskOff",
+      "type": "procedure",
+      "sortid": 1026,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mask_off",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -16243,6 +16279,12 @@
       "type": "logic",
       "scope": "map",
       "value": "false"
+    },
+    {
+      "name": "CanPoison",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
     }
   ],
   "sound_elements": [
@@ -17147,5 +17189,5 @@
     "modElementsPackage": "net.mcreator.fnafmod",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200347418
+  "mcreatorVersion": 202200348217
 }

@@ -20,7 +20,7 @@ import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.client.Minecraft;
 
-import net.mcreator.fnafmod.procedures.FreddyMaskHelmetTickEventProcedure;
+import net.mcreator.fnafmod.procedures.MaskPoisonProcedure;
 import net.mcreator.fnafmod.init.FnafModModTabs;
 import net.mcreator.fnafmod.client.model.ModelFreddy_Mask;
 
@@ -105,7 +105,7 @@ public abstract class FreddyMaskItem extends ArmorItem {
 
 		@Override
 		public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
-			FreddyMaskHelmetTickEventProcedure.execute(entity);
+			MaskPoisonProcedure.execute(world, entity);
 		}
 	}
 }
