@@ -8,5 +8,6 @@
     "south": "fnaf_mod:blocks/cactus_curtain",
     "west": "fnaf_mod:blocks/cactus_curtain",
     "particle": "fnaf_mod:blocks/cactus_curtain"
-  }
+  },
+  "render_type": "solid"
 }

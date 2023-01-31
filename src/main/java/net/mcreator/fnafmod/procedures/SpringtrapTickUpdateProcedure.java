@@ -5,6 +5,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.MobSpawnType;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.util.RandomSource;
 import net.minecraft.util.Mth;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.BlockPos;
@@ -23,7 +24,7 @@ public class SpringtrapTickUpdateProcedure {
 		if (entity == null)
 			return;
 		double Random = 0;
-		Random = Mth.nextInt(new Random(), 1, 5);
+		Random = Mth.nextInt(RandomSource.create(), 1, 5);
 		if (world instanceof Level _lvl && _lvl.isDay()) {
 			if (Random == 5) {
 				if (entity instanceof SpringtrapEntity) {

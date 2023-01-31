@@ -88,7 +88,6 @@
     "fnaf_mod:arcade_machine_foxy_2",
     "fnaf_mod:arcade_machine_chica",
     "fnaf_mod:arcade_machine_foxy",
-    "fnaf_mod:arcade_machine_bb",
     "fnaf_mod:locket_bottom",
     "fnaf_mod:orange_speaker",
     "fnaf_mod:speaker",
@@ -112,6 +111,8 @@
     "fnaf_mod:orange_speake_right",
     "fnaf_mod:speaker_left",
     "fnaf_mod:speaker_right",
-    "fnaf_mod:arcade_machine_shadow_freddy"
+    "fnaf_mod:arcade_machine_shadow_freddy",
+    "fnaf_mod:vending_bottom",
+    "fnaf_mod:vending_top"
   ]
 }

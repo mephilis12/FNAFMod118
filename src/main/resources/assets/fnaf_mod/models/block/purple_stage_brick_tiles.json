@@ -8,5 +8,6 @@
     "south": "fnaf_mod:blocks/purple_stage_bricks_tile",
     "west": "fnaf_mod:blocks/purple_stage_bricks_tile",
     "particle": "fnaf_mod:blocks/purple_stage_bricks_tile"
-  }
+  },
+  "render_type": "solid"
 }

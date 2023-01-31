@@ -8,5 +8,6 @@
     "south": "fnaf_mod:blocks/rancid_floor",
     "west": "fnaf_mod:blocks/rancid_floor",
     "particle": "fnaf_mod:blocks/rancid_floor"
-  }
+  },
+  "render_type": "solid"
 }

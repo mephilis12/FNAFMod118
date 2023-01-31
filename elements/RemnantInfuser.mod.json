@@ -1,5 +1,5 @@
 {
-  "_fv": 34,
+  "_fv": 38,
   "_type": "gui",
   "definition": {
     "type": 1,
@@ -15,7 +15,6 @@
         "data": {
           "image": "remnant_infuser_bbackground.png",
           "use1Xscale": false,
-          "name": "remnant_infuser_bbackground.png",
           "x": 125,
           "y": 37
         }
@@ -28,7 +27,6 @@
           "displayCondition": {
             "name": "Remnant1"
           },
-          "name": "energy_low.png",
           "x": 134,
           "y": 46
         }
@@ -41,7 +39,6 @@
           "displayCondition": {
             "name": "Remant2"
           },
-          "name": "energy_2.png",
           "x": 134,
           "y": 46
         }
@@ -54,7 +51,6 @@
           "displayCondition": {
             "name": "Remant3"
           },
-          "name": "energy_full.png",
           "x": 134,
           "y": 46
         }
@@ -67,7 +63,6 @@
           "displayCondition": {
             "name": "Progress1"
           },
-          "name": "progress_1.png",
           "x": 278,
           "y": 46
         }
@@ -80,7 +75,6 @@
           "displayCondition": {
             "name": "Progress2"
           },
-          "name": "progress_2nd.png",
           "x": 278,
           "y": 46
         }
@@ -93,7 +87,6 @@
           "displayCondition": {
             "name": "Progress3"
           },
-          "name": "progress_3rd.png",
           "x": 278,
           "y": 46
         }
@@ -106,7 +99,6 @@
           "displayCondition": {
             "name": "Progress4"
           },
-          "name": "progress_2nd_to_last.png",
           "x": 278,
           "y": 46
         }
@@ -119,7 +111,6 @@
           "displayCondition": {
             "name": "Progress5"
           },
-          "name": "progress_last.png",
           "x": 278,
           "y": 46
         }
@@ -132,7 +123,6 @@
           "displayCondition": {
             "name": "Progress6"
           },
-          "name": "progress_full.png",
           "x": 278,
           "y": 46
         }
@@ -145,7 +135,6 @@
           "displayCondition": {
             "name": "DarkRemnant3"
           },
-          "name": "darkremnant.png",
           "x": 134,
           "y": 46
         }
@@ -158,7 +147,6 @@
           "displayCondition": {
             "name": "DarkRemnant2"
           },
-          "name": "darkremnant2.png",
           "x": 134,
           "y": 46
         }
@@ -171,7 +159,6 @@
           "displayCondition": {
             "name": "DarkRemnant1"
           },
-          "name": "darkremnantlow.png",
           "x": 134,
           "y": 46
         }
@@ -182,8 +169,13 @@
           "inputLimit": {
             "value": "CUSTOM:Remnant"
           },
+          "disablePlacement": {
+            "fixedValue": false
+          },
           "id": 0,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
           "onSlotChanged": {
             "name": "ProcedureSlot0Remnant"
@@ -194,7 +186,6 @@
           "onStackTransfer": {
             "name": "ProcedureSlot0Remnant"
           },
-          "name": "Slot #0",
           "x": 205,
           "y": 45
         }
@@ -205,8 +196,13 @@
           "inputLimit": {
             "value": "CUSTOM:ShadowRemnant"
           },
+          "disablePlacement": {
+            "fixedValue": false
+          },
           "id": 3,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
           "onSlotChanged": {
             "name": "ProcedureSlot0Remnant"
@@ -217,7 +213,6 @@
           "onStackTransfer": {
             "name": "ProcedureSlot0Remnant"
           },
-          "name": "Slot #3",
           "x": 133,
           "y": 93
         }
@@ -228,13 +223,17 @@
           "inputLimit": {
             "value": ""
           },
+          "disablePlacement": {
+            "fixedValue": false
+          },
           "id": 1,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
           "onSlotChanged": {
             "name": "RemnantInfuserRecipes"
           },
-          "name": "Slot #1",
           "x": 183,
           "y": 93
         }
@@ -243,9 +242,10 @@
         "type": "outputslot",
         "data": {
           "id": 2,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #2",
           "x": 227,
           "y": 93
         }

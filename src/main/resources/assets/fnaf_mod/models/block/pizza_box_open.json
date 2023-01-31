@@ -4,5 +4,6 @@
     "all": "fnaf_mod:blocks/freddys_pizza_box",
     "particle": "fnaf_mod:blocks/freddys_pizza_box",
     "5": "fnaf_mod:blocks/freddys_pizza_box"
-  }
+  },
+  "render_type": "cutout"
 }

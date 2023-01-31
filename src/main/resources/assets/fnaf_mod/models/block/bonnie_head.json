@@ -4,5 +4,6 @@
     "all": "fnaf_mod:blocks/bonnie_the_bunny",
     "particle": "fnaf_mod:blocks/bonnie_the_bunny",
     "1": "fnaf_mod:blocks/bonnie_the_bunny"
-  }
+  },
+  "render_type": "cutout"
 }

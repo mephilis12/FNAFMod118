@@ -8,5 +8,6 @@
     "south": "fnaf_mod:blocks/lockersidebottom",
     "west": "fnaf_mod:blocks/lockersidebottom",
     "particle": "fnaf_mod:blocks/lockerbottom"
-  }
+  },
+  "render_type": "solid"
 }

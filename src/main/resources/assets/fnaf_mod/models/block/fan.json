@@ -4,5 +4,6 @@
     "all": "fnaf_mod:blocks/desk_fan",
     "particle": "fnaf_mod:blocks/desk_fan",
     "4": "fnaf_mod:blocks/desk_fan"
-  }
+  },
+  "render_type": "translucent"
 }

@@ -2,15 +2,13 @@
 package net.mcreator.fnafmod.item;
 
 import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.client.IItemRenderProperties;
+import net.minecraftforge.client.extensions.common.IClientItemExtensions;
 
-import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.ArmorItem;
-import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
@@ -20,10 +18,10 @@ import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.client.Minecraft;
 
-import net.mcreator.fnafmod.procedures.MaskPoisonProcedure;
 import net.mcreator.fnafmod.init.FnafModModTabs;
 import net.mcreator.fnafmod.client.model.ModelFreddy_Mask;
 
+import java.util.function.Consumer;
 import java.util.Map;
 import java.util.Collections;
 
@@ -77,10 +75,11 @@ public abstract class FreddyMaskItem extends ArmorItem {
 			super(EquipmentSlot.HEAD, new Item.Properties().tab(FnafModModTabs.TAB_FNAF_ITEMS));
 		}
 
-		public void initializeClient(java.util.function.Consumer<net.minecraftforge.client.IItemRenderProperties> consumer) {
-			consumer.accept(new IItemRenderProperties() {
+		@Override
+		public void initializeClient(Consumer<IClientItemExtensions> consumer) {
+			consumer.accept(new IClientItemExtensions() {
 				@Override
-				public HumanoidModel getArmorModel(LivingEntity living, ItemStack stack, EquipmentSlot slot, HumanoidModel defaultModel) {
+				public HumanoidModel getHumanoidArmorModel(LivingEntity living, ItemStack stack, EquipmentSlot slot, HumanoidModel defaultModel) {
 					HumanoidModel armorModel = new HumanoidModel(new ModelPart(Collections.emptyList(),
 							Map.of("head",
 									new ModelFreddy_Mask(Minecraft.getInstance().getEntityModels().bakeLayer(ModelFreddy_Mask.LAYER_LOCATION)).Head,
@@ -101,11 +100,6 @@ public abstract class FreddyMaskItem extends ArmorItem {
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "fnaf_mod:textures/entities/freddymask.png";
-		}
-
-		@Override
-		public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
-			MaskPoisonProcedure.execute(world, entity);
 		}
 	}
 }

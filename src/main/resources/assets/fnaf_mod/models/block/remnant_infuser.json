@@ -8,5 +8,6 @@
     "south": "fnaf_mod:blocks/remant_infuser_side",
     "west": "fnaf_mod:blocks/remant_infuser_side",
     "particle": "fnaf_mod:blocks/remnant_infuser_bottom"
-  }
+  },
+  "render_type": "solid"
 }

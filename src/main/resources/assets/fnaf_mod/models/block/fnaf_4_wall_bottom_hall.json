@@ -8,5 +8,6 @@
     "south": "fnaf_mod:blocks/hallway_wall_bottom",
     "west": "fnaf_mod:blocks/hallway_wall_bottom",
     "particle": "fnaf_mod:blocks/hallway_wall_bottom"
-  }
+  },
+  "render_type": "solid"
 }

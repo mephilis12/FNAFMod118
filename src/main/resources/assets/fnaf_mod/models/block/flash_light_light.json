@@ -8,5 +8,6 @@
     "south": "fnaf_mod:blocks/notin",
     "west": "fnaf_mod:blocks/notin",
     "particle": "fnaf_mod:blocks/notin"
-  }
+  },
+  "render_type": "translucent"
 }

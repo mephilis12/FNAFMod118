@@ -4,5 +4,6 @@
     "all": "fnaf_mod:blocks/sanshee_fredbear_plush",
     "particle": "fnaf_mod:blocks/sanshee_fredbear_plush",
     "2": "fnaf_mod:blocks/sanshee_fredbear_plush"
-  }
+  },
+  "render_type": "cutout"
 }

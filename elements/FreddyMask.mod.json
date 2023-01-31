@@ -1,5 +1,5 @@
 {
-  "_fv": 34,
+  "_fv": 38,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
@@ -10,9 +10,6 @@
     "textureLeggings": "",
     "enableBoots": false,
     "textureBoots": "",
-    "onHelmetTick": {
-      "name": "MaskPoison"
-    },
     "creativeTab": {
       "value": "CUSTOM:FNAFItems"
     },

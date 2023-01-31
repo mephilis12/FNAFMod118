@@ -6,6 +6,7 @@ import net.minecraft.world.entity.MobSpawnType;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.util.RandomSource;
 import net.minecraft.util.Mth;
 import net.minecraft.server.level.ServerLevel;
 
@@ -24,9 +25,9 @@ public class SpringtrapEntityIsHurtProcedure {
 		double Random = 0;
 		double Random2 = 0;
 		double Random3 = 0;
-		Random = Mth.nextInt(new Random(), 1, 7);
-		Random2 = Mth.nextInt(new Random(), 1, 4);
-		Random3 = Mth.nextInt(new Random(), 1, 3);
+		Random = Mth.nextInt(RandomSource.create(), 1, 7);
+		Random2 = Mth.nextInt(RandomSource.create(), 1, 4);
+		Random3 = Mth.nextInt(RandomSource.create(), 1, 3);
 		if (Random3 == 2) {
 			if (Random == 1) {
 				if (world instanceof ServerLevel _level) {

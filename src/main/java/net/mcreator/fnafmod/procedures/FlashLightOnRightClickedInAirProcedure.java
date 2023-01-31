@@ -9,13 +9,12 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.InteractionHand;
+import net.minecraft.util.RandomSource;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.fnafmod.init.FnafModModItems;
-
-import java.util.Random;
 
 public class FlashLightOnRightClickedInAirProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity, ItemStack itemstack) {
@@ -45,7 +44,7 @@ public class FlashLightOnRightClickedInAirProcedure {
 				}
 				{
 					ItemStack _ist = itemstack;
-					if (_ist.hurt((int) dmg, new Random(), null)) {
+					if (_ist.hurt((int) dmg, RandomSource.create(), null)) {
 						_ist.shrink(1);
 						_ist.setDamageValue(0);
 					}
@@ -71,7 +70,7 @@ public class FlashLightOnRightClickedInAirProcedure {
 				}
 				{
 					ItemStack _ist = itemstack;
-					if (_ist.hurt((int) dmg, new Random(), null)) {
+					if (_ist.hurt((int) dmg, RandomSource.create(), null)) {
 						_ist.shrink(1);
 						_ist.setDamageValue(0);
 					}

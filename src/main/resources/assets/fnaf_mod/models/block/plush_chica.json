@@ -4,5 +4,6 @@
     "all": "fnaf_mod:blocks/plush_chica",
     "particle": "fnaf_mod:blocks/plush_chica",
     "2": "fnaf_mod:blocks/plush_chica"
-  }
+  },
+  "render_type": "cutout"
 }

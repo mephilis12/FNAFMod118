@@ -4,5 +4,6 @@
     "all": "fnaf_mod:blocks/celebrateposterfnaf2",
     "particle": "fnaf_mod:blocks/celebrateposterfnaf2",
     "0": "fnaf_mod:blocks/celebrateposterfnaf2"
-  }
+  },
+  "render_type": "solid"
 }

@@ -8,5 +8,6 @@
     "south": "fnaf_mod:blocks/purple_curtain",
     "west": "fnaf_mod:blocks/purple_curtain",
     "particle": "fnaf_mod:blocks/purple_curtain"
-  }
+  },
+  "render_type": "solid"
 }

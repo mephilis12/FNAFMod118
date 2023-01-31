@@ -8,5 +8,6 @@
     "south": "fnaf_mod:blocks/purple_dark_wall_tile",
     "west": "fnaf_mod:blocks/purple_dark_wall_tile",
     "particle": "fnaf_mod:blocks/purple_dark_wall_tile"
-  }
+  },
+  "render_type": "solid"
 }

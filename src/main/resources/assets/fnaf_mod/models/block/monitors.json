@@ -4,5 +4,6 @@
     "all": "fnaf_mod:blocks/screen",
     "particle": "fnaf_mod:blocks/screen",
     "0": "fnaf_mod:blocks/screen"
-  }
+  },
+  "render_type": "translucent"
 }

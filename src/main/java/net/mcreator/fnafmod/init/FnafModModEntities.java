@@ -50,6 +50,7 @@ import net.mcreator.fnafmod.entity.SpringBonnieCreature2TheSequelEntity;
 import net.mcreator.fnafmod.entity.SittingWitheredChicaEntity;
 import net.mcreator.fnafmod.entity.SittingWitheredBonnieEntity;
 import net.mcreator.fnafmod.entity.SittingSpringBonnieEntity;
+import net.mcreator.fnafmod.entity.SittingPlushtrapEntity;
 import net.mcreator.fnafmod.entity.SittingFredbearEntity;
 import net.mcreator.fnafmod.entity.SittingDaytimeSpringtrapEntity;
 import net.mcreator.fnafmod.entity.ShadowFreddyStandingEntity;
@@ -87,7 +88,6 @@ import net.mcreator.fnafmod.entity.NightmareBonnieEntity;
 import net.mcreator.fnafmod.entity.NightimeToyChicaEntity;
 import net.mcreator.fnafmod.entity.MangleSittingEntity;
 import net.mcreator.fnafmod.entity.MangleEntity;
-import net.mcreator.fnafmod.entity.LightEntity;
 import net.mcreator.fnafmod.entity.JJEntity;
 import net.mcreator.fnafmod.entity.GoldenFreddyEntity;
 import net.mcreator.fnafmod.entity.GlitchBonnieStatueEntity;
@@ -130,7 +130,7 @@ import net.mcreator.fnafmod.FnafModMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class FnafModModEntities {
-	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITIES, FnafModMod.MODID);
+	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, FnafModMod.MODID);
 	public static final RegistryObject<EntityType<FreddyStandEntity>> FREDDY_STAND = register("freddy_stand",
 			EntityType.Builder.<FreddyStandEntity>of(FreddyStandEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
 					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(FreddyStandEntity::new)
@@ -686,12 +686,14 @@ public class FnafModModEntities {
 					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GlitchBonnieCutOutEntity::new)
 
 					.sized(0.6f, 1.8f));
-	public static final RegistryObject<EntityType<LightEntity>> LIGHT = register("projectile_light",
-			EntityType.Builder.<LightEntity>of(LightEntity::new, MobCategory.MISC).setCustomClientFactory(LightEntity::new)
-					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<PlushtrapEntity>> PLUSHTRAP = register("plushtrap",
 			EntityType.Builder.<PlushtrapEntity>of(PlushtrapEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
 					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PlushtrapEntity::new)
+
+					.sized(0.6f, 0.8f));
+	public static final RegistryObject<EntityType<SittingPlushtrapEntity>> SITTING_PLUSHTRAP = register("sitting_plushtrap",
+			EntityType.Builder.<SittingPlushtrapEntity>of(SittingPlushtrapEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
+					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SittingPlushtrapEntity::new)
 
 					.sized(0.6f, 0.8f));
 
@@ -811,6 +813,7 @@ public class FnafModModEntities {
 			GlitchBonnieStatueEntity.init();
 			GlitchBonnieCutOutEntity.init();
 			PlushtrapEntity.init();
+			SittingPlushtrapEntity.init();
 		});
 	}
 
@@ -925,5 +928,6 @@ public class FnafModModEntities {
 		event.put(GLITCH_BONNIE_STATUE.get(), GlitchBonnieStatueEntity.createAttributes().build());
 		event.put(GLITCH_BONNIE_CUT_OUT.get(), GlitchBonnieCutOutEntity.createAttributes().build());
 		event.put(PLUSHTRAP.get(), PlushtrapEntity.createAttributes().build());
+		event.put(SITTING_PLUSHTRAP.get(), SittingPlushtrapEntity.createAttributes().build());
 	}
 }

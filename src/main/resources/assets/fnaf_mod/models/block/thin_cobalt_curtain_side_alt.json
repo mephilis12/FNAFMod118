@@ -3,5 +3,6 @@
   "textures": {
     "edge": "fnaf_mod:blocks/cobalt_curtain",
     "pane": "fnaf_mod:blocks/cobalt_curtain"
-  }
+  },
+  "render_type": "solid"
 }

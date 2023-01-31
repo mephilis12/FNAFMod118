@@ -19,7 +19,7 @@ import net.mcreator.fnafmod.procedures.ShackRandomizerBlockAddedProcedure;
 
 public class ShackRandomizerBlock extends FallingBlock {
 	public ShackRandomizerBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.LODESTONE).strength(-1, 3600000).noDrops());
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.LODESTONE).strength(-1, 3600000).noLootTable());
 	}
 
 	@Override

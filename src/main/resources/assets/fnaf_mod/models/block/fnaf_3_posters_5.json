@@ -4,5 +4,6 @@
     "all": "fnaf_mod:blocks/chicatexture",
     "particle": "fnaf_mod:blocks/chicatexture",
     "0": "fnaf_mod:blocks/chica"
-  }
+  },
+  "render_type": "solid"
 }

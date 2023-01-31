@@ -1,5 +1,5 @@
 {
-  "_fv": 34,
+  "_fv": 38,
   "_type": "gui",
   "definition": {
     "type": 0,
@@ -13,13 +13,13 @@
       {
         "type": "button",
         "data": {
+          "name": "button_a",
           "text": "A",
           "onClick": {
             "name": "E"
           },
           "width": 30,
           "height": 20,
-          "name": "A",
           "x": 141,
           "y": 44
         }
@@ -27,13 +27,13 @@
       {
         "type": "button",
         "data": {
+          "name": "button_b",
           "text": "B",
           "onClick": {
             "name": "F"
           },
           "width": 30,
           "height": 20,
-          "name": "B",
           "x": 177,
           "y": 44
         }
@@ -41,13 +41,13 @@
       {
         "type": "button",
         "data": {
+          "name": "button_c",
           "text": "C",
           "onClick": {
             "name": "G"
           },
           "width": 30,
           "height": 20,
-          "name": "C",
           "x": 222,
           "y": 44
         }
@@ -55,13 +55,13 @@
       {
         "type": "button",
         "data": {
+          "name": "button_d",
           "text": "D",
           "onClick": {
             "name": "H"
           },
           "width": 30,
           "height": 20,
-          "name": "D",
           "x": 258,
           "y": 44
         }
@@ -69,12 +69,14 @@
       {
         "type": "label",
         "data": {
-          "text": "Type A:",
+          "name": "label_type_a",
+          "text": {
+            "fixedValue": "Type A:"
+          },
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "Type A:",
           "x": 132,
           "y": 71
         }
@@ -82,12 +84,14 @@
       {
         "type": "label",
         "data": {
-          "text": "One Room Face Rest Hall Faces",
+          "name": "label_one_room_face_rest_hall_faces",
+          "text": {
+            "fixedValue": "One Room Face Rest Hall Faces"
+          },
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "One Room Face Rest Hall Faces",
           "x": 141,
           "y": 80
         }
@@ -95,12 +99,14 @@
       {
         "type": "label",
         "data": {
-          "text": "Type B:",
+          "name": "label_type_b",
+          "text": {
+            "fixedValue": "Type B:"
+          },
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "Type B:",
           "x": 132,
           "y": 98
         }
@@ -108,12 +114,14 @@
       {
         "type": "label",
         "data": {
-          "text": "One Hall Face Rest Room Faces",
+          "name": "label_one_hall_face_rest_room_faces",
+          "text": {
+            "fixedValue": "One Hall Face Rest Room Faces"
+          },
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "One Hall Face Rest Room Faces",
           "x": 141,
           "y": 107
         }
@@ -121,12 +129,14 @@
       {
         "type": "label",
         "data": {
-          "text": "Type C:",
+          "name": "label_type_c",
+          "text": {
+            "fixedValue": "Type C:"
+          },
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "Type C:",
           "x": 132,
           "y": 125
         }
@@ -134,12 +144,14 @@
       {
         "type": "label",
         "data": {
-          "text": "Two Room and Hall Faces ",
+          "name": "label_two_room_and_hall_faces",
+          "text": {
+            "fixedValue": "Two Room and Hall Faces "
+          },
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "Two Room and Hall Faces ",
           "x": 141,
           "y": 134
         }
@@ -147,12 +159,14 @@
       {
         "type": "label",
         "data": {
-          "text": " Opposing Each Other",
+          "name": "label_opposing_each_other",
+          "text": {
+            "fixedValue": " Opposing Each Other"
+          },
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": " Opposing Each Other",
           "x": 150,
           "y": 143
         }
@@ -160,12 +174,14 @@
       {
         "type": "label",
         "data": {
-          "text": "Type D:",
+          "name": "label_type_d",
+          "text": {
+            "fixedValue": "Type D:"
+          },
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "Type D:",
           "x": 132,
           "y": 161
         }
@@ -173,12 +189,14 @@
       {
         "type": "label",
         "data": {
-          "text": "Two Room and Hall Faces ",
+          "name": "label_two_room_and_hall_faces1",
+          "text": {
+            "fixedValue": "Two Room and Hall Faces "
+          },
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "Two Room and Hall Faces ",
           "x": 141,
           "y": 170
         }
@@ -186,12 +204,14 @@
       {
         "type": "label",
         "data": {
-          "text": "Forming a Corner",
+          "name": "label_forming_a_corner",
+          "text": {
+            "fixedValue": "Forming a Corner"
+          },
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "Forming a Corner",
           "x": 150,
           "y": 179
         }

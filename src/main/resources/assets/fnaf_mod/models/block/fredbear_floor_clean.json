@@ -8,5 +8,6 @@
     "south": "fnaf_mod:blocks/fredbear_carpet_clean",
     "west": "fnaf_mod:blocks/fredbear_carpet_clean",
     "particle": "fnaf_mod:blocks/fredbear_carpet_clean"
-  }
+  },
+  "render_type": "solid"
 }

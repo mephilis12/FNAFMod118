@@ -4,5 +4,6 @@
     "all": "fnaf_mod:blocks/stars",
     "particle": "fnaf_mod:blocks/stars",
     "0": "fnaf_mod:blocks/stars"
-  }
+  },
+  "render_type": "translucent"
 }

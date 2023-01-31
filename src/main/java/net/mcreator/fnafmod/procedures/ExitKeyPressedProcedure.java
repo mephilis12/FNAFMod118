@@ -7,7 +7,7 @@ import net.minecraft.world.level.GameType;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.network.chat.TextComponent;
+import net.minecraft.network.chat.Component;
 import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.CommandSource;
 
@@ -36,8 +36,9 @@ public class ExitKeyPressedProcedure {
 					_player.setGameMode(GameType.ADVENTURE);
 			}
 			if (world instanceof ServerLevel _level)
-				_level.getServer().getCommands().performCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4,
-						"", new TextComponent(""), _level.getServer(), null).withSuppressedOutput(), "playsound fnaf_mod:cameradown ambient @p");
+				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO,
+						_level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
+						"playsound fnaf_mod:cameradown ambient @p");
 		}
 	}
 }

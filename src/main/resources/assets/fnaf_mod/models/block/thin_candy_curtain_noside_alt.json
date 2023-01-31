@@ -2,5 +2,6 @@
   "parent": "block/template_glass_pane_noside_alt",
   "textures": {
     "pane": "fnaf_mod:blocks/candy_curtain"
-  }
+  },
+  "render_type": "solid"
 }

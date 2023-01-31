@@ -5,6 +5,7 @@ import net.minecraft.world.level.levelgen.structure.templatesystem.StructurePlac
 import net.minecraft.world.level.block.Rotation;
 import net.minecraft.world.level.block.Mirror;
 import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.util.RandomSource;
 import net.minecraft.util.Mth;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
@@ -17,8 +18,8 @@ public class ShackRandomizerBlockAddedProcedure {
 		double Random = 0;
 		double Random2 = 0;
 		world.setBlock(new BlockPos(x, y, z), (world.getBlockState(new BlockPos(x, y - 1, z))), 3);
-		Random = Mth.nextInt(new Random(), 1, 5);
-		Random2 = Mth.nextInt(new Random(), 1, 1000);
+		Random = Mth.nextInt(RandomSource.create(), 1, 5);
+		Random2 = Mth.nextInt(RandomSource.create(), 1, 1000);
 		if (Random == 1) {
 			if (world instanceof ServerLevel _serverworld) {
 				StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("fnaf_mod", "workshop"));

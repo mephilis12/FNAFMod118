@@ -8,5 +8,6 @@
     "south": "fnaf_mod:blocks/vent",
     "west": "fnaf_mod:blocks/vent",
     "particle": "fnaf_mod:blocks/vent"
-  }
+  },
+  "render_type": "solid"
 }

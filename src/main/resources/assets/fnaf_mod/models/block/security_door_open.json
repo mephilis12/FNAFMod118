@@ -4,5 +4,6 @@
     "all": "fnaf_mod:blocks/security_door",
     "particle": "fnaf_mod:blocks/security_door",
     "1": "fnaf_mod:blocks/security_door"
-  }
+  },
+  "render_type": "translucent"
 }

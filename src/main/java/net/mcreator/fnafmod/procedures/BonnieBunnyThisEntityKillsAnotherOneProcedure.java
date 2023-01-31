@@ -1,9 +1,6 @@
 package net.mcreator.fnafmod.procedures;
 
 import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.TickEvent;
-import net.minecraftforge.common.MinecraftForge;
 
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
@@ -13,6 +10,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.fnafmod.network.FnafModModVariables;
+import net.mcreator.fnafmod.FnafModMod;
 
 public class BonnieBunnyThisEntityKillsAnotherOneProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
@@ -27,232 +25,151 @@ public class BonnieBunnyThisEntityKillsAnotherOneProcedure {
 						SoundSource.NEUTRAL, 1, 1, false);
 			}
 		}
-		new Object() {
-			private int ticks = 0;
-			private float waitTicks;
-			private LevelAccessor world;
-
-			public void start(LevelAccessor world, int waitTicks) {
-				this.waitTicks = waitTicks;
-				MinecraftForge.EVENT_BUS.register(this);
-				this.world = world;
+		FnafModMod.queueServerWork(1, () -> {
+			{
+				boolean _setval = true;
+				entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+					capability.BonnieFrame1 = _setval;
+					capability.syncPlayerVariables(entity);
+				});
 			}
-
-			@SubscribeEvent
-			public void tick(TickEvent.ServerTickEvent event) {
-				if (event.phase == TickEvent.Phase.END) {
-					this.ticks += 1;
-					if (this.ticks >= this.waitTicks)
-						run();
-				}
-			}
-
-			private void run() {
+			FnafModMod.queueServerWork((int) 0.1, () -> {
 				{
-					boolean _setval = true;
+					boolean _setval = false;
 					entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
 						capability.BonnieFrame1 = _setval;
 						capability.syncPlayerVariables(entity);
 					});
 				}
-				new Object() {
-					private int ticks = 0;
-					private float waitTicks;
-					private LevelAccessor world;
-
-					public void start(LevelAccessor world, int waitTicks) {
-						this.waitTicks = waitTicks;
-						MinecraftForge.EVENT_BUS.register(this);
-						this.world = world;
+			});
+			FnafModMod.queueServerWork(1, () -> {
+				{
+					boolean _setval = true;
+					entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.BonnieFrame2 = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				FnafModMod.queueServerWork((int) 0.1, () -> {
+					{
+						boolean _setval = false;
+						entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+							capability.BonnieFrame2 = _setval;
+							capability.syncPlayerVariables(entity);
+						});
 					}
-
-					@SubscribeEvent
-					public void tick(TickEvent.ServerTickEvent event) {
-						if (event.phase == TickEvent.Phase.END) {
-							this.ticks += 1;
-							if (this.ticks >= this.waitTicks)
-								run();
-						}
+				});
+				FnafModMod.queueServerWork(1, () -> {
+					{
+						boolean _setval = true;
+						entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+							capability.BonnieFrame3 = _setval;
+							capability.syncPlayerVariables(entity);
+						});
 					}
-
-					private void run() {
+					FnafModMod.queueServerWork((int) 0.1, () -> {
 						{
 							boolean _setval = false;
 							entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-								capability.BonnieFrame1 = _setval;
+								capability.BonnieFrame3 = _setval;
 								capability.syncPlayerVariables(entity);
 							});
 						}
-						MinecraftForge.EVENT_BUS.unregister(this);
-					}
-				}.start(world, (int) 0.1);
-				new Object() {
-					private int ticks = 0;
-					private float waitTicks;
-					private LevelAccessor world;
-
-					public void start(LevelAccessor world, int waitTicks) {
-						this.waitTicks = waitTicks;
-						MinecraftForge.EVENT_BUS.register(this);
-						this.world = world;
-					}
-
-					@SubscribeEvent
-					public void tick(TickEvent.ServerTickEvent event) {
-						if (event.phase == TickEvent.Phase.END) {
-							this.ticks += 1;
-							if (this.ticks >= this.waitTicks)
-								run();
-						}
-					}
-
-					private void run() {
+					});
+					FnafModMod.queueServerWork(1, () -> {
 						{
 							boolean _setval = true;
 							entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-								capability.BonnieFrame2 = _setval;
+								capability.BonnieFrame4 = _setval;
 								capability.syncPlayerVariables(entity);
 							});
 						}
-						new Object() {
-							private int ticks = 0;
-							private float waitTicks;
-							private LevelAccessor world;
-
-							public void start(LevelAccessor world, int waitTicks) {
-								this.waitTicks = waitTicks;
-								MinecraftForge.EVENT_BUS.register(this);
-								this.world = world;
+						FnafModMod.queueServerWork((int) 0.1, () -> {
+							{
+								boolean _setval = false;
+								entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+									capability.BonnieFrame4 = _setval;
+									capability.syncPlayerVariables(entity);
+								});
 							}
-
-							@SubscribeEvent
-							public void tick(TickEvent.ServerTickEvent event) {
-								if (event.phase == TickEvent.Phase.END) {
-									this.ticks += 1;
-									if (this.ticks >= this.waitTicks)
-										run();
-								}
+						});
+						FnafModMod.queueServerWork(1, () -> {
+							{
+								boolean _setval = true;
+								entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+									capability.BonnieFrame5 = _setval;
+									capability.syncPlayerVariables(entity);
+								});
 							}
-
-							private void run() {
+							FnafModMod.queueServerWork((int) 0.1, () -> {
 								{
 									boolean _setval = false;
 									entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-										capability.BonnieFrame2 = _setval;
+										capability.BonnieFrame5 = _setval;
 										capability.syncPlayerVariables(entity);
 									});
 								}
-								MinecraftForge.EVENT_BUS.unregister(this);
-							}
-						}.start(world, (int) 0.1);
-						new Object() {
-							private int ticks = 0;
-							private float waitTicks;
-							private LevelAccessor world;
-
-							public void start(LevelAccessor world, int waitTicks) {
-								this.waitTicks = waitTicks;
-								MinecraftForge.EVENT_BUS.register(this);
-								this.world = world;
-							}
-
-							@SubscribeEvent
-							public void tick(TickEvent.ServerTickEvent event) {
-								if (event.phase == TickEvent.Phase.END) {
-									this.ticks += 1;
-									if (this.ticks >= this.waitTicks)
-										run();
-								}
-							}
-
-							private void run() {
+							});
+							FnafModMod.queueServerWork(1, () -> {
 								{
 									boolean _setval = true;
 									entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-										capability.BonnieFrame3 = _setval;
+										capability.BonnieFrame1 = _setval;
 										capability.syncPlayerVariables(entity);
 									});
 								}
-								new Object() {
-									private int ticks = 0;
-									private float waitTicks;
-									private LevelAccessor world;
-
-									public void start(LevelAccessor world, int waitTicks) {
-										this.waitTicks = waitTicks;
-										MinecraftForge.EVENT_BUS.register(this);
-										this.world = world;
+								FnafModMod.queueServerWork((int) 0.1, () -> {
+									{
+										boolean _setval = false;
+										entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+											capability.BonnieFrame1 = _setval;
+											capability.syncPlayerVariables(entity);
+										});
 									}
-
-									@SubscribeEvent
-									public void tick(TickEvent.ServerTickEvent event) {
-										if (event.phase == TickEvent.Phase.END) {
-											this.ticks += 1;
-											if (this.ticks >= this.waitTicks)
-												run();
-										}
+								});
+								FnafModMod.queueServerWork(1, () -> {
+									{
+										boolean _setval = true;
+										entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+											capability.BonnieFrame2 = _setval;
+											capability.syncPlayerVariables(entity);
+										});
 									}
-
-									private void run() {
+									FnafModMod.queueServerWork((int) 0.1, () -> {
 										{
 											boolean _setval = false;
+											entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+												capability.BonnieFrame2 = _setval;
+												capability.syncPlayerVariables(entity);
+											});
+										}
+									});
+									FnafModMod.queueServerWork(1, () -> {
+										{
+											boolean _setval = true;
 											entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
 												capability.BonnieFrame3 = _setval;
 												capability.syncPlayerVariables(entity);
 											});
 										}
-										MinecraftForge.EVENT_BUS.unregister(this);
-									}
-								}.start(world, (int) 0.1);
-								new Object() {
-									private int ticks = 0;
-									private float waitTicks;
-									private LevelAccessor world;
-
-									public void start(LevelAccessor world, int waitTicks) {
-										this.waitTicks = waitTicks;
-										MinecraftForge.EVENT_BUS.register(this);
-										this.world = world;
-									}
-
-									@SubscribeEvent
-									public void tick(TickEvent.ServerTickEvent event) {
-										if (event.phase == TickEvent.Phase.END) {
-											this.ticks += 1;
-											if (this.ticks >= this.waitTicks)
-												run();
-										}
-									}
-
-									private void run() {
-										{
-											boolean _setval = true;
-											entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-												capability.BonnieFrame4 = _setval;
-												capability.syncPlayerVariables(entity);
-											});
-										}
-										new Object() {
-											private int ticks = 0;
-											private float waitTicks;
-											private LevelAccessor world;
-
-											public void start(LevelAccessor world, int waitTicks) {
-												this.waitTicks = waitTicks;
-												MinecraftForge.EVENT_BUS.register(this);
-												this.world = world;
+										FnafModMod.queueServerWork((int) 0.1, () -> {
+											{
+												boolean _setval = false;
+												entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+													capability.BonnieFrame3 = _setval;
+													capability.syncPlayerVariables(entity);
+												});
 											}
-
-											@SubscribeEvent
-											public void tick(TickEvent.ServerTickEvent event) {
-												if (event.phase == TickEvent.Phase.END) {
-													this.ticks += 1;
-													if (this.ticks >= this.waitTicks)
-														run();
-												}
+										});
+										FnafModMod.queueServerWork(1, () -> {
+											{
+												boolean _setval = true;
+												entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+													capability.BonnieFrame4 = _setval;
+													capability.syncPlayerVariables(entity);
+												});
 											}
-
-											private void run() {
+											FnafModMod.queueServerWork((int) 0.1, () -> {
 												{
 													boolean _setval = false;
 													entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null)
@@ -261,30 +178,8 @@ public class BonnieBunnyThisEntityKillsAnotherOneProcedure {
 																capability.syncPlayerVariables(entity);
 															});
 												}
-												MinecraftForge.EVENT_BUS.unregister(this);
-											}
-										}.start(world, (int) 0.1);
-										new Object() {
-											private int ticks = 0;
-											private float waitTicks;
-											private LevelAccessor world;
-
-											public void start(LevelAccessor world, int waitTicks) {
-												this.waitTicks = waitTicks;
-												MinecraftForge.EVENT_BUS.register(this);
-												this.world = world;
-											}
-
-											@SubscribeEvent
-											public void tick(TickEvent.ServerTickEvent event) {
-												if (event.phase == TickEvent.Phase.END) {
-													this.ticks += 1;
-													if (this.ticks >= this.waitTicks)
-														run();
-												}
-											}
-
-											private void run() {
+											});
+											FnafModMod.queueServerWork(1, () -> {
 												{
 													boolean _setval = true;
 													entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null)
@@ -293,378 +188,25 @@ public class BonnieBunnyThisEntityKillsAnotherOneProcedure {
 																capability.syncPlayerVariables(entity);
 															});
 												}
-												new Object() {
-													private int ticks = 0;
-													private float waitTicks;
-													private LevelAccessor world;
-
-													public void start(LevelAccessor world, int waitTicks) {
-														this.waitTicks = waitTicks;
-														MinecraftForge.EVENT_BUS.register(this);
-														this.world = world;
+												FnafModMod.queueServerWork((int) 0.1, () -> {
+													{
+														boolean _setval = false;
+														entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+																.ifPresent(capability -> {
+																	capability.BonnieFrame5 = _setval;
+																	capability.syncPlayerVariables(entity);
+																});
 													}
-
-													@SubscribeEvent
-													public void tick(TickEvent.ServerTickEvent event) {
-														if (event.phase == TickEvent.Phase.END) {
-															this.ticks += 1;
-															if (this.ticks >= this.waitTicks)
-																run();
-														}
-													}
-
-													private void run() {
-														{
-															boolean _setval = false;
-															entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-																	.ifPresent(capability -> {
-																		capability.BonnieFrame5 = _setval;
-																		capability.syncPlayerVariables(entity);
-																	});
-														}
-														MinecraftForge.EVENT_BUS.unregister(this);
-													}
-												}.start(world, (int) 0.1);
-												new Object() {
-													private int ticks = 0;
-													private float waitTicks;
-													private LevelAccessor world;
-
-													public void start(LevelAccessor world, int waitTicks) {
-														this.waitTicks = waitTicks;
-														MinecraftForge.EVENT_BUS.register(this);
-														this.world = world;
-													}
-
-													@SubscribeEvent
-													public void tick(TickEvent.ServerTickEvent event) {
-														if (event.phase == TickEvent.Phase.END) {
-															this.ticks += 1;
-															if (this.ticks >= this.waitTicks)
-																run();
-														}
-													}
-
-													private void run() {
-														{
-															boolean _setval = true;
-															entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-																	.ifPresent(capability -> {
-																		capability.BonnieFrame1 = _setval;
-																		capability.syncPlayerVariables(entity);
-																	});
-														}
-														new Object() {
-															private int ticks = 0;
-															private float waitTicks;
-															private LevelAccessor world;
-
-															public void start(LevelAccessor world, int waitTicks) {
-																this.waitTicks = waitTicks;
-																MinecraftForge.EVENT_BUS.register(this);
-																this.world = world;
-															}
-
-															@SubscribeEvent
-															public void tick(TickEvent.ServerTickEvent event) {
-																if (event.phase == TickEvent.Phase.END) {
-																	this.ticks += 1;
-																	if (this.ticks >= this.waitTicks)
-																		run();
-																}
-															}
-
-															private void run() {
-																{
-																	boolean _setval = false;
-																	entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-																			.ifPresent(capability -> {
-																				capability.BonnieFrame1 = _setval;
-																				capability.syncPlayerVariables(entity);
-																			});
-																}
-																MinecraftForge.EVENT_BUS.unregister(this);
-															}
-														}.start(world, (int) 0.1);
-														new Object() {
-															private int ticks = 0;
-															private float waitTicks;
-															private LevelAccessor world;
-
-															public void start(LevelAccessor world, int waitTicks) {
-																this.waitTicks = waitTicks;
-																MinecraftForge.EVENT_BUS.register(this);
-																this.world = world;
-															}
-
-															@SubscribeEvent
-															public void tick(TickEvent.ServerTickEvent event) {
-																if (event.phase == TickEvent.Phase.END) {
-																	this.ticks += 1;
-																	if (this.ticks >= this.waitTicks)
-																		run();
-																}
-															}
-
-															private void run() {
-																{
-																	boolean _setval = true;
-																	entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-																			.ifPresent(capability -> {
-																				capability.BonnieFrame2 = _setval;
-																				capability.syncPlayerVariables(entity);
-																			});
-																}
-																new Object() {
-																	private int ticks = 0;
-																	private float waitTicks;
-																	private LevelAccessor world;
-
-																	public void start(LevelAccessor world, int waitTicks) {
-																		this.waitTicks = waitTicks;
-																		MinecraftForge.EVENT_BUS.register(this);
-																		this.world = world;
-																	}
-
-																	@SubscribeEvent
-																	public void tick(TickEvent.ServerTickEvent event) {
-																		if (event.phase == TickEvent.Phase.END) {
-																			this.ticks += 1;
-																			if (this.ticks >= this.waitTicks)
-																				run();
-																		}
-																	}
-
-																	private void run() {
-																		{
-																			boolean _setval = false;
-																			entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY,
-																					null).ifPresent(capability -> {
-																						capability.BonnieFrame2 = _setval;
-																						capability.syncPlayerVariables(entity);
-																					});
-																		}
-																		MinecraftForge.EVENT_BUS.unregister(this);
-																	}
-																}.start(world, (int) 0.1);
-																new Object() {
-																	private int ticks = 0;
-																	private float waitTicks;
-																	private LevelAccessor world;
-
-																	public void start(LevelAccessor world, int waitTicks) {
-																		this.waitTicks = waitTicks;
-																		MinecraftForge.EVENT_BUS.register(this);
-																		this.world = world;
-																	}
-
-																	@SubscribeEvent
-																	public void tick(TickEvent.ServerTickEvent event) {
-																		if (event.phase == TickEvent.Phase.END) {
-																			this.ticks += 1;
-																			if (this.ticks >= this.waitTicks)
-																				run();
-																		}
-																	}
-
-																	private void run() {
-																		{
-																			boolean _setval = true;
-																			entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY,
-																					null).ifPresent(capability -> {
-																						capability.BonnieFrame3 = _setval;
-																						capability.syncPlayerVariables(entity);
-																					});
-																		}
-																		new Object() {
-																			private int ticks = 0;
-																			private float waitTicks;
-																			private LevelAccessor world;
-
-																			public void start(LevelAccessor world, int waitTicks) {
-																				this.waitTicks = waitTicks;
-																				MinecraftForge.EVENT_BUS.register(this);
-																				this.world = world;
-																			}
-
-																			@SubscribeEvent
-																			public void tick(TickEvent.ServerTickEvent event) {
-																				if (event.phase == TickEvent.Phase.END) {
-																					this.ticks += 1;
-																					if (this.ticks >= this.waitTicks)
-																						run();
-																				}
-																			}
-
-																			private void run() {
-																				{
-																					boolean _setval = false;
-																					entity.getCapability(
-																							FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-																							.ifPresent(capability -> {
-																								capability.BonnieFrame3 = _setval;
-																								capability.syncPlayerVariables(entity);
-																							});
-																				}
-																				MinecraftForge.EVENT_BUS.unregister(this);
-																			}
-																		}.start(world, (int) 0.1);
-																		new Object() {
-																			private int ticks = 0;
-																			private float waitTicks;
-																			private LevelAccessor world;
-
-																			public void start(LevelAccessor world, int waitTicks) {
-																				this.waitTicks = waitTicks;
-																				MinecraftForge.EVENT_BUS.register(this);
-																				this.world = world;
-																			}
-
-																			@SubscribeEvent
-																			public void tick(TickEvent.ServerTickEvent event) {
-																				if (event.phase == TickEvent.Phase.END) {
-																					this.ticks += 1;
-																					if (this.ticks >= this.waitTicks)
-																						run();
-																				}
-																			}
-
-																			private void run() {
-																				{
-																					boolean _setval = true;
-																					entity.getCapability(
-																							FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-																							.ifPresent(capability -> {
-																								capability.BonnieFrame4 = _setval;
-																								capability.syncPlayerVariables(entity);
-																							});
-																				}
-																				new Object() {
-																					private int ticks = 0;
-																					private float waitTicks;
-																					private LevelAccessor world;
-
-																					public void start(LevelAccessor world, int waitTicks) {
-																						this.waitTicks = waitTicks;
-																						MinecraftForge.EVENT_BUS.register(this);
-																						this.world = world;
-																					}
-
-																					@SubscribeEvent
-																					public void tick(TickEvent.ServerTickEvent event) {
-																						if (event.phase == TickEvent.Phase.END) {
-																							this.ticks += 1;
-																							if (this.ticks >= this.waitTicks)
-																								run();
-																						}
-																					}
-
-																					private void run() {
-																						{
-																							boolean _setval = false;
-																							entity.getCapability(
-																									FnafModModVariables.PLAYER_VARIABLES_CAPABILITY,
-																									null).ifPresent(capability -> {
-																										capability.BonnieFrame4 = _setval;
-																										capability.syncPlayerVariables(entity);
-																									});
-																						}
-																						MinecraftForge.EVENT_BUS.unregister(this);
-																					}
-																				}.start(world, (int) 0.1);
-																				new Object() {
-																					private int ticks = 0;
-																					private float waitTicks;
-																					private LevelAccessor world;
-
-																					public void start(LevelAccessor world, int waitTicks) {
-																						this.waitTicks = waitTicks;
-																						MinecraftForge.EVENT_BUS.register(this);
-																						this.world = world;
-																					}
-
-																					@SubscribeEvent
-																					public void tick(TickEvent.ServerTickEvent event) {
-																						if (event.phase == TickEvent.Phase.END) {
-																							this.ticks += 1;
-																							if (this.ticks >= this.waitTicks)
-																								run();
-																						}
-																					}
-
-																					private void run() {
-																						{
-																							boolean _setval = true;
-																							entity.getCapability(
-																									FnafModModVariables.PLAYER_VARIABLES_CAPABILITY,
-																									null).ifPresent(capability -> {
-																										capability.BonnieFrame5 = _setval;
-																										capability.syncPlayerVariables(entity);
-																									});
-																						}
-																						new Object() {
-																							private int ticks = 0;
-																							private float waitTicks;
-																							private LevelAccessor world;
-
-																							public void start(LevelAccessor world, int waitTicks) {
-																								this.waitTicks = waitTicks;
-																								MinecraftForge.EVENT_BUS.register(this);
-																								this.world = world;
-																							}
-
-																							@SubscribeEvent
-																							public void tick(TickEvent.ServerTickEvent event) {
-																								if (event.phase == TickEvent.Phase.END) {
-																									this.ticks += 1;
-																									if (this.ticks >= this.waitTicks)
-																										run();
-																								}
-																							}
-
-																							private void run() {
-																								{
-																									boolean _setval = false;
-																									entity.getCapability(
-																											FnafModModVariables.PLAYER_VARIABLES_CAPABILITY,
-																											null).ifPresent(capability -> {
-																												capability.BonnieFrame5 = _setval;
-																												capability
-																														.syncPlayerVariables(entity);
-																											});
-																								}
-																								MinecraftForge.EVENT_BUS.unregister(this);
-																							}
-																						}.start(world, (int) 0.1);
-																						MinecraftForge.EVENT_BUS.unregister(this);
-																					}
-																				}.start(world, 1);
-																				MinecraftForge.EVENT_BUS.unregister(this);
-																			}
-																		}.start(world, 1);
-																		MinecraftForge.EVENT_BUS.unregister(this);
-																	}
-																}.start(world, 1);
-																MinecraftForge.EVENT_BUS.unregister(this);
-															}
-														}.start(world, 1);
-														MinecraftForge.EVENT_BUS.unregister(this);
-													}
-												}.start(world, 1);
-												MinecraftForge.EVENT_BUS.unregister(this);
-											}
-										}.start(world, 1);
-										MinecraftForge.EVENT_BUS.unregister(this);
-									}
-								}.start(world, 1);
-								MinecraftForge.EVENT_BUS.unregister(this);
-							}
-						}.start(world, 1);
-						MinecraftForge.EVENT_BUS.unregister(this);
-					}
-				}.start(world, 1);
-				MinecraftForge.EVENT_BUS.unregister(this);
-			}
-		}.start(world, 1);
+												});
+											});
+										});
+									});
+								});
+							});
+						});
+					});
+				});
+			});
+		});
 	}
 }

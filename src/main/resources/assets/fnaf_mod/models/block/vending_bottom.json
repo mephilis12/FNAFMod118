@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fnaf_mod:blocks/vendingbottom",
+    "up": "fnaf_mod:blocks/vendingtop",
+    "north": "fnaf_mod:blocks/vendingfrontlower",
+    "east": "fnaf_mod:blocks/vendingsidelower",
+    "south": "fnaf_mod:blocks/vendingsidelower",
+    "west": "fnaf_mod:blocks/vendingsidelower",
+    "particle": "fnaf_mod:blocks/vendingbottom"
+  },
+  "render_type": "solid"
+}

@@ -2,7 +2,7 @@
 package net.mcreator.fnafmod.item;
 
 import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.client.IItemRenderProperties;
+import net.minecraftforge.client.extensions.common.IClientItemExtensions;
 
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.ItemStack;
@@ -21,6 +21,7 @@ import net.minecraft.client.Minecraft;
 import net.mcreator.fnafmod.init.FnafModModTabs;
 import net.mcreator.fnafmod.client.model.ModelGuard_hat;
 
+import java.util.function.Consumer;
 import java.util.Map;
 import java.util.Collections;
 
@@ -74,10 +75,11 @@ public abstract class GuardHatItem extends ArmorItem {
 			super(EquipmentSlot.HEAD, new Item.Properties().tab(FnafModModTabs.TAB_FNAF_ITEMS));
 		}
 
-		public void initializeClient(java.util.function.Consumer<net.minecraftforge.client.IItemRenderProperties> consumer) {
-			consumer.accept(new IItemRenderProperties() {
+		@Override
+		public void initializeClient(Consumer<IClientItemExtensions> consumer) {
+			consumer.accept(new IClientItemExtensions() {
 				@Override
-				public HumanoidModel getArmorModel(LivingEntity living, ItemStack stack, EquipmentSlot slot, HumanoidModel defaultModel) {
+				public HumanoidModel getHumanoidArmorModel(LivingEntity living, ItemStack stack, EquipmentSlot slot, HumanoidModel defaultModel) {
 					HumanoidModel armorModel = new HumanoidModel(new ModelPart(Collections.emptyList(),
 							Map.of("head",
 									new ModelGuard_hat(Minecraft.getInstance().getEntityModels().bakeLayer(ModelGuard_hat.LAYER_LOCATION)).bone,

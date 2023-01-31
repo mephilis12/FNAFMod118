@@ -4,5 +4,6 @@
     "all": "fnaf_mod:blocks/balloons",
     "particle": "fnaf_mod:blocks/balloons",
     "0": "fnaf_mod:blocks/balloons"
-  }
+  },
+  "render_type": "cutout"
 }

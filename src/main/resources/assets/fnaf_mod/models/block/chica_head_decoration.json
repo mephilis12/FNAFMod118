@@ -4,5 +4,6 @@
     "all": "fnaf_mod:blocks/chicaheaddecor",
     "particle": "fnaf_mod:blocks/chicaheaddecor",
     "2": "fnaf_mod:blocks/chicaheaddecor"
-  }
+  },
+  "render_type": "cutout"
 }

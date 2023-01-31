@@ -19,7 +19,7 @@ import net.mcreator.fnafmod.procedures.StructureSpawningBlock10UpdateTickProcedu
 
 public class StructureSpawningBlock10Block extends FallingBlock {
 	public StructureSpawningBlock10Block() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(-1, 3600000).noDrops());
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(-1, 3600000).noLootTable());
 	}
 
 	@Override

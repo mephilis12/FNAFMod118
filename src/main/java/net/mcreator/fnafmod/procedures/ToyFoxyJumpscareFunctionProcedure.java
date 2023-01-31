@@ -1,9 +1,6 @@
 package net.mcreator.fnafmod.procedures;
 
 import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.TickEvent;
-import net.minecraftforge.common.MinecraftForge;
 
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
@@ -13,6 +10,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.fnafmod.network.FnafModModVariables;
+import net.mcreator.fnafmod.FnafModMod;
 
 public class ToyFoxyJumpscareFunctionProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
@@ -27,139 +25,79 @@ public class ToyFoxyJumpscareFunctionProcedure {
 						SoundSource.NEUTRAL, 1, 1, false);
 			}
 		}
-		new Object() {
-			private int ticks = 0;
-			private float waitTicks;
-			private LevelAccessor world;
-
-			public void start(LevelAccessor world, int waitTicks) {
-				this.waitTicks = waitTicks;
-				MinecraftForge.EVENT_BUS.register(this);
-				this.world = world;
+		FnafModMod.queueServerWork(1, () -> {
+			{
+				double _setval = 1;
+				entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+					capability.ToyFoxyJumpscare = _setval;
+					capability.syncPlayerVariables(entity);
+				});
 			}
-
-			@SubscribeEvent
-			public void tick(TickEvent.ServerTickEvent event) {
-				if (event.phase == TickEvent.Phase.END) {
-					this.ticks += 1;
-					if (this.ticks >= this.waitTicks)
-						run();
-				}
-			}
-
-			private void run() {
+			FnafModMod.queueServerWork(1, () -> {
 				{
-					double _setval = 1;
+					double _setval = 2;
 					entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
 						capability.ToyFoxyJumpscare = _setval;
 						capability.syncPlayerVariables(entity);
 					});
 				}
-				new Object() {
-					private int ticks = 0;
-					private float waitTicks;
-					private LevelAccessor world;
-
-					public void start(LevelAccessor world, int waitTicks) {
-						this.waitTicks = waitTicks;
-						MinecraftForge.EVENT_BUS.register(this);
-						this.world = world;
+				FnafModMod.queueServerWork(1, () -> {
+					{
+						double _setval = 3;
+						entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+							capability.ToyFoxyJumpscare = _setval;
+							capability.syncPlayerVariables(entity);
+						});
 					}
-
-					@SubscribeEvent
-					public void tick(TickEvent.ServerTickEvent event) {
-						if (event.phase == TickEvent.Phase.END) {
-							this.ticks += 1;
-							if (this.ticks >= this.waitTicks)
-								run();
-						}
-					}
-
-					private void run() {
+					FnafModMod.queueServerWork(1, () -> {
 						{
-							double _setval = 2;
+							double _setval = 4;
 							entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
 								capability.ToyFoxyJumpscare = _setval;
 								capability.syncPlayerVariables(entity);
 							});
 						}
-						new Object() {
-							private int ticks = 0;
-							private float waitTicks;
-							private LevelAccessor world;
-
-							public void start(LevelAccessor world, int waitTicks) {
-								this.waitTicks = waitTicks;
-								MinecraftForge.EVENT_BUS.register(this);
-								this.world = world;
+						FnafModMod.queueServerWork(1, () -> {
+							{
+								double _setval = 5;
+								entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+									capability.ToyFoxyJumpscare = _setval;
+									capability.syncPlayerVariables(entity);
+								});
 							}
-
-							@SubscribeEvent
-							public void tick(TickEvent.ServerTickEvent event) {
-								if (event.phase == TickEvent.Phase.END) {
-									this.ticks += 1;
-									if (this.ticks >= this.waitTicks)
-										run();
-								}
-							}
-
-							private void run() {
+							FnafModMod.queueServerWork(1, () -> {
 								{
-									double _setval = 3;
+									double _setval = 1;
 									entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
 										capability.ToyFoxyJumpscare = _setval;
 										capability.syncPlayerVariables(entity);
 									});
 								}
-								new Object() {
-									private int ticks = 0;
-									private float waitTicks;
-									private LevelAccessor world;
-
-									public void start(LevelAccessor world, int waitTicks) {
-										this.waitTicks = waitTicks;
-										MinecraftForge.EVENT_BUS.register(this);
-										this.world = world;
+								FnafModMod.queueServerWork(1, () -> {
+									{
+										double _setval = 2;
+										entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+											capability.ToyFoxyJumpscare = _setval;
+											capability.syncPlayerVariables(entity);
+										});
 									}
-
-									@SubscribeEvent
-									public void tick(TickEvent.ServerTickEvent event) {
-										if (event.phase == TickEvent.Phase.END) {
-											this.ticks += 1;
-											if (this.ticks >= this.waitTicks)
-												run();
-										}
-									}
-
-									private void run() {
+									FnafModMod.queueServerWork(2, () -> {
 										{
-											double _setval = 4;
+											double _setval = 3;
 											entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
 												capability.ToyFoxyJumpscare = _setval;
 												capability.syncPlayerVariables(entity);
 											});
 										}
-										new Object() {
-											private int ticks = 0;
-											private float waitTicks;
-											private LevelAccessor world;
-
-											public void start(LevelAccessor world, int waitTicks) {
-												this.waitTicks = waitTicks;
-												MinecraftForge.EVENT_BUS.register(this);
-												this.world = world;
+										FnafModMod.queueServerWork(1, () -> {
+											{
+												double _setval = 4;
+												entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+													capability.ToyFoxyJumpscare = _setval;
+													capability.syncPlayerVariables(entity);
+												});
 											}
-
-											@SubscribeEvent
-											public void tick(TickEvent.ServerTickEvent event) {
-												if (event.phase == TickEvent.Phase.END) {
-													this.ticks += 1;
-													if (this.ticks >= this.waitTicks)
-														run();
-												}
-											}
-
-											private void run() {
+											FnafModMod.queueServerWork(1, () -> {
 												{
 													double _setval = 5;
 													entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null)
@@ -168,183 +106,16 @@ public class ToyFoxyJumpscareFunctionProcedure {
 																capability.syncPlayerVariables(entity);
 															});
 												}
-												new Object() {
-													private int ticks = 0;
-													private float waitTicks;
-													private LevelAccessor world;
-
-													public void start(LevelAccessor world, int waitTicks) {
-														this.waitTicks = waitTicks;
-														MinecraftForge.EVENT_BUS.register(this);
-														this.world = world;
-													}
-
-													@SubscribeEvent
-													public void tick(TickEvent.ServerTickEvent event) {
-														if (event.phase == TickEvent.Phase.END) {
-															this.ticks += 1;
-															if (this.ticks >= this.waitTicks)
-																run();
-														}
-													}
-
-													private void run() {
-														{
-															double _setval = 1;
-															entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-																	.ifPresent(capability -> {
-																		capability.ToyFoxyJumpscare = _setval;
-																		capability.syncPlayerVariables(entity);
-																	});
-														}
-														new Object() {
-															private int ticks = 0;
-															private float waitTicks;
-															private LevelAccessor world;
-
-															public void start(LevelAccessor world, int waitTicks) {
-																this.waitTicks = waitTicks;
-																MinecraftForge.EVENT_BUS.register(this);
-																this.world = world;
-															}
-
-															@SubscribeEvent
-															public void tick(TickEvent.ServerTickEvent event) {
-																if (event.phase == TickEvent.Phase.END) {
-																	this.ticks += 1;
-																	if (this.ticks >= this.waitTicks)
-																		run();
-																}
-															}
-
-															private void run() {
-																{
-																	double _setval = 2;
-																	entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-																			.ifPresent(capability -> {
-																				capability.ToyFoxyJumpscare = _setval;
-																				capability.syncPlayerVariables(entity);
-																			});
-																}
-																new Object() {
-																	private int ticks = 0;
-																	private float waitTicks;
-																	private LevelAccessor world;
-
-																	public void start(LevelAccessor world, int waitTicks) {
-																		this.waitTicks = waitTicks;
-																		MinecraftForge.EVENT_BUS.register(this);
-																		this.world = world;
-																	}
-
-																	@SubscribeEvent
-																	public void tick(TickEvent.ServerTickEvent event) {
-																		if (event.phase == TickEvent.Phase.END) {
-																			this.ticks += 1;
-																			if (this.ticks >= this.waitTicks)
-																				run();
-																		}
-																	}
-
-																	private void run() {
-																		{
-																			double _setval = 3;
-																			entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY,
-																					null).ifPresent(capability -> {
-																						capability.ToyFoxyJumpscare = _setval;
-																						capability.syncPlayerVariables(entity);
-																					});
-																		}
-																		new Object() {
-																			private int ticks = 0;
-																			private float waitTicks;
-																			private LevelAccessor world;
-
-																			public void start(LevelAccessor world, int waitTicks) {
-																				this.waitTicks = waitTicks;
-																				MinecraftForge.EVENT_BUS.register(this);
-																				this.world = world;
-																			}
-
-																			@SubscribeEvent
-																			public void tick(TickEvent.ServerTickEvent event) {
-																				if (event.phase == TickEvent.Phase.END) {
-																					this.ticks += 1;
-																					if (this.ticks >= this.waitTicks)
-																						run();
-																				}
-																			}
-
-																			private void run() {
-																				{
-																					double _setval = 4;
-																					entity.getCapability(
-																							FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-																							.ifPresent(capability -> {
-																								capability.ToyFoxyJumpscare = _setval;
-																								capability.syncPlayerVariables(entity);
-																							});
-																				}
-																				new Object() {
-																					private int ticks = 0;
-																					private float waitTicks;
-																					private LevelAccessor world;
-
-																					public void start(LevelAccessor world, int waitTicks) {
-																						this.waitTicks = waitTicks;
-																						MinecraftForge.EVENT_BUS.register(this);
-																						this.world = world;
-																					}
-
-																					@SubscribeEvent
-																					public void tick(TickEvent.ServerTickEvent event) {
-																						if (event.phase == TickEvent.Phase.END) {
-																							this.ticks += 1;
-																							if (this.ticks >= this.waitTicks)
-																								run();
-																						}
-																					}
-
-																					private void run() {
-																						{
-																							double _setval = 5;
-																							entity.getCapability(
-																									FnafModModVariables.PLAYER_VARIABLES_CAPABILITY,
-																									null).ifPresent(capability -> {
-																										capability.ToyFoxyJumpscare = _setval;
-																										capability.syncPlayerVariables(entity);
-																									});
-																						}
-																						MinecraftForge.EVENT_BUS.unregister(this);
-																					}
-																				}.start(world, 1);
-																				MinecraftForge.EVENT_BUS.unregister(this);
-																			}
-																		}.start(world, 1);
-																		MinecraftForge.EVENT_BUS.unregister(this);
-																	}
-																}.start(world, 2);
-																MinecraftForge.EVENT_BUS.unregister(this);
-															}
-														}.start(world, 1);
-														MinecraftForge.EVENT_BUS.unregister(this);
-													}
-												}.start(world, 1);
-												MinecraftForge.EVENT_BUS.unregister(this);
-											}
-										}.start(world, 1);
-										MinecraftForge.EVENT_BUS.unregister(this);
-									}
-								}.start(world, 1);
-								MinecraftForge.EVENT_BUS.unregister(this);
-							}
-						}.start(world, 1);
-						MinecraftForge.EVENT_BUS.unregister(this);
-					}
-				}.start(world, 1);
-				MinecraftForge.EVENT_BUS.unregister(this);
-			}
-		}.start(world, 1);
+											});
+										});
+									});
+								});
+							});
+						});
+					});
+				});
+			});
+		});
 		{
 			double _setval = 0;
 			entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {

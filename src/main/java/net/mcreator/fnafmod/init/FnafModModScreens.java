@@ -1,6 +1,6 @@
 
 /*
- *    MCreator note: This file will be REGENERATED on each build.
+ *	MCreator note: This file will be REGENERATED on each build.
  */
 package net.mcreator.fnafmod.init;
 
@@ -22,11 +22,11 @@ public class FnafModModScreens {
 	@SubscribeEvent
 	public static void clientLoad(FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {
-			MenuScreens.register(FnafModModMenus.LOCKER, LockerScreen::new);
-			MenuScreens.register(FnafModModMenus.WALL_CHANGE_1, WallChange1Screen::new);
-			MenuScreens.register(FnafModModMenus.WALL_CHANGE_2, WallChange2Screen::new);
-			MenuScreens.register(FnafModModMenus.REMNANT_INFUSER, RemnantInfuserScreen::new);
-			MenuScreens.register(FnafModModMenus.CAMERA_GUI, CameraGUIScreen::new);
+			MenuScreens.register(FnafModModMenus.LOCKER.get(), LockerScreen::new);
+			MenuScreens.register(FnafModModMenus.WALL_CHANGE_1.get(), WallChange1Screen::new);
+			MenuScreens.register(FnafModModMenus.WALL_CHANGE_2.get(), WallChange2Screen::new);
+			MenuScreens.register(FnafModModMenus.REMNANT_INFUSER.get(), RemnantInfuserScreen::new);
+			MenuScreens.register(FnafModModMenus.CAMERA_GUI.get(), CameraGUIScreen::new);
 		});
 	}
 }

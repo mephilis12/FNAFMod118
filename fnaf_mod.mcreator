@@ -8625,15 +8625,6 @@
       "path": "~/Code Stuff"
     },
     {
-      "name": "ArcadeMachineBB",
-      "type": "block",
-      "sortid": 146,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "arcade_machine_bb",
-      "path": "~/Blocks"
-    },
-    {
       "name": "BalloonBlue",
       "type": "block",
       "sortid": 154,
@@ -14985,51 +14976,6 @@
       "path": "~/Mobs/StatueAnimatronics"
     },
     {
-      "name": "Nothing",
-      "type": "item",
-      "sortid": 988,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "nothing"
-    },
-    {
-      "name": "Light",
-      "type": "rangeditem",
-      "sortid": 989,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "light",
-      "path": "~/Items"
-    },
-    {
-      "name": "LightWhileProjectileFlyingTick",
-      "type": "procedure",
-      "sortid": 990,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "light_while_projectile_flying_tick",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "FlashLightLightUpdateTick",
       "type": "procedure",
       "sortid": 991,
@@ -15055,7 +15001,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Flashlight Code"
     },
     {
       "name": "FlashLightLight",
@@ -15063,7 +15010,8 @@
       "sortid": 992,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "flash_light_light"
+      "registry_name": "flash_light_light",
+      "path": "~/Flashlight Code"
     },
     {
       "name": "Battery",
@@ -15129,95 +15077,12 @@
       "registry_name": "battery_trade"
     },
     {
-      "name": "FlashLightOnItemInHandTickAlt",
-      "type": "procedure",
-      "sortid": 997,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "flash_light_on_item_in_hand_tick_alt",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "itemstack",
-            "type": "itemstack"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "AlternateStageBrickTiles",
       "type": "block",
       "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "alternate_stage_brick_tiles",
-      "path": "~/Blocks"
-    },
-    {
-      "name": "PlushtrapSittingSide",
-      "type": "block",
-      "sortid": 140,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "plushtrap_sitting_side",
-      "path": "~/Blocks"
-    },
-    {
-      "name": "PlushrapSittingOnTop",
-      "type": "block",
-      "sortid": 998,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "plushtrap_sitting_on_top",
-      "path": "~/Blocks"
-    },
-    {
-      "name": "PlushtrapSittingSideBlockAdded",
-      "type": "procedure",
-      "sortid": 999,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "plushtrap_sitting_side_block_added",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
       "path": "~/Blocks"
     },
     {
@@ -15261,34 +15126,6 @@
       "locked_code": false,
       "registry_name": "plushtrap",
       "path": "~/Mobs/NighttimeAnimatronics"
-    },
-    {
-      "name": "PlushtrapSittingSideUpdateTick",
-      "type": "procedure",
-      "sortid": 1002,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "plushtrap_sitting_side_update_tick",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
     },
     {
       "name": "PlushFreddy",
@@ -15967,17 +15804,38 @@
       "path": "~/Discs"
     },
     {
-      "name": "MaskPoison",
-      "type": "procedure",
-      "sortid": 1025,
+      "name": "SittingPlushtrap",
+      "type": "livingentity",
+      "sortid": 1027,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "mask_poison",
+      "registry_name": "sitting_plushtrap",
+      "path": "~/Mobs/StatueAnimatronics"
+    },
+    {
+      "name": "SittingPlushtrapOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 1028,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sitting_plushtrap_on_entity_tick_update",
       "metadata": {
         "dependencies": [
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
           },
           {
             "name": "world",
@@ -15987,20 +15845,217 @@
       }
     },
     {
-      "name": "MaskOff",
+      "name": "FlashLightLightBlockAdded",
       "type": "procedure",
-      "sortid": 1026,
+      "sortid": 1029,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "mask_off",
+      "registry_name": "flash_light_light_block_added",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Flashlight Code"
+    },
+    {
+      "name": "DinerChair",
+      "type": "block",
+      "sortid": 1030,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diner_chair",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "DinerChair2",
+      "type": "block",
+      "sortid": 1031,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diner_chair_2",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "DinerChair3",
+      "type": "block",
+      "sortid": 1032,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diner_chair_3",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "DinerChair4",
+      "type": "block",
+      "sortid": 1033,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diner_chair_4",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "DinerChair5",
+      "type": "block",
+      "sortid": 1034,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diner_chair_5",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "VendingBottom",
+      "type": "block",
+      "sortid": 1035,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vending_bottom",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "VendingTop",
+      "type": "block",
+      "sortid": 1036,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vending_top",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "VendingTopBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 1037,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vending_top_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "VendingBottomBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 1038,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vending_bottom_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "VendingBottomBlockIsPlacedBy",
+      "type": "procedure",
+      "sortid": 1039,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vending_bottom_block_is_placed_by",
       "metadata": {
         "dependencies": [
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "VendingBottomBlockValidPlacementCondition",
+      "type": "procedure",
+      "sortid": 1040,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vending_bottom_block_valid_placement_condition",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks"
     }
   ],
   "variable_elements": [
@@ -16485,6 +16540,7 @@
       "entity.fnaf_mod.camera": "Camera",
       "entity.fnaf_mod.shadow_freddy": "Shadow Freddy",
       "item.fnaf_mod.its_been_so_long": "Music Disc",
+      "gui.fnaf_mod.camera_gui.label_right_click_it": "Right Click It",
       "block.fnaf_mod.white_black_wall_tile": "White Wall Tiles",
       "item.fnaf_mod.spring_lock_suit_leggings": "Spring Lock Suit Legs",
       "block.fnaf_mod.alternate_big_white_red_wall_tile": "Alternate Big White Red Wall Tiles",
@@ -16493,9 +16549,11 @@
       "item.fnaf_mod.nightmare_bonnie_statue_spawn_egg": "Nightmare Bonnie Statue Spawn Egg",
       "block.fnaf_mod.plush_chica": "Chica Plush",
       "item.fnaf_mod.freddy_mask_helmet": "Freddy Mask",
+      "gui.fnaf_mod.wall_change_2.label_forming_a_corner": "Forming a Corner",
       "entity.fnaf_mod.phantom_freddy": "Phantom Freddy",
       "entity.fnaf_mod.foxy_pirate": "Foxy the Pirate",
       "block.fnaf_mod.wall_tile": "Wall Tiles",
+      "block.fnaf_mod.vending_bottom": "Vending Machine",
       "subtitles.ventwalk": "Something In the Vents",
       "block.fnaf_mod.closet_left_bottom": "Closet Door Left",
       "block.fnaf_mod.alternate_purple_stage_brick_tiles": "Alternate Purple Etched Brick Tiles",
@@ -16513,6 +16571,7 @@
       "item.fnaf_mod.nightmarione_statue_spawn_egg": "Nightmarionne Statue Spawn Egg",
       "item.fnaf_mod.toreador_march.desc": "Toreador March - LordSmugDread",
       "entity.fnaf_mod.golden_freddy": "Golden Freddy",
+      "gui.fnaf_mod.wall_change_2.label_one_room_face_rest_hall_faces": "One Room Face Rest Hall Faces",
       "item.fnaf_mod.day_time_bonnie_spawn_egg": "DayTime Bonnie Spawn Egg",
       "block.fnaf_mod.fnaf_3_posters": "Fazbear\u0027s Fright Posters",
       "entity.fnaf_mod.the_groobler": "The Groobler",
@@ -16532,21 +16591,28 @@
       "item.fnaf_mod.bonnie": "Drone Bonnie",
       "block.fnaf_mod.fnaf_2_celebrate": "Celebrate Poster Retro",
       "item.fnaf_mod.fred_bear_crature_spawn_egg": "Fredbear  Creature Spawn Egg",
+      "gui.fnaf_mod.wall_change_2.button_c": "C",
       "block.fnaf_mod.music_box": "Music Box",
+      "gui.fnaf_mod.wall_change_2.button_b": "B",
       "entity.fnaf_mod.withered_bonnie": "Withered Bonnie",
+      "gui.fnaf_mod.wall_change_2.button_a": "A",
       "item.fnaf_mod.fredbear_spring_lock_suit_leggings": "Fredbear Spring Lock Legs",
       "entity.fnaf_mod.unwithered_chica_cutout": "Unwithered Chica Cutout",
       "entity.fnaf_mod.unwithered_bonnie_statue": "Unwithered Bonnie Statue",
       "entity.fnaf_mod.mangle": "Mangle",
       "item.fnaf_mod.endo": "Endo",
+      "gui.fnaf_mod.wall_change_2.button_d": "D",
       "block.fnaf_mod.red_blue_tile": "Red Blue Tile",
       "block.fnaf_mod.closet_left_open_top": "Closet Door Left",
+      "entity.fnaf_mod.sitting_plushtrap": "Plushtrap",
       "block.fnaf_mod.alternate_black_purple_wall_tile": "Alternate Black Purple Wall Tiles",
       "entity.fnaf_mod.glitch_bonnie_cut_out": "Glitch Bonnie Cutout",
       "item.fnaf_mod.sitting_daytime_springtrap_spawn_egg": "DayTime SpringtrapSitting Spawn Egg",
       "item.fnaf_mod.evil_bonnie": "Dark Remnant Infused Bonnie",
       "block.fnaf_mod.red_black_tile": "Red Black Tile",
+      "gui.fnaf_mod.wall_change_1.label_one_room_face_rest_hall_faces": "One Room Face Rest Hall Faces",
       "block.fnaf_mod.orange_speaker": "Speaker",
+      "gui.fnaf_mod.wall_change_2.label_opposing_each_other": " Opposing Each Other",
       "item.fnaf_mod.sitting_spring_bonnie_spawn_egg": "Spring Bonnie Spawn Egg",
       "entity.fnaf_mod.springlocked_zombie_fredbear": "Springlocked Zombie Fredbear",
       "item.fnaf_mod.nightime_toy_chica_spawn_egg": "Toy Chica Spawn Egg",
@@ -16596,6 +16662,7 @@
       "item.fnaf_mod.spring_bonnie": "Drone Spring Bonnie",
       "entity.fnaf_mod.crawling_springtrap": "Crawling Springtrap",
       "item.fnaf_mod.showtime_madame_macabre_bitemark_remix": "Music Disc",
+      "gui.fnaf_mod.locker.label_inventory": "Inventory",
       "item.fnaf_mod.glitch_bonnie_statue_spawn_egg": "Glitch Bonnie Statue Spawn Egg",
       "block.fnaf_mod.big_white_black_wall_tile": "Big White Wall Tiles",
       "block.fnaf_mod.office_door": "Office Door",
@@ -16610,22 +16677,30 @@
       "block.fnaf_mod.big_white_checkered_wall": "Big White Checkered Wall",
       "entity.fnaf_mod.spring_bonnie_cut_out": "Spring Bonnie Cutout",
       "item.fnaf_mod.fredbear_spring_lock_suit_chestplate": "Fredbear Spring Lock Body",
+      "gui.fnaf_mod.wall_change_1.label_two_room_and_hall_faces": "Two Room and Hall Faces ",
       "item.fnaf_mod.guard_hat_helmet": "Guard Hat Helmet",
       "subtitles.cameraup": "",
       "item.fnaf_mod.brown_plastic": "Brown Plastic",
       "item.fnaf_mod.bb_spawn_egg": "Balloon Boy Spawn Egg",
+      "gui.fnaf_mod.wall_change_2.label_type_d": "Type D:",
+      "gui.fnaf_mod.wall_change_2.label_type_c": "Type C:",
       "block.fnaf_mod.orange_speaker_left": "Speaker",
+      "gui.fnaf_mod.wall_change_2.label_type_b": "Type B:",
+      "gui.fnaf_mod.wall_change_2.label_type_a": "Type A:",
       "block.fnaf_mod.stage_brick_tiles": "Etched Brick Tiles",
       "entity.fnaf_mod.nightmare_fredbear": "Nightmare Fredbear",
       "subtitles.toreador_march": "Toreador March Music Disc",
       "item.fnaf_mod.statue_chica_item": "Statue Chica",
       "block.fnaf_mod.plush_freddy": "Freddy Plush",
       "item.fnaf_mod.crawling_toy_bonnie_spawn_egg": "Crawling Toy Bonnie Spawn Egg",
+      "block.fnaf_mod.diner_chair": "Diner Chair {Red}",
+      "gui.fnaf_mod.camera_gui.button_next_page": "Next Page",
       "item.fnaf_mod.nightmare_chica_statue_spawn_egg": "Nightmare Chica Statue Spawn Egg",
       "entity.fnaf_mod.endo_02": "Endo-02",
       "entity.fnaf_mod.nightmarionne": "Nightmarionne",
       "item.fnaf_mod.spring_bonnie_creature_2_the_sequel_spawn_egg": "Spring Bonnie Creature Spawn Egg",
       "block.fnaf_mod.green_blue_tile_slab_cracked": "Cracked Green Blue Tile Slab",
+      "gui.fnaf_mod.wall_change_1.label_opposing_each_other": " Opposing Each Other",
       "entity.fnaf_mod.unwithered_foxy_cutout": "Unwithered Foxy Cutout",
       "block.fnaf_mod.red_black_tile_slab": "Red Black Tile Slab",
       "entity.fnaf_mod.full_hostile_chica": "Chica",
@@ -16642,6 +16717,7 @@
       "block.fnaf_mod.light_button_off": "Light Button Off",
       "entity.fnaf_mod.toy_box": "Toy Box",
       "block.fnaf_mod.prize_corner_poster": "Prize Counter Poster",
+      "item.fnaf_mod.sitting_plushtrap_spawn_egg": "Plushtrap Spawn Egg",
       "item.fnaf_mod.bonnie_spawn": "Bonnie The Bunny",
       "item.fnaf_mod.passive_foxy_spawn_egg": "Foxy the Pirate Spawn Egg",
       "item.fnaf_mod.camera_monitor": "Camera Monitor",
@@ -16668,7 +16744,7 @@
       "item.fnaf_mod.freddy_stand_spawn_egg": "Freddy Stand Spawn Egg",
       "item.fnaf_mod.spring_lock_suit_helmet": "Spring Lock Suit Head",
       "key.fnaf_mod.exit_camera": "Exit Camera",
-      "block.fnaf_mod.arcade_machine_bb": "Arcade Machine Balloon Boy",
+      "gui.fnaf_mod.camera_gui.button_previous_page": "Previous Page",
       "entity.fnaf_mod.phantom_mangle": "Phantom Mangle",
       "item.fnaf_mod.toy_freddy_spawn_egg": "Toy Freddy  Spawn Egg",
       "item.fnaf_mod.toreador_march": "Music Disc",
@@ -16688,17 +16764,23 @@
       "item.fnaf_mod.fredbear_item": "Drone Fredbear",
       "item.fnaf_mod.endo_skeleton_spawn_egg": "Endoskeleton Spawn Egg",
       "block.fnaf_mod.fnaf_wall_top_rotable": "Tapestry Top Rotable Type A",
+      "gui.fnaf_mod.wall_change_1.button_d": "D",
+      "gui.fnaf_mod.wall_change_1.button_c": "C",
       "item.fnaf_mod.guard_hat_boots": "Guard Hat Boots",
-      "block.fnaf_mod.plushtrap_sitting_side": "Plushtrap Sitting",
+      "gui.fnaf_mod.wall_change_1.button_b": "B",
+      "gui.fnaf_mod.wall_change_1.button_a": "A",
       "block.fnaf_mod.fnaf_4_wall_bottom_rotable": "Tapestry Bottom Rotable Type A",
+      "gui.fnaf_mod.camera_gui.label_cameras": "Cameras",
       "item.fnaf_mod.day_time_puppet_spawn_egg": "DayTime Puppet Spawn Egg",
       "subtitles.fnaf1_scream": "Jumpscare Sound",
       "block.fnaf_mod.big_checkered_wall": "Big Checkered Wall",
       "item.fnaf_mod.statue_chica_spawn_egg": "DayTime Chica Spawn Egg",
       "item.fnaf_mod.full_hostile_freddy_spawn_egg": "Freddy Fazbear Spawn Egg",
       "entity.fnaf_mod.spring_bonnie_creature_2_the_sequel": "Spring Bonnie Creature",
+      "gui.fnaf_mod.camera_gui.label_to_remove_a_camera": "To Remove A Camera",
       "entity.fnaf_mod.spring_bonnie_creature": "Spring Bonnie Creature",
       "entity.fnaf_mod.phantom_foxy": "Phantom Foxy",
+      "gui.fnaf_mod.wall_change_2.label_one_hall_face_rest_room_faces": "One Hall Face Rest Room Faces",
       "item.fnaf_mod.day_time_bb_spawn_egg": "DayTime BB Spawn Egg",
       "block.fnaf_mod.fnaf_3_floor": "Rancid Floor",
       "item.fnaf_mod.sitting_fredbear_spawn_egg": "Fredbear Spawn Egg",
@@ -16741,6 +16823,7 @@
       "item.fnaf_mod.phantom_puppet_spawn_egg": "Phantom Puppet Spawn Egg",
       "item.fnaf_mod.statue_bonnie_spawn_egg": "DayTime Bonnie Spawn Egg",
       "entity.fnaf_mod.unwithered_chica_statue": "Unwithered Chica Statue",
+      "gui.fnaf_mod.camera_gui.label_to_set_a_camera": "To Set a Camera",
       "block.fnaf_mod.balloon_blue": "Blue Balloon",
       "entity.fnaf_mod.withered_chica": "Withered Chica",
       "block.fnaf_mod.fan": "Fan",
@@ -16782,13 +16865,18 @@
       "block.fnaf_mod.chica_head": "Chica Head",
       "entity.fnaf_mod.mangle_sitting": "DayTime Mangle",
       "item.fnaf_mod.happiest_day": "Music Disc",
+      "block.fnaf_mod.diner_chair_3": "Diner Chair {Green}",
       "block.fnaf_mod.alternate_big_black_purple_wall_tile": "Alternate Big Black Purple Wall Tiles",
+      "block.fnaf_mod.diner_chair_2": "Diner Chair {Blue}",
       "block.fnaf_mod.white_wall": "White Wall",
       "entity.fnaf_mod.passive_spring_bonnie": "Spring Bonnie",
+      "block.fnaf_mod.diner_chair_5": "Diner Chair {Yellow}",
+      "block.fnaf_mod.diner_chair_4": "Diner Chair {Purple}",
       "entity.fnaf_mod.sitting_withered_chica": "DayTime Withered Chica",
       "subtitles.nosehonk": "Honk",
       "itemGroup.tabstructure_spawners": "Structure Spawners",
       "block.fnaf_mod.fnaf_3_wall_slab": "Rancid Wall Slab",
+      "gui.fnaf_mod.camera_gui.label_shift_click": "Shift Click",
       "block.fnaf_mod.chica_plushie": "Chica Plushie",
       "block.fnaf_mod.wall_wires": "Wall Wires",
       "block.fnaf_mod.chica_head_decoration": "Chica Head Decoration",
@@ -16820,6 +16908,7 @@
       "block.fnaf_mod.structure_spawning_block_4": "Structure Spawning Block (Family Diner)",
       "item.fnaf_mod.paint_brush": "Paint Brush",
       "item.fnaf_mod.crawling_toy_chica_spawn_egg": "Crawling Toy Chica Spawn Egg",
+      "gui.fnaf_mod.camera_gui.label_page_enbtintegerplus2": "Page: \u003cENBT:integer:plus2\u003e",
       "entity.fnaf_mod.day_time_bb": "DayTime BB",
       "item.fnaf_mod.broken_flash_light": "FlashLight",
       "block.fnaf_mod.fnaf_3_posters_3": "Fazbear\u0027s Fright Posters",
@@ -16832,6 +16921,7 @@
       "block.fnaf_mod.fnaf_3_posters_7": "Fazbear\u0027s Fright Posters",
       "item.fnaf_mod.bonnie_bunny_spawn_egg": "Bonnie the Bunny Spawn Egg",
       "block.fnaf_mod.fnaf_3_posters_6": "Fazbear\u0027s Fright Posters",
+      "gui.fnaf_mod.camera_gui.label_swap_pages_for_each_set_of_5": "Swap Pages for Each Set of 5",
       "block.fnaf_mod.fnaf_3_posters_8": "Fazbear\u0027s Fright Posters",
       "item.fnaf_mod.glitchtrap_suit_boots": "Spring Bonnie Costume Boots",
       "item.fnaf_mod.full_hostile_foxy_spawn_egg": "Foxy Pirate Spawn Egg",
@@ -16854,13 +16944,13 @@
       "entity.fnaf_mod.nightmare_freddy": "Nightmare Freddy",
       "item.fnaf_mod.statue_freddy_item": "Statue Freddy",
       "entity.fnaf_mod.phantom_chica": "Phantom Chica",
-      "item.fnaf_mod.light": "Light",
       "item.fnaf_mod.nightmare_fredbear_statue_spawn_egg": "Nightmare Fredbear Statue Spawn Egg",
       "item.fnaf_mod.statue_foxy_item": "Statue Foxy",
       "block.fnaf_mod.wall_pizza": "Wall Pizza",
       "item.fnaf_mod.springlocked_suit_boots": "Springlocked Spring Lock Suit Boots",
       "block.fnaf_mod.pizza_box_closed": "Pizza Box Closed",
       "entity.fnaf_mod.nightmare_fredbear_statue": "Nightmare Fredbear Statue",
+      "block.fnaf_mod.vending_top": "Locket Top",
       "item.fnaf_mod.pit_bonnie_suit_chestplate": "Into The Pit Bonnie Body",
       "item.fnaf_mod.evil_foxy_item": "Dark Remnant Infused Foxy",
       "block.fnaf_mod.red_white_tile_slab": "Red White Tile Slab",
@@ -16875,10 +16965,15 @@
       "item.fnaf_mod.standing_daytime_springtrap_spawn_egg": "DayTime Springtrap Standing Spawn Egg",
       "item.fnaf_mod.crawling_springtrap_spawn_egg": "Crawling Springtrap Spawn Egg",
       "block.fnaf_mod.error_tile": "Missing Texture Tile",
+      "gui.fnaf_mod.camera_gui.button_camera_2": "Camera 2",
       "item.fnaf_mod.chica": "Drone Chica",
+      "gui.fnaf_mod.camera_gui.button_camera_1": "Camera 1",
+      "gui.fnaf_mod.camera_gui.button_camera_4": "Camera 4",
       "entity.fnaf_mod.day_time_bonnie": "DayTime Bonnie",
       "item.fnaf_mod.unwithered_foxy_cutout_spawn_egg": "Unwithered Foxy Cutout Spawn Egg",
+      "gui.fnaf_mod.camera_gui.button_camera_3": "Camera 3",
       "item.fnaf_mod.passive_freddy_spawn_egg": "Freddy Fazbear Spawn Egg",
+      "gui.fnaf_mod.camera_gui.button_camera_5": "Camera 5",
       "block.fnaf_mod.children_drawings_3": "Pack of Children\u0027s Drawings 3",
       "item.fnaf_mod.chica_spawn_item": "Chica The Chicken",
       "block.fnaf_mod.children_drawings_4": "Pack of Children\u0027s Drawings 4",
@@ -16890,9 +16985,11 @@
       "item.fnaf_mod.springlocked_suit_leggings": "Springlocked Spring Lock Suit Legs",
       "block.fnaf_mod.children_drawings_7": "Pack of Children\u0027s Drawings 7",
       "block.fnaf_mod.chair": "Chair",
+      "gui.fnaf_mod.wall_change_1.label_one_hall_face_rest_room_faces": "One Hall Face Rest Room Faces",
       "block.fnaf_mod.fredbear_plushie": "Fredbear Plushie",
       "item.fnaf_mod.bonnie_stand_spawn_egg": "Bonnie Stand Spawn Egg",
-      "item.fnaf_mod.nothing": "Nothing",
+      "gui.fnaf_mod.camera_gui.label_press_z_to_exit_the_camera": "Press Z to Exit the Camera",
+      "gui.fnaf_mod.wall_change_2.label_two_room_and_hall_faces1": "Two Room and Hall Faces ",
       "item.fnaf_mod.its_been_so_long.desc": "Its Been So Long - Remixed By TheHost",
       "block.fnaf_mod.vent_hatch": "Vent Hatch",
       "entity.fnaf_mod.unwithered_foxy_statue": "Unwithered Foxy Statue",
@@ -16904,10 +17001,12 @@
       "block.fnaf_mod.balloon_green": "Green Balloon",
       "block.fnaf_mod.freddy_head": "Freddy Head",
       "block.fnaf_mod.plush_foxy": "Foxy Plush",
+      "gui.fnaf_mod.wall_change_1.label_two_room_and_hall_faces1": "Two Room and Hall Faces ",
       "subtitles.camerablip": "",
       "entity.fnaf_mod.nightmare_chica": "Nightmare Chica",
       "block.fnaf_mod.pizza_box_open": "Pizza Box Open",
       "block.fnaf_mod.error_tile_slab": "Missing Texture Tile Slab",
+      "gui.fnaf_mod.wall_change_1.label_forming_a_corner": "Forming a Corner",
       "entity.fnaf_mod.fred_bear_crature": "Fredbear  Creature",
       "subtitles.fnaf3scream": "",
       "block.fnaf_mod.alternate_big_stage_brick_tiles": "Alternate Big Etched Brick Tiles",
@@ -16917,6 +17016,8 @@
       "block.fnaf_mod.stage_bricks": "Etched Bricks",
       "block.fnaf_mod.fnaf_wall_top_rotable_2": "Tapestry Top Rotable Type B",
       "block.fnaf_mod.fnaf_wall_top_rotable_3": "Tapestry Top Rotable Type C",
+      "gui.fnaf_mod.camera_gui.label_with_the_monitor": "with the Monitor",
+      "gui.fnaf_mod.camera_gui.label_you_can_have_unlimited_cameras": "You Can Have Unlimited Cameras",
       "item.fnaf_mod.red_plastic": "Red Plastic",
       "block.fnaf_mod.green_blue_tile_stair_cracked": "Cracked Green Blue Tile Stairs",
       "block.fnaf_mod.poster_7": "Wall Poster 7",
@@ -16990,7 +17091,11 @@
       "block.fnaf_mod.balloons": "Balloons",
       "item.fnaf_mod.nightmare_freddy_spawn_egg": "Nightmare Freddy Spawn Egg",
       "block.fnaf_mod.alternate_stage_brick_tiles": "Alternate Etched Brick Tiles",
+      "gui.fnaf_mod.wall_change_1.label_type_d": "Type D:",
+      "gui.fnaf_mod.wall_change_1.label_type_b": "Type B:",
       "block.fnaf_mod.security_door_open": "Office Door",
+      "gui.fnaf_mod.wall_change_1.label_type_c": "Type C:",
+      "gui.fnaf_mod.wall_change_1.label_type_a": "Type A:",
       "entity.fnaf_mod.passive_bonnie": "Bonnie the Bunny",
       "block.fnaf_mod.plush_fredbear": "Fredbear Plush",
       "death.attack.springlocked": "%s Bled out to Death",
@@ -17046,7 +17151,6 @@
       "block.fnaf_mod.fnaf_3_wall_tile": "Rancid Wall Tiles",
       "entity.fnaf_mod.sitting_daytime_springtrap": "DayTime SpringtrapSitting",
       "item.fnaf_mod.pat_pat_spawn_egg": "PatPat Spawn Egg",
-      "block.fnaf_mod.plushtrap_sitting_on_top": "Plushtrap Sitting",
       "itemGroup.tabmusic_discs": "Music Discs",
       "entity.fnaf_mod.springtrap": "Springtrap",
       "item.fnaf_mod.shadow_bonnie_spawn_egg": "Shadow Bonnie Spawn Egg",
@@ -17066,6 +17170,8 @@
       "block.fnaf_mod.fnaf_3_wall": "Rancid Wall",
       "block.fnaf_mod.red_blue_tile_cracked": "Cracked Red Blue Tile",
       "item.fnaf_mod.fazbear_showtime": "Music Disc",
+      "gui.fnaf_mod.locker.label_locker": "Locker",
+      "gui.fnaf_mod.wall_change_2.label_two_room_and_hall_faces": "Two Room and Hall Faces ",
       "item.fnaf_mod.day_time_toy_freddy_spawn_egg": "DayTime Toy Freddy Spawn Egg",
       "item.fnaf_mod.sitting_withered_chica_spawn_egg": "DayTime Withered Chica Spawn Egg",
       "block.fnaf_mod.blue_black_tile": "Blue Black Tile"
@@ -17166,6 +17272,10 @@
       {
         "name": "camera",
         "children": []
+      },
+      {
+        "name": "Flashlight Code",
+        "children": []
       }
     ]
   },
@@ -17183,11 +17293,13 @@
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
-    "currentGenerator": "forge-1.18.2",
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.19.2",
     "credits": "Made Using Mcreator, Models By: Mephilis,Rashi,NiksonTF2,ItsIdyllic,Kiseki and Mosdi.Music By: LordSmugDread,GreatPlays, The Host and SomethingFunky.Textures By: Beph,Fredo,ItsIdyllic,Rashi and NiksonTF2. Structures By: Rashi,Mephilis,Beph and ItsIdyllic. Code By: Mephilis Additional Help: WyldDog and Sajevius.",
     "modElementsPackage": "net.mcreator.fnafmod",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200348217
+  "mcreatorVersion": 202200452117
 }

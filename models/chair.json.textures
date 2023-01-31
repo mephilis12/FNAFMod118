@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "chair_block"
+        "1": "chair_block"
       },
       "name": "default"
     }

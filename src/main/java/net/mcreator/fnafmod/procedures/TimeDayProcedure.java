@@ -15,9 +15,9 @@ import javax.annotation.Nullable;
 @Mod.EventBusSubscriber
 public class TimeDayProcedure {
 	@SubscribeEvent
-	public static void onWorldTick(TickEvent.WorldTickEvent event) {
+	public static void onWorldTick(TickEvent.LevelTickEvent event) {
 		if (event.phase == TickEvent.Phase.END) {
-			execute(event, event.world);
+			execute(event, event.level);
 		}
 	}
 

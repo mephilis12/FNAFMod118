@@ -8,5 +8,6 @@
     "south": "fnaf_mod:blocks/crack_blue_green_tile",
     "west": "fnaf_mod:blocks/crack_blue_green_tile",
     "particle": "fnaf_mod:blocks/crack_blue_green_tile"
-  }
+  },
+  "render_type": "solid"
 }

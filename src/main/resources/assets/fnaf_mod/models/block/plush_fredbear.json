@@ -4,5 +4,6 @@
     "all": "fnaf_mod:blocks/plush_fredbear",
     "particle": "fnaf_mod:blocks/plush_fredbear",
     "1": "fnaf_mod:blocks/plush_fredbear"
-  }
+  },
+  "render_type": "cutout"
 }

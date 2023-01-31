@@ -9,8 +9,6 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
-import net.minecraft.client.renderer.entity.ThrownItemRenderer;
-
 import net.mcreator.fnafmod.client.renderer.WitheredGoldenFreddyRenderer;
 import net.mcreator.fnafmod.client.renderer.WitheredFreddyRenderer;
 import net.mcreator.fnafmod.client.renderer.WitheredFoxyRenderer;
@@ -45,6 +43,7 @@ import net.mcreator.fnafmod.client.renderer.SpringBonnieCreature2TheSequelRender
 import net.mcreator.fnafmod.client.renderer.SittingWitheredChicaRenderer;
 import net.mcreator.fnafmod.client.renderer.SittingWitheredBonnieRenderer;
 import net.mcreator.fnafmod.client.renderer.SittingSpringBonnieRenderer;
+import net.mcreator.fnafmod.client.renderer.SittingPlushtrapRenderer;
 import net.mcreator.fnafmod.client.renderer.SittingFredbearRenderer;
 import net.mcreator.fnafmod.client.renderer.SittingDaytimeSpringtrapRenderer;
 import net.mcreator.fnafmod.client.renderer.ShadowFreddyStandingRenderer;
@@ -233,7 +232,7 @@ public class FnafModModEntityRenderers {
 		event.registerEntityRenderer(FnafModModEntities.CRAWLING_SPRINGTRAP.get(), CrawlingSpringtrapRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.GLITCH_BONNIE_STATUE.get(), GlitchBonnieStatueRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.GLITCH_BONNIE_CUT_OUT.get(), GlitchBonnieCutOutRenderer::new);
-		event.registerEntityRenderer(FnafModModEntities.LIGHT.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.PLUSHTRAP.get(), PlushtrapRenderer::new);
+		event.registerEntityRenderer(FnafModModEntities.SITTING_PLUSHTRAP.get(), SittingPlushtrapRenderer::new);
 	}
 }

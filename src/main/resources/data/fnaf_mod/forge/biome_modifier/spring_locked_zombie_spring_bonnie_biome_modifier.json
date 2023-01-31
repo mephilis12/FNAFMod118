@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "spawners": {
+    "type": "fnaf_mod:spring_locked_zombie_spring_bonnie",
+    "weight": 1,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

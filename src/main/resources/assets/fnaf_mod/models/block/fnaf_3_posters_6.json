@@ -4,5 +4,6 @@
     "all": "fnaf_mod:blocks/freddy",
     "particle": "fnaf_mod:blocks/freddy",
     "0": "fnaf_mod:blocks/freddy"
-  }
+  },
+  "render_type": "solid"
 }

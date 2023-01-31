@@ -1,5 +1,5 @@
 {
-  "_fv": 34,
+  "_fv": 38,
   "_type": "gui",
   "definition": {
     "type": 0,
@@ -13,12 +13,14 @@
       {
         "type": "label",
         "data": {
-          "text": "Cameras",
+          "name": "label_cameras",
+          "text": {
+            "fixedValue": "Cameras"
+          },
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "Cameras",
           "x": 141,
           "y": 44
         }
@@ -26,12 +28,14 @@
       {
         "type": "label",
         "data": {
-          "text": "Page: <ENBT:integer:plus2>",
+          "name": "label_page_enbtintegerplus2",
+          "text": {
+            "fixedValue": "Page: <ENBT:integer:plus2>"
+          },
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "Page: <ENBT:integer:plus2>",
           "x": 132,
           "y": 188
         }
@@ -39,13 +43,13 @@
       {
         "type": "button",
         "data": {
+          "name": "button_camera_1",
           "text": "Camera 1",
           "onClick": {
             "name": "Cam1Pressed"
           },
           "width": 66,
           "height": 20,
-          "name": "Camera 1",
           "x": 132,
           "y": 62
         }
@@ -53,13 +57,13 @@
       {
         "type": "button",
         "data": {
+          "name": "button_camera_2",
           "text": "Camera 2",
           "onClick": {
             "name": "Cam2Pressed"
           },
           "width": 66,
           "height": 20,
-          "name": "Camera 2",
           "x": 132,
           "y": 80
         }
@@ -67,13 +71,13 @@
       {
         "type": "button",
         "data": {
+          "name": "button_camera_3",
           "text": "Camera 3",
           "onClick": {
             "name": "Cam3Pressed"
           },
           "width": 66,
           "height": 20,
-          "name": "Camera 3",
           "x": 132,
           "y": 98
         }
@@ -81,13 +85,13 @@
       {
         "type": "button",
         "data": {
+          "name": "button_camera_4",
           "text": "Camera 4",
           "onClick": {
             "name": "Cam4Pressed"
           },
           "width": 66,
           "height": 20,
-          "name": "Camera 4",
           "x": 132,
           "y": 116
         }
@@ -95,13 +99,13 @@
       {
         "type": "button",
         "data": {
+          "name": "button_camera_5",
           "text": "Camera 5",
           "onClick": {
             "name": "Cam5Pressed"
           },
           "width": 66,
           "height": 20,
-          "name": "Camera 5",
           "x": 132,
           "y": 134
         }
@@ -109,12 +113,14 @@
       {
         "type": "label",
         "data": {
-          "text": "To Set a Camera",
+          "name": "label_to_set_a_camera",
+          "text": {
+            "fixedValue": "To Set a Camera"
+          },
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "To Set a Camera",
           "x": 204,
           "y": 116
         }
@@ -122,12 +128,14 @@
       {
         "type": "label",
         "data": {
-          "text": "Right Click It",
+          "name": "label_right_click_it",
+          "text": {
+            "fixedValue": "Right Click It"
+          },
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "Right Click It",
           "x": 204,
           "y": 125
         }
@@ -135,12 +143,14 @@
       {
         "type": "label",
         "data": {
-          "text": "with the Monitor",
+          "name": "label_with_the_monitor",
+          "text": {
+            "fixedValue": "with the Monitor"
+          },
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "with the Monitor",
           "x": 204,
           "y": 134
         }
@@ -148,12 +158,14 @@
       {
         "type": "label",
         "data": {
-          "text": "To Remove A Camera",
+          "name": "label_to_remove_a_camera",
+          "text": {
+            "fixedValue": "To Remove A Camera"
+          },
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "To Remove A Camera",
           "x": 204,
           "y": 143
         }
@@ -161,12 +173,14 @@
       {
         "type": "label",
         "data": {
-          "text": "Shift Click",
+          "name": "label_shift_click",
+          "text": {
+            "fixedValue": "Shift Click"
+          },
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "Shift Click",
           "x": 204,
           "y": 152
         }
@@ -174,12 +188,14 @@
       {
         "type": "label",
         "data": {
-          "text": "You Can Have Unlimited Cameras",
+          "name": "label_you_can_have_unlimited_cameras",
+          "text": {
+            "fixedValue": "You Can Have Unlimited Cameras"
+          },
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "You Can Have Unlimited Cameras",
           "x": 132,
           "y": 161
         }
@@ -187,12 +203,14 @@
       {
         "type": "label",
         "data": {
-          "text": "Swap Pages for Each Set of 5",
+          "name": "label_swap_pages_for_each_set_of_5",
+          "text": {
+            "fixedValue": "Swap Pages for Each Set of 5"
+          },
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "Swap Pages for Each Set of 5",
           "x": 132,
           "y": 170
         }
@@ -200,13 +218,13 @@
       {
         "type": "button",
         "data": {
+          "name": "button_previous_page",
           "text": "Previous Page",
           "onClick": {
             "name": "Back2Pressed"
           },
           "width": 90,
           "height": 20,
-          "name": "Previous Page",
           "x": 204,
           "y": 62
         }
@@ -214,13 +232,13 @@
       {
         "type": "button",
         "data": {
+          "name": "button_next_page",
           "text": "Next Page",
           "onClick": {
             "name": "Add2Pressed"
           },
           "width": 90,
           "height": 20,
-          "name": "Next Page",
           "x": 204,
           "y": 89
         }
@@ -228,12 +246,14 @@
       {
         "type": "label",
         "data": {
-          "text": "Press Z to Exit the Camera",
+          "name": "label_press_z_to_exit_the_camera",
+          "text": {
+            "fixedValue": "Press Z to Exit the Camera"
+          },
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "Press Z to Exit the Camera",
           "x": 132,
           "y": 179
         }

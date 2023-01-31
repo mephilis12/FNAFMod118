@@ -52,6 +52,7 @@ import net.mcreator.fnafmod.client.model.ModelSpringBonnieBody;
 import net.mcreator.fnafmod.client.model.ModelSpringBonnie;
 import net.mcreator.fnafmod.client.model.ModelSittingWitheredChica;
 import net.mcreator.fnafmod.client.model.ModelSittingWitheredBonnie;
+import net.mcreator.fnafmod.client.model.ModelPlushtrapSit;
 import net.mcreator.fnafmod.client.model.ModelPlushtrap;
 import net.mcreator.fnafmod.client.model.ModelPhantom_Freddy;
 import net.mcreator.fnafmod.client.model.ModelPhantom_Foxy;
@@ -196,6 +197,7 @@ public class FnafModModModels {
 		event.registerLayerDefinition(ModelMangle.LAYER_LOCATION, ModelMangle::createBodyLayer);
 		event.registerLayerDefinition(ModelNightmare_Freddy.LAYER_LOCATION, ModelNightmare_Freddy::createBodyLayer);
 		event.registerLayerDefinition(ModelFoxyMask.LAYER_LOCATION, ModelFoxyMask::createBodyLayer);
+		event.registerLayerDefinition(ModelPlushtrapSit.LAYER_LOCATION, ModelPlushtrapSit::createBodyLayer);
 		event.registerLayerDefinition(ModelFreddyDayTime.LAYER_LOCATION, ModelFreddyDayTime::createBodyLayer);
 		event.registerLayerDefinition(ModelSpringBonnieSitting.LAYER_LOCATION, ModelSpringBonnieSitting::createBodyLayer);
 	}
