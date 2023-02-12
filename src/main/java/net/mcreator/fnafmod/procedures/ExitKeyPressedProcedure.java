@@ -19,11 +19,9 @@ public class ExitKeyPressedProcedure {
 			entity.getPersistentData().putBoolean("cammode", (false));
 			{
 				Entity _ent = entity;
-				_ent.teleportTo((entity.getPersistentData().getDouble("x0")), (entity.getPersistentData().getDouble("y0")),
-						(entity.getPersistentData().getDouble("z0")));
+				_ent.teleportTo((entity.getPersistentData().getDouble("x0")), (entity.getPersistentData().getDouble("y0")), (entity.getPersistentData().getDouble("z0")));
 				if (_ent instanceof ServerPlayer _serverPlayer)
-					_serverPlayer.connection.teleport((entity.getPersistentData().getDouble("x0")), (entity.getPersistentData().getDouble("y0")),
-							(entity.getPersistentData().getDouble("z0")), _ent.getYRot(), _ent.getXRot());
+					_serverPlayer.connection.teleport((entity.getPersistentData().getDouble("x0")), (entity.getPersistentData().getDouble("y0")), (entity.getPersistentData().getDouble("z0")), _ent.getYRot(), _ent.getXRot());
 			}
 			if (entity.getPersistentData().getDouble("gamem") == 0) {
 				if (entity instanceof ServerPlayer _player)
@@ -36,8 +34,7 @@ public class ExitKeyPressedProcedure {
 					_player.setGameMode(GameType.ADVENTURE);
 			}
 			if (world instanceof ServerLevel _level)
-				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO,
-						_level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
+				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 						"playsound fnaf_mod:cameradown ambient @p");
 		}
 	}

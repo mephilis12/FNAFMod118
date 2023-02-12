@@ -28,8 +28,7 @@ public class BalloonBlueBlock extends Block {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public BalloonBlueBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.MOSS).strength(0.8f).noCollission().noOcclusion()
-				.isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.MOSS).strength(0.8f).noCollission().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
 

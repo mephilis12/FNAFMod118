@@ -43,7 +43,6 @@ public class StructureSpawningBlock8Block extends FallingBlock {
 		double hitY = hit.getLocation().y;
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
-
 		StructureSpawningBlock8UpdateTickProcedure.execute(world, x, y, z);
 		return InteractionResult.SUCCESS;
 	}

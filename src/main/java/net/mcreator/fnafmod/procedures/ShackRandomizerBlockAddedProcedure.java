@@ -24,27 +24,21 @@ public class ShackRandomizerBlockAddedProcedure {
 			if (world instanceof ServerLevel _serverworld) {
 				StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("fnaf_mod", "workshop"));
 				if (template != null) {
-					template.placeInWorld(_serverworld, new BlockPos(x, y, z), new BlockPos(x, y, z),
-							new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false),
-							_serverworld.random, 3);
+					template.placeInWorld(_serverworld, new BlockPos(x, y, z), new BlockPos(x, y, z), new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false), _serverworld.random, 3);
 				}
 			}
 		} else if (Random == 2) {
 			if (world instanceof ServerLevel _serverworld) {
 				StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("fnaf_mod", "shack"));
 				if (template != null) {
-					template.placeInWorld(_serverworld, new BlockPos(x, y, z), new BlockPos(x, y, z),
-							new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false),
-							_serverworld.random, 3);
+					template.placeInWorld(_serverworld, new BlockPos(x, y, z), new BlockPos(x, y, z), new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false), _serverworld.random, 3);
 				}
 			}
 		} else if (Random == 3) {
 			if (world instanceof ServerLevel _serverworld) {
 				StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("fnaf_mod", "shack2"));
 				if (template != null) {
-					template.placeInWorld(_serverworld, new BlockPos(x, y, z), new BlockPos(x, y, z),
-							new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false),
-							_serverworld.random, 3);
+					template.placeInWorld(_serverworld, new BlockPos(x, y, z), new BlockPos(x, y, z), new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false), _serverworld.random, 3);
 				}
 			}
 		} else if (Random == 4) {
@@ -52,19 +46,14 @@ public class ShackRandomizerBlockAddedProcedure {
 				if (world instanceof ServerLevel _serverworld) {
 					StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("fnaf_mod", "shack3"));
 					if (template != null) {
-						template.placeInWorld(_serverworld, new BlockPos(x, y, z), new BlockPos(x, y, z),
-								new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false),
-								_serverworld.random, 3);
+						template.placeInWorld(_serverworld, new BlockPos(x, y, z), new BlockPos(x, y, z), new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false), _serverworld.random, 3);
 					}
 				}
 			} else {
 				if (world instanceof ServerLevel _serverworld) {
-					StructureTemplate template = _serverworld.getStructureManager()
-							.getOrCreate(new ResourceLocation("fnaf_mod", "thisisnothingcompletely"));
+					StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("fnaf_mod", "thisisnothingcompletely"));
 					if (template != null) {
-						template.placeInWorld(_serverworld, new BlockPos(x, y + 69, z), new BlockPos(x, y + 69, z),
-								new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false),
-								_serverworld.random, 3);
+						template.placeInWorld(_serverworld, new BlockPos(x, y + 69, z), new BlockPos(x, y + 69, z), new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false), _serverworld.random, 3);
 					}
 				}
 			}
@@ -72,9 +61,7 @@ public class ShackRandomizerBlockAddedProcedure {
 			if (world instanceof ServerLevel _serverworld) {
 				StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("fnaf_mod", "shack4"));
 				if (template != null) {
-					template.placeInWorld(_serverworld, new BlockPos(x, y + 1, z), new BlockPos(x, y + 1, z),
-							new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false),
-							_serverworld.random, 3);
+					template.placeInWorld(_serverworld, new BlockPos(x, y + 1, z), new BlockPos(x, y + 1, z), new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false), _serverworld.random, 3);
 				}
 			}
 		}

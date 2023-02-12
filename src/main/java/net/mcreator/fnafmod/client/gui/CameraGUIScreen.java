@@ -93,54 +93,47 @@ public class CameraGUIScreen extends AbstractContainerScreen<CameraGUIMenu> {
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
-		this.addRenderableWidget(
-				new Button(this.leftPos + 8, this.topPos + 25, 66, 20, Component.translatable("gui.fnaf_mod.camera_gui.button_camera_1"), e -> {
-					if (true) {
-						FnafModMod.PACKET_HANDLER.sendToServer(new CameraGUIButtonMessage(0, x, y, z));
-						CameraGUIButtonMessage.handleButtonAction(entity, 0, x, y, z);
-					}
-				}));
-		this.addRenderableWidget(
-				new Button(this.leftPos + 8, this.topPos + 43, 66, 20, Component.translatable("gui.fnaf_mod.camera_gui.button_camera_2"), e -> {
-					if (true) {
-						FnafModMod.PACKET_HANDLER.sendToServer(new CameraGUIButtonMessage(1, x, y, z));
-						CameraGUIButtonMessage.handleButtonAction(entity, 1, x, y, z);
-					}
-				}));
-		this.addRenderableWidget(
-				new Button(this.leftPos + 8, this.topPos + 61, 66, 20, Component.translatable("gui.fnaf_mod.camera_gui.button_camera_3"), e -> {
-					if (true) {
-						FnafModMod.PACKET_HANDLER.sendToServer(new CameraGUIButtonMessage(2, x, y, z));
-						CameraGUIButtonMessage.handleButtonAction(entity, 2, x, y, z);
-					}
-				}));
-		this.addRenderableWidget(
-				new Button(this.leftPos + 8, this.topPos + 79, 66, 20, Component.translatable("gui.fnaf_mod.camera_gui.button_camera_4"), e -> {
-					if (true) {
-						FnafModMod.PACKET_HANDLER.sendToServer(new CameraGUIButtonMessage(3, x, y, z));
-						CameraGUIButtonMessage.handleButtonAction(entity, 3, x, y, z);
-					}
-				}));
-		this.addRenderableWidget(
-				new Button(this.leftPos + 8, this.topPos + 97, 66, 20, Component.translatable("gui.fnaf_mod.camera_gui.button_camera_5"), e -> {
-					if (true) {
-						FnafModMod.PACKET_HANDLER.sendToServer(new CameraGUIButtonMessage(4, x, y, z));
-						CameraGUIButtonMessage.handleButtonAction(entity, 4, x, y, z);
-					}
-				}));
-		this.addRenderableWidget(
-				new Button(this.leftPos + 80, this.topPos + 25, 90, 20, Component.translatable("gui.fnaf_mod.camera_gui.button_previous_page"), e -> {
-					if (true) {
-						FnafModMod.PACKET_HANDLER.sendToServer(new CameraGUIButtonMessage(5, x, y, z));
-						CameraGUIButtonMessage.handleButtonAction(entity, 5, x, y, z);
-					}
-				}));
-		this.addRenderableWidget(
-				new Button(this.leftPos + 80, this.topPos + 52, 90, 20, Component.translatable("gui.fnaf_mod.camera_gui.button_next_page"), e -> {
-					if (true) {
-						FnafModMod.PACKET_HANDLER.sendToServer(new CameraGUIButtonMessage(6, x, y, z));
-						CameraGUIButtonMessage.handleButtonAction(entity, 6, x, y, z);
-					}
-				}));
+		this.addRenderableWidget(new Button(this.leftPos + 8, this.topPos + 25, 66, 20, Component.translatable("gui.fnaf_mod.camera_gui.button_camera_1"), e -> {
+			if (true) {
+				FnafModMod.PACKET_HANDLER.sendToServer(new CameraGUIButtonMessage(0, x, y, z));
+				CameraGUIButtonMessage.handleButtonAction(entity, 0, x, y, z);
+			}
+		}));
+		this.addRenderableWidget(new Button(this.leftPos + 8, this.topPos + 43, 66, 20, Component.translatable("gui.fnaf_mod.camera_gui.button_camera_2"), e -> {
+			if (true) {
+				FnafModMod.PACKET_HANDLER.sendToServer(new CameraGUIButtonMessage(1, x, y, z));
+				CameraGUIButtonMessage.handleButtonAction(entity, 1, x, y, z);
+			}
+		}));
+		this.addRenderableWidget(new Button(this.leftPos + 8, this.topPos + 61, 66, 20, Component.translatable("gui.fnaf_mod.camera_gui.button_camera_3"), e -> {
+			if (true) {
+				FnafModMod.PACKET_HANDLER.sendToServer(new CameraGUIButtonMessage(2, x, y, z));
+				CameraGUIButtonMessage.handleButtonAction(entity, 2, x, y, z);
+			}
+		}));
+		this.addRenderableWidget(new Button(this.leftPos + 8, this.topPos + 79, 66, 20, Component.translatable("gui.fnaf_mod.camera_gui.button_camera_4"), e -> {
+			if (true) {
+				FnafModMod.PACKET_HANDLER.sendToServer(new CameraGUIButtonMessage(3, x, y, z));
+				CameraGUIButtonMessage.handleButtonAction(entity, 3, x, y, z);
+			}
+		}));
+		this.addRenderableWidget(new Button(this.leftPos + 8, this.topPos + 97, 66, 20, Component.translatable("gui.fnaf_mod.camera_gui.button_camera_5"), e -> {
+			if (true) {
+				FnafModMod.PACKET_HANDLER.sendToServer(new CameraGUIButtonMessage(4, x, y, z));
+				CameraGUIButtonMessage.handleButtonAction(entity, 4, x, y, z);
+			}
+		}));
+		this.addRenderableWidget(new Button(this.leftPos + 80, this.topPos + 25, 90, 20, Component.translatable("gui.fnaf_mod.camera_gui.button_previous_page"), e -> {
+			if (true) {
+				FnafModMod.PACKET_HANDLER.sendToServer(new CameraGUIButtonMessage(5, x, y, z));
+				CameraGUIButtonMessage.handleButtonAction(entity, 5, x, y, z);
+			}
+		}));
+		this.addRenderableWidget(new Button(this.leftPos + 80, this.topPos + 52, 90, 20, Component.translatable("gui.fnaf_mod.camera_gui.button_next_page"), e -> {
+			if (true) {
+				FnafModMod.PACKET_HANDLER.sendToServer(new CameraGUIButtonMessage(6, x, y, z));
+				CameraGUIButtonMessage.handleButtonAction(entity, 6, x, y, z);
+			}
+		}));
 	}
 }

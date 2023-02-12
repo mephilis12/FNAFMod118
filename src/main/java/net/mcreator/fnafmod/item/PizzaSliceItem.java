@@ -9,9 +9,8 @@ import net.mcreator.fnafmod.init.FnafModModTabs;
 
 public class PizzaSliceItem extends Item {
 	public PizzaSliceItem() {
-		super(new Item.Properties().tab(FnafModModTabs.TAB_FNAF_ITEMS).stacksTo(8).rarity(Rarity.COMMON)
-				.food((new FoodProperties.Builder()).nutrition(6).saturationMod(1f)
+		super(new Item.Properties().tab(FnafModModTabs.TAB_FNAF_ITEMS).stacksTo(8).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(6).saturationMod(1f)
 
-						.meat().build()));
+				.meat().build()));
 	}
 }

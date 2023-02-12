@@ -30,8 +30,7 @@ public class ArcadeMachineChicaBlock extends Block {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public ArcadeMachineChicaBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.NETHERITE_BLOCK).strength(1.6f, 14f).requiresCorrectToolForDrops()
-				.noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.NETHERITE_BLOCK).strength(1.6f, 14f).requiresCorrectToolForDrops().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
 
@@ -52,7 +51,6 @@ public class ArcadeMachineChicaBlock extends Block {
 
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
-
 		return switch (state.getValue(FACING)) {
 			default -> box(1, 0, 1, 14, 31.5, 15);
 			case NORTH -> box(2, 0, 1, 15, 31.5, 15);

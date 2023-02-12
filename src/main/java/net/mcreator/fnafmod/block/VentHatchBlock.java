@@ -18,8 +18,7 @@ import java.util.Collections;
 
 public class VentHatchBlock extends TrapDoorBlock {
 	public VentHatchBlock() {
-		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(3f, 5f).requiresCorrectToolForDrops().noOcclusion()
-				.isRedstoneConductor((bs, br, bp) -> false).dynamicShape());
+		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(3f, 5f).requiresCorrectToolForDrops().noOcclusion().isRedstoneConductor((bs, br, bp) -> false).dynamicShape());
 	}
 
 	@Override

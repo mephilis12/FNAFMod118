@@ -53,32 +53,28 @@ public class NightmareFredbearOnEntityTickUpdateProcedure {
 						Entity _ent = entity;
 						_ent.teleportTo((x + Mth.nextInt(RandomSource.create(), 1, 5)), y, (z + Mth.nextInt(RandomSource.create(), 1, 5)));
 						if (_ent instanceof ServerPlayer _serverPlayer)
-							_serverPlayer.connection.teleport((x + Mth.nextInt(RandomSource.create(), 1, 5)), y,
-									(z + Mth.nextInt(RandomSource.create(), 1, 5)), _ent.getYRot(), _ent.getXRot());
+							_serverPlayer.connection.teleport((x + Mth.nextInt(RandomSource.create(), 1, 5)), y, (z + Mth.nextInt(RandomSource.create(), 1, 5)), _ent.getYRot(), _ent.getXRot());
 					}
 				} else if (rand2 == 6) {
 					{
 						Entity _ent = entity;
 						_ent.teleportTo((x - Mth.nextInt(RandomSource.create(), 1, 5)), y, (z - Mth.nextInt(RandomSource.create(), 1, 5)));
 						if (_ent instanceof ServerPlayer _serverPlayer)
-							_serverPlayer.connection.teleport((x - Mth.nextInt(RandomSource.create(), 1, 5)), y,
-									(z - Mth.nextInt(RandomSource.create(), 1, 5)), _ent.getYRot(), _ent.getXRot());
+							_serverPlayer.connection.teleport((x - Mth.nextInt(RandomSource.create(), 1, 5)), y, (z - Mth.nextInt(RandomSource.create(), 1, 5)), _ent.getYRot(), _ent.getXRot());
 					}
 				} else if (rand2 == 7) {
 					{
 						Entity _ent = entity;
 						_ent.teleportTo((x + Mth.nextInt(RandomSource.create(), 1, 5)), y, (z - Mth.nextInt(RandomSource.create(), 1, 5)));
 						if (_ent instanceof ServerPlayer _serverPlayer)
-							_serverPlayer.connection.teleport((x + Mth.nextInt(RandomSource.create(), 1, 5)), y,
-									(z - Mth.nextInt(RandomSource.create(), 1, 5)), _ent.getYRot(), _ent.getXRot());
+							_serverPlayer.connection.teleport((x + Mth.nextInt(RandomSource.create(), 1, 5)), y, (z - Mth.nextInt(RandomSource.create(), 1, 5)), _ent.getYRot(), _ent.getXRot());
 					}
 				} else if (rand2 == 8) {
 					{
 						Entity _ent = entity;
 						_ent.teleportTo((x - Mth.nextInt(RandomSource.create(), 1, 5)), y, (z + Mth.nextInt(RandomSource.create(), 1, 5)));
 						if (_ent instanceof ServerPlayer _serverPlayer)
-							_serverPlayer.connection.teleport((x - Mth.nextInt(RandomSource.create(), 1, 5)), y,
-									(z + Mth.nextInt(RandomSource.create(), 1, 5)), _ent.getYRot(), _ent.getXRot());
+							_serverPlayer.connection.teleport((x - Mth.nextInt(RandomSource.create(), 1, 5)), y, (z + Mth.nextInt(RandomSource.create(), 1, 5)), _ent.getYRot(), _ent.getXRot());
 					}
 				}
 			}

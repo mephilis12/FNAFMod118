@@ -35,10 +35,7 @@ import java.util.Collections;
 
 import io.netty.buffer.Unpooled;
 
-public class RemantInfuserBlock extends Block
-		implements
-
-			EntityBlock {
+public class RemantInfuserBlock extends Block implements EntityBlock {
 	public RemantInfuserBlock() {
 		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(2f, 10f));
 	}

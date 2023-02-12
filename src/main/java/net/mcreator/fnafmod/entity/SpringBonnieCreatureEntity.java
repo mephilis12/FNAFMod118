@@ -65,8 +65,7 @@ public class SpringBonnieCreatureEntity extends Monster {
 					SpringBonnieCreatureEntity.this.yBodyRot = SpringBonnieCreatureEntity.this.getYRot();
 					SpringBonnieCreatureEntity.this.yHeadRot = SpringBonnieCreatureEntity.this.getYRot();
 					if (SpringBonnieCreatureEntity.this.isInWater()) {
-						SpringBonnieCreatureEntity.this
-								.setSpeed((float) SpringBonnieCreatureEntity.this.getAttribute(Attributes.MOVEMENT_SPEED).getValue());
+						SpringBonnieCreatureEntity.this.setSpeed((float) SpringBonnieCreatureEntity.this.getAttribute(Attributes.MOVEMENT_SPEED).getValue());
 						float f2 = -(float) (Mth.atan2(dy, (float) Math.sqrt(dx * dx + dz * dz)) * (180 / Math.PI));
 						f2 = Mth.clamp(Mth.wrapDegrees(f2), -85, 85);
 						SpringBonnieCreatureEntity.this.setXRot(this.rotlerp(SpringBonnieCreatureEntity.this.getXRot(), f2, 5));
@@ -111,8 +110,7 @@ public class SpringBonnieCreatureEntity extends Monster {
 	}
 
 	@Override
-	public SpawnGroupData finalizeSpawn(ServerLevelAccessor world, DifficultyInstance difficulty, MobSpawnType reason,
-			@Nullable SpawnGroupData livingdata, @Nullable CompoundTag tag) {
+	public SpawnGroupData finalizeSpawn(ServerLevelAccessor world, DifficultyInstance difficulty, MobSpawnType reason, @Nullable SpawnGroupData livingdata, @Nullable CompoundTag tag) {
 		SpawnGroupData retval = super.finalizeSpawn(world, difficulty, reason, livingdata, tag);
 		StatueSpawnProcedure.execute(this);
 		return retval;

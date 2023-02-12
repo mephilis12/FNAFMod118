@@ -38,14 +38,12 @@ public class ChicaStatueProcedure {
 				return -1;
 			}
 		}.getValue(world, new BlockPos(x, y, z), "RemantEnergy") <= 3) {
-			if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-					&& _current.get() instanceof Map _slots) {
+			if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 				((Slot) _slots.get(1)).remove(1);
 				_player.containerMenu.broadcastChanges();
 			}
 			FnafModMod.queueServerWork(40, () -> {
-				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-						&& _current.get() instanceof Map _slots) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 					((Slot) _slots.get(2)).remove(1);
 					_player.containerMenu.broadcastChanges();
 				}
@@ -58,14 +56,12 @@ public class ChicaStatueProcedure {
 					if (world instanceof Level _level)
 						_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 				}
-				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-						&& _current.get() instanceof Map _slots) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 					((Slot) _slots.get(2)).remove(1);
 					_player.containerMenu.broadcastChanges();
 				}
 				FnafModMod.queueServerWork(40, () -> {
-					if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-							&& _current.get() instanceof Map _slots) {
+					if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 						((Slot) _slots.get(2)).remove(1);
 						_player.containerMenu.broadcastChanges();
 					}
@@ -78,14 +74,12 @@ public class ChicaStatueProcedure {
 						if (world instanceof Level _level)
 							_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 					}
-					if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-							&& _current.get() instanceof Map _slots) {
+					if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 						((Slot) _slots.get(2)).remove(1);
 						_player.containerMenu.broadcastChanges();
 					}
 					FnafModMod.queueServerWork(40, () -> {
-						if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-								&& _current.get() instanceof Map _slots) {
+						if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 							((Slot) _slots.get(2)).remove(1);
 							_player.containerMenu.broadcastChanges();
 						}
@@ -98,19 +92,16 @@ public class ChicaStatueProcedure {
 							if (world instanceof Level _level)
 								_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 						}
-						if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-								&& _current.get() instanceof Map _slots) {
+						if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 							((Slot) _slots.get(2)).remove(1);
 							_player.containerMenu.broadcastChanges();
 						}
-						if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-								&& _current.get() instanceof Map _slots) {
+						if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 							((Slot) _slots.get(2)).remove(1);
 							_player.containerMenu.broadcastChanges();
 						}
 						FnafModMod.queueServerWork(40, () -> {
-							if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-									&& _current.get() instanceof Map _slots) {
+							if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 								((Slot) _slots.get(2)).remove(1);
 								_player.containerMenu.broadcastChanges();
 							}
@@ -123,14 +114,12 @@ public class ChicaStatueProcedure {
 								if (world instanceof Level _level)
 									_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 							}
-							if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-									&& _current.get() instanceof Map _slots) {
+							if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 								((Slot) _slots.get(2)).remove(1);
 								_player.containerMenu.broadcastChanges();
 							}
 							FnafModMod.queueServerWork(40, () -> {
-								if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-										&& _current.get() instanceof Map _slots) {
+								if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 									((Slot) _slots.get(2)).remove(1);
 									_player.containerMenu.broadcastChanges();
 								}
@@ -143,14 +132,12 @@ public class ChicaStatueProcedure {
 									if (world instanceof Level _level)
 										_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 								}
-								if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-										&& _current.get() instanceof Map _slots) {
+								if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 									((Slot) _slots.get(2)).remove(1);
 									_player.containerMenu.broadcastChanges();
 								}
 								FnafModMod.queueServerWork(40, () -> {
-									if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-											&& _current.get() instanceof Map _slots) {
+									if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 										((Slot) _slots.get(2)).remove(1);
 										_player.containerMenu.broadcastChanges();
 									}
@@ -163,14 +150,12 @@ public class ChicaStatueProcedure {
 										if (world instanceof Level _level)
 											_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 									}
-									if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-											&& _current.get() instanceof Map _slots) {
+									if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 										((Slot) _slots.get(2)).remove(1);
 										_player.containerMenu.broadcastChanges();
 									}
 									FnafModMod.queueServerWork(40, () -> {
-										if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-												&& _current.get() instanceof Map _slots) {
+										if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 											((Slot) _slots.get(2)).remove(1);
 											_player.containerMenu.broadcastChanges();
 										}
@@ -211,8 +196,7 @@ public class ChicaStatueProcedure {
 												});
 											}
 										}
-										if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-												&& _current.get() instanceof Map _slots) {
+										if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 											((Slot) _slots.get(1)).remove(1);
 											_player.containerMenu.broadcastChanges();
 										}
@@ -238,8 +222,7 @@ public class ChicaStatueProcedure {
 				return -1;
 			}
 		}.getValue(world, new BlockPos(x, y, z), "DarkEnergy") <= 3) {
-			if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-					&& _current.get() instanceof Map _slots) {
+			if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 				((Slot) _slots.get(1)).remove(1);
 				_player.containerMenu.broadcastChanges();
 			}
@@ -253,14 +236,12 @@ public class ChicaStatueProcedure {
 					if (world instanceof Level _level)
 						_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 				}
-				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-						&& _current.get() instanceof Map _slots) {
+				if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 					((Slot) _slots.get(2)).remove(1);
 					_player.containerMenu.broadcastChanges();
 				}
 				FnafModMod.queueServerWork(40, () -> {
-					if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-							&& _current.get() instanceof Map _slots) {
+					if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 						((Slot) _slots.get(2)).remove(1);
 						_player.containerMenu.broadcastChanges();
 					}
@@ -273,14 +254,12 @@ public class ChicaStatueProcedure {
 						if (world instanceof Level _level)
 							_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 					}
-					if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-							&& _current.get() instanceof Map _slots) {
+					if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 						((Slot) _slots.get(2)).remove(1);
 						_player.containerMenu.broadcastChanges();
 					}
 					FnafModMod.queueServerWork(40, () -> {
-						if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-								&& _current.get() instanceof Map _slots) {
+						if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 							((Slot) _slots.get(2)).remove(1);
 							_player.containerMenu.broadcastChanges();
 						}
@@ -293,14 +272,12 @@ public class ChicaStatueProcedure {
 							if (world instanceof Level _level)
 								_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 						}
-						if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-								&& _current.get() instanceof Map _slots) {
+						if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 							((Slot) _slots.get(2)).remove(1);
 							_player.containerMenu.broadcastChanges();
 						}
 						FnafModMod.queueServerWork(40, () -> {
-							if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-									&& _current.get() instanceof Map _slots) {
+							if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 								((Slot) _slots.get(2)).remove(1);
 								_player.containerMenu.broadcastChanges();
 							}
@@ -313,14 +290,12 @@ public class ChicaStatueProcedure {
 								if (world instanceof Level _level)
 									_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 							}
-							if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-									&& _current.get() instanceof Map _slots) {
+							if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 								((Slot) _slots.get(2)).remove(1);
 								_player.containerMenu.broadcastChanges();
 							}
 							FnafModMod.queueServerWork(40, () -> {
-								if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-										&& _current.get() instanceof Map _slots) {
+								if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 									((Slot) _slots.get(2)).remove(1);
 									_player.containerMenu.broadcastChanges();
 								}
@@ -333,14 +308,12 @@ public class ChicaStatueProcedure {
 									if (world instanceof Level _level)
 										_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 								}
-								if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-										&& _current.get() instanceof Map _slots) {
+								if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 									((Slot) _slots.get(2)).remove(1);
 									_player.containerMenu.broadcastChanges();
 								}
 								FnafModMod.queueServerWork(40, () -> {
-									if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-											&& _current.get() instanceof Map _slots) {
+									if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 										((Slot) _slots.get(2)).remove(1);
 										_player.containerMenu.broadcastChanges();
 									}
@@ -353,14 +326,12 @@ public class ChicaStatueProcedure {
 										if (world instanceof Level _level)
 											_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 									}
-									if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-											&& _current.get() instanceof Map _slots) {
+									if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 										((Slot) _slots.get(2)).remove(1);
 										_player.containerMenu.broadcastChanges();
 									}
 									FnafModMod.queueServerWork(40, () -> {
-										if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-												&& _current.get() instanceof Map _slots) {
+										if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 											((Slot) _slots.get(2)).remove(1);
 											_player.containerMenu.broadcastChanges();
 										}
@@ -401,8 +372,7 @@ public class ChicaStatueProcedure {
 												});
 											}
 										}
-										if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
-												&& _current.get() instanceof Map _slots) {
+										if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 											((Slot) _slots.get(1)).remove(1);
 											_player.containerMenu.broadcastChanges();
 										}

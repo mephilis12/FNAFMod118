@@ -27,15 +27,12 @@ public class FlashLightOnItemInHandTickProcedure {
 		double dmg = 0;
 		double distance = 0;
 		if (149 == (itemstack).getDamageValue()) {
-			if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == FnafModModItems.FLASH_LIGHT_ON
-					.get()) {
+			if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == FnafModModItems.FLASH_LIGHT_ON.get()) {
 				if (world instanceof Level _level) {
 					if (!_level.isClientSide()) {
-						_level.playSound(null, new BlockPos(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ui.button.click")),
-								SoundSource.NEUTRAL, 1, 1);
+						_level.playSound(null, new BlockPos(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ui.button.click")), SoundSource.NEUTRAL, 1, 1);
 					} else {
-						_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ui.button.click")),
-								SoundSource.NEUTRAL, 1, 1, false);
+						_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ui.button.click")), SoundSource.NEUTRAL, 1, 1, false);
 					}
 				}
 				if (entity instanceof LivingEntity _entity) {
@@ -45,15 +42,12 @@ public class FlashLightOnItemInHandTickProcedure {
 					if (_entity instanceof Player _player)
 						_player.getInventory().setChanged();
 				}
-			} else if ((entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY)
-					.getItem() == FnafModModItems.FLASH_LIGHT_ON.get()) {
+			} else if ((entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getItem() == FnafModModItems.FLASH_LIGHT_ON.get()) {
 				if (world instanceof Level _level) {
 					if (!_level.isClientSide()) {
-						_level.playSound(null, new BlockPos(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ui.button.click")),
-								SoundSource.NEUTRAL, 1, 1);
+						_level.playSound(null, new BlockPos(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ui.button.click")), SoundSource.NEUTRAL, 1, 1);
 					} else {
-						_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ui.button.click")),
-								SoundSource.NEUTRAL, 1, 1, false);
+						_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ui.button.click")), SoundSource.NEUTRAL, 1, 1, false);
 					}
 				}
 				if (entity instanceof LivingEntity _entity) {
@@ -77,25 +71,15 @@ public class FlashLightOnItemInHandTickProcedure {
 		if (itemstack.getOrCreateTag().getDouble("TimerFlashLightBatteryFNAFMOD") == 0) {
 			itemstack.getOrCreateTag().putDouble("TimerFlashLightBatteryFNAFMOD", 40);
 		} else {
-			itemstack.getOrCreateTag().putDouble("TimerFlashLightBatteryFNAFMOD",
-					(itemstack.getOrCreateTag().getDouble("TimerFlashLightBatteryFNAFMOD") - 1));
+			itemstack.getOrCreateTag().putDouble("TimerFlashLightBatteryFNAFMOD", (itemstack.getOrCreateTag().getDouble("TimerFlashLightBatteryFNAFMOD") - 1));
 		}
 		if (!world.isClientSide()) {
 			distance = 1;
 			for (int index0 = 0; index0 < (int) (17); index0++) {
 				if ((world.getBlockState(new BlockPos(
-						entity.level.clip(
-								new ClipContext(entity.getEyePosition(1f), entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(distance)),
-										ClipContext.Block.OUTLINE, ClipContext.Fluid.NONE, entity))
-								.getBlockPos().getX(),
-						entity.level.clip(
-								new ClipContext(entity.getEyePosition(1f), entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(distance)),
-										ClipContext.Block.OUTLINE, ClipContext.Fluid.NONE, entity))
-								.getBlockPos().getY(),
-						entity.level.clip(
-								new ClipContext(entity.getEyePosition(1f), entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(distance)),
-										ClipContext.Block.OUTLINE, ClipContext.Fluid.NONE, entity))
-								.getBlockPos().getZ())))
+						entity.level.clip(new ClipContext(entity.getEyePosition(1f), entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(distance)), ClipContext.Block.OUTLINE, ClipContext.Fluid.NONE, entity)).getBlockPos().getX(),
+						entity.level.clip(new ClipContext(entity.getEyePosition(1f), entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(distance)), ClipContext.Block.OUTLINE, ClipContext.Fluid.NONE, entity)).getBlockPos().getY(),
+						entity.level.clip(new ClipContext(entity.getEyePosition(1f), entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(distance)), ClipContext.Block.OUTLINE, ClipContext.Fluid.NONE, entity)).getBlockPos().getZ())))
 						.getBlock() == FnafModModBlocks.FLASH_LIGHT_LIGHT.get() && new Object() {
 							public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 								BlockEntity blockEntity = world.getBlockEntity(pos);
@@ -103,29 +87,16 @@ public class FlashLightOnItemInHandTickProcedure {
 									return blockEntity.getPersistentData().getDouble(tag);
 								return -1;
 							}
-						}.getValue(world,
-								new BlockPos(
-										entity.level.clip(new ClipContext(entity.getEyePosition(1f),
-												entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(distance)), ClipContext.Block.OUTLINE,
-												ClipContext.Fluid.NONE, entity)).getBlockPos().getX(),
-										entity.level.clip(new ClipContext(entity.getEyePosition(1f),
-												entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(distance)), ClipContext.Block.OUTLINE,
-												ClipContext.Fluid.NONE, entity)).getBlockPos().getY(),
-										entity.level.clip(new ClipContext(entity.getEyePosition(1f),
-												entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(distance)), ClipContext.Block.OUTLINE,
-												ClipContext.Fluid.NONE, entity)).getBlockPos().getZ()),
+						}.getValue(world, new BlockPos(
+								entity.level.clip(new ClipContext(entity.getEyePosition(1f), entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(distance)), ClipContext.Block.OUTLINE, ClipContext.Fluid.NONE, entity)).getBlockPos().getX(),
+								entity.level.clip(new ClipContext(entity.getEyePosition(1f), entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(distance)), ClipContext.Block.OUTLINE, ClipContext.Fluid.NONE, entity)).getBlockPos().getY(),
+								entity.level.clip(new ClipContext(entity.getEyePosition(1f), entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(distance)), ClipContext.Block.OUTLINE, ClipContext.Fluid.NONE, entity)).getBlockPos().getZ()),
 								"Delay") < 5) {
 					if (!world.isClientSide()) {
 						BlockPos _bp = new BlockPos(
-								entity.level.clip(new ClipContext(entity.getEyePosition(1f),
-										entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(distance)), ClipContext.Block.OUTLINE,
-										ClipContext.Fluid.NONE, entity)).getBlockPos().getX(),
-								entity.level.clip(new ClipContext(entity.getEyePosition(1f),
-										entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(distance)), ClipContext.Block.OUTLINE,
-										ClipContext.Fluid.NONE, entity)).getBlockPos().getY(),
-								entity.level.clip(new ClipContext(entity.getEyePosition(1f),
-										entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(distance)), ClipContext.Block.OUTLINE,
-										ClipContext.Fluid.NONE, entity)).getBlockPos().getZ());
+								entity.level.clip(new ClipContext(entity.getEyePosition(1f), entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(distance)), ClipContext.Block.OUTLINE, ClipContext.Fluid.NONE, entity)).getBlockPos().getX(),
+								entity.level.clip(new ClipContext(entity.getEyePosition(1f), entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(distance)), ClipContext.Block.OUTLINE, ClipContext.Fluid.NONE, entity)).getBlockPos().getY(),
+								entity.level.clip(new ClipContext(entity.getEyePosition(1f), entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(distance)), ClipContext.Block.OUTLINE, ClipContext.Fluid.NONE, entity)).getBlockPos().getZ());
 						BlockEntity _blockEntity = world.getBlockEntity(_bp);
 						BlockState _bs = world.getBlockState(_bp);
 						if (_blockEntity != null)
@@ -135,27 +106,14 @@ public class FlashLightOnItemInHandTickProcedure {
 					}
 				} else {
 					if ((world.getBlockState(new BlockPos(
-							entity.level.clip(new ClipContext(entity.getEyePosition(1f),
-									entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(distance)), ClipContext.Block.OUTLINE,
-									ClipContext.Fluid.NONE, entity)).getBlockPos().getX(),
-							entity.level.clip(new ClipContext(entity.getEyePosition(1f),
-									entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(distance)), ClipContext.Block.OUTLINE,
-									ClipContext.Fluid.NONE, entity)).getBlockPos().getY(),
-							entity.level.clip(new ClipContext(entity.getEyePosition(1f),
-									entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(distance)), ClipContext.Block.OUTLINE,
-									ClipContext.Fluid.NONE, entity)).getBlockPos().getZ())))
+							entity.level.clip(new ClipContext(entity.getEyePosition(1f), entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(distance)), ClipContext.Block.OUTLINE, ClipContext.Fluid.NONE, entity)).getBlockPos().getX(),
+							entity.level.clip(new ClipContext(entity.getEyePosition(1f), entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(distance)), ClipContext.Block.OUTLINE, ClipContext.Fluid.NONE, entity)).getBlockPos().getY(),
+							entity.level.clip(new ClipContext(entity.getEyePosition(1f), entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(distance)), ClipContext.Block.OUTLINE, ClipContext.Fluid.NONE, entity)).getBlockPos().getZ())))
 							.getMaterial() == net.minecraft.world.level.material.Material.AIR) {
-						world.setBlock(
-								new BlockPos(
-										entity.level.clip(new ClipContext(entity.getEyePosition(1f),
-												entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(distance)), ClipContext.Block.OUTLINE,
-												ClipContext.Fluid.NONE, entity)).getBlockPos().getX(),
-										entity.level.clip(new ClipContext(entity.getEyePosition(1f),
-												entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(distance)), ClipContext.Block.OUTLINE,
-												ClipContext.Fluid.NONE, entity)).getBlockPos().getY(),
-										entity.level.clip(new ClipContext(entity.getEyePosition(1f),
-												entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(distance)), ClipContext.Block.OUTLINE,
-												ClipContext.Fluid.NONE, entity)).getBlockPos().getZ()),
+						world.setBlock(new BlockPos(
+								entity.level.clip(new ClipContext(entity.getEyePosition(1f), entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(distance)), ClipContext.Block.OUTLINE, ClipContext.Fluid.NONE, entity)).getBlockPos().getX(),
+								entity.level.clip(new ClipContext(entity.getEyePosition(1f), entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(distance)), ClipContext.Block.OUTLINE, ClipContext.Fluid.NONE, entity)).getBlockPos().getY(),
+								entity.level.clip(new ClipContext(entity.getEyePosition(1f), entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(distance)), ClipContext.Block.OUTLINE, ClipContext.Fluid.NONE, entity)).getBlockPos().getZ()),
 								FnafModModBlocks.FLASH_LIGHT_LIGHT.get().defaultBlockState(), 3);
 					}
 				}

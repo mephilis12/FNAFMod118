@@ -28,8 +28,7 @@ public class FNAF2CelebrateBlock extends Block {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public FNAF2CelebrateBlock() {
-		super(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.AZALEA_LEAVES).strength(1f, 10f).noOcclusion()
-				.isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.AZALEA_LEAVES).strength(1f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
 
@@ -50,7 +49,6 @@ public class FNAF2CelebrateBlock extends Block {
 
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
-
 		return switch (state.getValue(FACING)) {
 			default -> box(0, 0, 0, 32, 32, 0.2);
 			case NORTH -> box(-16, 0, 15.8, 16, 32, 16);

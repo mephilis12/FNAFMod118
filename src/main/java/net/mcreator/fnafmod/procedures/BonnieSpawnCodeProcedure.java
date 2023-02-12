@@ -19,8 +19,7 @@ public class BonnieSpawnCodeProcedure {
 		if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 			if (entity instanceof Player _player) {
 				ItemStack _stktoremove = new ItemStack(FnafModModItems.BONNIE_SPAWN.get());
-				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1,
-						_player.inventoryMenu.getCraftSlots());
+				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 			}
 		}
 		if (world instanceof ServerLevel _level) {

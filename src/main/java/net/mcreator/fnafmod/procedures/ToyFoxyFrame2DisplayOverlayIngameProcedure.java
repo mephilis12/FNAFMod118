@@ -8,8 +8,7 @@ public class ToyFoxyFrame2DisplayOverlayIngameProcedure {
 	public static boolean execute(Entity entity) {
 		if (entity == null)
 			return false;
-		if ((entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-				.orElse(new FnafModModVariables.PlayerVariables())).ToyFoxyJumpscare == 2) {
+		if ((entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new FnafModModVariables.PlayerVariables())).ToyFoxyJumpscare == 2) {
 			return true;
 		}
 		return false;

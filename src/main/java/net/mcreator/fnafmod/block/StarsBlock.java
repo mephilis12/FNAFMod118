@@ -19,8 +19,7 @@ import java.util.Collections;
 
 public class StarsBlock extends Block {
 	public StarsBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.VINE).strength(0.8f).noCollission().noOcclusion()
-				.isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.VINE).strength(0.8f).noCollission().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 	}
 
 	@Override

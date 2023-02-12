@@ -8,8 +8,7 @@ public class MangleFrame4DisplayOverlayIngameProcedure {
 	public static boolean execute(Entity entity) {
 		if (entity == null)
 			return false;
-		if ((entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-				.orElse(new FnafModModVariables.PlayerVariables())).MangleJumpscare == 4) {
+		if ((entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new FnafModModVariables.PlayerVariables())).MangleJumpscare == 4) {
 			return true;
 		}
 		return false;

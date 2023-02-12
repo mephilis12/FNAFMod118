@@ -35,8 +35,7 @@ public class FNAF3PostersBlock extends Block {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public FNAF3PostersBlock() {
-		super(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.AZALEA_LEAVES).strength(0.8f).noCollission().noOcclusion()
-				.isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.AZALEA_LEAVES).strength(0.8f).noCollission().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
 
@@ -57,7 +56,6 @@ public class FNAF3PostersBlock extends Block {
 
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
-
 		return switch (state.getValue(FACING)) {
 			default -> box(0, 0, 0, 16, 16, 1);
 			case NORTH -> box(0, 0, 15, 16, 16, 16);
@@ -104,7 +102,6 @@ public class FNAF3PostersBlock extends Block {
 		double hitY = hit.getLocation().y;
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
-
 		FNAF3PostersOnBlockRightClickedProcedure.execute(world, x, y, z);
 		return InteractionResult.SUCCESS;
 	}

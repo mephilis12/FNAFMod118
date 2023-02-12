@@ -100,13 +100,12 @@ public class SpringLockedZombieSpringBonnieEntity extends Zombie {
 	}
 
 	public static void init() {
-		SpawnPlacements.register(FnafModModEntities.SPRING_LOCKED_ZOMBIE_SPRING_BONNIE.get(), SpawnPlacements.Type.ON_GROUND,
-				Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, (entityType, world, reason, pos, random) -> {
-					int x = pos.getX();
-					int y = pos.getY();
-					int z = pos.getZ();
-					return SpringlockedZombieConditionProcedure.execute(world);
-				});
+		SpawnPlacements.register(FnafModModEntities.SPRING_LOCKED_ZOMBIE_SPRING_BONNIE.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, (entityType, world, reason, pos, random) -> {
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			return SpringlockedZombieConditionProcedure.execute(world);
+		});
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {

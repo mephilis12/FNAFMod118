@@ -38,14 +38,10 @@ public class GrooblerSpawnProcedure {
 	}
 
 	private static void execute(@Nullable Event event, LevelAccessor world, double x, double y, double z) {
-		if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == FnafModModBlocks.BONNIE_HEAD.get()
-				&& (world.getBlockState(new BlockPos(x, y - 1, z))).getBlock() == Blocks.PURPLE_WOOL
-				&& (world.getBlockState(new BlockPos(x + 1, y - 1, z))).getBlock() == Blocks.LEVER
-				&& (world.getBlockState(new BlockPos(x - 1, y - 1, z))).getBlock() == Blocks.LEVER
-				|| (world.getBlockState(new BlockPos(x, y, z))).getBlock() == FnafModModBlocks.BONNIE_HEAD.get()
-						&& (world.getBlockState(new BlockPos(x, y - 1, z))).getBlock() == Blocks.PURPLE_WOOL
-						&& (world.getBlockState(new BlockPos(x, y - 1, z + 1))).getBlock() == Blocks.LEVER
-						&& (world.getBlockState(new BlockPos(x, y - 1, z - 1))).getBlock() == Blocks.LEVER) {
+		if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == FnafModModBlocks.BONNIE_HEAD.get() && (world.getBlockState(new BlockPos(x, y - 1, z))).getBlock() == Blocks.PURPLE_WOOL
+				&& (world.getBlockState(new BlockPos(x + 1, y - 1, z))).getBlock() == Blocks.LEVER && (world.getBlockState(new BlockPos(x - 1, y - 1, z))).getBlock() == Blocks.LEVER
+				|| (world.getBlockState(new BlockPos(x, y, z))).getBlock() == FnafModModBlocks.BONNIE_HEAD.get() && (world.getBlockState(new BlockPos(x, y - 1, z))).getBlock() == Blocks.PURPLE_WOOL
+						&& (world.getBlockState(new BlockPos(x, y - 1, z + 1))).getBlock() == Blocks.LEVER && (world.getBlockState(new BlockPos(x, y - 1, z - 1))).getBlock() == Blocks.LEVER) {
 			world.setBlock(new BlockPos(x, y, z), Blocks.AIR.defaultBlockState(), 3);
 			world.setBlock(new BlockPos(x, y - 1, z), Blocks.AIR.defaultBlockState(), 3);
 			world.setBlock(new BlockPos(x - 1, y - 1, z), Blocks.AIR.defaultBlockState(), 3);
@@ -54,11 +50,9 @@ public class GrooblerSpawnProcedure {
 			world.setBlock(new BlockPos(x, y - 1, z + 1), Blocks.AIR.defaultBlockState(), 3);
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
-					_level.playSound(null, new BlockPos(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.wither.spawn")),
-							SoundSource.MASTER, 1, 1);
+					_level.playSound(null, new BlockPos(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.wither.spawn")), SoundSource.MASTER, 1, 1);
 				} else {
-					_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.wither.spawn")),
-							SoundSource.MASTER, 1, 1, false);
+					_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.wither.spawn")), SoundSource.MASTER, 1, 1, false);
 				}
 			}
 			if (!world.isClientSide()) {
@@ -73,8 +67,7 @@ public class GrooblerSpawnProcedure {
 				entityToSpawn.setYHeadRot(0);
 				entityToSpawn.setDeltaMovement(0, 0, 0);
 				if (entityToSpawn instanceof Mob _mobToSpawn)
-					_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null,
-							null);
+					_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 				world.addFreshEntity(entityToSpawn);
 			}
 		}

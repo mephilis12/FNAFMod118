@@ -99,6 +99,7 @@
     "luminance": 0,
     "unbreakable": true,
     "breakHarvestLevel": 0,
+    "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,

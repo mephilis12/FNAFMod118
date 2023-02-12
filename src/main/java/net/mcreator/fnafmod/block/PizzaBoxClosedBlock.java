@@ -36,8 +36,7 @@ public class PizzaBoxClosedBlock extends Block {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public PizzaBoxClosedBlock() {
-		super(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.AZALEA_LEAVES).strength(0.8f).noOcclusion()
-				.isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.AZALEA_LEAVES).strength(0.8f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
 
@@ -58,7 +57,6 @@ public class PizzaBoxClosedBlock extends Block {
 
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
-
 		return switch (state.getValue(FACING)) {
 			default -> box(0, 0, 0, 16, 3, 16);
 			case NORTH -> box(0, 0, 0, 16, 3, 16);
@@ -108,7 +106,6 @@ public class PizzaBoxClosedBlock extends Block {
 		double hitY = hit.getLocation().y;
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
-
 		PizzaBoxClosedOnBlockRightClickedProcedure.execute(world, x, y, z);
 		return InteractionResult.SUCCESS;
 	}

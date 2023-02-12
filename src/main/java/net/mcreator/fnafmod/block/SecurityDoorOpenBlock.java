@@ -36,8 +36,7 @@ public class SecurityDoorOpenBlock extends Block {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public SecurityDoorOpenBlock() {
-		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(5f, 10f).requiresCorrectToolForDrops().noCollission()
-				.noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(5f, 10f).requiresCorrectToolForDrops().noCollission().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
 
@@ -58,7 +57,6 @@ public class SecurityDoorOpenBlock extends Block {
 
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
-
 		return switch (state.getValue(FACING)) {
 			default -> box(0, 0, 7, 16, 32, 9);
 			case NORTH -> box(0, 0, 7, 16, 32, 9);
@@ -117,7 +115,6 @@ public class SecurityDoorOpenBlock extends Block {
 		int x = pos.getX();
 		int y = pos.getY();
 		int z = pos.getZ();
-
 		OfficeDoorOpenClientDisplayRandomTickProcedure.execute(world, x, y, z);
 		world.scheduleTick(pos, this, 1);
 	}

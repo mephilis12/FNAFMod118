@@ -28,8 +28,7 @@ public class PuppetMaskBlock extends Block {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public PuppetMaskBlock() {
-		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.LANTERN).strength(2f, 10f).noOcclusion()
-				.isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.LANTERN).strength(2f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
 
@@ -50,7 +49,6 @@ public class PuppetMaskBlock extends Block {
 
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
-
 		return switch (state.getValue(FACING)) {
 			default -> box(4, 3, 0, 11, 11, 2);
 			case NORTH -> box(5, 3, 14, 12, 11, 16);

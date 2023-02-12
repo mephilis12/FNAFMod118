@@ -21,34 +21,21 @@ public class MaskProtectionTestForTickProcedure {
 		Exit = true;
 		{
 			final Vec3 _center = new Vec3(x, y, z);
-			List<Entity> _entfound = world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(40 / 2d), e -> true).stream()
-					.sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center))).collect(Collectors.toList());
+			List<Entity> _entfound = world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(40 / 2d), e -> true).stream().sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center))).collect(Collectors.toList());
 			for (Entity entityiterator : _entfound) {
-				if (entityiterator instanceof Player
-						&& (entityiterator instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY)
-								.getItem() == FnafModModItems.FREDDY_MASK_HELMET.get()) {
+				if (entityiterator instanceof Player && (entityiterator instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).getItem() == FnafModModItems.FREDDY_MASK_HELMET.get()) {
 					Exit = false;
 				}
-				if (entityiterator instanceof Player
-						&& (entityiterator instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY)
-								.getItem() == FnafModModItems.SPRING_LOCK_SUIT_HELMET.get()
-						&& (entityiterator instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY)
-								.getItem() == FnafModModItems.SPRING_LOCK_SUIT_CHESTPLATE.get()
-						&& (entityiterator instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.LEGS) : ItemStack.EMPTY)
-								.getItem() == FnafModModItems.SPRING_LOCK_SUIT_LEGGINGS.get()
-						&& (entityiterator instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.FEET) : ItemStack.EMPTY)
-								.getItem() == FnafModModItems.SPRING_LOCK_SUIT_BOOTS.get()) {
+				if (entityiterator instanceof Player && (entityiterator instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).getItem() == FnafModModItems.SPRING_LOCK_SUIT_HELMET.get()
+						&& (entityiterator instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY).getItem() == FnafModModItems.SPRING_LOCK_SUIT_CHESTPLATE.get()
+						&& (entityiterator instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.LEGS) : ItemStack.EMPTY).getItem() == FnafModModItems.SPRING_LOCK_SUIT_LEGGINGS.get()
+						&& (entityiterator instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.FEET) : ItemStack.EMPTY).getItem() == FnafModModItems.SPRING_LOCK_SUIT_BOOTS.get()) {
 					Exit = false;
 				}
-				if (entityiterator instanceof Player
-						&& (entityiterator instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY)
-								.getItem() == FnafModModItems.FREDBEAR_SPRING_LOCK_SUIT_HELMET.get()
-						&& (entityiterator instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY)
-								.getItem() == FnafModModItems.FREDBEAR_SPRING_LOCK_SUIT_CHESTPLATE.get()
-						&& (entityiterator instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.LEGS) : ItemStack.EMPTY)
-								.getItem() == FnafModModItems.FREDBEAR_SPRING_LOCK_SUIT_LEGGINGS.get()
-						&& (entityiterator instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.FEET) : ItemStack.EMPTY)
-								.getItem() == FnafModModItems.FREDBEAR_SPRING_LOCK_SUIT_BOOTS.get()) {
+				if (entityiterator instanceof Player && (entityiterator instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).getItem() == FnafModModItems.FREDBEAR_SPRING_LOCK_SUIT_HELMET.get()
+						&& (entityiterator instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY).getItem() == FnafModModItems.FREDBEAR_SPRING_LOCK_SUIT_CHESTPLATE.get()
+						&& (entityiterator instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.LEGS) : ItemStack.EMPTY).getItem() == FnafModModItems.FREDBEAR_SPRING_LOCK_SUIT_LEGGINGS.get()
+						&& (entityiterator instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.FEET) : ItemStack.EMPTY).getItem() == FnafModModItems.FREDBEAR_SPRING_LOCK_SUIT_BOOTS.get()) {
 					Exit = false;
 				}
 			}

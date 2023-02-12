@@ -100,13 +100,12 @@ public class SpringlockedZombieFredbearEntity extends Zombie {
 	}
 
 	public static void init() {
-		SpawnPlacements.register(FnafModModEntities.SPRINGLOCKED_ZOMBIE_FREDBEAR.get(), SpawnPlacements.Type.ON_GROUND,
-				Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, (entityType, world, reason, pos, random) -> {
-					int x = pos.getX();
-					int y = pos.getY();
-					int z = pos.getZ();
-					return SpringlockedZombieConditionProcedure.execute(world);
-				});
+		SpawnPlacements.register(FnafModModEntities.SPRINGLOCKED_ZOMBIE_FREDBEAR.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, (entityType, world, reason, pos, random) -> {
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			return SpringlockedZombieConditionProcedure.execute(world);
+		});
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {

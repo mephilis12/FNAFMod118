@@ -48,10 +48,7 @@ import java.util.Collections;
 
 import io.netty.buffer.Unpooled;
 
-public class LocketBottomBlock extends Block
-		implements
-
-			EntityBlock {
+public class LocketBottomBlock extends Block implements EntityBlock {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public LocketBottomBlock() {

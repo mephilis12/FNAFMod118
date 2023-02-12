@@ -15,20 +15,16 @@ public class ToyFoxyEntityDiesProcedure {
 			{
 				Entity _ent = entity;
 				if (!_ent.level.isClientSide() && _ent.getServer() != null) {
-					_ent.getServer().getCommands()
-							.performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(),
-									_ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(),
-									_ent.getDisplayName(), _ent.level.getServer(), _ent), "loot spawn ~ ~ ~ loot fnaf_mod:entities/toy_foxy");
+					_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+							_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "loot spawn ~ ~ ~ loot fnaf_mod:entities/toy_foxy");
 				}
 			}
 		}
 		{
 			Entity _ent = entity;
 			if (!_ent.level.isClientSide() && _ent.getServer() != null) {
-				_ent.getServer().getCommands()
-						.performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(),
-								_ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(),
-								_ent.getDisplayName(), _ent.level.getServer(), _ent), "summon fnaf_mod:mangle_sitting");
+				_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
+						_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "summon fnaf_mod:mangle_sitting");
 			}
 		}
 	}

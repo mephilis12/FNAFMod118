@@ -14,7 +14,7 @@ import net.mcreator.fnafmod.client.renderer.WitheredFreddyRenderer;
 import net.mcreator.fnafmod.client.renderer.WitheredFoxyRenderer;
 import net.mcreator.fnafmod.client.renderer.WitheredChicaRenderer;
 import net.mcreator.fnafmod.client.renderer.WitheredBonnieRenderer;
-import net.mcreator.fnafmod.client.renderer.UnwitheredFreddyStatueRenderer;
+import net.mcreator.fnafmod.client.renderer.UnwitheredFreddyRenderer;
 import net.mcreator.fnafmod.client.renderer.UnwitheredFreddyCutoutRenderer;
 import net.mcreator.fnafmod.client.renderer.UnwitheredFoxyStatueRenderer;
 import net.mcreator.fnafmod.client.renderer.UnwitheredFoxyCutoutRenderer;
@@ -98,7 +98,7 @@ import net.mcreator.fnafmod.client.renderer.FredBearCratureRenderer;
 import net.mcreator.fnafmod.client.renderer.FoxyPirateRenderer;
 import net.mcreator.fnafmod.client.renderer.EndoSkeletonRenderer;
 import net.mcreator.fnafmod.client.renderer.Endo02Renderer;
-import net.mcreator.fnafmod.client.renderer.DedwitheredfreddyRenderer;
+import net.mcreator.fnafmod.client.renderer.DedWitheredFreddyRenderer;
 import net.mcreator.fnafmod.client.renderer.DayTimeWitheredFoxyRenderer;
 import net.mcreator.fnafmod.client.renderer.DayTimeToyFreddyRenderer;
 import net.mcreator.fnafmod.client.renderer.DayTimeToyFoxyRenderer;
@@ -109,6 +109,7 @@ import net.mcreator.fnafmod.client.renderer.DayTimeFoxyRenderer;
 import net.mcreator.fnafmod.client.renderer.DayTimeChicaRenderer;
 import net.mcreator.fnafmod.client.renderer.DayTimeBonnieRenderer;
 import net.mcreator.fnafmod.client.renderer.DayTimeBBRenderer;
+import net.mcreator.fnafmod.client.renderer.CryingChildRenderer;
 import net.mcreator.fnafmod.client.renderer.CrawlingToyFoxyRenderer;
 import net.mcreator.fnafmod.client.renderer.CrawlingToyChicaRenderer;
 import net.mcreator.fnafmod.client.renderer.CrawlingToyBonnieRenderer;
@@ -134,9 +135,7 @@ public class FnafModModEntityRenderers {
 		event.registerEntityRenderer(FnafModModEntities.ENDO_SKELETON.get(), EndoSkeletonRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.WITHERED_CHICA.get(), WitheredChicaRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.WITHERED_BONNIE.get(), WitheredBonnieRenderer::new);
-		event.registerEntityRenderer(FnafModModEntities.WITHERED_FREDDY.get(), WitheredFreddyRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.WITHERED_FOXY.get(), WitheredFoxyRenderer::new);
-		event.registerEntityRenderer(FnafModModEntities.WITHERED_GOLDEN_FREDDY.get(), WitheredGoldenFreddyRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.SHADOW_FREDDY.get(), ShadowFreddyRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.MANGLE.get(), MangleRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.MANGLE_SITTING.get(), MangleSittingRenderer::new);
@@ -175,7 +174,6 @@ public class FnafModModEntityRenderers {
 		event.registerEntityRenderer(FnafModModEntities.NIGHTMARE_FOXY_STATUE.get(), NightmareFoxyStatueRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.NIGHTMARE_FREDBEAR_STATUE.get(), NightmareFredbearStatueRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.NIGHTMARIONE_STATUE.get(), NightmarioneStatueRenderer::new);
-		event.registerEntityRenderer(FnafModModEntities.UNWITHERED_FREDDY_STATUE.get(), UnwitheredFreddyStatueRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.UNWITHERED_CHICA_STATUE.get(), UnwitheredChicaStatueRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.UNWITHERED_BONNIE_STATUE.get(), UnwitheredBonnieStatueRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.UNWITHERED_FOXY_STATUE.get(), UnwitheredFoxyStatueRenderer::new);
@@ -201,7 +199,6 @@ public class FnafModModEntityRenderers {
 		event.registerEntityRenderer(FnafModModEntities.PASSIVE_SPRING_BONNIE.get(), PassiveSpringBonnieRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.PASSIVE_CHICA.get(), PassiveChicaRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.PASSIVE_FOXY.get(), PassiveFoxyRenderer::new);
-		event.registerEntityRenderer(FnafModModEntities.DEDWITHEREDFREDDY.get(), DedwitheredfreddyRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.SITTING_WITHERED_BONNIE.get(), SittingWitheredBonnieRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.SITTING_WITHERED_CHICA.get(), SittingWitheredChicaRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.DAY_TIME_FREDDY.get(), DayTimeFreddyRenderer::new);
@@ -234,5 +231,10 @@ public class FnafModModEntityRenderers {
 		event.registerEntityRenderer(FnafModModEntities.GLITCH_BONNIE_CUT_OUT.get(), GlitchBonnieCutOutRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.PLUSHTRAP.get(), PlushtrapRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.SITTING_PLUSHTRAP.get(), SittingPlushtrapRenderer::new);
+		event.registerEntityRenderer(FnafModModEntities.CRYING_CHILD.get(), CryingChildRenderer::new);
+		event.registerEntityRenderer(FnafModModEntities.WITHERED_FREDDY.get(), WitheredFreddyRenderer::new);
+		event.registerEntityRenderer(FnafModModEntities.DED_WITHERED_FREDDY.get(), DedWitheredFreddyRenderer::new);
+		event.registerEntityRenderer(FnafModModEntities.UNWITHERED_FREDDY.get(), UnwitheredFreddyRenderer::new);
+		event.registerEntityRenderer(FnafModModEntities.WITHERED_GOLDEN_FREDDY.get(), WitheredGoldenFreddyRenderer::new);
 	}
 }

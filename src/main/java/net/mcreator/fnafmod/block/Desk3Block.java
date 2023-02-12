@@ -30,15 +30,11 @@ import net.mcreator.fnafmod.block.entity.Desk3BlockEntity;
 import java.util.List;
 import java.util.Collections;
 
-public class Desk3Block extends Block
-		implements
-
-			EntityBlock {
+public class Desk3Block extends Block implements EntityBlock {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public Desk3Block() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.LANTERN).strength(2f, 10f).noOcclusion()
-				.isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.LANTERN).strength(2f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
 
@@ -59,7 +55,6 @@ public class Desk3Block extends Block
 
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
-
 		return switch (state.getValue(FACING)) {
 			default -> box(-15, 0, 0, 31, 15, 16);
 			case NORTH -> box(-15, 0, 0, 31, 15, 16);

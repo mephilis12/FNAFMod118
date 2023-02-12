@@ -19,8 +19,7 @@ import java.util.Collections;
 
 public class RedBlueTileStairsCrackedBlock extends StairBlock {
 	public RedBlueTileStairsCrackedBlock() {
-		super(() -> Blocks.AIR.defaultBlockState(), BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.NETHER_BRICKS).strength(1.5f, 10f)
-				.requiresCorrectToolForDrops().dynamicShape());
+		super(() -> Blocks.AIR.defaultBlockState(), BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.NETHER_BRICKS).strength(1.5f, 10f).requiresCorrectToolForDrops().dynamicShape());
 	}
 
 	@Override

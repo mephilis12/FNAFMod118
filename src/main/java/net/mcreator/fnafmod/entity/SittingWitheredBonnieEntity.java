@@ -70,8 +70,7 @@ public class SittingWitheredBonnieEntity extends PathfinderMob {
 					SittingWitheredBonnieEntity.this.yBodyRot = SittingWitheredBonnieEntity.this.getYRot();
 					SittingWitheredBonnieEntity.this.yHeadRot = SittingWitheredBonnieEntity.this.getYRot();
 					if (SittingWitheredBonnieEntity.this.isInWater()) {
-						SittingWitheredBonnieEntity.this
-								.setSpeed((float) SittingWitheredBonnieEntity.this.getAttribute(Attributes.MOVEMENT_SPEED).getValue());
+						SittingWitheredBonnieEntity.this.setSpeed((float) SittingWitheredBonnieEntity.this.getAttribute(Attributes.MOVEMENT_SPEED).getValue());
 						float f2 = -(float) (Mth.atan2(dy, (float) Math.sqrt(dx * dx + dz * dz)) * (180 / Math.PI));
 						f2 = Mth.clamp(Mth.wrapDegrees(f2), -85, 85);
 						SittingWitheredBonnieEntity.this.setXRot(this.rotlerp(SittingWitheredBonnieEntity.this.getXRot(), f2, 5));
@@ -132,8 +131,7 @@ public class SittingWitheredBonnieEntity extends PathfinderMob {
 	}
 
 	@Override
-	public SpawnGroupData finalizeSpawn(ServerLevelAccessor world, DifficultyInstance difficulty, MobSpawnType reason,
-			@Nullable SpawnGroupData livingdata, @Nullable CompoundTag tag) {
+	public SpawnGroupData finalizeSpawn(ServerLevelAccessor world, DifficultyInstance difficulty, MobSpawnType reason, @Nullable SpawnGroupData livingdata, @Nullable CompoundTag tag) {
 		SpawnGroupData retval = super.finalizeSpawn(world, difficulty, reason, livingdata, tag);
 		SittingWitheredBonnieOnInitialEntitySpawnProcedure.execute(world, this);
 		return retval;

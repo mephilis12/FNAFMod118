@@ -36,8 +36,7 @@ public class PlushFoxyBlock extends FallingBlock {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public PlushFoxyBlock() {
-		super(BlockBehaviour.Properties.of(Material.WOOL).sound(SoundType.WOOL).strength(0.8f).noCollission().noOcclusion()
-				.isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of(Material.WOOL).sound(SoundType.WOOL).strength(0.8f).noCollission().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
 
@@ -58,7 +57,6 @@ public class PlushFoxyBlock extends FallingBlock {
 
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
-
 		return switch (state.getValue(FACING)) {
 			default -> box(3.5, 0, 4, 12.5, 11, 12);
 			case NORTH -> box(3.5, 0, 4, 12.5, 11, 12);
@@ -103,7 +101,6 @@ public class PlushFoxyBlock extends FallingBlock {
 		double hitY = hit.getLocation().y;
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
-
 		NoseHonkProcedure.execute(world, x, y, z);
 		return InteractionResult.SUCCESS;
 	}

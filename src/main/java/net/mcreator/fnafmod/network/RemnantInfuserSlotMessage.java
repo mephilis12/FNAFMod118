@@ -105,7 +105,6 @@ public class RemnantInfuserSlotMessage {
 
 	@SubscribeEvent
 	public static void registerMessage(FMLCommonSetupEvent event) {
-		FnafModMod.addNetworkMessage(RemnantInfuserSlotMessage.class, RemnantInfuserSlotMessage::buffer, RemnantInfuserSlotMessage::new,
-				RemnantInfuserSlotMessage::handler);
+		FnafModMod.addNetworkMessage(RemnantInfuserSlotMessage.class, RemnantInfuserSlotMessage::buffer, RemnantInfuserSlotMessage::new, RemnantInfuserSlotMessage::handler);
 	}
 }

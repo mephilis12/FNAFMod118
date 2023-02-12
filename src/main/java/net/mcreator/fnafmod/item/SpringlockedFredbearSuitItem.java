@@ -86,13 +86,9 @@ public abstract class SpringlockedFredbearSuitItem extends ArmorItem {
 				@Override
 				public HumanoidModel getHumanoidArmorModel(LivingEntity living, ItemStack stack, EquipmentSlot slot, HumanoidModel defaultModel) {
 					HumanoidModel armorModel = new HumanoidModel(new ModelPart(Collections.emptyList(),
-							Map.of("head",
-									new ModelFredbearMask(Minecraft.getInstance().getEntityModels().bakeLayer(ModelFredbearMask.LAYER_LOCATION)).Head,
-									"hat", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "body",
-									new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_arm",
-									new ModelPart(Collections.emptyList(), Collections.emptyMap()), "left_arm",
-									new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_leg",
-									new ModelPart(Collections.emptyList(), Collections.emptyMap()), "left_leg",
+							Map.of("head", new ModelFredbearMask(Minecraft.getInstance().getEntityModels().bakeLayer(ModelFredbearMask.LAYER_LOCATION)).Head, "hat", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "body",
+									new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_arm", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "left_arm",
+									new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_leg", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "left_leg",
 									new ModelPart(Collections.emptyList(), Collections.emptyMap()))));
 					armorModel.crouching = living.isShiftKeyDown();
 					armorModel.riding = defaultModel.riding;
@@ -124,20 +120,10 @@ public abstract class SpringlockedFredbearSuitItem extends ArmorItem {
 				@Override
 				@OnlyIn(Dist.CLIENT)
 				public HumanoidModel getHumanoidArmorModel(LivingEntity living, ItemStack stack, EquipmentSlot slot, HumanoidModel defaultModel) {
-					HumanoidModel armorModel = new HumanoidModel(new ModelPart(Collections.emptyList(),
-							Map.of("body",
-									new ModelSpringBonnieBody(
-											Minecraft.getInstance().getEntityModels().bakeLayer(ModelSpringBonnieBody.LAYER_LOCATION)).Body,
-									"left_arm",
-									new ModelSpringBonnieBody(
-											Minecraft.getInstance().getEntityModels().bakeLayer(ModelSpringBonnieBody.LAYER_LOCATION)).LeftArm,
-									"right_arm",
-									new ModelSpringBonnieBody(
-											Minecraft.getInstance().getEntityModels().bakeLayer(ModelSpringBonnieBody.LAYER_LOCATION)).RightArm,
-									"head", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "hat",
-									new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_leg",
-									new ModelPart(Collections.emptyList(), Collections.emptyMap()), "left_leg",
-									new ModelPart(Collections.emptyList(), Collections.emptyMap()))));
+					HumanoidModel armorModel = new HumanoidModel(new ModelPart(Collections.emptyList(), Map.of("body", new ModelSpringBonnieBody(Minecraft.getInstance().getEntityModels().bakeLayer(ModelSpringBonnieBody.LAYER_LOCATION)).Body,
+							"left_arm", new ModelSpringBonnieBody(Minecraft.getInstance().getEntityModels().bakeLayer(ModelSpringBonnieBody.LAYER_LOCATION)).LeftArm, "right_arm",
+							new ModelSpringBonnieBody(Minecraft.getInstance().getEntityModels().bakeLayer(ModelSpringBonnieBody.LAYER_LOCATION)).RightArm, "head", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "hat",
+							new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_leg", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "left_leg", new ModelPart(Collections.emptyList(), Collections.emptyMap()))));
 					armorModel.crouching = living.isShiftKeyDown();
 					armorModel.riding = defaultModel.riding;
 					armorModel.young = living.isBaby();

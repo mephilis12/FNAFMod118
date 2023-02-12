@@ -48,10 +48,7 @@ import java.util.Collections;
 
 import io.netty.buffer.Unpooled;
 
-public class VendingBottomBlock extends Block
-		implements
-
-			EntityBlock {
+public class VendingBottomBlock extends Block implements EntityBlock {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public VendingBottomBlock() {

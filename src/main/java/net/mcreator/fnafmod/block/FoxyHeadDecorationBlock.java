@@ -30,8 +30,7 @@ public class FoxyHeadDecorationBlock extends Block {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public FoxyHeadDecorationBlock() {
-		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.LANTERN).strength(2f, 10f).lightLevel(s -> 12).noOcclusion()
-				.isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.LANTERN).strength(2f, 10f).lightLevel(s -> 12).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
 
@@ -52,7 +51,6 @@ public class FoxyHeadDecorationBlock extends Block {
 
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
-
 		return switch (state.getValue(FACING)) {
 			default -> box(3.5, 0, 0, 13.5, 15, 11);
 			case NORTH -> box(2.5, 0, 5, 12.5, 15, 16);

@@ -24,8 +24,7 @@ import java.util.Collections;
 
 public class ToyBonnieSpawnBlockIdleBlock extends Block {
 	public ToyBonnieSpawnBlockIdleBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.BONE_BLOCK).strength(1f, 10f).noOcclusion()
-				.isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.BONE_BLOCK).strength(1f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 	}
 
 	@Override
@@ -45,7 +44,6 @@ public class ToyBonnieSpawnBlockIdleBlock extends Block {
 
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
-
 		return box(0, 0, 0, 16, 1, 16);
 	}
 
@@ -69,7 +67,6 @@ public class ToyBonnieSpawnBlockIdleBlock extends Block {
 		int x = pos.getX();
 		int y = pos.getY();
 		int z = pos.getZ();
-
 		ToyBonnieSpawnBlockIdleUpdateTickProcedure.execute(world, x, y, z);
 		world.scheduleTick(pos, this, 10);
 	}

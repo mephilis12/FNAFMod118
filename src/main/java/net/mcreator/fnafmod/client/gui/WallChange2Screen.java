@@ -93,33 +93,29 @@ public class WallChange2Screen extends AbstractContainerScreen<WallChange2Menu> 
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
-		this.addRenderableWidget(
-				new Button(this.leftPos + 15, this.topPos + 8, 30, 20, Component.translatable("gui.fnaf_mod.wall_change_2.button_a"), e -> {
-					if (true) {
-						FnafModMod.PACKET_HANDLER.sendToServer(new WallChange2ButtonMessage(0, x, y, z));
-						WallChange2ButtonMessage.handleButtonAction(entity, 0, x, y, z);
-					}
-				}));
-		this.addRenderableWidget(
-				new Button(this.leftPos + 51, this.topPos + 8, 30, 20, Component.translatable("gui.fnaf_mod.wall_change_2.button_b"), e -> {
-					if (true) {
-						FnafModMod.PACKET_HANDLER.sendToServer(new WallChange2ButtonMessage(1, x, y, z));
-						WallChange2ButtonMessage.handleButtonAction(entity, 1, x, y, z);
-					}
-				}));
-		this.addRenderableWidget(
-				new Button(this.leftPos + 96, this.topPos + 8, 30, 20, Component.translatable("gui.fnaf_mod.wall_change_2.button_c"), e -> {
-					if (true) {
-						FnafModMod.PACKET_HANDLER.sendToServer(new WallChange2ButtonMessage(2, x, y, z));
-						WallChange2ButtonMessage.handleButtonAction(entity, 2, x, y, z);
-					}
-				}));
-		this.addRenderableWidget(
-				new Button(this.leftPos + 132, this.topPos + 8, 30, 20, Component.translatable("gui.fnaf_mod.wall_change_2.button_d"), e -> {
-					if (true) {
-						FnafModMod.PACKET_HANDLER.sendToServer(new WallChange2ButtonMessage(3, x, y, z));
-						WallChange2ButtonMessage.handleButtonAction(entity, 3, x, y, z);
-					}
-				}));
+		this.addRenderableWidget(new Button(this.leftPos + 15, this.topPos + 8, 30, 20, Component.translatable("gui.fnaf_mod.wall_change_2.button_a"), e -> {
+			if (true) {
+				FnafModMod.PACKET_HANDLER.sendToServer(new WallChange2ButtonMessage(0, x, y, z));
+				WallChange2ButtonMessage.handleButtonAction(entity, 0, x, y, z);
+			}
+		}));
+		this.addRenderableWidget(new Button(this.leftPos + 51, this.topPos + 8, 30, 20, Component.translatable("gui.fnaf_mod.wall_change_2.button_b"), e -> {
+			if (true) {
+				FnafModMod.PACKET_HANDLER.sendToServer(new WallChange2ButtonMessage(1, x, y, z));
+				WallChange2ButtonMessage.handleButtonAction(entity, 1, x, y, z);
+			}
+		}));
+		this.addRenderableWidget(new Button(this.leftPos + 96, this.topPos + 8, 30, 20, Component.translatable("gui.fnaf_mod.wall_change_2.button_c"), e -> {
+			if (true) {
+				FnafModMod.PACKET_HANDLER.sendToServer(new WallChange2ButtonMessage(2, x, y, z));
+				WallChange2ButtonMessage.handleButtonAction(entity, 2, x, y, z);
+			}
+		}));
+		this.addRenderableWidget(new Button(this.leftPos + 132, this.topPos + 8, 30, 20, Component.translatable("gui.fnaf_mod.wall_change_2.button_d"), e -> {
+			if (true) {
+				FnafModMod.PACKET_HANDLER.sendToServer(new WallChange2ButtonMessage(3, x, y, z));
+				WallChange2ButtonMessage.handleButtonAction(entity, 3, x, y, z);
+			}
+		}));
 	}
 }

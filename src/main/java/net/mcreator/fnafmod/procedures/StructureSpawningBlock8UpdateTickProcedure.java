@@ -16,9 +16,7 @@ public class StructureSpawningBlock8UpdateTickProcedure {
 		if (world instanceof ServerLevel _serverworld) {
 			StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("fnaf_mod", "modern"));
 			if (template != null) {
-				template.placeInWorld(_serverworld, new BlockPos(x, y - 2, z), new BlockPos(x, y - 2, z),
-						new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false), _serverworld.random,
-						3);
+				template.placeInWorld(_serverworld, new BlockPos(x, y - 2, z), new BlockPos(x, y - 2, z), new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false), _serverworld.random, 3);
 			}
 		}
 	}

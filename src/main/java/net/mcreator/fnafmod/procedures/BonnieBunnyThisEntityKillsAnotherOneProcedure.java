@@ -18,11 +18,9 @@ public class BonnieBunnyThisEntityKillsAnotherOneProcedure {
 			return;
 		if (world instanceof Level _level) {
 			if (!_level.isClientSide()) {
-				_level.playSound(null, new BlockPos(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("fnaf_mod:fnaf1_scream")),
-						SoundSource.NEUTRAL, 1, 1);
+				_level.playSound(null, new BlockPos(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("fnaf_mod:fnaf1_scream")), SoundSource.NEUTRAL, 1, 1);
 			} else {
-				_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("fnaf_mod:fnaf1_scream")),
-						SoundSource.NEUTRAL, 1, 1, false);
+				_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("fnaf_mod:fnaf1_scream")), SoundSource.NEUTRAL, 1, 1, false);
 			}
 		}
 		FnafModMod.queueServerWork(1, () -> {
@@ -172,30 +170,27 @@ public class BonnieBunnyThisEntityKillsAnotherOneProcedure {
 											FnafModMod.queueServerWork((int) 0.1, () -> {
 												{
 													boolean _setval = false;
-													entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-															.ifPresent(capability -> {
-																capability.BonnieFrame4 = _setval;
-																capability.syncPlayerVariables(entity);
-															});
+													entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+														capability.BonnieFrame4 = _setval;
+														capability.syncPlayerVariables(entity);
+													});
 												}
 											});
 											FnafModMod.queueServerWork(1, () -> {
 												{
 													boolean _setval = true;
-													entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-															.ifPresent(capability -> {
-																capability.BonnieFrame5 = _setval;
-																capability.syncPlayerVariables(entity);
-															});
+													entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+														capability.BonnieFrame5 = _setval;
+														capability.syncPlayerVariables(entity);
+													});
 												}
 												FnafModMod.queueServerWork((int) 0.1, () -> {
 													{
 														boolean _setval = false;
-														entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-																.ifPresent(capability -> {
-																	capability.BonnieFrame5 = _setval;
-																	capability.syncPlayerVariables(entity);
-																});
+														entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+															capability.BonnieFrame5 = _setval;
+															capability.syncPlayerVariables(entity);
+														});
 													}
 												});
 											});

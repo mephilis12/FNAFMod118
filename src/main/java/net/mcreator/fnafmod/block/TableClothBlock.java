@@ -20,8 +20,7 @@ import java.util.Collections;
 
 public class TableClothBlock extends Block {
 	public TableClothBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.WOOL).strength(1f, 10f).noOcclusion()
-				.isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.WOOL).strength(1f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 	}
 
 	@Override
@@ -41,7 +40,6 @@ public class TableClothBlock extends Block {
 
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
-
 		return box(0, 0, 0, 16, 1, 16);
 	}
 

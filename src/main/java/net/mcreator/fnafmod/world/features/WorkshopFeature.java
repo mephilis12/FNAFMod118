@@ -72,10 +72,8 @@ public class WorkshopFeature extends Feature<NoneFeatureConfiguration> {
 				int x = spawnTo.getX();
 				int y = spawnTo.getY();
 				int z = spawnTo.getZ();
-				if (template.placeInWorld(
-						context.level(), spawnTo, spawnTo, new StructurePlaceSettings().setMirror(Mirror.NONE).setRotation(Rotation.NONE)
-								.setRandom(context.random()).addProcessor(BlockIgnoreProcessor.STRUCTURE_BLOCK).setIgnoreEntities(false),
-						context.random(), 2)) {
+				if (template.placeInWorld(context.level(), spawnTo, spawnTo,
+						new StructurePlaceSettings().setMirror(Mirror.NONE).setRotation(Rotation.NONE).setRandom(context.random()).addProcessor(BlockIgnoreProcessor.STRUCTURE_BLOCK).setIgnoreEntities(false), context.random(), 2)) {
 					ShitProcedure.execute(world, x, y, z);
 					anyPlaced = true;
 				}

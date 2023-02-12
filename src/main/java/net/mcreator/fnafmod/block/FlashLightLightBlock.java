@@ -39,8 +39,7 @@ public class FlashLightLightBlock extends Block implements SimpleWaterloggedBloc
 	public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 
 	public FlashLightLightBlock() {
-		super(BlockBehaviour.Properties.of(Material.FIRE, MaterialColor.NONE).sound(SoundType.POWDER_SNOW).instabreak().lightLevel(s -> 15)
-				.noCollission().friction(0.1f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false).noLootTable());
+		super(BlockBehaviour.Properties.of(Material.FIRE, MaterialColor.NONE).sound(SoundType.POWDER_SNOW).instabreak().lightLevel(s -> 15).noCollission().friction(0.1f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false).noLootTable());
 		this.registerDefaultState(this.stateDefinition.any().setValue(WATERLOGGED, false));
 	}
 
@@ -86,8 +85,7 @@ public class FlashLightLightBlock extends Block implements SimpleWaterloggedBloc
 	}
 
 	@Override
-	public BlockState updateShape(BlockState state, Direction facing, BlockState facingState, LevelAccessor world, BlockPos currentPos,
-			BlockPos facingPos) {
+	public BlockState updateShape(BlockState state, Direction facing, BlockState facingState, LevelAccessor world, BlockPos currentPos, BlockPos facingPos) {
 		if (state.getValue(WATERLOGGED)) {
 			world.scheduleTick(currentPos, Fluids.WATER, Fluids.WATER.getTickDelay(world));
 		}
@@ -107,7 +105,6 @@ public class FlashLightLightBlock extends Block implements SimpleWaterloggedBloc
 		int x = pos.getX();
 		int y = pos.getY();
 		int z = pos.getZ();
-
 		FlashLightLightUpdateTickProcedure.execute(world, x, y, z);
 		world.scheduleTick(pos, this, 1);
 	}

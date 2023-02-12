@@ -8,9 +8,7 @@ import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.mcreator.fnafmod.entity.SpringBonnieCreature2TheSequelEntity;
 import net.mcreator.fnafmod.client.model.ModelSpringBonnie;
 
-public class SpringBonnieCreature2TheSequelRenderer
-		extends
-			MobRenderer<SpringBonnieCreature2TheSequelEntity, ModelSpringBonnie<SpringBonnieCreature2TheSequelEntity>> {
+public class SpringBonnieCreature2TheSequelRenderer extends MobRenderer<SpringBonnieCreature2TheSequelEntity, ModelSpringBonnie<SpringBonnieCreature2TheSequelEntity>> {
 	public SpringBonnieCreature2TheSequelRenderer(EntityRendererProvider.Context context) {
 		super(context, new ModelSpringBonnie(context.bakeLayer(ModelSpringBonnie.LAYER_LOCATION)), 0.5f);
 	}

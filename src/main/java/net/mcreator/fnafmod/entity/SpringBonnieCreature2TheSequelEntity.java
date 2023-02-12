@@ -54,21 +54,18 @@ public class SpringBonnieCreature2TheSequelEntity extends Monster {
 			@Override
 			public void tick() {
 				if (SpringBonnieCreature2TheSequelEntity.this.isInWater())
-					SpringBonnieCreature2TheSequelEntity.this
-							.setDeltaMovement(SpringBonnieCreature2TheSequelEntity.this.getDeltaMovement().add(0, 0.005, 0));
+					SpringBonnieCreature2TheSequelEntity.this.setDeltaMovement(SpringBonnieCreature2TheSequelEntity.this.getDeltaMovement().add(0, 0.005, 0));
 				if (this.operation == MoveControl.Operation.MOVE_TO && !SpringBonnieCreature2TheSequelEntity.this.getNavigation().isDone()) {
 					double dx = this.wantedX - SpringBonnieCreature2TheSequelEntity.this.getX();
 					double dy = this.wantedY - SpringBonnieCreature2TheSequelEntity.this.getY();
 					double dz = this.wantedZ - SpringBonnieCreature2TheSequelEntity.this.getZ();
 					float f = (float) (Mth.atan2(dz, dx) * (double) (180 / Math.PI)) - 90;
-					float f1 = (float) (this.speedModifier
-							* SpringBonnieCreature2TheSequelEntity.this.getAttribute(Attributes.MOVEMENT_SPEED).getValue());
+					float f1 = (float) (this.speedModifier * SpringBonnieCreature2TheSequelEntity.this.getAttribute(Attributes.MOVEMENT_SPEED).getValue());
 					SpringBonnieCreature2TheSequelEntity.this.setYRot(this.rotlerp(SpringBonnieCreature2TheSequelEntity.this.getYRot(), f, 10));
 					SpringBonnieCreature2TheSequelEntity.this.yBodyRot = SpringBonnieCreature2TheSequelEntity.this.getYRot();
 					SpringBonnieCreature2TheSequelEntity.this.yHeadRot = SpringBonnieCreature2TheSequelEntity.this.getYRot();
 					if (SpringBonnieCreature2TheSequelEntity.this.isInWater()) {
-						SpringBonnieCreature2TheSequelEntity.this
-								.setSpeed((float) SpringBonnieCreature2TheSequelEntity.this.getAttribute(Attributes.MOVEMENT_SPEED).getValue());
+						SpringBonnieCreature2TheSequelEntity.this.setSpeed((float) SpringBonnieCreature2TheSequelEntity.this.getAttribute(Attributes.MOVEMENT_SPEED).getValue());
 						float f2 = -(float) (Mth.atan2(dy, (float) Math.sqrt(dx * dx + dz * dz)) * (180 / Math.PI));
 						f2 = Mth.clamp(Mth.wrapDegrees(f2), -85, 85);
 						SpringBonnieCreature2TheSequelEntity.this.setXRot(this.rotlerp(SpringBonnieCreature2TheSequelEntity.this.getXRot(), f2, 5));
@@ -113,8 +110,7 @@ public class SpringBonnieCreature2TheSequelEntity extends Monster {
 	}
 
 	@Override
-	public SpawnGroupData finalizeSpawn(ServerLevelAccessor world, DifficultyInstance difficulty, MobSpawnType reason,
-			@Nullable SpawnGroupData livingdata, @Nullable CompoundTag tag) {
+	public SpawnGroupData finalizeSpawn(ServerLevelAccessor world, DifficultyInstance difficulty, MobSpawnType reason, @Nullable SpawnGroupData livingdata, @Nullable CompoundTag tag) {
 		SpawnGroupData retval = super.finalizeSpawn(world, difficulty, reason, livingdata, tag);
 		StatueSpawnProcedure.execute(this);
 		return retval;

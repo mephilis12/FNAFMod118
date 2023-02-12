@@ -85,7 +85,6 @@ public class WallChange1ButtonMessage {
 
 	@SubscribeEvent
 	public static void registerMessage(FMLCommonSetupEvent event) {
-		FnafModMod.addNetworkMessage(WallChange1ButtonMessage.class, WallChange1ButtonMessage::buffer, WallChange1ButtonMessage::new,
-				WallChange1ButtonMessage::handler);
+		FnafModMod.addNetworkMessage(WallChange1ButtonMessage.class, WallChange1ButtonMessage::buffer, WallChange1ButtonMessage::new, WallChange1ButtonMessage::handler);
 	}
 }

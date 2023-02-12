@@ -8,8 +8,7 @@ public class ToyBonnieFrame3DisplayOverlayIngameProcedure {
 	public static boolean execute(Entity entity) {
 		if (entity == null)
 			return false;
-		if ((entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-				.orElse(new FnafModModVariables.PlayerVariables())).ToyBonnieJumpscare == 3) {
+		if ((entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new FnafModModVariables.PlayerVariables())).ToyBonnieJumpscare == 3) {
 			return true;
 		}
 		return false;

@@ -100,7 +100,6 @@ public class CameraGUIButtonMessage {
 
 	@SubscribeEvent
 	public static void registerMessage(FMLCommonSetupEvent event) {
-		FnafModMod.addNetworkMessage(CameraGUIButtonMessage.class, CameraGUIButtonMessage::buffer, CameraGUIButtonMessage::new,
-				CameraGUIButtonMessage::handler);
+		FnafModMod.addNetworkMessage(CameraGUIButtonMessage.class, CameraGUIButtonMessage::buffer, CameraGUIButtonMessage::new, CameraGUIButtonMessage::handler);
 	}
 }

@@ -43,7 +43,7 @@ public class SittingPlushtrapEntity extends PathfinderMob {
 	public SittingPlushtrapEntity(EntityType<SittingPlushtrapEntity> type, Level world) {
 		super(type, world);
 		xpReward = 0;
-		setNoAi(true);
+		setNoAi(false);
 		setPersistenceRequired();
 		this.setPathfindingMalus(BlockPathTypes.WATER, 0);
 		this.moveControl = new MoveControl(this) {
@@ -88,6 +88,12 @@ public class SittingPlushtrapEntity extends PathfinderMob {
 	@Override
 	protected PathNavigation createNavigation(Level world) {
 		return new WaterBoundPathNavigation(this, world);
+	}
+
+	@Override
+	protected void registerGoals() {
+		super.registerGoals();
+
 	}
 
 	@Override

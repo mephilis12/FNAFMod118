@@ -8,9 +8,7 @@ import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.mcreator.fnafmod.entity.NightmareBonnieStatueEntity;
 import net.mcreator.fnafmod.client.model.ModelNightmare_Bonnie_Statue;
 
-public class NightmareBonnieStatueRenderer
-		extends
-			MobRenderer<NightmareBonnieStatueEntity, ModelNightmare_Bonnie_Statue<NightmareBonnieStatueEntity>> {
+public class NightmareBonnieStatueRenderer extends MobRenderer<NightmareBonnieStatueEntity, ModelNightmare_Bonnie_Statue<NightmareBonnieStatueEntity>> {
 	public NightmareBonnieStatueRenderer(EntityRendererProvider.Context context) {
 		super(context, new ModelNightmare_Bonnie_Statue(context.bakeLayer(ModelNightmare_Bonnie_Statue.LAYER_LOCATION)), 0.5f);
 	}

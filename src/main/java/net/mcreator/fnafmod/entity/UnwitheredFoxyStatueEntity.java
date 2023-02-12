@@ -68,8 +68,7 @@ public class UnwitheredFoxyStatueEntity extends PathfinderMob {
 					UnwitheredFoxyStatueEntity.this.yBodyRot = UnwitheredFoxyStatueEntity.this.getYRot();
 					UnwitheredFoxyStatueEntity.this.yHeadRot = UnwitheredFoxyStatueEntity.this.getYRot();
 					if (UnwitheredFoxyStatueEntity.this.isInWater()) {
-						UnwitheredFoxyStatueEntity.this
-								.setSpeed((float) UnwitheredFoxyStatueEntity.this.getAttribute(Attributes.MOVEMENT_SPEED).getValue());
+						UnwitheredFoxyStatueEntity.this.setSpeed((float) UnwitheredFoxyStatueEntity.this.getAttribute(Attributes.MOVEMENT_SPEED).getValue());
 						float f2 = -(float) (Mth.atan2(dy, (float) Math.sqrt(dx * dx + dz * dz)) * (180 / Math.PI));
 						f2 = Mth.clamp(Mth.wrapDegrees(f2), -85, 85);
 						UnwitheredFoxyStatueEntity.this.setXRot(this.rotlerp(UnwitheredFoxyStatueEntity.this.getXRot(), f2, 5));
@@ -124,8 +123,7 @@ public class UnwitheredFoxyStatueEntity extends PathfinderMob {
 	}
 
 	@Override
-	public SpawnGroupData finalizeSpawn(ServerLevelAccessor world, DifficultyInstance difficulty, MobSpawnType reason,
-			@Nullable SpawnGroupData livingdata, @Nullable CompoundTag tag) {
+	public SpawnGroupData finalizeSpawn(ServerLevelAccessor world, DifficultyInstance difficulty, MobSpawnType reason, @Nullable SpawnGroupData livingdata, @Nullable CompoundTag tag) {
 		SpawnGroupData retval = super.finalizeSpawn(world, difficulty, reason, livingdata, tag);
 		StatueSpawnProcedure.execute(this);
 		return retval;

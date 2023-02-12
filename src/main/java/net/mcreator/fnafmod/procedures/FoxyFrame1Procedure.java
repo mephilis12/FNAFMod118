@@ -8,8 +8,7 @@ public class FoxyFrame1Procedure {
 	public static boolean execute(Entity entity) {
 		if (entity == null)
 			return false;
-		if ((entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-				.orElse(new FnafModModVariables.PlayerVariables())).FoxyFrame1) {
+		if ((entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new FnafModModVariables.PlayerVariables())).FoxyFrame1) {
 			return true;
 		}
 		return false;

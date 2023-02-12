@@ -34,8 +34,7 @@ public class SpringtrapEntityIsHurtProcedure {
 					Entity entityToSpawn = new PhantomFreddyEntity(FnafModModEntities.PHANTOM_FREDDY.get(), _level);
 					entityToSpawn.moveTo(x, y, z, world.getRandom().nextFloat() * 360F, 0);
 					if (entityToSpawn instanceof Mob _mobToSpawn)
-						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED,
-								null, null);
+						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 					world.addFreshEntity(entityToSpawn);
 				}
 			} else if (Random == 2) {
@@ -43,8 +42,7 @@ public class SpringtrapEntityIsHurtProcedure {
 					Entity entityToSpawn = new PhantomChicaEntity(FnafModModEntities.PHANTOM_CHICA.get(), _level);
 					entityToSpawn.moveTo(x, y, z, world.getRandom().nextFloat() * 360F, 0);
 					if (entityToSpawn instanceof Mob _mobToSpawn)
-						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED,
-								null, null);
+						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 					world.addFreshEntity(entityToSpawn);
 				}
 			} else if (Random == 3) {
@@ -52,8 +50,7 @@ public class SpringtrapEntityIsHurtProcedure {
 					Entity entityToSpawn = new PhantomFoxyEntity(FnafModModEntities.PHANTOM_FOXY.get(), _level);
 					entityToSpawn.moveTo(x, y, z, world.getRandom().nextFloat() * 360F, 0);
 					if (entityToSpawn instanceof Mob _mobToSpawn)
-						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED,
-								null, null);
+						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 					world.addFreshEntity(entityToSpawn);
 				}
 			} else if (Random == 4) {
@@ -61,8 +58,7 @@ public class SpringtrapEntityIsHurtProcedure {
 					Entity entityToSpawn = new PhantomBBEntity(FnafModModEntities.PHANTOM_BB.get(), _level);
 					entityToSpawn.moveTo(x, y, z, world.getRandom().nextFloat() * 360F, 0);
 					if (entityToSpawn instanceof Mob _mobToSpawn)
-						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED,
-								null, null);
+						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 					world.addFreshEntity(entityToSpawn);
 				}
 			} else if (Random == 5) {
@@ -70,8 +66,7 @@ public class SpringtrapEntityIsHurtProcedure {
 					Entity entityToSpawn = new PhantomMangleEntity(FnafModModEntities.PHANTOM_MANGLE.get(), _level);
 					entityToSpawn.moveTo(x, y, z, world.getRandom().nextFloat() * 360F, 0);
 					if (entityToSpawn instanceof Mob _mobToSpawn)
-						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED,
-								null, null);
+						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 					world.addFreshEntity(entityToSpawn);
 				}
 			} else if (Random == 6) {
@@ -79,8 +74,7 @@ public class SpringtrapEntityIsHurtProcedure {
 					Entity entityToSpawn = new PhantomPuppetEntity(FnafModModEntities.PHANTOM_PUPPET.get(), _level);
 					entityToSpawn.moveTo(x, y, z, world.getRandom().nextFloat() * 360F, 0);
 					if (entityToSpawn instanceof Mob _mobToSpawn)
-						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED,
-								null, null);
+						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 					world.addFreshEntity(entityToSpawn);
 				}
 			} else if (Random == 7) {
@@ -89,8 +83,7 @@ public class SpringtrapEntityIsHurtProcedure {
 						Entity entityToSpawn = new Phantom(EntityType.PHANTOM, _level);
 						entityToSpawn.moveTo(x, y, z, world.getRandom().nextFloat() * 360F, 0);
 						if (entityToSpawn instanceof Mob _mobToSpawn)
-							_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED,
-									null, null);
+							_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 						world.addFreshEntity(entityToSpawn);
 					}
 				}
