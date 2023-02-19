@@ -4,9 +4,13 @@ import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.MobSpawnType;
 import net.minecraft.world.entity.Mob;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.level.ServerLevel;
+import net.minecraft.core.BlockPos;
 
 import net.mcreator.fnafmod.init.FnafModModEntities;
 import net.mcreator.fnafmod.entity.WitheredFoxyEntity;
@@ -16,6 +20,7 @@ public class WitheredFoxyOnEntityTickUpdateProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
+		boolean Bright = false;
 		if (world instanceof Level _lvl && _lvl.isDay()) {
 			{
 				Entity _ent = entity;
@@ -41,6 +46,16 @@ public class WitheredFoxyOnEntityTickUpdateProcedure {
 			entity.getPersistentData().putDouble("FNAFTimer", 20);
 		} else {
 			entity.getPersistentData().putDouble("FNAFTimer", (entity.getPersistentData().getDouble("FNAFTimer") - 1));
+		}
+		Bright = false;
+		if (10 <= world.getMaxLocalRawBrightness(new BlockPos(x, y, z))) {
+			Bright = true;
+		}
+		if (Bright == true) {
+			if (entity instanceof LivingEntity _entity)
+				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 60, 8, (false), (false)));
+			if (entity instanceof LivingEntity _entity)
+				_entity.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 60, 8, (false), (false)));
 		}
 	}
 }

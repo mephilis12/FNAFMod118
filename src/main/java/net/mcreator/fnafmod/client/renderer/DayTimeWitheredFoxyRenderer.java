@@ -1,20 +1,31 @@
 
 package net.mcreator.fnafmod.client.renderer;
 
+import software.bernie.geckolib3.renderers.geo.GeoEntityRenderer;
+
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.MultiBufferSource;
 
+import net.mcreator.fnafmod.entity.model.DayTimeWitheredFoxyModel;
 import net.mcreator.fnafmod.entity.DayTimeWitheredFoxyEntity;
-import net.mcreator.fnafmod.client.model.ModelDayTimeWitheredFoxy;
 
-public class DayTimeWitheredFoxyRenderer extends MobRenderer<DayTimeWitheredFoxyEntity, ModelDayTimeWitheredFoxy<DayTimeWitheredFoxyEntity>> {
-	public DayTimeWitheredFoxyRenderer(EntityRendererProvider.Context context) {
-		super(context, new ModelDayTimeWitheredFoxy(context.bakeLayer(ModelDayTimeWitheredFoxy.LAYER_LOCATION)), 0.5f);
+import com.mojang.blaze3d.vertex.VertexConsumer;
+import com.mojang.blaze3d.vertex.PoseStack;
+
+public class DayTimeWitheredFoxyRenderer extends GeoEntityRenderer<DayTimeWitheredFoxyEntity> {
+	public DayTimeWitheredFoxyRenderer(EntityRendererProvider.Context renderManager) {
+		super(renderManager, new DayTimeWitheredFoxyModel());
+		this.shadowRadius = 0.5f;
 	}
 
 	@Override
-	public ResourceLocation getTextureLocation(DayTimeWitheredFoxyEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/entities/witheredfoxytexture.png");
+	public RenderType getRenderType(DayTimeWitheredFoxyEntity animatable, float partialTicks, PoseStack stack, MultiBufferSource renderTypeBuffer, VertexConsumer vertexBuilder, int packedLightIn, ResourceLocation textureLocation) {
+		if (!animatable.isBaby())
+			stack.scale(1.0F, 1.0F, 1.0F);
+		else
+			stack.scale(0.5F, 0.5F, 0.5F);
+		return RenderType.entityTranslucent(getTextureLocation(animatable));
 	}
 }

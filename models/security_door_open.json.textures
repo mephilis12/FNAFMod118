@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "1": "security_door"
+        "0": "security_door"
       },
       "name": "default"
     }

@@ -23,6 +23,7 @@ import net.mcreator.fnafmod.block.VentHatchBlock;
 import net.mcreator.fnafmod.block.VentBlock;
 import net.mcreator.fnafmod.block.VendingTopBlock;
 import net.mcreator.fnafmod.block.VendingBottomBlock;
+import net.mcreator.fnafmod.block.TrashCanBlock;
 import net.mcreator.fnafmod.block.ToyFreddySpawnBlockIdleBlock;
 import net.mcreator.fnafmod.block.ToyFreddySpawnBlockBlock;
 import net.mcreator.fnafmod.block.ToyFoxySpawnBlockIdleBlock;
@@ -111,6 +112,7 @@ import net.mcreator.fnafmod.block.OrangeSpeakeRightBlock;
 import net.mcreator.fnafmod.block.OfficeDoorBlock;
 import net.mcreator.fnafmod.block.MusicBoxBlock;
 import net.mcreator.fnafmod.block.MonitorsBlock;
+import net.mcreator.fnafmod.block.MeshTrashCanBlock;
 import net.mcreator.fnafmod.block.MangleSpawnBlockIdleBlock;
 import net.mcreator.fnafmod.block.MangleSpawnBlockBlock;
 import net.mcreator.fnafmod.block.LocketBottomBlock;
@@ -249,6 +251,7 @@ import net.mcreator.fnafmod.block.ArcadeMachineChicaBlock;
 import net.mcreator.fnafmod.block.ArcadeMachineBonnieBlock;
 import net.mcreator.fnafmod.block.AlternateWhiteRedWallTileBlock;
 import net.mcreator.fnafmod.block.AlternateWhitePurpleWallTilesBlock;
+import net.mcreator.fnafmod.block.AlternateWhiteBlackWallTileBlock;
 import net.mcreator.fnafmod.block.AlternateWallTileBlock;
 import net.mcreator.fnafmod.block.AlternateStageBrickTilesBlock;
 import net.mcreator.fnafmod.block.AlternatePurpleStageBrickTilesBlock;
@@ -318,6 +321,7 @@ public class FnafModModBlocks {
 	public static final RegistryObject<Block> ALTERNATE_WHITE_PURPLE_WALL_TILES = REGISTRY.register("alternate_white_purple_wall_tiles", () -> new AlternateWhitePurpleWallTilesBlock());
 	public static final RegistryObject<Block> WHITE_BLACK_WALL_TILE = REGISTRY.register("white_black_wall_tile", () -> new WhiteBlackWallTileBlock());
 	public static final RegistryObject<Block> CHECKERED_TILE = REGISTRY.register("checkered_tile", () -> new CheckeredTileBlock());
+	public static final RegistryObject<Block> ALTERNATE_WHITE_BLACK_WALL_TILE = REGISTRY.register("alternate_white_black_wall_tile", () -> new AlternateWhiteBlackWallTileBlock());
 	public static final RegistryObject<Block> CHECKERED_WALL = REGISTRY.register("checkered_wall", () -> new CheckeredWallBlock());
 	public static final RegistryObject<Block> CHECKERED_WALL_TILE = REGISTRY.register("checkered_wall_tile", () -> new CheckeredWallTileBlock());
 	public static final RegistryObject<Block> CHECKERED_WHITE_WALL_TILE = REGISTRY.register("checkered_white_wall_tile", () -> new CheckeredWhiteWallTileBlock());
@@ -375,8 +379,8 @@ public class FnafModModBlocks {
 	public static final RegistryObject<Block> DOOR_BUTTON_OFF = REGISTRY.register("door_button_off", () -> new DoorButtonOffBlock());
 	public static final RegistryObject<Block> LIGHT_BUTTON_OFF = REGISTRY.register("light_button_off", () -> new LightButtonOffBlock());
 	public static final RegistryObject<Block> STARS = REGISTRY.register("stars", () -> new StarsBlock());
-	public static final RegistryObject<Block> SECURITY_DOOR_OPEN = REGISTRY.register("security_door_open", () -> new SecurityDoorOpenBlock());
 	public static final RegistryObject<Block> DESK = REGISTRY.register("desk", () -> new DeskBlock());
+	public static final RegistryObject<Block> SECURITY_DOOR_OPEN = REGISTRY.register("security_door_open", () -> new SecurityDoorOpenBlock());
 	public static final RegistryObject<Block> DESK_2 = REGISTRY.register("desk_2", () -> new Desk2Block());
 	public static final RegistryObject<Block> DESK_3 = REGISTRY.register("desk_3", () -> new Desk3Block());
 	public static final RegistryObject<Block> CHAIR = REGISTRY.register("chair", () -> new ChairBlock());
@@ -516,4 +520,6 @@ public class FnafModModBlocks {
 	public static final RegistryObject<Block> DINER_CHAIR_5 = REGISTRY.register("diner_chair_5", () -> new DinerChair5Block());
 	public static final RegistryObject<Block> VENDING_BOTTOM = REGISTRY.register("vending_bottom", () -> new VendingBottomBlock());
 	public static final RegistryObject<Block> VENDING_TOP = REGISTRY.register("vending_top", () -> new VendingTopBlock());
+	public static final RegistryObject<Block> MESH_TRASH_CAN = REGISTRY.register("mesh_trash_can", () -> new MeshTrashCanBlock());
+	public static final RegistryObject<Block> TRASH_CAN = REGISTRY.register("trash_can", () -> new TrashCanBlock());
 }

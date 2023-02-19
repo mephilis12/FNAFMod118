@@ -133,6 +133,7 @@ public class FnafModModItems {
 	public static final RegistryObject<Item> ALTERNATE_WHITE_PURPLE_WALL_TILES = block(FnafModModBlocks.ALTERNATE_WHITE_PURPLE_WALL_TILES, FnafModModTabs.TAB_FNAF_BLOCKS);
 	public static final RegistryObject<Item> WHITE_BLACK_WALL_TILE = block(FnafModModBlocks.WHITE_BLACK_WALL_TILE, FnafModModTabs.TAB_FNAF_BLOCKS);
 	public static final RegistryObject<Item> CHECKERED_TILE = block(FnafModModBlocks.CHECKERED_TILE, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> ALTERNATE_WHITE_BLACK_WALL_TILE = block(FnafModModBlocks.ALTERNATE_WHITE_BLACK_WALL_TILE, FnafModModTabs.TAB_FNAF_BLOCKS);
 	public static final RegistryObject<Item> CHECKERED_WALL = block(FnafModModBlocks.CHECKERED_WALL, FnafModModTabs.TAB_FNAF_BLOCKS);
 	public static final RegistryObject<Item> CHECKERED_WALL_TILE = block(FnafModModBlocks.CHECKERED_WALL_TILE, FnafModModTabs.TAB_FNAF_BLOCKS);
 	public static final RegistryObject<Item> CHECKERED_WHITE_WALL_TILE = block(FnafModModBlocks.CHECKERED_WHITE_WALL_TILE, FnafModModTabs.TAB_FNAF_BLOCKS);
@@ -190,8 +191,8 @@ public class FnafModModItems {
 	public static final RegistryObject<Item> DOOR_BUTTON_OFF = block(FnafModModBlocks.DOOR_BUTTON_OFF, FnafModModTabs.TAB_FNAF_BLOCKS);
 	public static final RegistryObject<Item> LIGHT_BUTTON_OFF = block(FnafModModBlocks.LIGHT_BUTTON_OFF, FnafModModTabs.TAB_FNAF_BLOCKS);
 	public static final RegistryObject<Item> STARS = block(FnafModModBlocks.STARS, FnafModModTabs.TAB_FNAF_BLOCKS);
-	public static final RegistryObject<Item> SECURITY_DOOR_OPEN = block(FnafModModBlocks.SECURITY_DOOR_OPEN, FnafModModTabs.TAB_FNAF_BLOCKS);
 	public static final RegistryObject<Item> DESK = block(FnafModModBlocks.DESK, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> SECURITY_DOOR_OPEN = block(FnafModModBlocks.SECURITY_DOOR_OPEN, FnafModModTabs.TAB_FNAF_BLOCKS);
 	public static final RegistryObject<Item> DESK_2 = block(FnafModModBlocks.DESK_2, FnafModModTabs.TAB_FNAF_BLOCKS);
 	public static final RegistryObject<Item> DESK_3 = block(FnafModModBlocks.DESK_3, FnafModModTabs.TAB_FNAF_BLOCKS);
 	public static final RegistryObject<Item> CHAIR = block(FnafModModBlocks.CHAIR, FnafModModTabs.TAB_FNAF_BLOCKS);
@@ -299,12 +300,6 @@ public class FnafModModItems {
 			() -> new ForgeSpawnEggItem(FnafModModEntities.SITTING_FREDBEAR, -2375875, -10087826, new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
 	public static final RegistryObject<Item> ENDO_SKELETON_SPAWN_EGG = REGISTRY.register("endo_skeleton_spawn_egg",
 			() -> new ForgeSpawnEggItem(FnafModModEntities.ENDO_SKELETON, -6776939, -14606047, new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
-	public static final RegistryObject<Item> WITHERED_CHICA_SPAWN_EGG = REGISTRY.register("withered_chica_spawn_egg",
-			() -> new ForgeSpawnEggItem(FnafModModEntities.WITHERED_CHICA, -7304690, -26317, new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
-	public static final RegistryObject<Item> WITHERED_BONNIE_SPAWN_EGG = REGISTRY.register("withered_bonnie_spawn_egg",
-			() -> new ForgeSpawnEggItem(FnafModModEntities.WITHERED_BONNIE, -10998651, -52480, new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
-	public static final RegistryObject<Item> WITHERED_FOXY_SPAWN_EGG = REGISTRY.register("withered_foxy_spawn_egg",
-			() -> new ForgeSpawnEggItem(FnafModModEntities.WITHERED_FOXY, -3855830, -11652589, new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
 	public static final RegistryObject<Item> SHADOW_FREDDY_SPAWN_EGG = REGISTRY.register("shadow_freddy_spawn_egg",
 			() -> new ForgeSpawnEggItem(FnafModModEntities.SHADOW_FREDDY, -14942183, -16777216, new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
 	public static final RegistryObject<Item> MANGLE_SITTING_SPAWN_EGG = REGISTRY.register("mangle_sitting_spawn_egg",
@@ -331,15 +326,11 @@ public class FnafModModItems {
 	public static final RegistryObject<Item> SPRINGTRAP_SPAWN_EGG = REGISTRY.register("springtrap_spawn_egg", () -> new ForgeSpawnEggItem(FnafModModEntities.SPRINGTRAP, -10066432, -6711040, new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
 	public static final RegistryObject<Item> PHANTOM_CHICA_SPAWN_EGG = REGISTRY.register("phantom_chica_spawn_egg",
 			() -> new ForgeSpawnEggItem(FnafModModEntities.PHANTOM_CHICA, -10066432, -13421824, new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
-	public static final RegistryObject<Item> PHANTOM_FREDDY_SPAWN_EGG = REGISTRY.register("phantom_freddy_spawn_egg",
-			() -> new ForgeSpawnEggItem(FnafModModEntities.PHANTOM_FREDDY, -13421824, -10066432, new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
 	public static final RegistryObject<Item> PHANTOM_BB_SPAWN_EGG = REGISTRY.register("phantom_bb_spawn_egg", () -> new ForgeSpawnEggItem(FnafModModEntities.PHANTOM_BB, -13421824, -10066432, new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
 	public static final RegistryObject<Item> PHANTOM_PUPPET_SPAWN_EGG = REGISTRY.register("phantom_puppet_spawn_egg",
 			() -> new ForgeSpawnEggItem(FnafModModEntities.PHANTOM_PUPPET, -13421824, -10066432, new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
 	public static final RegistryObject<Item> PHANTOM_MANGLE_SPAWN_EGG = REGISTRY.register("phantom_mangle_spawn_egg",
 			() -> new ForgeSpawnEggItem(FnafModModEntities.PHANTOM_MANGLE, -13421824, -6711040, new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
-	public static final RegistryObject<Item> PHANTOM_FOXY_SPAWN_EGG = REGISTRY.register("phantom_foxy_spawn_egg",
-			() -> new ForgeSpawnEggItem(FnafModModEntities.PHANTOM_FOXY, -10066432, -6711040, new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
 	public static final RegistryObject<Item> NIGHTMARE_FREDDY_SPAWN_EGG = REGISTRY.register("nightmare_freddy_spawn_egg",
 			() -> new ForgeSpawnEggItem(FnafModModEntities.NIGHTMARE_FREDDY, -12046058, -11583954, new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
 	public static final RegistryObject<Item> NIGHTMARE_BONNIE_SPAWN_EGG = REGISTRY.register("nightmare_bonnie_spawn_egg",
@@ -364,28 +355,10 @@ public class FnafModModItems {
 			() -> new ForgeSpawnEggItem(FnafModModEntities.NIGHTMARE_FREDBEAR_STATUE, -2652416, -11531960, new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
 	public static final RegistryObject<Item> NIGHTMARIONE_STATUE_SPAWN_EGG = REGISTRY.register("nightmarione_statue_spawn_egg",
 			() -> new ForgeSpawnEggItem(FnafModModEntities.NIGHTMARIONE_STATUE, -16185079, -132391, new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
-	public static final RegistryObject<Item> UNWITHERED_CHICA_STATUE_SPAWN_EGG = REGISTRY.register("unwithered_chica_statue_spawn_egg",
-			() -> new ForgeSpawnEggItem(FnafModModEntities.UNWITHERED_CHICA_STATUE, -3232495, -1318688, new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
-	public static final RegistryObject<Item> UNWITHERED_BONNIE_STATUE_SPAWN_EGG = REGISTRY.register("unwithered_bonnie_statue_spawn_egg",
-			() -> new ForgeSpawnEggItem(FnafModModEntities.UNWITHERED_BONNIE_STATUE, -13628544, -3604480, new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
-	public static final RegistryObject<Item> UNWITHERED_FOXY_STATUE_SPAWN_EGG = REGISTRY.register("unwithered_foxy_statue_spawn_egg",
-			() -> new ForgeSpawnEggItem(FnafModModEntities.UNWITHERED_FOXY_STATUE, -9499893, -12902649, new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
-	public static final RegistryObject<Item> SPRING_BONNIE_STATUE_SPAWN_EGG = REGISTRY.register("spring_bonnie_statue_spawn_egg",
-			() -> new ForgeSpawnEggItem(FnafModModEntities.SPRING_BONNIE_STATUE, -4810998, -12582330, new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
-	public static final RegistryObject<Item> FREDBEAR_STATUE_SPAWN_EGG = REGISTRY.register("fredbear_statue_spawn_egg",
-			() -> new ForgeSpawnEggItem(FnafModModEntities.FREDBEAR_STATUE, -4810998, -12582330, new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
 	public static final RegistryObject<Item> FREDBEAR_CUT_OUT_SPAWN_EGG = REGISTRY.register("fredbear_cut_out_spawn_egg",
 			() -> new ForgeSpawnEggItem(FnafModModEntities.FREDBEAR_CUT_OUT, -4810998, -12582330, new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
 	public static final RegistryObject<Item> SPRING_BONNIE_CUT_OUT_SPAWN_EGG = REGISTRY.register("spring_bonnie_cut_out_spawn_egg",
 			() -> new ForgeSpawnEggItem(FnafModModEntities.SPRING_BONNIE_CUT_OUT, -4810998, -12582330, new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
-	public static final RegistryObject<Item> UNWITHERED_FREDDY_CUTOUT_SPAWN_EGG = REGISTRY.register("unwithered_freddy_cutout_spawn_egg",
-			() -> new ForgeSpawnEggItem(FnafModModEntities.UNWITHERED_FREDDY_CUTOUT, -12509169, -5679320, new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
-	public static final RegistryObject<Item> UNWITHERED_BONNIE_CUTOUT_SPAWN_EGG = REGISTRY.register("unwithered_bonnie_cutout_spawn_egg",
-			() -> new ForgeSpawnEggItem(FnafModModEntities.UNWITHERED_BONNIE_CUTOUT, -13229216, -9998433, new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
-	public static final RegistryObject<Item> UNWITHERED_CHICA_CUTOUT_SPAWN_EGG = REGISTRY.register("unwithered_chica_cutout_spawn_egg",
-			() -> new ForgeSpawnEggItem(FnafModModEntities.UNWITHERED_CHICA_CUTOUT, -9728, -328966, new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
-	public static final RegistryObject<Item> UNWITHERED_FOXY_CUTOUT_SPAWN_EGG = REGISTRY.register("unwithered_foxy_cutout_spawn_egg",
-			() -> new ForgeSpawnEggItem(FnafModModEntities.UNWITHERED_FOXY_CUTOUT, -8903644, -681860, new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
 	public static final RegistryObject<Item> STATUE_FREDDY_ITEM = REGISTRY.register("statue_freddy_item", () -> new StatueFreddyItemItem());
 	public static final RegistryObject<Item> FREDDY_SPAWN_ITEM = REGISTRY.register("freddy_spawn_item", () -> new FreddySpawnItemItem());
 	public static final RegistryObject<Item> EVIL_FREDDY_ITEM_SPAWN = REGISTRY.register("evil_freddy_item_spawn", () -> new EvilFreddyItemSpawnItem());
@@ -445,11 +418,7 @@ public class FnafModModItems {
 	public static final RegistryObject<Item> PAINT_BRUSH = REGISTRY.register("paint_brush", () -> new PaintBrushItem());
 	public static final RegistryObject<Item> DOOR_BUTTON_ON = block(FnafModModBlocks.DOOR_BUTTON_ON, null);
 	public static final RegistryObject<Item> OFFICE_DOOR = block(FnafModModBlocks.OFFICE_DOOR, null);
-	public static final RegistryObject<Item> FREDDY_FAZBEAR_SPAWN_EGG = REGISTRY.register("freddy_fazbear_spawn_egg", () -> new ForgeSpawnEggItem(FnafModModEntities.FREDDY_FAZBEAR, -9682156, -16777216, new Item.Properties().tab(null)));
 	public static final RegistryObject<Item> LIGHT_BUTTON_ON = block(FnafModModBlocks.LIGHT_BUTTON_ON, null);
-	public static final RegistryObject<Item> BONNIE_BUNNY_SPAWN_EGG = REGISTRY.register("bonnie_bunny_spawn_egg", () -> new ForgeSpawnEggItem(FnafModModEntities.BONNIE_BUNNY, -10998651, -4780787, new Item.Properties().tab(null)));
-	public static final RegistryObject<Item> CHICA_CHICKEN_SPAWN_EGG = REGISTRY.register("chica_chicken_spawn_egg", () -> new ForgeSpawnEggItem(FnafModModEntities.CHICA_CHICKEN, -7304690, -712248, new Item.Properties().tab(null)));
-	public static final RegistryObject<Item> FOXY_PIRATE_SPAWN_EGG = REGISTRY.register("foxy_pirate_spawn_egg", () -> new ForgeSpawnEggItem(FnafModModEntities.FOXY_PIRATE, -3855830, -11652589, new Item.Properties().tab(null)));
 	public static final RegistryObject<Item> SPRING_BONNIE_CREATURE_SPAWN_EGG = REGISTRY.register("spring_bonnie_creature_spawn_egg", () -> new ForgeSpawnEggItem(FnafModModEntities.SPRING_BONNIE_CREATURE, -1, -1, new Item.Properties().tab(null)));
 	public static final RegistryObject<Item> FREDBEAR_CREATURE_SPAWN_EGG = REGISTRY.register("fredbear_creature_spawn_egg", () -> new ForgeSpawnEggItem(FnafModModEntities.FREDBEAR_CREATURE, -1, -1, new Item.Properties().tab(null)));
 	public static final RegistryObject<Item> PASSIVE_FREDDY_SPAWN_EGG = REGISTRY.register("passive_freddy_spawn_egg", () -> new ForgeSpawnEggItem(FnafModModEntities.PASSIVE_FREDDY, -9682156, -16777216, new Item.Properties().tab(null)));
@@ -460,10 +429,6 @@ public class FnafModModItems {
 			() -> new ForgeSpawnEggItem(FnafModModEntities.PASSIVE_SPRING_BONNIE, -9682156, -16777216, new Item.Properties().tab(null)));
 	public static final RegistryObject<Item> PASSIVE_CHICA_SPAWN_EGG = REGISTRY.register("passive_chica_spawn_egg", () -> new ForgeSpawnEggItem(FnafModModEntities.PASSIVE_CHICA, -9682156, -16777216, new Item.Properties().tab(null)));
 	public static final RegistryObject<Item> PASSIVE_FOXY_SPAWN_EGG = REGISTRY.register("passive_foxy_spawn_egg", () -> new ForgeSpawnEggItem(FnafModModEntities.PASSIVE_FOXY, -9682156, -16777216, new Item.Properties().tab(null)));
-	public static final RegistryObject<Item> SITTING_WITHERED_BONNIE_SPAWN_EGG = REGISTRY.register("sitting_withered_bonnie_spawn_egg",
-			() -> new ForgeSpawnEggItem(FnafModModEntities.SITTING_WITHERED_BONNIE, -14276990, -10460541, new Item.Properties().tab(null)));
-	public static final RegistryObject<Item> SITTING_WITHERED_CHICA_SPAWN_EGG = REGISTRY.register("sitting_withered_chica_spawn_egg",
-			() -> new ForgeSpawnEggItem(FnafModModEntities.SITTING_WITHERED_CHICA, -4847192, -5832, new Item.Properties().tab(null)));
 	public static final RegistryObject<Item> FLASH_LIGHT_ON = REGISTRY.register("flash_light_on", () -> new FlashLightOnItem());
 	public static final RegistryObject<Item> LOCKER_TOP = block(FnafModModBlocks.LOCKER_TOP, null);
 	public static final RegistryObject<Item> FNAF_4_WALL_BOTTOM_ROTABLE_2 = block(FnafModModBlocks.FNAF_4_WALL_BOTTOM_ROTABLE_2, null);
@@ -478,13 +443,7 @@ public class FnafModModItems {
 	public static final RegistryObject<Item> CLOSET_LEFT_OPEN_TOP = block(FnafModModBlocks.CLOSET_LEFT_OPEN_TOP, null);
 	public static final RegistryObject<Item> CLOSET_RIGHT_OPEN_BOTTOM = block(FnafModModBlocks.CLOSET_RIGHT_OPEN_BOTTOM, null);
 	public static final RegistryObject<Item> CLOSET_RIGHT_OPEN_TOP = block(FnafModModBlocks.CLOSET_RIGHT_OPEN_TOP, null);
-	public static final RegistryObject<Item> DAY_TIME_FREDDY_SPAWN_EGG = REGISTRY.register("day_time_freddy_spawn_egg", () -> new ForgeSpawnEggItem(FnafModModEntities.DAY_TIME_FREDDY, -13560571, -15592942, new Item.Properties().tab(null)));
-	public static final RegistryObject<Item> DAY_TIME_CHICA_SPAWN_EGG = REGISTRY.register("day_time_chica_spawn_egg", () -> new ForgeSpawnEggItem(FnafModModEntities.DAY_TIME_CHICA, -256, -1, new Item.Properties().tab(null)));
-	public static final RegistryObject<Item> DAY_TIME_BONNIE_SPAWN_EGG = REGISTRY.register("day_time_bonnie_spawn_egg", () -> new ForgeSpawnEggItem(FnafModModEntities.DAY_TIME_BONNIE, -14868385, -6117180, new Item.Properties().tab(null)));
-	public static final RegistryObject<Item> DAY_TIME_FOXY_SPAWN_EGG = REGISTRY.register("day_time_foxy_spawn_egg", () -> new ForgeSpawnEggItem(FnafModModEntities.DAY_TIME_FOXY, -7790817, -12178431, new Item.Properties().tab(null)));
 	public static final RegistryObject<Item> DAY_TIME_PUPPET_SPAWN_EGG = REGISTRY.register("day_time_puppet_spawn_egg", () -> new ForgeSpawnEggItem(FnafModModEntities.DAY_TIME_PUPPET, -16777216, -1, new Item.Properties().tab(null)));
-	public static final RegistryObject<Item> DAY_TIME_WITHERED_FOXY_SPAWN_EGG = REGISTRY.register("day_time_withered_foxy_spawn_egg",
-			() -> new ForgeSpawnEggItem(FnafModModEntities.DAY_TIME_WITHERED_FOXY, -3407821, -12312828, new Item.Properties().tab(null)));
 	public static final RegistryObject<Item> DAY_TIME_BB_SPAWN_EGG = REGISTRY.register("day_time_bb_spawn_egg", () -> new ForgeSpawnEggItem(FnafModModEntities.DAY_TIME_BB, -65485, -16724737, new Item.Properties().tab(null)));
 	public static final RegistryObject<Item> PAT_PAT_SPAWN_EGG = REGISTRY.register("pat_pat_spawn_egg", () -> new ForgeSpawnEggItem(FnafModModEntities.PAT_PAT, -256, -13421773, new Item.Properties().tab(null)));
 	public static final RegistryObject<Item> FRED_BEAR_CRATURE_SPAWN_EGG = REGISTRY.register("fred_bear_crature_spawn_egg", () -> new ForgeSpawnEggItem(FnafModModEntities.FRED_BEAR_CRATURE, -1, -1, new Item.Properties().tab(null)));
@@ -566,6 +525,8 @@ public class FnafModModItems {
 	public static final RegistryObject<Item> DINER_CHAIR_5 = block(FnafModModBlocks.DINER_CHAIR_5, FnafModModTabs.TAB_FNAF_BLOCKS);
 	public static final RegistryObject<Item> VENDING_BOTTOM = block(FnafModModBlocks.VENDING_BOTTOM, FnafModModTabs.TAB_FNAF_BLOCKS);
 	public static final RegistryObject<Item> VENDING_TOP = block(FnafModModBlocks.VENDING_TOP, null);
+	public static final RegistryObject<Item> MESH_TRASH_CAN = block(FnafModModBlocks.MESH_TRASH_CAN, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> TRASH_CAN = block(FnafModModBlocks.TRASH_CAN, FnafModModTabs.TAB_FNAF_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

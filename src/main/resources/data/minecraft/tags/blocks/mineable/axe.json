@@ -1,24 +1,4 @@
 {
   "replace": false,
-  "values": [
-    "fnaf_mod:backstage_door",
-    "fnaf_mod:fnaf_4_door",
-    "fnaf_mod:closet_left_bottom",
-    "fnaf_mod:closet_right_bottom",
-    "fnaf_mod:chair",
-    "fnaf_mod:shelf",
-    "fnaf_mod:phone",
-    "fnaf_mod:red_wood_door",
-    "fnaf_mod:closet_left_top",
-    "fnaf_mod:closet_right_top",
-    "fnaf_mod:closet_left_open_bottom",
-    "fnaf_mod:closet_left_open_top",
-    "fnaf_mod:closet_right_open_bottom",
-    "fnaf_mod:closet_right_open_top",
-    "fnaf_mod:diner_chair",
-    "fnaf_mod:diner_chair_2",
-    "fnaf_mod:diner_chair_3",
-    "fnaf_mod:diner_chair_4",
-    "fnaf_mod:diner_chair_5"
-  ]
+  "values": []
 }

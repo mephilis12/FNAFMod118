@@ -1,0 +1,74 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.trash_can",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bone",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-5, 0, -5],
+							"size": [10, 14, 10],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [10, 14]},
+								"east": {"uv": [10, 0], "uv_size": [-10, 14]},
+								"south": {"uv": [0, 0], "uv_size": [10, 14]},
+								"west": {"uv": [10, 0], "uv_size": [-10, 14]},
+								"up": {"uv": [20, 10], "uv_size": [-10, -10]},
+								"down": {"uv": [30, 10], "uv_size": [-10, -10]}
+							}
+						},
+						{
+							"origin": [-7, 11, -3],
+							"size": [14, 0, 6],
+							"uv": {
+								"up": {"uv": [32, 32], "uv_size": [-14, -6]}
+							}
+						}
+					]
+				},
+				{
+					"name": "lid",
+					"parent": "bone",
+					"pivot": [0, 13, 0],
+					"cubes": [
+						{
+							"origin": [-5.5, 12.5, -5.5],
+							"size": [11, 2, 11],
+							"uv": {
+								"north": {"uv": [21, 17], "uv_size": [11, 2]},
+								"east": {"uv": [21, 10], "uv_size": [-11, 2]},
+								"south": {"uv": [0, 25], "uv_size": [11, 2]},
+								"west": {"uv": [32, 19], "uv_size": [-11, 2]},
+								"up": {"uv": [11, 25], "uv_size": [-11, -11]}
+							}
+						},
+						{
+							"origin": [-2.5, 14.5, 0],
+							"size": [5, 2, 0],
+							"pivot": [0, 0, 0],
+							"rotation": [0, 90, 0],
+							"uv": {
+								"north": {"uv": [15, 12], "uv_size": [5, 2]},
+								"east": {"uv": [32, 30], "uv_size": [0, 2]},
+								"south": {"uv": [10, 12], "uv_size": [5, 2]},
+								"west": {"uv": [32, 30], "uv_size": [0, 2]},
+								"up": {"uv": [11, 25], "uv_size": [-11, -11]},
+								"down": {"uv": [32, 32], "uv_size": [-11, -11]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

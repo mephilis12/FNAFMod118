@@ -8,7 +8,7 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.server.level.ServerLevel;
 
 import net.mcreator.fnafmod.init.FnafModModEntities;
-import net.mcreator.fnafmod.entity.DayTimeChicaEntity;
+import net.mcreator.fnafmod.entity.DaytimeChicaEntity;
 import net.mcreator.fnafmod.entity.ChicaChickenEntity;
 
 public class DayTimeChicaOnEntityTickUpdateProcedure {
@@ -16,7 +16,7 @@ public class DayTimeChicaOnEntityTickUpdateProcedure {
 		if (entity == null)
 			return;
 		if (!(world instanceof Level _lvl && _lvl.isDay())) {
-			if (entity instanceof DayTimeChicaEntity) {
+			if (entity instanceof DaytimeChicaEntity) {
 				if (!entity.level.isClientSide())
 					entity.discard();
 				if (world instanceof ServerLevel _level) {

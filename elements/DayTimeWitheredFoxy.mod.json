@@ -1,23 +1,22 @@
 {
   "_fv": 38,
-  "_type": "livingentity",
+  "_type": "animatedentity",
   "definition": {
-    "mobName": "DayTime Withered Foxy",
+    "mobName": "Withered Freddy",
     "mobLabel": "",
-    "mobModelName": "ModelDayTimeWitheredFoxy",
     "mobModelTexture": "witheredfoxytexture.png",
     "mobModelGlowTexture": "",
     "modelWidth": 0.6,
-    "modelHeight": 1.8,
+    "modelHeight": 0.8,
     "modelShadowSize": 0.5,
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -3407821,
+      "value": -10674658,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -12312828,
+      "value": -9097947,
       "falpha": 0.0
     },
     "creativeTab": {
@@ -27,7 +26,7 @@
     "bossBarColor": "PINK",
     "bossBarType": "PROGRESS",
     "equipmentMainHand": {
-      "value": ""
+      "value": "CUSTOM:Microphone"
     },
     "equipmentOffHand": {
       "value": ""
@@ -49,7 +48,7 @@
     "attackStrength": 20,
     "attackKnockback": 0.0,
     "knockbackResistance": 2.0,
-    "movementSpeed": 0.4,
+    "movementSpeed": 0.25,
     "armorBaseValue": 0.0,
     "trackingRange": 64,
     "followRange": 16,
@@ -60,6 +59,9 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
+    "deathTime": 20,
+    "lerp": 4,
+    "babyScale": 0.5,
     "disableCollisions": false,
     "ridable": false,
     "canControlForward": false,
@@ -87,19 +89,16 @@
       "value": "block.cloth.hit"
     },
     "deathSound": {
-      "value": "block.anvil.destroy"
+      "value": "block.anvil.break"
     },
     "stepSound": {
-      "value": "CUSTOM:animatronic_step"
+      "value": ""
     },
     "whenMobDies": {
       "name": "DayTimeWitheredFoxyEntityDies"
     },
     "onRightClickedOn": {
       "name": "StatueFreddyRightClickedOnEntity"
-    },
-    "whenThisMobKillsAnother": {
-      "name": "FoxyPirateThisEntityKillsAnotherOne"
     },
     "onMobTickUpdate": {
       "name": "DayTimeWitheredFoxyOnEntityTickUpdate"
@@ -109,9 +108,33 @@
     },
     "hasAI": false,
     "aiBase": "(none)",
-    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"2424\" y=\"192\"><next><block type=\"look_around\"><field name=\"condition\">FreddyFazbearOnEntityTickUpdate,null</field><next><block type=\"wander_avoid_water\"><field name=\"speed\">0.8</field><field name=\"condition\">FreddyFazbearOnEntityTickUpdate,null</field><next><block type=\"attack_on_collide\"><field name=\"speed\">1.6</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">FreddyFazbearOnEntityTickUpdate,null</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">CUSTOM:BB</field><field name=\"condition\">FreddyFazbearOnEntityTickUpdate,null</field></block></next></block></next></block></next></block></next></block></xml>",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"42\" y=\"178\"><next><block type=\"wander\"><field name=\"speed\">0.8</field><field name=\"condition\">FreddyFazbearOnEntityTickUpdate,null</field><next><block type=\"look_around\"><field name=\"condition\">FreddyFazbearOnEntityTickUpdate,null</field><next><block type=\"wander_avoid_water\"><field name=\"speed\">0.8</field><field name=\"condition\">FreddyFazbearOnEntityTickUpdate,null</field><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">FreddyFazbearOnEntityTickUpdate,null</field><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityPlayer</field><field name=\"condition\">MaskProtectionTestForTick,null</field></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "model": "witheredfoxy.geo.json",
+    "groupName": "Head",
+    "animation1": "animation.witheredfoxy.lookdown",
+    "animation2": "animation.witheredfreddy.walk",
+    "animation3": "",
+    "animation4": "",
+    "animation5": "",
+    "animation6": "",
+    "animation7": "",
+    "animation8": "",
+    "animation9": "",
+    "animation10": "",
+    "enable2": false,
+    "enable3": false,
+    "enable4": false,
+    "enable5": false,
+    "enable6": false,
+    "enable7": false,
+    "enable8": false,
+    "enable9": false,
+    "enable10": false,
     "breedable": false,
     "tameable": false,
+    "disableDeathRotation": false,
+    "headMovement": false,
+    "eyeHeight": false,
     "breedTriggerItems": [],
     "ranged": false,
     "rangedAttackItem": {
@@ -120,6 +143,7 @@
     "rangedItemType": "Default item",
     "rangedAttackInterval": 20,
     "rangedAttackRadius": 10.0,
+    "height": 1.0,
     "spawnThisMob": false,
     "doesDespawnWhenIdle": false,
     "spawningProbability": 20,
