@@ -53,4 +53,7 @@ public class GeckoLibSpawnEggs {
 	public static final RegistryObject<Item> DAY_TIME_FOXY = REGISTRY.register("day_time_foxy_spawn_egg", () -> new ForgeSpawnEggItem(FnafModModEntities.DAY_TIME_FOXY, -6152192, -6404555, new Item.Properties().tab(null)));
 	public static final RegistryObject<Item> GLITCH_BONNIE_ANIMATRONIC = REGISTRY.register("glitch_bonnie_animatronic_spawn_egg",
 			() -> new ForgeSpawnEggItem(FnafModModEntities.GLITCH_BONNIE_ANIMATRONIC, -6589184, -12058557, new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> GOLDEN_FREDDY = REGISTRY.register("golden_freddy_spawn_egg", () -> new ForgeSpawnEggItem(FnafModModEntities.GOLDEN_FREDDY, -2376924, -15790321, new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
+	public static final RegistryObject<Item> SITTING_SPRING_BONNIE = REGISTRY.register("sitting_spring_bonnie_spawn_egg",
+			() -> new ForgeSpawnEggItem(FnafModModEntities.SITTING_SPRING_BONNIE, -6328817, -9557906, new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
 }

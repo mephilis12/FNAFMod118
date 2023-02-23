@@ -126,8 +126,6 @@ public class FnafModModEntityRenderers {
 		event.registerEntityRenderer(FnafModModEntities.BONNIE_STAND.get(), BonnieStandRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.TOY_BOX.get(), ToyBoxRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.CAMERA.get(), CameraRenderer::new);
-		event.registerEntityRenderer(FnafModModEntities.GOLDEN_FREDDY.get(), GoldenFreddyRenderer::new);
-		event.registerEntityRenderer(FnafModModEntities.SITTING_SPRING_BONNIE.get(), SittingSpringBonnieRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.SITTING_FREDBEAR.get(), SittingFredbearRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.ENDO_SKELETON.get(), EndoSkeletonRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.SHADOW_FREDDY.get(), ShadowFreddyRenderer::new);
@@ -230,5 +228,7 @@ public class FnafModModEntityRenderers {
 		event.registerEntityRenderer(FnafModModEntities.DAY_TIME_BONNIE.get(), DayTimeBonnieRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.DAY_TIME_FOXY.get(), DayTimeFoxyRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.GLITCH_BONNIE_ANIMATRONIC.get(), GlitchBonnieAnimatronicRenderer::new);
+		event.registerEntityRenderer(FnafModModEntities.GOLDEN_FREDDY.get(), GoldenFreddyRenderer::new);
+		event.registerEntityRenderer(FnafModModEntities.SITTING_SPRING_BONNIE.get(), SittingSpringBonnieRenderer::new);
 	}
 }

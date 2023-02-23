@@ -81,7 +81,7 @@ public class SpringBonnieAnimatronicEntity extends PathfinderMob implements IAni
 		super.defineSynchedData();
 		this.entityData.define(SHOOT, false);
 		this.entityData.define(ANIMATION, "undefined");
-		this.entityData.define(TEXTURE, "springbonniewithvestandwhiskers");
+		this.entityData.define(TEXTURE, "springbonnie");
 	}
 
 	public void setTexture(String texture) {

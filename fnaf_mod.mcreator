@@ -847,22 +847,6 @@
       "path": "~/Overlays"
     },
     {
-      "name": "GoldenFreddy",
-      "type": "livingentity",
-      "sortid": 205,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "golden_freddy",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/fnafmod/client/renderer/GoldenFreddyRenderer.java",
-          "src/main/resources/assets/fnaf_mod/models/item/golden_freddy_spawn_egg.json",
-          "src/main/java/net/mcreator/fnafmod/entity/GoldenFreddyEntity.java"
-        ]
-      },
-      "path": "~/Mobs/StatueAnimatronics"
-    },
-    {
       "name": "GoldenFreddyThisEntityKillsAnotherOne",
       "type": "procedure",
       "sortid": 340,
@@ -1921,22 +1905,6 @@
           "src/main/java/net/mcreator/fnafmod/entity/SpringBonnieCreatureEntity.java",
           "src/main/java/net/mcreator/fnafmod/client/renderer/SpringBonnieCreatureRenderer.java",
           "src/main/resources/assets/fnaf_mod/models/item/spring_bonnie_creature_spawn_egg.json"
-        ]
-      },
-      "path": "~/Mobs/StatueAnimatronics"
-    },
-    {
-      "name": "SittingSpringBonnie",
-      "type": "livingentity",
-      "sortid": 206,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sitting_spring_bonnie",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/fnafmod/entity/SittingSpringBonnieEntity.java",
-          "src/main/java/net/mcreator/fnafmod/client/renderer/SittingSpringBonnieRenderer.java",
-          "src/main/resources/assets/fnaf_mod/models/item/sitting_spring_bonnie_spawn_egg.json"
         ]
       },
       "path": "~/Mobs/StatueAnimatronics"
@@ -21618,6 +21586,293 @@
         ]
       },
       "path": "~/Mobs/FriendlyAnimatronics"
+    },
+    {
+      "name": "OvdrPlushie",
+      "type": "block",
+      "sortid": 1070,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ovdr_plushie",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/blockstates/ovdr_plushie.json",
+          "src/main/resources/assets/fnaf_mod/models/item/ovdr_plushie.json",
+          "src/main/java/net/mcreator/fnafmod/block/OvdrPlushieBlock.java",
+          "src/main/resources/assets/fnaf_mod/models/block/ovdr_plushie.json"
+        ]
+      },
+      "path": "~/Blocks/DecorativeBlocks"
+    },
+    {
+      "name": "OVDRHonk",
+      "type": "procedure",
+      "sortid": 1071,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ovdr_honk",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/procedures/OVDRHonkProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/DecorativeBlocks"
+    },
+    {
+      "name": "BlackStripeDarkWallTile",
+      "type": "block",
+      "sortid": 1072,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_stripe_dark_wall_tile",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/blockstates/black_stripe_dark_wall_tile.json",
+          "src/main/resources/assets/fnaf_mod/models/item/black_stripe_dark_wall_tile.json",
+          "src/main/java/net/mcreator/fnafmod/block/BlackStripeDarkWallTileBlock.java",
+          "src/main/resources/assets/fnaf_mod/models/block/black_stripe_dark_wall_tile.json"
+        ]
+      },
+      "path": "~/Blocks/WallTiles"
+    },
+    {
+      "name": "AlternateBlackStripeDarkWallTile",
+      "type": "block",
+      "sortid": 1073,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alternate_black_stripe_dark_wall_tile",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/blockstates/alternate_black_stripe_dark_wall_tile.json",
+          "src/main/resources/assets/fnaf_mod/models/item/alternate_black_stripe_dark_wall_tile.json",
+          "src/main/resources/assets/fnaf_mod/models/block/alternate_black_stripe_dark_wall_tile.json",
+          "src/main/java/net/mcreator/fnafmod/block/AlternateBlackStripeDarkWallTileBlock.java"
+        ]
+      },
+      "path": "~/Blocks/WallTiles"
+    },
+    {
+      "name": "WhiteBlackStripeWallTile",
+      "type": "block",
+      "sortid": 1075,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_black_stripe_wall_tile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/block/WhiteBlackStripeWallTileBlock.java",
+          "src/main/resources/assets/fnaf_mod/models/block/white_black_stripe_wall_tile.json",
+          "src/main/resources/assets/fnaf_mod/models/item/white_black_stripe_wall_tile.json",
+          "src/main/resources/assets/fnaf_mod/blockstates/white_black_stripe_wall_tile.json"
+        ]
+      },
+      "path": "~/Blocks/WallTiles"
+    },
+    {
+      "name": "AlternateWhiteBlackStripeWallTile",
+      "type": "block",
+      "sortid": 1074,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alternate_white_black_stripe_wall_tile",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/models/item/alternate_white_black_stripe_wall_tile.json",
+          "src/main/resources/assets/fnaf_mod/blockstates/alternate_white_black_stripe_wall_tile.json",
+          "src/main/java/net/mcreator/fnafmod/block/AlternateWhiteBlackStripeWallTileBlock.java",
+          "src/main/resources/assets/fnaf_mod/models/block/alternate_white_black_stripe_wall_tile.json"
+        ]
+      },
+      "path": "~/Blocks/WallTiles"
+    },
+    {
+      "name": "StageBlackStripeTiles",
+      "type": "block",
+      "sortid": 1076,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stage_black_stripe_tiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/blockstates/stage_black_stripe_tiles.json",
+          "src/main/java/net/mcreator/fnafmod/block/StageBlackStripeTilesBlock.java",
+          "src/main/resources/assets/fnaf_mod/models/item/stage_black_stripe_tiles.json",
+          "src/main/resources/assets/fnaf_mod/models/block/stage_black_stripe_tiles.json"
+        ]
+      },
+      "path": "~/Blocks/WallTiles"
+    },
+    {
+      "name": "AlternateStageBlackStripeTiles",
+      "type": "block",
+      "sortid": 1077,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alternate_stage_black_stripe_tiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/models/item/alternate_stage_black_stripe_tiles.json",
+          "src/main/resources/assets/fnaf_mod/blockstates/alternate_stage_black_stripe_tiles.json",
+          "src/main/resources/assets/fnaf_mod/models/block/alternate_stage_black_stripe_tiles.json",
+          "src/main/java/net/mcreator/fnafmod/block/AlternateStageBlackStripeTilesBlock.java"
+        ]
+      },
+      "path": "~/Blocks/WallTiles"
+    },
+    {
+      "name": "BigBlackStripeDarkWallTile",
+      "type": "block",
+      "sortid": 1078,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_black_stripe_dark_wall_tile",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/blockstates/big_black_stripe_dark_wall_tile.json",
+          "src/main/java/net/mcreator/fnafmod/block/BigBlackStripeDarkWallTileBlock.java",
+          "src/main/resources/assets/fnaf_mod/models/block/big_black_stripe_dark_wall_tile.json",
+          "src/main/resources/assets/fnaf_mod/models/item/big_black_stripe_dark_wall_tile.json"
+        ]
+      },
+      "path": "~/Blocks/WallTiles"
+    },
+    {
+      "name": "AlternateBigBlackStripeDarkWallTile",
+      "type": "block",
+      "sortid": 1079,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alternate_big_black_stripe_dark_wall_tile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/block/AlternateBigBlackStripeDarkWallTileBlock.java",
+          "src/main/resources/assets/fnaf_mod/models/block/alternate_big_black_stripe_dark_wall_tile.json",
+          "src/main/resources/assets/fnaf_mod/models/item/alternate_big_black_stripe_dark_wall_tile.json",
+          "src/main/resources/assets/fnaf_mod/blockstates/alternate_big_black_stripe_dark_wall_tile.json"
+        ]
+      },
+      "path": "~/Blocks/WallTiles"
+    },
+    {
+      "name": "BigWhiteBlackStripedWallTile",
+      "type": "block",
+      "sortid": 1080,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_white_black_striped_wall_tile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/block/BigWhiteBlackStripedWallTileBlock.java",
+          "src/main/resources/assets/fnaf_mod/blockstates/big_white_black_striped_wall_tile.json",
+          "src/main/resources/assets/fnaf_mod/models/block/big_white_black_striped_wall_tile.json",
+          "src/main/resources/assets/fnaf_mod/models/item/big_white_black_striped_wall_tile.json"
+        ]
+      },
+      "path": "~/Blocks/WallTiles"
+    },
+    {
+      "name": "AlternateBigWhiteBlackStripedWallTiles",
+      "type": "block",
+      "sortid": 1081,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alternate_big_white_black_striped_wall_tiles",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/block/AlternateBigWhiteBlackStripedWallTilesBlock.java",
+          "src/main/resources/assets/fnaf_mod/models/block/alternate_big_white_black_striped_wall_tiles.json",
+          "src/main/resources/assets/fnaf_mod/blockstates/alternate_big_white_black_striped_wall_tiles.json",
+          "src/main/resources/assets/fnaf_mod/models/item/alternate_big_white_black_striped_wall_tiles.json"
+        ]
+      },
+      "path": "~/Blocks/WallTiles"
+    },
+    {
+      "name": "BigBlackStripedStageBrickTiles",
+      "type": "block",
+      "sortid": 1082,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_black_striped_stage_brick_tiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/blockstates/big_black_striped_stage_brick_tiles.json",
+          "src/main/java/net/mcreator/fnafmod/block/BigBlackStripedStageBrickTilesBlock.java",
+          "src/main/resources/assets/fnaf_mod/models/item/big_black_striped_stage_brick_tiles.json",
+          "src/main/resources/assets/fnaf_mod/models/block/big_black_striped_stage_brick_tiles.json"
+        ]
+      },
+      "path": "~/Blocks/WallTiles"
+    },
+    {
+      "name": "AlternateBigBlackStripedStageBrickTiles",
+      "type": "block",
+      "sortid": 1083,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alternate_big_black_striped_stage_brick_tiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/models/block/alternate_big_black_striped_stage_brick_tiles.json",
+          "src/main/java/net/mcreator/fnafmod/block/AlternateBigBlackStripedStageBrickTilesBlock.java",
+          "src/main/resources/assets/fnaf_mod/models/item/alternate_big_black_striped_stage_brick_tiles.json",
+          "src/main/resources/assets/fnaf_mod/blockstates/alternate_big_black_striped_stage_brick_tiles.json"
+        ]
+      },
+      "path": "~/Blocks/WallTiles"
+    },
+    {
+      "name": "GoldenFreddy",
+      "type": "animatedentity",
+      "sortid": 1084,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_freddy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/client/renderer/GoldenFreddyRenderer.java",
+          "src/main/resources/assets/fnaf_mod/models/item/golden_freddy_spawn_egg.json",
+          "src/main/java/net/mcreator/fnafmod/entity/GoldenFreddyEntity.java",
+          "src/main/java/net/mcreator/fnafmod/entity/model/GoldenFreddyModel.java"
+        ]
+      },
+      "path": "~/Mobs/StatueAnimatronics"
+    },
+    {
+      "name": "SittingSpringBonnie",
+      "type": "animatedentity",
+      "sortid": 1085,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sitting_spring_bonnie",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/entity/SittingSpringBonnieEntity.java",
+          "src/main/java/net/mcreator/fnafmod/client/renderer/SittingSpringBonnieRenderer.java",
+          "src/main/resources/assets/fnaf_mod/models/item/sitting_spring_bonnie_spawn_egg.json",
+          "src/main/java/net/mcreator/fnafmod/entity/model/SittingSpringBonnieModel.java"
+        ]
+      },
+      "path": "~/Mobs/StatueAnimatronics"
     }
   ],
   "variable_elements": [
@@ -22091,6 +22346,14 @@
       ],
       "category": "neutral",
       "subtitle": ""
+    },
+    {
+      "name": "ovdrhonk",
+      "files": [
+        "overdrivehonk"
+      ],
+      "category": "block",
+      "subtitle": "\"Honk\""
     }
   ],
   "language_map": {
@@ -22129,8 +22392,8 @@
       "entity.fnaf_mod.bonnie_stand": "Bonnie Stand",
       "item.fnaf_mod.nightmarione_statue_spawn_egg": "Nightmarionne Statue Spawn Egg",
       "item.fnaf_mod.toreador_march.desc": "Toreador March - LordSmugDread",
-      "gui.fnaf_mod.wall_change_2.label_one_room_face_rest_hall_faces": "One Room Face Rest Hall Faces",
       "entity.fnaf_mod.golden_freddy": "Golden Freddy",
+      "gui.fnaf_mod.wall_change_2.label_one_room_face_rest_hall_faces": "One Room Face Rest Hall Faces",
       "entity.fnaf_mod.unwithered_chica": "Un-Withered Chica",
       "item.fnaf_mod.day_time_bonnie_spawn_egg": "DaytimeBonnie Spawn Egg",
       "entity.fnaf_mod.the_groobler": "The Groobler",
@@ -22172,10 +22435,12 @@
       "item.fnaf_mod.evil_bonnie": "Dark Remnant Infused Bonnie",
       "gui.fnaf_mod.wall_change_1.label_one_room_face_rest_hall_faces": "One Room Face Rest Hall Faces",
       "block.fnaf_mod.red_black_tile": "Red Black Tile",
+      "block.fnaf_mod.white_black_stripe_wall_tile": "White Black Stripe Wall Tiles",
       "block.fnaf_mod.orange_speaker": "Speaker",
+      "subtitles.ovdrhonk": "\"Honk\"",
       "gui.fnaf_mod.wall_change_2.label_opposing_each_other": " Opposing Each Other",
-      "item.fnaf_mod.sitting_spring_bonnie_spawn_egg": "Spring Bonnie Spawn Egg",
       "entity.fnaf_mod.springlocked_zombie_fredbear": "Springlocked Zombie Fredbear",
+      "item.fnaf_mod.sitting_spring_bonnie_spawn_egg": "Sitting Spring Bonnie Spawn Egg",
       "item.fnaf_mod.nightime_toy_chica_spawn_egg": "Toy Chica Spawn Egg",
       "entity.fnaf_mod.puppet": "Puppet",
       "effect.fnaf_mod.bleeding": "Bleeding",
@@ -22248,6 +22513,7 @@
       "gui.fnaf_mod.wall_change_2.label_type_c": "Type C:",
       "block.fnaf_mod.orange_speaker_left": "Speaker",
       "gui.fnaf_mod.wall_change_2.label_type_b": "Type B:",
+      "block.fnaf_mod.big_black_stripe_dark_wall_tile": "Big Black Stripe Dark Wall Tiles",
       "gui.fnaf_mod.wall_change_2.label_type_a": "Type A:",
       "block.fnaf_mod.stage_brick_tiles": "Etched Brick Tiles",
       "entity.fnaf_mod.nightmare_fredbear": "Nightmare Fredbear",
@@ -22267,6 +22533,7 @@
       "block.fnaf_mod.red_black_tile_slab": "Red Black Tile Slab",
       "entity.fnaf_mod.full_hostile_chica": "Chica",
       "item.fnaf_mod.foxy_spawn": "Foxy The Pirate",
+      "block.fnaf_mod.alternate_stage_black_stripe_tiles": "Alternate Etched Black Stripe Brick Tiles",
       "block.fnaf_mod.cobalt_curtain": "Cobalt Curtain",
       "item.fnaf_mod.fredbear_spring_lock_suit_helmet": "Fredbear Spring Lock Head",
       "item.fnaf_mod.evil_freddy_item_spawn": "Dark Remnant Infused Freddy",
@@ -22326,6 +22593,7 @@
       "block.fnaf_mod.speaker_left": "Speaker",
       "block.fnaf_mod.green_blue_tile_stair": "Green Blue Tile Stairs",
       "item.fnaf_mod.fredbear_item": "Drone Fredbear",
+      "block.fnaf_mod.black_stripe_dark_wall_tile": "Black Stripe Dark Wall Tiles",
       "item.fnaf_mod.endo_skeleton_spawn_egg": "Endoskeleton Spawn Egg",
       "block.fnaf_mod.fnaf_wall_top_rotable": "Tapestry Top Rotable Type A",
       "gui.fnaf_mod.wall_change_1.button_d": "D",
@@ -22354,6 +22622,7 @@
       "block.fnaf_mod.structure_spawning_block": "Structure Spawning Block (Sam\u0027s Pizzeria)",
       "entity.fnaf_mod.freddy_fazbear": "FreddyFazbear",
       "block.fnaf_mod.fnaf_4_wall_top_hall": "Tapestry Top Red",
+      "block.fnaf_mod.alternate_big_black_striped_stage_brick_tiles": "Alternate Big Black Striped Etched Brick Tiles",
       "entity.fnaf_mod.day_time_toy_bonnie": "DayTime Toy Bonnie",
       "block.fnaf_mod.red_white_tile_cracked": "Cracked Red White Tile",
       "subtitles.animatronic_step": "Footstep",
@@ -22388,6 +22657,7 @@
       "block.fnaf_mod.balloon_blue": "Blue Balloon",
       "entity.fnaf_mod.withered_chica": "Withered Chica",
       "block.fnaf_mod.fan": "Fan",
+      "block.fnaf_mod.alternate_black_stripe_dark_wall_tile": "Alternate Black Stripe Dark Wall Tiles",
       "block.fnaf_mod.red_blue_tile_stairs_cracked": "Cracked Red Blue Tile Stairs",
       "item.fnaf_mod.glitchtrap_suit_chestplate": "Spring Bonnie Costume Body",
       "entity.fnaf_mod.toy_bonnie": "Toy Bonnie",
@@ -22442,8 +22712,8 @@
       "item.fnaf_mod.crying_child_spawn_egg": "Crying Child Spawn Egg",
       "block.fnaf_mod.wall_wires": "Wall Wires",
       "block.fnaf_mod.chica_head_decoration": "Chica Head Decoration",
-      "item.fnaf_mod.golden_freddy_spawn_egg": "Golden Freddy Spawn Egg",
       "entity.fnaf_mod.nightmare_foxy": "Nightmare Foxy",
+      "item.fnaf_mod.golden_freddy_spawn_egg": "Golden Freddy Spawn Egg",
       "entity.fnaf_mod.pat_pat": "PatPat",
       "block.fnaf_mod.checkered_wall": "Checkered Wall",
       "item.fnaf_mod.statue_bonnie_spawn": "Statue Bonnie",
@@ -22563,6 +22833,7 @@
       "block.fnaf_mod.alternate_big_purple_stage_brick_tiles": "Alternate Big Purple Etched Brick Tiles",
       "item.fnaf_mod.passive_goldie_spawn_egg": "YellowBear Spawn Egg",
       "block.fnaf_mod.balloon_green": "Green Balloon",
+      "block.fnaf_mod.stage_black_stripe_tiles": "Etched Black Stripe Brick Tiles",
       "block.fnaf_mod.freddy_head": "Freddy Head",
       "block.fnaf_mod.plush_foxy": "Foxy Plush",
       "gui.fnaf_mod.wall_change_1.label_two_room_and_hall_faces1": "Two Room and Hall Faces ",
@@ -22580,8 +22851,10 @@
       "block.fnaf_mod.stage_bricks": "Etched Bricks",
       "block.fnaf_mod.fnaf_wall_top_rotable_2": "Tapestry Top Rotable Type B",
       "block.fnaf_mod.fnaf_wall_top_rotable_3": "Tapestry Top Rotable Type C",
+      "block.fnaf_mod.alternate_big_white_black_striped_wall_tiles": "Alternate Big White Black Striped Wall Tiles",
       "gui.fnaf_mod.camera_gui.label_with_the_monitor": "with the Monitor",
       "gui.fnaf_mod.camera_gui.label_you_can_have_unlimited_cameras": "You Can Have Unlimited Cameras",
+      "block.fnaf_mod.alternate_white_black_stripe_wall_tile": "Alternate White Black Stripe Wall Tiles",
       "item.fnaf_mod.red_plastic": "Red Plastic",
       "block.fnaf_mod.green_blue_tile_stair_cracked": "Cracked Green Blue Tile Stairs",
       "block.fnaf_mod.poster_7": "Wall Poster 7",
@@ -22617,6 +22890,7 @@
       "block.fnaf_mod.structure_spawning_block_11": "Structure Spawning Block (Arcade B)",
       "block.fnaf_mod.structure_spawning_block_10": "Structure Spawning Block (Arcade A)",
       "item.fnaf_mod.freddy_fazbear_spawn_egg": "FreddyFazbear Spawn Egg",
+      "block.fnaf_mod.big_white_black_striped_wall_tile": "Big White Black Striped Wall Tiles",
       "block.fnaf_mod.poster_3": "Wall Poster 3",
       "block.fnaf_mod.poster_4": "Wall Poster 4",
       "block.fnaf_mod.poster_1": "Wall Poster 1",
@@ -22627,6 +22901,7 @@
       "block.fnaf_mod.black_purple_wall_tile": "Black Purple Wall Tiles",
       "item.fnaf_mod.freddy_mask_chestplate": "Freddy Mask Body",
       "block.fnaf_mod.paper_pal_freddy": "Paper Pal Freddy",
+      "block.fnaf_mod.big_black_striped_stage_brick_tiles": "Big Black Striped Etched Brick Tiles",
       "item.fnaf_mod.cupcake": "Cupcake",
       "block.fnaf_mod.arcade_machine_freddy": "Arcade Machine Freddy",
       "block.fnaf_mod.alternate_big_white_black_wall_tile": "Alternate Big White Wall Tiles",
@@ -22641,11 +22916,12 @@
       "item.fnaf_mod.spring_bonnie_creature_spawn_egg": "Spring Bonnie Creature Spawn Egg",
       "item.fnaf_mod.jj_spawn_egg": "JJ Spawn Egg",
       "block.fnaf_mod.cactus_curtain": "Cactus Curtain",
+      "block.fnaf_mod.alternate_big_black_stripe_dark_wall_tile": "Alternate Big Black Striped Dark Wall Tiles",
       "item.fnaf_mod.freddy_mask_boots": "Freddy Mask Boots",
       "subtitles.happiest_day": "Happiest Day Music Disc",
       "subtitles.cameradown": "",
-      "entity.fnaf_mod.sitting_spring_bonnie": "Spring Bonnie",
       "item.fnaf_mod.fazbear_showtime.desc": "Fazbear Showtime - SomethingFunky",
+      "entity.fnaf_mod.sitting_spring_bonnie": "Sitting Spring Bonnie",
       "block.fnaf_mod.blue_black_tile_cracked": "Cracked Blue Black Tile",
       "block.fnaf_mod.error_tile_stair": "Missing Texture Tile Stairs",
       "block.fnaf_mod.stars": "Stars",
@@ -22667,6 +22943,7 @@
       "block.fnaf_mod.checkered_tile": "Checkered Tile",
       "entity.fnaf_mod.fredbear_creature": "Fredbear  Creature",
       "item.fnaf_mod.pink_plastic": "Pink Plastic",
+      "block.fnaf_mod.ovdr_plushie": "Overdrive Plushie",
       "item.fnaf_mod.nightmare_chica_spawn_egg": "Nightmare Chica Spawn Egg",
       "item.fnaf_mod.spring_lock_suit_boots": "Spring Lock Suit Boots",
       "entity.fnaf_mod.standing_daytime_springtrap": "DayTime Springtrap Standing",

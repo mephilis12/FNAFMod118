@@ -20,8 +20,10 @@ import net.mcreator.fnafmod.entity.UnwitheredBonnieEntity;
 import net.mcreator.fnafmod.entity.SpringBonnieAnimatronicEntity;
 import net.mcreator.fnafmod.entity.SittingWitheredChicaEntity;
 import net.mcreator.fnafmod.entity.SittingWitheredBonnieEntity;
+import net.mcreator.fnafmod.entity.SittingSpringBonnieEntity;
 import net.mcreator.fnafmod.entity.PhantomFreddyEntity;
 import net.mcreator.fnafmod.entity.PhantomFoxyEntity;
+import net.mcreator.fnafmod.entity.GoldenFreddyEntity;
 import net.mcreator.fnafmod.entity.GlitchBonnieAnimatronicEntity;
 import net.mcreator.fnafmod.entity.FreddyFazbearEntity;
 import net.mcreator.fnafmod.entity.FredbearAnimatronicEntity;
@@ -76,6 +78,8 @@ public class FnafModModGeckoLibEntities {
 			DayTimeBonnieEntity.init();
 			DayTimeFoxyEntity.init();
 			GlitchBonnieAnimatronicEntity.init();
+			GoldenFreddyEntity.init();
+			SittingSpringBonnieEntity.init();
 		});
 	}
 
@@ -108,5 +112,7 @@ public class FnafModModGeckoLibEntities {
 		event.put(FnafModModEntities.DAY_TIME_BONNIE.get(), DayTimeBonnieEntity.createAttributes().build());
 		event.put(FnafModModEntities.DAY_TIME_FOXY.get(), DayTimeFoxyEntity.createAttributes().build());
 		event.put(FnafModModEntities.GLITCH_BONNIE_ANIMATRONIC.get(), GlitchBonnieAnimatronicEntity.createAttributes().build());
+		event.put(FnafModModEntities.GOLDEN_FREDDY.get(), GoldenFreddyEntity.createAttributes().build());
+		event.put(FnafModModEntities.SITTING_SPRING_BONNIE.get(), SittingSpringBonnieEntity.createAttributes().build());
 	}
 }

@@ -16,8 +16,10 @@ import net.mcreator.fnafmod.entity.UnwitheredBonnieEntity;
 import net.mcreator.fnafmod.entity.SpringBonnieAnimatronicEntity;
 import net.mcreator.fnafmod.entity.SittingWitheredChicaEntity;
 import net.mcreator.fnafmod.entity.SittingWitheredBonnieEntity;
+import net.mcreator.fnafmod.entity.SittingSpringBonnieEntity;
 import net.mcreator.fnafmod.entity.PhantomFreddyEntity;
 import net.mcreator.fnafmod.entity.PhantomFoxyEntity;
+import net.mcreator.fnafmod.entity.GoldenFreddyEntity;
 import net.mcreator.fnafmod.entity.GlitchBonnieAnimatronicEntity;
 import net.mcreator.fnafmod.entity.FreddyFazbearEntity;
 import net.mcreator.fnafmod.entity.FredbearAnimatronicEntity;
@@ -220,6 +222,20 @@ public class EntityAnimationFactory {
 				}
 			}
 			if (event.getEntity() instanceof GlitchBonnieAnimatronicEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof GoldenFreddyEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof SittingSpringBonnieEntity syncable) {
 				String animation = syncable.getSyncedAnimation();
 				if (!animation.equals("undefined")) {
 					syncable.setAnimation("undefined");

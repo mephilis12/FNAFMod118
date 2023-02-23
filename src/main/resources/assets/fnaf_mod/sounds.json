@@ -253,5 +253,15 @@
         "stream": false
       }
     ]
+  },
+  "ovdrhonk": {
+    "category": "block",
+    "subtitle": "subtitles.ovdrhonk",
+    "sounds": [
+      {
+        "name": "fnaf_mod:overdrivehonk",
+        "stream": false
+      }
+    ]
   }
 }

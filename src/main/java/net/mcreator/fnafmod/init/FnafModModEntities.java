@@ -143,14 +143,6 @@ public class FnafModModEntities {
 					.sized(1f, 1.5f));
 	public static final RegistryObject<EntityType<CameraEntity>> CAMERA = register("camera",
 			EntityType.Builder.<CameraEntity>of(CameraEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CameraEntity::new).fireImmune().sized(0.6f, 0.4f));
-	public static final RegistryObject<EntityType<GoldenFreddyEntity>> GOLDEN_FREDDY = register("golden_freddy",
-			EntityType.Builder.<GoldenFreddyEntity>of(GoldenFreddyEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GoldenFreddyEntity::new)
-
-					.sized(0.6f, 1.8f));
-	public static final RegistryObject<EntityType<SittingSpringBonnieEntity>> SITTING_SPRING_BONNIE = register("sitting_spring_bonnie",
-			EntityType.Builder.<SittingSpringBonnieEntity>of(SittingSpringBonnieEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SittingSpringBonnieEntity::new)
-
-					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<SittingFredbearEntity>> SITTING_FREDBEAR = register("sitting_fredbear",
 			EntityType.Builder.<SittingFredbearEntity>of(SittingFredbearEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SittingFredbearEntity::new)
 
@@ -557,6 +549,14 @@ public class FnafModModEntities {
 					.setCustomClientFactory(GlitchBonnieAnimatronicEntity::new)
 
 					.sized(0.6f, 1.9000000000000001f));
+	public static final RegistryObject<EntityType<GoldenFreddyEntity>> GOLDEN_FREDDY = register("golden_freddy",
+			EntityType.Builder.<GoldenFreddyEntity>of(GoldenFreddyEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(65).setUpdateInterval(3).setCustomClientFactory(GoldenFreddyEntity::new)
+
+					.sized(0.6f, 1.9000000000000001f));
+	public static final RegistryObject<EntityType<SittingSpringBonnieEntity>> SITTING_SPRING_BONNIE = register("sitting_spring_bonnie",
+			EntityType.Builder.<SittingSpringBonnieEntity>of(SittingSpringBonnieEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(65).setUpdateInterval(3).setCustomClientFactory(SittingSpringBonnieEntity::new)
+
+					.sized(0.6f, 1.9000000000000001f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -569,8 +569,6 @@ public class FnafModModEntities {
 			BonnieStandEntity.init();
 			ToyBoxEntity.init();
 			CameraEntity.init();
-			GoldenFreddyEntity.init();
-			SittingSpringBonnieEntity.init();
 			SittingFredbearEntity.init();
 			EndoSkeletonEntity.init();
 			ShadowFreddyEntity.init();
@@ -655,8 +653,6 @@ public class FnafModModEntities {
 		event.put(BONNIE_STAND.get(), BonnieStandEntity.createAttributes().build());
 		event.put(TOY_BOX.get(), ToyBoxEntity.createAttributes().build());
 		event.put(CAMERA.get(), CameraEntity.createAttributes().build());
-		event.put(GOLDEN_FREDDY.get(), GoldenFreddyEntity.createAttributes().build());
-		event.put(SITTING_SPRING_BONNIE.get(), SittingSpringBonnieEntity.createAttributes().build());
 		event.put(SITTING_FREDBEAR.get(), SittingFredbearEntity.createAttributes().build());
 		event.put(ENDO_SKELETON.get(), EndoSkeletonEntity.createAttributes().build());
 		event.put(SHADOW_FREDDY.get(), ShadowFreddyEntity.createAttributes().build());

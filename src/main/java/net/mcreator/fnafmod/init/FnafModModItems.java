@@ -292,10 +292,6 @@ public class FnafModModItems {
 	public static final RegistryObject<Item> GUARD_HAT_HELMET = REGISTRY.register("guard_hat_helmet", () -> new GuardHatItem.Helmet());
 	public static final RegistryObject<Item> CAMERA_MONITOR = REGISTRY.register("camera_monitor", () -> new CameraMonitorItem());
 	public static final RegistryObject<Item> BATTERY = REGISTRY.register("battery", () -> new BatteryItem());
-	public static final RegistryObject<Item> GOLDEN_FREDDY_SPAWN_EGG = REGISTRY.register("golden_freddy_spawn_egg",
-			() -> new ForgeSpawnEggItem(FnafModModEntities.GOLDEN_FREDDY, -4810998, -16777216, new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
-	public static final RegistryObject<Item> SITTING_SPRING_BONNIE_SPAWN_EGG = REGISTRY.register("sitting_spring_bonnie_spawn_egg",
-			() -> new ForgeSpawnEggItem(FnafModModEntities.SITTING_SPRING_BONNIE, -4810998, -12582330, new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
 	public static final RegistryObject<Item> SITTING_FREDBEAR_SPAWN_EGG = REGISTRY.register("sitting_fredbear_spawn_egg",
 			() -> new ForgeSpawnEggItem(FnafModModEntities.SITTING_FREDBEAR, -2375875, -10087826, new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
 	public static final RegistryObject<Item> ENDO_SKELETON_SPAWN_EGG = REGISTRY.register("endo_skeleton_spawn_egg",
@@ -527,6 +523,19 @@ public class FnafModModItems {
 	public static final RegistryObject<Item> VENDING_TOP = block(FnafModModBlocks.VENDING_TOP, null);
 	public static final RegistryObject<Item> MESH_TRASH_CAN = block(FnafModModBlocks.MESH_TRASH_CAN, FnafModModTabs.TAB_FNAF_BLOCKS);
 	public static final RegistryObject<Item> TRASH_CAN = block(FnafModModBlocks.TRASH_CAN, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> OVDR_PLUSHIE = block(FnafModModBlocks.OVDR_PLUSHIE, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> BLACK_STRIPE_DARK_WALL_TILE = block(FnafModModBlocks.BLACK_STRIPE_DARK_WALL_TILE, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> ALTERNATE_BLACK_STRIPE_DARK_WALL_TILE = block(FnafModModBlocks.ALTERNATE_BLACK_STRIPE_DARK_WALL_TILE, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> ALTERNATE_WHITE_BLACK_STRIPE_WALL_TILE = block(FnafModModBlocks.ALTERNATE_WHITE_BLACK_STRIPE_WALL_TILE, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> WHITE_BLACK_STRIPE_WALL_TILE = block(FnafModModBlocks.WHITE_BLACK_STRIPE_WALL_TILE, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> STAGE_BLACK_STRIPE_TILES = block(FnafModModBlocks.STAGE_BLACK_STRIPE_TILES, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> ALTERNATE_STAGE_BLACK_STRIPE_TILES = block(FnafModModBlocks.ALTERNATE_STAGE_BLACK_STRIPE_TILES, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> BIG_BLACK_STRIPE_DARK_WALL_TILE = block(FnafModModBlocks.BIG_BLACK_STRIPE_DARK_WALL_TILE, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> ALTERNATE_BIG_BLACK_STRIPE_DARK_WALL_TILE = block(FnafModModBlocks.ALTERNATE_BIG_BLACK_STRIPE_DARK_WALL_TILE, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> BIG_WHITE_BLACK_STRIPED_WALL_TILE = block(FnafModModBlocks.BIG_WHITE_BLACK_STRIPED_WALL_TILE, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> ALTERNATE_BIG_WHITE_BLACK_STRIPED_WALL_TILES = block(FnafModModBlocks.ALTERNATE_BIG_WHITE_BLACK_STRIPED_WALL_TILES, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> BIG_BLACK_STRIPED_STAGE_BRICK_TILES = block(FnafModModBlocks.BIG_BLACK_STRIPED_STAGE_BRICK_TILES, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> ALTERNATE_BIG_BLACK_STRIPED_STAGE_BRICK_TILES = block(FnafModModBlocks.ALTERNATE_BIG_BLACK_STRIPED_STAGE_BRICK_TILES, FnafModModTabs.TAB_FNAF_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
