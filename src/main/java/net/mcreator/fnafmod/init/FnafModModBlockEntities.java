@@ -16,7 +16,6 @@ import net.mcreator.fnafmod.block.entity.VendingBottomBlockEntity;
 import net.mcreator.fnafmod.block.entity.RemantInfuserBlockEntity;
 import net.mcreator.fnafmod.block.entity.LocketBottomBlockEntity;
 import net.mcreator.fnafmod.block.entity.LockerTopBlockEntity;
-import net.mcreator.fnafmod.block.entity.FlashLightLightBlockEntity;
 import net.mcreator.fnafmod.block.entity.DeskBlockEntity;
 import net.mcreator.fnafmod.block.entity.Desk3BlockEntity;
 import net.mcreator.fnafmod.block.entity.Desk2BlockEntity;
@@ -30,7 +29,6 @@ public class FnafModModBlockEntities {
 	public static final RegistryObject<BlockEntityType<?>> LOCKET_BOTTOM = register("locket_bottom", FnafModModBlocks.LOCKET_BOTTOM, LocketBottomBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> REMNANT_INFUSER = register("remnant_infuser", FnafModModBlocks.REMNANT_INFUSER, RemantInfuserBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> LOCKER_TOP = register("locker_top", FnafModModBlocks.LOCKER_TOP, LockerTopBlockEntity::new);
-	public static final RegistryObject<BlockEntityType<?>> FLASH_LIGHT_LIGHT = register("flash_light_light", FnafModModBlocks.FLASH_LIGHT_LIGHT, FlashLightLightBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> VENDING_BOTTOM = register("vending_bottom", FnafModModBlocks.VENDING_BOTTOM, VendingBottomBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> VENDING_TOP = register("vending_top", FnafModModBlocks.VENDING_TOP, VendingTopBlockEntity::new);
 
