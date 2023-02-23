@@ -4,5 +4,6 @@
     "all": "fnaf_mod:blocks/golden_freddy_plush",
     "particle": "fnaf_mod:blocks/golden_freddy_plush",
     "2": "fnaf_mod:blocks/golden_freddy_plush"
-  }
+  },
+  "render_type": "cutout"
 }

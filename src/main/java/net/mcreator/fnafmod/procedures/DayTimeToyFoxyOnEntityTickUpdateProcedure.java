@@ -19,12 +19,9 @@ public class DayTimeToyFoxyOnEntityTickUpdateProcedure {
 		if (!(world instanceof Level _lvl && _lvl.isDay())) {
 			{
 				Entity _ent = entity;
-				_ent.teleportTo((entity.getPersistentData().getDouble("spawnX")), (entity.getPersistentData().getDouble("spawnY")),
-						(entity.getPersistentData().getDouble("spawnZ")));
+				_ent.teleportTo((entity.getPersistentData().getDouble("spawnX")), (entity.getPersistentData().getDouble("spawnY")), (entity.getPersistentData().getDouble("spawnZ")));
 				if (_ent instanceof ServerPlayer _serverPlayer)
-					_serverPlayer.connection.teleport((entity.getPersistentData().getDouble("spawnX")),
-							(entity.getPersistentData().getDouble("spawnY")), (entity.getPersistentData().getDouble("spawnZ")), _ent.getYRot(),
-							_ent.getXRot());
+					_serverPlayer.connection.teleport((entity.getPersistentData().getDouble("spawnX")), (entity.getPersistentData().getDouble("spawnY")), (entity.getPersistentData().getDouble("spawnZ")), _ent.getYRot(), _ent.getXRot());
 			}
 			if (entity.getPersistentData().getDouble("FNAFTimer") == 0) {
 				if (entity instanceof DayTimeToyFoxyEntity) {
@@ -34,8 +31,7 @@ public class DayTimeToyFoxyOnEntityTickUpdateProcedure {
 						Entity entityToSpawn = new ToyFoxyEntity(FnafModModEntities.TOY_FOXY.get(), _level);
 						entityToSpawn.moveTo(x, y, z, world.getRandom().nextFloat() * 360F, 0);
 						if (entityToSpawn instanceof Mob _mobToSpawn)
-							_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED,
-									null, null);
+							_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 						world.addFreshEntity(entityToSpawn);
 					}
 				}

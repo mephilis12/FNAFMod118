@@ -8,5 +8,6 @@
     "south": "fnaf_mod:blocks/blue_green_tiles",
     "west": "fnaf_mod:blocks/blue_green_tiles",
     "particle": "fnaf_mod:blocks/blue_green_tiles"
-  }
+  },
+  "render_type": "solid"
 }

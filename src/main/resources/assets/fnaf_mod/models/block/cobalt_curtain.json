@@ -8,5 +8,6 @@
     "south": "fnaf_mod:blocks/cobalt_curtain",
     "west": "fnaf_mod:blocks/cobalt_curtain",
     "particle": "fnaf_mod:blocks/cobalt_curtain"
-  }
+  },
+  "render_type": "solid"
 }

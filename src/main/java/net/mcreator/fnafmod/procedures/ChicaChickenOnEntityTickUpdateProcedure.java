@@ -9,7 +9,7 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.level.ServerLevel;
 
 import net.mcreator.fnafmod.init.FnafModModEntities;
-import net.mcreator.fnafmod.entity.DayTimeChicaEntity;
+import net.mcreator.fnafmod.entity.DaytimeChicaEntity;
 import net.mcreator.fnafmod.entity.ChicaChickenEntity;
 
 public class ChicaChickenOnEntityTickUpdateProcedure {
@@ -19,23 +19,19 @@ public class ChicaChickenOnEntityTickUpdateProcedure {
 		if (world instanceof Level _lvl && _lvl.isDay()) {
 			{
 				Entity _ent = entity;
-				_ent.teleportTo((entity.getPersistentData().getDouble("spawnX")), (entity.getPersistentData().getDouble("spawnY")),
-						(entity.getPersistentData().getDouble("spawnZ")));
+				_ent.teleportTo((entity.getPersistentData().getDouble("spawnX")), (entity.getPersistentData().getDouble("spawnY")), (entity.getPersistentData().getDouble("spawnZ")));
 				if (_ent instanceof ServerPlayer _serverPlayer)
-					_serverPlayer.connection.teleport((entity.getPersistentData().getDouble("spawnX")),
-							(entity.getPersistentData().getDouble("spawnY")), (entity.getPersistentData().getDouble("spawnZ")), _ent.getYRot(),
-							_ent.getXRot());
+					_serverPlayer.connection.teleport((entity.getPersistentData().getDouble("spawnX")), (entity.getPersistentData().getDouble("spawnY")), (entity.getPersistentData().getDouble("spawnZ")), _ent.getYRot(), _ent.getXRot());
 			}
 			if (entity.getPersistentData().getDouble("FNAFTimer") == 0) {
 				if (entity instanceof ChicaChickenEntity) {
 					if (!entity.level.isClientSide())
 						entity.discard();
 					if (world instanceof ServerLevel _level) {
-						Entity entityToSpawn = new DayTimeChicaEntity(FnafModModEntities.DAY_TIME_CHICA.get(), _level);
+						Entity entityToSpawn = new DaytimeChicaEntity(FnafModModEntities.DAYTIME_CHICA.get(), _level);
 						entityToSpawn.moveTo(x, y, z, world.getRandom().nextFloat() * 360F, 0);
 						if (entityToSpawn instanceof Mob _mobToSpawn)
-							_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED,
-									null, null);
+							_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 						world.addFreshEntity(entityToSpawn);
 					}
 				}

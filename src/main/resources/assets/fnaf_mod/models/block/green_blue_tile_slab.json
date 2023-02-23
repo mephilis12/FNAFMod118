@@ -5,5 +5,6 @@
     "bottom": "fnaf_mod:blocks/blue_green_tiles",
     "top": "fnaf_mod:blocks/blue_green_tiles",
     "side": "fnaf_mod:blocks/blue_green_tiles"
-  }
+  },
+  "render_type": "solid"
 }

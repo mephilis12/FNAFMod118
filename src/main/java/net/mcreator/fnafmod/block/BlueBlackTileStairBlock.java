@@ -19,8 +19,7 @@ import java.util.Collections;
 
 public class BlueBlackTileStairBlock extends StairBlock {
 	public BlueBlackTileStairBlock() {
-		super(() -> Blocks.AIR.defaultBlockState(),
-				BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(1.5f, 10f).requiresCorrectToolForDrops().dynamicShape());
+		super(() -> Blocks.AIR.defaultBlockState(), BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(1.5f, 10f).requiresCorrectToolForDrops().dynamicShape());
 	}
 
 	@Override
@@ -29,7 +28,7 @@ public class BlueBlackTileStairBlock extends StairBlock {
 	}
 
 	@Override
-	public boolean isRandomlyTicking(BlockState p_56947_) {
+	public boolean isRandomlyTicking(BlockState state) {
 		return false;
 	}
 

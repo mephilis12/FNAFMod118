@@ -4,5 +4,6 @@
     "all": "fnaf_mod:blocks/foxyposter",
     "particle": "fnaf_mod:blocks/foxyposter",
     "0": "fnaf_mod:blocks/foxyposter"
-  }
+  },
+  "render_type": "solid"
 }

@@ -5,7 +5,6 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.components.Button;
@@ -72,16 +71,16 @@ public class WallChange2Screen extends AbstractContainerScreen<WallChange2Menu> 
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		this.font.draw(poseStack, "Type A:", 6, 35, -12829636);
-		this.font.draw(poseStack, "One Room Face Rest Hall Faces", 15, 44, -12829636);
-		this.font.draw(poseStack, "Type B:", 6, 62, -12829636);
-		this.font.draw(poseStack, "One Hall Face Rest Room Faces", 15, 71, -12829636);
-		this.font.draw(poseStack, "Type C:", 6, 89, -12829636);
-		this.font.draw(poseStack, "Two Room and Hall Faces ", 15, 98, -12829636);
-		this.font.draw(poseStack, " Opposing Each Other", 24, 107, -12829636);
-		this.font.draw(poseStack, "Type D:", 6, 125, -12829636);
-		this.font.draw(poseStack, "Two Room and Hall Faces ", 15, 134, -12829636);
-		this.font.draw(poseStack, "Forming a Corner", 24, 143, -12829636);
+		this.font.draw(poseStack, Component.translatable("gui.fnaf_mod.wall_change_2.label_type_a"), 6, 35, -12829636);
+		this.font.draw(poseStack, Component.translatable("gui.fnaf_mod.wall_change_2.label_one_room_face_rest_hall_faces"), 15, 44, -12829636);
+		this.font.draw(poseStack, Component.translatable("gui.fnaf_mod.wall_change_2.label_type_b"), 6, 62, -12829636);
+		this.font.draw(poseStack, Component.translatable("gui.fnaf_mod.wall_change_2.label_one_hall_face_rest_room_faces"), 15, 71, -12829636);
+		this.font.draw(poseStack, Component.translatable("gui.fnaf_mod.wall_change_2.label_type_c"), 6, 89, -12829636);
+		this.font.draw(poseStack, Component.translatable("gui.fnaf_mod.wall_change_2.label_two_room_and_hall_faces"), 15, 98, -12829636);
+		this.font.draw(poseStack, Component.translatable("gui.fnaf_mod.wall_change_2.label_opposing_each_other"), 24, 107, -12829636);
+		this.font.draw(poseStack, Component.translatable("gui.fnaf_mod.wall_change_2.label_type_d"), 6, 125, -12829636);
+		this.font.draw(poseStack, Component.translatable("gui.fnaf_mod.wall_change_2.label_two_room_and_hall_faces1"), 15, 134, -12829636);
+		this.font.draw(poseStack, Component.translatable("gui.fnaf_mod.wall_change_2.label_forming_a_corner"), 24, 143, -12829636);
 	}
 
 	@Override
@@ -94,25 +93,25 @@ public class WallChange2Screen extends AbstractContainerScreen<WallChange2Menu> 
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
-		this.addRenderableWidget(new Button(this.leftPos + 15, this.topPos + 8, 30, 20, new TextComponent("A"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 15, this.topPos + 8, 30, 20, Component.translatable("gui.fnaf_mod.wall_change_2.button_a"), e -> {
 			if (true) {
 				FnafModMod.PACKET_HANDLER.sendToServer(new WallChange2ButtonMessage(0, x, y, z));
 				WallChange2ButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
 		}));
-		this.addRenderableWidget(new Button(this.leftPos + 51, this.topPos + 8, 30, 20, new TextComponent("B"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 51, this.topPos + 8, 30, 20, Component.translatable("gui.fnaf_mod.wall_change_2.button_b"), e -> {
 			if (true) {
 				FnafModMod.PACKET_HANDLER.sendToServer(new WallChange2ButtonMessage(1, x, y, z));
 				WallChange2ButtonMessage.handleButtonAction(entity, 1, x, y, z);
 			}
 		}));
-		this.addRenderableWidget(new Button(this.leftPos + 96, this.topPos + 8, 30, 20, new TextComponent("C"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 96, this.topPos + 8, 30, 20, Component.translatable("gui.fnaf_mod.wall_change_2.button_c"), e -> {
 			if (true) {
 				FnafModMod.PACKET_HANDLER.sendToServer(new WallChange2ButtonMessage(2, x, y, z));
 				WallChange2ButtonMessage.handleButtonAction(entity, 2, x, y, z);
 			}
 		}));
-		this.addRenderableWidget(new Button(this.leftPos + 132, this.topPos + 8, 30, 20, new TextComponent("D"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 132, this.topPos + 8, 30, 20, Component.translatable("gui.fnaf_mod.wall_change_2.button_d"), e -> {
 			if (true) {
 				FnafModMod.PACKET_HANDLER.sendToServer(new WallChange2ButtonMessage(3, x, y, z));
 				WallChange2ButtonMessage.handleButtonAction(entity, 3, x, y, z);

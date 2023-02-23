@@ -68,8 +68,7 @@ public class GlitchBonnieCutOutEntity extends PathfinderMob {
 					GlitchBonnieCutOutEntity.this.yBodyRot = GlitchBonnieCutOutEntity.this.getYRot();
 					GlitchBonnieCutOutEntity.this.yHeadRot = GlitchBonnieCutOutEntity.this.getYRot();
 					if (GlitchBonnieCutOutEntity.this.isInWater()) {
-						GlitchBonnieCutOutEntity.this
-								.setSpeed((float) GlitchBonnieCutOutEntity.this.getAttribute(Attributes.MOVEMENT_SPEED).getValue());
+						GlitchBonnieCutOutEntity.this.setSpeed((float) GlitchBonnieCutOutEntity.this.getAttribute(Attributes.MOVEMENT_SPEED).getValue());
 						float f2 = -(float) (Mth.atan2(dy, (float) Math.sqrt(dx * dx + dz * dz)) * (180 / Math.PI));
 						f2 = Mth.clamp(Mth.wrapDegrees(f2), -85, 85);
 						GlitchBonnieCutOutEntity.this.setXRot(this.rotlerp(GlitchBonnieCutOutEntity.this.getXRot(), f2, 5));
@@ -124,8 +123,7 @@ public class GlitchBonnieCutOutEntity extends PathfinderMob {
 	}
 
 	@Override
-	public SpawnGroupData finalizeSpawn(ServerLevelAccessor world, DifficultyInstance difficulty, MobSpawnType reason,
-			@Nullable SpawnGroupData livingdata, @Nullable CompoundTag tag) {
+	public SpawnGroupData finalizeSpawn(ServerLevelAccessor world, DifficultyInstance difficulty, MobSpawnType reason, @Nullable SpawnGroupData livingdata, @Nullable CompoundTag tag) {
 		SpawnGroupData retval = super.finalizeSpawn(world, difficulty, reason, livingdata, tag);
 		StatueSpawnProcedure.execute(this);
 		return retval;

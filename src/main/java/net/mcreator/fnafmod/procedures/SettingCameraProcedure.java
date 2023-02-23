@@ -11,7 +11,6 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.MenuProvider;
 import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
@@ -27,55 +26,44 @@ public class SettingCameraProcedure {
 			return;
 		double count = 0;
 		if (sourceentity instanceof Player _player && !_player.level.isClientSide())
-			_player.displayClientMessage(new TextComponent("source"), (true));
+			_player.displayClientMessage(Component.literal("source"), (true));
 		if (entity instanceof Player _player && !_player.level.isClientSide())
-			_player.displayClientMessage(new TextComponent("entity"), (true));
-		if ((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == FnafModModItems.CAMERA_MONITOR
-				.get()) {
+			_player.displayClientMessage(Component.literal("entity"), (true));
+		if ((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == FnafModModItems.CAMERA_MONITOR.get()) {
 			if (sourceentity.isShiftKeyDown()) {
 				if (sourceentity instanceof Player _player && !_player.level.isClientSide())
-					_player.displayClientMessage(new TextComponent(("unlinked port: " + entity.getPersistentData().getDouble("port"))), (true));
-				(sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag()
-						.putDouble(("x" + entity.getPersistentData().getDouble("port")), 0);
-				(sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag()
-						.putDouble(("y" + entity.getPersistentData().getDouble("port")), 0);
-				(sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag()
-						.putDouble(("z" + entity.getPersistentData().getDouble("port")), 0);
-				(sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag()
-						.putBoolean(("" + entity.getPersistentData().getDouble("port")), (false));
+					_player.displayClientMessage(Component.literal(("unlinked port: " + entity.getPersistentData().getDouble("port"))), (true));
+				(sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().putDouble(("x" + entity.getPersistentData().getDouble("port")), 0);
+				(sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().putDouble(("y" + entity.getPersistentData().getDouble("port")), 0);
+				(sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().putDouble(("z" + entity.getPersistentData().getDouble("port")), 0);
+				(sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().putBoolean(("" + entity.getPersistentData().getDouble("port")), (false));
 				entity.getPersistentData().putDouble("port", 0);
 				entity.getPersistentData().putBoolean("set", (false));
 			} else if (entity.getPersistentData().getBoolean("set") == false) {
 				count = 1;
-				while ((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag()
-						.getBoolean(("" + count)) == true) {
+				while ((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getBoolean(("" + count)) == true) {
 					count = count + 1;
 				}
-				if ((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag()
-						.getBoolean(("" + count)) == false) {
+				if ((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getBoolean(("" + count)) == false) {
 					if (sourceentity instanceof Player _player && !_player.level.isClientSide())
-						_player.displayClientMessage(new TextComponent(("linked to port: " + count)), (true));
-					(sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag()
-							.putDouble(("x" + count), x);
-					(sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag()
-							.putDouble(("y" + count), y);
-					(sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag()
-							.putDouble(("z" + count), z);
-					(sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag()
-							.putBoolean(("" + count), (true));
+						_player.displayClientMessage(Component.literal(("linked to port: " + count)), (true));
+					(sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().putDouble(("x" + count), x);
+					(sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().putDouble(("y" + count), y);
+					(sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().putDouble(("z" + count), z);
+					(sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().putBoolean(("" + count), (true));
 					entity.getPersistentData().putDouble("port", count);
 					entity.getPersistentData().putBoolean("set", (true));
 				}
 			} else {
 				if (sourceentity instanceof Player _player && !_player.level.isClientSide())
-					_player.displayClientMessage(new TextComponent("opening GUI"), (true));
+					_player.displayClientMessage(Component.literal("opening GUI"), (true));
 				{
 					if (sourceentity instanceof ServerPlayer _ent) {
 						BlockPos _bpos = new BlockPos(x, y, z);
-						NetworkHooks.openGui((ServerPlayer) _ent, new MenuProvider() {
+						NetworkHooks.openScreen((ServerPlayer) _ent, new MenuProvider() {
 							@Override
 							public Component getDisplayName() {
-								return new TextComponent("CameraGUI");
+								return Component.literal("CameraGUI");
 							}
 
 							@Override

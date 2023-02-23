@@ -4,5 +4,6 @@
     "all": "fnaf_mod:blocks/attention_sign",
     "particle": "fnaf_mod:blocks/attention_sign",
     "0": "fnaf_mod:blocks/attention_sign"
-  }
+  },
+  "render_type": "translucent"
 }

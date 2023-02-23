@@ -3,5 +3,6 @@
   "textures": {
     "edge": "fnaf_mod:blocks/corn_curtain",
     "pane": "fnaf_mod:blocks/corn_curtain"
-  }
+  },
+  "render_type": "cutout"
 }

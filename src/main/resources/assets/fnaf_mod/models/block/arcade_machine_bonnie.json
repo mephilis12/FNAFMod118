@@ -4,5 +4,6 @@
     "all": "fnaf_mod:blocks/arcade_machine",
     "particle": "fnaf_mod:blocks/arcade_machine",
     "0": "fnaf_mod:blocks/arcade_machine"
-  }
+  },
+  "render_type": "cutout"
 }

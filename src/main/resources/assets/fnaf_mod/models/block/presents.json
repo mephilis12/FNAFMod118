@@ -4,5 +4,6 @@
     "all": "fnaf_mod:blocks/posters1",
     "particle": "fnaf_mod:blocks/posters1",
     "6": "fnaf_mod:blocks/presents"
-  }
+  },
+  "render_type": "cutout"
 }

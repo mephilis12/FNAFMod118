@@ -1,0 +1,71 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.lidded_trash_can.open": {
+			"animation_length": 0.5,
+			"bones": {
+				"lid": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [-22.19157, 3.81024, 9.25249],
+							"easing": "easeInElastic"
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [0, 4, 2],
+							"easing": "easeInElastic"
+						}
+					}
+				}
+			}
+		},
+		"animation.lidded_trash_can.close2": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.5,
+			"bones": {
+				"lid": {
+					"rotation": {
+						"0.0": {
+							"vector": [-22.19157, 3.81024, 9.25249],
+							"easing": "easeInElastic"
+						},
+						"0.2083": {
+							"vector": [4.97864, 0.32621, -7.49294],
+							"easing": "easeOutElastic",
+							"easingArgs": [1]
+						},
+						"0.4583": {
+							"vector": [0, 0, 0],
+							"easing": "easeInElastic",
+							"easingArgs": [1]
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 4, 2],
+							"easing": "easeInElastic"
+						},
+						"0.25": {
+							"vector": [0, 0.6, 0],
+							"easing": "easeInElastic",
+							"easingArgs": [0.1]
+						},
+						"0.375": {
+							"vector": [0, 0, 0],
+							"easing": "easeInElastic",
+							"easingArgs": [0.1]
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

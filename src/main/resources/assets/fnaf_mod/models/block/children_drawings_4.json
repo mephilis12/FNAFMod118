@@ -4,5 +4,6 @@
     "all": "fnaf_mod:blocks/fnaf3drawings",
     "particle": "fnaf_mod:blocks/fnaf3drawings",
     "6": "fnaf_mod:blocks/fnaf3drawings"
-  }
+  },
+  "render_type": "solid"
 }

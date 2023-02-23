@@ -17,10 +17,7 @@ public class MobAttackProcedure {
 			return true;
 		}
 		if (!((entity instanceof Mob _mobEnt ? (Entity) _mobEnt.getTarget() : null) == (null))) {
-			if (FnafModModItems.FREDDY_MASK_HELMET
-					.get() == ((entity instanceof Mob _mobEnt ? (Entity) _mobEnt.getTarget() : null) instanceof LivingEntity _entGetArmor
-							? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD)
-							: ItemStack.EMPTY).getItem()) {
+			if (FnafModModItems.FREDDY_MASK_HELMET.get() == ((entity instanceof Mob _mobEnt ? (Entity) _mobEnt.getTarget() : null) instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).getItem()) {
 				return false;
 			}
 		}

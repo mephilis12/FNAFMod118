@@ -6,16 +6,15 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.util.RandomSource;
 import net.minecraft.util.Mth;
-
-import java.util.Random;
 
 public class NightmareFreddyOnEntityTickUpdateProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {
 		if (entity == null)
 			return;
 		double rand = 0;
-		rand = Mth.nextInt(new Random(), 1, 300);
+		rand = Mth.nextInt(RandomSource.create(), 1, 300);
 		if (world instanceof Level _lvl && _lvl.isDay()) {
 			if (!entity.level.isClientSide())
 				entity.discard();

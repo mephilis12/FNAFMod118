@@ -1,20 +1,31 @@
 
 package net.mcreator.fnafmod.client.renderer;
 
+import software.bernie.geckolib3.renderers.geo.GeoEntityRenderer;
+
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.MultiBufferSource;
 
+import net.mcreator.fnafmod.entity.model.WitheredBonnieModel;
 import net.mcreator.fnafmod.entity.WitheredBonnieEntity;
-import net.mcreator.fnafmod.client.model.ModelWithered_Bonnie;
 
-public class WitheredBonnieRenderer extends MobRenderer<WitheredBonnieEntity, ModelWithered_Bonnie<WitheredBonnieEntity>> {
-	public WitheredBonnieRenderer(EntityRendererProvider.Context context) {
-		super(context, new ModelWithered_Bonnie(context.bakeLayer(ModelWithered_Bonnie.LAYER_LOCATION)), 0.5f);
+import com.mojang.blaze3d.vertex.VertexConsumer;
+import com.mojang.blaze3d.vertex.PoseStack;
+
+public class WitheredBonnieRenderer extends GeoEntityRenderer<WitheredBonnieEntity> {
+	public WitheredBonnieRenderer(EntityRendererProvider.Context renderManager) {
+		super(renderManager, new WitheredBonnieModel());
+		this.shadowRadius = 0.5f;
 	}
 
 	@Override
-	public ResourceLocation getTextureLocation(WitheredBonnieEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/entities/witheredbonnietexture.png");
+	public RenderType getRenderType(WitheredBonnieEntity animatable, float partialTicks, PoseStack stack, MultiBufferSource renderTypeBuffer, VertexConsumer vertexBuilder, int packedLightIn, ResourceLocation textureLocation) {
+		if (!animatable.isBaby())
+			stack.scale(1.0F, 1.0F, 1.0F);
+		else
+			stack.scale(0.5F, 0.5F, 0.5F);
+		return RenderType.entityTranslucent(getTextureLocation(animatable));
 	}
 }

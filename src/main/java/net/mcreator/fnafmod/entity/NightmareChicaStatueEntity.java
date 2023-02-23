@@ -68,8 +68,7 @@ public class NightmareChicaStatueEntity extends PathfinderMob {
 					NightmareChicaStatueEntity.this.yBodyRot = NightmareChicaStatueEntity.this.getYRot();
 					NightmareChicaStatueEntity.this.yHeadRot = NightmareChicaStatueEntity.this.getYRot();
 					if (NightmareChicaStatueEntity.this.isInWater()) {
-						NightmareChicaStatueEntity.this
-								.setSpeed((float) NightmareChicaStatueEntity.this.getAttribute(Attributes.MOVEMENT_SPEED).getValue());
+						NightmareChicaStatueEntity.this.setSpeed((float) NightmareChicaStatueEntity.this.getAttribute(Attributes.MOVEMENT_SPEED).getValue());
 						float f2 = -(float) (Mth.atan2(dy, (float) Math.sqrt(dx * dx + dz * dz)) * (180 / Math.PI));
 						f2 = Mth.clamp(Mth.wrapDegrees(f2), -85, 85);
 						NightmareChicaStatueEntity.this.setXRot(this.rotlerp(NightmareChicaStatueEntity.this.getXRot(), f2, 5));
@@ -124,8 +123,7 @@ public class NightmareChicaStatueEntity extends PathfinderMob {
 	}
 
 	@Override
-	public SpawnGroupData finalizeSpawn(ServerLevelAccessor world, DifficultyInstance difficulty, MobSpawnType reason,
-			@Nullable SpawnGroupData livingdata, @Nullable CompoundTag tag) {
+	public SpawnGroupData finalizeSpawn(ServerLevelAccessor world, DifficultyInstance difficulty, MobSpawnType reason, @Nullable SpawnGroupData livingdata, @Nullable CompoundTag tag) {
 		SpawnGroupData retval = super.finalizeSpawn(world, difficulty, reason, livingdata, tag);
 		StatueSpawnProcedure.execute(this);
 		return retval;

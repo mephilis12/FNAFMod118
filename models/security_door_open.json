@@ -1,52 +1,22 @@
 {
 	"credit": "Made with Blockbench",
-	"texture_size": [32, 32],
+	"texture_size": [16, 32],
 	"textures": {
-		"1": "security_door"
+		"0": "Security Door",
+		"particle": "Security Door"
 	},
 	"elements": [
 		{
-			"name": "door",
-			"from": [0, 30, 7],
+			"from": [0, 29, 7],
 			"to": [16, 32, 9],
-			"rotation": {"angle": 0, "axis": "y", "origin": [8, 39, 15]},
 			"faces": {
-				"north": {"uv": [0, 15, 8, 16], "texture": "#1"},
-				"east": {"uv": [0.5, 15, 1.5, 16], "texture": "#1"},
-				"south": {"uv": [0, 15, 8, 16], "texture": "#1"},
-				"west": {"uv": [0, 15, 1, 16], "texture": "#1"},
-				"up": {"uv": [15.5, 0, 16, 0.5], "texture": "#1"},
-				"down": {"uv": [0, 15, 8, 16], "texture": "#1"}
+				"north": {"uv": [0, 14.5, 16, 16], "texture": "#0"},
+				"east": {"uv": [14, 14.5, 16, 16], "texture": "#0"},
+				"south": {"uv": [0, 14.5, 16, 16], "texture": "#0"},
+				"west": {"uv": [14, 14.5, 16, 16], "texture": "#0"},
+				"up": {"uv": [0, 15, 16, 16], "texture": "#0"},
+				"down": {"uv": [0, 15, 16, 16], "texture": "#0"}
 			}
 		}
-	],
-	"display": {
-		"thirdperson_righthand": {
-			"translation": [0, -0.25, 0.75],
-			"scale": [0.2, 0.2, 0.2]
-		},
-		"thirdperson_lefthand": {
-			"translation": [0, -0.25, 0.75],
-			"scale": [0.2, 0.2, 0.2]
-		},
-		"firstperson_righthand": {
-			"translation": [3.5, -0.25, 0.75],
-			"scale": [0.2, 0.2, 0.2]
-		},
-		"firstperson_lefthand": {
-			"translation": [3.5, -0.25, 0.75],
-			"scale": [0.2, 0.2, 0.2]
-		},
-		"ground": {
-			"scale": [0.2, 0.2, 0.2]
-		},
-		"gui": {
-			"translation": [0, -3, 0],
-			"scale": [0.4, 0.4, 0.4]
-		},
-		"fixed": {
-			"translation": [0, -3.25, 0],
-			"scale": [0.4, 0.4, 0.4]
-		}
-	}
+	]
 }

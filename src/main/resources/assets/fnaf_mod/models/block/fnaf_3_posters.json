@@ -4,5 +4,6 @@
     "all": "fnaf_mod:blocks/bonniechica",
     "particle": "fnaf_mod:blocks/bonniechica",
     "0": "fnaf_mod:blocks/bonniechica"
-  }
+  },
+  "render_type": "solid"
 }

@@ -8,5 +8,6 @@
     "south": "fnaf_mod:blocks/other_red_tile",
     "west": "fnaf_mod:blocks/other_red_tile",
     "particle": "fnaf_mod:blocks/other_red_tile"
-  }
+  },
+  "render_type": "solid"
 }

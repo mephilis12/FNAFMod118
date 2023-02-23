@@ -8,5 +8,6 @@
     "south": "fnaf_mod:blocks/stage_bricks_alt",
     "west": "fnaf_mod:blocks/stage_bricks_alt",
     "particle": "fnaf_mod:blocks/stage_bricks_alt"
-  }
+  },
+  "render_type": "solid"
 }

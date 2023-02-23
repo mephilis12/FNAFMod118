@@ -4,5 +4,6 @@
     "all": "fnaf_mod:blocks/toy_freddy_poster",
     "particle": "fnaf_mod:blocks/toy_freddy_poster",
     "0": "fnaf_mod:blocks/toy_freddy_poster"
-  }
+  },
+  "render_type": "solid"
 }

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "particle": "diner_chair_p"
+      },
+      "name": "default"
+    }
+  }
+}

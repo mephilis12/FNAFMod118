@@ -3,5 +3,6 @@
   "textures": {
     "texture": "fnaf_mod:blocks/vent",
     "particle": "fnaf_mod:blocks/vent"
-  }
+  },
+  "render_type": "solid"
 }

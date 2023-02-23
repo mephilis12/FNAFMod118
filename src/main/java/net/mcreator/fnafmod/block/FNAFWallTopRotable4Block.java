@@ -85,7 +85,6 @@ public class FNAFWallTopRotable4Block extends Block {
 		double hitY = hit.getLocation().y;
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
-
 		Wall2Procedure.execute(world, x, y, z, entity);
 		return InteractionResult.SUCCESS;
 	}

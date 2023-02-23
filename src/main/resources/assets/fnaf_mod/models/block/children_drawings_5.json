@@ -4,5 +4,6 @@
     "all": "fnaf_mod:blocks/goldencupcakedrawing",
     "particle": "fnaf_mod:blocks/goldencupcakedrawing",
     "2": "fnaf_mod:blocks/goldencupcakedrawing"
-  }
+  },
+  "render_type": "solid"
 }

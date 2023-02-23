@@ -68,8 +68,8 @@ public class LockerScreen extends AbstractContainerScreen<LockerMenu> {
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		this.font.draw(poseStack, "Locker", 72, 6, -12829636);
-		this.font.draw(poseStack, "Inventory", 3, 71, -12829636);
+		this.font.draw(poseStack, Component.translatable("gui.fnaf_mod.locker.label_locker"), 72, 6, -12829636);
+		this.font.draw(poseStack, Component.translatable("gui.fnaf_mod.locker.label_inventory"), 3, 71, -12829636);
 	}
 
 	@Override

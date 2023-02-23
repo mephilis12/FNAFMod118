@@ -4,5 +4,6 @@
     "all": "fnaf_mod:blocks/pizza_wall",
     "particle": "fnaf_mod:blocks/pizza_wall",
     "0": "fnaf_mod:blocks/pizza_wall"
-  }
+  },
+  "render_type": "solid"
 }

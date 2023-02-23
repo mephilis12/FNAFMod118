@@ -19,7 +19,7 @@ import net.mcreator.fnafmod.procedures.StructureSpawningBlock8UpdateTickProcedur
 
 public class StructureSpawningBlock8Block extends FallingBlock {
 	public StructureSpawningBlock8Block() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(-1, 3600000).noDrops());
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(-1, 3600000).noLootTable());
 	}
 
 	@Override
@@ -43,7 +43,6 @@ public class StructureSpawningBlock8Block extends FallingBlock {
 		double hitY = hit.getLocation().y;
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
-
 		StructureSpawningBlock8UpdateTickProcedure.execute(world, x, y, z);
 		return InteractionResult.SUCCESS;
 	}

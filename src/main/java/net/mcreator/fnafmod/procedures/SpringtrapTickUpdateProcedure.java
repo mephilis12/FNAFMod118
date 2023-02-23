@@ -5,6 +5,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.MobSpawnType;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.util.RandomSource;
 import net.minecraft.util.Mth;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.BlockPos;
@@ -23,7 +24,7 @@ public class SpringtrapTickUpdateProcedure {
 		if (entity == null)
 			return;
 		double Random = 0;
-		Random = Mth.nextInt(new Random(), 1, 5);
+		Random = Mth.nextInt(RandomSource.create(), 1, 5);
 		if (world instanceof Level _lvl && _lvl.isDay()) {
 			if (Random == 5) {
 				if (entity instanceof SpringtrapEntity) {
@@ -33,8 +34,7 @@ public class SpringtrapTickUpdateProcedure {
 						Entity entityToSpawn = new StandingDaytimeSpringtrapEntity(FnafModModEntities.STANDING_DAYTIME_SPRINGTRAP.get(), _level);
 						entityToSpawn.moveTo(x, y, z, world.getRandom().nextFloat() * 360F, 0);
 						if (entityToSpawn instanceof Mob _mobToSpawn)
-							_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED,
-									null, null);
+							_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 						world.addFreshEntity(entityToSpawn);
 					}
 				}
@@ -46,8 +46,7 @@ public class SpringtrapTickUpdateProcedure {
 						Entity entityToSpawn = new SittingDaytimeSpringtrapEntity(FnafModModEntities.SITTING_DAYTIME_SPRINGTRAP.get(), _level);
 						entityToSpawn.moveTo(x, y, z, world.getRandom().nextFloat() * 360F, 0);
 						if (entityToSpawn instanceof Mob _mobToSpawn)
-							_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED,
-									null, null);
+							_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 						world.addFreshEntity(entityToSpawn);
 					}
 				}
@@ -60,8 +59,7 @@ public class SpringtrapTickUpdateProcedure {
 				Entity entityToSpawn = new CrawlingSpringtrapEntity(FnafModModEntities.CRAWLING_SPRINGTRAP.get(), _level);
 				entityToSpawn.moveTo(x, y, z, world.getRandom().nextFloat() * 360F, 0);
 				if (entityToSpawn instanceof Mob _mobToSpawn)
-					_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null,
-							null);
+					_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 				world.addFreshEntity(entityToSpawn);
 			}
 		}

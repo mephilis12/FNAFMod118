@@ -4,5 +4,6 @@
     "all": "fnaf_mod:blocks/light_button_active",
     "particle": "fnaf_mod:blocks/light_button_active",
     "1": "fnaf_mod:blocks/light_button_active"
-  }
+  },
+  "render_type": "solid"
 }

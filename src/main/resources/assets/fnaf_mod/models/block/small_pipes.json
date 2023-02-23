@@ -4,5 +4,6 @@
     "all": "fnaf_mod:blocks/pipes",
     "particle": "fnaf_mod:blocks/pipes",
     "0": "fnaf_mod:blocks/pipes"
-  }
+  },
+  "render_type": "cutout"
 }

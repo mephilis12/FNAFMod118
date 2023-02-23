@@ -8,5 +8,6 @@
     "south": "fnaf_mod:blocks/corn_curtain",
     "west": "fnaf_mod:blocks/corn_curtain",
     "particle": "fnaf_mod:blocks/corn_curtain"
-  }
+  },
+  "render_type": "solid"
 }

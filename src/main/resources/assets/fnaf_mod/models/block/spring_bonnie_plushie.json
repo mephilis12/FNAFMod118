@@ -4,5 +4,6 @@
     "all": "fnaf_mod:blocks/spring_bonnie_plush",
     "particle": "fnaf_mod:blocks/spring_bonnie_plush",
     "2": "fnaf_mod:blocks/spring_bonnie_plush"
-  }
+  },
+  "render_type": "cutout"
 }

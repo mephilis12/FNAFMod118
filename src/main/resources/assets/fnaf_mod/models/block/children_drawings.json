@@ -4,5 +4,6 @@
     "all": "fnaf_mod:blocks/posters1",
     "particle": "fnaf_mod:blocks/posters1",
     "1": "fnaf_mod:blocks/posters1"
-  }
+  },
+  "render_type": "solid"
 }

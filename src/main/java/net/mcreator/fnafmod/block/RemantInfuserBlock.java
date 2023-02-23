@@ -23,7 +23,6 @@ import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.Containers;
 import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
@@ -36,10 +35,7 @@ import java.util.Collections;
 
 import io.netty.buffer.Unpooled;
 
-public class RemantInfuserBlock extends Block
-		implements
-
-			EntityBlock {
+public class RemantInfuserBlock extends Block implements EntityBlock {
 	public RemantInfuserBlock() {
 		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(2f, 10f));
 	}
@@ -61,10 +57,10 @@ public class RemantInfuserBlock extends Block
 	public InteractionResult use(BlockState blockstate, Level world, BlockPos pos, Player entity, InteractionHand hand, BlockHitResult hit) {
 		super.use(blockstate, world, pos, entity, hand, hit);
 		if (entity instanceof ServerPlayer player) {
-			NetworkHooks.openGui(player, new MenuProvider() {
+			NetworkHooks.openScreen(player, new MenuProvider() {
 				@Override
 				public Component getDisplayName() {
-					return new TextComponent("Remnant Infuser");
+					return Component.literal("Remnant Infuser");
 				}
 
 				@Override

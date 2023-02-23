@@ -2,5 +2,6 @@
   "parent": "item/generated",
   "textures": {
     "layer0": "fnaf_mod:items/arcade_sprite_foxy"
-  }
+  },
+  "render_type": "translucent"
 }

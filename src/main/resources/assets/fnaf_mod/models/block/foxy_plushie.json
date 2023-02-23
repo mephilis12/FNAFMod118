@@ -4,5 +4,6 @@
     "all": "fnaf_mod:blocks/foxy_plushie",
     "particle": "fnaf_mod:blocks/foxy_plushie",
     "2": "fnaf_mod:blocks/foxy_plushie"
-  }
+  },
+  "render_type": "cutout"
 }

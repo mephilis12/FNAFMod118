@@ -12,10 +12,7 @@ public class AttackProcedure {
 	public static boolean execute(LevelAccessor world, Entity entity) {
 		if (entity == null)
 			return false;
-		if (world.dayTime() > 12500 && world.dayTime() < 23000
-				&& !(FnafModModItems.FREDDY_MASK_HELMET
-						.get() == (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY)
-								.getItem())) {
+		if (world.dayTime() > 12500 && world.dayTime() < 23000 && !(FnafModModItems.FREDDY_MASK_HELMET.get() == (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).getItem())) {
 			return true;
 		}
 		return false;

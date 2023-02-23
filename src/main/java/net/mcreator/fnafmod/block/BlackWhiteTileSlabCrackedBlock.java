@@ -19,7 +19,7 @@ import java.util.Collections;
 
 public class BlackWhiteTileSlabCrackedBlock extends SlabBlock {
 	public BlackWhiteTileSlabCrackedBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.NETHER_BRICKS).strength(1f, 10f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.NETHER_BRICKS).strength(1f, 10f).requiresCorrectToolForDrops().dynamicShape());
 	}
 
 	@Override

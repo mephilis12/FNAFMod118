@@ -4,5 +4,6 @@
     "all": "fnaf_mod:blocks/foxy",
     "particle": "fnaf_mod:blocks/foxy",
     "7": "fnaf_mod:blocks/foxy"
-  }
+  },
+  "render_type": "cutout"
 }

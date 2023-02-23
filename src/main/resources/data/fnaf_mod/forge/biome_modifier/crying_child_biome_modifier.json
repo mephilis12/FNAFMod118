@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "soul_sand_valley",
+  "spawners": {
+    "type": "fnaf_mod:crying_child",
+    "weight": 1,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

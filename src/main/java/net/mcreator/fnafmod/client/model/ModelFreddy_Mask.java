@@ -32,20 +32,16 @@ public class ModelFreddy_Mask<T extends Entity> extends EntityModel<T> {
 		MeshDefinition meshdefinition = new MeshDefinition();
 		PartDefinition partdefinition = meshdefinition.getRoot();
 		PartDefinition Head = partdefinition.addOrReplaceChild("Head",
-				CubeListBuilder.create().texOffs(0, 0).addBox(-4.0F, -8.0F, -4.0F, 8.0F, 6.0F, 8.0F, new CubeDeformation(0.51F)).texOffs(4, 25)
-						.addBox(-4.5F, -4.0F, -4.3F, 9.0F, 2.0F, 3.0F, new CubeDeformation(0.5F)).texOffs(6, 20)
-						.addBox(-4.0F, -1.0F, 1.0F, 8.0F, 1.0F, 3.0F, new CubeDeformation(0.51F)).texOffs(16, 31)
-						.addBox(-3.0F, -3.5F, -5.5F, 6.0F, 2.0F, 1.0F, new CubeDeformation(0.1F)).texOffs(24, 35)
-						.addBox(-1.0F, -4.0F, -6.0F, 2.0F, 1.0F, 1.0F, new CubeDeformation(0.1F)).texOffs(22, 50)
-						.addBox(3.5F, -10.5F, -1.0F, 3.0F, 3.0F, 1.0F, new CubeDeformation(0.1F)).texOffs(22, 55)
+				CubeListBuilder.create().texOffs(0, 0).addBox(-4.0F, -8.0F, -4.0F, 8.0F, 6.0F, 8.0F, new CubeDeformation(0.51F)).texOffs(4, 25).addBox(-4.5F, -4.0F, -4.3F, 9.0F, 2.0F, 3.0F, new CubeDeformation(0.5F)).texOffs(6, 20)
+						.addBox(-4.0F, -1.0F, 1.0F, 8.0F, 1.0F, 3.0F, new CubeDeformation(0.51F)).texOffs(16, 31).addBox(-3.0F, -3.5F, -5.5F, 6.0F, 2.0F, 1.0F, new CubeDeformation(0.1F)).texOffs(24, 35)
+						.addBox(-1.0F, -4.0F, -6.0F, 2.0F, 1.0F, 1.0F, new CubeDeformation(0.1F)).texOffs(22, 50).addBox(3.5F, -10.5F, -1.0F, 3.0F, 3.0F, 1.0F, new CubeDeformation(0.1F)).texOffs(22, 55)
 						.addBox(-6.5F, -10.5F, -1.0F, 3.0F, 3.0F, 1.0F, new CubeDeformation(0.1F)),
 				PartPose.offset(0.0F, 0.0F, 0.0F));
 		return LayerDefinition.create(meshdefinition, 128, 128);
 	}
 
 	@Override
-	public void renderToBuffer(PoseStack poseStack, VertexConsumer vertexConsumer, int packedLight, int packedOverlay, float red, float green,
-			float blue, float alpha) {
+	public void renderToBuffer(PoseStack poseStack, VertexConsumer vertexConsumer, int packedLight, int packedOverlay, float red, float green, float blue, float alpha) {
 		Head.render(poseStack, vertexConsumer, packedLight, packedOverlay, red, green, blue, alpha);
 	}
 

@@ -4,5 +4,6 @@
     "all": "fnaf_mod:blocks/loudspeakers",
     "particle": "fnaf_mod:blocks/loudspeakers",
     "2": "fnaf_mod:blocks/loudspeakers"
-  }
+  },
+  "render_type": "translucent"
 }

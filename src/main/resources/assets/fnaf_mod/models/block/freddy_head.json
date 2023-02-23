@@ -4,5 +4,6 @@
     "all": "fnaf_mod:blocks/freddyfazbeartexture",
     "particle": "fnaf_mod:blocks/freddyfazbeartexture",
     "1": "fnaf_mod:blocks/freddyfazbeartexture"
-  }
+  },
+  "render_type": "cutout"
 }

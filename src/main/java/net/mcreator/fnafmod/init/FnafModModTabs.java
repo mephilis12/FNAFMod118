@@ -4,9 +4,6 @@
  */
 package net.mcreator.fnafmod.init;
 
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
-
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTab;
 
@@ -25,7 +22,7 @@ public class FnafModModTabs {
 				return new ItemStack(FnafModModBlocks.BLACK_WHITE_TILE.get());
 			}
 
-			@OnlyIn(Dist.CLIENT)
+			@Override
 			public boolean hasSearchBar() {
 				return false;
 			}
@@ -36,7 +33,7 @@ public class FnafModModTabs {
 				return new ItemStack(FnafModModBlocks.RED_BLUE_TILE.get());
 			}
 
-			@OnlyIn(Dist.CLIENT)
+			@Override
 			public boolean hasSearchBar() {
 				return false;
 			}
@@ -47,7 +44,7 @@ public class FnafModModTabs {
 				return new ItemStack(FnafModModBlocks.RED_BLACK_TILE.get());
 			}
 
-			@OnlyIn(Dist.CLIENT)
+			@Override
 			public boolean hasSearchBar() {
 				return false;
 			}
@@ -58,7 +55,7 @@ public class FnafModModTabs {
 				return new ItemStack(FnafModModBlocks.STRUCTURE_SPAWNING_BLOCK.get());
 			}
 
-			@OnlyIn(Dist.CLIENT)
+			@Override
 			public boolean hasSearchBar() {
 				return false;
 			}
@@ -69,7 +66,7 @@ public class FnafModModTabs {
 				return new ItemStack(FnafModModItems.TOREADOR_MARCH.get());
 			}
 
-			@OnlyIn(Dist.CLIENT)
+			@Override
 			public boolean hasSearchBar() {
 				return false;
 			}
@@ -80,7 +77,7 @@ public class FnafModModTabs {
 				return new ItemStack(FnafModModBlocks.CHILDREN_DRAWINGS.get());
 			}
 
-			@OnlyIn(Dist.CLIENT)
+			@Override
 			public boolean hasSearchBar() {
 				return false;
 			}

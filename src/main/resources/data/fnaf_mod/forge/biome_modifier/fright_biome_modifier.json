@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "sunflower_plains",
+    "plains"
+  ],
+  "features": "fnaf_mod:fright",
+  "step": "surface_structures"
+}

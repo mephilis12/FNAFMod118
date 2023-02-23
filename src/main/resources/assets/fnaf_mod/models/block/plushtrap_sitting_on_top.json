@@ -1,9 +1,0 @@
-{
-  "parent": "fnaf_mod:custom/blockplushtrap_floor",
-  "textures": {
-    "all": "fnaf_mod:blocks/plushtrap",
-    "particle": "fnaf_mod:blocks/plushtrap",
-    "2": "fnaf_mod:blocks/plushtrap",
-    "missing": "fnaf_mod:blocks/plushtrap"
-  }
-}

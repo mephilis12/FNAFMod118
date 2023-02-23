@@ -4,5 +4,6 @@
     "all": "fnaf_mod:blocks/paper_pal_clown",
     "particle": "fnaf_mod:blocks/paper_pal_clown",
     "7": "fnaf_mod:blocks/paper_pal_clown"
-  }
+  },
+  "render_type": "cutout"
 }

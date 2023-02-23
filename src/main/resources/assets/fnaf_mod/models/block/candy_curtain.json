@@ -8,5 +8,6 @@
     "south": "fnaf_mod:blocks/candy_curtain",
     "west": "fnaf_mod:blocks/candy_curtain",
     "particle": "fnaf_mod:blocks/candy_curtain"
-  }
+  },
+  "render_type": "solid"
 }

@@ -4,5 +4,6 @@
     "all": "fnaf_mod:blocks/springbonnie1",
     "particle": "fnaf_mod:blocks/springbonnie1",
     "0": "fnaf_mod:blocks/springbonnie1"
-  }
+  },
+  "render_type": "solid"
 }

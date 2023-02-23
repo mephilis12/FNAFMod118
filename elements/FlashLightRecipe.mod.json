@@ -1,5 +1,5 @@
 {
-  "_fv": 34,
+  "_fv": 38,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -28,7 +28,7 @@
         "value": "CUSTOM:BlackPlastic"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Battery"
       },
       {
         "value": "CUSTOM:BlackPlastic"
