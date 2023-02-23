@@ -392,8 +392,8 @@ public class FnafModModBlocks {
 	public static final RegistryObject<Block> DOOR_BUTTON_OFF = REGISTRY.register("door_button_off", () -> new DoorButtonOffBlock());
 	public static final RegistryObject<Block> LIGHT_BUTTON_OFF = REGISTRY.register("light_button_off", () -> new LightButtonOffBlock());
 	public static final RegistryObject<Block> STARS = REGISTRY.register("stars", () -> new StarsBlock());
-	public static final RegistryObject<Block> DESK = REGISTRY.register("desk", () -> new DeskBlock());
 	public static final RegistryObject<Block> SECURITY_DOOR_OPEN = REGISTRY.register("security_door_open", () -> new SecurityDoorOpenBlock());
+	public static final RegistryObject<Block> DESK = REGISTRY.register("desk", () -> new DeskBlock());
 	public static final RegistryObject<Block> DESK_2 = REGISTRY.register("desk_2", () -> new Desk2Block());
 	public static final RegistryObject<Block> DESK_3 = REGISTRY.register("desk_3", () -> new Desk3Block());
 	public static final RegistryObject<Block> CHAIR = REGISTRY.register("chair", () -> new ChairBlock());
