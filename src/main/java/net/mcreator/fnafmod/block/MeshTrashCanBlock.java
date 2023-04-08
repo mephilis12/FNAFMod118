@@ -20,7 +20,7 @@ import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.fnafmod.block.registry.TileRegistry;
+import net.mcreator.fnafmod.init.FnafModModBlockEntities;
 
 import javax.annotation.Nullable;
 
@@ -42,7 +42,7 @@ public class MeshTrashCanBlock extends BaseEntityBlock implements EntityBlock {
 	@Nullable
 	@Override
 	public BlockEntity newBlockEntity(BlockPos blockPos, BlockState blockState) {
-		return TileRegistry.MESH_TRASH_CAN.get().create(blockPos, blockState);
+		return FnafModModBlockEntities.MESH_TRASH_CAN.get().create(blockPos, blockState);
 	}
 
 	@Override

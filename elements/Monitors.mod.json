@@ -1,8 +1,8 @@
 {
-  "_fv": 38,
+  "_fv": 39,
   "_type": "block",
   "definition": {
-    "texture": "screen",
+    "texture": "screens",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",

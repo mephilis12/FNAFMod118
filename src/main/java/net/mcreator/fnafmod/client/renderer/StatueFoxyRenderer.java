@@ -1,20 +1,27 @@
 
 package net.mcreator.fnafmod.client.renderer;
 
+import software.bernie.geckolib3.renderers.geo.GeoEntityRenderer;
+
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.MultiBufferSource;
 
+import net.mcreator.fnafmod.entity.model.StatueFoxyModel;
 import net.mcreator.fnafmod.entity.StatueFoxyEntity;
-import net.mcreator.fnafmod.client.model.ModelFoxyDayTime;
 
-public class StatueFoxyRenderer extends MobRenderer<StatueFoxyEntity, ModelFoxyDayTime<StatueFoxyEntity>> {
-	public StatueFoxyRenderer(EntityRendererProvider.Context context) {
-		super(context, new ModelFoxyDayTime(context.bakeLayer(ModelFoxyDayTime.LAYER_LOCATION)), 0.5f);
+import com.mojang.blaze3d.vertex.VertexConsumer;
+import com.mojang.blaze3d.vertex.PoseStack;
+
+public class StatueFoxyRenderer extends GeoEntityRenderer<StatueFoxyEntity> {
+	public StatueFoxyRenderer(EntityRendererProvider.Context renderManager) {
+		super(renderManager, new StatueFoxyModel());
+		this.shadowRadius = 0.5f;
 	}
 
 	@Override
-	public ResourceLocation getTextureLocation(StatueFoxyEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/entities/foxy.png");
+	public RenderType getRenderType(StatueFoxyEntity entity, float partialTicks, PoseStack stack, MultiBufferSource renderTypeBuffer, VertexConsumer vertexBuilder, int packedLightIn, ResourceLocation textureLocation) {
+		return RenderType.entityTranslucent(getTextureLocation(entity));
 	}
 }

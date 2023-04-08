@@ -1,13 +1,13 @@
 {
-  "_fv": 38,
+  "_fv": 39,
   "_type": "gui",
   "definition": {
     "type": 0,
-    "width": 180,
-    "height": 166,
+    "width": 260,
+    "height": 160,
     "inventoryOffsetX": 0,
     "inventoryOffsetY": 0,
-    "renderBgLayer": true,
+    "renderBgLayer": false,
     "doesPauseGame": false,
     "components": [
       {
@@ -18,10 +18,10 @@
             "fixedValue": "Cameras"
           },
           "color": {
-            "value": -12829636,
+            "value": -1,
             "falpha": 0.0
           },
-          "x": 141,
+          "x": 96,
           "y": 44
         }
       },
@@ -33,10 +33,10 @@
             "fixedValue": "Page: <ENBT:integer:plus2>"
           },
           "color": {
-            "value": -12829636,
+            "value": -1,
             "falpha": 0.0
           },
-          "x": 132,
+          "x": 87,
           "y": 188
         }
       },
@@ -50,7 +50,7 @@
           },
           "width": 66,
           "height": 20,
-          "x": 132,
+          "x": 87,
           "y": 62
         }
       },
@@ -64,7 +64,7 @@
           },
           "width": 66,
           "height": 20,
-          "x": 132,
+          "x": 87,
           "y": 80
         }
       },
@@ -78,7 +78,7 @@
           },
           "width": 66,
           "height": 20,
-          "x": 132,
+          "x": 87,
           "y": 98
         }
       },
@@ -92,7 +92,7 @@
           },
           "width": 66,
           "height": 20,
-          "x": 132,
+          "x": 87,
           "y": 116
         }
       },
@@ -106,7 +106,7 @@
           },
           "width": 66,
           "height": 20,
-          "x": 132,
+          "x": 87,
           "y": 134
         }
       },
@@ -118,10 +118,10 @@
             "fixedValue": "To Set a Camera"
           },
           "color": {
-            "value": -12829636,
+            "value": -1,
             "falpha": 0.0
           },
-          "x": 204,
+          "x": 240,
           "y": 116
         }
       },
@@ -133,10 +133,10 @@
             "fixedValue": "Right Click It"
           },
           "color": {
-            "value": -12829636,
+            "value": -1,
             "falpha": 0.0
           },
-          "x": 204,
+          "x": 240,
           "y": 125
         }
       },
@@ -148,10 +148,10 @@
             "fixedValue": "with the Monitor"
           },
           "color": {
-            "value": -12829636,
+            "value": -1,
             "falpha": 0.0
           },
-          "x": 204,
+          "x": 240,
           "y": 134
         }
       },
@@ -163,10 +163,10 @@
             "fixedValue": "To Remove A Camera"
           },
           "color": {
-            "value": -12829636,
+            "value": -1,
             "falpha": 0.0
           },
-          "x": 204,
+          "x": 240,
           "y": 143
         }
       },
@@ -178,10 +178,10 @@
             "fixedValue": "Shift Click"
           },
           "color": {
-            "value": -12829636,
+            "value": -1,
             "falpha": 0.0
           },
-          "x": 204,
+          "x": 240,
           "y": 152
         }
       },
@@ -193,10 +193,10 @@
             "fixedValue": "You Can Have Unlimited Cameras"
           },
           "color": {
-            "value": -12829636,
+            "value": -1,
             "falpha": 0.0
           },
-          "x": 132,
+          "x": 87,
           "y": 161
         }
       },
@@ -208,10 +208,10 @@
             "fixedValue": "Swap Pages for Each Set of 5"
           },
           "color": {
-            "value": -12829636,
+            "value": -1,
             "falpha": 0.0
           },
-          "x": 132,
+          "x": 87,
           "y": 170
         }
       },
@@ -225,7 +225,7 @@
           },
           "width": 90,
           "height": 20,
-          "x": 204,
+          "x": 240,
           "y": 62
         }
       },
@@ -239,7 +239,7 @@
           },
           "width": 90,
           "height": 20,
-          "x": 204,
+          "x": 240,
           "y": 89
         }
       },
@@ -251,11 +251,20 @@
             "fixedValue": "Press Z to Exit the Camera"
           },
           "color": {
-            "value": -12829636,
+            "value": -1,
             "falpha": 0.0
           },
-          "x": 132,
+          "x": 87,
           "y": 179
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "cameratabletgui.png",
+          "use1Xscale": false,
+          "x": 83,
+          "y": 40
         }
       }
     ],
@@ -264,7 +273,7 @@
       "sy": 18,
       "ox": 11,
       "oy": 15,
-      "snapOnGrid": true
+      "snapOnGrid": false
     }
   }
 }

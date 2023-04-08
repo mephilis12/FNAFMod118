@@ -1,5 +1,5 @@
 {
-  "_fv": 38,
+  "_fv": 39,
   "_type": "animatedentity",
   "definition": {
     "mobName": "Fredbear",
@@ -61,7 +61,6 @@
     "inventoryStackSize": 64,
     "deathTime": 20,
     "lerp": 4,
-    "babyScale": 0.5,
     "disableCollisions": false,
     "ridable": false,
     "canControlForward": false,

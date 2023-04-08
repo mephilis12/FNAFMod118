@@ -1,10 +1,21 @@
 
 package net.mcreator.fnafmod.entity;
 
+import software.bernie.geckolib3.util.GeckoLibUtil;
+import software.bernie.geckolib3.core.manager.AnimationFactory;
+import software.bernie.geckolib3.core.manager.AnimationData;
+import software.bernie.geckolib3.core.event.predicate.AnimationEvent;
+import software.bernie.geckolib3.core.controller.AnimationController;
+import software.bernie.geckolib3.core.builder.ILoopType.EDefaultLoopTypes;
+import software.bernie.geckolib3.core.builder.AnimationBuilder;
+import software.bernie.geckolib3.core.PlayState;
+import software.bernie.geckolib3.core.IAnimatable;
+
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.network.PlayMessages;
 import net.minecraftforge.network.NetworkHooks;
 
+import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.ServerLevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
@@ -24,17 +35,29 @@ import net.minecraft.world.InteractionHand;
 import net.minecraft.world.DifficultyInstance;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.syncher.SynchedEntityData;
+import net.minecraft.network.syncher.EntityDataSerializers;
+import net.minecraft.network.syncher.EntityDataAccessor;
 import net.minecraft.network.protocol.Packet;
 import net.minecraft.nbt.CompoundTag;
+import net.minecraft.core.BlockPos;
 
 import net.mcreator.fnafmod.procedures.StatueSpawnProcedure;
 import net.mcreator.fnafmod.procedures.StatueFreddyRightClickedOnEntityProcedure;
-import net.mcreator.fnafmod.init.FnafModModItems;
 import net.mcreator.fnafmod.init.FnafModModEntities;
 
 import javax.annotation.Nullable;
 
-public class StatueFreddyEntity extends PathfinderMob {
+public class StatueFreddyEntity extends PathfinderMob implements IAnimatable {
+	public static final EntityDataAccessor<Boolean> SHOOT = SynchedEntityData.defineId(StatueFreddyEntity.class, EntityDataSerializers.BOOLEAN);
+	public static final EntityDataAccessor<String> ANIMATION = SynchedEntityData.defineId(StatueFreddyEntity.class, EntityDataSerializers.STRING);
+	public static final EntityDataAccessor<String> TEXTURE = SynchedEntityData.defineId(StatueFreddyEntity.class, EntityDataSerializers.STRING);
+	private AnimationFactory factory = GeckoLibUtil.createFactory(this);
+	private boolean swinging;
+	private boolean lastloop;
+	private long lastSwing;
+	public String animationprocedure = "empty";
+
 	public StatueFreddyEntity(PlayMessages.SpawnEntity packet, Level world) {
 		this(FnafModModEntities.STATUE_FREDDY.get(), world);
 	}
@@ -42,13 +65,35 @@ public class StatueFreddyEntity extends PathfinderMob {
 	public StatueFreddyEntity(EntityType<StatueFreddyEntity> type, Level world) {
 		super(type, world);
 		xpReward = 0;
-		setNoAi(true);
+		setNoAi(false);
 		setPersistenceRequired();
+	}
+
+	@Override
+	protected void defineSynchedData() {
+		super.defineSynchedData();
+		this.entityData.define(SHOOT, false);
+		this.entityData.define(ANIMATION, "undefined");
+		this.entityData.define(TEXTURE, "freddyfazbeartexture");
+	}
+
+	public void setTexture(String texture) {
+		this.entityData.set(TEXTURE, texture);
+	}
+
+	public String getTexture() {
+		return this.entityData.get(TEXTURE);
 	}
 
 	@Override
 	public Packet<?> getAddEntityPacket() {
 		return NetworkHooks.getEntitySpawningPacket(this);
+	}
+
+	@Override
+	protected void registerGoals() {
+		super.registerGoals();
+
 	}
 
 	@Override
@@ -61,38 +106,19 @@ public class StatueFreddyEntity extends PathfinderMob {
 		return false;
 	}
 
-	protected void dropCustomDeathLoot(DamageSource source, int looting, boolean recentlyHitIn) {
-		super.dropCustomDeathLoot(source, looting, recentlyHitIn);
-		this.spawnAtLocation(new ItemStack(FnafModModItems.STATUE_FREDDY_ITEM.get()));
+	@Override
+	public void playStepSound(BlockPos pos, BlockState blockIn) {
+		this.playSound(ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("fnaf_mod:animatronic_step")), 0.15f, 1);
 	}
 
 	@Override
 	public SoundEvent getHurtSound(DamageSource ds) {
-		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.wool.break"));
+		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.wool.hit"));
 	}
 
 	@Override
 	public SoundEvent getDeathSound() {
-		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.wool.break"));
-	}
-
-	@Override
-	public boolean hurt(DamageSource source, float amount) {
-		if (source == DamageSource.FALL)
-			return false;
-		if (source == DamageSource.CACTUS)
-			return false;
-		if (source.getMsgId().equals("trident"))
-			return false;
-		if (source == DamageSource.ANVIL)
-			return false;
-		if (source == DamageSource.DRAGON_BREATH)
-			return false;
-		if (source == DamageSource.WITHER)
-			return false;
-		if (source.getMsgId().equals("witherSkull"))
-			return false;
-		return super.hurt(source, amount);
+		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.anvil.destroy"));
 	}
 
 	@Override
@@ -117,17 +143,87 @@ public class StatueFreddyEntity extends PathfinderMob {
 		return retval;
 	}
 
+	@Override
+	public void aiStep() {
+		super.aiStep();
+		this.updateSwingTime();
+	}
+
 	public static void init() {
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
-		builder = builder.add(Attributes.MOVEMENT_SPEED, 0);
-		builder = builder.add(Attributes.MAX_HEALTH, 10);
+		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.25);
+		builder = builder.add(Attributes.MAX_HEALTH, 5);
 		builder = builder.add(Attributes.ARMOR, 0);
-		builder = builder.add(Attributes.ATTACK_DAMAGE, 20);
+		builder = builder.add(Attributes.ATTACK_DAMAGE, 9001);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 16);
-		builder = builder.add(Attributes.KNOCKBACK_RESISTANCE, 4);
+		builder = builder.add(Attributes.KNOCKBACK_RESISTANCE, 7.5);
 		return builder;
+	}
+
+	private <E extends IAnimatable> PlayState movementPredicate(AnimationEvent<E> event) {
+		if (this.animationprocedure.equals("empty")) {
+			event.getController().setAnimation(new AnimationBuilder().addAnimation("animation.freddyfazbear.pose", EDefaultLoopTypes.LOOP));
+			return PlayState.CONTINUE;
+		}
+		return PlayState.STOP;
+	}
+
+	private <E extends IAnimatable> PlayState procedurePredicate(AnimationEvent<E> event) {
+		Entity entity = this;
+		Level world = entity.level;
+		boolean loop = false;
+		double x = entity.getX();
+		double y = entity.getY();
+		double z = entity.getZ();
+		if (!loop && this.lastloop) {
+			this.lastloop = false;
+			event.getController().setAnimation(new AnimationBuilder().addAnimation(this.animationprocedure, EDefaultLoopTypes.PLAY_ONCE));
+			event.getController().clearAnimationCache();
+			return PlayState.STOP;
+		}
+		if (!this.animationprocedure.equals("empty") && event.getController().getAnimationState().equals(software.bernie.geckolib3.core.AnimationState.Stopped)) {
+			if (!loop) {
+				event.getController().setAnimation(new AnimationBuilder().addAnimation(this.animationprocedure, EDefaultLoopTypes.PLAY_ONCE));
+				if (event.getController().getAnimationState().equals(software.bernie.geckolib3.core.AnimationState.Stopped)) {
+					this.animationprocedure = "empty";
+					event.getController().markNeedsReload();
+				}
+			} else {
+				event.getController().setAnimation(new AnimationBuilder().addAnimation(this.animationprocedure, EDefaultLoopTypes.LOOP));
+				this.lastloop = true;
+			}
+		}
+		return PlayState.CONTINUE;
+	}
+
+	@Override
+	protected void tickDeath() {
+		++this.deathTime;
+		if (this.deathTime == 20) {
+			this.remove(StatueFreddyEntity.RemovalReason.KILLED);
+			this.dropExperience();
+		}
+	}
+
+	public String getSyncedAnimation() {
+		return this.entityData.get(ANIMATION);
+	}
+
+	public void setAnimation(String animation) {
+		this.entityData.set(ANIMATION, animation);
+	}
+
+	@Override
+	public void registerControllers(AnimationData data) {
+		data.addAnimationController(new AnimationController<>(this, "movement", 4, this::movementPredicate));
+		data.addAnimationController(new AnimationController<>(this, "procedure", 4, this::procedurePredicate));
+	}
+
+	@Override
+	public AnimationFactory getFactory() {
+		return this.factory;
 	}
 }

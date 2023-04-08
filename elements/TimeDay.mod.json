@@ -1,5 +1,5 @@
 {
-  "_fv": 38,
+  "_fv": 39,
   "_type": "procedure",
   "definition": {
     "procedurexml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"event_trigger\" x=\"451\" y=\"240\"><field name=\"trigger\">world_ticks</field><next><block type=\"controls_if\"><value name=\"IF0\"><block type=\"world_data_isday\"/></value><statement name=\"DO0\"><block type=\"variables_set_logic\"><field name=\"VAR\">global:TimeDay</field><value name=\"VAL\"><block type=\"logic_boolean\"><field name=\"BOOL\">TRUE</field></block></value></block></statement><next><block type=\"variables_set_logic\"><field name=\"VAR\">global:TimeDay</field><value name=\"VAL\"><block type=\"logic_boolean\"><field name=\"BOOL\">FALSE</field></block></value></block></next></block></next></block></xml>"

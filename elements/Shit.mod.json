@@ -1,5 +1,5 @@
 {
-  "_fv": 38,
+  "_fv": 39,
   "_type": "procedure",
   "definition": {
     "procedurexml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><variables><variable id=\"Random\" type=\"Number\">Random</variable><variable id=\"Random2\" type=\"Number\">Random2</variable></variables><block deletable=\"false\" type=\"event_trigger\" x=\"233\" y=\"142\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"block_add\"><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:ShackRandomizer</field></block></value><value name=\"x\"><block type=\"coord_x\"/></value><value name=\"y\"><block type=\"coord_y\"/></value><value name=\"z\"><block type=\"coord_z\"/></value></block></next></block></xml>"

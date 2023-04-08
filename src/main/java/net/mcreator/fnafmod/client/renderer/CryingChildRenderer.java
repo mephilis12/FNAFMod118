@@ -21,11 +21,7 @@ public class CryingChildRenderer extends GeoEntityRenderer<CryingChildEntity> {
 	}
 
 	@Override
-	public RenderType getRenderType(CryingChildEntity animatable, float partialTicks, PoseStack stack, MultiBufferSource renderTypeBuffer, VertexConsumer vertexBuilder, int packedLightIn, ResourceLocation textureLocation) {
-		if (!animatable.isBaby())
-			stack.scale(1.0F, 1.0F, 1.0F);
-		else
-			stack.scale(0.5F, 0.5F, 0.5F);
-		return RenderType.entityTranslucent(getTextureLocation(animatable));
+	public RenderType getRenderType(CryingChildEntity entity, float partialTicks, PoseStack stack, MultiBufferSource renderTypeBuffer, VertexConsumer vertexBuilder, int packedLightIn, ResourceLocation textureLocation) {
+		return RenderType.entityTranslucent(getTextureLocation(entity));
 	}
 }

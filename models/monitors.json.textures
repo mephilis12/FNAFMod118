@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "screen"
+        "2": "screens"
       },
       "name": "default"
     }
