@@ -22,6 +22,7 @@ public class DayTimeBonnieRenderer extends GeoEntityRenderer<DayTimeBonnieEntity
 
 	@Override
 	public RenderType getRenderType(DayTimeBonnieEntity entity, float partialTicks, PoseStack stack, MultiBufferSource renderTypeBuffer, VertexConsumer vertexBuilder, int packedLightIn, ResourceLocation textureLocation) {
+		stack.scale(1f, 1f, 1f);
 		return RenderType.entityTranslucent(getTextureLocation(entity));
 	}
 }

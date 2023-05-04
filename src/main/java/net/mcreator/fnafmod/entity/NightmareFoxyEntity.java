@@ -125,7 +125,7 @@ public class NightmareFoxyEntity extends Monster {
 	@Override
 	public void baseTick() {
 		super.baseTick();
-		NightmareFoxyOnEntityTickUpdateProcedure.execute(this.level, this);
+		NightmareFoxyOnEntityTickUpdateProcedure.execute(this.level, this.getX(), this.getY(), this.getZ(), this);
 	}
 
 	public static void init() {

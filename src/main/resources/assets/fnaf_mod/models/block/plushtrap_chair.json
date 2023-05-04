@@ -1,0 +1,9 @@
+{
+  "parent": "fnaf_mod:custom/plushtrapchair",
+  "textures": {
+    "all": "fnaf_mod:blocks/plushtrapchair",
+    "particle": "fnaf_mod:blocks/plushtrapchair",
+    "1": "fnaf_mod:blocks/plushtrapchair"
+  },
+  "render_type": "cutout"
+}

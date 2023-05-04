@@ -9,14 +9,19 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.MobSpawnType;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.util.RandomSource;
+import net.minecraft.util.Mth;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.fnafmod.init.FnafModModEntities;
+import net.mcreator.fnafmod.entity.NightmarionneEntity;
 import net.mcreator.fnafmod.entity.NightmareFredbearEntity;
 
 public class PlushFredbearUpdateTickProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
+		double rand = 0;
+		rand = Mth.nextInt(RandomSource.create(), 1, 100);
 		if (new Object() {
 			public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 				BlockEntity blockEntity = world.getBlockEntity(pos);
@@ -71,9 +76,19 @@ public class PlushFredbearUpdateTickProcedure {
 				return -1;
 			}
 		}.getValue(world, new BlockPos(x, y, z), "FNAFTimer") == 0 && 10 >= world.getMaxLocalRawBrightness(new BlockPos(x, y, z))) {
-			if (!(!world.getEntitiesOfClass(NightmareFredbearEntity.class, AABB.ofSize(new Vec3(x, y, z), 50, 50, 50), e -> true).isEmpty())) {
+			if (!(!world.getEntitiesOfClass(NightmarionneEntity.class, AABB.ofSize(new Vec3(x, y, z), 50, 50, 50), e -> true).isEmpty())
+					&& !(!world.getEntitiesOfClass(NightmareFredbearEntity.class, AABB.ofSize(new Vec3(x, y, z), 50, 50, 50), e -> true).isEmpty()) && 75 >= rand) {
 				if (world instanceof ServerLevel _level) {
 					Entity entityToSpawn = new NightmareFredbearEntity(FnafModModEntities.NIGHTMARE_FREDBEAR.get(), _level);
+					entityToSpawn.moveTo(x, y, z, world.getRandom().nextFloat() * 360F, 0);
+					if (entityToSpawn instanceof Mob _mobToSpawn)
+						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
+					world.addFreshEntity(entityToSpawn);
+				}
+			} else if (!(!world.getEntitiesOfClass(NightmarionneEntity.class, AABB.ofSize(new Vec3(x, y, z), 50, 50, 50), e -> true).isEmpty())
+					&& !(!world.getEntitiesOfClass(NightmareFredbearEntity.class, AABB.ofSize(new Vec3(x, y, z), 50, 50, 50), e -> true).isEmpty()) && 75 < rand) {
+				if (world instanceof ServerLevel _level) {
+					Entity entityToSpawn = new NightmarionneEntity(FnafModModEntities.NIGHTMARIONNE.get(), _level);
 					entityToSpawn.moveTo(x, y, z, world.getRandom().nextFloat() * 360F, 0);
 					if (entityToSpawn instanceof Mob _mobToSpawn)
 						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);

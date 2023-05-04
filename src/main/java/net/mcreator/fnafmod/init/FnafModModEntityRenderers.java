@@ -88,6 +88,7 @@ import net.mcreator.fnafmod.client.renderer.FullHostileChicaRenderer;
 import net.mcreator.fnafmod.client.renderer.FullHostileBonnieRenderer;
 import net.mcreator.fnafmod.client.renderer.FreddyStandRenderer;
 import net.mcreator.fnafmod.client.renderer.FreddyFazbearRenderer;
+import net.mcreator.fnafmod.client.renderer.FreddlesRenderer;
 import net.mcreator.fnafmod.client.renderer.FredbearCutOutRenderer;
 import net.mcreator.fnafmod.client.renderer.FredbearCreatureRenderer;
 import net.mcreator.fnafmod.client.renderer.FredbearAnimatronicRenderer;
@@ -126,7 +127,6 @@ public class FnafModModEntityRenderers {
 		event.registerEntityRenderer(FnafModModEntities.BONNIE_STAND.get(), BonnieStandRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.TOY_BOX.get(), ToyBoxRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.CAMERA.get(), CameraRenderer::new);
-		event.registerEntityRenderer(FnafModModEntities.SITTING_FREDBEAR.get(), SittingFredbearRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.ENDO_SKELETON.get(), EndoSkeletonRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.SHADOW_FREDDY.get(), ShadowFreddyRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.DED_WITHERED_FREDDY.get(), DedWitheredFreddyRenderer::new);
@@ -230,5 +230,7 @@ public class FnafModModEntityRenderers {
 		event.registerEntityRenderer(FnafModModEntities.STATUE_CHICA.get(), StatueChicaRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.STATUE_FOXY.get(), StatueFoxyRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.STATUE_BONNIE.get(), StatueBonnieRenderer::new);
+		event.registerEntityRenderer(FnafModModEntities.FREDDLES.get(), FreddlesRenderer::new);
+		event.registerEntityRenderer(FnafModModEntities.SITTING_FREDBEAR.get(), SittingFredbearRenderer::new);
 	}
 }

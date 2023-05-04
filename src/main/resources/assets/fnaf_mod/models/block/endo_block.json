@@ -1,9 +1,0 @@
-{
-  "parent": "fnaf_mod:custom/endo-01_block",
-  "textures": {
-    "all": "fnaf_mod:blocks/endoskeleton",
-    "particle": "fnaf_mod:blocks/endoskeleton",
-    "7": "fnaf_mod:blocks/endoskeleton"
-  },
-  "render_type": "cutout"
-}
