@@ -1,15 +1,14 @@
 {
-  "_fv": 38,
-  "_type": "block",
+  "_fv": 39,
+  "_type": "animatedblock",
   "definition": {
-    "texture": "freddyfazbeartexture",
+    "texture": "freddyhead",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 2,
-    "customModelName": "freddy_head:default",
+    "renderType": 0,
     "rotationMode": 1,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -20,16 +19,16 @@
     "isItemTinted": false,
     "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "CUTOUT",
+    "transparencyType": "SOLID",
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": 4.0,
+        "mx": 15.0,
         "my": 0.0,
-        "mz": 3.0,
-        "Mx": 11.0,
-        "My": 7.5,
-        "Mz": 11.0,
+        "mz": 14.0,
+        "Mx": 5.0,
+        "My": 10.0,
+        "Mz": 4.0,
         "subtract": false
       }
     ],
@@ -56,7 +55,7 @@
     "material": {
       "value": "IRON"
     },
-    "tickRate": 10,
+    "tickRate": 0,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -99,7 +98,13 @@
     "luminance": 0,
     "unbreakable": false,
     "breakHarvestLevel": 1,
-    "isBonemealable": false,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particleSpawningShape": "Spread",
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 4,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
@@ -128,6 +133,8 @@
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "maxGenerateHeight": 64,
+    "normal": "freddyhead.geo.json",
+    "displaySettings": "freddyhead.item.json"
   }
 }

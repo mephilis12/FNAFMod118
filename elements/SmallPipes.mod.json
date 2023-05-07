@@ -1,5 +1,5 @@
 {
-  "_fv": 38,
+  "_fv": 39,
   "_type": "block",
   "definition": {
     "texture": "pipes",
@@ -9,7 +9,7 @@
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "small_piles:default",
+    "customModelName": "pipe:default",
     "rotationMode": 1,
     "enablePitch": true,
     "emissiveRendering": false,

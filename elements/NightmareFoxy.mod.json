@@ -1,5 +1,5 @@
 {
-  "_fv": 38,
+  "_fv": 39,
   "_type": "livingentity",
   "definition": {
     "mobName": "Nightmare Foxy",
@@ -7,6 +7,9 @@
     "mobModelName": "ModelNightmare_Foxy",
     "mobModelTexture": "nightmare_foxy.png",
     "mobModelGlowTexture": "nightmare_foxy_eye_glow.png",
+    "solidBoundingBox": {
+      "fixedValue": false
+    },
     "modelWidth": 0.6,
     "modelHeight": 1.8,
     "modelShadowSize": 0.5,

@@ -13,12 +13,27 @@ import net.minecraft.world.level.block.Block;
 
 import net.mcreator.fnafmod.block.entity.VendingTopBlockEntity;
 import net.mcreator.fnafmod.block.entity.VendingBottomBlockEntity;
+import net.mcreator.fnafmod.block.entity.TrashCanTileEntity;
+import net.mcreator.fnafmod.block.entity.SpringBonnieHeadTileEntity;
 import net.mcreator.fnafmod.block.entity.RemantInfuserBlockEntity;
+import net.mcreator.fnafmod.block.entity.PlushFreddyBlockEntity;
+import net.mcreator.fnafmod.block.entity.PlushFredbearBlockEntity;
+import net.mcreator.fnafmod.block.entity.PlushFoxyBlockEntity;
+import net.mcreator.fnafmod.block.entity.PlushChicaBlockEntity;
+import net.mcreator.fnafmod.block.entity.PlushBonnieBlockEntity;
+import net.mcreator.fnafmod.block.entity.MeshTrashCanTileEntity;
 import net.mcreator.fnafmod.block.entity.LocketBottomBlockEntity;
 import net.mcreator.fnafmod.block.entity.LockerTopBlockEntity;
+import net.mcreator.fnafmod.block.entity.FreddyHeadTileEntity;
+import net.mcreator.fnafmod.block.entity.FredbearHeadTileEntity;
+import net.mcreator.fnafmod.block.entity.FoxyHeadTileEntity;
+import net.mcreator.fnafmod.block.entity.FlashLightLightBlockEntity;
+import net.mcreator.fnafmod.block.entity.EndoBlockTileEntity;
 import net.mcreator.fnafmod.block.entity.DeskBlockEntity;
 import net.mcreator.fnafmod.block.entity.Desk3BlockEntity;
 import net.mcreator.fnafmod.block.entity.Desk2BlockEntity;
+import net.mcreator.fnafmod.block.entity.ChicaHeadTileEntity;
+import net.mcreator.fnafmod.block.entity.BonnieHeadTileEntity;
 import net.mcreator.fnafmod.FnafModMod;
 
 public class FnafModModBlockEntities {
@@ -26,11 +41,27 @@ public class FnafModModBlockEntities {
 	public static final RegistryObject<BlockEntityType<?>> DESK = register("desk", FnafModModBlocks.DESK, DeskBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> DESK_2 = register("desk_2", FnafModModBlocks.DESK_2, Desk2BlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> DESK_3 = register("desk_3", FnafModModBlocks.DESK_3, Desk3BlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> PLUSH_FREDDY = register("plush_freddy", FnafModModBlocks.PLUSH_FREDDY, PlushFreddyBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> PLUSH_BONNIE = register("plush_bonnie", FnafModModBlocks.PLUSH_BONNIE, PlushBonnieBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> PLUSH_CHICA = register("plush_chica", FnafModModBlocks.PLUSH_CHICA, PlushChicaBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> PLUSH_FOXY = register("plush_foxy", FnafModModBlocks.PLUSH_FOXY, PlushFoxyBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> PLUSH_FREDBEAR = register("plush_fredbear", FnafModModBlocks.PLUSH_FREDBEAR, PlushFredbearBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> LOCKET_BOTTOM = register("locket_bottom", FnafModModBlocks.LOCKET_BOTTOM, LocketBottomBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> REMNANT_INFUSER = register("remnant_infuser", FnafModModBlocks.REMNANT_INFUSER, RemantInfuserBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> LOCKER_TOP = register("locker_top", FnafModModBlocks.LOCKER_TOP, LockerTopBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> FLASH_LIGHT_LIGHT = register("flash_light_light", FnafModModBlocks.FLASH_LIGHT_LIGHT, FlashLightLightBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> VENDING_BOTTOM = register("vending_bottom", FnafModModBlocks.VENDING_BOTTOM, VendingBottomBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> VENDING_TOP = register("vending_top", FnafModModBlocks.VENDING_TOP, VendingTopBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<MeshTrashCanTileEntity>> MESH_TRASH_CAN = REGISTRY.register("mesh_trash_can", () -> BlockEntityType.Builder.of(MeshTrashCanTileEntity::new, FnafModModBlocks.MESH_TRASH_CAN.get()).build(null));
+	public static final RegistryObject<BlockEntityType<TrashCanTileEntity>> TRASH_CAN = REGISTRY.register("trash_can", () -> BlockEntityType.Builder.of(TrashCanTileEntity::new, FnafModModBlocks.TRASH_CAN.get()).build(null));
+	public static final RegistryObject<BlockEntityType<FreddyHeadTileEntity>> FREDDY_HEAD = REGISTRY.register("freddy_head", () -> BlockEntityType.Builder.of(FreddyHeadTileEntity::new, FnafModModBlocks.FREDDY_HEAD.get()).build(null));
+	public static final RegistryObject<BlockEntityType<BonnieHeadTileEntity>> BONNIE_HEAD = REGISTRY.register("bonnie_head", () -> BlockEntityType.Builder.of(BonnieHeadTileEntity::new, FnafModModBlocks.BONNIE_HEAD.get()).build(null));
+	public static final RegistryObject<BlockEntityType<ChicaHeadTileEntity>> CHICA_HEAD = REGISTRY.register("chica_head", () -> BlockEntityType.Builder.of(ChicaHeadTileEntity::new, FnafModModBlocks.CHICA_HEAD.get()).build(null));
+	public static final RegistryObject<BlockEntityType<FoxyHeadTileEntity>> FOXY_HEAD = REGISTRY.register("foxy_head", () -> BlockEntityType.Builder.of(FoxyHeadTileEntity::new, FnafModModBlocks.FOXY_HEAD.get()).build(null));
+	public static final RegistryObject<BlockEntityType<FredbearHeadTileEntity>> FREDBEAR_HEAD = REGISTRY.register("fredbear_head", () -> BlockEntityType.Builder.of(FredbearHeadTileEntity::new, FnafModModBlocks.FREDBEAR_HEAD.get()).build(null));
+	public static final RegistryObject<BlockEntityType<SpringBonnieHeadTileEntity>> SPRING_BONNIE_HEAD = REGISTRY.register("spring_bonnie_head",
+			() -> BlockEntityType.Builder.of(SpringBonnieHeadTileEntity::new, FnafModModBlocks.SPRING_BONNIE_HEAD.get()).build(null));
+	public static final RegistryObject<BlockEntityType<EndoBlockTileEntity>> ENDO_BLOCK = REGISTRY.register("endo_block", () -> BlockEntityType.Builder.of(EndoBlockTileEntity::new, FnafModModBlocks.ENDO_BLOCK.get()).build(null));
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));

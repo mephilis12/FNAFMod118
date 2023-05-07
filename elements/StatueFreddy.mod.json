@@ -1,10 +1,9 @@
 {
-  "_fv": 38,
-  "_type": "livingentity",
+  "_fv": 39,
+  "_type": "animatedentity",
   "definition": {
-    "mobName": "Freddy Fazbear",
+    "mobName": "Freddy Statue",
     "mobLabel": "",
-    "mobModelName": "ModelFreddyDayTime",
     "mobModelTexture": "freddyfazbeartexture.png",
     "mobModelGlowTexture": "",
     "modelWidth": 0.6,
@@ -13,11 +12,11 @@
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -9682156,
+      "value": -11129586,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -16777216,
+      "value": -10994406,
       "falpha": 0.0
     },
     "creativeTab": {
@@ -46,51 +45,53 @@
     },
     "mobBehaviourType": "Creature",
     "mobCreatureType": "UNDEFINED",
-    "attackStrength": 20,
+    "attackStrength": 9001,
     "attackKnockback": 0.0,
-    "knockbackResistance": 4.0,
-    "movementSpeed": 0.0,
+    "knockbackResistance": 7.5,
+    "movementSpeed": 0.25,
     "armorBaseValue": 0.0,
-    "trackingRange": 64,
+    "trackingRange": 65,
     "followRange": 16,
-    "health": 10,
+    "health": 5,
     "xpAmount": 0,
     "waterMob": false,
     "flyingMob": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
+    "deathTime": 20,
+    "lerp": 4,
     "disableCollisions": false,
     "ridable": false,
     "canControlForward": false,
     "canControlStrafe": false,
     "immuneToFire": false,
     "immuneToArrows": false,
-    "immuneToFallDamage": true,
-    "immuneToCactus": true,
+    "immuneToFallDamage": false,
+    "immuneToCactus": false,
     "immuneToDrowning": false,
     "immuneToLightning": false,
     "immuneToPotions": false,
     "immuneToPlayer": false,
     "immuneToExplosion": false,
-    "immuneToTrident": true,
-    "immuneToAnvil": true,
-    "immuneToWither": true,
-    "immuneToDragonBreath": true,
+    "immuneToTrident": false,
+    "immuneToAnvil": false,
+    "immuneToWither": false,
+    "immuneToDragonBreath": false,
     "mobDrop": {
-      "value": "CUSTOM:StatueFreddyItem"
+      "value": ""
     },
     "livingSound": {
       "value": ""
     },
     "hurtSound": {
-      "value": "block.cloth.break"
+      "value": "block.cloth.hit"
     },
     "deathSound": {
-      "value": "block.cloth.break"
+      "value": "block.anvil.destroy"
     },
     "stepSound": {
-      "value": ""
+      "value": "CUSTOM:animatronic_step"
     },
     "onRightClickedOn": {
       "name": "StatueFreddyRightClickedOnEntity"
@@ -98,11 +99,35 @@
     "onInitialSpawn": {
       "name": "StatueSpawn"
     },
-    "hasAI": false,
+    "hasAI": true,
     "aiBase": "(none)",
-    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"2621\" y=\"199\"><next><block type=\"wander\"><field name=\"speed\">0.8</field><field name=\"condition\">FreddyFazbearOnEntityTickUpdate,null</field><next><block type=\"look_around\"><field name=\"condition\">FreddyFazbearOnEntityTickUpdate,null</field><next><block type=\"wander_avoid_water\"><field name=\"speed\">0.8</field><field name=\"condition\">FreddyFazbearOnEntityTickUpdate,null</field><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">FreddyFazbearOnEntityTickUpdate,null</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntityMonster</field><field name=\"condition\">FreddyFazbearOnEntityTickUpdate,null</field></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"790\" y=\"521\"></block></xml>",
+    "model": "freddyfazbear.geo.json",
+    "groupName": "Head",
+    "animation1": "animation.freddyfazbear.pose",
+    "animation2": "animation.witheredfreddy.walk",
+    "animation3": "",
+    "animation4": "",
+    "animation5": "",
+    "animation6": "",
+    "animation7": "",
+    "animation8": "",
+    "animation9": "",
+    "animation10": "",
+    "enable2": false,
+    "enable3": false,
+    "enable4": false,
+    "enable5": false,
+    "enable6": false,
+    "enable7": false,
+    "enable8": false,
+    "enable9": false,
+    "enable10": false,
     "breedable": false,
     "tameable": false,
+    "disableDeathRotation": false,
+    "headMovement": true,
+    "eyeHeight": false,
     "breedTriggerItems": [],
     "ranged": false,
     "rangedAttackItem": {
@@ -111,6 +136,7 @@
     "rangedItemType": "Default item",
     "rangedAttackInterval": 20,
     "rangedAttackRadius": 10.0,
+    "height": 1.0,
     "spawnThisMob": false,
     "doesDespawnWhenIdle": false,
     "spawningProbability": 20,

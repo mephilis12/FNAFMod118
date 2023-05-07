@@ -1,5 +1,5 @@
 {
-  "_fv": 38,
+  "_fv": 39,
   "_type": "block",
   "definition": {
     "texture": "chair_block",
@@ -28,7 +28,7 @@
         "my": 0.0,
         "mz": 3.0,
         "Mx": 12.0,
-        "My": 11.0,
+        "My": 10.0,
         "Mz": 12.0,
         "subtract": false
       }

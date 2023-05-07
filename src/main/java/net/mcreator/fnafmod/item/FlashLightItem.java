@@ -15,7 +15,7 @@ import net.mcreator.fnafmod.init.FnafModModTabs;
 
 public class FlashLightItem extends Item {
 	public FlashLightItem() {
-		super(new Item.Properties().tab(FnafModModTabs.TAB_FNAF_ITEMS).stacksTo(1).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(FnafModModTabs.TAB_FNAF_ITEMS).durability(150).rarity(Rarity.COMMON));
 	}
 
 	@Override

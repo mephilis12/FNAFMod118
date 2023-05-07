@@ -1,4 +1,3 @@
-
 package net.mcreator.fnafmod.client.gui;
 
 import net.minecraft.world.level.Level;

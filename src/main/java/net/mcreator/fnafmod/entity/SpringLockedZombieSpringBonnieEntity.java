@@ -41,7 +41,6 @@ public class SpringLockedZombieSpringBonnieEntity extends Zombie {
 		super(type, world);
 		xpReward = 0;
 		setNoAi(false);
-		setPersistenceRequired();
 		this.setItemSlot(EquipmentSlot.HEAD, new ItemStack(FnafModModItems.SPRINGLOCKED_SUIT_HELMET.get()));
 		this.setItemSlot(EquipmentSlot.CHEST, new ItemStack(FnafModModItems.SPRINGLOCKED_SUIT_CHESTPLATE.get()));
 		this.setItemSlot(EquipmentSlot.LEGS, new ItemStack(FnafModModItems.SPRINGLOCKED_SUIT_LEGGINGS.get()));
@@ -74,11 +73,6 @@ public class SpringLockedZombieSpringBonnieEntity extends Zombie {
 	}
 
 	@Override
-	public boolean removeWhenFarAway(double distanceToClosestPlayer) {
-		return false;
-	}
-
-	@Override
 	public SoundEvent getAmbientSound() {
 		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.zombie.ambient"));
 	}
@@ -104,7 +98,7 @@ public class SpringLockedZombieSpringBonnieEntity extends Zombie {
 			int x = pos.getX();
 			int y = pos.getY();
 			int z = pos.getZ();
-			return SpringlockedZombieConditionProcedure.execute(world);
+			return SpringlockedZombieConditionProcedure.execute(world, x, y, z);
 		});
 	}
 

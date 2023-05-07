@@ -22,7 +22,7 @@ public class FlashLightOnRightClickedInAirProcedure {
 			return;
 		double dmg = 0;
 		dmg = 0;
-		if (249 >= (itemstack).getDamageValue()) {
+		if (1 <= (itemstack).getDamageValue()) {
 			if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == FnafModModItems.FLASH_LIGHT_ON.get()) {
 				dmg = (itemstack).getDamageValue();
 				if (world instanceof Level _level) {

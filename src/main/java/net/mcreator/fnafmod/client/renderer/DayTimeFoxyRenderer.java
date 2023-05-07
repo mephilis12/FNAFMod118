@@ -21,11 +21,8 @@ public class DayTimeFoxyRenderer extends GeoEntityRenderer<DayTimeFoxyEntity> {
 	}
 
 	@Override
-	public RenderType getRenderType(DayTimeFoxyEntity animatable, float partialTicks, PoseStack stack, MultiBufferSource renderTypeBuffer, VertexConsumer vertexBuilder, int packedLightIn, ResourceLocation textureLocation) {
-		if (!animatable.isBaby())
-			stack.scale(1.0F, 1.0F, 1.0F);
-		else
-			stack.scale(0.5F, 0.5F, 0.5F);
-		return RenderType.entityTranslucent(getTextureLocation(animatable));
+	public RenderType getRenderType(DayTimeFoxyEntity entity, float partialTicks, PoseStack stack, MultiBufferSource renderTypeBuffer, VertexConsumer vertexBuilder, int packedLightIn, ResourceLocation textureLocation) {
+		stack.scale(1f, 1f, 1f);
+		return RenderType.entityTranslucent(getTextureLocation(entity));
 	}
 }

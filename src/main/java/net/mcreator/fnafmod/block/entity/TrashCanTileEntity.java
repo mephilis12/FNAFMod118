@@ -33,7 +33,7 @@ import net.minecraft.core.NonNullList;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.fnafmod.block.registry.TileRegistry;
+import net.mcreator.fnafmod.init.FnafModModBlockEntities;
 
 import javax.annotation.Nullable;
 
@@ -45,7 +45,7 @@ public class TrashCanTileEntity extends RandomizableContainerBlockEntity impleme
 	private final LazyOptional<? extends IItemHandler>[] handlers = SidedInvWrapper.create(this, Direction.values());
 
 	public TrashCanTileEntity(BlockPos pos, BlockState state) {
-		super(TileRegistry.TRASH_CAN.get(), pos, state);
+		super(FnafModModBlockEntities.TRASH_CAN.get(), pos, state);
 	}
 
 	private <E extends BlockEntity & IAnimatable> PlayState predicate(AnimationEvent<E> event) {

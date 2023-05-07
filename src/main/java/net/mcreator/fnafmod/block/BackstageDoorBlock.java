@@ -10,8 +10,8 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.DoorBlock;
 import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.item.TieredItem;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.AxeItem;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.core.BlockPos;
 
@@ -30,7 +30,7 @@ public class BackstageDoorBlock extends DoorBlock {
 
 	@Override
 	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
-		if (player.getInventory().getSelected().getItem() instanceof TieredItem tieredItem)
+		if (player.getInventory().getSelected().getItem() instanceof AxeItem tieredItem)
 			return tieredItem.getTier().getLevel() >= 1;
 		return false;
 	}

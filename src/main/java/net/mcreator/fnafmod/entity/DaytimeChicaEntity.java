@@ -23,11 +23,13 @@ import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.SpawnGroupData;
+import net.minecraft.world.entity.Pose;
 import net.minecraft.world.entity.MobType;
 import net.minecraft.world.entity.MobSpawnType;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.EntityDimensions;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.InteractionResult;
@@ -164,6 +166,12 @@ public class DaytimeChicaEntity extends Monster implements IAnimatable {
 	public void baseTick() {
 		super.baseTick();
 		DayTimeChicaOnEntityTickUpdateProcedure.execute(this.level, this.getX(), this.getY(), this.getZ(), this);
+		this.refreshDimensions();
+	}
+
+	@Override
+	public EntityDimensions getDimensions(Pose p_33597_) {
+		return super.getDimensions(p_33597_).scale((float) 1);
 	}
 
 	public static void init() {

@@ -17,8 +17,8 @@ import net.minecraft.world.level.block.HorizontalDirectionalBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.context.BlockPlaceContext;
-import net.minecraft.world.item.TieredItem;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.AxeItem;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
@@ -52,10 +52,10 @@ public class ChairBlock extends Block {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> box(4, 0, 4, 13, 11, 13);
-			case NORTH -> box(3, 0, 3, 12, 11, 12);
-			case EAST -> box(4, 0, 3, 13, 11, 12);
-			case WEST -> box(3, 0, 4, 12, 11, 13);
+			default -> box(4, 0, 4, 13, 10, 13);
+			case NORTH -> box(3, 0, 3, 12, 10, 12);
+			case EAST -> box(4, 0, 3, 13, 10, 12);
+			case WEST -> box(3, 0, 4, 12, 10, 13);
 		};
 	}
 
@@ -79,7 +79,7 @@ public class ChairBlock extends Block {
 
 	@Override
 	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
-		if (player.getInventory().getSelected().getItem() instanceof TieredItem tieredItem)
+		if (player.getInventory().getSelected().getItem() instanceof AxeItem tieredItem)
 			return tieredItem.getTier().getLevel() >= 0;
 		return false;
 	}

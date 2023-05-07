@@ -21,11 +21,7 @@ public class SittingSpringBonnieRenderer extends GeoEntityRenderer<SittingSpring
 	}
 
 	@Override
-	public RenderType getRenderType(SittingSpringBonnieEntity animatable, float partialTicks, PoseStack stack, MultiBufferSource renderTypeBuffer, VertexConsumer vertexBuilder, int packedLightIn, ResourceLocation textureLocation) {
-		if (!animatable.isBaby())
-			stack.scale(1.0F, 1.0F, 1.0F);
-		else
-			stack.scale(0.5F, 0.5F, 0.5F);
-		return RenderType.entityTranslucent(getTextureLocation(animatable));
+	public RenderType getRenderType(SittingSpringBonnieEntity entity, float partialTicks, PoseStack stack, MultiBufferSource renderTypeBuffer, VertexConsumer vertexBuilder, int packedLightIn, ResourceLocation textureLocation) {
+		return RenderType.entityTranslucent(getTextureLocation(entity));
 	}
 }

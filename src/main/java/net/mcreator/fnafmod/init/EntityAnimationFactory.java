@@ -13,15 +13,21 @@ import net.mcreator.fnafmod.entity.UnwitheredFreddyEntity;
 import net.mcreator.fnafmod.entity.UnwitheredFoxyEntity;
 import net.mcreator.fnafmod.entity.UnwitheredChicaEntity;
 import net.mcreator.fnafmod.entity.UnwitheredBonnieEntity;
+import net.mcreator.fnafmod.entity.StatueFreddyEntity;
+import net.mcreator.fnafmod.entity.StatueFoxyEntity;
+import net.mcreator.fnafmod.entity.StatueChicaEntity;
+import net.mcreator.fnafmod.entity.StatueBonnieEntity;
 import net.mcreator.fnafmod.entity.SpringBonnieAnimatronicEntity;
 import net.mcreator.fnafmod.entity.SittingWitheredChicaEntity;
 import net.mcreator.fnafmod.entity.SittingWitheredBonnieEntity;
 import net.mcreator.fnafmod.entity.SittingSpringBonnieEntity;
+import net.mcreator.fnafmod.entity.SittingFredbearEntity;
 import net.mcreator.fnafmod.entity.PhantomFreddyEntity;
 import net.mcreator.fnafmod.entity.PhantomFoxyEntity;
 import net.mcreator.fnafmod.entity.GoldenFreddyEntity;
 import net.mcreator.fnafmod.entity.GlitchBonnieAnimatronicEntity;
 import net.mcreator.fnafmod.entity.FreddyFazbearEntity;
+import net.mcreator.fnafmod.entity.FreddlesEntity;
 import net.mcreator.fnafmod.entity.FredbearAnimatronicEntity;
 import net.mcreator.fnafmod.entity.FoxyPirateEntity;
 import net.mcreator.fnafmod.entity.DedWitheredFreddyEntity;
@@ -236,6 +242,48 @@ public class EntityAnimationFactory {
 				}
 			}
 			if (event.getEntity() instanceof SittingSpringBonnieEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof StatueFreddyEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof StatueChicaEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof StatueFoxyEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof StatueBonnieEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof FreddlesEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof SittingFredbearEntity syncable) {
 				String animation = syncable.getSyncedAnimation();
 				if (!animation.equals("undefined")) {
 					syncable.setAnimation("undefined");

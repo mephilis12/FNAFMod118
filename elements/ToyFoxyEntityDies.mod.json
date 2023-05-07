@@ -1,5 +1,5 @@
 {
-  "_fv": 38,
+  "_fv": 39,
   "_type": "procedure",
   "definition": {
     "procedurexml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"event_trigger\" x=\"225\" y=\"99\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"controls_if\"><value name=\"IF0\"><block type=\"logic_binary_ops\"><field name=\"OP\">EQ</field><value name=\"A\"><block type=\"world_data_logic_getgamerule\"><field name=\"gamerulesboolean\">DO_MOB_LOOT</field></block></value><value name=\"B\"><block type=\"logic_boolean\"><field name=\"BOOL\">TRUE</field></block></value></block></value><statement name=\"DO0\"><block type=\"entity_execute_command\"><value name=\"command\"><block type=\"text\"><field name=\"TEXT\">loot spawn ~ ~ ~ loot fnaf_mod:entities/toy_foxy</field></block></value><value name=\"entity\"><block type=\"entity_from_deps\"/></value></block></statement><next><block type=\"entity_execute_command\"><value name=\"command\"><block type=\"text\"><field name=\"TEXT\">summon fnaf_mod:mangle_sitting</field></block></value><value name=\"entity\"><block type=\"entity_from_deps\"/></value></block></next></block></next></block></xml>"

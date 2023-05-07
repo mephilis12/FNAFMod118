@@ -1,28 +1,30 @@
 
 package net.mcreator.fnafmod.client.renderer;
 
+import software.bernie.geckolib3.renderers.geo.GeoEntityRenderer;
+
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.entity.layers.EyesLayer;
-import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.MultiBufferSource;
 
+import net.mcreator.fnafmod.entity.model.SittingFredbearModel;
+import net.mcreator.fnafmod.entity.layer.SittingFredbearLayer;
 import net.mcreator.fnafmod.entity.SittingFredbearEntity;
-import net.mcreator.fnafmod.client.model.Modelsitting_fredbear;
 
-public class SittingFredbearRenderer extends MobRenderer<SittingFredbearEntity, Modelsitting_fredbear<SittingFredbearEntity>> {
-	public SittingFredbearRenderer(EntityRendererProvider.Context context) {
-		super(context, new Modelsitting_fredbear(context.bakeLayer(Modelsitting_fredbear.LAYER_LOCATION)), 0.5f);
-		this.addLayer(new EyesLayer<SittingFredbearEntity, Modelsitting_fredbear<SittingFredbearEntity>>(this) {
-			@Override
-			public RenderType renderType() {
-				return RenderType.eyes(new ResourceLocation("fnaf_mod:textures/entities/freddy_model_white_eye_glow.png"));
-			}
-		});
+import com.mojang.blaze3d.vertex.VertexConsumer;
+import com.mojang.blaze3d.vertex.PoseStack;
+
+public class SittingFredbearRenderer extends GeoEntityRenderer<SittingFredbearEntity> {
+	public SittingFredbearRenderer(EntityRendererProvider.Context renderManager) {
+		super(renderManager, new SittingFredbearModel());
+		this.shadowRadius = 0.5f;
+		this.addLayer(new SittingFredbearLayer(this));
 	}
 
 	@Override
-	public ResourceLocation getTextureLocation(SittingFredbearEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/entities/sitting_fredbear.png");
+	public RenderType getRenderType(SittingFredbearEntity entity, float partialTicks, PoseStack stack, MultiBufferSource renderTypeBuffer, VertexConsumer vertexBuilder, int packedLightIn, ResourceLocation textureLocation) {
+		stack.scale(1f, 1f, 1f);
+		return RenderType.entityTranslucent(getTextureLocation(entity));
 	}
 }
