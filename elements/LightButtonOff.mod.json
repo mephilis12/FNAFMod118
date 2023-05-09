@@ -9,7 +9,7 @@
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "light_button_off:default",
+    "customModelName": "light_botton_off:default",
     "rotationMode": 1,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -44,7 +44,7 @@
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:LightButton"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,

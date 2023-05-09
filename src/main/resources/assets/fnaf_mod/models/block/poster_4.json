@@ -1,5 +1,5 @@
 {
-  "parent": "fnaf_mod:custom/foxyposter",
+  "parent": "fnaf_mod:custom/poster4",
   "textures": {
     "all": "fnaf_mod:blocks/foxyposter",
     "particle": "fnaf_mod:blocks/foxyposter",

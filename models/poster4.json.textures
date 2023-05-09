@@ -5,6 +5,90 @@
         "0": "poster4"
       },
       "name": "default"
+    },
+    "freddy": {
+      "map": {
+        "0": "poster5"
+      },
+      "name": "freddy"
+    },
+    "chica": {
+      "map": {
+        "0": "poster6"
+      },
+      "name": "chica"
+    },
+    "foxy": {
+      "map": {
+        "0": "foxyposter"
+      },
+      "name": "foxy"
+    },
+    "toyfreddy": {
+      "map": {
+        "0": "toy_freddy_poster"
+      },
+      "name": "toyfreddy"
+    },
+    "toybonnie": {
+      "map": {
+        "0": "toy_bonnie_poster"
+      },
+      "name": "toybonnie"
+    },
+    "toychica": {
+      "map": {
+        "0": "toy_chica_poster"
+      },
+      "name": "toychica"
+    },
+    "fright1": {
+      "map": {
+        "0": "freddy"
+      },
+      "name": "fright1"
+    },
+    "fright2": {
+      "map": {
+        "0": "bonniefreddy"
+      },
+      "name": "fright2"
+    },
+    "fright3": {
+      "map": {
+        "0": "bonnie1"
+      },
+      "name": "fright3"
+    },
+    "fright4": {
+      "map": {
+        "0": "bonnie2"
+      },
+      "name": "fright4"
+    },
+    "fright5": {
+      "map": {
+        "0": "chica"
+      },
+      "name": "fright5"
+    },
+    "fright6": {
+      "map": {
+        "0": "bonniechica"
+      },
+      "name": "fright6"
+    },
+    "fright7": {
+      "map": {
+        "0": "springbonnie1"
+      },
+      "name": "fright7"
+    },
+    "fright8": {
+      "map": {
+        "0": "springbonnie2"
+      },
+      "name": "fright8"
     }
   }
 }

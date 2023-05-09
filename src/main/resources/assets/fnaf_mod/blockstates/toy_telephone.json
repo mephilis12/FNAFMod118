@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fnaf_mod:block/toy_telephone"
+    },
+    "facing=east": {
+      "model": "fnaf_mod:block/toy_telephone",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fnaf_mod:block/toy_telephone",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fnaf_mod:block/toy_telephone",
+      "y": 270
+    }
+  }
+}

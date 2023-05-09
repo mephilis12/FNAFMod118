@@ -21,7 +21,7 @@ public class FreddlesOnEntityTickUpdateProcedure {
 		double sy = 0;
 		double sz = 0;
 		if (entity.getPersistentData().getDouble("FNAFTimer") == 0) {
-			entity.getPersistentData().putDouble("FNAFTimer", 60);
+			entity.getPersistentData().putDouble("FNAFTimer", 180);
 		} else {
 			entity.getPersistentData().putDouble("FNAFTimer", (entity.getPersistentData().getDouble("FNAFTimer") - 1));
 		}

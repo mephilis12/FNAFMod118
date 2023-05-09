@@ -17,6 +17,7 @@ import net.minecraft.sounds.SoundSource;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.fnafmod.network.FnafModModVariables;
 import net.mcreator.fnafmod.init.FnafModModItems;
 import net.mcreator.fnafmod.init.FnafModModBlocks;
 
@@ -26,6 +27,22 @@ public class FlashLightOnItemInHandTickProcedure {
 			return;
 		double dmg = 0;
 		double distance = 0;
+		if ((entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new FnafModModVariables.PlayerVariables())).FlashLightDamage != 0) {
+			{
+				ItemStack _ist = itemstack;
+				if (_ist.hurt((int) (entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new FnafModModVariables.PlayerVariables())).FlashLightDamage, RandomSource.create(), null)) {
+					_ist.shrink(1);
+					_ist.setDamageValue(0);
+				}
+			}
+			{
+				double _setval = 0;
+				entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+					capability.FlashLightDamage = _setval;
+					capability.syncPlayerVariables(entity);
+				});
+			}
+		}
 		if (149 == (itemstack).getDamageValue()) {
 			if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == FnafModModItems.FLASH_LIGHT_ON.get()) {
 				if (world instanceof Level _level) {

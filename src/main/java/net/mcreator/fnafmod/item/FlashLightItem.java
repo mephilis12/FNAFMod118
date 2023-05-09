@@ -7,10 +7,12 @@ import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.InteractionHand;
 
 import net.mcreator.fnafmod.procedures.FlashLightRightClickedInAirProcedure;
+import net.mcreator.fnafmod.procedures.FlashLightItemInHandTickProcedure;
 import net.mcreator.fnafmod.init.FnafModModTabs;
 
 public class FlashLightItem extends Item {
@@ -33,5 +35,12 @@ public class FlashLightItem extends Item {
 
 		FlashLightRightClickedInAirProcedure.execute(world, x, y, z, entity, itemstack);
 		return ar;
+	}
+
+	@Override
+	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
+		super.inventoryTick(itemstack, world, entity, slot, selected);
+		if (selected)
+			FlashLightItemInHandTickProcedure.execute(entity, itemstack);
 	}
 }

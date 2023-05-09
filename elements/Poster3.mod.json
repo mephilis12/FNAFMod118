@@ -9,7 +9,7 @@
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "poster6:default",
+    "customModelName": "poster4:chica",
     "rotationMode": 3,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -34,7 +34,9 @@
       }
     ],
     "name": "Wall Poster 3",
-    "specialInfo": [],
+    "specialInfo": [
+      "Poster of Chica the Chicken!"
+    ],
     "hardness": 0.8,
     "resistance": 0.8,
     "hasGravity": false,

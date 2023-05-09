@@ -1,0 +1,9 @@
+{
+  "parent": "fnaf_mod:custom/toycaterpillar",
+  "textures": {
+    "all": "fnaf_mod:blocks/toycaterpiller",
+    "particle": "fnaf_mod:blocks/toycaterpiller",
+    "1": "fnaf_mod:blocks/toycaterpiller"
+  },
+  "render_type": "cutout_mipped"
+}

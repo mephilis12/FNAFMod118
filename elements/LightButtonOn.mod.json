@@ -44,7 +44,7 @@
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": "CUSTOM:LightButtonOff"
+      "value": "CUSTOM:LightButton"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,

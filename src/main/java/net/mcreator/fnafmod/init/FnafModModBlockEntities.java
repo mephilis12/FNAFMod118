@@ -13,6 +13,10 @@ import net.minecraft.world.level.block.Block;
 
 import net.mcreator.fnafmod.block.entity.VendingTopBlockEntity;
 import net.mcreator.fnafmod.block.entity.VendingBottomBlockEntity;
+import net.mcreator.fnafmod.block.entity.UnWitheredFreddyHeadTileEntity;
+import net.mcreator.fnafmod.block.entity.UnWitheredFoxyHeadTileEntity;
+import net.mcreator.fnafmod.block.entity.UnWitheredChicaHeadTileEntity;
+import net.mcreator.fnafmod.block.entity.UnWitheredBonnieHeadTileEntity;
 import net.mcreator.fnafmod.block.entity.TrashCanTileEntity;
 import net.mcreator.fnafmod.block.entity.SpringBonnieHeadTileEntity;
 import net.mcreator.fnafmod.block.entity.RemantInfuserBlockEntity;
@@ -62,6 +66,14 @@ public class FnafModModBlockEntities {
 	public static final RegistryObject<BlockEntityType<SpringBonnieHeadTileEntity>> SPRING_BONNIE_HEAD = REGISTRY.register("spring_bonnie_head",
 			() -> BlockEntityType.Builder.of(SpringBonnieHeadTileEntity::new, FnafModModBlocks.SPRING_BONNIE_HEAD.get()).build(null));
 	public static final RegistryObject<BlockEntityType<EndoBlockTileEntity>> ENDO_BLOCK = REGISTRY.register("endo_block", () -> BlockEntityType.Builder.of(EndoBlockTileEntity::new, FnafModModBlocks.ENDO_BLOCK.get()).build(null));
+	public static final RegistryObject<BlockEntityType<UnWitheredFreddyHeadTileEntity>> UN_WITHERED_FREDDY_HEAD = REGISTRY.register("un_withered_freddy_head",
+			() -> BlockEntityType.Builder.of(UnWitheredFreddyHeadTileEntity::new, FnafModModBlocks.UN_WITHERED_FREDDY_HEAD.get()).build(null));
+	public static final RegistryObject<BlockEntityType<UnWitheredBonnieHeadTileEntity>> UN_WITHERED_BONNIE_HEAD = REGISTRY.register("un_withered_bonnie_head",
+			() -> BlockEntityType.Builder.of(UnWitheredBonnieHeadTileEntity::new, FnafModModBlocks.UN_WITHERED_BONNIE_HEAD.get()).build(null));
+	public static final RegistryObject<BlockEntityType<UnWitheredFoxyHeadTileEntity>> UN_WITHERED_FOXY_HEAD = REGISTRY.register("un_withered_foxy_head",
+			() -> BlockEntityType.Builder.of(UnWitheredFoxyHeadTileEntity::new, FnafModModBlocks.UN_WITHERED_FOXY_HEAD.get()).build(null));
+	public static final RegistryObject<BlockEntityType<UnWitheredChicaHeadTileEntity>> UN_WITHERED_CHICA_HEAD = REGISTRY.register("un_withered_chica_head",
+			() -> BlockEntityType.Builder.of(UnWitheredChicaHeadTileEntity::new, FnafModModBlocks.UN_WITHERED_CHICA_HEAD.get()).build(null));
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));

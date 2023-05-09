@@ -27,6 +27,7 @@ import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.fnafmod.procedures.LightButtonOffOnBlockRightClickedProcedure;
+import net.mcreator.fnafmod.init.FnafModModBlocks;
 
 import java.util.List;
 import java.util.Collections;
@@ -87,7 +88,7 @@ public class LightButtonOffBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(this, 1));
+		return Collections.singletonList(new ItemStack(FnafModModBlocks.LIGHT_BUTTON.get()));
 	}
 
 	@Override

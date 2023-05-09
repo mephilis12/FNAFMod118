@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fnaf_mod:block/toy_robot"
+    },
+    "facing=east": {
+      "model": "fnaf_mod:block/toy_robot",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fnaf_mod:block/toy_robot",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fnaf_mod:block/toy_robot",
+      "y": 270
+    }
+  }
+}

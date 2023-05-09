@@ -9,12 +9,12 @@
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "toybonnieposter:default",
+    "customModelName": "poster4:toybonnie",
     "rotationMode": 3,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "poster_texture",
+    "itemTexture": "fnaf_2_poster",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
@@ -34,7 +34,9 @@
       }
     ],
     "name": "Wall Poster 5",
-    "specialInfo": [],
+    "specialInfo": [
+      "Poster of Toy Bonnie!"
+    ],
     "hardness": 0.8,
     "resistance": 0.8,
     "hasGravity": false,

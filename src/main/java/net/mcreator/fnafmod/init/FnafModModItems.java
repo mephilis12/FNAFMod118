@@ -76,6 +76,10 @@ import net.mcreator.fnafmod.item.BonnieGuitarItem;
 import net.mcreator.fnafmod.item.BonnieFabricItem;
 import net.mcreator.fnafmod.item.BlackPlasticItem;
 import net.mcreator.fnafmod.item.BatteryItem;
+import net.mcreator.fnafmod.block.display.UnWitheredFreddyHeadDisplayItem;
+import net.mcreator.fnafmod.block.display.UnWitheredFoxyHeadDisplayItem;
+import net.mcreator.fnafmod.block.display.UnWitheredChicaHeadDisplayItem;
+import net.mcreator.fnafmod.block.display.UnWitheredBonnieHeadDisplayItem;
 import net.mcreator.fnafmod.block.display.TrashCanDisplayItem;
 import net.mcreator.fnafmod.block.display.SpringBonnieHeadDisplayItem;
 import net.mcreator.fnafmod.block.display.MeshTrashCanDisplayItem;
@@ -604,6 +608,18 @@ public class FnafModModItems {
 	public static final RegistryObject<Item> SITTING_FREDBEAR_SPAWN_EGG = REGISTRY.register("sitting_fredbear_spawn_egg",
 			() -> new ForgeSpawnEggItem(FnafModModEntities.SITTING_FREDBEAR, -7052775, -12253365, new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
 	public static final RegistryObject<Item> ENDO_BLOCK = REGISTRY.register(FnafModModBlocks.ENDO_BLOCK.getId().getPath(), () -> new EndoBlockDisplayItem(FnafModModBlocks.ENDO_BLOCK.get(), new Item.Properties().tab(FnafModModTabs.TAB_FNAF_BLOCKS)));
+	public static final RegistryObject<Item> LIGHT_BUTTON = block(FnafModModBlocks.LIGHT_BUTTON, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> TOY_TELEPHONE = block(FnafModModBlocks.TOY_TELEPHONE, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> TOY_CATERPILLAR = block(FnafModModBlocks.TOY_CATERPILLAR, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> TOY_ROBOT = block(FnafModModBlocks.TOY_ROBOT, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> UN_WITHERED_FREDDY_HEAD = REGISTRY.register(FnafModModBlocks.UN_WITHERED_FREDDY_HEAD.getId().getPath(),
+			() -> new UnWitheredFreddyHeadDisplayItem(FnafModModBlocks.UN_WITHERED_FREDDY_HEAD.get(), new Item.Properties().tab(FnafModModTabs.TAB_FNAF_BLOCKS)));
+	public static final RegistryObject<Item> UN_WITHERED_BONNIE_HEAD = REGISTRY.register(FnafModModBlocks.UN_WITHERED_BONNIE_HEAD.getId().getPath(),
+			() -> new UnWitheredBonnieHeadDisplayItem(FnafModModBlocks.UN_WITHERED_BONNIE_HEAD.get(), new Item.Properties().tab(FnafModModTabs.TAB_FNAF_BLOCKS)));
+	public static final RegistryObject<Item> UN_WITHERED_FOXY_HEAD = REGISTRY.register(FnafModModBlocks.UN_WITHERED_FOXY_HEAD.getId().getPath(),
+			() -> new UnWitheredFoxyHeadDisplayItem(FnafModModBlocks.UN_WITHERED_FOXY_HEAD.get(), new Item.Properties().tab(FnafModModTabs.TAB_FNAF_BLOCKS)));
+	public static final RegistryObject<Item> UN_WITHERED_CHICA_HEAD = REGISTRY.register(FnafModModBlocks.UN_WITHERED_CHICA_HEAD.getId().getPath(),
+			() -> new UnWitheredChicaHeadDisplayItem(FnafModModBlocks.UN_WITHERED_CHICA_HEAD.get(), new Item.Properties().tab(FnafModModTabs.TAB_FNAF_BLOCKS)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

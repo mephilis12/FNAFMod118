@@ -9,7 +9,7 @@
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "foxyposter:default",
+    "customModelName": "poster4:foxy",
     "rotationMode": 3,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -34,7 +34,9 @@
       }
     ],
     "name": "Wall Poster 4",
-    "specialInfo": [],
+    "specialInfo": [
+      "Poster of Foxy the Pirate!"
+    ],
     "hardness": 0.8,
     "resistance": 0.8,
     "hasGravity": false,

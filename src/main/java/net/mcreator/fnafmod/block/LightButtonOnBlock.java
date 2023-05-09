@@ -103,7 +103,7 @@ public class LightButtonOnBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(FnafModModBlocks.LIGHT_BUTTON_OFF.get()));
+		return Collections.singletonList(new ItemStack(FnafModModBlocks.LIGHT_BUTTON.get()));
 	}
 
 	@Override

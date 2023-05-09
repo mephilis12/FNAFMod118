@@ -32,6 +32,9 @@
     "onRightClickedInAir": {
       "name": "FlashLightRightClickedInAir"
     },
+    "onItemInUseTick": {
+      "name": "FlashLightItemInHandTick"
+    },
     "isFood": false,
     "nutritionalValue": 0,
     "saturation": 0.30000001192092896,

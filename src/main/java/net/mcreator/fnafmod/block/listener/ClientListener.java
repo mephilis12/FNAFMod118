@@ -7,6 +7,10 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.mcreator.fnafmod.init.FnafModModBlockEntities;
+import net.mcreator.fnafmod.block.renderer.UnWitheredFreddyHeadTileRenderer;
+import net.mcreator.fnafmod.block.renderer.UnWitheredFoxyHeadTileRenderer;
+import net.mcreator.fnafmod.block.renderer.UnWitheredChicaHeadTileRenderer;
+import net.mcreator.fnafmod.block.renderer.UnWitheredBonnieHeadTileRenderer;
 import net.mcreator.fnafmod.block.renderer.TrashCanTileRenderer;
 import net.mcreator.fnafmod.block.renderer.SpringBonnieHeadTileRenderer;
 import net.mcreator.fnafmod.block.renderer.MeshTrashCanTileRenderer;
@@ -32,5 +36,9 @@ public class ClientListener {
 		event.registerBlockEntityRenderer(FnafModModBlockEntities.FREDBEAR_HEAD.get(), FredbearHeadTileRenderer::new);
 		event.registerBlockEntityRenderer(FnafModModBlockEntities.SPRING_BONNIE_HEAD.get(), SpringBonnieHeadTileRenderer::new);
 		event.registerBlockEntityRenderer(FnafModModBlockEntities.ENDO_BLOCK.get(), EndoBlockTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafModModBlockEntities.UN_WITHERED_FREDDY_HEAD.get(), UnWitheredFreddyHeadTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafModModBlockEntities.UN_WITHERED_BONNIE_HEAD.get(), UnWitheredBonnieHeadTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafModModBlockEntities.UN_WITHERED_FOXY_HEAD.get(), UnWitheredFoxyHeadTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafModModBlockEntities.UN_WITHERED_CHICA_HEAD.get(), UnWitheredChicaHeadTileRenderer::new);
 	}
 }

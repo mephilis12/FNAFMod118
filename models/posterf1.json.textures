@@ -1,0 +1,28 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "poster1"
+      },
+      "name": "default"
+    },
+    "shadow": {
+      "map": {
+        "0": "dark"
+      },
+      "name": "shadow"
+    },
+    "fredbear1": {
+      "map": {
+        "0": "poster2"
+      },
+      "name": "fredbear1"
+    },
+    "fredbear2": {
+      "map": {
+        "0": "poster3"
+      },
+      "name": "fredbear2"
+    }
+  }
+}

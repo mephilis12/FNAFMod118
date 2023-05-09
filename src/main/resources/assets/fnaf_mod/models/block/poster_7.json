@@ -1,5 +1,5 @@
 {
-  "parent": "fnaf_mod:custom/toyfreddyposter",
+  "parent": "fnaf_mod:custom/poster4",
   "textures": {
     "all": "fnaf_mod:blocks/toy_freddy_poster",
     "particle": "fnaf_mod:blocks/toy_freddy_poster",

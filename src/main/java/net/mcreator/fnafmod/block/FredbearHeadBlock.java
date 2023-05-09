@@ -33,7 +33,7 @@ import java.util.List;
 import java.util.Collections;
 
 public class FredbearHeadBlock extends BaseEntityBlock implements EntityBlock {
-	public static final IntegerProperty ANIMATION = IntegerProperty.create("animation", 0, 1000);
+	public static final IntegerProperty ANIMATION = IntegerProperty.create("animation", 0, 1);
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public FredbearHeadBlock() {

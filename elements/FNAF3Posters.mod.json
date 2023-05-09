@@ -9,12 +9,12 @@
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "bonnie-chica:default",
+    "customModelName": "poster4:fright6",
     "rotationMode": 3,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "poster_texture",
+    "itemTexture": "fnaf_3_posters",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
@@ -34,7 +34,10 @@
       }
     ],
     "name": "Fazbear's Fright Posters",
-    "specialInfo": [],
+    "specialInfo": [
+      "Posters from Fazbear's Fright",
+      "(Right Click to Change)"
+    ],
     "hardness": 0.8,
     "resistance": 0.8,
     "hasGravity": false,

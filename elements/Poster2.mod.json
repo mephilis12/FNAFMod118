@@ -9,7 +9,7 @@
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "poster5:default",
+    "customModelName": "poster4:freddy",
     "rotationMode": 3,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -34,7 +34,9 @@
       }
     ],
     "name": "Wall Poster 2",
-    "specialInfo": [],
+    "specialInfo": [
+      "Poster of Freddy Fazbear!"
+    ],
     "hardness": 0.8,
     "resistance": 0.8,
     "hasGravity": false,

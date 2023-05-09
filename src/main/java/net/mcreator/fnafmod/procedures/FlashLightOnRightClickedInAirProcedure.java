@@ -14,6 +14,7 @@ import net.minecraft.sounds.SoundSource;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.fnafmod.network.FnafModModVariables;
 import net.mcreator.fnafmod.init.FnafModModItems;
 
 public class FlashLightOnRightClickedInAirProcedure {
@@ -24,7 +25,13 @@ public class FlashLightOnRightClickedInAirProcedure {
 		dmg = 0;
 		if (1 <= (itemstack).getDamageValue()) {
 			if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == FnafModModItems.FLASH_LIGHT_ON.get()) {
-				dmg = (itemstack).getDamageValue();
+				{
+					double _setval = (itemstack).getDamageValue();
+					entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.FlashLightDamage = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
 				if (world instanceof Level _level) {
 					if (!_level.isClientSide()) {
 						_level.playSound(null, new BlockPos(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ui.button.click")), SoundSource.NEUTRAL, 1, 1);
@@ -47,7 +54,13 @@ public class FlashLightOnRightClickedInAirProcedure {
 					}
 				}
 			} else if ((entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getItem() == FnafModModItems.FLASH_LIGHT_ON.get()) {
-				dmg = (itemstack).getDamageValue();
+				{
+					double _setval = (itemstack).getDamageValue();
+					entity.getCapability(FnafModModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.FlashLightDamage = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
 				if (world instanceof Level _level) {
 					if (!_level.isClientSide()) {
 						_level.playSound(null, new BlockPos(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ui.button.click")), SoundSource.NEUTRAL, 1, 1);

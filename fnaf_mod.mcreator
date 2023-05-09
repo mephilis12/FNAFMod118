@@ -8351,7 +8351,7 @@
           "src/main/resources/assets/fnaf_mod/blockstates/children_drawings.json"
         ]
       },
-      "path": "~/Posters"
+      "path": "~/Blocks/Posters"
     },
     {
       "name": "DrawingsPosters",
@@ -8363,7 +8363,7 @@
       "metadata": {
         "files": []
       },
-      "path": "~/Posters"
+      "path": "~/Blocks/Posters"
     },
     {
       "name": "ChildrenDrawings2",
@@ -8380,7 +8380,7 @@
           "src/main/resources/assets/fnaf_mod/models/block/children_drawings_2.json"
         ]
       },
-      "path": "~/Posters"
+      "path": "~/Blocks/Posters"
     },
     {
       "name": "NoseHonk",
@@ -8469,7 +8469,7 @@
           "src/main/resources/assets/fnaf_mod/blockstates/children_drawings_3.json"
         ]
       },
-      "path": "~/Posters"
+      "path": "~/Blocks/Posters"
     },
     {
       "name": "Poster1",
@@ -8486,7 +8486,7 @@
           "src/main/resources/assets/fnaf_mod/models/item/poster_1.json"
         ]
       },
-      "path": "~/Posters"
+      "path": "~/Blocks/Posters"
     },
     {
       "name": "Poster2",
@@ -8503,7 +8503,7 @@
           "src/main/resources/assets/fnaf_mod/models/block/poster_2.json"
         ]
       },
-      "path": "~/Posters"
+      "path": "~/Blocks/Posters"
     },
     {
       "name": "Poster3",
@@ -8520,7 +8520,7 @@
           "src/main/resources/assets/fnaf_mod/blockstates/poster_3.json"
         ]
       },
-      "path": "~/Posters"
+      "path": "~/Blocks/Posters"
     },
     {
       "name": "WarningSign",
@@ -9533,7 +9533,7 @@
           "src/main/java/net/mcreator/fnafmod/block/PaperPalBonnieBlock.java"
         ]
       },
-      "path": "~/Posters"
+      "path": "~/Blocks/Posters"
     },
     {
       "name": "PaperPalFreddy",
@@ -9550,7 +9550,7 @@
           "src/main/resources/assets/fnaf_mod/models/block/paper_pal_freddy.json"
         ]
       },
-      "path": "~/Posters"
+      "path": "~/Blocks/Posters"
     },
     {
       "name": "PaperPal",
@@ -9567,7 +9567,7 @@
           "src/main/resources/assets/fnaf_mod/models/block/paper_pal.json"
         ]
       },
-      "path": "~/Posters"
+      "path": "~/Blocks/Posters"
     },
     {
       "name": "LightButtonOnValue",
@@ -12284,7 +12284,7 @@
           "src/main/resources/assets/fnaf_mod/blockstates/fnaf_1_celebrate.json"
         ]
       },
-      "path": "~/Posters"
+      "path": "~/Blocks/Posters"
     },
     {
       "name": "PizzaSlice",
@@ -12316,7 +12316,7 @@
           "src/main/java/net/mcreator/fnafmod/block/FNAF3PostersBlock.java"
         ]
       },
-      "path": "~/Posters"
+      "path": "~/Blocks/Posters"
     },
     {
       "name": "FNAF3Posters2",
@@ -12333,7 +12333,7 @@
           "src/main/java/net/mcreator/fnafmod/block/FNAF3Posters2Block.java"
         ]
       },
-      "path": "~/Posters"
+      "path": "~/Blocks/Posters"
     },
     {
       "name": "FNAF3Posters3",
@@ -12350,7 +12350,7 @@
           "src/main/resources/assets/fnaf_mod/blockstates/fnaf_3_posters_3.json"
         ]
       },
-      "path": "~/Posters"
+      "path": "~/Blocks/Posters"
     },
     {
       "name": "FNAF3Posters4",
@@ -12367,7 +12367,7 @@
           "src/main/resources/assets/fnaf_mod/models/block/fnaf_3_posters_4.json"
         ]
       },
-      "path": "~/Posters"
+      "path": "~/Blocks/Posters"
     },
     {
       "name": "FNAF3Posters5",
@@ -12384,7 +12384,7 @@
           "src/main/resources/assets/fnaf_mod/models/block/fnaf_3_posters_5.json"
         ]
       },
-      "path": "~/Posters"
+      "path": "~/Blocks/Posters"
     },
     {
       "name": "FNAF3Posters6",
@@ -12401,7 +12401,7 @@
           "src/main/resources/assets/fnaf_mod/blockstates/fnaf_3_posters_6.json"
         ]
       },
-      "path": "~/Posters"
+      "path": "~/Blocks/Posters"
     },
     {
       "name": "FNAF3Posters7",
@@ -12418,7 +12418,7 @@
           "src/main/resources/assets/fnaf_mod/blockstates/fnaf_3_posters_7.json"
         ]
       },
-      "path": "~/Posters"
+      "path": "~/Blocks/Posters"
     },
     {
       "name": "FNAF3Posters8",
@@ -12435,7 +12435,7 @@
           "src/main/resources/assets/fnaf_mod/models/block/fnaf_3_posters_8.json"
         ]
       },
-      "path": "~/Posters"
+      "path": "~/Blocks/Posters"
     },
     {
       "name": "FNAF3PostersOnBlockRightClicked",
@@ -12467,7 +12467,7 @@
           }
         ]
       },
-      "path": "~/Posters"
+      "path": "~/Blocks/Posters"
     },
     {
       "name": "FNAF3Posters2OnBlockRightClicked",
@@ -12499,7 +12499,7 @@
           }
         ]
       },
-      "path": "~/Posters"
+      "path": "~/Blocks/Posters"
     },
     {
       "name": "FNAF3Posters3OnBlockRightClicked",
@@ -12531,7 +12531,7 @@
           }
         ]
       },
-      "path": "~/Posters"
+      "path": "~/Blocks/Posters"
     },
     {
       "name": "FNAF3Posters4OnBlockRightClicked",
@@ -12563,7 +12563,7 @@
           }
         ]
       },
-      "path": "~/Posters"
+      "path": "~/Blocks/Posters"
     },
     {
       "name": "FNAF3Posters5OnBlockRightClicked",
@@ -12595,7 +12595,7 @@
           }
         ]
       },
-      "path": "~/Posters"
+      "path": "~/Blocks/Posters"
     },
     {
       "name": "FNAF3Posters6OnBlockRightClicked",
@@ -12627,7 +12627,7 @@
           }
         ]
       },
-      "path": "~/Posters"
+      "path": "~/Blocks/Posters"
     },
     {
       "name": "FNAF3Posters7OnBlockRightClicked",
@@ -12659,7 +12659,7 @@
           }
         ]
       },
-      "path": "~/Posters"
+      "path": "~/Blocks/Posters"
     },
     {
       "name": "FNAF3Posters8OnBlockRightClicked",
@@ -12691,7 +12691,7 @@
           }
         ]
       },
-      "path": "~/Posters"
+      "path": "~/Blocks/Posters"
     },
     {
       "name": "ToyBox",
@@ -12731,7 +12731,7 @@
           "src/main/java/net/mcreator/fnafmod/block/ChildrenDrawings4Block.java"
         ]
       },
-      "path": "~/Posters"
+      "path": "~/Blocks/Posters"
     },
     {
       "name": "BBPlayerCollidesWithThisEntity",
@@ -13047,7 +13047,7 @@
           "src/main/resources/assets/fnaf_mod/models/block/children_drawings_5.json"
         ]
       },
-      "path": "~/Posters"
+      "path": "~/Blocks/Posters"
     },
     {
       "name": "ChildrenDrawings6",
@@ -13064,7 +13064,7 @@
           "src/main/resources/assets/fnaf_mod/models/block/children_drawings_6.json"
         ]
       },
-      "path": "~/Posters"
+      "path": "~/Blocks/Posters"
     },
     {
       "name": "ChildrenDrawings7",
@@ -13081,7 +13081,7 @@
           "src/main/resources/assets/fnaf_mod/blockstates/children_drawings_7.json"
         ]
       },
-      "path": "~/Posters"
+      "path": "~/Blocks/Posters"
     },
     {
       "name": "FNAF2Celebrate",
@@ -13098,7 +13098,7 @@
           "src/main/resources/assets/fnaf_mod/models/block/fnaf_2_celebrate.json"
         ]
       },
-      "path": "~/Posters"
+      "path": "~/Blocks/Posters"
     },
     {
       "name": "PrizeCornerPoster",
@@ -13115,7 +13115,7 @@
           "src/main/resources/assets/fnaf_mod/models/block/prize_corner_poster.json"
         ]
       },
-      "path": "~/Posters"
+      "path": "~/Blocks/Posters"
     },
     {
       "name": "PhantomBB",
@@ -14238,7 +14238,7 @@
           "src/main/resources/assets/fnaf_mod/blockstates/poster_4.json"
         ]
       },
-      "path": "~/Posters"
+      "path": "~/Blocks/Posters"
     },
     {
       "name": "Poster5",
@@ -14255,7 +14255,7 @@
           "src/main/resources/assets/fnaf_mod/models/block/poster_5.json"
         ]
       },
-      "path": "~/Posters"
+      "path": "~/Blocks/Posters"
     },
     {
       "name": "Poster6",
@@ -14272,7 +14272,7 @@
           "src/main/resources/assets/fnaf_mod/models/block/poster_6.json"
         ]
       },
-      "path": "~/Posters"
+      "path": "~/Blocks/Posters"
     },
     {
       "name": "Poster7",
@@ -14289,7 +14289,7 @@
           "src/main/resources/assets/fnaf_mod/blockstates/poster_7.json"
         ]
       },
-      "path": "~/Posters"
+      "path": "~/Blocks/Posters"
     },
     {
       "name": "PizzaBoxOpenLootTable",
@@ -22231,6 +22231,192 @@
         ]
       },
       "path": "~/Blocks/DecorativeBlocks"
+    },
+    {
+      "name": "LightButton",
+      "type": "block",
+      "sortid": 1107,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "light_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/models/block/light_button_pressed.json",
+          "src/main/java/net/mcreator/fnafmod/block/LightButtonBlock.java",
+          "src/main/resources/assets/fnaf_mod/models/block/light_button_inventory.json",
+          "src/main/resources/assets/fnaf_mod/blockstates/light_button.json",
+          "src/main/resources/assets/fnaf_mod/models/block/light_button.json",
+          "src/main/resources/assets/fnaf_mod/models/item/light_button.json"
+        ]
+      },
+      "path": "~/Blocks/FunctionalBlocks"
+    },
+    {
+      "name": "ToyTelephone",
+      "type": "block",
+      "sortid": 1108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toy_telephone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/models/block/toy_telephone.json",
+          "src/main/resources/assets/fnaf_mod/blockstates/toy_telephone.json",
+          "src/main/java/net/mcreator/fnafmod/block/ToyTelephoneBlock.java",
+          "src/main/resources/assets/fnaf_mod/models/item/toy_telephone.json"
+        ]
+      },
+      "path": "~/Blocks/DecorativeBlocks"
+    },
+    {
+      "name": "ToyCaterpillar",
+      "type": "block",
+      "sortid": 1109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toy_caterpillar",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/block/ToyCaterpillarBlock.java",
+          "src/main/resources/assets/fnaf_mod/blockstates/toy_caterpillar.json",
+          "src/main/resources/assets/fnaf_mod/models/item/toy_caterpillar.json",
+          "src/main/resources/assets/fnaf_mod/models/block/toy_caterpillar.json"
+        ]
+      },
+      "path": "~/Blocks/DecorativeBlocks"
+    },
+    {
+      "name": "ToyRobot",
+      "type": "block",
+      "sortid": 1110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toy_robot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/models/item/toy_robot.json",
+          "src/main/java/net/mcreator/fnafmod/block/ToyRobotBlock.java",
+          "src/main/resources/assets/fnaf_mod/blockstates/toy_robot.json",
+          "src/main/resources/assets/fnaf_mod/models/block/toy_robot.json"
+        ]
+      },
+      "path": "~/Blocks/DecorativeBlocks"
+    },
+    {
+      "name": "FlashLightItemInHandTick",
+      "type": "procedure",
+      "sortid": 1111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flash_light_item_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/procedures/FlashLightItemInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "UnWitheredFreddyHead",
+      "type": "animatedblock",
+      "sortid": 1112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "un_withered_freddy_head",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/models/item/un_withered_freddy_head.json",
+          "src/main/java/net/mcreator/fnafmod/block/model/UnWitheredFreddyHeadBlockModel.java",
+          "src/main/java/net/mcreator/fnafmod/block/display/UnWitheredFreddyHeadDisplayItem.java",
+          "src/main/resources/assets/fnaf_mod/blockstates/un_withered_freddy_head.json",
+          "src/main/java/net/mcreator/fnafmod/block/model/UnWitheredFreddyHeadDisplayModel.java",
+          "src/main/java/net/mcreator/fnafmod/block/renderer/UnWitheredFreddyHeadDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafmod/block/entity/UnWitheredFreddyHeadTileEntity.java",
+          "src/main/resources/assets/fnaf_mod/models/custom/un_withered_freddy_head_particle.json",
+          "src/main/java/net/mcreator/fnafmod/block/UnWitheredFreddyHeadBlock.java",
+          "src/main/java/net/mcreator/fnafmod/block/renderer/UnWitheredFreddyHeadTileRenderer.java"
+        ]
+      },
+      "path": "~/Blocks/DecorativeBlocks"
+    },
+    {
+      "name": "UnWitheredBonnieHead",
+      "type": "animatedblock",
+      "sortid": 1113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "un_withered_bonnie_head",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/block/model/UnWitheredBonnieHeadBlockModel.java",
+          "src/main/java/net/mcreator/fnafmod/block/UnWitheredBonnieHeadBlock.java",
+          "src/main/java/net/mcreator/fnafmod/block/model/UnWitheredBonnieHeadDisplayModel.java",
+          "src/main/java/net/mcreator/fnafmod/block/display/UnWitheredBonnieHeadDisplayItem.java",
+          "src/main/java/net/mcreator/fnafmod/block/renderer/UnWitheredBonnieHeadTileRenderer.java",
+          "src/main/java/net/mcreator/fnafmod/block/renderer/UnWitheredBonnieHeadDisplayItemRenderer.java",
+          "src/main/resources/assets/fnaf_mod/blockstates/un_withered_bonnie_head.json",
+          "src/main/resources/assets/fnaf_mod/models/item/un_withered_bonnie_head.json",
+          "src/main/java/net/mcreator/fnafmod/block/entity/UnWitheredBonnieHeadTileEntity.java",
+          "src/main/resources/assets/fnaf_mod/models/custom/un_withered_bonnie_head_particle.json"
+        ]
+      },
+      "path": "~/Blocks/DecorativeBlocks"
+    },
+    {
+      "name": "UnWitheredFoxyHead",
+      "type": "animatedblock",
+      "sortid": 1115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "un_withered_foxy_head",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/block/entity/UnWitheredFoxyHeadTileEntity.java",
+          "src/main/java/net/mcreator/fnafmod/block/model/UnWitheredFoxyHeadDisplayModel.java",
+          "src/main/resources/assets/fnaf_mod/models/custom/un_withered_foxy_head_particle.json",
+          "src/main/java/net/mcreator/fnafmod/block/UnWitheredFoxyHeadBlock.java",
+          "src/main/resources/assets/fnaf_mod/blockstates/un_withered_foxy_head.json",
+          "src/main/resources/assets/fnaf_mod/models/item/un_withered_foxy_head.json",
+          "src/main/java/net/mcreator/fnafmod/block/display/UnWitheredFoxyHeadDisplayItem.java",
+          "src/main/java/net/mcreator/fnafmod/block/renderer/UnWitheredFoxyHeadDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafmod/block/model/UnWitheredFoxyHeadBlockModel.java",
+          "src/main/java/net/mcreator/fnafmod/block/renderer/UnWitheredFoxyHeadTileRenderer.java"
+        ]
+      },
+      "path": "~/Blocks/DecorativeBlocks"
+    },
+    {
+      "name": "UnWitheredChicaHead",
+      "type": "animatedblock",
+      "sortid": 1116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "un_withered_chica_head",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/block/entity/UnWitheredChicaHeadTileEntity.java",
+          "src/main/java/net/mcreator/fnafmod/block/UnWitheredChicaHeadBlock.java",
+          "src/main/resources/assets/fnaf_mod/models/item/un_withered_chica_head.json",
+          "src/main/java/net/mcreator/fnafmod/block/model/UnWitheredChicaHeadDisplayModel.java",
+          "src/main/java/net/mcreator/fnafmod/block/renderer/UnWitheredChicaHeadTileRenderer.java",
+          "src/main/resources/assets/fnaf_mod/blockstates/un_withered_chica_head.json",
+          "src/main/resources/assets/fnaf_mod/models/custom/un_withered_chica_head_particle.json",
+          "src/main/java/net/mcreator/fnafmod/block/renderer/UnWitheredChicaHeadDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafmod/block/model/UnWitheredChicaHeadBlockModel.java",
+          "src/main/java/net/mcreator/fnafmod/block/display/UnWitheredChicaHeadDisplayItem.java"
+        ]
+      },
+      "path": "~/Blocks/DecorativeBlocks"
     }
   ],
   "variable_elements": [
@@ -22515,6 +22701,12 @@
       "type": "number",
       "scope": "player_persistent",
       "value": "0"
+    },
+    {
+      "name": "FlashLightDamage",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
     }
   ],
   "sound_elements": [
@@ -22751,8 +22943,8 @@
       "entity.fnaf_mod.day_time_toy_freddy": "DayTime Toy Freddy",
       "item.fnaf_mod.white_plastic": "White Plastic",
       "block.fnaf_mod.phone": "Phone",
-      "subtitles.breathing": "Breathing",
       "item.fnaf_mod.happiest_day.desc": "Bad Ending - LordSmugDread",
+      "subtitles.breathing": "Breathing",
       "block.fnaf_mod.arcade_machine_shadow_freddy": "Arcade Machine ???",
       "item.fnaf_mod.pizza_slice": "Pizza Slice",
       "entity.fnaf_mod.bonnie_stand": "Bonnie Stand",
@@ -22868,9 +23060,11 @@
       "item.fnaf_mod.fredbear_animatronic_spawn_egg": "Fredbear Spawn Egg",
       "block.fnaf_mod.closet_right_top": "Closet Door",
       "block.fnaf_mod.big_white_checkered_wall": "Big White Checkered Wall",
+      "block.fnaf_mod.un_withered_bonnie_head": "Un-Withered Bonnie Head",
       "entity.fnaf_mod.spring_bonnie_cut_out": "Spring Bonnie Cutout",
       "item.fnaf_mod.fredbear_spring_lock_suit_chestplate": "Fredbear Spring Lock Body",
       "gui.fnaf_mod.wall_change_1.label_two_room_and_hall_faces": "Two Room and Hall Faces ",
+      "block.fnaf_mod.toy_robot": "Toy Robot",
       "item.fnaf_mod.guard_hat_helmet": "Guard Hat Helmet",
       "subtitles.cameraup": "",
       "item.fnaf_mod.brown_plastic": "Brown Plastic",
@@ -22905,6 +23099,7 @@
       "item.fnaf_mod.evil_freddy_item_spawn": "Dark Remnant Infused Freddy",
       "item.fnaf_mod.dont_go": "Music Disc",
       "block.fnaf_mod.purple_stage_brick_tiles": "Purple Etched Brick Tiles",
+      "block.fnaf_mod.un_withered_foxy_head": "Un-Withered Foxy Head",
       "block.fnaf_mod.remnant_infuser": "Remnant Infuser",
       "item.fnaf_mod.springlocked_zombie_fredbear_spawn_egg": "Springlocked Zombie Fredbear Spawn Egg",
       "block.fnaf_mod.fredbear_plush": "Fredbear Plushie?",
@@ -22931,6 +23126,7 @@
       "block.fnaf_mod.alternate_white_black_wall_tile": "Alternate White Wall Tiles",
       "block.fnaf_mod.blue_black_tile_stairs_cracked": "Cracked Blue Black Tile Stairs",
       "block.fnaf_mod.mangle_spawn_block_idle": "Mangle Spawn Block Idle",
+      "block.fnaf_mod.light_button": "Light Button",
       "block.fnaf_mod.door_button_off": "Door Button Off",
       "item.fnaf_mod.crawling_toy_foxy_spawn_egg": "Crawling Toy Foxy Spawn Egg",
       "itemGroup.tabfnaf_blocks": "FNAF Blocks",
@@ -23070,6 +23266,7 @@
       "block.fnaf_mod.diner_chair_5": "Diner Chair {Yellow}",
       "block.fnaf_mod.diner_chair_4": "Diner Chair {Purple}",
       "block.fnaf_mod.plushtrap_chair": "Tall Chair",
+      "block.fnaf_mod.un_withered_freddy_head": "Un-Withered Freddy Head",
       "entity.fnaf_mod.sitting_withered_chica": "Withered Chica",
       "subtitles.nosehonk": "Honk",
       "itemGroup.tabstructure_spawners": "Structure Spawners",
@@ -23168,6 +23365,7 @@
       "item.fnaf_mod.bonnie_fabric": "Purple Fabric",
       "item.fnaf_mod.standing_daytime_springtrap_spawn_egg": "DayTime Springtrap Standing Spawn Egg",
       "item.fnaf_mod.crawling_springtrap_spawn_egg": "Crawling Springtrap Spawn Egg",
+      "block.fnaf_mod.toy_telephone": "Toy Telephone",
       "item.fnaf_mod.unwithered_foxy_spawn_egg": "Un-Withered Foxy Spawn Egg",
       "block.fnaf_mod.error_tile": "Missing Texture Tile",
       "gui.fnaf_mod.camera_gui.button_camera_2": "Camera 2",
@@ -23220,6 +23418,7 @@
       "block.fnaf_mod.fnaf_wall_top_rotable_4": "Tapestry Top Rotable Type D",
       "block.fnaf_mod.stage_bricks": "Etched Bricks",
       "block.fnaf_mod.fnaf_wall_top_rotable_2": "Tapestry Top Rotable Type B",
+      "block.fnaf_mod.toy_caterpillar": "Toy Caterpillar",
       "block.fnaf_mod.fnaf_wall_top_rotable_3": "Tapestry Top Rotable Type C",
       "block.fnaf_mod.alternate_big_white_black_striped_wall_tiles": "Alternate Big White Black Striped Wall Tiles",
       "gui.fnaf_mod.camera_gui.label_with_the_monitor": "with the Monitor",
@@ -23244,6 +23443,7 @@
       "entity.fnaf_mod.crawling_toy_bonnie": "Crawling Toy Bonnie",
       "block.fnaf_mod.puppet_mask": "Puppet Mask Decoration",
       "item.fnaf_mod.puppet_spawn_egg": "Puppet Spawn Egg",
+      "block.fnaf_mod.un_withered_chica_head": "Un-Withered Chica Head",
       "item.fnaf_mod.springlocked_fredbear_suit_helmet": "Fredbear Spring Lock Head",
       "item.fnaf_mod.our_little_horror_story.desc": "Our Little Horror Story Funky Mix - SomethingFunky",
       "item.fnaf_mod.freddy": "Drone Freddy",
@@ -23413,6 +23613,10 @@
           {
             "name": "FunctionalBlocks",
             "children": []
+          },
+          {
+            "name": "Posters",
+            "children": []
           }
         ]
       },
@@ -23454,10 +23658,6 @@
       },
       {
         "name": "Structures",
-        "children": []
-      },
-      {
-        "name": "Posters",
         "children": []
       },
       {

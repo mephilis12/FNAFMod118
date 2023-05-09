@@ -28,7 +28,7 @@ import java.util.List;
 import java.util.Collections;
 
 public class MeshTrashCanBlock extends BaseEntityBlock implements EntityBlock {
-	public static final IntegerProperty ANIMATION = IntegerProperty.create("animation", 0, 1000);
+	public static final IntegerProperty ANIMATION = IntegerProperty.create("animation", 0, 1);
 
 	public MeshTrashCanBlock() {
 		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.LANTERN).strength(1.2f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));

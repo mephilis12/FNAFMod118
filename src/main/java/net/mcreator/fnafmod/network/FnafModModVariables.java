@@ -74,6 +74,7 @@ public class FnafModModVariables {
 			PlayerVariables clone = ((PlayerVariables) event.getEntity().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 			clone.Mask = original.Mask;
 			clone.CanPoison = original.CanPoison;
+			clone.FlashLightDamage = original.FlashLightDamage;
 			if (!event.isWasDeath()) {
 				clone.goldenkill = original.goldenkill;
 				clone.FreddyFrame1 = original.FreddyFrame1;
@@ -336,6 +337,7 @@ public class FnafModModVariables {
 		public double WitheredFoxyJumpscare = 0;
 		public double MangleJumpscare = 0;
 		public double CanPoison = 0;
+		public double FlashLightDamage = 0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -383,6 +385,7 @@ public class FnafModModVariables {
 			nbt.putDouble("WitheredFoxyJumpscare", WitheredFoxyJumpscare);
 			nbt.putDouble("MangleJumpscare", MangleJumpscare);
 			nbt.putDouble("CanPoison", CanPoison);
+			nbt.putDouble("FlashLightDamage", FlashLightDamage);
 			return nbt;
 		}
 
@@ -427,6 +430,7 @@ public class FnafModModVariables {
 			WitheredFoxyJumpscare = nbt.getDouble("WitheredFoxyJumpscare");
 			MangleJumpscare = nbt.getDouble("MangleJumpscare");
 			CanPoison = nbt.getDouble("CanPoison");
+			FlashLightDamage = nbt.getDouble("FlashLightDamage");
 		}
 	}
 
@@ -490,6 +494,7 @@ public class FnafModModVariables {
 					variables.WitheredFoxyJumpscare = message.data.WitheredFoxyJumpscare;
 					variables.MangleJumpscare = message.data.MangleJumpscare;
 					variables.CanPoison = message.data.CanPoison;
+					variables.FlashLightDamage = message.data.FlashLightDamage;
 				}
 			});
 			context.setPacketHandled(true);

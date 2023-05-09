@@ -34,7 +34,9 @@
       }
     ],
     "name": "Wall Poster 1",
-    "specialInfo": [],
+    "specialInfo": [
+      "Poster of Bonnie the Bunny!"
+    ],
     "hardness": 0.8,
     "resistance": 0.8,
     "hasGravity": false,

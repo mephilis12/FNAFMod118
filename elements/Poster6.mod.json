@@ -9,12 +9,12 @@
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "toychicaposter:default",
+    "customModelName": "poster4:toychica",
     "rotationMode": 3,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "poster_texture",
+    "itemTexture": "fnaf_2_poster",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
@@ -34,7 +34,9 @@
       }
     ],
     "name": "Wall Poster 6",
-    "specialInfo": [],
+    "specialInfo": [
+      "Poster of Toy Chica!"
+    ],
     "hardness": 0.8,
     "resistance": 0.8,
     "hasGravity": false,
