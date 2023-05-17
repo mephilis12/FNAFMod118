@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fnaf_mod:block/lined_wall"
+    },
+    "facing=east": {
+      "model": "fnaf_mod:block/lined_wall",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fnaf_mod:block/lined_wall",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fnaf_mod:block/lined_wall",
+      "y": 270
+    }
+  }
+}

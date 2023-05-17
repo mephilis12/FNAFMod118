@@ -81,6 +81,14 @@ import net.mcreator.fnafmod.block.display.UnWitheredFoxyHeadDisplayItem;
 import net.mcreator.fnafmod.block.display.UnWitheredChicaHeadDisplayItem;
 import net.mcreator.fnafmod.block.display.UnWitheredBonnieHeadDisplayItem;
 import net.mcreator.fnafmod.block.display.TrashCanDisplayItem;
+import net.mcreator.fnafmod.block.display.StageLightRedOnDisplayItem;
+import net.mcreator.fnafmod.block.display.StageLightRedOffDisplayItem;
+import net.mcreator.fnafmod.block.display.StageLightPinkOnDisplayItem;
+import net.mcreator.fnafmod.block.display.StageLightPinkOffDisplayItem;
+import net.mcreator.fnafmod.block.display.StageLightOrangeOnDisplayItem;
+import net.mcreator.fnafmod.block.display.StageLightOrangeOffDisplayItem;
+import net.mcreator.fnafmod.block.display.StageLightOnDisplayItem;
+import net.mcreator.fnafmod.block.display.StageLightOffDisplayItem;
 import net.mcreator.fnafmod.block.display.SpringBonnieHeadDisplayItem;
 import net.mcreator.fnafmod.block.display.MeshTrashCanDisplayItem;
 import net.mcreator.fnafmod.block.display.FreddyHeadDisplayItem;
@@ -202,7 +210,7 @@ public class FnafModModItems {
 	public static final RegistryObject<Item> PIZZA_BOX_CLOSED = block(FnafModModBlocks.PIZZA_BOX_CLOSED, FnafModModTabs.TAB_FNAF_BLOCKS);
 	public static final RegistryObject<Item> PIZZA_BOX_OPEN = block(FnafModModBlocks.PIZZA_BOX_OPEN, FnafModModTabs.TAB_FNAF_BLOCKS);
 	public static final RegistryObject<Item> DOOR_BUTTON_OFF = block(FnafModModBlocks.DOOR_BUTTON_OFF, FnafModModTabs.TAB_FNAF_BLOCKS);
-	public static final RegistryObject<Item> LIGHT_BUTTON_OFF = block(FnafModModBlocks.LIGHT_BUTTON_OFF, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> LIGHT_BUTTON_OFF = block(FnafModModBlocks.LIGHT_BUTTON_OFF, null);
 	public static final RegistryObject<Item> STARS = block(FnafModModBlocks.STARS, FnafModModTabs.TAB_FNAF_BLOCKS);
 	public static final RegistryObject<Item> DESK = block(FnafModModBlocks.DESK, FnafModModTabs.TAB_FNAF_BLOCKS);
 	public static final RegistryObject<Item> SECURITY_DOOR_OPEN = block(FnafModModBlocks.SECURITY_DOOR_OPEN, FnafModModTabs.TAB_FNAF_BLOCKS);
@@ -620,6 +628,54 @@ public class FnafModModItems {
 			() -> new UnWitheredFoxyHeadDisplayItem(FnafModModBlocks.UN_WITHERED_FOXY_HEAD.get(), new Item.Properties().tab(FnafModModTabs.TAB_FNAF_BLOCKS)));
 	public static final RegistryObject<Item> UN_WITHERED_CHICA_HEAD = REGISTRY.register(FnafModModBlocks.UN_WITHERED_CHICA_HEAD.getId().getPath(),
 			() -> new UnWitheredChicaHeadDisplayItem(FnafModModBlocks.UN_WITHERED_CHICA_HEAD.get(), new Item.Properties().tab(FnafModModTabs.TAB_FNAF_BLOCKS)));
+	public static final RegistryObject<Item> FREDBEAR_POSTER_1 = block(FnafModModBlocks.FREDBEAR_POSTER_1, FnafModModTabs.TAB_DRAWINGS_POSTERS);
+	public static final RegistryObject<Item> FREDBEAR_POSTER_2 = block(FnafModModBlocks.FREDBEAR_POSTER_2, FnafModModTabs.TAB_DRAWINGS_POSTERS);
+	public static final RegistryObject<Item> FREDBEAR_POSTER_3 = block(FnafModModBlocks.FREDBEAR_POSTER_3, FnafModModTabs.TAB_DRAWINGS_POSTERS);
+	public static final RegistryObject<Item> FREDBEAR_POSTER_4 = block(FnafModModBlocks.FREDBEAR_POSTER_4, null);
+	public static final RegistryObject<Item> WHITE_WALL_STAIRS = block(FnafModModBlocks.WHITE_WALL_STAIRS, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> WHITE_WALL_SLAB = block(FnafModModBlocks.WHITE_WALL_SLAB, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> BALLOON_PURPLE = block(FnafModModBlocks.BALLOON_PURPLE, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> LINED_WALL = block(FnafModModBlocks.LINED_WALL, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> FREDBEARS_FREDDY_SPAWN_EGG = REGISTRY.register("fredbears_freddy_spawn_egg",
+			() -> new ForgeSpawnEggItem(FnafModModEntities.FREDBEARS_FREDDY, -13296120, -8830717, new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
+	public static final RegistryObject<Item> FREDBEARS_BONNIE_SPAWN_EGG = REGISTRY.register("fredbears_bonnie_spawn_egg",
+			() -> new ForgeSpawnEggItem(FnafModModEntities.FREDBEARS_BONNIE, -13490595, -10724730, new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
+	public static final RegistryObject<Item> FREDBEARS_CHICA_SPAWN_EGG = REGISTRY.register("fredbears_chica_spawn_egg",
+			() -> new ForgeSpawnEggItem(FnafModModEntities.FREDBEARS_CHICA, -5209330, -6532331, new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
+	public static final RegistryObject<Item> FREDBEARS_FOXY_SPAWN_EGG = REGISTRY.register("fredbears_foxy_spawn_egg",
+			() -> new ForgeSpawnEggItem(FnafModModEntities.FREDBEARS_FOXY, -12184303, -6335661, new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
+	public static final RegistryObject<Item> NIGHTMARE_BB_SPAWN_EGG = REGISTRY.register("nightmare_bb_spawn_egg", () -> new ForgeSpawnEggItem(FnafModModEntities.NIGHTMARE_BB, -5701406, -2025705, new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> SITTING_NIGHTMARE_BB_SPAWN_EGG = REGISTRY.register("sitting_nightmare_bb_spawn_egg",
+			() -> new ForgeSpawnEggItem(FnafModModEntities.SITTING_NIGHTMARE_BB, -10089213, -13820081, new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
+	public static final RegistryObject<Item> PLUSHTRAP_TOY_SPAWN_EGG = REGISTRY.register("plushtrap_toy_spawn_egg",
+			() -> new ForgeSpawnEggItem(FnafModModEntities.PLUSHTRAP_TOY, -5010412, -4679615, new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
+	public static final RegistryObject<Item> NIGHTMARE_SPAWN_EGG = REGISTRY.register("nightmare_spawn_egg", () -> new ForgeSpawnEggItem(FnafModModEntities.NIGHTMARE, -15132391, -1253575, new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
+	public static final RegistryObject<Item> JACK_O_BONNIE_SPAWN_EGG = REGISTRY.register("jack_o_bonnie_spawn_egg",
+			() -> new ForgeSpawnEggItem(FnafModModEntities.JACK_O_BONNIE, -4760037, -7905500, new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
+	public static final RegistryObject<Item> JACK_O_CHICA_SPAWN_EGG = REGISTRY.register("jack_o_chica_spawn_egg",
+			() -> new ForgeSpawnEggItem(FnafModModEntities.JACK_O_CHICA, -3637975, -5739458, new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
+	public static final RegistryObject<Item> NIGHTMARE_MANGLE_SPAWN_EGG = REGISTRY.register("nightmare_mangle_spawn_egg",
+			() -> new ForgeSpawnEggItem(FnafModModEntities.NIGHTMARE_MANGLE, -1131591, -646018, new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
+	public static final RegistryObject<Item> DIAGONAL_WALL_CONNECTOR_BOTTOM = block(FnafModModBlocks.DIAGONAL_WALL_CONNECTOR_BOTTOM, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> DIAGONAL_WALL_BOTTOM = block(FnafModModBlocks.DIAGONAL_WALL_BOTTOM, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> DIAGONAL_WALL_TOP = block(FnafModModBlocks.DIAGONAL_WALL_TOP, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> DIAGONAL_WALL_CONNECTOR_TOP = block(FnafModModBlocks.DIAGONAL_WALL_CONNECTOR_TOP, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> STAGE_LIGHT_OFF = REGISTRY.register(FnafModModBlocks.STAGE_LIGHT_OFF.getId().getPath(),
+			() -> new StageLightOffDisplayItem(FnafModModBlocks.STAGE_LIGHT_OFF.get(), new Item.Properties().tab(FnafModModTabs.TAB_FNAF_BLOCKS)));
+	public static final RegistryObject<Item> STAGE_LIGHT_ON = REGISTRY.register(FnafModModBlocks.STAGE_LIGHT_ON.getId().getPath(), () -> new StageLightOnDisplayItem(FnafModModBlocks.STAGE_LIGHT_ON.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> STAGE_LIGHT_PINK_OFF = REGISTRY.register(FnafModModBlocks.STAGE_LIGHT_PINK_OFF.getId().getPath(),
+			() -> new StageLightPinkOffDisplayItem(FnafModModBlocks.STAGE_LIGHT_PINK_OFF.get(), new Item.Properties().tab(FnafModModTabs.TAB_FNAF_BLOCKS)));
+	public static final RegistryObject<Item> STAGE_LIGHT_PINK_ON = REGISTRY.register(FnafModModBlocks.STAGE_LIGHT_PINK_ON.getId().getPath(),
+			() -> new StageLightPinkOnDisplayItem(FnafModModBlocks.STAGE_LIGHT_PINK_ON.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> STAGE_LIGHT_ORANGE_OFF = REGISTRY.register(FnafModModBlocks.STAGE_LIGHT_ORANGE_OFF.getId().getPath(),
+			() -> new StageLightOrangeOffDisplayItem(FnafModModBlocks.STAGE_LIGHT_ORANGE_OFF.get(), new Item.Properties().tab(FnafModModTabs.TAB_FNAF_BLOCKS)));
+	public static final RegistryObject<Item> STAGE_LIGHT_ORANGE_ON = REGISTRY.register(FnafModModBlocks.STAGE_LIGHT_ORANGE_ON.getId().getPath(),
+			() -> new StageLightOrangeOnDisplayItem(FnafModModBlocks.STAGE_LIGHT_ORANGE_ON.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> STAGE_LIGHT_RED_OFF = REGISTRY.register(FnafModModBlocks.STAGE_LIGHT_RED_OFF.getId().getPath(),
+			() -> new StageLightRedOffDisplayItem(FnafModModBlocks.STAGE_LIGHT_RED_OFF.get(), new Item.Properties().tab(FnafModModTabs.TAB_FNAF_BLOCKS)));
+	public static final RegistryObject<Item> STAGE_LIGHT_RED_ON = REGISTRY.register(FnafModModBlocks.STAGE_LIGHT_RED_ON.getId().getPath(),
+			() -> new StageLightRedOnDisplayItem(FnafModModBlocks.STAGE_LIGHT_RED_ON.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> CEILING_BLOCK = block(FnafModModBlocks.CEILING_BLOCK, FnafModModTabs.TAB_FNAF_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

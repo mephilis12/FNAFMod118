@@ -6,6 +6,12 @@
     "mobLabel": "",
     "mobModelTexture": "unwithered_freddy.png",
     "mobModelGlowTexture": "",
+    "visualScale": {
+      "fixedValue": 1.0
+    },
+    "boundingBoxScale": {
+      "fixedValue": 1.0
+    },
     "modelWidth": 0.6,
     "modelHeight": 1.9000000000000001,
     "modelShadowSize": 0.5,
@@ -101,7 +107,7 @@
     },
     "hasAI": true,
     "aiBase": "(none)",
-    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"239\" y=\"211\"><next><block type=\"wander\"><field name=\"speed\">0.8</field><field name=\"condition\">FreddyFazbearOnEntityTickUpdate,null</field><next><block type=\"look_around\"><field name=\"condition\">FreddyFazbearOnEntityTickUpdate,null</field><next><block type=\"wander_avoid_water\"><field name=\"speed\">0.8</field><field name=\"condition\">FreddyFazbearOnEntityTickUpdate,null</field></block></next></block></next></block></next></block></xml>",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"239\" y=\"211\"><next><block type=\"wander\"><field name=\"speed\">0.8</field><field name=\"condition\">FreddyFazbearOnEntityTickUpdate,null</field><next><block type=\"look_around\"><field name=\"condition\">FreddyFazbearOnEntityTickUpdate,null</field><next><block type=\"wander_avoid_water\"><field name=\"speed\">0.8</field><field name=\"condition\">FreddyFazbearOnEntityTickUpdate,null</field><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityPlayer</field><field name=\"condition\">FreddyFazbearOnEntityTickUpdate,null</field></block></next></block></next></block></next></block></next></block></xml>",
     "model": "witheredfreddy.geo.json",
     "groupName": "Head",
     "animation1": "animation.witheredfreddy.stage",

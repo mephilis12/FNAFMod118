@@ -34,13 +34,15 @@
       }
     ],
     "name": "Light Button Off",
-    "specialInfo": [],
+    "specialInfo": [
+      "If you have this item place and break it again"
+    ],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:FNAFBlocks"
+      "value": "No creative tab entry"
     },
     "destroyTool": "Not specified",
     "customDrop": {

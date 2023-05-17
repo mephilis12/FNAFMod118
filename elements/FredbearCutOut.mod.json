@@ -4,10 +4,13 @@
   "definition": {
     "mobName": "Fredbear Cutout",
     "mobLabel": "",
-    "mobModelName": "ModelFredbear_Cutout",
+    "mobModelName": "ModelCutoutFredbear",
     "mobModelTexture": "fredbear_cutout.png",
     "mobModelGlowTexture": "",
-    "modelWidth": 0.6,
+    "solidBoundingBox": {
+      "fixedValue": false
+    },
+    "modelWidth": 0.5,
     "modelHeight": 1.8,
     "modelShadowSize": 0.5,
     "mountedYOffset": 0.0,

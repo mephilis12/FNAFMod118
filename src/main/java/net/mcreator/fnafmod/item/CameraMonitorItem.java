@@ -70,14 +70,14 @@ public class CameraMonitorItem extends Item {
 			});
 		}
 
-		CameraMonitorRightclickedProcedure.execute(world, x, y, z);
+		CameraMonitorRightclickedProcedure.execute(world, x, y, z, entity);
 		return ar;
 	}
 
 	@Override
 	public InteractionResult useOn(UseOnContext context) {
 		super.useOn(context);
-		CameraMonitorRightclickedProcedure.execute(context.getLevel(), context.getClickedPos().getX(), context.getClickedPos().getY(), context.getClickedPos().getZ());
+		CameraMonitorRightclickedProcedure.execute(context.getLevel(), context.getClickedPos().getX(), context.getClickedPos().getY(), context.getClickedPos().getZ(), context.getPlayer());
 		return InteractionResult.SUCCESS;
 	}
 

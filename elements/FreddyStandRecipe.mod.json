@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:FreddyStandItem"
+      "value": "CUSTOM:FreddyStand.spawn_egg"
     },
     "name": "freddy_stand_recipe",
     "namespace": "mod"

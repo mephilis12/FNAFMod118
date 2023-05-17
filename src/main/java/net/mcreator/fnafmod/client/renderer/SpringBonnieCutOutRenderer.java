@@ -6,11 +6,11 @@ import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 
 import net.mcreator.fnafmod.entity.SpringBonnieCutOutEntity;
-import net.mcreator.fnafmod.client.model.ModelSpringBonnieCutOut;
+import net.mcreator.fnafmod.client.model.ModelCutoutSpringBonnie;
 
-public class SpringBonnieCutOutRenderer extends MobRenderer<SpringBonnieCutOutEntity, ModelSpringBonnieCutOut<SpringBonnieCutOutEntity>> {
+public class SpringBonnieCutOutRenderer extends MobRenderer<SpringBonnieCutOutEntity, ModelCutoutSpringBonnie<SpringBonnieCutOutEntity>> {
 	public SpringBonnieCutOutRenderer(EntityRendererProvider.Context context) {
-		super(context, new ModelSpringBonnieCutOut(context.bakeLayer(ModelSpringBonnieCutOut.LAYER_LOCATION)), 0.5f);
+		super(context, new ModelCutoutSpringBonnie(context.bakeLayer(ModelCutoutSpringBonnie.LAYER_LOCATION)), 0.5f);
 	}
 
 	@Override

@@ -38,7 +38,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.fnafmod.world.inventory.LockerMenu;
+import net.mcreator.fnafmod.world.inventory.SodaMachineMenu;
 import net.mcreator.fnafmod.procedures.VendingBottomBlockIsPlacedByProcedure;
 import net.mcreator.fnafmod.procedures.VendingBottomBlockDestroyedByPlayerProcedure;
 import net.mcreator.fnafmod.block.entity.VendingBottomBlockEntity;
@@ -124,7 +124,7 @@ public class VendingBottomBlock extends Block implements EntityBlock {
 
 				@Override
 				public AbstractContainerMenu createMenu(int id, Inventory inventory, Player player) {
-					return new LockerMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(pos));
+					return new SodaMachineMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(pos));
 				}
 			}, pos);
 		}

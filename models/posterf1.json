@@ -2,14 +2,14 @@
 	"ambientocclusion": false,
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "poster1",
-		"particle": "poster1"
+		"0": "poster",
+		"particle": "poster"
 	},
 	"elements": [
 		{
-			"from": [0, 4, 16],
-			"to": [16, 23, 16],
-			"rotation": {"angle": 0, "axis": "y", "origin": [0, 4, 0]},
+			"from": [0, 4, 15.95],
+			"to": [16, 23, 15.95],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 23, 15.5]},
 			"faces": {
 				"north": {"uv": [0, 0, 8, 9.5], "texture": "#0"},
 				"east": {"uv": [0, 0, 0, 9.5], "texture": "#0"},

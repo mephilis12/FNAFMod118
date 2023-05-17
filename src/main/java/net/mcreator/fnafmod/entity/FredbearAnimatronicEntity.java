@@ -20,18 +20,17 @@ import net.minecraft.world.level.ServerLevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.ai.goal.WaterAvoidingRandomStrollGoal;
-import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
-import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.SpawnGroupData;
+import net.minecraft.world.entity.Pose;
 import net.minecraft.world.entity.PathfinderMob;
 import net.minecraft.world.entity.MobType;
 import net.minecraft.world.entity.MobSpawnType;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.EntityDimensions;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.InteractionResult;
@@ -48,7 +47,6 @@ import net.minecraft.core.BlockPos;
 
 import net.mcreator.fnafmod.procedures.StatueSpawnProcedure;
 import net.mcreator.fnafmod.procedures.StatueFreddyRightClickedOnEntityProcedure;
-import net.mcreator.fnafmod.procedures.FreddyFazbearOnEntityTickUpdateProcedure;
 import net.mcreator.fnafmod.init.FnafModModItems;
 import net.mcreator.fnafmod.init.FnafModModEntities;
 
@@ -100,39 +98,7 @@ public class FredbearAnimatronicEntity extends PathfinderMob implements IAnimata
 	@Override
 	protected void registerGoals() {
 		super.registerGoals();
-		this.goalSelector.addGoal(1, new RandomStrollGoal(this, 0.8) {
-			@Override
-			public boolean canUse() {
-				double x = FredbearAnimatronicEntity.this.getX();
-				double y = FredbearAnimatronicEntity.this.getY();
-				double z = FredbearAnimatronicEntity.this.getZ();
-				Entity entity = FredbearAnimatronicEntity.this;
-				Level world = FredbearAnimatronicEntity.this.level;
-				return super.canUse() && FreddyFazbearOnEntityTickUpdateProcedure.execute(world);
-			}
-		});
-		this.goalSelector.addGoal(2, new RandomLookAroundGoal(this) {
-			@Override
-			public boolean canUse() {
-				double x = FredbearAnimatronicEntity.this.getX();
-				double y = FredbearAnimatronicEntity.this.getY();
-				double z = FredbearAnimatronicEntity.this.getZ();
-				Entity entity = FredbearAnimatronicEntity.this;
-				Level world = FredbearAnimatronicEntity.this.level;
-				return super.canUse() && FreddyFazbearOnEntityTickUpdateProcedure.execute(world);
-			}
-		});
-		this.goalSelector.addGoal(3, new WaterAvoidingRandomStrollGoal(this, 0.8) {
-			@Override
-			public boolean canUse() {
-				double x = FredbearAnimatronicEntity.this.getX();
-				double y = FredbearAnimatronicEntity.this.getY();
-				double z = FredbearAnimatronicEntity.this.getZ();
-				Entity entity = FredbearAnimatronicEntity.this;
-				Level world = FredbearAnimatronicEntity.this.level;
-				return super.canUse() && FreddyFazbearOnEntityTickUpdateProcedure.execute(world);
-			}
-		});
+
 	}
 
 	@Override
@@ -180,6 +146,17 @@ public class FredbearAnimatronicEntity extends PathfinderMob implements IAnimata
 
 		StatueFreddyRightClickedOnEntityProcedure.execute(entity);
 		return retval;
+	}
+
+	@Override
+	public void baseTick() {
+		super.baseTick();
+		this.refreshDimensions();
+	}
+
+	@Override
+	public EntityDimensions getDimensions(Pose p_33597_) {
+		return super.getDimensions(p_33597_).scale((float) 1);
 	}
 
 	@Override

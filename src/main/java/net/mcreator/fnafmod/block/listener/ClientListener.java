@@ -12,6 +12,14 @@ import net.mcreator.fnafmod.block.renderer.UnWitheredFoxyHeadTileRenderer;
 import net.mcreator.fnafmod.block.renderer.UnWitheredChicaHeadTileRenderer;
 import net.mcreator.fnafmod.block.renderer.UnWitheredBonnieHeadTileRenderer;
 import net.mcreator.fnafmod.block.renderer.TrashCanTileRenderer;
+import net.mcreator.fnafmod.block.renderer.StageLightRedOnTileRenderer;
+import net.mcreator.fnafmod.block.renderer.StageLightRedOffTileRenderer;
+import net.mcreator.fnafmod.block.renderer.StageLightPinkOnTileRenderer;
+import net.mcreator.fnafmod.block.renderer.StageLightPinkOffTileRenderer;
+import net.mcreator.fnafmod.block.renderer.StageLightOrangeOnTileRenderer;
+import net.mcreator.fnafmod.block.renderer.StageLightOrangeOffTileRenderer;
+import net.mcreator.fnafmod.block.renderer.StageLightOnTileRenderer;
+import net.mcreator.fnafmod.block.renderer.StageLightOffTileRenderer;
 import net.mcreator.fnafmod.block.renderer.SpringBonnieHeadTileRenderer;
 import net.mcreator.fnafmod.block.renderer.MeshTrashCanTileRenderer;
 import net.mcreator.fnafmod.block.renderer.FreddyHeadTileRenderer;
@@ -40,5 +48,13 @@ public class ClientListener {
 		event.registerBlockEntityRenderer(FnafModModBlockEntities.UN_WITHERED_BONNIE_HEAD.get(), UnWitheredBonnieHeadTileRenderer::new);
 		event.registerBlockEntityRenderer(FnafModModBlockEntities.UN_WITHERED_FOXY_HEAD.get(), UnWitheredFoxyHeadTileRenderer::new);
 		event.registerBlockEntityRenderer(FnafModModBlockEntities.UN_WITHERED_CHICA_HEAD.get(), UnWitheredChicaHeadTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafModModBlockEntities.STAGE_LIGHT_OFF.get(), StageLightOffTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafModModBlockEntities.STAGE_LIGHT_ON.get(), StageLightOnTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafModModBlockEntities.STAGE_LIGHT_PINK_OFF.get(), StageLightPinkOffTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafModModBlockEntities.STAGE_LIGHT_PINK_ON.get(), StageLightPinkOnTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafModModBlockEntities.STAGE_LIGHT_ORANGE_OFF.get(), StageLightOrangeOffTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafModModBlockEntities.STAGE_LIGHT_ORANGE_ON.get(), StageLightOrangeOnTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafModModBlockEntities.STAGE_LIGHT_RED_OFF.get(), StageLightRedOffTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafModModBlockEntities.STAGE_LIGHT_RED_ON.get(), StageLightRedOnTileRenderer::new);
 	}
 }

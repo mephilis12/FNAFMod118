@@ -28,6 +28,10 @@ import net.mcreator.fnafmod.entity.GoldenFreddyEntity;
 import net.mcreator.fnafmod.entity.GlitchBonnieAnimatronicEntity;
 import net.mcreator.fnafmod.entity.FreddyFazbearEntity;
 import net.mcreator.fnafmod.entity.FreddlesEntity;
+import net.mcreator.fnafmod.entity.FredbearsFreddyEntity;
+import net.mcreator.fnafmod.entity.FredbearsFoxyEntity;
+import net.mcreator.fnafmod.entity.FredbearsChicaEntity;
+import net.mcreator.fnafmod.entity.FredbearsBonnieEntity;
 import net.mcreator.fnafmod.entity.FredbearAnimatronicEntity;
 import net.mcreator.fnafmod.entity.FoxyPirateEntity;
 import net.mcreator.fnafmod.entity.DedWitheredFreddyEntity;
@@ -284,6 +288,34 @@ public class EntityAnimationFactory {
 				}
 			}
 			if (event.getEntity() instanceof SittingFredbearEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof FredbearsFreddyEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof FredbearsBonnieEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof FredbearsChicaEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof FredbearsFoxyEntity syncable) {
 				String animation = syncable.getSyncedAnimation();
 				if (!animation.equals("undefined")) {
 					syncable.setAnimation("undefined");

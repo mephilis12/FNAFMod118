@@ -5,7 +5,7 @@
     "renderType": 1,
     "texture": "flashlighton",
     "customModelName": "flashlight2:default",
-    "name": "FlashLight",
+    "name": "Flashlight",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "No creative tab entry"

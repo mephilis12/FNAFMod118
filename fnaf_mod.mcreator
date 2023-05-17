@@ -10555,7 +10555,7 @@
           "src/main/java/net/mcreator/fnafmod/world/inventory/RemnantInfuserMenu.java"
         ]
       },
-      "path": "~/GUIs and Extras"
+      "path": "~/GUIs and Extras/RemnantInfuser"
     },
     {
       "name": "RemantInfuser",
@@ -10625,7 +10625,7 @@
           }
         ]
       },
-      "path": "~/GUIs and Extras"
+      "path": "~/GUIs and Extras/RemnantInfuser"
     },
     {
       "name": "Remant3",
@@ -10658,7 +10658,7 @@
           }
         ]
       },
-      "path": "~/GUIs and Extras"
+      "path": "~/GUIs and Extras/RemnantInfuser"
     },
     {
       "name": "Remant2",
@@ -10691,7 +10691,7 @@
           }
         ]
       },
-      "path": "~/GUIs and Extras"
+      "path": "~/GUIs and Extras/RemnantInfuser"
     },
     {
       "name": "Remnant1",
@@ -10724,7 +10724,7 @@
           }
         ]
       },
-      "path": "~/GUIs and Extras"
+      "path": "~/GUIs and Extras/RemnantInfuser"
     },
     {
       "name": "DarkRemnant3",
@@ -10757,7 +10757,7 @@
           }
         ]
       },
-      "path": "~/GUIs and Extras"
+      "path": "~/GUIs and Extras/RemnantInfuser"
     },
     {
       "name": "DarkRemnant2",
@@ -10790,7 +10790,7 @@
           }
         ]
       },
-      "path": "~/GUIs and Extras"
+      "path": "~/GUIs and Extras/RemnantInfuser"
     },
     {
       "name": "DarkRemnant1",
@@ -10823,7 +10823,7 @@
           }
         ]
       },
-      "path": "~/GUIs and Extras"
+      "path": "~/GUIs and Extras/RemnantInfuser"
     },
     {
       "name": "Progress1",
@@ -10856,7 +10856,7 @@
           }
         ]
       },
-      "path": "~/GUIs and Extras"
+      "path": "~/GUIs and Extras/RemnantInfuser"
     },
     {
       "name": "Progress2",
@@ -10889,7 +10889,7 @@
           }
         ]
       },
-      "path": "~/GUIs and Extras"
+      "path": "~/GUIs and Extras/RemnantInfuser"
     },
     {
       "name": "Progress3",
@@ -10922,7 +10922,7 @@
           }
         ]
       },
-      "path": "~/GUIs and Extras"
+      "path": "~/GUIs and Extras/RemnantInfuser"
     },
     {
       "name": "Progress4",
@@ -10955,7 +10955,7 @@
           }
         ]
       },
-      "path": "~/GUIs and Extras"
+      "path": "~/GUIs and Extras/RemnantInfuser"
     },
     {
       "name": "Progress5",
@@ -10988,7 +10988,7 @@
           }
         ]
       },
-      "path": "~/GUIs and Extras"
+      "path": "~/GUIs and Extras/RemnantInfuser"
     },
     {
       "name": "Progress6",
@@ -11021,7 +11021,7 @@
           }
         ]
       },
-      "path": "~/GUIs and Extras"
+      "path": "~/GUIs and Extras/RemnantInfuser"
     },
     {
       "name": "ShadowBonnieNaturalEntitySpawningCondition",
@@ -11180,7 +11180,7 @@
           }
         ]
       },
-      "path": "~/GUIs and Extras"
+      "path": "~/GUIs and Extras/RemnantInfuser"
     },
     {
       "name": "FreddyStatue",
@@ -11216,7 +11216,7 @@
           }
         ]
       },
-      "path": "~/GUIs and Extras"
+      "path": "~/GUIs and Extras/RemnantInfuser"
     },
     {
       "name": "FreddyDrone",
@@ -11252,7 +11252,7 @@
           }
         ]
       },
-      "path": "~/GUIs and Extras"
+      "path": "~/GUIs and Extras/RemnantInfuser"
     },
     {
       "name": "FreddyHostile",
@@ -11288,7 +11288,7 @@
           }
         ]
       },
-      "path": "~/GUIs and Extras"
+      "path": "~/GUIs and Extras/RemnantInfuser"
     },
     {
       "name": "MaskProtectionTestForTick",
@@ -14339,7 +14339,7 @@
           }
         ]
       },
-      "path": "~/GUIs and Extras"
+      "path": "~/GUIs and Extras/RemnantInfuser"
     },
     {
       "name": "BonnieDrone",
@@ -14375,7 +14375,7 @@
           }
         ]
       },
-      "path": "~/GUIs and Extras"
+      "path": "~/GUIs and Extras/RemnantInfuser"
     },
     {
       "name": "BonnieHostile",
@@ -14411,7 +14411,7 @@
           }
         ]
       },
-      "path": "~/GUIs and Extras"
+      "path": "~/GUIs and Extras/RemnantInfuser"
     },
     {
       "name": "ChicaStatue",
@@ -14447,7 +14447,7 @@
           }
         ]
       },
-      "path": "~/GUIs and Extras"
+      "path": "~/GUIs and Extras/RemnantInfuser"
     },
     {
       "name": "ChicaDrone",
@@ -14483,7 +14483,7 @@
           }
         ]
       },
-      "path": "~/GUIs and Extras"
+      "path": "~/GUIs and Extras/RemnantInfuser"
     },
     {
       "name": "ChicaHostile",
@@ -14519,7 +14519,7 @@
           }
         ]
       },
-      "path": "~/GUIs and Extras"
+      "path": "~/GUIs and Extras/RemnantInfuser"
     },
     {
       "name": "FoxyStatue",
@@ -14555,7 +14555,7 @@
           }
         ]
       },
-      "path": "~/GUIs and Extras"
+      "path": "~/GUIs and Extras/RemnantInfuser"
     },
     {
       "name": "FoxyDrone",
@@ -14591,7 +14591,7 @@
           }
         ]
       },
-      "path": "~/GUIs and Extras"
+      "path": "~/GUIs and Extras/RemnantInfuser"
     },
     {
       "name": "FoxyHostile",
@@ -14627,7 +14627,7 @@
           }
         ]
       },
-      "path": "~/GUIs and Extras"
+      "path": "~/GUIs and Extras/RemnantInfuser"
     },
     {
       "name": "BonnieStandRecipe",
@@ -20439,6 +20439,10 @@
         ],
         "dependencies": [
           {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -20788,7 +20792,6 @@
         "files": [
           "src/main/java/net/mcreator/fnafmod/block/VendingTopBlock.java",
           "src/main/resources/assets/fnaf_mod/blockstates/vending_top.json",
-          "src/main/java/net/mcreator/fnafmod/block/entity/VendingTopBlockEntity.java",
           "src/main/resources/assets/fnaf_mod/models/item/vending_top.json",
           "src/main/resources/assets/fnaf_mod/models/block/vending_top.json"
         ]
@@ -20995,7 +20998,7 @@
           "src/main/resources/assets/fnaf_mod/models/item/unwithered_freddy_spawn_egg.json"
         ]
       },
-      "path": "~/Mobs/FriendlyAnimatronics"
+      "path": "~/Mobs"
     },
     {
       "name": "WitheredGoldenFreddy",
@@ -21182,7 +21185,7 @@
           "src/main/java/net/mcreator/fnafmod/entity/UnwitheredFoxyEntity.java"
         ]
       },
-      "path": "~/Mobs/FriendlyAnimatronics"
+      "path": "~/Mobs"
     },
     {
       "name": "UnwitheredBonnie",
@@ -21199,7 +21202,7 @@
           "src/main/java/net/mcreator/fnafmod/client/renderer/UnwitheredBonnieRenderer.java"
         ]
       },
-      "path": "~/Mobs/FriendlyAnimatronics"
+      "path": "~/Mobs"
     },
     {
       "name": "UnwitheredChica",
@@ -21216,7 +21219,7 @@
           "src/main/resources/assets/fnaf_mod/models/item/unwithered_chica_spawn_egg.json"
         ]
       },
-      "path": "~/Mobs/FriendlyAnimatronics"
+      "path": "~/Mobs"
     },
     {
       "name": "FreddyFazbear",
@@ -21347,7 +21350,7 @@
           "src/main/java/net/mcreator/fnafmod/client/renderer/FredbearAnimatronicRenderer.java"
         ]
       },
-      "path": "~/Mobs/FriendlyAnimatronics"
+      "path": "~/Mobs/Fredbears"
     },
     {
       "name": "SpringBonnieAnimatronic",
@@ -21364,7 +21367,7 @@
           "src/main/java/net/mcreator/fnafmod/entity/model/SpringBonnieAnimatronicModel.java"
         ]
       },
-      "path": "~/Mobs/FriendlyAnimatronics"
+      "path": "~/Mobs/Fredbears"
     },
     {
       "name": "DayTimeFreddy",
@@ -21449,7 +21452,7 @@
           "src/main/java/net/mcreator/fnafmod/entity/GlitchBonnieAnimatronicEntity.java"
         ]
       },
-      "path": "~/Mobs/FriendlyAnimatronics"
+      "path": "~/Mobs/Fredbears"
     },
     {
       "name": "OvdrPlushie",
@@ -22417,6 +22420,1097 @@
         ]
       },
       "path": "~/Blocks/DecorativeBlocks"
+    },
+    {
+      "name": "FredbearPoster1",
+      "type": "block",
+      "sortid": 1117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fredbear_poster_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/block/FredbearPoster1Block.java",
+          "src/main/resources/assets/fnaf_mod/models/item/fredbear_poster_1.json",
+          "src/main/resources/assets/fnaf_mod/blockstates/fredbear_poster_1.json",
+          "src/main/resources/assets/fnaf_mod/models/block/fredbear_poster_1.json"
+        ]
+      },
+      "path": "~/Blocks/Posters"
+    },
+    {
+      "name": "FredbearPoster2",
+      "type": "block",
+      "sortid": 1118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fredbear_poster_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/models/block/fredbear_poster_2.json",
+          "src/main/resources/assets/fnaf_mod/blockstates/fredbear_poster_2.json",
+          "src/main/java/net/mcreator/fnafmod/block/FredbearPoster2Block.java",
+          "src/main/resources/assets/fnaf_mod/models/item/fredbear_poster_2.json"
+        ]
+      },
+      "path": "~/Blocks/Posters"
+    },
+    {
+      "name": "FredbearPoster3",
+      "type": "block",
+      "sortid": 1119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fredbear_poster_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/models/item/fredbear_poster_3.json",
+          "src/main/resources/assets/fnaf_mod/blockstates/fredbear_poster_3.json",
+          "src/main/java/net/mcreator/fnafmod/block/FredbearPoster3Block.java",
+          "src/main/resources/assets/fnaf_mod/models/block/fredbear_poster_3.json"
+        ]
+      },
+      "path": "~/Blocks/Posters"
+    },
+    {
+      "name": "FredbearPoster4",
+      "type": "block",
+      "sortid": 1120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fredbear_poster_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/models/block/fredbear_poster_4.json",
+          "src/main/resources/assets/fnaf_mod/models/item/fredbear_poster_4.json",
+          "src/main/resources/assets/fnaf_mod/blockstates/fredbear_poster_4.json",
+          "src/main/java/net/mcreator/fnafmod/block/FredbearPoster4Block.java"
+        ]
+      },
+      "path": "~/Blocks/Posters"
+    },
+    {
+      "name": "FreddyMaskOverlay",
+      "type": "overlay",
+      "sortid": 1123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freddy_mask_overlay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/client/screens/FreddyMaskOverlayOverlay.java"
+        ]
+      },
+      "path": "~/Overlays"
+    },
+    {
+      "name": "FreddyMaskOverlayDisplayOverlayIngame",
+      "type": "procedure",
+      "sortid": 1124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freddy_mask_overlay_display_overlay_ingame",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/procedures/FreddyMaskOverlayDisplayOverlayIngameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Code Stuff"
+    },
+    {
+      "name": "WhiteWallStairs",
+      "type": "block",
+      "sortid": 1125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_wall_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/models/block/white_wall_stairs.json",
+          "src/main/resources/assets/fnaf_mod/models/block/white_wall_stairs_outer.json",
+          "src/main/resources/assets/fnaf_mod/blockstates/white_wall_stairs.json",
+          "src/main/resources/assets/fnaf_mod/models/item/white_wall_stairs.json",
+          "src/main/resources/assets/fnaf_mod/models/block/white_wall_stairs_inner.json",
+          "src/main/java/net/mcreator/fnafmod/block/WhiteWallStairsBlock.java"
+        ]
+      },
+      "path": "~/Blocks/BuildingBlockss"
+    },
+    {
+      "name": "WhiteWallSlab",
+      "type": "block",
+      "sortid": 1126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_wall_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/models/item/white_wall_slab.json",
+          "src/main/resources/assets/fnaf_mod/models/block/white_wall_slab_full.json",
+          "src/main/java/net/mcreator/fnafmod/block/WhiteWallSlabBlock.java",
+          "src/main/resources/assets/fnaf_mod/models/block/white_wall_slab.json",
+          "src/main/resources/assets/fnaf_mod/blockstates/white_wall_slab.json",
+          "src/main/resources/assets/fnaf_mod/models/block/white_wall_slab_top.json"
+        ]
+      },
+      "path": "~/Blocks/BuildingBlockss"
+    },
+    {
+      "name": "WhiteWallStair",
+      "type": "recipe",
+      "sortid": 1127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_wall_stair",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fnaf_mod/recipes/white_wall_stair.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "WhteWallSlab",
+      "type": "recipe",
+      "sortid": 1128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whte_wall_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fnaf_mod/recipes/whte_wall_slab.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "StonecutterWhitewallslab",
+      "type": "recipe",
+      "sortid": 1129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonecutter_whitewallslab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fnaf_mod/recipes/stonecutter_whitewallslab.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Stonecutterwhitestairs",
+      "type": "recipe",
+      "sortid": 1130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonecutterwhitestairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fnaf_mod/recipes/stonecutterwhitestairs.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BalloonPurple",
+      "type": "block",
+      "sortid": 1131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "balloon_purple",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/block/BalloonPurpleBlock.java",
+          "src/main/resources/assets/fnaf_mod/models/block/balloon_purple.json",
+          "src/main/resources/assets/fnaf_mod/blockstates/balloon_purple.json",
+          "src/main/resources/assets/fnaf_mod/models/item/balloon_purple.json"
+        ]
+      },
+      "path": "~/Blocks/DecorativeBlocks"
+    },
+    {
+      "name": "LinedWall",
+      "type": "block",
+      "sortid": 1132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lined_wall",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/block/LinedWallBlock.java",
+          "src/main/resources/assets/fnaf_mod/blockstates/lined_wall.json",
+          "src/main/resources/assets/fnaf_mod/models/item/lined_wall.json",
+          "src/main/resources/assets/fnaf_mod/models/block/lined_wall.json"
+        ]
+      },
+      "path": "~/Blocks/BuildingBlockss"
+    },
+    {
+      "name": "FredbearsFreddy",
+      "type": "animatedentity",
+      "sortid": 1133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fredbears_freddy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/client/renderer/FredbearsFreddyRenderer.java",
+          "src/main/java/net/mcreator/fnafmod/entity/FredbearsFreddyEntity.java",
+          "src/main/java/net/mcreator/fnafmod/entity/model/FredbearsFreddyModel.java",
+          "src/main/resources/assets/fnaf_mod/models/item/fredbears_freddy_spawn_egg.json"
+        ]
+      },
+      "path": "~/Mobs/Fredbears"
+    },
+    {
+      "name": "FredbearsBonnie",
+      "type": "animatedentity",
+      "sortid": 1134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fredbears_bonnie",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/entity/FredbearsBonnieEntity.java",
+          "src/main/resources/assets/fnaf_mod/models/item/fredbears_bonnie_spawn_egg.json",
+          "src/main/java/net/mcreator/fnafmod/client/renderer/FredbearsBonnieRenderer.java",
+          "src/main/java/net/mcreator/fnafmod/entity/model/FredbearsBonnieModel.java"
+        ]
+      },
+      "path": "~/Mobs/Fredbears"
+    },
+    {
+      "name": "FredbearsChica",
+      "type": "animatedentity",
+      "sortid": 1135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fredbears_chica",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/entity/model/FredbearsChicaModel.java",
+          "src/main/java/net/mcreator/fnafmod/client/renderer/FredbearsChicaRenderer.java",
+          "src/main/java/net/mcreator/fnafmod/entity/FredbearsChicaEntity.java",
+          "src/main/resources/assets/fnaf_mod/models/item/fredbears_chica_spawn_egg.json"
+        ]
+      },
+      "path": "~/Mobs/Fredbears"
+    },
+    {
+      "name": "FredbearsFoxy",
+      "type": "animatedentity",
+      "sortid": 1136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fredbears_foxy",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/models/item/fredbears_foxy_spawn_egg.json",
+          "src/main/java/net/mcreator/fnafmod/entity/model/FredbearsFoxyModel.java",
+          "src/main/java/net/mcreator/fnafmod/entity/FredbearsFoxyEntity.java",
+          "src/main/java/net/mcreator/fnafmod/client/renderer/FredbearsFoxyRenderer.java"
+        ]
+      },
+      "path": "~/Mobs/Fredbears"
+    },
+    {
+      "name": "NightmareBB",
+      "type": "livingentity",
+      "sortid": 1137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightmare_bb",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/models/item/nightmare_bb_spawn_egg.json",
+          "src/main/java/net/mcreator/fnafmod/entity/NightmareBBEntity.java",
+          "src/main/java/net/mcreator/fnafmod/client/renderer/NightmareBBRenderer.java"
+        ]
+      },
+      "path": "~/Mobs/NighttimeAnimatronics"
+    },
+    {
+      "name": "SittingNightmareBB",
+      "type": "livingentity",
+      "sortid": 1138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sitting_nightmare_bb",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/client/renderer/SittingNightmareBBRenderer.java",
+          "src/main/resources/assets/fnaf_mod/models/item/sitting_nightmare_bb_spawn_egg.json",
+          "src/main/java/net/mcreator/fnafmod/entity/SittingNightmareBBEntity.java"
+        ]
+      },
+      "path": "~/Mobs/NighttimeAnimatronics"
+    },
+    {
+      "name": "NightmareBBOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 1139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightmare_bb_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/procedures/NightmareBBOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/NighttimeAnimatronics"
+    },
+    {
+      "name": "SittingNightmareBBOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 1140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sitting_nightmare_bb_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/procedures/SittingNightmareBBOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/NighttimeAnimatronics"
+    },
+    {
+      "name": "PlushtrapToy",
+      "type": "livingentity",
+      "sortid": 1141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plushtrap_toy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/entity/PlushtrapToyEntity.java",
+          "src/main/java/net/mcreator/fnafmod/client/renderer/PlushtrapToyRenderer.java",
+          "src/main/resources/assets/fnaf_mod/models/item/plushtrap_toy_spawn_egg.json"
+        ]
+      },
+      "path": "~/Mobs/Fredbears"
+    },
+    {
+      "name": "Nightmare",
+      "type": "livingentity",
+      "sortid": 1142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightmare",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/entity/NightmareEntity.java",
+          "src/main/java/net/mcreator/fnafmod/client/renderer/NightmareRenderer.java",
+          "src/main/resources/assets/fnaf_mod/models/item/nightmare_spawn_egg.json"
+        ]
+      },
+      "path": "~/Mobs/NightmareAnimatronics"
+    },
+    {
+      "name": "NightmareOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 1143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightmare_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/procedures/NightmareOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/NightmareAnimatronics"
+    },
+    {
+      "name": "JackOBonnie",
+      "type": "livingentity",
+      "sortid": 1144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jack_o_bonnie",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/client/renderer/JackOBonnieRenderer.java",
+          "src/main/java/net/mcreator/fnafmod/entity/JackOBonnieEntity.java",
+          "src/main/resources/assets/fnaf_mod/models/item/jack_o_bonnie_spawn_egg.json"
+        ]
+      },
+      "path": "~/Mobs/NightmareAnimatronics"
+    },
+    {
+      "name": "JackOChica",
+      "type": "livingentity",
+      "sortid": 1145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jack_o_chica",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/models/item/jack_o_chica_spawn_egg.json",
+          "src/main/java/net/mcreator/fnafmod/client/renderer/JackOChicaRenderer.java",
+          "src/main/java/net/mcreator/fnafmod/entity/JackOChicaEntity.java"
+        ]
+      },
+      "path": "~/Mobs/NightmareAnimatronics"
+    },
+    {
+      "name": "NightmareMangle",
+      "type": "livingentity",
+      "sortid": 1146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightmare_mangle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/client/renderer/NightmareMangleRenderer.java",
+          "src/main/java/net/mcreator/fnafmod/entity/NightmareMangleEntity.java",
+          "src/main/resources/assets/fnaf_mod/models/item/nightmare_mangle_spawn_egg.json"
+        ]
+      },
+      "path": "~/Mobs/NightmareAnimatronics"
+    },
+    {
+      "name": "SodaMachine",
+      "type": "gui",
+      "sortid": 1147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soda_machine",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/world/inventory/SodaMachineMenu.java",
+          "src/main/java/net/mcreator/fnafmod/client/gui/SodaMachineScreen.java"
+        ]
+      },
+      "path": "~/GUIs and Extras"
+    },
+    {
+      "name": "DiagonalWallConnectorBottom",
+      "type": "block",
+      "sortid": 1148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diagonal_wall_connector_bottom",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/blockstates/diagonal_wall_connector_bottom.json",
+          "src/main/resources/assets/fnaf_mod/models/block/diagonal_wall_connector_bottom.json",
+          "src/main/java/net/mcreator/fnafmod/block/DiagonalWallConnectorBottomBlock.java",
+          "src/main/resources/assets/fnaf_mod/models/item/diagonal_wall_connector_bottom.json"
+        ]
+      },
+      "path": "~/Blocks/WallTiles"
+    },
+    {
+      "name": "DiagonalWallBottom",
+      "type": "block",
+      "sortid": 1149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diagonal_wall_bottom",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/models/block/diagonal_wall_bottom.json",
+          "src/main/java/net/mcreator/fnafmod/block/DiagonalWallBottomBlock.java",
+          "src/main/resources/assets/fnaf_mod/blockstates/diagonal_wall_bottom.json",
+          "src/main/resources/assets/fnaf_mod/models/item/diagonal_wall_bottom.json"
+        ]
+      },
+      "path": "~/Blocks/WallTiles"
+    },
+    {
+      "name": "DiagonalWallTop",
+      "type": "block",
+      "sortid": 1150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diagonal_wall_top",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/block/DiagonalWallTopBlock.java",
+          "src/main/resources/assets/fnaf_mod/models/block/diagonal_wall_top.json",
+          "src/main/resources/assets/fnaf_mod/models/item/diagonal_wall_top.json",
+          "src/main/resources/assets/fnaf_mod/blockstates/diagonal_wall_top.json"
+        ]
+      },
+      "path": "~/Blocks/WallTiles"
+    },
+    {
+      "name": "DiagonalWallConnectorTop",
+      "type": "block",
+      "sortid": 1151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diagonal_wall_connector_top",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/models/item/diagonal_wall_connector_top.json",
+          "src/main/java/net/mcreator/fnafmod/block/DiagonalWallConnectorTopBlock.java",
+          "src/main/resources/assets/fnaf_mod/blockstates/diagonal_wall_connector_top.json",
+          "src/main/resources/assets/fnaf_mod/models/block/diagonal_wall_connector_top.json"
+        ]
+      },
+      "path": "~/Blocks/WallTiles"
+    },
+    {
+      "name": "StageLightOff",
+      "type": "animatedblock",
+      "sortid": 1152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stage_light_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/block/StageLightOffBlock.java",
+          "src/main/resources/assets/fnaf_mod/models/custom/stage_light_off_particle.json",
+          "src/main/java/net/mcreator/fnafmod/block/model/StageLightOffBlockModel.java",
+          "src/main/java/net/mcreator/fnafmod/block/model/StageLightOffDisplayModel.java",
+          "src/main/java/net/mcreator/fnafmod/block/entity/StageLightOffTileEntity.java",
+          "src/main/java/net/mcreator/fnafmod/block/renderer/StageLightOffTileRenderer.java",
+          "src/main/java/net/mcreator/fnafmod/block/renderer/StageLightOffDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafmod/block/display/StageLightOffDisplayItem.java",
+          "src/main/resources/assets/fnaf_mod/models/item/stage_light_off.json",
+          "src/main/resources/assets/fnaf_mod/blockstates/stage_light_off.json"
+        ]
+      },
+      "path": "~/Blocks/DecorativeBlocks"
+    },
+    {
+      "name": "StageLightOn",
+      "type": "animatedblock",
+      "sortid": 1154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stage_light_on",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/models/item/stage_light_on.json",
+          "src/main/java/net/mcreator/fnafmod/block/display/StageLightOnDisplayItem.java",
+          "src/main/java/net/mcreator/fnafmod/block/model/StageLightOnBlockModel.java",
+          "src/main/java/net/mcreator/fnafmod/block/model/StageLightOnDisplayModel.java",
+          "src/main/resources/assets/fnaf_mod/blockstates/stage_light_on.json",
+          "src/main/java/net/mcreator/fnafmod/block/StageLightOnBlock.java",
+          "src/main/java/net/mcreator/fnafmod/block/renderer/StageLightOnTileRenderer.java",
+          "src/main/resources/assets/fnaf_mod/models/custom/stage_light_on_particle.json",
+          "src/main/java/net/mcreator/fnafmod/block/renderer/StageLightOnDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafmod/block/entity/StageLightOnTileEntity.java"
+        ]
+      },
+      "path": "~/Blocks/DecorativeBlocks"
+    },
+    {
+      "name": "StageLightOnRedstoneOff",
+      "type": "procedure",
+      "sortid": 1153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stage_light_on_redstone_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/procedures/StageLightOnRedstoneOffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/DecorativeBlocks"
+    },
+    {
+      "name": "StageLightOnUpdateTick",
+      "type": "procedure",
+      "sortid": 1155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stage_light_on_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/procedures/StageLightOnUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/DecorativeBlocks"
+    },
+    {
+      "name": "StageLightOffRedstoneOn",
+      "type": "procedure",
+      "sortid": 1156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stage_light_off_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/procedures/StageLightOffRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/DecorativeBlocks"
+    },
+    {
+      "name": "StageLightPinkOff",
+      "type": "animatedblock",
+      "sortid": 1157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stage_light_pink_off",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/models/custom/stage_light_pink_off_particle.json",
+          "src/main/resources/assets/fnaf_mod/models/item/stage_light_pink_off.json",
+          "src/main/java/net/mcreator/fnafmod/block/display/StageLightPinkOffDisplayItem.java",
+          "src/main/java/net/mcreator/fnafmod/block/StageLightPinkOffBlock.java",
+          "src/main/java/net/mcreator/fnafmod/block/renderer/StageLightPinkOffTileRenderer.java",
+          "src/main/resources/assets/fnaf_mod/blockstates/stage_light_pink_off.json",
+          "src/main/java/net/mcreator/fnafmod/block/renderer/StageLightPinkOffDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafmod/block/entity/StageLightPinkOffTileEntity.java",
+          "src/main/java/net/mcreator/fnafmod/block/model/StageLightPinkOffBlockModel.java",
+          "src/main/java/net/mcreator/fnafmod/block/model/StageLightPinkOffDisplayModel.java"
+        ]
+      },
+      "path": "~/Blocks/DecorativeBlocks"
+    },
+    {
+      "name": "StageLightPinkOn",
+      "type": "animatedblock",
+      "sortid": 1159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stage_light_pink_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/block/model/StageLightPinkOnBlockModel.java",
+          "src/main/resources/assets/fnaf_mod/models/item/stage_light_pink_on.json",
+          "src/main/java/net/mcreator/fnafmod/block/StageLightPinkOnBlock.java",
+          "src/main/resources/assets/fnaf_mod/blockstates/stage_light_pink_on.json",
+          "src/main/java/net/mcreator/fnafmod/block/model/StageLightPinkOnDisplayModel.java",
+          "src/main/java/net/mcreator/fnafmod/block/renderer/StageLightPinkOnTileRenderer.java",
+          "src/main/java/net/mcreator/fnafmod/block/renderer/StageLightPinkOnDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafmod/block/display/StageLightPinkOnDisplayItem.java",
+          "src/main/resources/assets/fnaf_mod/models/custom/stage_light_pink_on_particle.json",
+          "src/main/java/net/mcreator/fnafmod/block/entity/StageLightPinkOnTileEntity.java"
+        ]
+      },
+      "path": "~/Blocks/DecorativeBlocks"
+    },
+    {
+      "name": "StageLightPinkOnRedstoneOff",
+      "type": "procedure",
+      "sortid": 1158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stage_light_pink_on_redstone_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/procedures/StageLightPinkOnRedstoneOffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/DecorativeBlocks"
+    },
+    {
+      "name": "StageLightPinkOffRedstoneOn",
+      "type": "procedure",
+      "sortid": 1160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stage_light_pink_off_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/procedures/StageLightPinkOffRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/DecorativeBlocks"
+    },
+    {
+      "name": "StageLightOrangeOff",
+      "type": "animatedblock",
+      "sortid": 1161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stage_light_orange_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/block/renderer/StageLightOrangeOffDisplayItemRenderer.java",
+          "src/main/resources/assets/fnaf_mod/models/item/stage_light_orange_off.json",
+          "src/main/java/net/mcreator/fnafmod/block/entity/StageLightOrangeOffTileEntity.java",
+          "src/main/java/net/mcreator/fnafmod/block/display/StageLightOrangeOffDisplayItem.java",
+          "src/main/java/net/mcreator/fnafmod/block/model/StageLightOrangeOffBlockModel.java",
+          "src/main/java/net/mcreator/fnafmod/block/StageLightOrangeOffBlock.java",
+          "src/main/resources/assets/fnaf_mod/models/custom/stage_light_orange_off_particle.json",
+          "src/main/resources/assets/fnaf_mod/blockstates/stage_light_orange_off.json",
+          "src/main/java/net/mcreator/fnafmod/block/model/StageLightOrangeOffDisplayModel.java",
+          "src/main/java/net/mcreator/fnafmod/block/renderer/StageLightOrangeOffTileRenderer.java"
+        ]
+      },
+      "path": "~/Blocks/DecorativeBlocks"
+    },
+    {
+      "name": "StageLightOrangeOn",
+      "type": "animatedblock",
+      "sortid": 1163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stage_light_orange_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/block/display/StageLightOrangeOnDisplayItem.java",
+          "src/main/java/net/mcreator/fnafmod/block/entity/StageLightOrangeOnTileEntity.java",
+          "src/main/resources/assets/fnaf_mod/blockstates/stage_light_orange_on.json",
+          "src/main/resources/assets/fnaf_mod/models/item/stage_light_orange_on.json",
+          "src/main/java/net/mcreator/fnafmod/block/model/StageLightOrangeOnBlockModel.java",
+          "src/main/java/net/mcreator/fnafmod/block/StageLightOrangeOnBlock.java",
+          "src/main/java/net/mcreator/fnafmod/block/renderer/StageLightOrangeOnTileRenderer.java",
+          "src/main/java/net/mcreator/fnafmod/block/renderer/StageLightOrangeOnDisplayItemRenderer.java",
+          "src/main/resources/assets/fnaf_mod/models/custom/stage_light_orange_on_particle.json",
+          "src/main/java/net/mcreator/fnafmod/block/model/StageLightOrangeOnDisplayModel.java"
+        ]
+      },
+      "path": "~/Blocks/DecorativeBlocks"
+    },
+    {
+      "name": "StageLightOrangeOnRedstoneOff",
+      "type": "procedure",
+      "sortid": 1162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stage_light_orange_on_redstone_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/procedures/StageLightOrangeOnRedstoneOffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/DecorativeBlocks"
+    },
+    {
+      "name": "StageLightOrangeOffRedstoneOn",
+      "type": "procedure",
+      "sortid": 1164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stage_light_orange_off_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/procedures/StageLightOrangeOffRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/DecorativeBlocks"
+    },
+    {
+      "name": "StageLightRedOff",
+      "type": "animatedblock",
+      "sortid": 1166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stage_light_red_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/block/StageLightRedOffBlock.java",
+          "src/main/java/net/mcreator/fnafmod/block/renderer/StageLightRedOffDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafmod/block/model/StageLightRedOffBlockModel.java",
+          "src/main/java/net/mcreator/fnafmod/block/display/StageLightRedOffDisplayItem.java",
+          "src/main/resources/assets/fnaf_mod/models/custom/stage_light_red_off_particle.json",
+          "src/main/resources/assets/fnaf_mod/models/item/stage_light_red_off.json",
+          "src/main/java/net/mcreator/fnafmod/block/entity/StageLightRedOffTileEntity.java",
+          "src/main/resources/assets/fnaf_mod/blockstates/stage_light_red_off.json",
+          "src/main/java/net/mcreator/fnafmod/block/model/StageLightRedOffDisplayModel.java",
+          "src/main/java/net/mcreator/fnafmod/block/renderer/StageLightRedOffTileRenderer.java"
+        ]
+      },
+      "path": "~/Blocks/DecorativeBlocks"
+    },
+    {
+      "name": "StageLightRedOn",
+      "type": "animatedblock",
+      "sortid": 1167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stage_light_red_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/block/model/StageLightRedOnDisplayModel.java",
+          "src/main/java/net/mcreator/fnafmod/block/model/StageLightRedOnBlockModel.java",
+          "src/main/java/net/mcreator/fnafmod/block/renderer/StageLightRedOnDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/fnafmod/block/display/StageLightRedOnDisplayItem.java",
+          "src/main/java/net/mcreator/fnafmod/block/entity/StageLightRedOnTileEntity.java",
+          "src/main/resources/assets/fnaf_mod/blockstates/stage_light_red_on.json",
+          "src/main/java/net/mcreator/fnafmod/block/renderer/StageLightRedOnTileRenderer.java",
+          "src/main/resources/assets/fnaf_mod/models/item/stage_light_red_on.json",
+          "src/main/resources/assets/fnaf_mod/models/custom/stage_light_red_on_particle.json",
+          "src/main/java/net/mcreator/fnafmod/block/StageLightRedOnBlock.java"
+        ]
+      },
+      "path": "~/Blocks/DecorativeBlocks"
+    },
+    {
+      "name": "StageLightRedOnRedstoneOff",
+      "type": "procedure",
+      "sortid": 1165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stage_light_red_on_redstone_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/procedures/StageLightRedOnRedstoneOffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/DecorativeBlocks"
+    },
+    {
+      "name": "StageLightRedOffRedstoneOn",
+      "type": "procedure",
+      "sortid": 1168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stage_light_red_off_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/procedures/StageLightRedOffRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/DecorativeBlocks"
+    },
+    {
+      "name": "CeilingBlock",
+      "type": "block",
+      "sortid": 1169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ceiling_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/blockstates/ceiling_block.json",
+          "src/main/resources/assets/fnaf_mod/models/block/ceiling_block.json",
+          "src/main/java/net/mcreator/fnafmod/block/CeilingBlockBlock.java",
+          "src/main/resources/assets/fnaf_mod/models/item/ceiling_block.json"
+        ]
+      },
+      "path": "~/Blocks/BuildingBlockss"
     }
   ],
   "variable_elements": [
@@ -22917,6 +24011,7 @@
   "language_map": {
     "en_us": {
       "item.fnaf_mod.day_time_toy_foxy_spawn_egg": "DayTime Toy Foxy Spawn Egg",
+      "block.fnaf_mod.stage_light_pink_on": "Stage Light",
       "block.fnaf_mod.red_black_tile_slab_cracked": "Cracked Red Black Tile Slab",
       "entity.fnaf_mod.camera": "Camera",
       "entity.fnaf_mod.shadow_freddy": "Shadow Freddy",
@@ -22939,17 +24034,19 @@
       "subtitles.ventwalk": "Something In the Vents",
       "block.fnaf_mod.closet_left_bottom": "Closet Door Left",
       "block.fnaf_mod.alternate_purple_stage_brick_tiles": "Alternate Purple Etched Brick Tiles",
-      "block.fnaf_mod.closet_left_top": "Closet Door",
       "entity.fnaf_mod.day_time_toy_freddy": "DayTime Toy Freddy",
+      "block.fnaf_mod.closet_left_top": "Closet Door",
       "item.fnaf_mod.white_plastic": "White Plastic",
       "block.fnaf_mod.phone": "Phone",
       "item.fnaf_mod.happiest_day.desc": "Bad Ending - LordSmugDread",
       "subtitles.breathing": "Breathing",
       "block.fnaf_mod.arcade_machine_shadow_freddy": "Arcade Machine ???",
-      "item.fnaf_mod.pizza_slice": "Pizza Slice",
       "entity.fnaf_mod.bonnie_stand": "Bonnie Stand",
+      "item.fnaf_mod.pizza_slice": "Pizza Slice",
       "item.fnaf_mod.nightmarione_statue_spawn_egg": "Nightmarionne Statue Spawn Egg",
       "item.fnaf_mod.toreador_march.desc": "Toreador March - LordSmugDread",
+      "gui.fnaf_mod.soda_machine.label_inventory": "Inventory",
+      "block.fnaf_mod.stage_light_on": "Stage Light",
       "entity.fnaf_mod.unwithered_chica": "Un-Withered Chica",
       "gui.fnaf_mod.wall_change_2.label_one_room_face_rest_hall_faces": "One Room Face Rest Hall Faces",
       "entity.fnaf_mod.golden_freddy": "Golden Freddy",
@@ -22968,6 +24065,7 @@
       "entity.fnaf_mod.fredbear_animatronic": "Fredbear",
       "item.fnaf_mod.our_little_horror_story": "Music Disc",
       "entity.fnaf_mod.crawling_toy_foxy": "Crawling Toy Foxy",
+      "entity.fnaf_mod.nightmare_mangle": "Nightmare Mangle",
       "item.fnaf_mod.spring_bonnie_cut_out_spawn_egg": "Spring Bonnie Cutout Spawn Egg",
       "item.fnaf_mod.crawling_mangle_spawn_egg": "Crawling Mangle Spawn Egg",
       "block.fnaf_mod.red_blue_tile_slab_cracked": "Cracked Red Blue Tile Slab",
@@ -22988,8 +24086,8 @@
       "entity.fnaf_mod.spring_bonnie_animatronic": "Spring Bonnie",
       "entity.fnaf_mod.sitting_plushtrap": "Plushtrap",
       "block.fnaf_mod.alternate_black_purple_wall_tile": "Alternate Black Purple Wall Tiles",
-      "entity.fnaf_mod.glitch_bonnie_cut_out": "Glitch Bonnie Cutout",
       "item.fnaf_mod.sitting_daytime_springtrap_spawn_egg": "DayTime SpringtrapSitting Spawn Egg",
+      "entity.fnaf_mod.glitch_bonnie_cut_out": "Glitch Bonnie Cutout",
       "item.fnaf_mod.evil_bonnie": "Dark Remnant Infused Bonnie",
       "block.fnaf_mod.red_black_tile": "Red Black Tile",
       "gui.fnaf_mod.wall_change_1.label_one_room_face_rest_hall_faces": "One Room Face Rest Hall Faces",
@@ -23016,6 +24114,7 @@
       "item.fnaf_mod.nightmarionne_spawn_egg": "Nightmarionne Spawn Egg",
       "item.fnaf_mod.day_time_withered_foxy_spawn_egg": "Withered Freddy Spawn Egg",
       "block.fnaf_mod.foxy_head_decoration": "Foxy Head Decoration",
+      "item.fnaf_mod.fredbears_freddy_spawn_egg": "Fredbear\u0027s Family Diner Freddy Spawn Egg",
       "item.fnaf_mod.unwithered_bonnie_spawn_egg": "Un-Withered Bonnie Spawn Egg",
       "item.fnaf_mod.statue_foxy_spawn_egg": "Foxy Statue Spawn Egg",
       "block.fnaf_mod.presents": "Presents",
@@ -23023,10 +24122,12 @@
       "item.fnaf_mod.nightmare_freddy_statue_spawn_egg": "Nightmare Freddy Statue Spawn Egg",
       "block.fnaf_mod.paper_pal_bonnie": "Paper Pal Bonnie",
       "block.fnaf_mod.toy_chica_spawn_block_idle": "Toy Chica Spawn Block Idle",
+      "entity.fnaf_mod.fredbears_bonnie": "Fredbear\u0027s Family Diner Bonnie",
       "entity.fnaf_mod.nightmare_bonnie_statue": "Nightmare Bonnie Statue",
       "entity.fnaf_mod.day_time_puppet": "DayTime Puppet",
       "block.fnaf_mod.top_normal": "White Black Wall ",
       "block.fnaf_mod.shelf": "Shelves",
+      "block.fnaf_mod.ceiling_block": "Ceiling Block",
       "item.fnaf_mod.fredbear_spring_lock_suit_boots": "Fredbear Spring Lock Boots",
       "entity.fnaf_mod.statue_chica": "Chica Statue",
       "block.fnaf_mod.toy_freddy_spawn_block": "Toy Freddy Spawn Block",
@@ -23067,9 +24168,11 @@
       "block.fnaf_mod.toy_robot": "Toy Robot",
       "item.fnaf_mod.guard_hat_helmet": "Guard Hat Helmet",
       "subtitles.cameraup": "",
+      "item.fnaf_mod.jack_o_bonnie_spawn_egg": "Jack-O Bonnie Spawn Egg",
       "item.fnaf_mod.brown_plastic": "Brown Plastic",
       "item.fnaf_mod.bb_spawn_egg": "Balloon Boy Spawn Egg",
       "gui.fnaf_mod.wall_change_2.label_type_d": "Type D:",
+      "block.fnaf_mod.white_wall_slab": "White Wall Slab",
       "gui.fnaf_mod.wall_change_2.label_type_c": "Type C:",
       "block.fnaf_mod.orange_speaker_left": "Speaker",
       "gui.fnaf_mod.wall_change_2.label_type_b": "Type B:",
@@ -23083,6 +24186,7 @@
       "item.fnaf_mod.crawling_toy_bonnie_spawn_egg": "Crawling Toy Bonnie Spawn Egg",
       "block.fnaf_mod.diner_chair": "Diner Chair {Red}",
       "gui.fnaf_mod.camera_gui.button_next_page": "Next Page",
+      "item.fnaf_mod.fredbears_bonnie_spawn_egg": "Fredbear\u0027s Family Diner Bonnie Spawn Egg",
       "entity.fnaf_mod.unwithered_freddy": "Un-Withered Freddy",
       "item.fnaf_mod.nightmare_chica_statue_spawn_egg": "Nightmare Chica Statue Spawn Egg",
       "entity.fnaf_mod.endo_02": "Endo-02",
@@ -23113,16 +24217,18 @@
       "item.fnaf_mod.camera_monitor": "Camera Monitor",
       "block.fnaf_mod.purple_fan": "Toy Fan",
       "entity.fnaf_mod.plushtrap": "Plushtrap",
+      "block.fnaf_mod.stage_light_pink_off": "Stage Light",
       "block.fnaf_mod.big_rancid_wall_tiles": "Big Rancid Wall Tiles",
       "item.fnaf_mod.phantom_bb_spawn_egg": "Phantom Balloon Boy Spawn Egg",
       "block.fnaf_mod.toy_bonnie_spawn_block": "Toy Bonnie Spawn Block",
       "block.fnaf_mod.bonnie_head": "Bonnie Head",
-      "item.fnaf_mod.flash_light": "FlashLight",
+      "item.fnaf_mod.flash_light": "Flashlight",
       "item.fnaf_mod.toy_cupcake": "Cupcake",
       "item.fnaf_mod.spring_lock_suit_chestplate": "Spring Lock Suit Body",
       "block.fnaf_mod.desk": "Desk (Cupcake)",
       "block.fnaf_mod.toy_foxy_spawn_block": "Toy Foxy Spawn Block",
       "block.fnaf_mod.alternate_white_red_wall_tile": "Alternate White Red Wall Tiles",
+      "entity.fnaf_mod.plushtrap_toy": "Plushtrap Toy",
       "block.fnaf_mod.alternate_white_black_wall_tile": "Alternate White Wall Tiles",
       "block.fnaf_mod.blue_black_tile_stairs_cracked": "Cracked Blue Black Tile Stairs",
       "block.fnaf_mod.mangle_spawn_block_idle": "Mangle Spawn Block Idle",
@@ -23205,6 +24311,8 @@
       "item.fnaf_mod.dont_go.desc": "Don\u0027t Go - LordSmugDread",
       "block.fnaf_mod.error_tile_slab_cracked": "Cracked Missing Texture Tile Slab",
       "item.fnaf_mod.phantom_freddy_spawn_egg": "Phantom Freddy Spawn Egg",
+      "block.fnaf_mod.white_wall_stairs": "White Wall Stairs",
+      "item.fnaf_mod.fredbears_foxy_spawn_egg": "Fredbear\u0027s Family Diner Foxy Spawn Egg",
       "item.fnaf_mod.freddy_mask_leggings": "Freddy Mask Leggings",
       "entity.fnaf_mod.crawling_toy_chica": "Crawling Toy Chica",
       "item.fnaf_mod.phantom_mangle_spawn_egg": "Phantom Mangle Spawn Egg",
@@ -23217,13 +24325,14 @@
       "item.fnaf_mod.phantom_puppet_spawn_egg": "Phantom Puppet Spawn Egg",
       "item.fnaf_mod.statue_bonnie_spawn_egg": "Bonnie Statue Spawn Egg",
       "gui.fnaf_mod.camera_gui.label_to_set_a_camera": "To Set a Camera",
-      "block.fnaf_mod.balloon_blue": "Blue Balloon",
+      "block.fnaf_mod.balloon_blue": "Light Blue Balloon",
       "entity.fnaf_mod.withered_chica": "Withered Chica",
       "block.fnaf_mod.fan": "Fan",
       "block.fnaf_mod.alternate_black_stripe_dark_wall_tile": "Alternate Black Stripe Dark Wall Tiles",
       "block.fnaf_mod.red_blue_tile_stairs_cracked": "Cracked Red Blue Tile Stairs",
       "item.fnaf_mod.glitchtrap_suit_chestplate": "Spring Bonnie Costume Body",
       "entity.fnaf_mod.toy_bonnie": "Toy Bonnie",
+      "item.fnaf_mod.sitting_nightmare_bb_spawn_egg": "Nightmare Balloon Boy Spawn Egg",
       "entity.fnaf_mod.phantom_bb": "Phantom Balloon Boy",
       "item.fnaf_mod.full_hostile_bonnie_spawn_egg": "Bonnie The Bunny Spawn Egg",
       "item.fnaf_mod.shadow_freddy_standing_spawn_egg": "Shadow Freddy Spawn Egg",
@@ -23232,7 +24341,10 @@
       "item.fnaf_mod.nightmare_fredbear_spawn_egg": "Nightmare Fredbear Spawn Egg",
       "entity.fnaf_mod.sitting_fredbear": "Fredbear",
       "block.fnaf_mod.backstage_door": "Backstage Door",
+      "item.fnaf_mod.nightmare_mangle_spawn_egg": "Nightmare Mangle Spawn Egg",
       "item.fnaf_mod.office_chair_spawn_egg": "Office Chair Spawn Egg",
+      "entity.fnaf_mod.fredbears_chica": "Fredbear\u0027s Family Diner Chica",
+      "block.fnaf_mod.stage_light_off": "Stage Light",
       "block.fnaf_mod.black_white_tile_stairs_cracked": "Cracked Black White Tile Stairs",
       "item.fnaf_mod.guard_hat_leggings": "Guard Hat Leggings",
       "block.fnaf_mod.alternate_big_rancid_wall_tiles": "Alternate Big Rancid Wall Tiles",
@@ -23249,10 +24361,12 @@
       "entity.fnaf_mod.crawling_mangle": "Crawling Mangle",
       "entity.fnaf_mod.nightmarione_statue": "Nightmarionne Statue",
       "block.fnaf_mod.mesh_trash_can": "Mesh Trash Can",
+      "entity.fnaf_mod.sitting_nightmare_bb": "Nightmare Balloon Boy",
       "item.fnaf_mod.sitting_withered_bonnie_spawn_egg": "Withered Bonnie Spawn Egg",
       "block.fnaf_mod.red_white_tile_stair_cracked": "Cracked Red White Tile Stairs",
       "item.fnaf_mod.springlocked_fredbear_suit_chestplate": "Fredbear Spring Lock Body",
       "block.fnaf_mod.big_wall_tile": "Big Wall Tiles",
+      "block.fnaf_mod.diagonal_wall_bottom": "Diagonal Wall Bottom",
       "block.fnaf_mod.toy_freddy_spawn_block_idle": "Toy Freddy Spawn Block Idle",
       "subtitles.dont_go": "Don\u0027t Go Music Disc",
       "entity.fnaf_mod.mangle_sitting": "DayTime Mangle",
@@ -23283,12 +24397,17 @@
       "block.fnaf_mod.checkered_wall": "Checkered Wall",
       "item.fnaf_mod.statue_bonnie_spawn": "Statue Bonnie",
       "item.fnaf_mod.black_plastic": "Black Plastic",
+      "block.fnaf_mod.fredbear_poster_2": "Fredbear Poster 2",
       "item.fnaf_mod.battery": "Battery",
+      "block.fnaf_mod.fredbear_poster_1": "Fredbear Poster 1",
       "block.fnaf_mod.blue_black_tile_slab_cracked": "Cracked Blue Black Tile Slab",
       "block.fnaf_mod.toy_chica_spawn_block": "Toy Chica Spawn Block",
       "block.fnaf_mod.structure_spawning_block_9": "Structure Spawning Block (Fright)",
+      "block.fnaf_mod.fredbear_poster_4": "Fredbear Poster ?",
       "item.fnaf_mod.springlocked_suit_chestplate": "Springlocked Spring Lock Suit Body",
+      "block.fnaf_mod.fredbear_poster_3": "Fredbear Poster 3",
       "block.fnaf_mod.structure_spawning_block_5": "Structure Spawning Block (Fancy)",
+      "block.fnaf_mod.stage_light_orange_on": "Stage Light",
       "block.fnaf_mod.table_cloth": "Table Cloth",
       "block.fnaf_mod.structure_spawning_block_6": "Structure Spawning Block (Abandoned)",
       "entity.fnaf_mod.fredbear_cut_out": "Fredbear Cutout",
@@ -23307,7 +24426,8 @@
       "item.fnaf_mod.crawling_toy_chica_spawn_egg": "Crawling Toy Chica Spawn Egg",
       "gui.fnaf_mod.camera_gui.label_page_enbtintegerplus2": "Page: \u003cENBT:integer:plus2\u003e",
       "entity.fnaf_mod.day_time_bb": "DayTime BB",
-      "item.fnaf_mod.broken_flash_light": "FlashLight",
+      "item.fnaf_mod.broken_flash_light": "Flashlight",
+      "entity.fnaf_mod.jack_o_bonnie": "Jack-O Bonnie",
       "block.fnaf_mod.fnaf_3_posters_3": "Fazbear\u0027s Fright Posters",
       "block.fnaf_mod.toy_foxy_spawn_block_idle": "Toy Foxy Spawn Block Idle",
       "item.fnaf_mod.nightmare_foxy_statue_spawn_egg": "Nightmare Foxy Statue Spawn Egg",
@@ -23325,6 +24445,7 @@
       "item.fnaf_mod.daytime_chica_spawn_egg": "DaytimeChica Spawn Egg",
       "block.fnaf_mod.corn_curtain": "Corn Curtain",
       "item.fnaf_mod.passive_spring_bonnie_spawn_egg": "Spring Bonnie Spawn Egg",
+      "block.fnaf_mod.lined_wall": "Lined Wall ",
       "block.fnaf_mod.thin_cactus_curtain": "Thin Cactus Curtain",
       "block.fnaf_mod.trash_can": "Trash Can",
       "entity.fnaf_mod.statue_foxy": "Foxy Statue",
@@ -23344,6 +24465,7 @@
       "item.fnaf_mod.statue_freddy_item": "Statue Freddy",
       "entity.fnaf_mod.phantom_chica": "Phantom Chica",
       "item.fnaf_mod.freddles_spawn_egg": "Freddles Spawn Egg",
+      "block.fnaf_mod.diagonal_wall_connector_bottom": "Diagonal Wall Connector Bottom",
       "item.fnaf_mod.nightmare_fredbear_statue_spawn_egg": "Nightmare Fredbear Statue Spawn Egg",
       "item.fnaf_mod.statue_foxy_item": "Statue Foxy",
       "block.fnaf_mod.wall_pizza": "Wall Pizza",
@@ -23362,6 +24484,7 @@
       "block.fnaf_mod.thin_corn_curtain": "Corn Curtain",
       "entity.fnaf_mod.toy_freddy": "Toy Freddy ",
       "block.fnaf_mod.black_white_tile_slab_cracked": "Cracked Black White Tile Slab",
+      "block.fnaf_mod.diagonal_wall_top": "Diagonal Wall Top",
       "item.fnaf_mod.bonnie_fabric": "Purple Fabric",
       "item.fnaf_mod.standing_daytime_springtrap_spawn_egg": "DayTime Springtrap Standing Spawn Egg",
       "item.fnaf_mod.crawling_springtrap_spawn_egg": "Crawling Springtrap Spawn Egg",
@@ -23386,6 +24509,7 @@
       "block.fnaf_mod.children_drawings_2": "Pack of Children\u0027s Drawings 2",
       "block.fnaf_mod.black_wall": "Black Wall",
       "item.fnaf_mod.springlocked_suit_leggings": "Springlocked Spring Lock Suit Legs",
+      "item.fnaf_mod.plushtrap_toy_spawn_egg": "Plushtrap Toy Spawn Egg",
       "block.fnaf_mod.children_drawings_7": "Pack of Children\u0027s Drawings 7",
       "block.fnaf_mod.chair": "Chair",
       "gui.fnaf_mod.wall_change_1.label_one_hall_face_rest_room_faces": "One Hall Face Rest Room Faces",
@@ -23410,11 +24534,14 @@
       "item.fnaf_mod.unwithered_freddy_spawn_egg": "Un-Withered Freddy Spawn Egg",
       "block.fnaf_mod.pizza_box_open": "Pizza Box Open",
       "block.fnaf_mod.error_tile_slab": "Missing Texture Tile Slab",
+      "block.fnaf_mod.stage_light_red_on": "Stage Light",
       "gui.fnaf_mod.wall_change_1.label_forming_a_corner": "Forming a Corner",
       "entity.fnaf_mod.fred_bear_crature": "Fredbear  Creature",
       "subtitles.fnaf3scream": "",
       "block.fnaf_mod.alternate_big_stage_brick_tiles": "Alternate Big Etched Brick Tiles",
+      "item.fnaf_mod.nightmare_bb_spawn_egg": "Nightmare Balloon Boy Spawn Egg",
       "entity.fnaf_mod.passive_freddy": "Freddy Fazbear",
+      "entity.fnaf_mod.fredbears_foxy": "Fredbear\u0027s Family Diner Foxy",
       "block.fnaf_mod.fnaf_wall_top_rotable_4": "Tapestry Top Rotable Type D",
       "block.fnaf_mod.stage_bricks": "Etched Bricks",
       "block.fnaf_mod.fnaf_wall_top_rotable_2": "Tapestry Top Rotable Type B",
@@ -23426,6 +24553,7 @@
       "block.fnaf_mod.alternate_white_black_stripe_wall_tile": "Alternate White Black Stripe Wall Tiles",
       "item.fnaf_mod.red_plastic": "Red Plastic",
       "block.fnaf_mod.green_blue_tile_stair_cracked": "Cracked Green Blue Tile Stairs",
+      "entity.fnaf_mod.fredbears_freddy": "Fredbear\u0027s Family Diner Freddy",
       "block.fnaf_mod.poster_7": "Wall Poster 7",
       "block.fnaf_mod.poster_5": "Wall Poster 5",
       "item.fnaf_mod.withered_bonnie_spawn_egg": "Withered Bonnie Spawn Egg",
@@ -23433,10 +24561,11 @@
       "item.fnaf_mod.day_time_foxy_spawn_egg": "DaytimeFoxy Spawn Egg",
       "item.fnaf_mod.springtrap_spawn_egg": "Springtrap Spawn Egg",
       "item.fnaf_mod.passive_chica_spawn_egg": "Chica the Chicken Spawn Egg",
-      "item.fnaf_mod.flash_light_on": "FlashLight",
+      "item.fnaf_mod.flash_light_on": "Flashlight",
       "block.fnaf_mod.locket_bottom": "Locker",
       "entity.fnaf_mod.glitch_bonnie_statue": "Glitch Bonnie Statue",
       "entity.fnaf_mod.glitch_bonnie_animatronic": "Spring Bonnie?",
+      "block.fnaf_mod.stage_light_red_off": "Stage Light",
       "block.fnaf_mod.closet_right_open_bottom": "Closet Door Right",
       "item.fnaf_mod.plushtrap_spawn_egg": "Plushtrap Spawn Egg",
       "item.fnaf_mod.full_hostile_chica_spawn_egg": "Chica Spawn Egg",
@@ -23449,6 +24578,7 @@
       "item.fnaf_mod.freddy": "Drone Freddy",
       "block.fnaf_mod.alternate_white_purple_wall_tiles": "Alternate White Purple Wall Tiles",
       "item.fnaf_mod.spring_locked_zombie_spring_bonnie_spawn_egg": "Springlocked Zombie Spring Bonnie Spawn Egg",
+      "gui.fnaf_mod.soda_machine.label_locker": "Soda Machine",
       "item.fnaf_mod.nightmare_bonnie_spawn_egg": "Nightmare Bonnie Spawn Egg",
       "item.fnaf_mod.yellow_plastic": "Yellow Plastic",
       "entity.fnaf_mod.withered_foxy": "Withered Foxy",
@@ -23474,6 +24604,7 @@
       "block.fnaf_mod.big_black_striped_stage_brick_tiles": "Big Black Striped Etched Brick Tiles",
       "item.fnaf_mod.cupcake": "Cupcake",
       "block.fnaf_mod.arcade_machine_freddy": "Arcade Machine Freddy",
+      "entity.fnaf_mod.jack_o_chica": "Jack-O Chica",
       "block.fnaf_mod.alternate_big_white_black_wall_tile": "Alternate Big White Wall Tiles",
       "block.fnaf_mod.balloon_yellow": "Yellow Balloon",
       "block.fnaf_mod.candy_curtain": "Candy Curtain",
@@ -23485,6 +24616,9 @@
       "entity.fnaf_mod.bonnie_bunny": "Bonnie the Bunny",
       "item.fnaf_mod.spring_bonnie_creature_spawn_egg": "Spring Bonnie Creature Spawn Egg",
       "item.fnaf_mod.jj_spawn_egg": "JJ Spawn Egg",
+      "item.fnaf_mod.nightmare_spawn_egg": "Nightmare Spawn Egg",
+      "entity.fnaf_mod.nightmare": "Nightmare",
+      "item.fnaf_mod.fredbears_chica_spawn_egg": "Fredbear\u0027s Family Diner Chica Spawn Egg",
       "block.fnaf_mod.cactus_curtain": "Cactus Curtain",
       "block.fnaf_mod.alternate_big_black_stripe_dark_wall_tile": "Alternate Big Black Striped Dark Wall Tiles",
       "item.fnaf_mod.freddy_mask_boots": "Freddy Mask Boots",
@@ -23526,6 +24660,7 @@
       "block.fnaf_mod.big_stage_brick_tiles": "Big Etched Brick Tiles",
       "block.fnaf_mod.spring_bonnie_head": "Spring Bonnie Head",
       "item.fnaf_mod.chica_fabric": "Yellow Fabric",
+      "block.fnaf_mod.balloon_purple": "Purple  Balloon",
       "entity.fnaf_mod.full_hostile_bonnie": "Bonnie The Bunny",
       "item.fnaf_mod.camera_spawn_egg": "Camera Spawn Egg",
       "itemGroup.tabfnaf_items": "FNAF Items",
@@ -23534,6 +24669,7 @@
       "block.fnaf_mod.desk_3": "Desk (Bobble Heads)",
       "entity.fnaf_mod.toy_foxy": "Toy Foxy",
       "item.fnaf_mod.day_time_toy_bonnie_spawn_egg": "DayTime Toy Bonnie Spawn Egg",
+      "block.fnaf_mod.diagonal_wall_connector_top": "Diagonal Wall Connector Top",
       "block.fnaf_mod.black_white_tile": "Black White Tile",
       "block.fnaf_mod.big_checkered_white_wall_tile": "Big Checkered White Wall Tile",
       "entity.fnaf_mod.nightmare_foxy_statue": "Nightmare Foxy Statue",
@@ -23548,6 +24684,7 @@
       "entity.fnaf_mod.day_time_withered_foxy": "Withered Freddy",
       "entity.fnaf_mod.jj": "JJ",
       "entity.fnaf_mod.nightmare_freddy_statue": "Nightmare Freddy Statue",
+      "block.fnaf_mod.stage_light_orange_off": "Stage Light",
       "entity.fnaf_mod.nightmare_chica_statue": "Nightmare Chica Statue",
       "block.fnaf_mod.fnaf_4_wall_bottom_rotable_2": "Tapestry Bottom Rotable Type B",
       "item.fnaf_mod.shadow_remnant": "Shadow Remnant",
@@ -23556,12 +24693,14 @@
       "block.fnaf_mod.toy_bonnie_spawn_block_idle": "Toy Bonnie Spawn Block Idle",
       "item.fnaf_mod.mangle_spawn_egg": "Mangle Spawn Egg",
       "block.fnaf_mod.fnaf_4_wall_bottom_rotable_4": "Tapestry Bottom Rotable Type D",
+      "entity.fnaf_mod.nightmare_bb": "Nightmare Balloon Boy",
       "item.fnaf_mod.freddy_spawn_item": "Freddy Fazbear",
       "block.fnaf_mod.vent": "Vent",
       "item.fnaf_mod.bonnie_guitar": "Bonnie\u0027s Guitar",
       "block.fnaf_mod.fnaf_3_wall_tile": "Rancid Wall Tiles",
       "entity.fnaf_mod.sitting_daytime_springtrap": "DayTime SpringtrapSitting",
       "item.fnaf_mod.pat_pat_spawn_egg": "PatPat Spawn Egg",
+      "item.fnaf_mod.jack_o_chica_spawn_egg": "Jack-O Chica Spawn Egg",
       "itemGroup.tabmusic_discs": "Music Discs",
       "entity.fnaf_mod.springtrap": "Springtrap",
       "item.fnaf_mod.shadow_bonnie_spawn_egg": "Shadow Bonnie Spawn Egg",
@@ -23626,7 +24765,12 @@
       },
       {
         "name": "GUIs and Extras",
-        "children": []
+        "children": [
+          {
+            "name": "RemnantInfuser",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Jumpscares",
@@ -23715,6 +24859,10 @@
           },
           {
             "name": "extras",
+            "children": []
+          },
+          {
+            "name": "Fredbears",
             "children": []
           }
         ]

@@ -20,18 +20,21 @@ import net.minecraft.world.level.ServerLevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
 import net.minecraft.world.entity.ai.goal.WaterAvoidingRandomStrollGoal;
 import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
 import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.SpawnGroupData;
+import net.minecraft.world.entity.Pose;
 import net.minecraft.world.entity.PathfinderMob;
 import net.minecraft.world.entity.MobType;
 import net.minecraft.world.entity.MobSpawnType;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.EntityDimensions;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.InteractionResult;
@@ -133,6 +136,17 @@ public class UnwitheredFoxyEntity extends PathfinderMob implements IAnimatable {
 				return super.canUse() && FreddyFazbearOnEntityTickUpdateProcedure.execute(world);
 			}
 		});
+		this.targetSelector.addGoal(4, new NearestAttackableTargetGoal(this, Player.class, false, false) {
+			@Override
+			public boolean canUse() {
+				double x = UnwitheredFoxyEntity.this.getX();
+				double y = UnwitheredFoxyEntity.this.getY();
+				double z = UnwitheredFoxyEntity.this.getZ();
+				Entity entity = UnwitheredFoxyEntity.this;
+				Level world = UnwitheredFoxyEntity.this.level;
+				return super.canUse() && FreddyFazbearOnEntityTickUpdateProcedure.execute(world);
+			}
+		});
 	}
 
 	@Override
@@ -180,6 +194,17 @@ public class UnwitheredFoxyEntity extends PathfinderMob implements IAnimatable {
 
 		StatueFreddyRightClickedOnEntityProcedure.execute(entity);
 		return retval;
+	}
+
+	@Override
+	public void baseTick() {
+		super.baseTick();
+		this.refreshDimensions();
+	}
+
+	@Override
+	public EntityDimensions getDimensions(Pose p_33597_) {
+		return super.getDimensions(p_33597_).scale((float) 1);
 	}
 
 	@Override

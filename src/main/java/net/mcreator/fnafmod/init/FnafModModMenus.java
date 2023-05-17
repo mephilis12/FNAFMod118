@@ -13,6 +13,7 @@ import net.minecraft.world.inventory.MenuType;
 
 import net.mcreator.fnafmod.world.inventory.WallChange2Menu;
 import net.mcreator.fnafmod.world.inventory.WallChange1Menu;
+import net.mcreator.fnafmod.world.inventory.SodaMachineMenu;
 import net.mcreator.fnafmod.world.inventory.RemnantInfuserMenu;
 import net.mcreator.fnafmod.world.inventory.LockerMenu;
 import net.mcreator.fnafmod.world.inventory.CameraGUIMenu;
@@ -25,4 +26,5 @@ public class FnafModModMenus {
 	public static final RegistryObject<MenuType<WallChange2Menu>> WALL_CHANGE_2 = REGISTRY.register("wall_change_2", () -> IForgeMenuType.create(WallChange2Menu::new));
 	public static final RegistryObject<MenuType<RemnantInfuserMenu>> REMNANT_INFUSER = REGISTRY.register("remnant_infuser", () -> IForgeMenuType.create(RemnantInfuserMenu::new));
 	public static final RegistryObject<MenuType<CameraGUIMenu>> CAMERA_GUI = REGISTRY.register("camera_gui", () -> IForgeMenuType.create(CameraGUIMenu::new));
+	public static final RegistryObject<MenuType<SodaMachineMenu>> SODA_MACHINE = REGISTRY.register("soda_machine", () -> IForgeMenuType.create(SodaMachineMenu::new));
 }

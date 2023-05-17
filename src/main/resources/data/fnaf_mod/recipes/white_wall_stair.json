@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "fnaf_mod:white_wall"
+    },
+    "3": {
+      "item": "fnaf_mod:white_wall"
+    },
+    "4": {
+      "item": "fnaf_mod:white_wall"
+    },
+    "6": {
+      "item": "fnaf_mod:white_wall"
+    },
+    "7": {
+      "item": "fnaf_mod:white_wall"
+    },
+    "8": {
+      "item": "fnaf_mod:white_wall"
+    }
+  },
+  "result": {
+    "item": "fnaf_mod:white_wall_stairs",
+    "count": 4
+  }
+}

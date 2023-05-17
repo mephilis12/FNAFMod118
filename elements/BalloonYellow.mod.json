@@ -9,7 +9,7 @@
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "yellow_balloon:default",
+    "customModelName": "balloons:yellow",
     "rotationMode": 1,
     "enablePitch": false,
     "emissiveRendering": false,

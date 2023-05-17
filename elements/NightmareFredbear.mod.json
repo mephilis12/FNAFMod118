@@ -7,6 +7,9 @@
     "mobModelName": "ModelNightmareFredbear",
     "mobModelTexture": "nightmare_fredbear.png",
     "mobModelGlowTexture": "nightmare_fredbear_eye_glow.png",
+    "solidBoundingBox": {
+      "fixedValue": false
+    },
     "modelWidth": 0.6,
     "modelHeight": 1.8,
     "modelShadowSize": 0.5,

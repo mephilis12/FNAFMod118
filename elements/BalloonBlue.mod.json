@@ -9,7 +9,7 @@
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "blue_balloon:default",
+    "customModelName": "balloons:lightblue",
     "rotationMode": 1,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Blue Balloon",
+    "name": "Light Blue Balloon",
     "specialInfo": [],
     "hardness": 0.8,
     "resistance": 0.8,

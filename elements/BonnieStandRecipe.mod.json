@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:BonnieStandItem"
+      "value": "CUSTOM:BonnieStand.spawn_egg"
     },
     "name": "bonnie_stand_recipe",
     "namespace": "mod"

@@ -21,7 +21,7 @@ import net.minecraft.core.NonNullList;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.fnafmod.world.inventory.LockerMenu;
+import net.mcreator.fnafmod.world.inventory.SodaMachineMenu;
 import net.mcreator.fnafmod.init.FnafModModBlockEntities;
 
 import javax.annotation.Nullable;
@@ -89,7 +89,7 @@ public class VendingBottomBlockEntity extends RandomizableContainerBlockEntity i
 
 	@Override
 	public AbstractContainerMenu createMenu(int id, Inventory inventory) {
-		return new LockerMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(this.worldPosition));
+		return new SodaMachineMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(this.worldPosition));
 	}
 
 	@Override

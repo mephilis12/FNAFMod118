@@ -5,6 +5,36 @@
         "0": "balloons"
       },
       "name": "default"
+    },
+    "red": {
+      "map": {
+        "0": "balloon_red"
+      },
+      "name": "red"
+    },
+    "green": {
+      "map": {
+        "0": "green_balloon"
+      },
+      "name": "green"
+    },
+    "purple": {
+      "map": {
+        "0": "balloon__purple"
+      },
+      "name": "purple"
+    },
+    "yellow": {
+      "map": {
+        "0": "balloon_yellow"
+      },
+      "name": "yellow"
+    },
+    "lightblue": {
+      "map": {
+        "0": "lightbluebaloon"
+      },
+      "name": "lightblue"
     }
   }
 }

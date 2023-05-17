@@ -9,7 +9,7 @@
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "red_balloon:default",
+    "customModelName": "balloons:red",
     "rotationMode": 1,
     "enablePitch": false,
     "emissiveRendering": false,
