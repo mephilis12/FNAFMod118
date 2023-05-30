@@ -5,6 +5,12 @@
         "2": "foxy_plushie"
       },
       "name": "default"
+    },
+    "blacklight": {
+      "map": {
+        "2": "blacklight_foxy_plushie"
+      },
+      "name": "blacklight"
     }
   }
 }

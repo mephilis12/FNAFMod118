@@ -35,7 +35,7 @@ import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.fnafmod.procedures.PlushFredbearUpdateTickProcedure;
-import net.mcreator.fnafmod.procedures.NoseHonkProcedure;
+import net.mcreator.fnafmod.procedures.FredbearPlushieOnBlockRightClickedProcedure;
 import net.mcreator.fnafmod.block.entity.PlushFredbearBlockEntity;
 
 import java.util.List;
@@ -126,7 +126,7 @@ public class PlushFredbearBlock extends FallingBlock implements EntityBlock {
 		double hitY = hit.getLocation().y;
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
-		NoseHonkProcedure.execute(world, x, y, z);
+		FredbearPlushieOnBlockRightClickedProcedure.execute(world, x, y, z);
 		return InteractionResult.SUCCESS;
 	}
 

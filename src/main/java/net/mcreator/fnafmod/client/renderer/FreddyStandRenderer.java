@@ -6,11 +6,11 @@ import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 
 import net.mcreator.fnafmod.entity.FreddyStandEntity;
-import net.mcreator.fnafmod.client.model.ModelFreddyStand;
+import net.mcreator.fnafmod.client.model.ModelStandFreddly;
 
-public class FreddyStandRenderer extends MobRenderer<FreddyStandEntity, ModelFreddyStand<FreddyStandEntity>> {
+public class FreddyStandRenderer extends MobRenderer<FreddyStandEntity, ModelStandFreddly<FreddyStandEntity>> {
 	public FreddyStandRenderer(EntityRendererProvider.Context context) {
-		super(context, new ModelFreddyStand(context.bakeLayer(ModelFreddyStand.LAYER_LOCATION)), 0.5f);
+		super(context, new ModelStandFreddly(context.bakeLayer(ModelStandFreddly.LAYER_LOCATION)), 0.5f);
 	}
 
 	@Override

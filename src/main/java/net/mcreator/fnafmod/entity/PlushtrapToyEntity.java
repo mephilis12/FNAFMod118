@@ -131,7 +131,7 @@ public class PlushtrapToyEntity extends PathfinderMob {
 		Entity entity = this;
 		Level world = this.level;
 
-		StatueFreddyRightClickedOnEntityProcedure.execute(entity);
+		StatueFreddyRightClickedOnEntityProcedure.execute(entity, sourceentity);
 		return retval;
 	}
 

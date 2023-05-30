@@ -9,7 +9,7 @@
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "fredbear_plushie:default",
+    "customModelName": "freddy_plushie:fredbear",
     "rotationMode": 1,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -118,7 +118,7 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onRightClicked": {
-      "name": "NoseHonk"
+      "name": "FredbearPlushieOnBlockRightClicked"
     },
     "onTickUpdate": {
       "name": "PlushFredbearUpdateTick"

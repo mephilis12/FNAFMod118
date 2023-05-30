@@ -5,6 +5,12 @@
         "2": "plush_freddy"
       },
       "name": "default"
+    },
+    "fredbear": {
+      "map": {
+        "2": "plush_fredbear"
+      },
+      "name": "fredbear"
     }
   }
 }

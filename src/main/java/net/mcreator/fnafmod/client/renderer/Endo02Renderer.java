@@ -1,20 +1,28 @@
 
 package net.mcreator.fnafmod.client.renderer;
 
+import software.bernie.geckolib3.renderers.geo.GeoEntityRenderer;
+
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.MultiBufferSource;
 
+import net.mcreator.fnafmod.entity.model.Endo02Model;
 import net.mcreator.fnafmod.entity.Endo02Entity;
-import net.mcreator.fnafmod.client.model.ModelEndo02;
 
-public class Endo02Renderer extends MobRenderer<Endo02Entity, ModelEndo02<Endo02Entity>> {
-	public Endo02Renderer(EntityRendererProvider.Context context) {
-		super(context, new ModelEndo02(context.bakeLayer(ModelEndo02.LAYER_LOCATION)), 0.5f);
+import com.mojang.blaze3d.vertex.VertexConsumer;
+import com.mojang.blaze3d.vertex.PoseStack;
+
+public class Endo02Renderer extends GeoEntityRenderer<Endo02Entity> {
+	public Endo02Renderer(EntityRendererProvider.Context renderManager) {
+		super(renderManager, new Endo02Model());
+		this.shadowRadius = 0.5f;
 	}
 
 	@Override
-	public ResourceLocation getTextureLocation(Endo02Entity entity) {
-		return new ResourceLocation("fnaf_mod:textures/entities/endo02.png");
+	public RenderType getRenderType(Endo02Entity entity, float partialTicks, PoseStack stack, MultiBufferSource renderTypeBuffer, VertexConsumer vertexBuilder, int packedLightIn, ResourceLocation textureLocation) {
+		stack.scale(1f, 1f, 1f);
+		return RenderType.entityTranslucent(getTextureLocation(entity));
 	}
 }

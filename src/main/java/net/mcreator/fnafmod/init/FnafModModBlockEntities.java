@@ -26,6 +26,7 @@ import net.mcreator.fnafmod.block.entity.StageLightOrangeOffTileEntity;
 import net.mcreator.fnafmod.block.entity.StageLightOnTileEntity;
 import net.mcreator.fnafmod.block.entity.StageLightOffTileEntity;
 import net.mcreator.fnafmod.block.entity.SpringBonnieHeadTileEntity;
+import net.mcreator.fnafmod.block.entity.ShelfTileEntity;
 import net.mcreator.fnafmod.block.entity.RemantInfuserBlockEntity;
 import net.mcreator.fnafmod.block.entity.PlushFreddyBlockEntity;
 import net.mcreator.fnafmod.block.entity.PlushFredbearBlockEntity;
@@ -58,12 +59,19 @@ public class FnafModModBlockEntities {
 	public static final RegistryObject<BlockEntityType<?>> PLUSH_FOXY = register("plush_foxy", FnafModModBlocks.PLUSH_FOXY, PlushFoxyBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> PLUSH_FREDBEAR = register("plush_fredbear", FnafModModBlocks.PLUSH_FREDBEAR, PlushFredbearBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> LOCKET_BOTTOM = register("locket_bottom", FnafModModBlocks.LOCKET_BOTTOM, LocketBottomBlockEntity::new);
-	public static final RegistryObject<BlockEntityType<?>> REMNANT_INFUSER = register("remnant_infuser", FnafModModBlocks.REMNANT_INFUSER, RemantInfuserBlockEntity::new);
-	public static final RegistryObject<BlockEntityType<?>> LOCKER_TOP = register("locker_top", FnafModModBlocks.LOCKER_TOP, LockerTopBlockEntity::new);
-	public static final RegistryObject<BlockEntityType<?>> FLASH_LIGHT_LIGHT = register("flash_light_light", FnafModModBlocks.FLASH_LIGHT_LIGHT, FlashLightLightBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> VENDING_BOTTOM = register("vending_bottom", FnafModModBlocks.VENDING_BOTTOM, VendingBottomBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<MeshTrashCanTileEntity>> MESH_TRASH_CAN = REGISTRY.register("mesh_trash_can", () -> BlockEntityType.Builder.of(MeshTrashCanTileEntity::new, FnafModModBlocks.MESH_TRASH_CAN.get()).build(null));
 	public static final RegistryObject<BlockEntityType<TrashCanTileEntity>> TRASH_CAN = REGISTRY.register("trash_can", () -> BlockEntityType.Builder.of(TrashCanTileEntity::new, FnafModModBlocks.TRASH_CAN.get()).build(null));
+	public static final RegistryObject<BlockEntityType<?>> REMNANT_INFUSER = register("remnant_infuser", FnafModModBlocks.REMNANT_INFUSER, RemantInfuserBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<StageLightOffTileEntity>> STAGE_LIGHT_OFF = REGISTRY.register("stage_light_off",
+			() -> BlockEntityType.Builder.of(StageLightOffTileEntity::new, FnafModModBlocks.STAGE_LIGHT_OFF.get()).build(null));
+	public static final RegistryObject<BlockEntityType<StageLightPinkOffTileEntity>> STAGE_LIGHT_PINK_OFF = REGISTRY.register("stage_light_pink_off",
+			() -> BlockEntityType.Builder.of(StageLightPinkOffTileEntity::new, FnafModModBlocks.STAGE_LIGHT_PINK_OFF.get()).build(null));
+	public static final RegistryObject<BlockEntityType<StageLightOrangeOffTileEntity>> STAGE_LIGHT_ORANGE_OFF = REGISTRY.register("stage_light_orange_off",
+			() -> BlockEntityType.Builder.of(StageLightOrangeOffTileEntity::new, FnafModModBlocks.STAGE_LIGHT_ORANGE_OFF.get()).build(null));
+	public static final RegistryObject<BlockEntityType<StageLightRedOffTileEntity>> STAGE_LIGHT_RED_OFF = REGISTRY.register("stage_light_red_off",
+			() -> BlockEntityType.Builder.of(StageLightRedOffTileEntity::new, FnafModModBlocks.STAGE_LIGHT_RED_OFF.get()).build(null));
+	public static final RegistryObject<BlockEntityType<ShelfTileEntity>> SHELF = REGISTRY.register("shelf", () -> BlockEntityType.Builder.of(ShelfTileEntity::new, FnafModModBlocks.SHELF.get()).build(null));
 	public static final RegistryObject<BlockEntityType<FreddyHeadTileEntity>> FREDDY_HEAD = REGISTRY.register("freddy_head", () -> BlockEntityType.Builder.of(FreddyHeadTileEntity::new, FnafModModBlocks.FREDDY_HEAD.get()).build(null));
 	public static final RegistryObject<BlockEntityType<BonnieHeadTileEntity>> BONNIE_HEAD = REGISTRY.register("bonnie_head", () -> BlockEntityType.Builder.of(BonnieHeadTileEntity::new, FnafModModBlocks.BONNIE_HEAD.get()).build(null));
 	public static final RegistryObject<BlockEntityType<ChicaHeadTileEntity>> CHICA_HEAD = REGISTRY.register("chica_head", () -> BlockEntityType.Builder.of(ChicaHeadTileEntity::new, FnafModModBlocks.CHICA_HEAD.get()).build(null));
@@ -80,19 +88,13 @@ public class FnafModModBlockEntities {
 			() -> BlockEntityType.Builder.of(UnWitheredFoxyHeadTileEntity::new, FnafModModBlocks.UN_WITHERED_FOXY_HEAD.get()).build(null));
 	public static final RegistryObject<BlockEntityType<UnWitheredChicaHeadTileEntity>> UN_WITHERED_CHICA_HEAD = REGISTRY.register("un_withered_chica_head",
 			() -> BlockEntityType.Builder.of(UnWitheredChicaHeadTileEntity::new, FnafModModBlocks.UN_WITHERED_CHICA_HEAD.get()).build(null));
-	public static final RegistryObject<BlockEntityType<StageLightOffTileEntity>> STAGE_LIGHT_OFF = REGISTRY.register("stage_light_off",
-			() -> BlockEntityType.Builder.of(StageLightOffTileEntity::new, FnafModModBlocks.STAGE_LIGHT_OFF.get()).build(null));
+	public static final RegistryObject<BlockEntityType<?>> LOCKER_TOP = register("locker_top", FnafModModBlocks.LOCKER_TOP, LockerTopBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> FLASH_LIGHT_LIGHT = register("flash_light_light", FnafModModBlocks.FLASH_LIGHT_LIGHT, FlashLightLightBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<StageLightOnTileEntity>> STAGE_LIGHT_ON = REGISTRY.register("stage_light_on", () -> BlockEntityType.Builder.of(StageLightOnTileEntity::new, FnafModModBlocks.STAGE_LIGHT_ON.get()).build(null));
-	public static final RegistryObject<BlockEntityType<StageLightPinkOffTileEntity>> STAGE_LIGHT_PINK_OFF = REGISTRY.register("stage_light_pink_off",
-			() -> BlockEntityType.Builder.of(StageLightPinkOffTileEntity::new, FnafModModBlocks.STAGE_LIGHT_PINK_OFF.get()).build(null));
 	public static final RegistryObject<BlockEntityType<StageLightPinkOnTileEntity>> STAGE_LIGHT_PINK_ON = REGISTRY.register("stage_light_pink_on",
 			() -> BlockEntityType.Builder.of(StageLightPinkOnTileEntity::new, FnafModModBlocks.STAGE_LIGHT_PINK_ON.get()).build(null));
-	public static final RegistryObject<BlockEntityType<StageLightOrangeOffTileEntity>> STAGE_LIGHT_ORANGE_OFF = REGISTRY.register("stage_light_orange_off",
-			() -> BlockEntityType.Builder.of(StageLightOrangeOffTileEntity::new, FnafModModBlocks.STAGE_LIGHT_ORANGE_OFF.get()).build(null));
 	public static final RegistryObject<BlockEntityType<StageLightOrangeOnTileEntity>> STAGE_LIGHT_ORANGE_ON = REGISTRY.register("stage_light_orange_on",
 			() -> BlockEntityType.Builder.of(StageLightOrangeOnTileEntity::new, FnafModModBlocks.STAGE_LIGHT_ORANGE_ON.get()).build(null));
-	public static final RegistryObject<BlockEntityType<StageLightRedOffTileEntity>> STAGE_LIGHT_RED_OFF = REGISTRY.register("stage_light_red_off",
-			() -> BlockEntityType.Builder.of(StageLightRedOffTileEntity::new, FnafModModBlocks.STAGE_LIGHT_RED_OFF.get()).build(null));
 	public static final RegistryObject<BlockEntityType<StageLightRedOnTileEntity>> STAGE_LIGHT_RED_ON = REGISTRY.register("stage_light_red_on",
 			() -> BlockEntityType.Builder.of(StageLightRedOnTileEntity::new, FnafModModBlocks.STAGE_LIGHT_RED_ON.get()).build(null));
 

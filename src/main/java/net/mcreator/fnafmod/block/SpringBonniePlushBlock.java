@@ -106,7 +106,7 @@ public class SpringBonniePlushBlock extends Block {
 		double hitY = hit.getLocation().y;
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
-		SpringBonniePlushRightClickProcedure.execute(entity);
+		SpringBonniePlushRightClickProcedure.execute(world, x, y, z);
 		return InteractionResult.SUCCESS;
 	}
 }

@@ -1,0 +1,39 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Entities",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [
+      {
+        "value": "CUSTOM:NightmareBB"
+      },
+      {
+        "value": "CUSTOM:NightmareBonnie"
+      },
+      {
+        "value": "CUSTOM:NightmareChica"
+      },
+      {
+        "value": "CUSTOM:NightmareFoxy"
+      },
+      {
+        "value": "CUSTOM:NightmareFredbear"
+      },
+      {
+        "value": "CUSTOM:NightmareFreddy"
+      },
+      {
+        "value": "CUSTOM:NightmareMangle"
+      },
+      {
+        "value": "CUSTOM:Plushtrap"
+      }
+    ],
+    "biomes": [],
+    "name": "fnaf4",
+    "namespace": "mod"
+  }
+}

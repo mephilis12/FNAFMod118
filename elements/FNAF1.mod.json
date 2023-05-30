@@ -1,0 +1,27 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Entities",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [
+      {
+        "value": "CUSTOM:BonnieBunny"
+      },
+      {
+        "value": "CUSTOM:ChicaChicken"
+      },
+      {
+        "value": "CUSTOM:FoxyPirate"
+      },
+      {
+        "value": "CUSTOM:FreddyFazbear"
+      }
+    ],
+    "biomes": [],
+    "name": "fnaf1",
+    "namespace": "mod"
+  }
+}

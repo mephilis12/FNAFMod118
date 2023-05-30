@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fnaf_mod:blocks/movie_wall",
+    "up": "fnaf_mod:blocks/movie_wall",
+    "north": "fnaf_mod:blocks/movie_wall",
+    "east": "fnaf_mod:blocks/movie_wall",
+    "south": "fnaf_mod:blocks/movie_wall",
+    "west": "fnaf_mod:blocks/movie_wall",
+    "particle": "fnaf_mod:blocks/movie_wall"
+  },
+  "render_type": "solid"
+}

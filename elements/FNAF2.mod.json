@@ -1,0 +1,51 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Entities",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [
+      {
+        "value": "CUSTOM:CrawlingMangle"
+      },
+      {
+        "value": "CUSTOM:CrawlingToyBonnie"
+      },
+      {
+        "value": "CUSTOM:CrawlingToyChica"
+      },
+      {
+        "value": "CUSTOM:CrawlingToyFoxy"
+      },
+      {
+        "value": "CUSTOM:ToyBonnie"
+      },
+      {
+        "value": "CUSTOM:ToyFoxy"
+      },
+      {
+        "value": "CUSTOM:ToyFreddy"
+      },
+      {
+        "value": "CUSTOM:WitheredBonnie"
+      },
+      {
+        "value": "CUSTOM:WitheredChica"
+      },
+      {
+        "value": "CUSTOM:WitheredFoxy"
+      },
+      {
+        "value": "CUSTOM:WitheredFreddy"
+      },
+      {
+        "value": "CUSTOM:NightimeToyChica"
+      }
+    ],
+    "biomes": [],
+    "name": "fnaf2",
+    "namespace": "mod"
+  }
+}

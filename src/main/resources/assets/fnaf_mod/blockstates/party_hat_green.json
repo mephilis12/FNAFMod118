@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fnaf_mod:block/party_hat_green"
+    },
+    "facing=east": {
+      "model": "fnaf_mod:block/party_hat_green",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fnaf_mod:block/party_hat_green",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fnaf_mod:block/party_hat_green",
+      "y": 270
+    }
+  }
+}

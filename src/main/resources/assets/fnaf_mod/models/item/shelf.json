@@ -2,6 +2,5 @@
   "parent": "item/generated",
   "textures": {
     "layer0": "fnaf_mod:items/shelf_item"
-  },
-  "render_type": "translucent"
+  }
 }

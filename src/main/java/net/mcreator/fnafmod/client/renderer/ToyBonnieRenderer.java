@@ -1,20 +1,28 @@
 
 package net.mcreator.fnafmod.client.renderer;
 
+import software.bernie.geckolib3.renderers.geo.GeoEntityRenderer;
+
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.MultiBufferSource;
 
+import net.mcreator.fnafmod.entity.model.ToyBonnieModel;
 import net.mcreator.fnafmod.entity.ToyBonnieEntity;
-import net.mcreator.fnafmod.client.model.ModelToy_Bonnie;
 
-public class ToyBonnieRenderer extends MobRenderer<ToyBonnieEntity, ModelToy_Bonnie<ToyBonnieEntity>> {
-	public ToyBonnieRenderer(EntityRendererProvider.Context context) {
-		super(context, new ModelToy_Bonnie(context.bakeLayer(ModelToy_Bonnie.LAYER_LOCATION)), 0.5f);
+import com.mojang.blaze3d.vertex.VertexConsumer;
+import com.mojang.blaze3d.vertex.PoseStack;
+
+public class ToyBonnieRenderer extends GeoEntityRenderer<ToyBonnieEntity> {
+	public ToyBonnieRenderer(EntityRendererProvider.Context renderManager) {
+		super(renderManager, new ToyBonnieModel());
+		this.shadowRadius = 0.5f;
 	}
 
 	@Override
-	public ResourceLocation getTextureLocation(ToyBonnieEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/entities/toy_bonnie.png");
+	public RenderType getRenderType(ToyBonnieEntity entity, float partialTicks, PoseStack stack, MultiBufferSource renderTypeBuffer, VertexConsumer vertexBuilder, int packedLightIn, ResourceLocation textureLocation) {
+		stack.scale(1f, 1f, 1f);
+		return RenderType.entityTranslucent(getTextureLocation(entity));
 	}
 }

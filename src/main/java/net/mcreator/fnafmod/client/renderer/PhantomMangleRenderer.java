@@ -1,20 +1,28 @@
 
 package net.mcreator.fnafmod.client.renderer;
 
+import software.bernie.geckolib3.renderers.geo.GeoEntityRenderer;
+
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.MultiBufferSource;
 
+import net.mcreator.fnafmod.entity.model.PhantomMangleModel;
 import net.mcreator.fnafmod.entity.PhantomMangleEntity;
-import net.mcreator.fnafmod.client.model.ModelMangle;
 
-public class PhantomMangleRenderer extends MobRenderer<PhantomMangleEntity, ModelMangle<PhantomMangleEntity>> {
-	public PhantomMangleRenderer(EntityRendererProvider.Context context) {
-		super(context, new ModelMangle(context.bakeLayer(ModelMangle.LAYER_LOCATION)), 0.5f);
+import com.mojang.blaze3d.vertex.VertexConsumer;
+import com.mojang.blaze3d.vertex.PoseStack;
+
+public class PhantomMangleRenderer extends GeoEntityRenderer<PhantomMangleEntity> {
+	public PhantomMangleRenderer(EntityRendererProvider.Context renderManager) {
+		super(renderManager, new PhantomMangleModel());
+		this.shadowRadius = 0.5f;
 	}
 
 	@Override
-	public ResourceLocation getTextureLocation(PhantomMangleEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/entities/phantom_mangle.png");
+	public RenderType getRenderType(PhantomMangleEntity entity, float partialTicks, PoseStack stack, MultiBufferSource renderTypeBuffer, VertexConsumer vertexBuilder, int packedLightIn, ResourceLocation textureLocation) {
+		stack.scale(1f, 1f, 1f);
+		return RenderType.entityTranslucent(getTextureLocation(entity));
 	}
 }

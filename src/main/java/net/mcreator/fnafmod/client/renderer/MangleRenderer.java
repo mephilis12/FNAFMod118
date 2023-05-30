@@ -1,28 +1,30 @@
 
 package net.mcreator.fnafmod.client.renderer;
 
+import software.bernie.geckolib3.renderers.geo.GeoEntityRenderer;
+
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.entity.layers.EyesLayer;
-import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.MultiBufferSource;
 
+import net.mcreator.fnafmod.entity.model.MangleModel;
+import net.mcreator.fnafmod.entity.layer.MangleLayer;
 import net.mcreator.fnafmod.entity.MangleEntity;
-import net.mcreator.fnafmod.client.model.ModelMangle;
 
-public class MangleRenderer extends MobRenderer<MangleEntity, ModelMangle<MangleEntity>> {
-	public MangleRenderer(EntityRendererProvider.Context context) {
-		super(context, new ModelMangle(context.bakeLayer(ModelMangle.LAYER_LOCATION)), 0.5f);
-		this.addLayer(new EyesLayer<MangleEntity, ModelMangle<MangleEntity>>(this) {
-			@Override
-			public RenderType renderType() {
-				return RenderType.eyes(new ResourceLocation("fnaf_mod:textures/entities/eyemangle.png"));
-			}
-		});
+import com.mojang.blaze3d.vertex.VertexConsumer;
+import com.mojang.blaze3d.vertex.PoseStack;
+
+public class MangleRenderer extends GeoEntityRenderer<MangleEntity> {
+	public MangleRenderer(EntityRendererProvider.Context renderManager) {
+		super(renderManager, new MangleModel());
+		this.shadowRadius = 0.5f;
+		this.addLayer(new MangleLayer(this));
 	}
 
 	@Override
-	public ResourceLocation getTextureLocation(MangleEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/entities/mangle.png");
+	public RenderType getRenderType(MangleEntity entity, float partialTicks, PoseStack stack, MultiBufferSource renderTypeBuffer, VertexConsumer vertexBuilder, int packedLightIn, ResourceLocation textureLocation) {
+		stack.scale(1f, 1f, 1f);
+		return RenderType.entityTranslucent(getTextureLocation(entity));
 	}
 }

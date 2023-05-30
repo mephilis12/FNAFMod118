@@ -35,7 +35,7 @@ import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.fnafmod.procedures.PlushBonnieUpdateTickProcedure;
-import net.mcreator.fnafmod.procedures.NoseHonkProcedure;
+import net.mcreator.fnafmod.procedures.BonniePlushieOnBlockRightClickedProcedure;
 import net.mcreator.fnafmod.block.entity.PlushBonnieBlockEntity;
 
 import java.util.List;
@@ -126,7 +126,7 @@ public class PlushBonnieBlock extends FallingBlock implements EntityBlock {
 		double hitY = hit.getLocation().y;
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
-		NoseHonkProcedure.execute(world, x, y, z);
+		BonniePlushieOnBlockRightClickedProcedure.execute(world, x, y, z);
 		return InteractionResult.SUCCESS;
 	}
 

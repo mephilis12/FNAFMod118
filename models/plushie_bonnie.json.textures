@@ -5,6 +5,12 @@
         "2": "bonnie_plush"
       },
       "name": "default"
+    },
+    "blacklight": {
+      "map": {
+        "2": "blacklight_bonnie_plush"
+      },
+      "name": "blacklight"
     }
   }
 }

@@ -1,28 +1,30 @@
 
 package net.mcreator.fnafmod.client.renderer;
 
+import software.bernie.geckolib3.renderers.geo.GeoEntityRenderer;
+
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.entity.layers.EyesLayer;
-import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.MultiBufferSource;
 
+import net.mcreator.fnafmod.entity.model.JackOChicaModel;
+import net.mcreator.fnafmod.entity.layer.JackOChicaLayer;
 import net.mcreator.fnafmod.entity.JackOChicaEntity;
-import net.mcreator.fnafmod.client.model.ModelNightmare_Chica;
 
-public class JackOChicaRenderer extends MobRenderer<JackOChicaEntity, ModelNightmare_Chica<JackOChicaEntity>> {
-	public JackOChicaRenderer(EntityRendererProvider.Context context) {
-		super(context, new ModelNightmare_Chica(context.bakeLayer(ModelNightmare_Chica.LAYER_LOCATION)), 0.5f);
-		this.addLayer(new EyesLayer<JackOChicaEntity, ModelNightmare_Chica<JackOChicaEntity>>(this) {
-			@Override
-			public RenderType renderType() {
-				return RenderType.eyes(new ResourceLocation("fnaf_mod:textures/entities/jack_o_chica_glow.png"));
-			}
-		});
+import com.mojang.blaze3d.vertex.VertexConsumer;
+import com.mojang.blaze3d.vertex.PoseStack;
+
+public class JackOChicaRenderer extends GeoEntityRenderer<JackOChicaEntity> {
+	public JackOChicaRenderer(EntityRendererProvider.Context renderManager) {
+		super(renderManager, new JackOChicaModel());
+		this.shadowRadius = 0.5f;
+		this.addLayer(new JackOChicaLayer(this));
 	}
 
 	@Override
-	public ResourceLocation getTextureLocation(JackOChicaEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/entities/jack_o_chica.png");
+	public RenderType getRenderType(JackOChicaEntity entity, float partialTicks, PoseStack stack, MultiBufferSource renderTypeBuffer, VertexConsumer vertexBuilder, int packedLightIn, ResourceLocation textureLocation) {
+		stack.scale(1f, 1f, 1f);
+		return RenderType.entityTranslucent(getTextureLocation(entity));
 	}
 }

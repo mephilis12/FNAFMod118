@@ -1,0 +1,21 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Entities",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [
+      {
+        "value": "CUSTOM:CrawlingSpringtrap"
+      },
+      {
+        "value": "CUSTOM:Springtrap"
+      }
+    ],
+    "biomes": [],
+    "name": "fnaf3",
+    "namespace": "mod"
+  }
+}

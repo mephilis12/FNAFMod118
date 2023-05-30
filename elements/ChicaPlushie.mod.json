@@ -118,7 +118,7 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onRightClicked": {
-      "name": "NoseHonk"
+      "name": "ChicaPlushieOnBlockRightClicked"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

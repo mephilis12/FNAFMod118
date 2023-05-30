@@ -273,5 +273,192 @@
         "stream": false
       }
     ]
+  },
+  "hearme": {
+    "category": "neutral",
+    "subtitle": "subtitles.hearme",
+    "sounds": [
+      {
+        "name": "fnaf_mod:can_you_hear_me",
+        "stream": false
+      }
+    ]
+  },
+  "c1": {
+    "category": "neutral",
+    "subtitle": "subtitles.c1",
+    "sounds": [
+      {
+        "name": "fnaf_mod:honk_c1",
+        "stream": false
+      }
+    ]
+  },
+  "c1alt": {
+    "category": "neutral",
+    "subtitle": "subtitles.c1alt",
+    "sounds": [
+      {
+        "name": "fnaf_mod:honk_c1_1",
+        "stream": false
+      }
+    ]
+  },
+  "d1": {
+    "category": "neutral",
+    "subtitle": "subtitles.d1",
+    "sounds": [
+      {
+        "name": "fnaf_mod:honk_d1",
+        "stream": false
+      }
+    ]
+  },
+  "d1alt": {
+    "category": "neutral",
+    "subtitle": "subtitles.d1alt",
+    "sounds": [
+      {
+        "name": "fnaf_mod:honk_d1_1",
+        "stream": false
+      }
+    ]
+  },
+  "e1": {
+    "category": "neutral",
+    "subtitle": "subtitles.e1",
+    "sounds": [
+      {
+        "name": "fnaf_mod:honk_e1",
+        "stream": false
+      }
+    ]
+  },
+  "f1": {
+    "category": "neutral",
+    "subtitle": "subtitles.f1",
+    "sounds": [
+      {
+        "name": "fnaf_mod:honk_f1_1",
+        "stream": false
+      }
+    ]
+  },
+  "g1": {
+    "category": "neutral",
+    "subtitle": "subtitles.g1",
+    "sounds": [
+      {
+        "name": "fnaf_mod:honk_g1",
+        "stream": false
+      }
+    ]
+  },
+  "g1alt": {
+    "category": "neutral",
+    "subtitle": "subtitles.g1alt",
+    "sounds": [
+      {
+        "name": "fnaf_mod:honk_g1_1",
+        "stream": false
+      }
+    ]
+  },
+  "a2": {
+    "category": "neutral",
+    "subtitle": "subtitles.a2",
+    "sounds": [
+      {
+        "name": "fnaf_mod:honk_a2",
+        "stream": false
+      }
+    ]
+  },
+  "a2alt": {
+    "category": "neutral",
+    "subtitle": "subtitles.a2alt",
+    "sounds": [
+      {
+        "name": "fnaf_mod:honk_a2_1",
+        "stream": false
+      }
+    ]
+  },
+  "b2": {
+    "category": "neutral",
+    "subtitle": "subtitles.b2",
+    "sounds": [
+      {
+        "name": "fnaf_mod:honk_b2",
+        "stream": false
+      }
+    ]
+  },
+  "c2": {
+    "category": "neutral",
+    "subtitle": "subtitles.c2",
+    "sounds": [
+      {
+        "name": "fnaf_mod:honk_c2",
+        "stream": false
+      }
+    ]
+  },
+  "c2alt": {
+    "category": "neutral",
+    "subtitle": "subtitles.c2alt",
+    "sounds": [
+      {
+        "name": "fnaf_mod:honk_c2_1",
+        "stream": false
+      }
+    ]
+  },
+  "d2": {
+    "category": "neutral",
+    "subtitle": "subtitles.d2",
+    "sounds": [
+      {
+        "name": "fnaf_mod:honk_d2",
+        "stream": false
+      }
+    ]
+  },
+  "bb": {
+    "category": "neutral",
+    "subtitle": "subtitles.bb",
+    "sounds": [
+      {
+        "name": "fnaf_mod:hi",
+        "stream": false
+      },
+      {
+        "name": "fnaf_mod:hahaha",
+        "stream": false
+      },
+      {
+        "name": "fnaf_mod:hello",
+        "stream": false
+      }
+    ]
+  },
+  "fnaf4scream": {
+    "category": "neutral",
+    "subtitle": "subtitles.fnaf4scream",
+    "sounds": [
+      {
+        "name": "fnaf_mod:animatronicscream",
+        "stream": false
+      }
+    ]
+  },
+  "nightmare": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "fnaf_mod:nightmare",
+        "stream": false
+      }
+    ]
   }
 }

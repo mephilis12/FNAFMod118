@@ -4,9 +4,12 @@
   "definition": {
     "mobName": "Bonnie Stand",
     "mobLabel": "",
-    "mobModelName": "ModelBonnieStand",
+    "mobModelName": "ModelStandBonnie",
     "mobModelTexture": "bonniestand.png",
-    "mobModelGlowTexture": "",
+    "mobModelGlowTexture": "bonniestandemissive.png",
+    "solidBoundingBox": {
+      "fixedValue": true
+    },
     "modelWidth": 0.6,
     "modelHeight": 1.8,
     "modelShadowSize": 0.5,
@@ -44,7 +47,7 @@
     "equipmentBoots": {
       "value": ""
     },
-    "mobBehaviourType": "Mob",
+    "mobBehaviourType": "Creature",
     "mobCreatureType": "UNDEFINED",
     "attackStrength": 3,
     "attackKnockback": 0.0,
@@ -78,7 +81,7 @@
     "immuneToWither": false,
     "immuneToDragonBreath": false,
     "mobDrop": {
-      "value": ""
+      "value": "CUSTOM:BonnieStand.spawn_egg"
     },
     "livingSound": {
       "value": ""

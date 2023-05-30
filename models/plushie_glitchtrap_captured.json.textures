@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "plushie_glitchtrap_captured"
+      },
+      "name": "default"
+    }
+  }
+}

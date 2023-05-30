@@ -1,20 +1,28 @@
 
 package net.mcreator.fnafmod.client.renderer;
 
+import software.bernie.geckolib3.renderers.geo.GeoEntityRenderer;
+
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.MultiBufferSource;
 
+import net.mcreator.fnafmod.entity.model.CrawlingToyFoxyModel;
 import net.mcreator.fnafmod.entity.CrawlingToyFoxyEntity;
-import net.mcreator.fnafmod.client.model.ModelCrawling_Toy_Foxy;
 
-public class CrawlingToyFoxyRenderer extends MobRenderer<CrawlingToyFoxyEntity, ModelCrawling_Toy_Foxy<CrawlingToyFoxyEntity>> {
-	public CrawlingToyFoxyRenderer(EntityRendererProvider.Context context) {
-		super(context, new ModelCrawling_Toy_Foxy(context.bakeLayer(ModelCrawling_Toy_Foxy.LAYER_LOCATION)), 0.5f);
+import com.mojang.blaze3d.vertex.VertexConsumer;
+import com.mojang.blaze3d.vertex.PoseStack;
+
+public class CrawlingToyFoxyRenderer extends GeoEntityRenderer<CrawlingToyFoxyEntity> {
+	public CrawlingToyFoxyRenderer(EntityRendererProvider.Context renderManager) {
+		super(renderManager, new CrawlingToyFoxyModel());
+		this.shadowRadius = 0.5f;
 	}
 
 	@Override
-	public ResourceLocation getTextureLocation(CrawlingToyFoxyEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/entities/toy_foxy.png");
+	public RenderType getRenderType(CrawlingToyFoxyEntity entity, float partialTicks, PoseStack stack, MultiBufferSource renderTypeBuffer, VertexConsumer vertexBuilder, int packedLightIn, ResourceLocation textureLocation) {
+		stack.scale(1f, 1f, 1f);
+		return RenderType.entityTranslucent(getTextureLocation(entity));
 	}
 }

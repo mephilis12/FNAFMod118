@@ -156,7 +156,7 @@ public class SittingWitheredBonnieEntity extends Monster implements IAnimatable 
 		Entity entity = this;
 		Level world = this.level;
 
-		StatueFreddyRightClickedOnEntityProcedure.execute(entity);
+		StatueFreddyRightClickedOnEntityProcedure.execute(entity, sourceentity);
 		return retval;
 	}
 

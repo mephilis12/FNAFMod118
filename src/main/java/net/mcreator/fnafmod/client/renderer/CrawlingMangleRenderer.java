@@ -1,28 +1,30 @@
 
 package net.mcreator.fnafmod.client.renderer;
 
+import software.bernie.geckolib3.renderers.geo.GeoEntityRenderer;
+
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.entity.layers.EyesLayer;
-import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.MultiBufferSource;
 
+import net.mcreator.fnafmod.entity.model.CrawlingMangleModel;
+import net.mcreator.fnafmod.entity.layer.CrawlingMangleLayer;
 import net.mcreator.fnafmod.entity.CrawlingMangleEntity;
-import net.mcreator.fnafmod.client.model.ModelCrawling_Mangle;
 
-public class CrawlingMangleRenderer extends MobRenderer<CrawlingMangleEntity, ModelCrawling_Mangle<CrawlingMangleEntity>> {
-	public CrawlingMangleRenderer(EntityRendererProvider.Context context) {
-		super(context, new ModelCrawling_Mangle(context.bakeLayer(ModelCrawling_Mangle.LAYER_LOCATION)), 0.5f);
-		this.addLayer(new EyesLayer<CrawlingMangleEntity, ModelCrawling_Mangle<CrawlingMangleEntity>>(this) {
-			@Override
-			public RenderType renderType() {
-				return RenderType.eyes(new ResourceLocation("fnaf_mod:textures/entities/eyemangle.png"));
-			}
-		});
+import com.mojang.blaze3d.vertex.VertexConsumer;
+import com.mojang.blaze3d.vertex.PoseStack;
+
+public class CrawlingMangleRenderer extends GeoEntityRenderer<CrawlingMangleEntity> {
+	public CrawlingMangleRenderer(EntityRendererProvider.Context renderManager) {
+		super(renderManager, new CrawlingMangleModel());
+		this.shadowRadius = 0.5f;
+		this.addLayer(new CrawlingMangleLayer(this));
 	}
 
 	@Override
-	public ResourceLocation getTextureLocation(CrawlingMangleEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/entities/mangle.png");
+	public RenderType getRenderType(CrawlingMangleEntity entity, float partialTicks, PoseStack stack, MultiBufferSource renderTypeBuffer, VertexConsumer vertexBuilder, int packedLightIn, ResourceLocation textureLocation) {
+		stack.scale(1f, 1f, 1f);
+		return RenderType.entityTranslucent(getTextureLocation(entity));
 	}
 }

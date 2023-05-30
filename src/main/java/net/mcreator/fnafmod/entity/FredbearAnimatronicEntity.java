@@ -144,7 +144,7 @@ public class FredbearAnimatronicEntity extends PathfinderMob implements IAnimata
 		Entity entity = this;
 		Level world = this.level;
 
-		StatueFreddyRightClickedOnEntityProcedure.execute(entity);
+		StatueFreddyRightClickedOnEntityProcedure.execute(entity, sourceentity);
 		return retval;
 	}
 

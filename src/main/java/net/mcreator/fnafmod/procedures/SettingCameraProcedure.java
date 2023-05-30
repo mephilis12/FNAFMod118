@@ -74,7 +74,7 @@ public class SettingCameraProcedure {
 					}
 				}
 			}
-		} else {
+		} else if ((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == FnafModModItems.MAT.get()) {
 			{
 				Entity _ent = entity;
 				_ent.setYRot((float) (entity.getYRot() + 45));

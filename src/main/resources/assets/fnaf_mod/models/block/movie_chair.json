@@ -1,0 +1,9 @@
+{
+  "parent": "fnaf_mod:custom/moviechair",
+  "textures": {
+    "all": "fnaf_mod:blocks/moviechair",
+    "particle": "fnaf_mod:blocks/moviechair",
+    "2": "fnaf_mod:blocks/moviechair"
+  },
+  "render_type": "cutout"
+}

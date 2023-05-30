@@ -1,28 +1,30 @@
 
 package net.mcreator.fnafmod.client.renderer;
 
+import software.bernie.geckolib3.renderers.geo.GeoEntityRenderer;
+
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.entity.layers.EyesLayer;
-import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.MultiBufferSource;
 
+import net.mcreator.fnafmod.entity.model.NightimeToyChicaModel;
+import net.mcreator.fnafmod.entity.layer.NightimeToyChicaLayer;
 import net.mcreator.fnafmod.entity.NightimeToyChicaEntity;
-import net.mcreator.fnafmod.client.model.ModelToy_Chica;
 
-public class NightimeToyChicaRenderer extends MobRenderer<NightimeToyChicaEntity, ModelToy_Chica<NightimeToyChicaEntity>> {
-	public NightimeToyChicaRenderer(EntityRendererProvider.Context context) {
-		super(context, new ModelToy_Chica(context.bakeLayer(ModelToy_Chica.LAYER_LOCATION)), 0.5f);
-		this.addLayer(new EyesLayer<NightimeToyChicaEntity, ModelToy_Chica<NightimeToyChicaEntity>>(this) {
-			@Override
-			public RenderType renderType() {
-				return RenderType.eyes(new ResourceLocation("fnaf_mod:textures/entities/toy_chica_night_eye_spooky.png"));
-			}
-		});
+import com.mojang.blaze3d.vertex.VertexConsumer;
+import com.mojang.blaze3d.vertex.PoseStack;
+
+public class NightimeToyChicaRenderer extends GeoEntityRenderer<NightimeToyChicaEntity> {
+	public NightimeToyChicaRenderer(EntityRendererProvider.Context renderManager) {
+		super(renderManager, new NightimeToyChicaModel());
+		this.shadowRadius = 0.5f;
+		this.addLayer(new NightimeToyChicaLayer(this));
 	}
 
 	@Override
-	public ResourceLocation getTextureLocation(NightimeToyChicaEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/entities/toy_chica_night.png");
+	public RenderType getRenderType(NightimeToyChicaEntity entity, float partialTicks, PoseStack stack, MultiBufferSource renderTypeBuffer, VertexConsumer vertexBuilder, int packedLightIn, ResourceLocation textureLocation) {
+		stack.scale(1f, 1f, 1f);
+		return RenderType.entityTranslucent(getTextureLocation(entity));
 	}
 }

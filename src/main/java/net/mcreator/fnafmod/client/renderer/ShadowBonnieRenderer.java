@@ -1,28 +1,30 @@
 
 package net.mcreator.fnafmod.client.renderer;
 
+import software.bernie.geckolib3.renderers.geo.GeoEntityRenderer;
+
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.entity.layers.EyesLayer;
-import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.MultiBufferSource;
 
+import net.mcreator.fnafmod.entity.model.ShadowBonnieModel;
+import net.mcreator.fnafmod.entity.layer.ShadowBonnieLayer;
 import net.mcreator.fnafmod.entity.ShadowBonnieEntity;
-import net.mcreator.fnafmod.client.model.ModelToy_Bonnie;
 
-public class ShadowBonnieRenderer extends MobRenderer<ShadowBonnieEntity, ModelToy_Bonnie<ShadowBonnieEntity>> {
-	public ShadowBonnieRenderer(EntityRendererProvider.Context context) {
-		super(context, new ModelToy_Bonnie(context.bakeLayer(ModelToy_Bonnie.LAYER_LOCATION)), 0.5f);
-		this.addLayer(new EyesLayer<ShadowBonnieEntity, ModelToy_Bonnie<ShadowBonnieEntity>>(this) {
-			@Override
-			public RenderType renderType() {
-				return RenderType.eyes(new ResourceLocation("fnaf_mod:textures/entities/shadow_bonnie_glow.png"));
-			}
-		});
+import com.mojang.blaze3d.vertex.VertexConsumer;
+import com.mojang.blaze3d.vertex.PoseStack;
+
+public class ShadowBonnieRenderer extends GeoEntityRenderer<ShadowBonnieEntity> {
+	public ShadowBonnieRenderer(EntityRendererProvider.Context renderManager) {
+		super(renderManager, new ShadowBonnieModel());
+		this.shadowRadius = 0.5f;
+		this.addLayer(new ShadowBonnieLayer(this));
 	}
 
 	@Override
-	public ResourceLocation getTextureLocation(ShadowBonnieEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/entities/shadow_bonnie.png");
+	public RenderType getRenderType(ShadowBonnieEntity entity, float partialTicks, PoseStack stack, MultiBufferSource renderTypeBuffer, VertexConsumer vertexBuilder, int packedLightIn, ResourceLocation textureLocation) {
+		stack.scale(1f, 1f, 1f);
+		return RenderType.entityTranslucent(getTextureLocation(entity));
 	}
 }

@@ -5,6 +5,12 @@
         "2": "chica_plushie"
       },
       "name": "default"
+    },
+    "blacklight": {
+      "map": {
+        "2": "blacklight_chica_plushie"
+      },
+      "name": "blacklight"
     }
   }
 }

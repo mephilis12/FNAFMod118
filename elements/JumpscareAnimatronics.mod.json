@@ -1,0 +1,114 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Entities",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [
+      {
+        "value": "CUSTOM:BonnieBunny"
+      },
+      {
+        "value": "CUSTOM:ChicaChicken"
+      },
+      {
+        "value": "CUSTOM:CrawlingMangle"
+      },
+      {
+        "value": "CUSTOM:CrawlingSpringtrap"
+      },
+      {
+        "value": "CUSTOM:CrawlingToyBonnie"
+      },
+      {
+        "value": "CUSTOM:CrawlingToyChica"
+      },
+      {
+        "value": "CUSTOM:CrawlingToyFoxy"
+      },
+      {
+        "value": "CUSTOM:FoxyPirate"
+      },
+      {
+        "value": "CUSTOM:FreddyFazbear"
+      },
+      {
+        "value": "CUSTOM:JackOBonnie"
+      },
+      {
+        "value": "CUSTOM:JackOChica"
+      },
+      {
+        "value": "CUSTOM:Mangle"
+      },
+      {
+        "value": "CUSTOM:NightimeToyChica"
+      },
+      {
+        "value": "CUSTOM:NightmareBB"
+      },
+      {
+        "value": "CUSTOM:NightmareBonnie"
+      },
+      {
+        "value": "CUSTOM:NightmareChica"
+      },
+      {
+        "value": "CUSTOM:NightmareFoxy"
+      },
+      {
+        "value": "CUSTOM:NightmareFredbear"
+      },
+      {
+        "value": "CUSTOM:NightmareFreddy"
+      },
+      {
+        "value": "CUSTOM:NightmareMangle"
+      },
+      {
+        "value": "CUSTOM:Plushtrap"
+      },
+      {
+        "value": "CUSTOM:Springtrap"
+      },
+      {
+        "value": "CUSTOM:ToyBonnie"
+      },
+      {
+        "value": "CUSTOM:ToyFoxy"
+      },
+      {
+        "value": "CUSTOM:ToyFreddy"
+      },
+      {
+        "value": "CUSTOM:UnwitheredBonnie"
+      },
+      {
+        "value": "CUSTOM:UnwitheredChica"
+      },
+      {
+        "value": "CUSTOM:UnwitheredFoxy"
+      },
+      {
+        "value": "CUSTOM:UnwitheredFreddy"
+      },
+      {
+        "value": "CUSTOM:WitheredBonnie"
+      },
+      {
+        "value": "CUSTOM:WitheredChica"
+      },
+      {
+        "value": "CUSTOM:WitheredFoxy"
+      },
+      {
+        "value": "CUSTOM:WitheredFreddy"
+      }
+    ],
+    "biomes": [],
+    "name": "jumpscare_animatronics",
+    "namespace": "mod"
+  }
+}

@@ -27,7 +27,7 @@ import net.minecraft.world.InteractionHand;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.fnafmod.procedures.NoseHonkProcedure;
+import net.mcreator.fnafmod.procedures.BonniePlushieOnBlockRightClickedProcedure;
 
 import java.util.List;
 import java.util.Collections;
@@ -106,7 +106,7 @@ public class BonniePlushieBlock extends Block {
 		double hitY = hit.getLocation().y;
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
-		NoseHonkProcedure.execute(world, x, y, z);
+		BonniePlushieOnBlockRightClickedProcedure.execute(world, x, y, z);
 		return InteractionResult.SUCCESS;
 	}
 }

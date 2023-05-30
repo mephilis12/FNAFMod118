@@ -11,6 +11,7 @@ import net.minecraft.util.Mth;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.fnafmod.init.FnafModModBlocks;
+import net.mcreator.fnafmod.FnafModMod;
 
 public class NightmareFoxyOnEntityTickUpdateProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
@@ -50,9 +51,13 @@ public class NightmareFoxyOnEntityTickUpdateProcedure {
 		}
 		if (found == true) {
 			if (entity instanceof LivingEntity _entity)
-				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 120, 8, (false), (false)));
+				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 60, 8, (false), (false)));
 			if (entity instanceof LivingEntity _entity)
-				_entity.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 120, 8, (false), (false)));
+				_entity.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 60, 8, (false), (false)));
+			entity.setShiftKeyDown((true));
+			FnafModMod.queueServerWork(60, () -> {
+				entity.setShiftKeyDown((false));
+			});
 		}
 	}
 }

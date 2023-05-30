@@ -7,6 +7,9 @@
     "mobModelName": "Modeltoybox",
     "mobModelTexture": "toybox.png",
     "mobModelGlowTexture": "",
+    "solidBoundingBox": {
+      "fixedValue": true
+    },
     "modelWidth": 1.0,
     "modelHeight": 1.5,
     "modelShadowSize": 1.0,
@@ -44,7 +47,7 @@
     "equipmentBoots": {
       "value": ""
     },
-    "mobBehaviourType": "Mob",
+    "mobBehaviourType": "Creature",
     "mobCreatureType": "UNDEFINED",
     "attackStrength": 3,
     "attackKnockback": 0.0,
@@ -78,7 +81,7 @@
     "immuneToWither": false,
     "immuneToDragonBreath": false,
     "mobDrop": {
-      "value": ""
+      "value": "CUSTOM:ToyBox.spawn_egg"
     },
     "livingSound": {
       "value": ""

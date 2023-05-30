@@ -16,6 +16,7 @@ import net.mcreator.fnafmod.client.gui.WallChange1Screen;
 import net.mcreator.fnafmod.client.gui.SodaMachineScreen;
 import net.mcreator.fnafmod.client.gui.RemnantInfuserScreen;
 import net.mcreator.fnafmod.client.gui.LockerScreen;
+import net.mcreator.fnafmod.client.gui.JumpscareScreen;
 import net.mcreator.fnafmod.client.gui.CameraGUIScreen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
@@ -29,6 +30,7 @@ public class FnafModModScreens {
 			MenuScreens.register(FnafModModMenus.REMNANT_INFUSER.get(), RemnantInfuserScreen::new);
 			MenuScreens.register(FnafModModMenus.CAMERA_GUI.get(), CameraGUIScreen::new);
 			MenuScreens.register(FnafModModMenus.SODA_MACHINE.get(), SodaMachineScreen::new);
+			MenuScreens.register(FnafModModMenus.JUMPSCARE.get(), JumpscareScreen::new);
 		});
 	}
 }

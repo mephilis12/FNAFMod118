@@ -139,7 +139,7 @@ public class StatueBonnieEntity extends PathfinderMob implements IAnimatable {
 		Entity entity = this;
 		Level world = this.level;
 
-		StatueFreddyRightClickedOnEntityProcedure.execute(entity);
+		StatueFreddyRightClickedOnEntityProcedure.execute(entity, sourceentity);
 		return retval;
 	}
 

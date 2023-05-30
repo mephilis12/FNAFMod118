@@ -10,11 +10,13 @@ import net.minecraft.core.BlockPos;
 
 public class NoseHonkProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
-		if (world instanceof Level _level) {
-			if (!_level.isClientSide()) {
-				_level.playSound(null, new BlockPos(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("fnaf_mod:nosehonk")), SoundSource.BLOCKS, 1, 1);
-			} else {
-				_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("fnaf_mod:nosehonk")), SoundSource.BLOCKS, 1, 1, false);
+		if (!world.isClientSide()) {
+			if (world instanceof Level _level) {
+				if (!_level.isClientSide()) {
+					_level.playSound(null, new BlockPos(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("fnaf_mod:nosehonk")), SoundSource.BLOCKS, 1, 1);
+				} else {
+					_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("fnaf_mod:nosehonk")), SoundSource.BLOCKS, 1, 1, false);
+				}
 			}
 		}
 	}

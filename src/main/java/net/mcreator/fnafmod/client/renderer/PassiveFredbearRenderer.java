@@ -1,20 +1,28 @@
 
 package net.mcreator.fnafmod.client.renderer;
 
+import software.bernie.geckolib3.renderers.geo.GeoEntityRenderer;
+
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.MultiBufferSource;
 
+import net.mcreator.fnafmod.entity.model.PassiveFredbearModel;
 import net.mcreator.fnafmod.entity.PassiveFredbearEntity;
-import net.mcreator.fnafmod.client.model.ModelFredbear;
 
-public class PassiveFredbearRenderer extends MobRenderer<PassiveFredbearEntity, ModelFredbear<PassiveFredbearEntity>> {
-	public PassiveFredbearRenderer(EntityRendererProvider.Context context) {
-		super(context, new ModelFredbear(context.bakeLayer(ModelFredbear.LAYER_LOCATION)), 0.5f);
+import com.mojang.blaze3d.vertex.VertexConsumer;
+import com.mojang.blaze3d.vertex.PoseStack;
+
+public class PassiveFredbearRenderer extends GeoEntityRenderer<PassiveFredbearEntity> {
+	public PassiveFredbearRenderer(EntityRendererProvider.Context renderManager) {
+		super(renderManager, new PassiveFredbearModel());
+		this.shadowRadius = 0.5f;
 	}
 
 	@Override
-	public ResourceLocation getTextureLocation(PassiveFredbearEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/entities/fredbear.png");
+	public RenderType getRenderType(PassiveFredbearEntity entity, float partialTicks, PoseStack stack, MultiBufferSource renderTypeBuffer, VertexConsumer vertexBuilder, int packedLightIn, ResourceLocation textureLocation) {
+		stack.scale(1f, 1f, 1f);
+		return RenderType.entityTranslucent(getTextureLocation(entity));
 	}
 }

@@ -9,7 +9,7 @@
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "plushie_fredbear:default",
+    "customModelName": "plushie_freddy:fredbear",
     "rotationMode": 1,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -118,7 +118,7 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onRightClicked": {
-      "name": "NoseHonk"
+      "name": "FredbearPlushieOnBlockRightClicked"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
