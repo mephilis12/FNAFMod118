@@ -9,6 +9,7 @@ import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.MultiBufferSource;
 
 import net.mcreator.fnafmod.entity.model.GoldenFreddyModel;
+import net.mcreator.fnafmod.entity.layer.GoldenFreddyLayer;
 import net.mcreator.fnafmod.entity.GoldenFreddyEntity;
 
 import com.mojang.blaze3d.vertex.VertexConsumer;
@@ -18,10 +19,12 @@ public class GoldenFreddyRenderer extends GeoEntityRenderer<GoldenFreddyEntity> 
 	public GoldenFreddyRenderer(EntityRendererProvider.Context renderManager) {
 		super(renderManager, new GoldenFreddyModel());
 		this.shadowRadius = 0.5f;
+		this.addLayer(new GoldenFreddyLayer(this));
 	}
 
 	@Override
 	public RenderType getRenderType(GoldenFreddyEntity entity, float partialTicks, PoseStack stack, MultiBufferSource renderTypeBuffer, VertexConsumer vertexBuilder, int packedLightIn, ResourceLocation textureLocation) {
+		stack.scale(1f, 1f, 1f);
 		return RenderType.entityTranslucent(getTextureLocation(entity));
 	}
 }

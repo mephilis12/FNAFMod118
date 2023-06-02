@@ -460,5 +460,15 @@
         "stream": false
       }
     ]
+  },
+  "neverbealone": {
+    "category": "record",
+    "subtitle": "subtitles.neverbealone",
+    "sounds": [
+      {
+        "name": "fnaf_mod:never_be_alone_funky_mix",
+        "stream": true
+      }
+    ]
   }
 }

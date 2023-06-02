@@ -2,6 +2,5 @@
   "parent": "item/generated",
   "textures": {
     "layer0": "fnaf_mod:items/chicaheaditem"
-  },
-  "render_type": "translucent"
+  }
 }

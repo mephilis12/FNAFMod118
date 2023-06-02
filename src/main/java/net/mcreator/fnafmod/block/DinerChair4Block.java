@@ -52,10 +52,10 @@ public class DinerChair4Block extends Block {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> box(4, 0, 4, 13, 11, 13);
-			case NORTH -> box(3, 0, 3, 12, 11, 12);
-			case EAST -> box(4, 0, 3, 13, 11, 12);
-			case WEST -> box(3, 0, 4, 12, 11, 13);
+			default -> box(3, 0, 3, 13, 11, 13);
+			case NORTH -> box(3, 0, 3, 13, 11, 13);
+			case EAST -> box(3, 0, 3, 13, 11, 13);
+			case WEST -> box(3, 0, 3, 13, 11, 13);
 		};
 	}
 

@@ -26,14 +26,14 @@
       {
         "mx": 12.0,
         "my": 0.0,
-        "mz": 12.0,
+        "mz": 11.0,
         "Mx": 4.0,
         "My": 9.0,
         "Mz": 16.0,
         "subtract": false
       }
     ],
-    "name": "Door Button Off",
+    "name": "Door Button",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,

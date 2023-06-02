@@ -58,6 +58,8 @@ import net.mcreator.fnafmod.block.StructureSpawningBlock5Block;
 import net.mcreator.fnafmod.block.StructureSpawningBlock4Block;
 import net.mcreator.fnafmod.block.StructureSpawningBlock3Block;
 import net.mcreator.fnafmod.block.StructureSpawningBlock2Block;
+import net.mcreator.fnafmod.block.StructureSpawningBlock13Block;
+import net.mcreator.fnafmod.block.StructureSpawningBlock12Block;
 import net.mcreator.fnafmod.block.StructureSpawningBlock11Block;
 import net.mcreator.fnafmod.block.StructureSpawningBlock10Block;
 import net.mcreator.fnafmod.block.StarsBlock;
@@ -367,8 +369,8 @@ public class FnafModModBlocks {
 	public static final RegistryObject<Block> GREEN_BLUE_TILE_SLAB = REGISTRY.register("green_blue_tile_slab", () -> new GreenBlueTileSlabBlock());
 	public static final RegistryObject<Block> GREEN_BLUE_TILE_STAIR = REGISTRY.register("green_blue_tile_stair", () -> new GreenBlueTileStairBlock());
 	public static final RegistryObject<Block> GREEN_BLUE_TILE_CRACKED = REGISTRY.register("green_blue_tile_cracked", () -> new GreenBlueTileCrackedBlock());
-	public static final RegistryObject<Block> GREEN_BLUE_TILE_STAIR_CRACKED = REGISTRY.register("green_blue_tile_stair_cracked", () -> new GreenBlueTileStairCrackedBlock());
 	public static final RegistryObject<Block> GREEN_BLUE_TILE_SLAB_CRACKED = REGISTRY.register("green_blue_tile_slab_cracked", () -> new GreenBlueTileSlabCrackedBlock());
+	public static final RegistryObject<Block> GREEN_BLUE_TILE_STAIR_CRACKED = REGISTRY.register("green_blue_tile_stair_cracked", () -> new GreenBlueTileStairCrackedBlock());
 	public static final RegistryObject<Block> FREDBEAR_FLOOR = REGISTRY.register("fredbear_floor", () -> new FredbearFloorBlock());
 	public static final RegistryObject<Block> FREDBEAR_FLOOR_CLEAN = REGISTRY.register("fredbear_floor_clean", () -> new FredbearFloorCleanBlock());
 	public static final RegistryObject<Block> STAGE_BRICKS = REGISTRY.register("stage_bricks", () -> new StageBricksBlock());
@@ -466,10 +468,8 @@ public class FnafModModBlocks {
 	public static final RegistryObject<Block> TABLE_CLOTH = REGISTRY.register("table_cloth", () -> new TableClothBlock());
 	public static final RegistryObject<Block> PIZZA_BOX_CLOSED = REGISTRY.register("pizza_box_closed", () -> new PizzaBoxClosedBlock());
 	public static final RegistryObject<Block> PIZZA_BOX_OPEN = REGISTRY.register("pizza_box_open", () -> new PizzaBoxOpenBlock());
-	public static final RegistryObject<Block> DOOR_BUTTON_OFF = REGISTRY.register("door_button_off", () -> new DoorButtonOffBlock());
 	public static final RegistryObject<Block> STARS = REGISTRY.register("stars", () -> new StarsBlock());
 	public static final RegistryObject<Block> DESK = REGISTRY.register("desk", () -> new DeskBlock());
-	public static final RegistryObject<Block> SECURITY_DOOR_OPEN = REGISTRY.register("security_door_open", () -> new SecurityDoorOpenBlock());
 	public static final RegistryObject<Block> DESK_2 = REGISTRY.register("desk_2", () -> new Desk2Block());
 	public static final RegistryObject<Block> DESK_3 = REGISTRY.register("desk_3", () -> new Desk3Block());
 	public static final RegistryObject<Block> CHAIR = REGISTRY.register("chair", () -> new ChairBlock());
@@ -529,6 +529,7 @@ public class FnafModModBlocks {
 	public static final RegistryObject<Block> CHICA_HEAD_DECORATION = REGISTRY.register("chica_head_decoration", () -> new ChicaHeadDecorationBlock());
 	public static final RegistryObject<Block> FOXY_HEAD_DECORATION = REGISTRY.register("foxy_head_decoration", () -> new FoxyHeadDecorationBlock());
 	public static final RegistryObject<Block> PUPPET_MASK = REGISTRY.register("puppet_mask", () -> new PuppetMaskBlock());
+	public static final RegistryObject<Block> LURE = REGISTRY.register("lure", () -> new LureBlock());
 	public static final RegistryObject<Block> SHELF = REGISTRY.register("shelf", () -> new ShelfBlock());
 	public static final RegistryObject<Block> VENT = REGISTRY.register("vent", () -> new VentBlock());
 	public static final RegistryObject<Block> VENT_HATCH = REGISTRY.register("vent_hatch", () -> new VentHatchBlock());
@@ -554,6 +555,14 @@ public class FnafModModBlocks {
 	public static final RegistryObject<Block> UN_WITHERED_BONNIE_HEAD = REGISTRY.register("un_withered_bonnie_head", () -> new UnWitheredBonnieHeadBlock());
 	public static final RegistryObject<Block> UN_WITHERED_FOXY_HEAD = REGISTRY.register("un_withered_foxy_head", () -> new UnWitheredFoxyHeadBlock());
 	public static final RegistryObject<Block> UN_WITHERED_CHICA_HEAD = REGISTRY.register("un_withered_chica_head", () -> new UnWitheredChicaHeadBlock());
+	public static final RegistryObject<Block> SCONCE = REGISTRY.register("sconce", () -> new SconceBlock());
+	public static final RegistryObject<Block> PARTY_HAT_RED = REGISTRY.register("party_hat_red", () -> new PartyHatRedBlock());
+	public static final RegistryObject<Block> PARTY_HAT_BLUE = REGISTRY.register("party_hat_blue", () -> new PartyHatBlueBlock());
+	public static final RegistryObject<Block> PARTY_HAT_PURPLE = REGISTRY.register("party_hat_purple", () -> new PartyHatPurpleBlock());
+	public static final RegistryObject<Block> PARTY_HAT_GREEN = REGISTRY.register("party_hat_green", () -> new PartyHatGreenBlock());
+	public static final RegistryObject<Block> CLOUDS = REGISTRY.register("clouds", () -> new CloudsBlock());
+	public static final RegistryObject<Block> DOOR_BUTTON_OFF = REGISTRY.register("door_button_off", () -> new DoorButtonOffBlock());
+	public static final RegistryObject<Block> SECURITY_DOOR_OPEN = REGISTRY.register("security_door_open", () -> new SecurityDoorOpenBlock());
 	public static final RegistryObject<Block> STRUCTURE_SPAWNING_BLOCK = REGISTRY.register("structure_spawning_block", () -> new StructureSpawningBlockBlock());
 	public static final RegistryObject<Block> STRUCTURE_SPAWNING_BLOCK_2 = REGISTRY.register("structure_spawning_block_2", () -> new StructureSpawningBlock2Block());
 	public static final RegistryObject<Block> STRUCTURE_SPAWNING_BLOCK_3 = REGISTRY.register("structure_spawning_block_3", () -> new StructureSpawningBlock3Block());
@@ -566,6 +575,8 @@ public class FnafModModBlocks {
 	public static final RegistryObject<Block> STRUCTURE_SPAWNING_BLOCK_10 = REGISTRY.register("structure_spawning_block_10", () -> new StructureSpawningBlock10Block());
 	public static final RegistryObject<Block> STRUCTURE_SPAWNING_BLOCK_11 = REGISTRY.register("structure_spawning_block_11", () -> new StructureSpawningBlock11Block());
 	public static final RegistryObject<Block> SHACK_RANDOMIZER = REGISTRY.register("shack_randomizer", () -> new ShackRandomizerBlock());
+	public static final RegistryObject<Block> STRUCTURE_SPAWNING_BLOCK_12 = REGISTRY.register("structure_spawning_block_12", () -> new StructureSpawningBlock12Block());
+	public static final RegistryObject<Block> STRUCTURE_SPAWNING_BLOCK_13 = REGISTRY.register("structure_spawning_block_13", () -> new StructureSpawningBlock13Block());
 	public static final RegistryObject<Block> CHILDREN_DRAWINGS = REGISTRY.register("children_drawings", () -> new ChildrenDrawingsBlock());
 	public static final RegistryObject<Block> CHILDREN_DRAWINGS_2 = REGISTRY.register("children_drawings_2", () -> new ChildrenDrawings2Block());
 	public static final RegistryObject<Block> CHILDREN_DRAWINGS_3 = REGISTRY.register("children_drawings_3", () -> new ChildrenDrawings3Block());
@@ -645,11 +656,4 @@ public class FnafModModBlocks {
 	public static final RegistryObject<Block> BLACK_LIGHT_CHICA_PLUSHIE = REGISTRY.register("black_light_chica_plushie", () -> new BlackLightChicaPlushieBlock());
 	public static final RegistryObject<Block> BLACK_LIGHT_FOXY_PLUSHIE = REGISTRY.register("black_light_foxy_plushie", () -> new BlackLightFoxyPlushieBlock());
 	public static final RegistryObject<Block> BLACK_LIGHT_SPRING_BONNIE_PLUSH = REGISTRY.register("black_light_spring_bonnie_plush", () -> new BlackLightSpringBonniePlushBlock());
-	public static final RegistryObject<Block> SCONCE = REGISTRY.register("sconce", () -> new SconceBlock());
-	public static final RegistryObject<Block> PARTY_HAT_RED = REGISTRY.register("party_hat_red", () -> new PartyHatRedBlock());
-	public static final RegistryObject<Block> PARTY_HAT_BLUE = REGISTRY.register("party_hat_blue", () -> new PartyHatBlueBlock());
-	public static final RegistryObject<Block> PARTY_HAT_PURPLE = REGISTRY.register("party_hat_purple", () -> new PartyHatPurpleBlock());
-	public static final RegistryObject<Block> PARTY_HAT_GREEN = REGISTRY.register("party_hat_green", () -> new PartyHatGreenBlock());
-	public static final RegistryObject<Block> CLOUDS = REGISTRY.register("clouds", () -> new CloudsBlock());
-	public static final RegistryObject<Block> LURE = REGISTRY.register("lure", () -> new LureBlock());
 }

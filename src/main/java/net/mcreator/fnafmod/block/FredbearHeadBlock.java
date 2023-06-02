@@ -66,10 +66,10 @@ public class FredbearHeadBlock extends BaseEntityBlock implements EntityBlock {
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 
 		return switch (state.getValue(FACING)) {
-			default -> box(1, 0, 2, 11, 10, 12);
-			case NORTH -> box(5, 0, 4, 15, 10, 14);
-			case EAST -> box(2, 0, 5, 12, 10, 15);
-			case WEST -> box(4, 0, 1, 14, 10, 11);
+			default -> box(3, 0, 4, 13, 11, 14);
+			case NORTH -> box(3, 0, 2, 13, 11, 12);
+			case EAST -> box(4, 0, 3, 14, 11, 13);
+			case WEST -> box(2, 0, 3, 12, 11, 13);
 		};
 	}
 

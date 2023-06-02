@@ -58,6 +58,16 @@ public class OrangeSpeakerLeftBlock extends Block {
 	}
 
 	@Override
+	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		return switch (state.getValue(FACING)) {
+			default -> box(2, 0, 0, 14, 16, 16);
+			case NORTH -> box(2, 0, 0, 14, 16, 16);
+			case EAST -> box(0, 0, 2, 16, 16, 14);
+			case WEST -> box(0, 0, 2, 16, 16, 14);
+		};
+	}
+
+	@Override
 	protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
 		builder.add(FACING);
 	}
@@ -105,7 +115,7 @@ public class OrangeSpeakerLeftBlock extends Block {
 		double hitY = hit.getLocation().y;
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
-		OrangeSpeakerLeftOnBlockRightClickedProcedure.execute(world, x, y, z);
+		OrangeSpeakerLeftOnBlockRightClickedProcedure.execute(world, x, y, z, entity);
 		return InteractionResult.SUCCESS;
 	}
 }

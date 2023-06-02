@@ -1,20 +1,28 @@
 
 package net.mcreator.fnafmod.client.renderer;
 
+import software.bernie.geckolib3.renderers.geo.GeoEntityRenderer;
+
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.MultiBufferSource;
 
+import net.mcreator.fnafmod.entity.model.NightmareChicaStatueModel;
 import net.mcreator.fnafmod.entity.NightmareChicaStatueEntity;
-import net.mcreator.fnafmod.client.model.ModelNightmare_Chica_Statue;
 
-public class NightmareChicaStatueRenderer extends MobRenderer<NightmareChicaStatueEntity, ModelNightmare_Chica_Statue<NightmareChicaStatueEntity>> {
-	public NightmareChicaStatueRenderer(EntityRendererProvider.Context context) {
-		super(context, new ModelNightmare_Chica_Statue(context.bakeLayer(ModelNightmare_Chica_Statue.LAYER_LOCATION)), 0.5f);
+import com.mojang.blaze3d.vertex.VertexConsumer;
+import com.mojang.blaze3d.vertex.PoseStack;
+
+public class NightmareChicaStatueRenderer extends GeoEntityRenderer<NightmareChicaStatueEntity> {
+	public NightmareChicaStatueRenderer(EntityRendererProvider.Context renderManager) {
+		super(renderManager, new NightmareChicaStatueModel());
+		this.shadowRadius = 0.5f;
 	}
 
 	@Override
-	public ResourceLocation getTextureLocation(NightmareChicaStatueEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/entities/nightmare_chica.png");
+	public RenderType getRenderType(NightmareChicaStatueEntity entity, float partialTicks, PoseStack stack, MultiBufferSource renderTypeBuffer, VertexConsumer vertexBuilder, int packedLightIn, ResourceLocation textureLocation) {
+		stack.scale(1f, 1f, 1f);
+		return RenderType.entityTranslucent(getTextureLocation(entity));
 	}
 }

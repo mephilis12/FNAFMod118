@@ -894,6 +894,46 @@
 					}
 				}
 			}
+		},
+		"animation.nightmare_freddy.pose": {
+			"loop": true,
+			"bones": {
+				"Body": {
+					"rotation": {
+						"vector": [14.93656, 0.9762, -7.43656]
+					}
+				},
+				"Head": {
+					"rotation": {
+						"vector": [7.49294, 0.32621, 5.02136]
+					}
+				},
+				"LeftArm": {
+					"rotation": {
+						"vector": [0, 37.5, 0]
+					}
+				},
+				"LeftLowerArm": {
+					"rotation": {
+						"vector": [-20, 0, 0]
+					}
+				},
+				"RightArm": {
+					"rotation": {
+						"vector": [-28.4468, 38.87524, 1.56363]
+					}
+				},
+				"RightLowerArm": {
+					"rotation": {
+						"vector": [-27.5, 0, -5]
+					}
+				},
+				"RightHand": {
+					"rotation": {
+						"vector": [-97.36249, 63.9557, -83.4503]
+					}
+				}
+			}
 		}
 	},
 	"geckolib_format_version": 2

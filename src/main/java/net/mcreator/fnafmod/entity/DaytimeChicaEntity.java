@@ -71,7 +71,7 @@ public class DaytimeChicaEntity extends Monster implements IAnimatable {
 		xpReward = 0;
 		setNoAi(true);
 		setPersistenceRequired();
-		this.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(FnafModModItems.MICROPHONE.get()));
+		this.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(FnafModModItems.CUPCAKE.get()));
 	}
 
 	@Override

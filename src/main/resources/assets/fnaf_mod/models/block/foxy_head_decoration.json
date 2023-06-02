@@ -1,9 +1,0 @@
-{
-  "parent": "fnaf_mod:custom/foxy_head_decor",
-  "textures": {
-    "all": "fnaf_mod:blocks/foxyheaddecor",
-    "particle": "fnaf_mod:blocks/foxyheaddecor",
-    "1": "fnaf_mod:blocks/foxyheaddecor"
-  },
-  "render_type": "cutout"
-}

@@ -4,6 +4,7 @@ package net.mcreator.fnafmod.block;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.HitResult;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
@@ -58,10 +59,10 @@ public class DoorButtonOnBlock extends Block {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> box(4, 0, 0, 12, 9, 4);
-			case NORTH -> box(4, 0, 12, 12, 9, 16);
-			case EAST -> box(0, 0, 4, 4, 9, 12);
-			case WEST -> box(12, 0, 4, 16, 9, 12);
+			default -> box(4, 0, 0, 12, 9, 5);
+			case NORTH -> box(4, 0, 11, 12, 9, 16);
+			case EAST -> box(0, 0, 4, 5, 9, 12);
+			case WEST -> box(11, 0, 4, 16, 9, 12);
 		};
 	}
 
@@ -81,6 +82,11 @@ public class DoorButtonOnBlock extends Block {
 
 	public BlockState mirror(BlockState state, Mirror mirrorIn) {
 		return state.rotate(mirrorIn.getRotation(state.getValue(FACING)));
+	}
+
+	@Override
+	public ItemStack getCloneItemStack(BlockState state, HitResult target, BlockGetter world, BlockPos pos, Player player) {
+		return new ItemStack(FnafModModBlocks.DOOR_BUTTON_OFF.get());
 	}
 
 	@Override

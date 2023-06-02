@@ -50,10 +50,10 @@ public class WarningSignBlock extends Block {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> box(0, 0, 0, 16, 16, 2);
-			case NORTH -> box(0, 0, 14, 16, 16, 16);
-			case EAST -> box(0, 0, 0, 2, 16, 16);
-			case WEST -> box(14, 0, 0, 16, 16, 16);
+			default -> box(2, 2, 0, 14, 14, 2);
+			case NORTH -> box(2, 2, 14, 14, 14, 16);
+			case EAST -> box(0, 2, 2, 2, 14, 14);
+			case WEST -> box(14, 2, 2, 16, 14, 14);
 		};
 	}
 

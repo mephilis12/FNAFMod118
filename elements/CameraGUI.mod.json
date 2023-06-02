@@ -22,7 +22,7 @@
             "falpha": 0.0
           },
           "x": 96,
-          "y": 44
+          "y": 46
         }
       },
       {
@@ -30,14 +30,15 @@
         "data": {
           "name": "label_page_enbtintegerplus2",
           "text": {
-            "fixedValue": "Page: <ENBT:integer:plus2>"
+            "fixedValue": "",
+            "name": "CameraGUIValue"
           },
           "color": {
             "value": -1,
             "falpha": 0.0
           },
-          "x": 87,
-          "y": 188
+          "x": 114,
+          "y": 161
         }
       },
       {
@@ -50,7 +51,7 @@
           },
           "width": 66,
           "height": 20,
-          "x": 87,
+          "x": 105,
           "y": 62
         }
       },
@@ -64,7 +65,7 @@
           },
           "width": 66,
           "height": 20,
-          "x": 87,
+          "x": 105,
           "y": 80
         }
       },
@@ -78,7 +79,7 @@
           },
           "width": 66,
           "height": 20,
-          "x": 87,
+          "x": 105,
           "y": 98
         }
       },
@@ -92,7 +93,7 @@
           },
           "width": 66,
           "height": 20,
-          "x": 87,
+          "x": 105,
           "y": 116
         }
       },
@@ -106,7 +107,7 @@
           },
           "width": 66,
           "height": 20,
-          "x": 87,
+          "x": 105,
           "y": 134
         }
       },
@@ -115,14 +116,14 @@
         "data": {
           "name": "label_to_set_a_camera",
           "text": {
-            "fixedValue": "To Set a Camera"
+            "fixedValue": "Right-click Cam"
           },
           "color": {
             "value": -1,
             "falpha": 0.0
           },
-          "x": 240,
-          "y": 116
+          "x": 222,
+          "y": 107
         }
       },
       {
@@ -130,14 +131,14 @@
         "data": {
           "name": "label_right_click_it",
           "text": {
-            "fixedValue": "Right Click It"
+            "fixedValue": "with monitor"
           },
           "color": {
             "value": -1,
             "falpha": 0.0
           },
-          "x": 240,
-          "y": 125
+          "x": 222,
+          "y": 116
         }
       },
       {
@@ -145,14 +146,14 @@
         "data": {
           "name": "label_with_the_monitor",
           "text": {
-            "fixedValue": "with the Monitor"
+            "fixedValue": "for setup!"
           },
           "color": {
             "value": -1,
             "falpha": 0.0
           },
-          "x": 240,
-          "y": 134
+          "x": 222,
+          "y": 125
         }
       },
       {
@@ -160,14 +161,14 @@
         "data": {
           "name": "label_to_remove_a_camera",
           "text": {
-            "fixedValue": "To Remove A Camera"
+            "fixedValue": "Remove Cam"
           },
           "color": {
             "value": -1,
             "falpha": 0.0
           },
-          "x": 240,
-          "y": 143
+          "x": 222,
+          "y": 137
         }
       },
       {
@@ -175,44 +176,14 @@
         "data": {
           "name": "label_shift_click",
           "text": {
-            "fixedValue": "Shift Click"
+            "fixedValue": "With shift-click"
           },
           "color": {
             "value": -1,
             "falpha": 0.0
           },
-          "x": 240,
-          "y": 152
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "name": "label_you_can_have_unlimited_cameras",
-          "text": {
-            "fixedValue": "You Can Have Unlimited Cameras"
-          },
-          "color": {
-            "value": -1,
-            "falpha": 0.0
-          },
-          "x": 87,
-          "y": 161
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "name": "label_swap_pages_for_each_set_of_5",
-          "text": {
-            "fixedValue": "Swap Pages for Each Set of 5"
-          },
-          "color": {
-            "value": -1,
-            "falpha": 0.0
-          },
-          "x": 87,
-          "y": 170
+          "x": 222,
+          "y": 146
         }
       },
       {
@@ -225,7 +196,7 @@
           },
           "width": 90,
           "height": 20,
-          "x": 240,
+          "x": 222,
           "y": 62
         }
       },
@@ -239,8 +210,8 @@
           },
           "width": 90,
           "height": 20,
-          "x": 240,
-          "y": 89
+          "x": 222,
+          "y": 85
         }
       },
       {
@@ -248,14 +219,14 @@
         "data": {
           "name": "label_press_z_to_exit_the_camera",
           "text": {
-            "fixedValue": "Press Z to Exit the Camera"
+            "fixedValue": "Press Z to Exit"
           },
           "color": {
             "value": -1,
             "falpha": 0.0
           },
-          "x": 87,
-          "y": 179
+          "x": 222,
+          "y": 161
         }
       },
       {
@@ -273,7 +244,7 @@
       "sy": 18,
       "ox": 11,
       "oy": 15,
-      "snapOnGrid": false
+      "snapOnGrid": true
     }
   }
 }

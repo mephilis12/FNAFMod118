@@ -9,6 +9,7 @@ import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.MultiBufferSource;
 
 import net.mcreator.fnafmod.entity.model.SpringtrapModel;
+import net.mcreator.fnafmod.entity.layer.SpringtrapLayer;
 import net.mcreator.fnafmod.entity.SpringtrapEntity;
 
 import com.mojang.blaze3d.vertex.VertexConsumer;
@@ -18,6 +19,7 @@ public class SpringtrapRenderer extends GeoEntityRenderer<SpringtrapEntity> {
 	public SpringtrapRenderer(EntityRendererProvider.Context renderManager) {
 		super(renderManager, new SpringtrapModel());
 		this.shadowRadius = 0.5f;
+		this.addLayer(new SpringtrapLayer(this));
 	}
 
 	@Override

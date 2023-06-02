@@ -5,7 +5,13 @@
     "mobName": "Golden Freddy",
     "mobLabel": "",
     "mobModelTexture": "real_golden_freddy.png",
-    "mobModelGlowTexture": "",
+    "mobModelGlowTexture": "golden_freddy_glow.png",
+    "visualScale": {
+      "fixedValue": 1.0
+    },
+    "boundingBoxScale": {
+      "fixedValue": 1.0
+    },
     "modelWidth": 0.6,
     "modelHeight": 1.9000000000000001,
     "modelShadowSize": 0.5,

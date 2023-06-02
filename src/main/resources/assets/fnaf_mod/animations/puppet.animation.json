@@ -746,6 +746,71 @@
 					}
 				}
 			}
+		},
+		"animation.puppet.pose": {
+			"loop": true,
+			"bones": {
+				"Body": {
+					"rotation": {
+						"vector": [5, 0, 0]
+					}
+				},
+				"Head": {
+					"rotation": {
+						"vector": [-4.98107, -0.43523, -4.98107]
+					}
+				},
+				"eyes": {
+					"position": {
+						"vector": [0, 0, 1]
+					}
+				},
+				"right_arm": {
+					"rotation": {
+						"vector": [-96.45023, 60.40105, -18.90379]
+					}
+				},
+				"right_lower_arm": {
+					"rotation": {
+						"vector": [-60, 0, 0]
+					}
+				},
+				"left_arm": {
+					"rotation": {
+						"vector": [2.5, 0, 0]
+					}
+				},
+				"left_lower_arm": {
+					"rotation": {
+						"vector": [-10, 0, 0]
+					}
+				},
+				"left_leg": {
+					"rotation": {
+						"vector": [-2.5, 0, -2.5]
+					}
+				},
+				"left_lower_leg": {
+					"rotation": {
+						"vector": [7.47178, -0.65182, 4.95744]
+					}
+				},
+				"right_leg": {
+					"rotation": {
+						"vector": [-5, 0, 2.5]
+					}
+				},
+				"right_lower_leg": {
+					"rotation": {
+						"vector": [9.99067, 0.43399, -2.46207]
+					}
+				},
+				"RedPresent": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				}
+			}
 		}
 	}
 }

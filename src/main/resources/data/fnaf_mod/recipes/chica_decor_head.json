@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:torch"
+      "item": "minecraft:lantern"
     },
     {
       "item": "fnaf_mod:chica_head"

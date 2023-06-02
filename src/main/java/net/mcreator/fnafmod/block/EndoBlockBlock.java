@@ -66,10 +66,10 @@ public class EndoBlockBlock extends BaseEntityBlock implements EntityBlock {
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 
 		return switch (state.getValue(FACING)) {
-			default -> box(0, 0, 0, 16, 32, 16);
-			case NORTH -> box(0, 0, 0, 16, 32, 16);
-			case EAST -> box(0, 0, 0, 16, 32, 16);
-			case WEST -> box(0, 0, 0, 16, 32, 16);
+			default -> box(0, 0, 10, 16, 18, 21);
+			case NORTH -> box(0, 0, -5, 16, 18, 6);
+			case EAST -> box(10, 0, 0, 21, 18, 16);
+			case WEST -> box(-5, 0, 0, 6, 18, 16);
 		};
 	}
 

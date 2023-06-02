@@ -27,7 +27,6 @@ import net.minecraft.world.entity.Pose;
 import net.minecraft.world.entity.MobType;
 import net.minecraft.world.entity.MobSpawnType;
 import net.minecraft.world.entity.Mob;
-import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.EntityDimensions;
 import net.minecraft.world.entity.Entity;
@@ -46,7 +45,6 @@ import net.minecraft.nbt.CompoundTag;
 import net.mcreator.fnafmod.procedures.StatueFreddyRightClickedOnEntityProcedure;
 import net.mcreator.fnafmod.procedures.DedwitheredfreddyOnInitialEntitySpawnProcedure;
 import net.mcreator.fnafmod.procedures.DayTimeFoxyOnEntityTickUpdateProcedure;
-import net.mcreator.fnafmod.init.FnafModModItems;
 import net.mcreator.fnafmod.init.FnafModModEntities;
 
 import javax.annotation.Nullable;
@@ -70,7 +68,6 @@ public class DayTimeFoxyEntity extends Monster implements IAnimatable {
 		xpReward = 0;
 		setNoAi(true);
 		setPersistenceRequired();
-		this.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(FnafModModItems.MICROPHONE.get()));
 	}
 
 	@Override

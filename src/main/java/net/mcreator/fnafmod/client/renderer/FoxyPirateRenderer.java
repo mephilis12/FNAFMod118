@@ -22,6 +22,7 @@ public class FoxyPirateRenderer extends GeoEntityRenderer<FoxyPirateEntity> {
 
 	@Override
 	public RenderType getRenderType(FoxyPirateEntity entity, float partialTicks, PoseStack stack, MultiBufferSource renderTypeBuffer, VertexConsumer vertexBuilder, int packedLightIn, ResourceLocation textureLocation) {
+		stack.scale(1f, 1f, 1f);
 		return RenderType.entityTranslucent(getTextureLocation(entity));
 	}
 }

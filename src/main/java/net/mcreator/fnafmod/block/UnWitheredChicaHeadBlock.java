@@ -66,10 +66,10 @@ public class UnWitheredChicaHeadBlock extends BaseEntityBlock implements EntityB
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 
 		return switch (state.getValue(FACING)) {
-			default -> box(1, 0, 2, 11, 10, 12);
-			case NORTH -> box(5, 0, 4, 15, 10, 14);
-			case EAST -> box(2, 0, 5, 12, 10, 15);
-			case WEST -> box(4, 0, 1, 14, 10, 11);
+			default -> box(4, 0, 2, 12, 10, 14);
+			case NORTH -> box(4, 0, 2, 12, 10, 14);
+			case EAST -> box(2, 0, 4, 14, 10, 12);
+			case WEST -> box(2, 0, 4, 14, 10, 12);
 		};
 	}
 

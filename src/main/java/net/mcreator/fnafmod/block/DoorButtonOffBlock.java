@@ -57,10 +57,10 @@ public class DoorButtonOffBlock extends Block {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> box(4, 0, 0, 12, 9, 4);
-			case NORTH -> box(4, 0, 12, 12, 9, 16);
-			case EAST -> box(0, 0, 4, 4, 9, 12);
-			case WEST -> box(12, 0, 4, 16, 9, 12);
+			default -> box(4, 0, 0, 12, 9, 5);
+			case NORTH -> box(4, 0, 11, 12, 9, 16);
+			case EAST -> box(0, 0, 4, 5, 9, 12);
+			case WEST -> box(11, 0, 4, 16, 9, 12);
 		};
 	}
 

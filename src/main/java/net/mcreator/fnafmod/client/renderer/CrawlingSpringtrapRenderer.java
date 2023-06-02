@@ -9,6 +9,7 @@ import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.MultiBufferSource;
 
 import net.mcreator.fnafmod.entity.model.CrawlingSpringtrapModel;
+import net.mcreator.fnafmod.entity.layer.CrawlingSpringtrapLayer;
 import net.mcreator.fnafmod.entity.CrawlingSpringtrapEntity;
 
 import com.mojang.blaze3d.vertex.VertexConsumer;
@@ -18,6 +19,7 @@ public class CrawlingSpringtrapRenderer extends GeoEntityRenderer<CrawlingSpring
 	public CrawlingSpringtrapRenderer(EntityRendererProvider.Context renderManager) {
 		super(renderManager, new CrawlingSpringtrapModel());
 		this.shadowRadius = 0.5f;
+		this.addLayer(new CrawlingSpringtrapLayer(this));
 	}
 
 	@Override

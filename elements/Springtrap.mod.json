@@ -5,7 +5,7 @@
     "mobName": "Springtrap",
     "mobLabel": "",
     "mobModelTexture": "springtrap.png",
-    "mobModelGlowTexture": "",
+    "mobModelGlowTexture": "springtrap_glow.png",
     "visualScale": {
       "fixedValue": 1.0
     },

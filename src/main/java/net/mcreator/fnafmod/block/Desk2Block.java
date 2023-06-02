@@ -56,10 +56,10 @@ public class Desk2Block extends Block implements EntityBlock {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> box(-15, 0, 0, 31, 16, 16);
-			case NORTH -> box(-15, 0, 0, 31, 16, 16);
-			case EAST -> box(0, 0, -15, 16, 16, 31);
-			case WEST -> box(0, 0, -15, 16, 16, 31);
+			default -> box(-14, 0, 0, 32, 16, 16);
+			case NORTH -> box(-16, 0, 0, 30, 16, 16);
+			case EAST -> box(0, 0, -16, 16, 16, 30);
+			case WEST -> box(0, 0, -14, 16, 16, 32);
 		};
 	}
 

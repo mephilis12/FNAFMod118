@@ -50,10 +50,10 @@ public class PuppetMaskBlock extends Block {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> box(4, 3, 0, 11, 11, 2);
-			case NORTH -> box(5, 3, 14, 12, 11, 16);
-			case EAST -> box(0, 3, 5, 2, 11, 12);
-			case WEST -> box(14, 3, 4, 16, 11, 11);
+			default -> box(5, 4, 0, 11, 12, 2);
+			case NORTH -> box(5, 4, 14, 11, 12, 16);
+			case EAST -> box(0, 4, 5, 2, 12, 11);
+			case WEST -> box(14, 4, 5, 16, 12, 11);
 		};
 	}
 

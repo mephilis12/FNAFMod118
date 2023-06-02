@@ -26,8 +26,10 @@ import net.mcreator.fnafmod.block.renderer.MeshTrashCanTileRenderer;
 import net.mcreator.fnafmod.block.renderer.FreddyHeadTileRenderer;
 import net.mcreator.fnafmod.block.renderer.FredbearHeadTileRenderer;
 import net.mcreator.fnafmod.block.renderer.FoxyHeadTileRenderer;
+import net.mcreator.fnafmod.block.renderer.FoxyHeadDecorationTileRenderer;
 import net.mcreator.fnafmod.block.renderer.EndoBlockTileRenderer;
 import net.mcreator.fnafmod.block.renderer.ChicaHeadTileRenderer;
+import net.mcreator.fnafmod.block.renderer.ChicaHeadDecorationTileRenderer;
 import net.mcreator.fnafmod.block.renderer.BonnieHeadTileRenderer;
 import net.mcreator.fnafmod.FnafModMod;
 
@@ -42,6 +44,8 @@ public class ClientListener {
 		event.registerBlockEntityRenderer(FnafModModBlockEntities.STAGE_LIGHT_PINK_OFF.get(), StageLightPinkOffTileRenderer::new);
 		event.registerBlockEntityRenderer(FnafModModBlockEntities.STAGE_LIGHT_ORANGE_OFF.get(), StageLightOrangeOffTileRenderer::new);
 		event.registerBlockEntityRenderer(FnafModModBlockEntities.STAGE_LIGHT_RED_OFF.get(), StageLightRedOffTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafModModBlockEntities.CHICA_HEAD_DECORATION.get(), ChicaHeadDecorationTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafModModBlockEntities.FOXY_HEAD_DECORATION.get(), FoxyHeadDecorationTileRenderer::new);
 		event.registerBlockEntityRenderer(FnafModModBlockEntities.SHELF.get(), ShelfTileRenderer::new);
 		event.registerBlockEntityRenderer(FnafModModBlockEntities.FREDDY_HEAD.get(), FreddyHeadTileRenderer::new);
 		event.registerBlockEntityRenderer(FnafModModBlockEntities.BONNIE_HEAD.get(), BonnieHeadTileRenderer::new);

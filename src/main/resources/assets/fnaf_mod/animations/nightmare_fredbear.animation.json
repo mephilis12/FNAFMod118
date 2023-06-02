@@ -904,6 +904,94 @@
 					}
 				}
 			}
+		},
+		"animation.nightmare_fredbear.pose": {
+			"loop": true,
+			"bones": {
+				"Pivot": {
+					"position": {
+						"vector": [0, -1.75, 0]
+					}
+				},
+				"Body": {
+					"rotation": {
+						"vector": [10, 0, 0]
+					}
+				},
+				"Head": {
+					"rotation": {
+						"vector": [7.3705, -0.5566, -0.5782]
+					},
+					"position": {
+						"vector": [0, -0.5, -1]
+					}
+				},
+				"LeftArm": {
+					"rotation": {
+						"vector": [-25, 0, 0]
+					}
+				},
+				"LeftLowerArm": {
+					"rotation": {
+						"vector": [26.89789, 1.34537, -4.48118]
+					}
+				},
+				"LeftHand": {
+					"rotation": {
+						"vector": [181.86671, 145.17633, 197.13998]
+					}
+				},
+				"RightArm": {
+					"rotation": {
+						"vector": [5.84025, 2.09548, 7.16798]
+					}
+				},
+				"RightLowerArm": {
+					"rotation": {
+						"vector": [37.1865, -18.27598, -3.37323]
+					}
+				},
+				"RightHand": {
+					"rotation": {
+						"vector": [0, -20, 0]
+					}
+				},
+				"Pelvis": {
+					"rotation": {
+						"vector": [7.5, 0, 0]
+					}
+				},
+				"LeftLeg": {
+					"rotation": {
+						"vector": [-7.5, 0, 0]
+					}
+				},
+				"LeftLowerLeg": {
+					"rotation": {
+						"vector": [34.93015, 0.5867, -0.00719]
+					}
+				},
+				"LeftFoot": {
+					"rotation": {
+						"vector": [-32.06728, 2.46562, 2.72244]
+					}
+				},
+				"RightLeg": {
+					"rotation": {
+						"vector": [-27.5, 0, 0]
+					}
+				},
+				"RightLowerLeg": {
+					"rotation": {
+						"vector": [42.5, 0, 0]
+					}
+				},
+				"RightFoot": {
+					"rotation": {
+						"vector": [-19.43327, 4.44475, -4.0649]
+					}
+				}
+			}
 		}
 	},
 	"geckolib_format_version": 2

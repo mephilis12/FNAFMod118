@@ -1,20 +1,28 @@
 
 package net.mcreator.fnafmod.client.renderer;
 
+import software.bernie.geckolib3.renderers.geo.GeoEntityRenderer;
+
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.MultiBufferSource;
 
+import net.mcreator.fnafmod.entity.model.NightmareFreddyStatueModel;
 import net.mcreator.fnafmod.entity.NightmareFreddyStatueEntity;
-import net.mcreator.fnafmod.client.model.ModelNightmare_Freddy_Statue;
 
-public class NightmareFreddyStatueRenderer extends MobRenderer<NightmareFreddyStatueEntity, ModelNightmare_Freddy_Statue<NightmareFreddyStatueEntity>> {
-	public NightmareFreddyStatueRenderer(EntityRendererProvider.Context context) {
-		super(context, new ModelNightmare_Freddy_Statue(context.bakeLayer(ModelNightmare_Freddy_Statue.LAYER_LOCATION)), 0.5f);
+import com.mojang.blaze3d.vertex.VertexConsumer;
+import com.mojang.blaze3d.vertex.PoseStack;
+
+public class NightmareFreddyStatueRenderer extends GeoEntityRenderer<NightmareFreddyStatueEntity> {
+	public NightmareFreddyStatueRenderer(EntityRendererProvider.Context renderManager) {
+		super(renderManager, new NightmareFreddyStatueModel());
+		this.shadowRadius = 0.5f;
 	}
 
 	@Override
-	public ResourceLocation getTextureLocation(NightmareFreddyStatueEntity entity) {
-		return new ResourceLocation("fnaf_mod:textures/entities/nightmarefreddy.png");
+	public RenderType getRenderType(NightmareFreddyStatueEntity entity, float partialTicks, PoseStack stack, MultiBufferSource renderTypeBuffer, VertexConsumer vertexBuilder, int packedLightIn, ResourceLocation textureLocation) {
+		stack.scale(1f, 1f, 1f);
+		return RenderType.entityTranslucent(getTextureLocation(entity));
 	}
 }

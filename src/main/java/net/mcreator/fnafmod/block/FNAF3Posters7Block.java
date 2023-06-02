@@ -109,7 +109,7 @@ public class FNAF3Posters7Block extends Block {
 		double hitY = hit.getLocation().y;
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
-		FNAF3Posters7OnBlockRightClickedProcedure.execute(world, x, y, z);
+		FNAF3Posters7OnBlockRightClickedProcedure.execute(world, x, y, z, entity);
 		return InteractionResult.SUCCESS;
 	}
 }

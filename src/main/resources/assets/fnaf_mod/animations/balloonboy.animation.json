@@ -1014,6 +1014,87 @@
 					"scale": {
 						"vector": [0, 0, 0]
 					}
+				},
+				"Propeller": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.25": {
+							"vector": [0, 45, 0]
+						},
+						"0.5": {
+							"vector": [0, 90, 0]
+						},
+						"0.75": {
+							"vector": [0, 135, 0]
+						},
+						"1.0": {
+							"vector": [0, 180, 0]
+						},
+						"1.25": {
+							"vector": [0, 225, 0]
+						},
+						"1.5": {
+							"vector": [0, 270, 0]
+						},
+						"1.75": {
+							"vector": [0, 315, 0]
+						},
+						"2.0": {
+							"vector": [0, 360, 0]
+						}
+					}
+				}
+			}
+		},
+		"animation.balloonboy.pose": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": {
+						"vector": [0, 0, -2.5]
+					}
+				},
+				"head": {
+					"rotation": {
+						"vector": [2.5, 0, -7.5]
+					}
+				},
+				"LeftArm": {
+					"rotation": {
+						"vector": [0, 0, 15]
+					}
+				},
+				"LeftArmLower": {
+					"rotation": {
+						"vector": [0, 0, -7.5]
+					}
+				},
+				"RightArm": {
+					"rotation": {
+						"vector": [0, 0, -15]
+					}
+				},
+				"RightArmLower": {
+					"rotation": {
+						"vector": [0, 0, 12.5]
+					}
+				},
+				"left_leg": {
+					"rotation": {
+						"vector": [0, -15, 0]
+					}
+				},
+				"right_leg": {
+					"rotation": {
+						"vector": [0, 5, 5]
+					}
+				},
+				"RightFoot": {
+					"rotation": {
+						"vector": [0, 0, -5]
+					}
 				}
 			}
 		}

@@ -1,0 +1,19 @@
+{
+  "_fv": 39,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Music Disc",
+    "texture": "bealone",
+    "description": "Never Be Alone Funky Mix - SomethingFunky",
+    "creativeTab": {
+      "value": "CUSTOM:MusicDiscs"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:neverbealone"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}

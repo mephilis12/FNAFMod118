@@ -23,6 +23,8 @@ import net.mcreator.fnafmod.world.features.FrightFeature;
 import net.mcreator.fnafmod.world.features.FredbearFeature;
 import net.mcreator.fnafmod.world.features.ArcadeBFeature;
 import net.mcreator.fnafmod.world.features.ArcadeAFeature;
+import net.mcreator.fnafmod.world.features.AftonHouseFeature;
+import net.mcreator.fnafmod.world.features.AbandonedFredbearFeature;
 import net.mcreator.fnafmod.FnafModMod;
 
 @Mod.EventBusSubscriber
@@ -40,4 +42,6 @@ public class FnafModModFeatures {
 	public static final RegistryObject<Feature<?>> FRIGHT = REGISTRY.register("fright", FrightFeature::feature);
 	public static final RegistryObject<Feature<?>> ARCADE_A = REGISTRY.register("arcade_a", ArcadeAFeature::feature);
 	public static final RegistryObject<Feature<?>> ARCADE_B = REGISTRY.register("arcade_b", ArcadeBFeature::feature);
+	public static final RegistryObject<Feature<?>> ABANDONED_FREDBEAR = REGISTRY.register("abandoned_fredbear", AbandonedFredbearFeature::feature);
+	public static final RegistryObject<Feature<?>> AFTON_HOUSE = REGISTRY.register("afton_house", AftonHouseFeature::feature);
 }

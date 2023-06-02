@@ -13,7 +13,7 @@
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "endo_item",
+    "itemTexture": "endoblock",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
@@ -25,10 +25,10 @@
       {
         "mx": 0.0,
         "my": 0.0,
-        "mz": 0.0,
+        "mz": -5.0,
         "Mx": 16.0,
-        "My": 32.0,
-        "Mz": 16.0,
+        "My": 18.0,
+        "Mz": 6.0,
         "subtract": false
       }
     ],

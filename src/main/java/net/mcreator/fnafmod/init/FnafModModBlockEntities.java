@@ -39,12 +39,14 @@ import net.mcreator.fnafmod.block.entity.LockerTopBlockEntity;
 import net.mcreator.fnafmod.block.entity.FreddyHeadTileEntity;
 import net.mcreator.fnafmod.block.entity.FredbearHeadTileEntity;
 import net.mcreator.fnafmod.block.entity.FoxyHeadTileEntity;
+import net.mcreator.fnafmod.block.entity.FoxyHeadDecorationTileEntity;
 import net.mcreator.fnafmod.block.entity.FlashLightLightBlockEntity;
 import net.mcreator.fnafmod.block.entity.EndoBlockTileEntity;
 import net.mcreator.fnafmod.block.entity.DeskBlockEntity;
 import net.mcreator.fnafmod.block.entity.Desk3BlockEntity;
 import net.mcreator.fnafmod.block.entity.Desk2BlockEntity;
 import net.mcreator.fnafmod.block.entity.ChicaHeadTileEntity;
+import net.mcreator.fnafmod.block.entity.ChicaHeadDecorationTileEntity;
 import net.mcreator.fnafmod.block.entity.BonnieHeadTileEntity;
 import net.mcreator.fnafmod.FnafModMod;
 
@@ -71,6 +73,10 @@ public class FnafModModBlockEntities {
 			() -> BlockEntityType.Builder.of(StageLightOrangeOffTileEntity::new, FnafModModBlocks.STAGE_LIGHT_ORANGE_OFF.get()).build(null));
 	public static final RegistryObject<BlockEntityType<StageLightRedOffTileEntity>> STAGE_LIGHT_RED_OFF = REGISTRY.register("stage_light_red_off",
 			() -> BlockEntityType.Builder.of(StageLightRedOffTileEntity::new, FnafModModBlocks.STAGE_LIGHT_RED_OFF.get()).build(null));
+	public static final RegistryObject<BlockEntityType<ChicaHeadDecorationTileEntity>> CHICA_HEAD_DECORATION = REGISTRY.register("chica_head_decoration",
+			() -> BlockEntityType.Builder.of(ChicaHeadDecorationTileEntity::new, FnafModModBlocks.CHICA_HEAD_DECORATION.get()).build(null));
+	public static final RegistryObject<BlockEntityType<FoxyHeadDecorationTileEntity>> FOXY_HEAD_DECORATION = REGISTRY.register("foxy_head_decoration",
+			() -> BlockEntityType.Builder.of(FoxyHeadDecorationTileEntity::new, FnafModModBlocks.FOXY_HEAD_DECORATION.get()).build(null));
 	public static final RegistryObject<BlockEntityType<ShelfTileEntity>> SHELF = REGISTRY.register("shelf", () -> BlockEntityType.Builder.of(ShelfTileEntity::new, FnafModModBlocks.SHELF.get()).build(null));
 	public static final RegistryObject<BlockEntityType<FreddyHeadTileEntity>> FREDDY_HEAD = REGISTRY.register("freddy_head", () -> BlockEntityType.Builder.of(FreddyHeadTileEntity::new, FnafModModBlocks.FREDDY_HEAD.get()).build(null));
 	public static final RegistryObject<BlockEntityType<BonnieHeadTileEntity>> BONNIE_HEAD = REGISTRY.register("bonnie_head", () -> BlockEntityType.Builder.of(BonnieHeadTileEntity::new, FnafModModBlocks.BONNIE_HEAD.get()).build(null));

@@ -53,10 +53,10 @@ public class PizzaBoxOpenBlock extends Block {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> box(0, 0, 0, 16, 3, 16);
-			case NORTH -> box(0, 0, 0, 16, 3, 16);
-			case EAST -> box(0, 0, 0, 16, 3, 16);
-			case WEST -> box(0, 0, 0, 16, 3, 16);
+			default -> box(0, 0, 0, 16, 2, 16);
+			case NORTH -> box(0, 0, 0, 16, 2, 16);
+			case EAST -> box(0, 0, 0, 16, 2, 16);
+			case WEST -> box(0, 0, 0, 16, 2, 16);
 		};
 	}
 

@@ -13,7 +13,7 @@ import net.mcreator.fnafmod.init.FnafModModTabs;
 
 public class EndoItem extends Item {
 	public EndoItem() {
-		super(new Item.Properties().tab(FnafModModTabs.TAB_FNAF_ITEMS).stacksTo(1).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS).stacksTo(1).rarity(Rarity.COMMON));
 	}
 
 	@Override

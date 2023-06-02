@@ -48,6 +48,16 @@ public class MonitorsBlock extends Block {
 	}
 
 	@Override
+	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		return switch (state.getValue(FACING)) {
+			default -> box(-3, 0, 0, 23, 21, 16);
+			case NORTH -> box(-7, 0, 0, 19, 21, 16);
+			case EAST -> box(0, 0, -7, 16, 21, 19);
+			case WEST -> box(0, 0, -3, 16, 21, 23);
+		};
+	}
+
+	@Override
 	protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
 		builder.add(FACING);
 	}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_ingot"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    },
+    "2": {
+      "item": "minecraft:iron_ingot"
+    },
+    "3": {
+      "item": "minecraft:iron_bars"
+    },
+    "5": {
+      "item": "minecraft:iron_bars"
+    }
+  },
+  "result": {
+    "item": "fnaf_mod:shelf",
+    "count": 2
+  }
+}

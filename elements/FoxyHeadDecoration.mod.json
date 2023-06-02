@@ -1,6 +1,6 @@
 {
   "_fv": 39,
-  "_type": "block",
+  "_type": "animatedblock",
   "definition": {
     "texture": "foxyheaddecor",
     "textureTop": "",
@@ -8,9 +8,8 @@
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 2,
-    "customModelName": "foxy_head_decor:default",
-    "rotationMode": 3,
+    "renderType": 0,
+    "rotationMode": 1,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -20,22 +19,22 @@
     "isItemTinted": false,
     "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "CUTOUT",
+    "transparencyType": "SOLID",
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": 2.5,
+        "mx": 3.0,
         "my": 0.0,
         "mz": 5.0,
-        "Mx": 12.5,
-        "My": 15.0,
+        "Mx": 15.0,
+        "My": 13.0,
         "Mz": 16.0,
         "subtract": false
       }
     ],
-    "name": "Foxy Head Decoration",
+    "name": "Foxy Head Prop",
     "specialInfo": [],
-    "hardness": 2.0,
+    "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
@@ -56,7 +55,7 @@
     "material": {
       "value": "IRON"
     },
-    "tickRate": 10,
+    "tickRate": 0,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -75,11 +74,12 @@
     "slipperiness": 0.6,
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
+    "animationCount": 1.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "LANTERN"
+      "value": "NETHERITE"
     },
     "breakSound": {
       "value": ""
@@ -96,10 +96,16 @@
     "stepSound": {
       "value": ""
     },
-    "luminance": 12,
+    "luminance": 0,
     "unbreakable": false,
     "breakHarvestLevel": 1,
-    "isBonemealable": false,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particleSpawningShape": "Spread",
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 4,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
@@ -128,6 +134,8 @@
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "maxGenerateHeight": 64,
+    "normal": "foxyheadprop.geo.json",
+    "displaySettings": "freddyhead.item.json"
   }
 }

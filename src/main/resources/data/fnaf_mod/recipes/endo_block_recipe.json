@@ -16,7 +16,7 @@
       "item": "minecraft:iron_ingot"
     },
     "4": {
-      "item": "minecraft:iron_ingot"
+      "tag": "forge:ores/quartz"
     },
     "5": {
       "item": "minecraft:iron_ingot"

@@ -66,10 +66,10 @@ public class UnWitheredFoxyHeadBlock extends BaseEntityBlock implements EntityBl
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 
 		return switch (state.getValue(FACING)) {
-			default -> box(1, 0, 2, 11, 10, 12);
-			case NORTH -> box(5, 0, 4, 15, 10, 14);
-			case EAST -> box(2, 0, 5, 12, 10, 15);
-			case WEST -> box(4, 0, 1, 14, 10, 11);
+			default -> box(1, 0, 2, 15, 10.5, 16);
+			case NORTH -> box(1, 0, 0, 15, 10.5, 14);
+			case EAST -> box(2, 0, 1, 16, 10.5, 15);
+			case WEST -> box(0, 0, 1, 14, 10.5, 15);
 		};
 	}
 

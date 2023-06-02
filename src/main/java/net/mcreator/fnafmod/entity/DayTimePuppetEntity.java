@@ -118,7 +118,7 @@ public class DayTimePuppetEntity extends PathfinderMob implements IAnimatable {
 		super.defineSynchedData();
 		this.entityData.define(SHOOT, false);
 		this.entityData.define(ANIMATION, "undefined");
-		this.entityData.define(TEXTURE, "daytimepuppet");
+		this.entityData.define(TEXTURE, "puppet");
 	}
 
 	public void setTexture(String texture) {

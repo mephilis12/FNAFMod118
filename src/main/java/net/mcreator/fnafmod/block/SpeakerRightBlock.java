@@ -58,6 +58,16 @@ public class SpeakerRightBlock extends Block {
 	}
 
 	@Override
+	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		return switch (state.getValue(FACING)) {
+			default -> box(4, 0, 4, 12, 14, 12);
+			case NORTH -> box(4, 0, 4, 12, 14, 12);
+			case EAST -> box(4, 0, 4, 12, 14, 12);
+			case WEST -> box(4, 0, 4, 12, 14, 12);
+		};
+	}
+
+	@Override
 	protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
 		builder.add(FACING);
 	}
@@ -105,7 +115,7 @@ public class SpeakerRightBlock extends Block {
 		double hitY = hit.getLocation().y;
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
-		SpeakerRightOnBlockRightClickedProcedure.execute(world, x, y, z);
+		SpeakerRightOnBlockRightClickedProcedure.execute(world, x, y, z, entity);
 		return InteractionResult.SUCCESS;
 	}
 }
