@@ -1,0 +1,9 @@
+{
+  "parent": "fnaf_mod:custom/monitors",
+  "textures": {
+    "all": "fnaf_mod:blocks/screens",
+    "particle": "fnaf_mod:blocks/screens",
+    "2": "fnaf_mod:blocks/screens"
+  },
+  "render_type": "translucent"
+}

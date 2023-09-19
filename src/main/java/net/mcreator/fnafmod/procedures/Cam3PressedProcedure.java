@@ -38,7 +38,7 @@ public class Cam3PressedProcedure {
 			}
 			if (entity instanceof Player _player)
 				_player.closeContainer();
-			entity.getPersistentData().putBoolean("cammode", (true));
+			entity.getPersistentData().putBoolean("cammode", true);
 			GettingmodeProcedure.execute(entity);
 			if (world instanceof ServerLevel _level)
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),

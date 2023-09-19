@@ -1,0 +1,9 @@
+{
+  "parent": "fnaf_mod:custom/paper_pal_bonnie",
+  "textures": {
+    "all": "fnaf_mod:blocks/paper_pal_bonnie",
+    "particle": "fnaf_mod:blocks/paper_pal_bonnie",
+    "6": "fnaf_mod:blocks/paper_pal_bonnie"
+  },
+  "render_type": "cutout"
+}

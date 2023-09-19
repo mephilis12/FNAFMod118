@@ -39,6 +39,7 @@ public class SpringLockedZombieSpringBonnieEntity extends Zombie {
 
 	public SpringLockedZombieSpringBonnieEntity(EntityType<SpringLockedZombieSpringBonnieEntity> type, Level world) {
 		super(type, world);
+		maxUpStep = 0.6f;
 		xpReward = 0;
 		setNoAi(false);
 		this.setItemSlot(EquipmentSlot.HEAD, new ItemStack(FnafModModItems.SPRINGLOCKED_SUIT_HELMET.get()));
@@ -70,6 +71,11 @@ public class SpringLockedZombieSpringBonnieEntity extends Zombie {
 	@Override
 	public MobType getMobType() {
 		return MobType.UNDEAD;
+	}
+
+	@Override
+	public double getMyRidingOffset() {
+		return -0.35D;
 	}
 
 	@Override

@@ -26,7 +26,7 @@ public class TimeDayProcedure {
 	}
 
 	private static void execute(@Nullable Event event, LevelAccessor world) {
-		if (world instanceof Level _lvl && _lvl.isDay()) {
+		if (world instanceof Level _lvl0 && _lvl0.isDay()) {
 			FnafModModVariables.WorldVariables.get(world).TimeDay = true;
 			FnafModModVariables.WorldVariables.get(world).syncData(world);
 		}

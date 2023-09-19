@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fnaf_mod:blocks/vent",
+    "up": "fnaf_mod:blocks/vent",
+    "north": "fnaf_mod:blocks/vent",
+    "east": "fnaf_mod:blocks/vent",
+    "south": "fnaf_mod:blocks/vent",
+    "west": "fnaf_mod:blocks/vent",
+    "particle": "fnaf_mod:blocks/vent"
+  },
+  "render_type": "solid"
+}

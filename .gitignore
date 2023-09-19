@@ -1,20 +1,35 @@
-# Gradle build system ignores
-.gradle/
-build/
+build/tmp/expandedArchives/*
+run/*
+.mcreator/workspaceBackups/*
 
-# Other IDE related folders
-.idea/
-.settings/
-
-# MCreator workspace
-.mcreator/
-
-# Minecraft client/server files
-run/
-
-# MacOS system files
-.DS_STORE
-
-# Other Files (In Eclipse)
-.classpath
-.project
+src/main/resources/data/minecraft/tags/blocks/mineable/axe.json
+src/main/resources/assets/fnafmod/sounds.json
+src/main/resources/assets/fnafmod/models/custom/stage_sun.json
+src/main/resources/assets/fnafmod/models/custom/fluorescent_light.json
+src/main/resources/assets/fnafmod/models/custom/booth_table.json
+src/main/resources/assets/fnafmod/models/custom/bench.json
+src/main/resources/assets/fnafmod/lang/en_us.json
+fnafmod.mcreator
+.gradle/buildOutputCleanup/buildOutputCleanup.lock
+.gradle/7.5.1/fileHashes/fileHashes.lock
+.gradle/7.5.1/dependencies-accessors/dependencies-accessors.lock
+.gradle/7.5.1/checksums/checksums.lock
+fnafuniverserrenewed/.gradle/7.5.1/checksums/checksums.lock
+.gradle/7.5.1/checksums/sha1-checksums.bin
+.gradle/7.5.1/dependencies-accessors/dependencies-accessors.lock
+.gradle/7.5.1/executionHistory/executionHistory.lock
+.gradle/7.5.1/fileHashes/fileHashes.bin
+.gradle/7.5.1/fileHashes/fileHashes.lock
+.gradle/buildOutputCleanup/buildOutputCleanup.lock
+.gradle/file-system.probe
+build/classes/java/main/net/mcreator/fnafuniverserenewed/procedures/ChicaSpotTargetProcedure.class
+build/classpath/runClient_minecraftClasspath.txt
+fnafmod.mcreator
+src/main/resources/assets/fnafmod/lang/en_us.json
+src/main/resources/assets/fnafmod/models/custom/bench.json
+assets/fnafmod/models/custom/booth_table.json
+src/main/resources/assets/fnafmod/models/custom/fluorescent_light.json
+src/main/resources/assets/fnafmod/models/custom/stage_sun.json
+src/main/resources/assets/fnafmod/sounds.json
+src/main/resources/data/minecraft/tags/blocks/mineable/axe.json
+.gradle/*

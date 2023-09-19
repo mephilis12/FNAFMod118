@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    "345"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:yellow_wool"
+    },
+    "2": {
+      "item": "minecraft:blue_wool"
+    },
+    "3": {
+      "item": "minecraft:black_wool"
+    },
+    "4": {
+      "item": "minecraft:blue_wool"
+    },
+    "5": {
+      "item": "minecraft:blue_wool"
+    }
+  },
+  "result": {
+    "item": "fnaf_mod:guard_hat_helmet",
+    "count": 1
+  }
+}

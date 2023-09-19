@@ -27,7 +27,7 @@ public class WitheredFoxyOnEntityTickUpdateProcedure {
 		double sx = 0;
 		double sy = 0;
 		double sz = 0;
-		if (world instanceof Level _lvl && _lvl.isDay()) {
+		if (world instanceof Level _lvl0 && _lvl0.isDay()) {
 			{
 				Entity _ent = entity;
 				_ent.teleportTo((entity.getPersistentData().getDouble("spawnX")), (entity.getPersistentData().getDouble("spawnY")), (entity.getPersistentData().getDouble("spawnZ")));
@@ -55,11 +55,11 @@ public class WitheredFoxyOnEntityTickUpdateProcedure {
 		}
 		sx = 0;
 		found = false;
-		for (int index0 = 0; index0 < (int) (3); index0++) {
+		for (int index0 = 0; index0 < 3; index0++) {
 			sy = 0;
-			for (int index1 = 0; index1 < (int) (3); index1++) {
+			for (int index1 = 0; index1 < 3; index1++) {
 				sz = 0;
-				for (int index2 = 0; index2 < (int) (3); index2++) {
+				for (int index2 = 0; index2 < 3; index2++) {
 					if ((world.getBlockState(new BlockPos(x + sx, y + sy, z + sz))).getBlock() == FnafModModBlocks.FLASH_LIGHT_LIGHT.get()) {
 						found = true;
 					}
@@ -70,13 +70,13 @@ public class WitheredFoxyOnEntityTickUpdateProcedure {
 			sx = sx + 1;
 		}
 		if (found == true) {
-			if (entity instanceof LivingEntity _entity)
-				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 60, 8, (false), (false)));
-			if (entity instanceof LivingEntity _entity)
-				_entity.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 60, 8, (false), (false)));
-			entity.setShiftKeyDown((true));
+			if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 60, 8, false, false));
+			if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+				_entity.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 60, 8, false, false));
+			entity.setShiftKeyDown(true);
 			FnafModMod.queueServerWork(60, () -> {
-				entity.setShiftKeyDown((false));
+				entity.setShiftKeyDown(false);
 			});
 		}
 	}

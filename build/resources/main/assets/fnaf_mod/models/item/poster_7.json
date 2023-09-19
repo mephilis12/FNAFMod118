@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "fnaf_mod:items/fnaf_2_poster"
+  },
+  "render_type": "translucent"
+}

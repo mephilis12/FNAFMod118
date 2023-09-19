@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "fnaf_mod:bonnie_head"
+    },
+    "3": {
+      "item": "fnaf_mod:bonnie_fabric"
+    },
+    "4": {
+      "item": "minecraft:iron_ingot"
+    },
+    "5": {
+      "item": "fnaf_mod:bonnie_fabric"
+    },
+    "7": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "fnaf_mod:bonnie_stand_spawn_egg",
+    "count": 1
+  }
+}

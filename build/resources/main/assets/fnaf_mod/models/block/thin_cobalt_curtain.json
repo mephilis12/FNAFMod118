@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fnaf_mod:blocks/cobalt_curtain",
+    "up": "fnaf_mod:blocks/cobalt_curtain",
+    "north": "fnaf_mod:blocks/cobalt_curtain",
+    "east": "fnaf_mod:blocks/cobalt_curtain",
+    "south": "fnaf_mod:blocks/cobalt_curtain",
+    "west": "fnaf_mod:blocks/cobalt_curtain",
+    "particle": "fnaf_mod:blocks/cobalt_curtain"
+  }
+}

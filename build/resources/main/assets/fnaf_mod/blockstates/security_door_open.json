@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fnaf_mod:block/security_door_open"
+    },
+    "facing=east": {
+      "model": "fnaf_mod:block/security_door_open",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fnaf_mod:block/security_door_open",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fnaf_mod:block/security_door_open",
+      "y": 270
+    }
+  }
+}

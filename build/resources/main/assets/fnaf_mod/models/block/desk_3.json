@@ -1,0 +1,10 @@
+{
+  "parent": "fnaf_mod:custom/desk3",
+  "textures": {
+    "all": "fnaf_mod:blocks/desk3texture",
+    "particle": "fnaf_mod:blocks/desk3texture",
+    "0": "fnaf_mod:blocks/desk3texture",
+    "missing": "fnaf_mod:blocks/desk3texture"
+  },
+  "render_type": "cutout"
+}

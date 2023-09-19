@@ -182,63 +182,63 @@ public class FnafModModEntities {
 	public static final RegistryObject<EntityType<WitheredFreddyEntity>> WITHERED_FREDDY = register("withered_freddy",
 			EntityType.Builder.<WitheredFreddyEntity>of(WitheredFreddyEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(WitheredFreddyEntity::new)
 
-					.sized(0.6f, 1.9000000000000001f));
+					.sized(0.6f, 1.9f));
 	public static final RegistryObject<EntityType<UnwitheredFreddyEntity>> UNWITHERED_FREDDY = register("unwithered_freddy",
 			EntityType.Builder.<UnwitheredFreddyEntity>of(UnwitheredFreddyEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(UnwitheredFreddyEntity::new)
 
-					.sized(0.6f, 1.9000000000000001f));
+					.sized(0.6f, 1.9f));
 	public static final RegistryObject<EntityType<WitheredGoldenFreddyEntity>> WITHERED_GOLDEN_FREDDY = register("withered_golden_freddy",
 			EntityType.Builder.<WitheredGoldenFreddyEntity>of(WitheredGoldenFreddyEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(65).setUpdateInterval(3)
 					.setCustomClientFactory(WitheredGoldenFreddyEntity::new)
 
-					.sized(0.6f, 1.9000000000000001f));
+					.sized(0.6f, 1.9f));
 	public static final RegistryObject<EntityType<PhantomFoxyEntity>> PHANTOM_FOXY = register("phantom_foxy", EntityType.Builder.<PhantomFoxyEntity>of(PhantomFoxyEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
 			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PhantomFoxyEntity::new).fireImmune().sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<WitheredFoxyEntity>> WITHERED_FOXY = register("withered_foxy",
 			EntityType.Builder.<WitheredFoxyEntity>of(WitheredFoxyEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(WitheredFoxyEntity::new)
 
-					.sized(0.6f, 1.9000000000000001f));
+					.sized(0.6f, 1.9f));
 	public static final RegistryObject<EntityType<WitheredBonnieEntity>> WITHERED_BONNIE = register("withered_bonnie",
 			EntityType.Builder.<WitheredBonnieEntity>of(WitheredBonnieEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(WitheredBonnieEntity::new)
 
-					.sized(0.6f, 1.9000000000000001f));
+					.sized(0.6f, 1.9f));
 	public static final RegistryObject<EntityType<WitheredChicaEntity>> WITHERED_CHICA = register("withered_chica",
 			EntityType.Builder.<WitheredChicaEntity>of(WitheredChicaEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(WitheredChicaEntity::new)
 
-					.sized(0.6f, 1.9000000000000001f));
+					.sized(0.6f, 1.9f));
 	public static final RegistryObject<EntityType<UnwitheredFoxyEntity>> UNWITHERED_FOXY = register("unwithered_foxy",
 			EntityType.Builder.<UnwitheredFoxyEntity>of(UnwitheredFoxyEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(UnwitheredFoxyEntity::new)
 
-					.sized(0.6f, 1.9000000000000001f));
+					.sized(0.6f, 1.9f));
 	public static final RegistryObject<EntityType<UnwitheredBonnieEntity>> UNWITHERED_BONNIE = register("unwithered_bonnie",
 			EntityType.Builder.<UnwitheredBonnieEntity>of(UnwitheredBonnieEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(UnwitheredBonnieEntity::new)
 
-					.sized(0.6f, 1.9000000000000001f));
+					.sized(0.6f, 1.9f));
 	public static final RegistryObject<EntityType<UnwitheredChicaEntity>> UNWITHERED_CHICA = register("unwithered_chica",
 			EntityType.Builder.<UnwitheredChicaEntity>of(UnwitheredChicaEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(UnwitheredChicaEntity::new)
 
-					.sized(0.6f, 1.9000000000000001f));
+					.sized(0.6f, 1.9f));
 	public static final RegistryObject<EntityType<FredbearAnimatronicEntity>> FREDBEAR_ANIMATRONIC = register("fredbear_animatronic",
 			EntityType.Builder.<FredbearAnimatronicEntity>of(FredbearAnimatronicEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(FredbearAnimatronicEntity::new)
 
-					.sized(0.6f, 1.9000000000000001f));
+					.sized(0.6f, 1.9f));
 	public static final RegistryObject<EntityType<SpringBonnieAnimatronicEntity>> SPRING_BONNIE_ANIMATRONIC = register("spring_bonnie_animatronic",
 			EntityType.Builder.<SpringBonnieAnimatronicEntity>of(SpringBonnieAnimatronicEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 					.setCustomClientFactory(SpringBonnieAnimatronicEntity::new)
 
-					.sized(0.6f, 1.9000000000000001f));
+					.sized(0.6f, 1.9f));
 	public static final RegistryObject<EntityType<GoldenFreddyEntity>> GOLDEN_FREDDY = register("golden_freddy",
 			EntityType.Builder.<GoldenFreddyEntity>of(GoldenFreddyEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(65).setUpdateInterval(3).setCustomClientFactory(GoldenFreddyEntity::new)
 
-					.sized(0.6f, 1.9000000000000001f));
+					.sized(0.6f, 1.9f));
 	public static final RegistryObject<EntityType<SittingSpringBonnieEntity>> SITTING_SPRING_BONNIE = register("sitting_spring_bonnie",
 			EntityType.Builder.<SittingSpringBonnieEntity>of(SittingSpringBonnieEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(65).setUpdateInterval(3).setCustomClientFactory(SittingSpringBonnieEntity::new)
 
-					.sized(0.6f, 1.9000000000000001f));
+					.sized(0.6f, 1.9f));
 	public static final RegistryObject<EntityType<FreddlesEntity>> FREDDLES = register("freddles",
 			EntityType.Builder.<FreddlesEntity>of(FreddlesEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(FreddlesEntity::new)
 
-					.sized(0.6f, 0.7999999999999999f));
+					.sized(0.6f, 0.8f));
 	public static final RegistryObject<EntityType<SittingFredbearEntity>> SITTING_FREDBEAR = register("sitting_fredbear",
 			EntityType.Builder.<SittingFredbearEntity>of(SittingFredbearEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SittingFredbearEntity::new)
 
@@ -246,19 +246,19 @@ public class FnafModModEntities {
 	public static final RegistryObject<EntityType<FredbearsFreddyEntity>> FREDBEARS_FREDDY = register("fredbears_freddy",
 			EntityType.Builder.<FredbearsFreddyEntity>of(FredbearsFreddyEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(FredbearsFreddyEntity::new)
 
-					.sized(0.6f, 1.9000000000000001f));
+					.sized(0.6f, 1.9f));
 	public static final RegistryObject<EntityType<FredbearsBonnieEntity>> FREDBEARS_BONNIE = register("fredbears_bonnie",
 			EntityType.Builder.<FredbearsBonnieEntity>of(FredbearsBonnieEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(FredbearsBonnieEntity::new)
 
-					.sized(0.6f, 1.9000000000000001f));
+					.sized(0.6f, 1.9f));
 	public static final RegistryObject<EntityType<FredbearsChicaEntity>> FREDBEARS_CHICA = register("fredbears_chica",
 			EntityType.Builder.<FredbearsChicaEntity>of(FredbearsChicaEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(FredbearsChicaEntity::new)
 
-					.sized(0.6f, 1.9000000000000001f));
+					.sized(0.6f, 1.9f));
 	public static final RegistryObject<EntityType<FredbearsFoxyEntity>> FREDBEARS_FOXY = register("fredbears_foxy",
 			EntityType.Builder.<FredbearsFoxyEntity>of(FredbearsFoxyEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(FredbearsFoxyEntity::new)
 
-					.sized(0.6f, 1.9000000000000001f));
+					.sized(0.6f, 1.9f));
 	public static final RegistryObject<EntityType<PlushtrapToyEntity>> PLUSHTRAP_TOY = register("plushtrap_toy",
 			EntityType.Builder.<PlushtrapToyEntity>of(PlushtrapToyEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PlushtrapToyEntity::new)
 
@@ -299,7 +299,7 @@ public class FnafModModEntities {
 	public static final RegistryObject<EntityType<PuppetEntity>> PUPPET = register("puppet",
 			EntityType.Builder.<PuppetEntity>of(PuppetEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PuppetEntity::new)
 
-					.sized(0.6f, 2.3000000000000003f));
+					.sized(0.6f, 2.3f));
 	public static final RegistryObject<EntityType<ToyFoxyEntity>> TOY_FOXY = register("toy_foxy",
 			EntityType.Builder.<ToyFoxyEntity>of(ToyFoxyEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ToyFoxyEntity::new)
 
@@ -341,7 +341,7 @@ public class FnafModModEntities {
 	public static final RegistryObject<EntityType<PhantomBBEntity>> PHANTOM_BB = register("phantom_bb", EntityType.Builder.<PhantomBBEntity>of(PhantomBBEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
 			.setUpdateInterval(3).setCustomClientFactory(PhantomBBEntity::new).fireImmune().sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<PhantomPuppetEntity>> PHANTOM_PUPPET = register("phantom_puppet", EntityType.Builder.<PhantomPuppetEntity>of(PhantomPuppetEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
-			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PhantomPuppetEntity::new).fireImmune().sized(0.6f, 2.3000000000000003f));
+			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PhantomPuppetEntity::new).fireImmune().sized(0.6f, 2.3f));
 	public static final RegistryObject<EntityType<PhantomMangleEntity>> PHANTOM_MANGLE = register("phantom_mangle", EntityType.Builder.<PhantomMangleEntity>of(PhantomMangleEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
 			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PhantomMangleEntity::new).fireImmune().sized(0.6f, 2f));
 	public static final RegistryObject<EntityType<SittingPlushtrapEntity>> SITTING_PLUSHTRAP = register("sitting_plushtrap",
@@ -395,7 +395,7 @@ public class FnafModModEntities {
 	public static final RegistryObject<EntityType<SpringtrapEntity>> SPRINGTRAP = register("springtrap",
 			EntityType.Builder.<SpringtrapEntity>of(SpringtrapEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SpringtrapEntity::new)
 
-					.sized(0.6f, 1.9000000000000001f));
+					.sized(0.6f, 1.9f));
 	public static final RegistryObject<EntityType<NightmareBonnieStatueEntity>> NIGHTMARE_BONNIE_STATUE = register("nightmare_bonnie_statue",
 			EntityType.Builder.<NightmareBonnieStatueEntity>of(NightmareBonnieStatueEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 					.setCustomClientFactory(NightmareBonnieStatueEntity::new)
@@ -486,7 +486,7 @@ public class FnafModModEntities {
 			EntityType.Builder.<GlitchBonnieAnimatronicEntity>of(GlitchBonnieAnimatronicEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 					.setCustomClientFactory(GlitchBonnieAnimatronicEntity::new)
 
-					.sized(0.6f, 1.9000000000000001f));
+					.sized(0.6f, 1.9f));
 	public static final RegistryObject<EntityType<StatueFreddyEntity>> STATUE_FREDDY = register("statue_freddy",
 			EntityType.Builder.<StatueFreddyEntity>of(StatueFreddyEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(65).setUpdateInterval(3).setCustomClientFactory(StatueFreddyEntity::new)
 
@@ -588,7 +588,7 @@ public class FnafModModEntities {
 			EntityType.Builder.<StandingDaytimeSpringtrapEntity>of(StandingDaytimeSpringtrapEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 					.setCustomClientFactory(StandingDaytimeSpringtrapEntity::new)
 
-					.sized(0.6f, 2.1999999999999997f));
+					.sized(0.6f, 2.2f));
 	public static final RegistryObject<EntityType<CrawlingSpringtrapEntity>> CRAWLING_SPRINGTRAP = register("crawling_springtrap",
 			EntityType.Builder.<CrawlingSpringtrapEntity>of(CrawlingSpringtrapEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CrawlingSpringtrapEntity::new)
 

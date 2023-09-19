@@ -1,0 +1,6 @@
+{
+  "parent": "fnaf_mod:displaysettings/stagelight.item",
+  "textures": {
+    "particle": "fnaf_mod:blocks/light"
+  }
+}

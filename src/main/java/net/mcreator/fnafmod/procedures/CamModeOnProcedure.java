@@ -29,8 +29,8 @@ public class CamModeOnProcedure {
 		if (entity == null)
 			return;
 		if (entity.getPersistentData().getBoolean("cammode") == true) {
-			if (entity instanceof LivingEntity _entity)
-				_entity.addEffect(new MobEffectInstance(MobEffects.INVISIBILITY, 60, 1, (false), (false)));
+			if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+				_entity.addEffect(new MobEffectInstance(MobEffects.INVISIBILITY, 60, 1, false, false));
 			if (entity instanceof LivingEntity _entity)
 				_entity.setHealth(20);
 			entity.setDeltaMovement(new Vec3(0, 0, 0));

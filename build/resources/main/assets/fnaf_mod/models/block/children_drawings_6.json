@@ -1,0 +1,9 @@
+{
+  "parent": "fnaf_mod:custom/fnaf_3_childrens_drawings2",
+  "textures": {
+    "all": "fnaf_mod:blocks/fnaf3drawings2",
+    "particle": "fnaf_mod:blocks/fnaf3drawings2",
+    "6": "fnaf_mod:blocks/fnaf3drawings2"
+  },
+  "render_type": "solid"
+}

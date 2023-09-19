@@ -8,7 +8,7 @@ import net.mcreator.fnafmod.init.FnafModModBlocks;
 
 public class ToyBonnieSpawnBlockIdleUpdateTickProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
-		if (!(world instanceof Level _lvl && _lvl.isDay())) {
+		if (!(world instanceof Level _lvl0 && _lvl0.isDay())) {
 			world.setBlock(new BlockPos(x, y, z), FnafModModBlocks.TOY_BONNIE_SPAWN_BLOCK.get().defaultBlockState(), 3);
 		}
 	}

@@ -56,7 +56,7 @@ public abstract class FredbearSpringLockSuitItem extends ArmorItem {
 
 			@Override
 			public Ingredient getRepairIngredient() {
-				return Ingredient.EMPTY;
+				return Ingredient.of();
 			}
 
 			@Override

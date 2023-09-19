@@ -1,0 +1,146 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.foxyheadprop",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Head",
+					"pivot": [0, 5.55, 6],
+					"cubes": [
+						{"origin": [-1, 8.5, 4.7], "size": [2, 0, 1], "uv": [14, 23]}
+					]
+				},
+				{
+					"name": "Jaw",
+					"parent": "Head",
+					"pivot": [0, 7.5, 5.1]
+				},
+				{
+					"name": "EndoJaw",
+					"parent": "Jaw",
+					"pivot": [0, 7.35866, 5.15922]
+				},
+				{
+					"name": "bone",
+					"parent": "Jaw",
+					"pivot": [2.5, 7.29805, 5.46264],
+					"rotation": [35, 0, 0],
+					"cubes": [
+						{"origin": [-2.5, 5.79805, 3.96264], "size": [5, 3, 3], "uv": [20, 0]},
+						{"origin": [-2.5, 4.79805, -3.03736], "size": [5, 2, 8], "uv": [0, 13]},
+						{"origin": [-2, 6.79805, -2.53736], "size": [4, 1, 6], "uv": [20, 17]}
+					]
+				},
+				{
+					"name": "Eyelids",
+					"parent": "Head",
+					"pivot": [0, 10.625, 3]
+				},
+				{
+					"name": "LidR",
+					"parent": "Eyelids",
+					"pivot": [-1.5, 11.325, 3.6],
+					"cubes": [
+						{"origin": [-3.2, 9.8, 4.1], "size": [3, 3, 0], "uv": [0, 3]},
+						{"origin": [-3.2, 9.8, 2.1], "size": [3, 3, 3], "uv": [26, 29]}
+					]
+				},
+				{
+					"name": "LidL",
+					"parent": "Eyelids",
+					"pivot": [1.5, 10.325, 3.6],
+					"cubes": [
+						{"origin": [0.1, 9.8, 2.1], "size": [3, 3, 3], "uv": [14, 29]},
+						{"origin": [0.1, 9.8, 4.1], "size": [3, 3, 0], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "Eyes",
+					"parent": "Head",
+					"pivot": [0, 10.8, 2.4]
+				},
+				{
+					"name": "IrisL",
+					"parent": "Eyes",
+					"pivot": [1.6, 10.8, 2.4]
+				},
+				{
+					"name": "IrisR",
+					"parent": "Eyes",
+					"pivot": [-1.6, 10.8, 2.4]
+				},
+				{
+					"name": "Mask",
+					"parent": "Head",
+					"pivot": [0, 12, 5],
+					"cubes": [
+						{"origin": [-3.5, 7.8, 2], "size": [7, 7, 6], "uv": [0, 0]},
+						{"origin": [-5.5, 7.8, 2], "size": [11, 2, 2], "uv": [18, 13]},
+						{"origin": [-1.5, 14.8, 5], "size": [3, 2, 0], "uv": [10, 28]},
+						{"origin": [0, 14.8, 5], "size": [1, 2, 0], "pivot": [0, 15.8, 5], "rotation": [0, 90, 0], "uv": [0, 13]},
+						{"origin": [-3.5, 12.83117, 0.48866], "size": [7, 1, 0], "pivot": [0, 11.73117, 0.38866], "rotation": [-50, 0, 0], "uv": [26, 11]},
+						{"origin": [-2.5, 7.8, -1], "size": [5, 2, 3], "uv": [16, 24]},
+						{"origin": [-1.5, 7.8, -3], "size": [3, 2, 2], "uv": [10, 35]},
+						{"origin": [-1, 9.8, -3.4], "size": [2, 1, 2], "uv": [35, 28]},
+						{"origin": [-1.5, 6.8, -2.5], "size": [3, 1, 4], "uv": [0, 28]}
+					]
+				},
+				{
+					"name": "Eyepatch",
+					"parent": "Mask",
+					"pivot": [-1.5, 11.8, 1.85],
+					"cubes": [
+						{"origin": [-4, 9.8, 1.85], "size": [4, 3, 0], "uv": [28, 35]},
+						{"origin": [1.5, 11.8, 4.5], "size": [4, 5, 0], "pivot": [2.5, 13.3, 4.5], "rotation": [0, 0, -15], "uv": [25, 52]}
+					]
+				},
+				{
+					"name": "endo_head",
+					"parent": "Head",
+					"pivot": [-13.2381, 7.09524, 4.91429],
+					"cubes": [
+						{"origin": [-3.5, 8.8, 5], "size": [7, 4, 1], "uv": [0, 23]},
+						{"origin": [0.6, 9.8, 2.5], "size": [2, 2, 2], "uv": [0, 13]},
+						{"origin": [-1.5, 8, 2], "size": [3, 1, 3], "uv": [34, 17]},
+						{"origin": [-1, 7.5, 2.2], "size": [2, 1, 2], "uv": [33, 0]}
+					]
+				},
+				{
+					"name": "endoi_jaw",
+					"parent": "endo_head",
+					"pivot": [0, 5.25, 5.7],
+					"cubes": [
+						{"origin": [-1.5, 5.26069, 2.06468], "size": [3, 1, 4], "pivot": [0, 6.01069, 3.66468], "rotation": [10, 0, 0], "uv": [26, 6]},
+						{"origin": [-1, 5.71836, 2.1809], "size": [2, 1, 2], "pivot": [-0.5, 6.46836, 3.3809], "rotation": [10, 0, 0], "uv": [20, 35]}
+					]
+				},
+				{
+					"name": "eyedibottom",
+					"parent": "endo_head",
+					"pivot": [-1, 10.8, 4.5],
+					"rotation": [12.5, 0, 0],
+					"cubes": [
+						{"origin": [-3.201, 9.299, 2.001], "size": [3, 1, 3], "inflate": 0.01, "uv": [0, 33]}
+					]
+				},
+				{
+					"name": "eyedibottom2",
+					"parent": "endo_head",
+					"pivot": [3, 10.8, 4.5],
+					"rotation": [12.5, 0, 0],
+					"cubes": [
+						{"origin": [0.099, 9.299, 2.001], "size": [3, 1, 3], "inflate": 0.01, "uv": [32, 24]}
+					]
+				}
+			]
+		}
+	]
+}

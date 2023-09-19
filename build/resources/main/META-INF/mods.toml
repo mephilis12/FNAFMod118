@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="fnaf_mod"
+version="4"
+displayName="The Five Nights at Freddy's Mod"
+credits="Made Using Mcreator, Models By: Mephilis,Rashi,NiksonTF2, DEGIncarnate, AnXavers and ItsIdyllic. Music By: LordSmugDread,GreatPlays, The Host and SomethingFunky.Textures By: Beph,ItsIdyllic,Rashi, DEGIncarnate,  AnXavers  and NiksonTF2. Structures By: Rashi,Mephilis,Beph and ItsIdyllic. Code By: Mephilis and AnXavers Additional Help: Lego245 and Sajevius. Animations by: NiksonTF2, AydenP and EdmunnTB. FNAF Belongs to Scott Cawthon."
+displayURL="https://www.curseforge.com/minecraft/mc-mods/the-five-nights-at-freddys-mod"
+logoFile="logo.png"
+authors="mephilis,"
+description="Five Nights at Freddy's in Minecraft"
+
+[[dependencies.fnaf_mod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+[[dependencies.fnaf_mod]]
+    modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+

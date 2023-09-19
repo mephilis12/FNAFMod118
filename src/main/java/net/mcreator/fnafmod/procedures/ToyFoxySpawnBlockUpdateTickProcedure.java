@@ -18,11 +18,11 @@ import java.util.Map;
 
 public class ToyFoxySpawnBlockUpdateTickProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
-		if (world instanceof Level _lvl && _lvl.isDay()) {
+		if (world instanceof Level _lvl0 && _lvl0.isDay()) {
 			if (world.isEmptyBlock(new BlockPos(x, y + 1, z))) {
 				{
 					BlockPos _bp = new BlockPos(x, y, z);
-					BlockState _bs = FnafModModBlocks.TOY_BONNIE_SPAWN_BLOCK_IDLE.get().defaultBlockState();
+					BlockState _bs = FnafModModBlocks.TOY_FOXY_SPAWN_BLOCK_IDLE.get().defaultBlockState();
 					BlockState _bso = world.getBlockState(_bp);
 					for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
 						Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
@@ -44,7 +44,7 @@ public class ToyFoxySpawnBlockUpdateTickProcedure {
 			} else {
 				{
 					BlockPos _bp = new BlockPos(x, y, z);
-					BlockState _bs = FnafModModBlocks.TOY_BONNIE_SPAWN_BLOCK_IDLE.get().defaultBlockState();
+					BlockState _bs = FnafModModBlocks.TOY_FOXY_SPAWN_BLOCK_IDLE.get().defaultBlockState();
 					BlockState _bso = world.getBlockState(_bp);
 					for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
 						Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());

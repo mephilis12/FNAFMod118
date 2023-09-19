@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fnaf_mod:block/children_drawings_5"
+    },
+    "facing=east": {
+      "model": "fnaf_mod:block/children_drawings_5",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fnaf_mod:block/children_drawings_5",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fnaf_mod:block/children_drawings_5",
+      "y": 270
+    }
+  }
+}

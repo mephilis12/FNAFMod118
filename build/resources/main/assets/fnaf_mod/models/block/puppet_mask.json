@@ -1,0 +1,9 @@
+{
+  "parent": "fnaf_mod:custom/puppetmask",
+  "textures": {
+    "all": "fnaf_mod:blocks/puppetmask",
+    "particle": "fnaf_mod:blocks/puppetmask",
+    "2": "fnaf_mod:blocks/puppetmask"
+  },
+  "render_type": "cutout"
+}

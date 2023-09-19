@@ -1,0 +1,9 @@
+{
+  "parent": "fnaf_mod:custom/paper_pal_freddy",
+  "textures": {
+    "all": "fnaf_mod:blocks/paper_pal_freddy",
+    "particle": "fnaf_mod:blocks/paper_pal_freddy",
+    "8": "fnaf_mod:blocks/paper_pal_freddy"
+  },
+  "render_type": "cutout"
+}

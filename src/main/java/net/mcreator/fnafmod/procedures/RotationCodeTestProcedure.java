@@ -13,7 +13,7 @@ public class RotationCodeTestProcedure {
 			return;
 		if (entity instanceof WitheredFreddyEntity) {
 			if (entity.getPersistentData().getBoolean("alreadyset") == false) {
-				entity.getPersistentData().putBoolean("alreadyset", (false));
+				entity.getPersistentData().putBoolean("alreadyset", false);
 				if (FnafModModVariables.WorldVariables.get(world).PlayerFacing == 1) {
 					{
 						Entity _ent = entity;

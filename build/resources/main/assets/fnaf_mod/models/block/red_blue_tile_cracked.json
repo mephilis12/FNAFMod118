@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fnaf_mod:blocks/cracked_red_tiles",
+    "up": "fnaf_mod:blocks/cracked_red_tiles",
+    "north": "fnaf_mod:blocks/cracked_red_tiles",
+    "east": "fnaf_mod:blocks/cracked_red_tiles",
+    "south": "fnaf_mod:blocks/cracked_red_tiles",
+    "west": "fnaf_mod:blocks/cracked_red_tiles",
+    "particle": "fnaf_mod:blocks/cracked_red_tiles"
+  },
+  "render_type": "solid"
+}

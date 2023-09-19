@@ -1,12 +1,14 @@
 {
-  "_fv": 39,
+  "_fv": 43,
   "_type": "recipe",
   "definition": {
     "recipeType": "Smelting",
-    "xpReward": 4.0,
-    "cookingTime": 400,
     "recipeRetstackSize": 1,
     "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 4.0,
+    "cookingTime": 400,
+    "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "smeltingInputStack": {
       "value": "Items.IRON_NUGGET"

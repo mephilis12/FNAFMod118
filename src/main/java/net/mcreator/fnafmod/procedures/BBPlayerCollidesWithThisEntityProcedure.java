@@ -32,10 +32,10 @@ public class BBPlayerCollidesWithThisEntityProcedure {
 				return false;
 			}
 		}.checkGamemode(entity)) {
-			if (sourceentity instanceof LivingEntity _entity)
-				_entity.addEffect(new MobEffectInstance(MobEffects.POISON, 300, 1, (false), (false)));
-			if (sourceentity instanceof LivingEntity _entity)
-				_entity.addEffect(new MobEffectInstance(MobEffects.CONFUSION, 300, 1, (false), (false)));
+			if (sourceentity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+				_entity.addEffect(new MobEffectInstance(MobEffects.POISON, 300, 1, false, false));
+			if (sourceentity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+				_entity.addEffect(new MobEffectInstance(MobEffects.CONFUSION, 300, 1, false, false));
 		}
 	}
 }

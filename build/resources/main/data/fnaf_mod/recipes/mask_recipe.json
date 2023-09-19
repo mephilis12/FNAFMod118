@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:brown_wool"
+    },
+    "1": {
+      "item": "minecraft:gray_wool"
+    },
+    "2": {
+      "item": "minecraft:brown_wool"
+    },
+    "3": {
+      "item": "minecraft:brown_wool"
+    },
+    "5": {
+      "item": "minecraft:brown_wool"
+    },
+    "6": {
+      "item": "minecraft:brown_wool"
+    },
+    "7": {
+      "item": "minecraft:brown_wool"
+    },
+    "8": {
+      "item": "minecraft:brown_wool"
+    }
+  },
+  "result": {
+    "item": "fnaf_mod:freddy_mask_helmet",
+    "count": 1
+  }
+}

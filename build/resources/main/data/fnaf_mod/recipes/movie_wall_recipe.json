@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:magenta_terracotta"
+    },
+    {
+      "item": "minecraft:magenta_terracotta"
+    },
+    {
+      "item": "minecraft:purple_terracotta"
+    },
+    {
+      "item": "minecraft:purple_terracotta"
+    }
+  ],
+  "result": {
+    "item": "fnaf_mod:movie_wall",
+    "count": 4
+  }
+}

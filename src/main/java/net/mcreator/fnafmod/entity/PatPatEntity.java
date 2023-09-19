@@ -35,6 +35,7 @@ public class PatPatEntity extends Monster {
 
 	public PatPatEntity(EntityType<PatPatEntity> type, Level world) {
 		super(type, world);
+		maxUpStep = 0.6f;
 		xpReward = 0;
 		setNoAi(true);
 		setPersistenceRequired();

@@ -20,7 +20,7 @@ public class NightmareOnEntityTickUpdateProcedure {
 		double rand3 = 0;
 		rand = Mth.nextInt(RandomSource.create(), 1, 300);
 		rand2 = Mth.nextInt(RandomSource.create(), 1, 8);
-		if (world instanceof Level _lvl && _lvl.isDay()) {
+		if (world instanceof Level _lvl2 && _lvl2.isDay()) {
 			if (!entity.level.isClientSide())
 				entity.discard();
 		} else {
@@ -207,13 +207,13 @@ public class NightmareOnEntityTickUpdateProcedure {
 			}
 		}
 		rand3 = Mth.nextInt(RandomSource.create(), 1, 300);
-		if (world instanceof Level _lvl && _lvl.isDay()) {
+		if (world instanceof Level _lvl70 && _lvl70.isDay()) {
 			if (!entity.level.isClientSide())
 				entity.discard();
 		} else {
 			if (69 == rand3) {
-				if (entity instanceof LivingEntity _entity)
-					_entity.addEffect(new MobEffectInstance(MobEffects.INVISIBILITY, 200, 1, (false), (false)));
+				if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+					_entity.addEffect(new MobEffectInstance(MobEffects.INVISIBILITY, 200, 1, false, false));
 			}
 		}
 	}

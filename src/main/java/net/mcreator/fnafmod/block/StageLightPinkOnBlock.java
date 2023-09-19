@@ -41,7 +41,7 @@ import java.util.List;
 import java.util.Collections;
 
 public class StageLightPinkOnBlock extends BaseEntityBlock implements EntityBlock {
-	public static final IntegerProperty ANIMATION = IntegerProperty.create("animation", 0, 1);
+	public static final IntegerProperty ANIMATION = IntegerProperty.create("animation", 0, (int) 1);
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public StageLightPinkOnBlock() {

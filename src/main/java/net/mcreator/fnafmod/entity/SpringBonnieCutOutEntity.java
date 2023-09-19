@@ -49,6 +49,7 @@ public class SpringBonnieCutOutEntity extends PathfinderMob {
 
 	public SpringBonnieCutOutEntity(EntityType<SpringBonnieCutOutEntity> type, Level world) {
 		super(type, world);
+		maxUpStep = 0.6f;
 		xpReward = 0;
 		setNoAi(true);
 		setPersistenceRequired();

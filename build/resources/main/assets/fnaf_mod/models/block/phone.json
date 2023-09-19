@@ -1,0 +1,9 @@
+{
+  "parent": "fnaf_mod:custom/phone",
+  "textures": {
+    "all": "fnaf_mod:blocks/phone",
+    "particle": "fnaf_mod:blocks/phone",
+    "0": "fnaf_mod:blocks/phone"
+  },
+  "render_type": "solid"
+}

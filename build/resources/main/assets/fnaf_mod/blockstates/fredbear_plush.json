@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fnaf_mod:block/fredbear_plush"
+    },
+    "facing=east": {
+      "model": "fnaf_mod:block/fredbear_plush",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fnaf_mod:block/fredbear_plush",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fnaf_mod:block/fredbear_plush",
+      "y": 270
+    }
+  }
+}

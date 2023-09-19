@@ -16,10 +16,10 @@ public class PhantomManglePlayerCollidesWithThisEntityProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity sourceentity) {
 		if (sourceentity == null)
 			return;
-		if (sourceentity instanceof LivingEntity _entity)
-			_entity.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 600, 0, (false), (false)));
-		if (sourceentity instanceof LivingEntity _entity)
-			_entity.addEffect(new MobEffectInstance(MobEffects.DIG_SLOWDOWN, 600, 0, (false), (false)));
+		if (sourceentity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+			_entity.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 600, 0, false, false));
+		if (sourceentity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+			_entity.addEffect(new MobEffectInstance(MobEffects.DIG_SLOWDOWN, 600, 0, false, false));
 		if (world instanceof Level _level) {
 			if (!_level.isClientSide()) {
 				_level.playSound(null, new BlockPos(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.enderman.scream")), SoundSource.NEUTRAL, 1, 1);

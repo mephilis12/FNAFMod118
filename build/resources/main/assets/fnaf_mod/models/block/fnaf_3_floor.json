@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fnaf_mod:blocks/rancid_floor",
+    "up": "fnaf_mod:blocks/rancid_floor",
+    "north": "fnaf_mod:blocks/rancid_floor",
+    "east": "fnaf_mod:blocks/rancid_floor",
+    "south": "fnaf_mod:blocks/rancid_floor",
+    "west": "fnaf_mod:blocks/rancid_floor",
+    "particle": "fnaf_mod:blocks/rancid_floor"
+  },
+  "render_type": "solid"
+}

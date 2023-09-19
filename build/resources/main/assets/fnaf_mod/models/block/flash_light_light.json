@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fnaf_mod:blocks/notin",
+    "up": "fnaf_mod:blocks/notin",
+    "north": "fnaf_mod:blocks/notin",
+    "east": "fnaf_mod:blocks/notin",
+    "south": "fnaf_mod:blocks/notin",
+    "west": "fnaf_mod:blocks/notin",
+    "particle": "fnaf_mod:blocks/notin"
+  },
+  "render_type": "translucent"
+}

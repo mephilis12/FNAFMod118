@@ -119,6 +119,7 @@ import net.mcreator.fnafmod.block.Poster4Block;
 import net.mcreator.fnafmod.block.Poster3Block;
 import net.mcreator.fnafmod.block.Poster2Block;
 import net.mcreator.fnafmod.block.Poster1Block;
+import net.mcreator.fnafmod.block.PopgoesPlushieBlock;
 import net.mcreator.fnafmod.block.PlushtrapChairBlock;
 import net.mcreator.fnafmod.block.PlushFreddyBlock;
 import net.mcreator.fnafmod.block.PlushFredbearBlock;
@@ -499,6 +500,7 @@ public class FnafModModBlocks {
 	public static final RegistryObject<Block> PLUSH_CHICA = REGISTRY.register("plush_chica", () -> new PlushChicaBlock());
 	public static final RegistryObject<Block> PLUSH_FOXY = REGISTRY.register("plush_foxy", () -> new PlushFoxyBlock());
 	public static final RegistryObject<Block> PLUSH_FREDBEAR = REGISTRY.register("plush_fredbear", () -> new PlushFredbearBlock());
+	public static final RegistryObject<Block> POPGOES_PLUSHIE = REGISTRY.register("popgoes_plushie", () -> new PopgoesPlushieBlock());
 	public static final RegistryObject<Block> OVDR_PLUSHIE = REGISTRY.register("ovdr_plushie", () -> new OvdrPlushieBlock());
 	public static final RegistryObject<Block> ARCADE_MACHINE_BONNIE = REGISTRY.register("arcade_machine_bonnie", () -> new ArcadeMachineBonnieBlock());
 	public static final RegistryObject<Block> ARCADE_MACHINE_FREDDY = REGISTRY.register("arcade_machine_freddy", () -> new ArcadeMachineFreddyBlock());

@@ -63,7 +63,7 @@ public class VendingTopBlock extends Block {
 
 	@Override
 	public ItemStack getCloneItemStack(BlockState state, HitResult target, BlockGetter world, BlockPos pos, Player player) {
-		return new ItemStack(FnafModModBlocks.LOCKET_BOTTOM.get());
+		return new ItemStack(FnafModModBlocks.VENDING_BOTTOM.get());
 	}
 
 	@Override
@@ -83,7 +83,7 @@ public class VendingTopBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(FnafModModBlocks.LOCKET_BOTTOM.get()));
+		return Collections.singletonList(new ItemStack(FnafModModBlocks.VENDING_BOTTOM.get()));
 	}
 
 	@Override

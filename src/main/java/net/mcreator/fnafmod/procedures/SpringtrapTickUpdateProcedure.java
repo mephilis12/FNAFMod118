@@ -25,7 +25,7 @@ public class SpringtrapTickUpdateProcedure {
 			return;
 		double Random = 0;
 		Random = Mth.nextInt(RandomSource.create(), 1, 5);
-		if (world instanceof Level _lvl && _lvl.isDay()) {
+		if (world instanceof Level _lvl1 && _lvl1.isDay()) {
 			if (Random == 5) {
 				if (entity instanceof SpringtrapEntity) {
 					if (!entity.level.isClientSide())

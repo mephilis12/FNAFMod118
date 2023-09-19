@@ -49,6 +49,7 @@ public class FredbearCutOutEntity extends PathfinderMob {
 
 	public FredbearCutOutEntity(EntityType<FredbearCutOutEntity> type, Level world) {
 		super(type, world);
+		maxUpStep = 0.6f;
 		xpReward = 0;
 		setNoAi(true);
 		setPersistenceRequired();

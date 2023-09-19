@@ -34,6 +34,7 @@ public class OfficeChairEntity extends PathfinderMob {
 
 	public OfficeChairEntity(EntityType<OfficeChairEntity> type, Level world) {
 		super(type, world);
+		maxUpStep = 0.6f;
 		xpReward = 0;
 		setNoAi(false);
 		setPersistenceRequired();
@@ -100,7 +101,6 @@ public class OfficeChairEntity extends PathfinderMob {
 			this.flyingSpeed = this.getSpeed() * 0.15F;
 			this.yBodyRot = entity.getYRot();
 			this.yHeadRot = entity.getYRot();
-			this.maxUpStep = 1.0F;
 			if (entity instanceof LivingEntity passenger) {
 				this.setSpeed((float) this.getAttributeValue(Attributes.MOVEMENT_SPEED));
 				float forward = passenger.zza;
@@ -117,7 +117,6 @@ public class OfficeChairEntity extends PathfinderMob {
 			this.animationPosition += this.animationSpeed;
 			return;
 		}
-		this.maxUpStep = 0.5F;
 		this.flyingSpeed = 0.02F;
 		super.travel(dir);
 	}

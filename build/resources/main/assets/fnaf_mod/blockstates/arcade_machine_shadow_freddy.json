@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fnaf_mod:block/arcade_machine_shadow_freddy"
+    },
+    "facing=east": {
+      "model": "fnaf_mod:block/arcade_machine_shadow_freddy",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fnaf_mod:block/arcade_machine_shadow_freddy",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fnaf_mod:block/arcade_machine_shadow_freddy",
+      "y": 270
+    }
+  }
+}

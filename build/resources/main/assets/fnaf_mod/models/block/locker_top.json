@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fnaf_mod:blocks/lockertop",
+    "up": "fnaf_mod:blocks/lockertop",
+    "north": "fnaf_mod:blocks/lockerfronttop",
+    "east": "fnaf_mod:blocks/lockersidetop",
+    "south": "fnaf_mod:blocks/lockersidetop",
+    "west": "fnaf_mod:blocks/lockersidetop",
+    "particle": "fnaf_mod:blocks/lockertop"
+  },
+  "render_type": "solid"
+}

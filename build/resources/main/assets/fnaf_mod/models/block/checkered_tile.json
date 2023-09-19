@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fnaf_mod:blocks/checkered_tiles",
+    "up": "fnaf_mod:blocks/checkered_tiles",
+    "north": "fnaf_mod:blocks/checkered_tiles",
+    "east": "fnaf_mod:blocks/checkered_tiles",
+    "south": "fnaf_mod:blocks/checkered_tiles",
+    "west": "fnaf_mod:blocks/checkered_tiles",
+    "particle": "fnaf_mod:blocks/checkered_tiles"
+  },
+  "render_type": "solid"
+}

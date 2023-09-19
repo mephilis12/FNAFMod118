@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:lantern"
+    },
+    {
+      "item": "fnaf_mod:chica_head"
+    }
+  ],
+  "result": {
+    "item": "fnaf_mod:chica_head_decoration",
+    "count": 1
+  }
+}

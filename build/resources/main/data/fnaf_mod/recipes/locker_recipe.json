@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "fnaf_mod:yellow_plastic"
+    },
+    "1": {
+      "item": "fnaf_mod:yellow_plastic"
+    },
+    "2": {
+      "item": "fnaf_mod:yellow_plastic"
+    },
+    "3": {
+      "item": "fnaf_mod:yellow_plastic"
+    },
+    "4": {
+      "item": "minecraft:iron_door"
+    },
+    "5": {
+      "item": "fnaf_mod:yellow_plastic"
+    },
+    "6": {
+      "item": "fnaf_mod:yellow_plastic"
+    },
+    "7": {
+      "item": "fnaf_mod:yellow_plastic"
+    },
+    "8": {
+      "item": "fnaf_mod:yellow_plastic"
+    }
+  },
+  "result": {
+    "item": "fnaf_mod:locket_bottom",
+    "count": 1
+  }
+}

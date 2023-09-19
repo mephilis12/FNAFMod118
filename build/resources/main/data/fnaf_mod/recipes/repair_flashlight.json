@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fnaf_mod:battery"
+    },
+    {
+      "item": "fnaf_mod:battery"
+    },
+    {
+      "item": "fnaf_mod:broken_flash_light"
+    }
+  ],
+  "result": {
+    "item": "fnaf_mod:flash_light",
+    "count": 1
+  }
+}

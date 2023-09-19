@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fnaf_mod:block/diagonal_wall_connector_bottom"
+    },
+    "facing=east": {
+      "model": "fnaf_mod:block/diagonal_wall_connector_bottom",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fnaf_mod:block/diagonal_wall_connector_bottom",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fnaf_mod:block/diagonal_wall_connector_bottom",
+      "y": 270
+    }
+  }
+}

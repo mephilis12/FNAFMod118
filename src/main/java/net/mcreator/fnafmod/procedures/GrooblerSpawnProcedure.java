@@ -1,6 +1,5 @@
 package net.mcreator.fnafmod.procedures;
 
-import net.minecraftforge.server.ServerLifecycleHooks;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -15,7 +14,6 @@ import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.server.MinecraftServer;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.BlockPos;
@@ -55,11 +53,8 @@ public class GrooblerSpawnProcedure {
 					_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.wither.spawn")), SoundSource.MASTER, 1, 1, false);
 				}
 			}
-			if (!world.isClientSide()) {
-				MinecraftServer _mcserv = ServerLifecycleHooks.getCurrentServer();
-				if (_mcserv != null)
-					_mcserv.getPlayerList().broadcastSystemMessage(Component.literal("He Has Arrived!"), false);
-			}
+			if (!world.isClientSide() && world.getServer() != null)
+				world.getServer().getPlayerList().broadcastSystemMessage(Component.literal("He Has Arrived!"), false);
 			if (world instanceof ServerLevel _level) {
 				Entity entityToSpawn = new TheCrooblerEntity(FnafModModEntities.THE_GROOBLER.get(), _level);
 				entityToSpawn.moveTo(x, y, z, 0, 0);

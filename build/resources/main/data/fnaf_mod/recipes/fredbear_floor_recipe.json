@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "tag": "minecraft:wool"
+    },
+    "1": {
+      "item": "minecraft:light_blue_terracotta"
+    },
+    "2": {
+      "item": "minecraft:light_blue_terracotta"
+    },
+    "3": {
+      "tag": "minecraft:wool"
+    }
+  },
+  "result": {
+    "item": "fnaf_mod:fredbear_floor",
+    "count": 4
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 4,
+  "cookingtime": 400,
+  "ingredient": {
+    "item": "minecraft:iron_nugget"
+  },
+  "result": "fnaf_mod:white_plastic"
+}

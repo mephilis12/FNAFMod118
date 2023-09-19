@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fnaf_mod:block/prize_corner_poster"
+    },
+    "facing=east": {
+      "model": "fnaf_mod:block/prize_corner_poster",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fnaf_mod:block/prize_corner_poster",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fnaf_mod:block/prize_corner_poster",
+      "y": 270
+    }
+  }
+}

@@ -11,7 +11,7 @@ public class SpringlockedProcedure {
 		if (entity == null)
 			return;
 		if (entity.isInWaterRainOrBubble()) {
-			if (entity instanceof LivingEntity _entity)
+			if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
 				_entity.addEffect(new MobEffectInstance(FnafModModMobEffects.BLEEDING.get(), 15, 0));
 		}
 	}

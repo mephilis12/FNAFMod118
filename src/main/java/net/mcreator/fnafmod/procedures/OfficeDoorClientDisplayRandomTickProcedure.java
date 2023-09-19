@@ -23,11 +23,11 @@ public class OfficeDoorClientDisplayRandomTickProcedure {
 		double sz = 0;
 		sx = -1;
 		found = false;
-		for (int index0 = 0; index0 < (int) (4); index0++) {
+		for (int index0 = 0; index0 < 4; index0++) {
 			sy = -1;
-			for (int index1 = 0; index1 < (int) (4); index1++) {
+			for (int index1 = 0; index1 < 4; index1++) {
 				sz = -1;
-				for (int index2 = 0; index2 < (int) (4); index2++) {
+				for (int index2 = 0; index2 < 4; index2++) {
 					if ((world.getBlockState(new BlockPos(x + sx, y + sy, z + sz))).getBlock() == FnafModModBlocks.DOOR_BUTTON_OFF.get()) {
 						found = true;
 					}

@@ -16,7 +16,7 @@ public class NightmareFredbearOnEntityTickUpdateProcedure {
 		double rand2 = 0;
 		rand = Mth.nextInt(RandomSource.create(), 1, 300);
 		rand2 = Mth.nextInt(RandomSource.create(), 1, 8);
-		if (world instanceof Level _lvl && _lvl.isDay()) {
+		if (world instanceof Level _lvl2 && _lvl2.isDay()) {
 			if (!entity.level.isClientSide())
 				entity.discard();
 		} else {

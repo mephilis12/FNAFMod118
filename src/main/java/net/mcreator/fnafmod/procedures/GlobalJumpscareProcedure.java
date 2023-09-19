@@ -62,10 +62,10 @@ public class GlobalJumpscareProcedure {
 			if (entity instanceof LivingEntity _entity)
 				_entity.setHealth(1);
 			if (entity instanceof Player _player) {
-				_player.getAbilities().invulnerable = (true);
+				_player.getAbilities().invulnerable = true;
 				_player.onUpdateAbilities();
 			}
-			if (sourceentity instanceof LivingEntity _entity)
+			if (sourceentity instanceof LivingEntity _entity && !_entity.level.isClientSide())
 				_entity.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 20, 255));
 			{
 				Entity _ent = entity;
@@ -141,7 +141,7 @@ public class GlobalJumpscareProcedure {
 			JumpscareAnimationsProcedure.execute(sourceentity);
 			FnafModMod.queueServerWork(15, () -> {
 				if (entity instanceof Player _player) {
-					_player.getAbilities().invulnerable = (true);
+					_player.getAbilities().invulnerable = true;
 					_player.onUpdateAbilities();
 				}
 				{

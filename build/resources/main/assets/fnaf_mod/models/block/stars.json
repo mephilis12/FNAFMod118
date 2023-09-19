@@ -1,0 +1,9 @@
+{
+  "parent": "fnaf_mod:custom/hanging_stars",
+  "textures": {
+    "all": "fnaf_mod:blocks/stars",
+    "particle": "fnaf_mod:blocks/stars",
+    "0": "fnaf_mod:blocks/stars"
+  },
+  "render_type": "cutout_mipped"
+}

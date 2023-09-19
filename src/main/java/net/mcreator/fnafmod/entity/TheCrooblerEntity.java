@@ -53,6 +53,7 @@ public class TheCrooblerEntity extends Skeleton implements RangedAttackMob {
 
 	public TheCrooblerEntity(EntityType<TheCrooblerEntity> type, Level world) {
 		super(type, world);
+		maxUpStep = 0.6f;
 		xpReward = 0;
 		setNoAi(false);
 		setPersistenceRequired();

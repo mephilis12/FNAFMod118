@@ -15,13 +15,13 @@ public class NightmareFreddyOnEntityTickUpdateProcedure {
 			return;
 		double rand = 0;
 		rand = Mth.nextInt(RandomSource.create(), 1, 300);
-		if (world instanceof Level _lvl && _lvl.isDay()) {
+		if (world instanceof Level _lvl1 && _lvl1.isDay()) {
 			if (!entity.level.isClientSide())
 				entity.discard();
 		} else {
 			if (69 == rand) {
-				if (entity instanceof LivingEntity _entity)
-					_entity.addEffect(new MobEffectInstance(MobEffects.INVISIBILITY, 200, 1, (false), (false)));
+				if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+					_entity.addEffect(new MobEffectInstance(MobEffects.INVISIBILITY, 200, 1, false, false));
 			}
 		}
 	}

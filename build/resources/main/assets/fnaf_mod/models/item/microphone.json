@@ -1,0 +1,7 @@
+{
+  "parent": "fnaf_mod:custom/microphone",
+  "textures": {
+    "0": "fnaf_mod:blocks/microphone",
+    "particle": "fnaf_mod:items/microphone"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fnaf_mod:blocks/fredbears_block",
+    "up": "fnaf_mod:blocks/fredbears_block",
+    "north": "fnaf_mod:blocks/fredbears_block",
+    "east": "fnaf_mod:blocks/fredbears_block",
+    "south": "fnaf_mod:blocks/fredbears_block",
+    "west": "fnaf_mod:blocks/fredbears_block",
+    "particle": "fnaf_mod:blocks/fredbears_block"
+  },
+  "render_type": "solid"
+}

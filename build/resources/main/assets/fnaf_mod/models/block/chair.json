@@ -1,0 +1,9 @@
+{
+  "parent": "fnaf_mod:custom/chair",
+  "textures": {
+    "all": "fnaf_mod:blocks/chair_block",
+    "particle": "fnaf_mod:blocks/chair_block",
+    "1": "fnaf_mod:blocks/chair_block"
+  },
+  "render_type": "cutout"
+}

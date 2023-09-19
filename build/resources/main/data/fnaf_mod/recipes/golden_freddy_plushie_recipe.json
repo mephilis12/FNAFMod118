@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "fnaf_mod:chica_fabric"
+    },
+    "1": {
+      "item": "fnaf_mod:chica_fabric"
+    },
+    "2": {
+      "item": "fnaf_mod:chica_fabric"
+    },
+    "3": {
+      "item": "fnaf_mod:chica_fabric"
+    },
+    "4": {
+      "item": "fnaf_mod:freddy_plushie"
+    },
+    "5": {
+      "item": "fnaf_mod:chica_fabric"
+    },
+    "6": {
+      "item": "fnaf_mod:chica_fabric"
+    },
+    "7": {
+      "item": "fnaf_mod:chica_fabric"
+    },
+    "8": {
+      "item": "fnaf_mod:chica_fabric"
+    }
+  },
+  "result": {
+    "item": "fnaf_mod:golden_freddy_plushie",
+    "count": 1
+  }
+}

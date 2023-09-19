@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fnaf_mod:blocks/ceiling_grid_dark",
+    "up": "fnaf_mod:blocks/ceiling_grid_dark",
+    "north": "fnaf_mod:blocks/ceiling_grid_dark",
+    "east": "fnaf_mod:blocks/ceiling_grid_dark",
+    "south": "fnaf_mod:blocks/ceiling_grid_dark",
+    "west": "fnaf_mod:blocks/ceiling_grid_dark",
+    "particle": "fnaf_mod:blocks/ceiling_grid_dark"
+  },
+  "render_type": "solid"
+}

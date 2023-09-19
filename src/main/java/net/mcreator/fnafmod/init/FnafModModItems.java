@@ -270,6 +270,7 @@ public class FnafModModItems {
 	public static final RegistryObject<Item> PLUSH_CHICA = block(FnafModModBlocks.PLUSH_CHICA, FnafModModTabs.TAB_FNAF_BLOCKS);
 	public static final RegistryObject<Item> PLUSH_FOXY = block(FnafModModBlocks.PLUSH_FOXY, FnafModModTabs.TAB_FNAF_BLOCKS);
 	public static final RegistryObject<Item> PLUSH_FREDBEAR = block(FnafModModBlocks.PLUSH_FREDBEAR, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> POPGOES_PLUSHIE = block(FnafModModBlocks.POPGOES_PLUSHIE, FnafModModTabs.TAB_FNAF_BLOCKS);
 	public static final RegistryObject<Item> OVDR_PLUSHIE = block(FnafModModBlocks.OVDR_PLUSHIE, FnafModModTabs.TAB_FNAF_BLOCKS);
 	public static final RegistryObject<Item> ARCADE_MACHINE_BONNIE = block(FnafModModBlocks.ARCADE_MACHINE_BONNIE, FnafModModTabs.TAB_FNAF_BLOCKS);
 	public static final RegistryObject<Item> ARCADE_MACHINE_FREDDY = block(FnafModModBlocks.ARCADE_MACHINE_FREDDY, FnafModModTabs.TAB_FNAF_BLOCKS);
@@ -453,7 +454,7 @@ public class FnafModModItems {
 	public static final RegistryObject<Item> SHADOW_FREDDY_SPAWN_EGG = REGISTRY.register("shadow_freddy_spawn_egg",
 			() -> new ForgeSpawnEggItem(FnafModModEntities.SHADOW_FREDDY, -14942183, -16777216, new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
 	public static final RegistryObject<Item> TOY_CHICA_SPAWN_EGG = REGISTRY.register("toy_chica_spawn_egg", () -> new ForgeSpawnEggItem(FnafModModEntities.TOY_CHICA, -1055193, -38689, new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
-	public static final RegistryObject<Item> BB_SPAWN_EGG = REGISTRY.register("bb_spawn_egg", () -> new ForgeSpawnEggItem(FnafModModEntities.BB, -2087900, -9321766, new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
+	public static final RegistryObject<Item> BB_SPAWN_EGG = REGISTRY.register("bb_spawn_egg", () -> new ForgeSpawnEggItem(FnafModModEntities.BB, -9682156, -16777216, new Item.Properties().tab(null)));
 	public static final RegistryObject<Item> PUPPET_SPAWN_EGG = REGISTRY.register("puppet_spawn_egg", () -> new ForgeSpawnEggItem(FnafModModEntities.PUPPET, -15592942, -1315861, new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
 	public static final RegistryObject<Item> JJ_SPAWN_EGG = REGISTRY.register("jj_spawn_egg", () -> new ForgeSpawnEggItem(FnafModModEntities.JJ, -2808864, -6262310, new Item.Properties().tab(FnafModModTabs.TAB_FNAF_MOBS)));
 	public static final RegistryObject<Item> SHADOW_BONNIE_SPAWN_EGG = REGISTRY.register("shadow_bonnie_spawn_egg",

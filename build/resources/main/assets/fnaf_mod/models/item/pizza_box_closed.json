@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "fnaf_mod:items/pizza_closed"
+  },
+  "render_type": "translucent"
+}

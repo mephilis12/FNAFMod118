@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "fnaf_mod:blue_black_tile"
+  },
+  "result": "fnaf_mod:blue_black_tile_stair"
+}

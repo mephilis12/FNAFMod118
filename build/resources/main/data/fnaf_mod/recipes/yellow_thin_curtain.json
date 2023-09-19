@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "fnaf_mod:corn_curtain"
+    },
+    "1": {
+      "item": "fnaf_mod:corn_curtain"
+    },
+    "2": {
+      "item": "fnaf_mod:corn_curtain"
+    },
+    "3": {
+      "item": "fnaf_mod:corn_curtain"
+    },
+    "4": {
+      "item": "fnaf_mod:corn_curtain"
+    },
+    "5": {
+      "item": "fnaf_mod:corn_curtain"
+    }
+  },
+  "result": {
+    "item": "fnaf_mod:thin_corn_curtain",
+    "count": 16
+  }
+}

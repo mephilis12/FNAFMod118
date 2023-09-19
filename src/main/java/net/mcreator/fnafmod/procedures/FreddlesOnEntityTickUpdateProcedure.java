@@ -27,11 +27,11 @@ public class FreddlesOnEntityTickUpdateProcedure {
 		}
 		sx = 0;
 		found = false;
-		for (int index0 = 0; index0 < (int) (3); index0++) {
+		for (int index0 = 0; index0 < 3; index0++) {
 			sy = 0;
-			for (int index1 = 0; index1 < (int) (3); index1++) {
+			for (int index1 = 0; index1 < 3; index1++) {
 				sz = 0;
-				for (int index2 = 0; index2 < (int) (3); index2++) {
+				for (int index2 = 0; index2 < 3; index2++) {
 					if ((world.getBlockState(new BlockPos(x + sx, y + sy, z + sz))).getBlock() == FnafModModBlocks.FLASH_LIGHT_LIGHT.get()) {
 						found = true;
 					}

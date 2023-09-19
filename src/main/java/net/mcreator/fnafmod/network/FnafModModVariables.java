@@ -75,6 +75,7 @@ public class FnafModModVariables {
 			clone.Mask = original.Mask;
 			clone.CanPoison = original.CanPoison;
 			clone.FlashLightDamage = original.FlashLightDamage;
+			clone.PlayerCamera = original.PlayerCamera;
 			if (!event.isWasDeath()) {
 				clone.goldenkill = original.goldenkill;
 				clone.WitheredGoldenFreddyJumpscare = original.WitheredGoldenFreddyJumpscare;
@@ -289,6 +290,7 @@ public class FnafModModVariables {
 		public boolean PuppetKill = false;
 		public boolean NightmarionneKill = false;
 		public boolean NightmareKill = false;
+		public boolean PlayerCamera = false;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -314,6 +316,7 @@ public class FnafModModVariables {
 			nbt.putBoolean("PuppetKill", PuppetKill);
 			nbt.putBoolean("NightmarionneKill", NightmarionneKill);
 			nbt.putBoolean("NightmareKill", NightmareKill);
+			nbt.putBoolean("PlayerCamera", PlayerCamera);
 			return nbt;
 		}
 
@@ -336,6 +339,7 @@ public class FnafModModVariables {
 			PuppetKill = nbt.getBoolean("PuppetKill");
 			NightmarionneKill = nbt.getBoolean("NightmarionneKill");
 			NightmareKill = nbt.getBoolean("NightmareKill");
+			PlayerCamera = nbt.getBoolean("PlayerCamera");
 		}
 	}
 
@@ -377,6 +381,7 @@ public class FnafModModVariables {
 					variables.PuppetKill = message.data.PuppetKill;
 					variables.NightmarionneKill = message.data.NightmarionneKill;
 					variables.NightmareKill = message.data.NightmareKill;
+					variables.PlayerCamera = message.data.PlayerCamera;
 				}
 			});
 			context.setPacketHandled(true);

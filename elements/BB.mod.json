@@ -1,10 +1,10 @@
 {
-  "_fv": 39,
+  "_fv": 43,
   "_type": "animatedentity",
   "definition": {
-    "mobName": "Balloon Boy",
+    "mobName": "Spring Bonnie",
     "mobLabel": "",
-    "mobModelTexture": "balloonboytexture.png",
+    "mobModelTexture": "spring_bonnie_fnaf1.png",
     "mobModelGlowTexture": "",
     "visualScale": {
       "fixedValue": 1.0
@@ -18,15 +18,15 @@
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -2087900,
+      "value": -9682156,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -9321766,
+      "value": -16777216,
       "falpha": 0.0
     },
     "creativeTab": {
-      "value": "CUSTOM:FNAFMobs"
+      "value": "No creative tab entry"
     },
     "isBoss": false,
     "bossBarColor": "PINK",
@@ -49,16 +49,16 @@
     "equipmentBoots": {
       "value": ""
     },
-    "mobBehaviourType": "Mob",
+    "mobBehaviourType": "Creature",
     "mobCreatureType": "UNDEFINED",
-    "attackStrength": 0,
+    "attackStrength": 20,
     "attackKnockback": 0.0,
-    "knockbackResistance": 0.0,
-    "movementSpeed": 0.3,
+    "knockbackResistance": 2.0,
+    "movementSpeed": 0.25,
     "armorBaseValue": 0.0,
     "trackingRange": 64,
     "followRange": 16,
-    "health": 10,
+    "health": 50,
     "xpAmount": 0,
     "waterMob": false,
     "flyingMob": false,
@@ -73,19 +73,19 @@
     "canControlStrafe": false,
     "immuneToFire": false,
     "immuneToArrows": false,
-    "immuneToFallDamage": false,
-    "immuneToCactus": false,
+    "immuneToFallDamage": true,
+    "immuneToCactus": true,
     "immuneToDrowning": false,
     "immuneToLightning": false,
     "immuneToPotions": false,
     "immuneToPlayer": false,
     "immuneToExplosion": false,
-    "immuneToTrident": false,
-    "immuneToAnvil": false,
-    "immuneToWither": false,
-    "immuneToDragonBreath": false,
+    "immuneToTrident": true,
+    "immuneToAnvil": true,
+    "immuneToWither": true,
+    "immuneToDragonBreath": true,
     "mobDrop": {
-      "value": ""
+      "value": "CUSTOM:SpringBonnie"
     },
     "livingSound": {
       "value": ""
@@ -94,27 +94,24 @@
       "value": "block.cloth.hit"
     },
     "deathSound": {
-      "value": "block.anvil.break"
+      "value": "block.anvil.destroy"
     },
     "stepSound": {
-      "value": ""
+      "value": "CUSTOM:animatronic_step"
     },
     "onMobTickUpdate": {
-      "name": "BBOnEntityTickUpdate"
-    },
-    "onPlayerCollidesWith": {
-      "name": "BBPlayerCollidesWithThisEntity"
+      "name": "GoldenFreddyOnEntityTickUpdate"
     },
     "onInitialSpawn": {
-      "name": "BBOnInitialEntitySpawn"
+      "name": "PassiveSpringBonnieOnInitialEntitySpawn"
     },
     "hasAI": true,
     "aiBase": "(none)",
-    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"301\" y=\"116\"><next><block type=\"wander\"><field name=\"speed\">0.8</field><field name=\"condition\">FreddyFazbearOnEntityTickUpdate,null</field><next><block type=\"look_around\"><field name=\"condition\">FreddyFazbearOnEntityTickUpdate,null</field><next><block type=\"wander_avoid_water\"><field name=\"speed\">0.8</field><field name=\"condition\">FreddyFazbearOnEntityTickUpdate,null</field><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">FreddyFazbearOnEntityTickUpdate,null</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntityPlayer</field><field name=\"condition\">MaskProtectionTestForTick,null</field></block></next></block></next></block></next></block></next></block></next></block></xml>",
-    "model": "balloonboy.geo.json",
-    "groupName": "head",
-    "animation1": "animation.balloonboy.idle",
-    "animation2": "animation.balloonboy.walk",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"2621\" y=\"199\"><next><block type=\"wander\"><field name=\"speed\">0.8</field><field name=\"condition\">FreddyFazbearOnEntityTickUpdate,null</field><next><block type=\"look_around\"><field name=\"condition\">FreddyFazbearOnEntityTickUpdate,null</field><next><block type=\"wander_avoid_water\"><field name=\"speed\">0.8</field><field name=\"condition\">FreddyFazbearOnEntityTickUpdate,null</field><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">FreddyFazbearOnEntityTickUpdate,null</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntityMonster</field><field name=\"condition\">FreddyFazbearOnEntityTickUpdate,null</field></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "model": "bonnie.geo.json",
+    "groupName": "Head",
+    "animation1": "animation.bonnie.idle",
+    "animation2": "animation.bonnie.walk",
     "animation3": "",
     "animation4": "",
     "animation5": "",

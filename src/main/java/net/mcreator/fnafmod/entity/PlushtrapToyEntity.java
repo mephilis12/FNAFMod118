@@ -41,6 +41,7 @@ public class PlushtrapToyEntity extends PathfinderMob {
 
 	public PlushtrapToyEntity(EntityType<PlushtrapToyEntity> type, Level world) {
 		super(type, world);
+		maxUpStep = 0.6f;
 		xpReward = 0;
 		setNoAi(false);
 		setPersistenceRequired();

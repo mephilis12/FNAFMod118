@@ -1,0 +1,9 @@
+{
+  "parent": "fnaf_mod:custom/foxy_arcade",
+  "textures": {
+    "all": "fnaf_mod:blocks/foxy_arcade_machine",
+    "particle": "fnaf_mod:blocks/foxy_arcade_machine",
+    "1": "fnaf_mod:blocks/foxy_arcade_machine"
+  },
+  "render_type": "cutout"
+}

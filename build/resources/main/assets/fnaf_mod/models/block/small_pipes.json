@@ -1,0 +1,9 @@
+{
+  "parent": "fnaf_mod:custom/pipe",
+  "textures": {
+    "all": "fnaf_mod:blocks/pipes",
+    "particle": "fnaf_mod:blocks/pipes",
+    "0": "fnaf_mod:blocks/pipes"
+  },
+  "render_type": "translucent"
+}

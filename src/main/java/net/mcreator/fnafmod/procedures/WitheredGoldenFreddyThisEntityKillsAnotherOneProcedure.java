@@ -51,10 +51,10 @@ public class WitheredGoldenFreddyThisEntityKillsAnotherOneProcedure {
 			if (entity instanceof LivingEntity _entity)
 				_entity.setHealth(1);
 			if (entity instanceof Player _player) {
-				_player.getAbilities().invulnerable = (true);
+				_player.getAbilities().invulnerable = true;
 				_player.onUpdateAbilities();
 			}
-			if (sourceentity instanceof LivingEntity _entity)
+			if (sourceentity instanceof LivingEntity _entity && !_entity.level.isClientSide())
 				_entity.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 20, 255));
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
@@ -80,7 +80,7 @@ public class WitheredGoldenFreddyThisEntityKillsAnotherOneProcedure {
 						});
 					}
 					if (entity instanceof Player _player) {
-						_player.getAbilities().invulnerable = (true);
+						_player.getAbilities().invulnerable = true;
 						_player.onUpdateAbilities();
 					}
 					{

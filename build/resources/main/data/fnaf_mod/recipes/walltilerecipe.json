@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:red_concrete"
+    },
+    {
+      "item": "minecraft:red_concrete"
+    },
+    {
+      "item": "fnaf_mod:black_wall"
+    },
+    {
+      "item": "fnaf_mod:black_wall"
+    }
+  ],
+  "result": {
+    "item": "fnaf_mod:wall_tile",
+    "count": 4
+  }
+}

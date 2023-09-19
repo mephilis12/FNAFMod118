@@ -1,0 +1,9 @@
+{
+  "parent": "fnaf_mod:custom/plushie_glitchtrap",
+  "textures": {
+    "all": "fnaf_mod:blocks/glitchtrap_plush",
+    "particle": "fnaf_mod:blocks/glitchtrap_plush",
+    "2": "fnaf_mod:blocks/glitchtrap_plush"
+  },
+  "render_type": "cutout"
+}

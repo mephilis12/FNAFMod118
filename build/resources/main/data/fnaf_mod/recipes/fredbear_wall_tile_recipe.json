@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:red_concrete"
+    },
+    "1": {
+      "item": "minecraft:red_concrete"
+    },
+    "2": {
+      "item": "fnaf_mod:white_wall"
+    },
+    "3": {
+      "item": "fnaf_mod:white_wall"
+    }
+  },
+  "result": {
+    "item": "fnaf_mod:white_red_wall_tile",
+    "count": 4
+  }
+}

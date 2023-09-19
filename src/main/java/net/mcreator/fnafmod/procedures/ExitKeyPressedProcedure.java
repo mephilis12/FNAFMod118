@@ -16,7 +16,7 @@ public class ExitKeyPressedProcedure {
 		if (entity == null)
 			return;
 		if (entity.getPersistentData().getBoolean("cammode") == true) {
-			entity.getPersistentData().putBoolean("cammode", (false));
+			entity.getPersistentData().putBoolean("cammode", false);
 			{
 				Entity _ent = entity;
 				_ent.teleportTo((entity.getPersistentData().getDouble("x0")), (entity.getPersistentData().getDouble("y0")), (entity.getPersistentData().getDouble("z0")));

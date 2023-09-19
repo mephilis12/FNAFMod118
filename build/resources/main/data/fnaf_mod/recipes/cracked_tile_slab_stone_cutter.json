@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "fnaf_mod:black_white_tile_cracked"
+  },
+  "result": "fnaf_mod:black_white_tile_slab_cracked"
+}

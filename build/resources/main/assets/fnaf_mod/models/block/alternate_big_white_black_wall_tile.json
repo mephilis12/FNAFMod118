@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fnaf_mod:blocks/light_wall",
+    "up": "fnaf_mod:blocks/light_wall",
+    "north": "fnaf_mod:blocks/big_fnaf2_wall_tile_alt",
+    "east": "fnaf_mod:blocks/big_fnaf2_wall_tile_alt",
+    "south": "fnaf_mod:blocks/big_fnaf2_wall_tile_alt",
+    "west": "fnaf_mod:blocks/big_fnaf2_wall_tile_alt",
+    "particle": "fnaf_mod:blocks/big_fnaf2_wall_tile_alt"
+  },
+  "render_type": "solid"
+}

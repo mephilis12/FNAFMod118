@@ -19,6 +19,6 @@ public class ChicaHeadDecorationDisplayModel extends AnimatedGeoModel<ChicaHeadD
 
 	@Override
 	public ResourceLocation getTextureResource(ChicaHeadDecorationDisplayItem entity) {
-		return new ResourceLocation("fnaf_mod", "textures/blocks/chicahead.png");
+		return new ResourceLocation("fnaf_mod", "textures/blocks/chicaheaddecor.png");
 	}
 }

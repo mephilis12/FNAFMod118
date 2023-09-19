@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "fnaf_mod:fnaf_3_wall"
+    },
+    "1": {
+      "item": "fnaf_mod:fnaf_3_wall"
+    },
+    "2": {
+      "item": "fnaf_mod:fnaf_3_wall"
+    }
+  },
+  "result": {
+    "item": "fnaf_mod:fnaf_3_wall_slab",
+    "count": 6
+  }
+}

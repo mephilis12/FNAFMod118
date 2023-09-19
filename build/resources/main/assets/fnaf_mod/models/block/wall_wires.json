@@ -1,0 +1,9 @@
+{
+  "parent": "fnaf_mod:custom/wire_frame",
+  "textures": {
+    "all": "fnaf_mod:blocks/hanging_wires_main",
+    "particle": "fnaf_mod:blocks/hanging_wires_main",
+    "1": "fnaf_mod:blocks/hanging_wires_main"
+  },
+  "render_type": "translucent"
+}

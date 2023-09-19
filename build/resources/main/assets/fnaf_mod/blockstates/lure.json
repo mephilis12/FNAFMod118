@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fnaf_mod:block/lure"
+    },
+    "facing=east": {
+      "model": "fnaf_mod:block/lure",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fnaf_mod:block/lure",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fnaf_mod:block/lure",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fnaf_mod:blocks/remnant_infuser_bottom",
+    "up": "fnaf_mod:blocks/remant_infuser_top",
+    "north": "fnaf_mod:blocks/remnant_infuser_front",
+    "east": "fnaf_mod:blocks/remant_infuser_side",
+    "south": "fnaf_mod:blocks/remant_infuser_side",
+    "west": "fnaf_mod:blocks/remant_infuser_side",
+    "particle": "fnaf_mod:blocks/remnant_infuser_bottom"
+  },
+  "render_type": "solid"
+}

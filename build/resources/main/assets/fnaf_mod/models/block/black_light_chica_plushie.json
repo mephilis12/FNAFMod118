@@ -1,0 +1,9 @@
+{
+  "parent": "fnaf_mod:custom/plushie_chica",
+  "textures": {
+    "all": "fnaf_mod:blocks/blacklight_chica_plushie",
+    "particle": "fnaf_mod:blocks/blacklight_chica_plushie",
+    "2": "fnaf_mod:blocks/blacklight_chica_plushie"
+  },
+  "render_type": "cutout"
+}

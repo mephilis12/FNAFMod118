@@ -17,7 +17,7 @@ public class ToyBonnieOnEntityTickUpdateProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
-		if (world instanceof Level _lvl && _lvl.isDay()) {
+		if (world instanceof Level _lvl0 && _lvl0.isDay()) {
 			if (entity instanceof ToyBonnieEntity) {
 				if (!entity.level.isClientSide())
 					entity.discard();

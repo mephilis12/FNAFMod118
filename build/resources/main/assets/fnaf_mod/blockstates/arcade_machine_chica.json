@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fnaf_mod:block/arcade_machine_chica"
+    },
+    "facing=east": {
+      "model": "fnaf_mod:block/arcade_machine_chica",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fnaf_mod:block/arcade_machine_chica",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fnaf_mod:block/arcade_machine_chica",
+      "y": 270
+    }
+  }
+}

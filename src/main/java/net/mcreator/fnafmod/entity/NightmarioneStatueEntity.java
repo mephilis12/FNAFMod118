@@ -49,6 +49,7 @@ public class NightmarioneStatueEntity extends PathfinderMob {
 
 	public NightmarioneStatueEntity(EntityType<NightmarioneStatueEntity> type, Level world) {
 		super(type, world);
+		maxUpStep = 0.6f;
 		xpReward = 0;
 		setNoAi(true);
 		setPersistenceRequired();
