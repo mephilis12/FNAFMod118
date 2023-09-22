@@ -228,6 +228,7 @@ import net.mcreator.fnafmod.block.DiagonalWallBottomBlock;
 import net.mcreator.fnafmod.block.DeskBlock;
 import net.mcreator.fnafmod.block.Desk3Block;
 import net.mcreator.fnafmod.block.Desk2Block;
+import net.mcreator.fnafmod.block.CutStageBricksBlock;
 import net.mcreator.fnafmod.block.CornCurtainBlock;
 import net.mcreator.fnafmod.block.CobaltCurtainBlock;
 import net.mcreator.fnafmod.block.CloudsBlock;
@@ -658,4 +659,5 @@ public class FnafModModBlocks {
 	public static final RegistryObject<Block> BLACK_LIGHT_CHICA_PLUSHIE = REGISTRY.register("black_light_chica_plushie", () -> new BlackLightChicaPlushieBlock());
 	public static final RegistryObject<Block> BLACK_LIGHT_FOXY_PLUSHIE = REGISTRY.register("black_light_foxy_plushie", () -> new BlackLightFoxyPlushieBlock());
 	public static final RegistryObject<Block> BLACK_LIGHT_SPRING_BONNIE_PLUSH = REGISTRY.register("black_light_spring_bonnie_plush", () -> new BlackLightSpringBonniePlushBlock());
+	public static final RegistryObject<Block> CUT_STAGE_BRICKS = REGISTRY.register("cut_stage_bricks", () -> new CutStageBricksBlock());
 }
