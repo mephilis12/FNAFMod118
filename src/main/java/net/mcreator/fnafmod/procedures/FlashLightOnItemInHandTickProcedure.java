@@ -92,7 +92,7 @@ public class FlashLightOnItemInHandTickProcedure {
 		}
 		if (!world.isClientSide()) {
 			distance = 1;
-			for (int index0 = 0; index0 < 17; index0++) {
+			for (int index0 = 0; index0 < 10; index0++) {
 				if ((world.getBlockState(new BlockPos(
 						entity.level.clip(new ClipContext(entity.getEyePosition(1f), entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(distance)), ClipContext.Block.OUTLINE, ClipContext.Fluid.NONE, entity)).getBlockPos().getX(),
 						entity.level.clip(new ClipContext(entity.getEyePosition(1f), entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(distance)), ClipContext.Block.OUTLINE, ClipContext.Fluid.NONE, entity)).getBlockPos().getY(),

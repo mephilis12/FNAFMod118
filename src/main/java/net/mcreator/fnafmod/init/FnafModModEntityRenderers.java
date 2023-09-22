@@ -9,6 +9,8 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.minecraft.client.renderer.entity.ThrownItemRenderer;
+
 import net.mcreator.fnafmod.client.renderer.WitheredGoldenFreddyRenderer;
 import net.mcreator.fnafmod.client.renderer.WitheredFreddyRenderer;
 import net.mcreator.fnafmod.client.renderer.WitheredFoxyRenderer;
@@ -246,5 +248,6 @@ public class FnafModModEntityRenderers {
 		event.registerEntityRenderer(FnafModModEntities.SITTING_DAYTIME_SPRINGTRAP.get(), SittingDaytimeSpringtrapRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.STANDING_DAYTIME_SPRINGTRAP.get(), StandingDaytimeSpringtrapRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.CRAWLING_SPRINGTRAP.get(), CrawlingSpringtrapRenderer::new);
+		event.registerEntityRenderer(FnafModModEntities.BOOLET.get(), ThrownItemRenderer::new);
 	}
 }
