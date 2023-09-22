@@ -78,7 +78,7 @@ public abstract class SpringLockSuitItem extends ArmorItem {
 
 	public static class Helmet extends SpringLockSuitItem {
 		public Helmet() {
-			super(EquipmentSlot.HEAD, new Item.Properties().tab(FnafModModTabs.TAB_SUITS));
+			super(EquipmentSlot.HEAD, new Item.Properties().tab(FnafModModTabs.TAB_FNAF_ITEMS));
 		}
 
 		@Override
@@ -112,7 +112,7 @@ public abstract class SpringLockSuitItem extends ArmorItem {
 
 	public static class Chestplate extends SpringLockSuitItem {
 		public Chestplate() {
-			super(EquipmentSlot.CHEST, new Item.Properties().tab(FnafModModTabs.TAB_SUITS));
+			super(EquipmentSlot.CHEST, new Item.Properties().tab(FnafModModTabs.TAB_FNAF_ITEMS));
 		}
 
 		@Override
@@ -146,7 +146,7 @@ public abstract class SpringLockSuitItem extends ArmorItem {
 
 	public static class Leggings extends SpringLockSuitItem {
 		public Leggings() {
-			super(EquipmentSlot.LEGS, new Item.Properties().tab(FnafModModTabs.TAB_SUITS));
+			super(EquipmentSlot.LEGS, new Item.Properties().tab(FnafModModTabs.TAB_FNAF_ITEMS));
 		}
 
 		@Override
@@ -162,7 +162,7 @@ public abstract class SpringLockSuitItem extends ArmorItem {
 
 	public static class Boots extends SpringLockSuitItem {
 		public Boots() {
-			super(EquipmentSlot.FEET, new Item.Properties().tab(FnafModModTabs.TAB_SUITS));
+			super(EquipmentSlot.FEET, new Item.Properties().tab(FnafModModTabs.TAB_FNAF_ITEMS));
 		}
 
 		@Override

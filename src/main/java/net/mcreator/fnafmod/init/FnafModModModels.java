@@ -31,15 +31,11 @@ import net.mcreator.fnafmod.client.model.ModelGuard_hat;
 import net.mcreator.fnafmod.client.model.ModelGlitchtrap_Mask;
 import net.mcreator.fnafmod.client.model.ModelFreddy_Mask;
 import net.mcreator.fnafmod.client.model.ModelFreddyStand;
-import net.mcreator.fnafmod.client.model.ModelFreddyHead;
 import net.mcreator.fnafmod.client.model.ModelFredbearMask;
 import net.mcreator.fnafmod.client.model.ModelFredbearFNAF4;
-import net.mcreator.fnafmod.client.model.ModelFoxyMask;
 import net.mcreator.fnafmod.client.model.ModelCutoutSpringBonnie;
 import net.mcreator.fnafmod.client.model.ModelCutoutFredbear;
-import net.mcreator.fnafmod.client.model.ModelChicaMask;
 import net.mcreator.fnafmod.client.model.ModelBonnieStand;
-import net.mcreator.fnafmod.client.model.ModelBonnieMask;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = {Dist.CLIENT})
 public class FnafModModModels {
@@ -58,7 +54,6 @@ public class FnafModModModels {
 		event.registerLayerDefinition(Modelnightmarionne_statue.LAYER_LOCATION, Modelnightmarionne_statue::createBodyLayer);
 		event.registerLayerDefinition(Modelcamera.LAYER_LOCATION, Modelcamera::createBodyLayer);
 		event.registerLayerDefinition(ModelNighmare_Foxy_Statue.LAYER_LOCATION, ModelNighmare_Foxy_Statue::createBodyLayer);
-		event.registerLayerDefinition(ModelFreddyHead.LAYER_LOCATION, ModelFreddyHead::createBodyLayer);
 		event.registerLayerDefinition(ModelGuard_hat.LAYER_LOCATION, ModelGuard_hat::createBodyLayer);
 		event.registerLayerDefinition(ModelFreddyStand.LAYER_LOCATION, ModelFreddyStand::createBodyLayer);
 		event.registerLayerDefinition(ModelNightmare_Freddy_Statue.LAYER_LOCATION, ModelNightmare_Freddy_Statue::createBodyLayer);
@@ -69,11 +64,8 @@ public class FnafModModModels {
 		event.registerLayerDefinition(ModelCutoutSpringBonnie.LAYER_LOCATION, ModelCutoutSpringBonnie::createBodyLayer);
 		event.registerLayerDefinition(ModelFreddy_Mask.LAYER_LOCATION, ModelFreddy_Mask::createBodyLayer);
 		event.registerLayerDefinition(ModelStandFreddly.LAYER_LOCATION, ModelStandFreddly::createBodyLayer);
-		event.registerLayerDefinition(ModelBonnieMask.LAYER_LOCATION, ModelBonnieMask::createBodyLayer);
-		event.registerLayerDefinition(ModelChicaMask.LAYER_LOCATION, ModelChicaMask::createBodyLayer);
 		event.registerLayerDefinition(ModelPatPat.LAYER_LOCATION, ModelPatPat::createBodyLayer);
 		event.registerLayerDefinition(ModelNightmare_Chica_Statue.LAYER_LOCATION, ModelNightmare_Chica_Statue::createBodyLayer);
-		event.registerLayerDefinition(ModelFoxyMask.LAYER_LOCATION, ModelFoxyMask::createBodyLayer);
 		event.registerLayerDefinition(ModelPlushtrapSit.LAYER_LOCATION, ModelPlushtrapSit::createBodyLayer);
 		event.registerLayerDefinition(ModelThe_Croobler.LAYER_LOCATION, ModelThe_Croobler::createBodyLayer);
 	}

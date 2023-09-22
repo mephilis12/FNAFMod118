@@ -39,7 +39,7 @@ public class FlashLightLightBlock extends Block implements SimpleWaterloggedBloc
 	public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 
 	public FlashLightLightBlock() {
-		super(BlockBehaviour.Properties.of(Material.FIRE, MaterialColor.NONE).sound(SoundType.POWDER_SNOW).instabreak().lightLevel(s -> 9).noCollission().friction(0.1f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false).noLootTable());
+		super(BlockBehaviour.Properties.of(Material.FIRE, MaterialColor.NONE).sound(SoundType.POWDER_SNOW).instabreak().lightLevel(s -> 15).noCollission().friction(0.1f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false).noLootTable());
 		this.registerDefaultState(this.stateDefinition.any().setValue(WATERLOGGED, false));
 	}
 
