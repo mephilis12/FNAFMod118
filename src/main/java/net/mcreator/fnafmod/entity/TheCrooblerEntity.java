@@ -5,9 +5,11 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.network.PlayMessages;
 import net.minecraftforge.network.NetworkHooks;
 
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.ServerLevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.projectile.Arrow;
 import net.minecraft.world.entity.projectile.AbstractArrow;
 import net.minecraft.world.entity.monster.Skeleton;
 import net.minecraft.world.entity.monster.RangedAttackMob;
@@ -39,7 +41,6 @@ import net.mcreator.fnafmod.procedures.TheCrooblerOnInitialEntitySpawnProcedure;
 import net.mcreator.fnafmod.procedures.TheCrooblerEntityDiesProcedure;
 import net.mcreator.fnafmod.procedures.GroobProcedure;
 import net.mcreator.fnafmod.init.FnafModModEntities;
-import net.mcreator.fnafmod.init.FnafModModBlocks;
 
 import javax.annotation.Nullable;
 
@@ -97,7 +98,7 @@ public class TheCrooblerEntity extends Skeleton implements RangedAttackMob {
 		this.targetSelector.addGoal(3, new HurtByTargetGoal(this));
 		this.goalSelector.addGoal(4, new RandomLookAroundGoal(this));
 		this.goalSelector.addGoal(5, new FloatGoal(this));
-		this.goalSelector.addGoal(1, new RangedAttackGoal(this, 1.25, 10, 10f) {
+		this.goalSelector.addGoal(1, new RangedAttackGoal(this, 1.25, 20, 10f) {
 			@Override
 			public boolean canContinueToUse() {
 				return this.canUse();
@@ -117,7 +118,7 @@ public class TheCrooblerEntity extends Skeleton implements RangedAttackMob {
 
 	protected void dropCustomDeathLoot(DamageSource source, int looting, boolean recentlyHitIn) {
 		super.dropCustomDeathLoot(source, looting, recentlyHitIn);
-		this.spawnAtLocation(new ItemStack(FnafModModBlocks.GOLD_TOKEN_BLOCK.get()));
+		this.spawnAtLocation(new ItemStack(Blocks.RAW_GOLD_BLOCK));
 	}
 
 	@Override
@@ -156,7 +157,12 @@ public class TheCrooblerEntity extends Skeleton implements RangedAttackMob {
 
 	@Override
 	public void performRangedAttack(LivingEntity target, float flval) {
-		BooletEntity.shoot(this, target);
+		Arrow entityarrow = new Arrow(this.level, this);
+		double d0 = target.getY() + target.getEyeHeight() - 1.1;
+		double d1 = target.getX() - this.getX();
+		double d3 = target.getZ() - this.getZ();
+		entityarrow.shoot(d1, d0 - entityarrow.getY() + Math.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 1.6F, 12.0F);
+		level.addFreshEntity(entityarrow);
 	}
 
 	@Override
@@ -188,7 +194,7 @@ public class TheCrooblerEntity extends Skeleton implements RangedAttackMob {
 	public static AttributeSupplier.Builder createAttributes() {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
 		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.5);
-		builder = builder.add(Attributes.MAX_HEALTH, 30);
+		builder = builder.add(Attributes.MAX_HEALTH, 3);
 		builder = builder.add(Attributes.ARMOR, 0);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 4);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 16);

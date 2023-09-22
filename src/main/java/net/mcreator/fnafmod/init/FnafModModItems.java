@@ -76,7 +76,6 @@ import net.mcreator.fnafmod.item.ChicaFabricItem;
 import net.mcreator.fnafmod.item.CameraMonitorItem;
 import net.mcreator.fnafmod.item.BrownPlasticItem;
 import net.mcreator.fnafmod.item.BrokenFlashLightItem;
-import net.mcreator.fnafmod.item.BooletItem;
 import net.mcreator.fnafmod.item.BonnieSuitItem;
 import net.mcreator.fnafmod.item.BonnieSpawnItem;
 import net.mcreator.fnafmod.item.BonnieItem;
@@ -728,8 +727,6 @@ public class FnafModModItems {
 	public static final RegistryObject<Item> YELLOW_BEAR_SUIT_CHESTPLATE = REGISTRY.register("yellow_bear_suit_chestplate", () -> new YellowBearSuitItem.Chestplate());
 	public static final RegistryObject<Item> YELLOW_BEAR_SUIT_LEGGINGS = REGISTRY.register("yellow_bear_suit_leggings", () -> new YellowBearSuitItem.Leggings());
 	public static final RegistryObject<Item> YELLOW_BEAR_SUIT_BOOTS = REGISTRY.register("yellow_bear_suit_boots", () -> new YellowBearSuitItem.Boots());
-	public static final RegistryObject<Item> GOLD_TOKEN_BLOCK = block(FnafModModBlocks.GOLD_TOKEN_BLOCK, null);
-	public static final RegistryObject<Item> BOOLET = REGISTRY.register("boolet", () -> new BooletItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

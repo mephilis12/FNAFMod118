@@ -427,14 +427,5 @@
         "stream": true
       }
     ]
-  },
-  "ak-sound": {
-    "subtitle": "subtitles.ak-sound",
-    "sounds": [
-      {
-        "name": "fnaf_mod:ak_sound",
-        "stream": false
-      }
-    ]
   }
 }
