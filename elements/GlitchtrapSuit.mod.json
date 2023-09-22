@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "sb_boots",
     "creativeTab": {
-      "value": "CUSTOM:FNAFItems"
+      "value": "CUSTOM:Suits"
     },
     "armorTextureFile": "springbonniesuit_",
     "helmetName": "Spring Bonnie Costume Head",

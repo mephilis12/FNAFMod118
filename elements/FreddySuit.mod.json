@@ -1,0 +1,78 @@
+{
+  "_fv": 43,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "freddyhelmet",
+    "enableBody": true,
+    "textureBody": "freddytorso",
+    "enableLeggings": true,
+    "textureLeggings": "freddypants",
+    "enableBoots": true,
+    "textureBoots": "freddyfeet",
+    "onHelmetTick": {
+      "name": "Springlocked"
+    },
+    "onBodyTick": {
+      "name": "Springlocked"
+    },
+    "onLeggingsTick": {
+      "name": "Springlocked"
+    },
+    "onBootsTick": {
+      "name": "Springlocked"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:Suits"
+    },
+    "armorTextureFile": "springbonniesuit_",
+    "helmetName": "Freddy Head",
+    "bodyName": "Freddy Body",
+    "leggingsName": "Freddy Legs",
+    "bootsName": "Freddy Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "ModelFreddyHead",
+    "helmetModelPart": "Head",
+    "helmetModelTexture": "freddy_head.png",
+    "bodyModelName": "ModelSpringBonnieBody",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "LeftArm",
+    "armsModelPartR": "RightArm",
+    "bodyModelTexture": "freddy_layer_1.png",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "freddy_layer_2.png",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "freddy_layer_1.png",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 0,
+    "damageValueHelmet": 0,
+    "damageValueBody": 0,
+    "damageValueLeggings": 0,
+    "damageValueBoots": 0,
+    "enchantability": 9,
+    "toughness": 0.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": []
+  }
+}
