@@ -1,0 +1,12 @@
+{
+  "_fv": 43,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Logic",
+    "displayName": "Do Phantoms  Spawn",
+    "description": "Determines if Phantom Animatronics Spawn from Hitting Springtrap",
+    "category": "MOBS",
+    "defaultValueLogic": true,
+    "defaultValueNumber": 0
+  }
+}

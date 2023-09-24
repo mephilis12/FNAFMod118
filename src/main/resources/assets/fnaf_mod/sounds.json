@@ -436,5 +436,14 @@
         "stream": false
       }
     ]
+  },
+  "akreload": {
+    "subtitle": "subtitles.akreload",
+    "sounds": [
+      {
+        "name": "fnaf_mod:ak_reload",
+        "stream": false
+      }
+    ]
   }
 }

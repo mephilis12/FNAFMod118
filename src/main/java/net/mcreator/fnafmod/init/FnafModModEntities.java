@@ -422,7 +422,7 @@ public class FnafModModEntities {
 
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<TheCrooblerEntity>> THE_GROOBLER = register("the_groobler", EntityType.Builder.<TheCrooblerEntity>of(TheCrooblerEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
-			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(TheCrooblerEntity::new).fireImmune().sized(0.5f, 1.8f));
+			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(TheCrooblerEntity::new).fireImmune().sized(0.4f, 1.8f));
 	public static final RegistryObject<EntityType<PatPatEntity>> PAT_PAT = register("pat_pat",
 			EntityType.Builder.<PatPatEntity>of(PatPatEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PatPatEntity::new).fireImmune().sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<OfficeChairEntity>> OFFICE_CHAIR = register("office_chair",

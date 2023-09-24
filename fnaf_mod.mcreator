@@ -21583,6 +21583,17 @@
           }
         ]
       }
+    },
+    {
+      "name": "DoPhantomsSpawn",
+      "type": "gamerule",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "do_phantoms_spawn",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      }
     }
   ],
   "variable_elements": [
@@ -22102,6 +22113,14 @@
       ],
       "category": "ambient",
       "subtitle": "Gunshot"
+    },
+    {
+      "name": "akreload",
+      "files": [
+        "ak_reload"
+      ],
+      "category": "neutral",
+      "subtitle": "Reloading"
     }
   ],
   "language_map": {
@@ -22531,6 +22550,7 @@
       "item.fnaf_mod.endo": "Functional Endoskeleton",
       "gui.fnaf_mod.wall_change_2.button_d": "D",
       "block.fnaf_mod.closet_left_open_top": "Closet Door Left",
+      "subtitles.akreload": "Reloading",
       "item.fnaf_mod.sitting_daytime_springtrap_spawn_egg": "DayTime SpringtrapSitting Spawn Egg",
       "block.fnaf_mod.movie_exterior_wall_tile": "Movie Exterior Wall Tiles",
       "gui.fnaf_mod.wall_change_1.label_one_room_face_rest_hall_faces": "One Room Face Rest Hall Faces",
@@ -22657,6 +22677,7 @@
       "entity.fnaf_mod.withered_chica": "Withered Chica",
       "block.fnaf_mod.alternate_black_stripe_dark_wall_tile": "Alternate Black Stripe Dark Wall Tiles",
       "block.fnaf_mod.red_blue_tile_stairs_cracked": "Cracked Red Blue Tile Stairs",
+      "gamerule.doPhantomsSpawn": "Do Phantoms  Spawn",
       "entity.fnaf_mod.toy_bonnie": "Toy Bonnie",
       "item.fnaf_mod.sitting_nightmare_bb_spawn_egg": "Nightmare Balloon Boy Spawn Egg",
       "entity.fnaf_mod.phantom_bb": "Phantom Balloon Boy",
@@ -22746,6 +22767,7 @@
       "item.fnaf_mod.statue_freddy_item": "Statue Freddy",
       "item.fnaf_mod.freddy_suit_helmet": "Freddy Head",
       "entity.fnaf_mod.phantom_chica": "Phantom Chica",
+      "gamerule.doPhantomsSpawn.description": "Determines if Phantom Animatronics Spawn from Hitting Springtrap",
       "item.fnaf_mod.nightmare_fredbear_statue_spawn_egg": "Nightmare Fredbear Statue Spawn Egg",
       "block.fnaf_mod.wall_pizza": "Wall Pizza",
       "entity.fnaf_mod.freddles": "Freddles",

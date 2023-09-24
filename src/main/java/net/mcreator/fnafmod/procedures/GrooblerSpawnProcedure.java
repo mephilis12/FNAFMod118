@@ -21,6 +21,7 @@ import net.minecraft.core.BlockPos;
 import net.mcreator.fnafmod.init.FnafModModEntities;
 import net.mcreator.fnafmod.init.FnafModModBlocks;
 import net.mcreator.fnafmod.entity.TheCrooblerEntity;
+import net.mcreator.fnafmod.FnafModMod;
 
 import javax.annotation.Nullable;
 
@@ -46,25 +47,27 @@ public class GrooblerSpawnProcedure {
 			world.setBlock(new BlockPos(x + 1, y - 1, z), Blocks.AIR.defaultBlockState(), 3);
 			world.setBlock(new BlockPos(x, y - 1, z - 1), Blocks.AIR.defaultBlockState(), 3);
 			world.setBlock(new BlockPos(x, y - 1, z + 1), Blocks.AIR.defaultBlockState(), 3);
-			if (world instanceof Level _level) {
-				if (!_level.isClientSide()) {
-					_level.playSound(null, new BlockPos(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.wither.spawn")), SoundSource.MASTER, 1, 1);
-				} else {
-					_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.wither.spawn")), SoundSource.MASTER, 1, 1, false);
-				}
-			}
 			if (!world.isClientSide() && world.getServer() != null)
-				world.getServer().getPlayerList().broadcastSystemMessage(Component.literal("He Has Arrived!"), false);
-			if (world instanceof ServerLevel _level) {
-				Entity entityToSpawn = new TheCrooblerEntity(FnafModModEntities.THE_GROOBLER.get(), _level);
-				entityToSpawn.moveTo(x, y, z, 0, 0);
-				entityToSpawn.setYBodyRot(0);
-				entityToSpawn.setYHeadRot(0);
-				entityToSpawn.setDeltaMovement(0, 0, 0);
-				if (entityToSpawn instanceof Mob _mobToSpawn)
-					_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
-				world.addFreshEntity(entityToSpawn);
-			}
+				world.getServer().getPlayerList().broadcastSystemMessage(Component.literal("The End is Near!"), false);
+			FnafModMod.queueServerWork(40, () -> {
+				if (world instanceof Level _level) {
+					if (!_level.isClientSide()) {
+						_level.playSound(null, new BlockPos(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.wither.spawn")), SoundSource.HOSTILE, 1, 1);
+					} else {
+						_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.wither.spawn")), SoundSource.HOSTILE, 1, 1, false);
+					}
+				}
+				if (world instanceof ServerLevel _level) {
+					Entity entityToSpawn = new TheCrooblerEntity(FnafModModEntities.THE_GROOBLER.get(), _level);
+					entityToSpawn.moveTo(x, y, z, 0, 0);
+					entityToSpawn.setYBodyRot(0);
+					entityToSpawn.setYHeadRot(0);
+					entityToSpawn.setDeltaMovement(0, 0, 0);
+					if (entityToSpawn instanceof Mob _mobToSpawn)
+						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
+					world.addFreshEntity(entityToSpawn);
+				}
+			});
 		}
 	}
 }
