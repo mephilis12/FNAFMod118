@@ -29,7 +29,7 @@ public class BooletItem extends Item {
 
 	@Override
 	public UseAnim getUseAnimation(ItemStack itemstack) {
-		return UseAnim.BOW;
+		return UseAnim.CROSSBOW;
 	}
 
 	@Override
@@ -44,7 +44,7 @@ public class BooletItem extends Item {
 			double y = entity.getY();
 			double z = entity.getZ();
 			if (true) {
-				BooletEntity entityarrow = BooletEntity.shoot(world, entity, world.getRandom(), 1f, 5, 0);
+				BooletEntity entityarrow = BooletEntity.shoot(world, entity, world.getRandom(), 3f, 1, 0);
 				itemstack.hurtAndBreak(1, entity, e -> e.broadcastBreakEvent(entity.getUsedItemHand()));
 				entityarrow.pickup = AbstractArrow.Pickup.DISALLOWED;
 			}

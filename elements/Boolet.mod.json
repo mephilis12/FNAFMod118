@@ -3,9 +3,9 @@
   "_type": "rangeditem",
   "definition": {
     "renderType": 0,
-    "texture": "nothing",
+    "texture": "notmeanttobeseenak",
     "customModelName": "Normal",
-    "name": "Boolet",
+    "name": "why you holding this ak? bruh",
     "specialInfo": [],
     "creativeTab": {
       "value": "REDSTONE"
@@ -20,18 +20,18 @@
       "value": "CUSTOM:ak-sound"
     },
     "hasGlow": false,
-    "animation": "bow",
+    "animation": "crossbow",
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "bulletPower": 1.0,
-    "bulletDamage": 5.0,
+    "bulletPower": 3.0,
+    "bulletDamage": 1.0,
     "bulletKnockback": 0,
     "bulletParticles": false,
     "bulletIgnitesFire": false,
     "bulletItemTexture": {
       "value": "Blocks.AIR"
     },
-    "bulletModel": "Default",
+    "bulletModel": "Modelbullet",
     "customBulletModelTexture": "boolet.png"
   }
 }

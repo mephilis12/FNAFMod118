@@ -113,7 +113,7 @@
       "value": ""
     },
     "rangedItemType": "Boolet",
-    "rangedAttackInterval": 10,
+    "rangedAttackInterval": 2,
     "rangedAttackRadius": 10.0,
     "spawnThisMob": false,
     "doesDespawnWhenIdle": false,

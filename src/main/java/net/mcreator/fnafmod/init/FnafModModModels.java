@@ -14,6 +14,7 @@ import net.mcreator.fnafmod.client.model.Modeloffice_chair_dark;
 import net.mcreator.fnafmod.client.model.Modelnightmarionne_statue;
 import net.mcreator.fnafmod.client.model.Modelcamera_hanging_Converted;
 import net.mcreator.fnafmod.client.model.Modelcamera;
+import net.mcreator.fnafmod.client.model.Modelbullet;
 import net.mcreator.fnafmod.client.model.ModelUnwitheredChica_Posed;
 import net.mcreator.fnafmod.client.model.ModelThe_Croobler;
 import net.mcreator.fnafmod.client.model.ModelStandFreddly;
@@ -68,6 +69,7 @@ public class FnafModModModels {
 		event.registerLayerDefinition(Modelcamera_hanging_Converted.LAYER_LOCATION, Modelcamera_hanging_Converted::createBodyLayer);
 		event.registerLayerDefinition(ModelCutoutSpringBonnie.LAYER_LOCATION, ModelCutoutSpringBonnie::createBodyLayer);
 		event.registerLayerDefinition(ModelFreddy_Mask.LAYER_LOCATION, ModelFreddy_Mask::createBodyLayer);
+		event.registerLayerDefinition(Modelbullet.LAYER_LOCATION, Modelbullet::createBodyLayer);
 		event.registerLayerDefinition(ModelStandFreddly.LAYER_LOCATION, ModelStandFreddly::createBodyLayer);
 		event.registerLayerDefinition(ModelBonnieMask.LAYER_LOCATION, ModelBonnieMask::createBodyLayer);
 		event.registerLayerDefinition(ModelChicaMask.LAYER_LOCATION, ModelChicaMask::createBodyLayer);

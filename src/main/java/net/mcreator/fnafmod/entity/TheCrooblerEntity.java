@@ -97,7 +97,7 @@ public class TheCrooblerEntity extends Skeleton implements RangedAttackMob {
 		this.targetSelector.addGoal(3, new HurtByTargetGoal(this));
 		this.goalSelector.addGoal(4, new RandomLookAroundGoal(this));
 		this.goalSelector.addGoal(5, new FloatGoal(this));
-		this.goalSelector.addGoal(1, new RangedAttackGoal(this, 1.25, 10, 10f) {
+		this.goalSelector.addGoal(1, new RangedAttackGoal(this, 1.25, 2, 10f) {
 			@Override
 			public boolean canContinueToUse() {
 				return this.canUse();
