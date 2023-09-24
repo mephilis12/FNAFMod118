@@ -10,9 +10,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.projectile.AbstractArrow;
 import net.minecraft.world.entity.monster.Skeleton;
-import net.minecraft.world.entity.monster.RangedAttackMob;
 import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
-import net.minecraft.world.entity.ai.goal.RangedAttackGoal;
 import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
 import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
 import net.minecraft.world.entity.ai.goal.MeleeAttackGoal;
@@ -43,7 +41,7 @@ import net.mcreator.fnafmod.init.FnafModModBlocks;
 
 import javax.annotation.Nullable;
 
-public class TheCrooblerEntity extends Skeleton implements RangedAttackMob {
+public class TheCrooblerEntity extends Skeleton {
 	private final ServerBossEvent bossInfo = new ServerBossEvent(this.getDisplayName(), ServerBossEvent.BossBarColor.RED, ServerBossEvent.BossBarOverlay.PROGRESS);
 
 	public TheCrooblerEntity(PlayMessages.SpawnEntity packet, Level world) {
@@ -97,12 +95,6 @@ public class TheCrooblerEntity extends Skeleton implements RangedAttackMob {
 		this.targetSelector.addGoal(3, new HurtByTargetGoal(this));
 		this.goalSelector.addGoal(4, new RandomLookAroundGoal(this));
 		this.goalSelector.addGoal(5, new FloatGoal(this));
-		this.goalSelector.addGoal(1, new RangedAttackGoal(this, 1.25, 2, 10f) {
-			@Override
-			public boolean canContinueToUse() {
-				return this.canUse();
-			}
-		});
 	}
 
 	@Override
@@ -152,11 +144,6 @@ public class TheCrooblerEntity extends Skeleton implements RangedAttackMob {
 		SpawnGroupData retval = super.finalizeSpawn(world, difficulty, reason, livingdata, tag);
 		TheCrooblerOnInitialEntitySpawnProcedure.execute(world, this.getX(), this.getY(), this.getZ());
 		return retval;
-	}
-
-	@Override
-	public void performRangedAttack(LivingEntity target, float flval) {
-		BooletEntity.shoot(this, target);
 	}
 
 	@Override
