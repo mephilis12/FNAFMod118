@@ -7,6 +7,8 @@ import net.minecraftforge.network.NetworkHooks;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.minecraft.world.phys.EntityHitResult;
+import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
@@ -19,6 +21,8 @@ import net.minecraft.sounds.SoundSource;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
 
+import net.mcreator.fnafmod.procedures.BooletWhileProjectileFlyingTickProcedure;
+import net.mcreator.fnafmod.procedures.BooletProjectileHitsLivingEntityProcedure;
 import net.mcreator.fnafmod.init.FnafModModEntities;
 
 @OnlyIn(value = Dist.CLIENT, _interface = ItemSupplier.class)
@@ -62,8 +66,21 @@ public class BooletEntity extends AbstractArrow implements ItemSupplier {
 	}
 
 	@Override
+	public void onHitEntity(EntityHitResult entityHitResult) {
+		super.onHitEntity(entityHitResult);
+		BooletProjectileHitsLivingEntityProcedure.execute(this);
+	}
+
+	@Override
+	public void onHitBlock(BlockHitResult blockHitResult) {
+		super.onHitBlock(blockHitResult);
+		BooletProjectileHitsLivingEntityProcedure.execute(this);
+	}
+
+	@Override
 	public void tick() {
 		super.tick();
+		BooletWhileProjectileFlyingTickProcedure.execute(this.level, this);
 		if (this.inGround)
 			this.discard();
 	}
@@ -87,7 +104,7 @@ public class BooletEntity extends AbstractArrow implements ItemSupplier {
 		double dz = target.getZ() - entity.getZ();
 		entityarrow.shoot(dx, dy - entityarrow.getY() + Math.hypot(dx, dz) * 0.2F, dz, 3f * 2, 12.0F);
 		entityarrow.setSilent(true);
-		entityarrow.setBaseDamage(1);
+		entityarrow.setBaseDamage(4);
 		entityarrow.setKnockback(0);
 		entityarrow.setCritArrow(false);
 		entity.level.addFreshEntity(entityarrow);

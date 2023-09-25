@@ -24,7 +24,7 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "bulletPower": 3.0,
-    "bulletDamage": 1.0,
+    "bulletDamage": 4.0,
     "bulletKnockback": 0,
     "bulletParticles": false,
     "bulletIgnitesFire": false,
@@ -32,6 +32,15 @@
       "value": "Blocks.AIR"
     },
     "bulletModel": "Modelbullet",
-    "customBulletModelTexture": "boolet.png"
+    "customBulletModelTexture": "boolet.png",
+    "onBulletHitsBlock": {
+      "name": "BooletProjectileHitsLivingEntity"
+    },
+    "onBulletHitsEntity": {
+      "name": "BooletProjectileHitsLivingEntity"
+    },
+    "onBulletFlyingTick": {
+      "name": "BooletWhileProjectileFlyingTick"
+    }
   }
 }
