@@ -1,4 +1,7 @@
 {
   "replace": false,
-  "values": []
+  "values": [
+    "fnaf_mod:freddy_sign_off",
+    "fnaf_mod:freddy_sign_on"
+  ]
 }

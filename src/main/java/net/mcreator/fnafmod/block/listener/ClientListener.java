@@ -23,6 +23,8 @@ import net.mcreator.fnafmod.block.renderer.StageLightOffTileRenderer;
 import net.mcreator.fnafmod.block.renderer.SpringBonnieHeadTileRenderer;
 import net.mcreator.fnafmod.block.renderer.ShelfTileRenderer;
 import net.mcreator.fnafmod.block.renderer.MeshTrashCanTileRenderer;
+import net.mcreator.fnafmod.block.renderer.FreddySignOnTileRenderer;
+import net.mcreator.fnafmod.block.renderer.FreddySignOffTileRenderer;
 import net.mcreator.fnafmod.block.renderer.FreddyHeadTileRenderer;
 import net.mcreator.fnafmod.block.renderer.FredbearHeadTileRenderer;
 import net.mcreator.fnafmod.block.renderer.FoxyHeadTileRenderer;
@@ -62,5 +64,7 @@ public class ClientListener {
 		event.registerBlockEntityRenderer(FnafModModBlockEntities.STAGE_LIGHT_PINK_ON.get(), StageLightPinkOnTileRenderer::new);
 		event.registerBlockEntityRenderer(FnafModModBlockEntities.STAGE_LIGHT_ORANGE_ON.get(), StageLightOrangeOnTileRenderer::new);
 		event.registerBlockEntityRenderer(FnafModModBlockEntities.STAGE_LIGHT_RED_ON.get(), StageLightRedOnTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafModModBlockEntities.FREDDY_SIGN_OFF.get(), FreddySignOffTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafModModBlockEntities.FREDDY_SIGN_ON.get(), FreddySignOnTileRenderer::new);
 	}
 }

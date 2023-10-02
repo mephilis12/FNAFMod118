@@ -165,6 +165,8 @@ import net.mcreator.fnafmod.block.GreenBlueTileCrackedBlock;
 import net.mcreator.fnafmod.block.GreenBlueTileBlock;
 import net.mcreator.fnafmod.block.GoldenFreddyPlushieBlock;
 import net.mcreator.fnafmod.block.GoldTokenBlockBlock;
+import net.mcreator.fnafmod.block.FreddySignOnBlock;
+import net.mcreator.fnafmod.block.FreddySignOffBlock;
 import net.mcreator.fnafmod.block.FreddyPlushieBlock;
 import net.mcreator.fnafmod.block.FreddyHeadBlock;
 import net.mcreator.fnafmod.block.FredbearPoster4Block;
@@ -662,4 +664,6 @@ public class FnafModModBlocks {
 	public static final RegistryObject<Block> BLACK_LIGHT_SPRING_BONNIE_PLUSH = REGISTRY.register("black_light_spring_bonnie_plush", () -> new BlackLightSpringBonniePlushBlock());
 	public static final RegistryObject<Block> CUT_STAGE_BRICKS = REGISTRY.register("cut_stage_bricks", () -> new CutStageBricksBlock());
 	public static final RegistryObject<Block> GOLD_TOKEN_BLOCK = REGISTRY.register("gold_token_block", () -> new GoldTokenBlockBlock());
+	public static final RegistryObject<Block> FREDDY_SIGN_OFF = REGISTRY.register("freddy_sign_off", () -> new FreddySignOffBlock());
+	public static final RegistryObject<Block> FREDDY_SIGN_ON = REGISTRY.register("freddy_sign_on", () -> new FreddySignOnBlock());
 }

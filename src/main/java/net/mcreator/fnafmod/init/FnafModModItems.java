@@ -100,6 +100,8 @@ import net.mcreator.fnafmod.block.display.StageLightOffDisplayItem;
 import net.mcreator.fnafmod.block.display.SpringBonnieHeadDisplayItem;
 import net.mcreator.fnafmod.block.display.ShelfDisplayItem;
 import net.mcreator.fnafmod.block.display.MeshTrashCanDisplayItem;
+import net.mcreator.fnafmod.block.display.FreddySignOnDisplayItem;
+import net.mcreator.fnafmod.block.display.FreddySignOffDisplayItem;
 import net.mcreator.fnafmod.block.display.FreddyHeadDisplayItem;
 import net.mcreator.fnafmod.block.display.FredbearHeadDisplayItem;
 import net.mcreator.fnafmod.block.display.FoxyHeadDisplayItem;
@@ -730,6 +732,9 @@ public class FnafModModItems {
 	public static final RegistryObject<Item> YELLOW_BEAR_SUIT_BOOTS = REGISTRY.register("yellow_bear_suit_boots", () -> new YellowBearSuitItem.Boots());
 	public static final RegistryObject<Item> GOLD_TOKEN_BLOCK = block(FnafModModBlocks.GOLD_TOKEN_BLOCK, null);
 	public static final RegistryObject<Item> BOOLET = REGISTRY.register("boolet", () -> new BooletItem());
+	public static final RegistryObject<Item> FREDDY_SIGN_OFF = REGISTRY.register(FnafModModBlocks.FREDDY_SIGN_OFF.getId().getPath(),
+			() -> new FreddySignOffDisplayItem(FnafModModBlocks.FREDDY_SIGN_OFF.get(), new Item.Properties().tab(FnafModModTabs.TAB_FNAF_BLOCKS)));
+	public static final RegistryObject<Item> FREDDY_SIGN_ON = REGISTRY.register(FnafModModBlocks.FREDDY_SIGN_ON.getId().getPath(), () -> new FreddySignOnDisplayItem(FnafModModBlocks.FREDDY_SIGN_ON.get(), new Item.Properties().tab(null)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

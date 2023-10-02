@@ -36,6 +36,8 @@ import net.mcreator.fnafmod.block.entity.PlushBonnieBlockEntity;
 import net.mcreator.fnafmod.block.entity.MeshTrashCanTileEntity;
 import net.mcreator.fnafmod.block.entity.LocketBottomBlockEntity;
 import net.mcreator.fnafmod.block.entity.LockerTopBlockEntity;
+import net.mcreator.fnafmod.block.entity.FreddySignOnTileEntity;
+import net.mcreator.fnafmod.block.entity.FreddySignOffTileEntity;
 import net.mcreator.fnafmod.block.entity.FreddyHeadTileEntity;
 import net.mcreator.fnafmod.block.entity.FredbearHeadTileEntity;
 import net.mcreator.fnafmod.block.entity.FoxyHeadTileEntity;
@@ -103,6 +105,9 @@ public class FnafModModBlockEntities {
 			() -> BlockEntityType.Builder.of(StageLightOrangeOnTileEntity::new, FnafModModBlocks.STAGE_LIGHT_ORANGE_ON.get()).build(null));
 	public static final RegistryObject<BlockEntityType<StageLightRedOnTileEntity>> STAGE_LIGHT_RED_ON = REGISTRY.register("stage_light_red_on",
 			() -> BlockEntityType.Builder.of(StageLightRedOnTileEntity::new, FnafModModBlocks.STAGE_LIGHT_RED_ON.get()).build(null));
+	public static final RegistryObject<BlockEntityType<FreddySignOffTileEntity>> FREDDY_SIGN_OFF = REGISTRY.register("freddy_sign_off",
+			() -> BlockEntityType.Builder.of(FreddySignOffTileEntity::new, FnafModModBlocks.FREDDY_SIGN_OFF.get()).build(null));
+	public static final RegistryObject<BlockEntityType<FreddySignOnTileEntity>> FREDDY_SIGN_ON = REGISTRY.register("freddy_sign_on", () -> BlockEntityType.Builder.of(FreddySignOnTileEntity::new, FnafModModBlocks.FREDDY_SIGN_ON.get()).build(null));
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));
