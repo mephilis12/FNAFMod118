@@ -45,7 +45,7 @@ public class FreddySignOnBlock extends BaseEntityBlock implements EntityBlock {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public FreddySignOnBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.LANTERN).strength(1f, 10f).lightLevel(s -> 6).requiresCorrectToolForDrops().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.LANTERN).strength(1f, 10f).lightLevel(s -> 15).requiresCorrectToolForDrops().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
 
@@ -74,10 +74,10 @@ public class FreddySignOnBlock extends BaseEntityBlock implements EntityBlock {
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 
 		return switch (state.getValue(FACING)) {
-			default -> box(-16, 0, 9, 32, 40, 16);
-			case NORTH -> box(-16, 0, 0, 32, 40, 7);
-			case EAST -> box(9, 0, -16, 16, 40, 32);
-			case WEST -> box(0, 0, -16, 7, 40, 32);
+			default -> box(-16, 0, 0, 48, 40, 7);
+			case NORTH -> box(-32, 0, 9, 32, 40, 16);
+			case EAST -> box(0, 0, -32, 7, 40, 32);
+			case WEST -> box(9, 0, -16, 16, 40, 48);
 		};
 	}
 

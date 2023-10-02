@@ -23,12 +23,12 @@
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": -16.0,
+        "mx": -32.0,
         "my": 0.0,
-        "mz": 0.0,
+        "mz": 9.0,
         "Mx": 32.0,
         "My": 40.0,
-        "Mz": 7.0,
+        "Mz": 16.0,
         "subtract": false
       }
     ],
@@ -96,7 +96,7 @@
     "stepSound": {
       "value": ""
     },
-    "luminance": 6,
+    "luminance": 15,
     "unbreakable": false,
     "breakHarvestLevel": 3,
     "spawnParticles": false,
