@@ -165,6 +165,7 @@ import net.mcreator.fnafmod.block.GreenBlueTileCrackedBlock;
 import net.mcreator.fnafmod.block.GreenBlueTileBlock;
 import net.mcreator.fnafmod.block.GoldenFreddyPlushieBlock;
 import net.mcreator.fnafmod.block.GoldTokenBlockBlock;
+import net.mcreator.fnafmod.block.GlassDoorBlock;
 import net.mcreator.fnafmod.block.FreddySignOnBlock;
 import net.mcreator.fnafmod.block.FreddySignOffBlock;
 import net.mcreator.fnafmod.block.FreddyPlushieBlock;
@@ -666,4 +667,5 @@ public class FnafModModBlocks {
 	public static final RegistryObject<Block> GOLD_TOKEN_BLOCK = REGISTRY.register("gold_token_block", () -> new GoldTokenBlockBlock());
 	public static final RegistryObject<Block> FREDDY_SIGN_OFF = REGISTRY.register("freddy_sign_off", () -> new FreddySignOffBlock());
 	public static final RegistryObject<Block> FREDDY_SIGN_ON = REGISTRY.register("freddy_sign_on", () -> new FreddySignOnBlock());
+	public static final RegistryObject<Block> GLASS_DOOR = REGISTRY.register("glass_door", () -> new GlassDoorBlock());
 }

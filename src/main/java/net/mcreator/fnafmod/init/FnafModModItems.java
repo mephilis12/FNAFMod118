@@ -735,6 +735,7 @@ public class FnafModModItems {
 	public static final RegistryObject<Item> FREDDY_SIGN_OFF = REGISTRY.register(FnafModModBlocks.FREDDY_SIGN_OFF.getId().getPath(),
 			() -> new FreddySignOffDisplayItem(FnafModModBlocks.FREDDY_SIGN_OFF.get(), new Item.Properties().tab(FnafModModTabs.TAB_FNAF_BLOCKS)));
 	public static final RegistryObject<Item> FREDDY_SIGN_ON = REGISTRY.register(FnafModModBlocks.FREDDY_SIGN_ON.getId().getPath(), () -> new FreddySignOnDisplayItem(FnafModModBlocks.FREDDY_SIGN_ON.get(), new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> GLASS_DOOR = doubleBlock(FnafModModBlocks.GLASS_DOOR, FnafModModTabs.TAB_FNAF_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
