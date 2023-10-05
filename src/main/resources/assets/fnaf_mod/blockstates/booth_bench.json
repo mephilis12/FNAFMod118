@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fnaf_mod:block/booth_bench"
+    },
+    "facing=east": {
+      "model": "fnaf_mod:block/booth_bench",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fnaf_mod:block/booth_bench",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fnaf_mod:block/booth_bench",
+      "y": 270
+    }
+  }
+}
