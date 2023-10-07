@@ -5,7 +5,6 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.item.UseAnim;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.entity.projectile.AbstractArrow;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
@@ -18,7 +17,7 @@ import net.mcreator.fnafmod.entity.BooletEntity;
 
 public class BooletItem extends Item {
 	public BooletItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_REDSTONE).durability(100));
+		super(new Item.Properties().tab(null).durability(100));
 	}
 
 	@Override

@@ -31,7 +31,7 @@ public class FnafModModTabs {
 		TAB_FNAF_ITEMS = new CreativeModeTab("tabfnaf_items") {
 			@Override
 			public ItemStack makeIcon() {
-				return new ItemStack(FnafModModBlocks.RED_BLUE_TILE.get());
+				return new ItemStack(FnafModModItems.CUPCAKE.get());
 			}
 
 			@Override
@@ -42,7 +42,7 @@ public class FnafModModTabs {
 		TAB_FNAF_MOBS = new CreativeModeTab("tabfnaf_mobs") {
 			@Override
 			public ItemStack makeIcon() {
-				return new ItemStack(FnafModModBlocks.FREDDY_HEAD.get());
+				return new ItemStack(FnafModModItems.FREDDY.get());
 			}
 
 			@Override

@@ -19,6 +19,7 @@ import net.mcreator.fnafmod.item.YellowbearItem;
 import net.mcreator.fnafmod.item.YellowPlasticItem;
 import net.mcreator.fnafmod.item.YellowBearSuitItem;
 import net.mcreator.fnafmod.item.WhitePlasticItem;
+import net.mcreator.fnafmod.item.WaiterHatItem;
 import net.mcreator.fnafmod.item.ToyCupcakeItem;
 import net.mcreator.fnafmod.item.ToreadorMarchItem;
 import net.mcreator.fnafmod.item.StatueFreddyItemItem;
@@ -740,8 +741,9 @@ public class FnafModModItems {
 	public static final RegistryObject<Item> MOVIE_CHAIR_3 = block(FnafModModBlocks.MOVIE_CHAIR_3, null);
 	public static final RegistryObject<Item> BOOTH_TABLE = block(FnafModModBlocks.BOOTH_TABLE, FnafModModTabs.TAB_FNAF_BLOCKS);
 	public static final RegistryObject<Item> BOOTH_BENCH = block(FnafModModBlocks.BOOTH_BENCH, FnafModModTabs.TAB_FNAF_BLOCKS);
-	public static final RegistryObject<Item> BOOTH_BENCH_2 = block(FnafModModBlocks.BOOTH_BENCH_2, FnafModModTabs.TAB_FNAF_BLOCKS);
-	public static final RegistryObject<Item> BOOTH_BENCH_3 = block(FnafModModBlocks.BOOTH_BENCH_3, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> BOOTH_BENCH_2 = block(FnafModModBlocks.BOOTH_BENCH_2, null);
+	public static final RegistryObject<Item> BOOTH_BENCH_3 = block(FnafModModBlocks.BOOTH_BENCH_3, null);
+	public static final RegistryObject<Item> WAITER_HAT_HELMET = REGISTRY.register("waiter_hat_helmet", () -> new WaiterHatItem.Helmet());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
