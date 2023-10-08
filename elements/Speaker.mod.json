@@ -40,7 +40,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:FNAFBlocks"
+      "value": "CUSTOM:DecorativeBlocks"
     },
     "destroyTool": "pickaxe",
     "customDrop": {

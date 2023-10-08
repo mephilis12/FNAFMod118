@@ -14,7 +14,7 @@
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "staff_door_item",
+    "itemTexture": "glass_door_item",
     "particleTexture": "",
     "blockBase": "Door",
     "tintType": "No tint",

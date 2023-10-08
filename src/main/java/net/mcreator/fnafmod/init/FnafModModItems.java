@@ -261,7 +261,7 @@ public class FnafModModItems {
 	public static final RegistryObject<Item> PLUSHTRAP_CHAIR = block(FnafModModBlocks.PLUSHTRAP_CHAIR, FnafModModTabs.TAB_FNAF_BLOCKS);
 	public static final RegistryObject<Item> MOVIE_CHAIR = block(FnafModModBlocks.MOVIE_CHAIR, FnafModModTabs.TAB_FNAF_BLOCKS);
 	public static final RegistryObject<Item> MONITORS = block(FnafModModBlocks.MONITORS, FnafModModTabs.TAB_FNAF_BLOCKS);
-	public static final RegistryObject<Item> PHONE = block(FnafModModBlocks.PHONE, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> PHONE = block(FnafModModBlocks.PHONE, FnafModModTabs.TAB_DECORATIVE_BLOCKS);
 	public static final RegistryObject<Item> FAN = block(FnafModModBlocks.FAN, FnafModModTabs.TAB_FNAF_BLOCKS);
 	public static final RegistryObject<Item> PURPLE_FAN = block(FnafModModBlocks.PURPLE_FAN, FnafModModTabs.TAB_FNAF_BLOCKS);
 	public static final RegistryObject<Item> SMALL_PIPES = block(FnafModModBlocks.SMALL_PIPES, FnafModModTabs.TAB_FNAF_BLOCKS);
@@ -294,7 +294,7 @@ public class FnafModModItems {
 	public static final RegistryObject<Item> WIRES = block(FnafModModBlocks.WIRES, FnafModModTabs.TAB_FNAF_BLOCKS);
 	public static final RegistryObject<Item> WALL_WIRES = block(FnafModModBlocks.WALL_WIRES, FnafModModTabs.TAB_FNAF_BLOCKS);
 	public static final RegistryObject<Item> ORANGE_SPEAKER = block(FnafModModBlocks.ORANGE_SPEAKER, FnafModModTabs.TAB_FNAF_BLOCKS);
-	public static final RegistryObject<Item> SPEAKER = block(FnafModModBlocks.SPEAKER, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> SPEAKER = block(FnafModModBlocks.SPEAKER, FnafModModTabs.TAB_DECORATIVE_BLOCKS);
 	public static final RegistryObject<Item> REMNANT_INFUSER = block(FnafModModBlocks.REMNANT_INFUSER, FnafModModTabs.TAB_FNAF_BLOCKS);
 	public static final RegistryObject<Item> BALLOON = block(FnafModModBlocks.BALLOON, FnafModModTabs.TAB_FNAF_BLOCKS);
 	public static final RegistryObject<Item> BALLOON_BLUE = block(FnafModModBlocks.BALLOON_BLUE, FnafModModTabs.TAB_FNAF_BLOCKS);
@@ -734,16 +734,18 @@ public class FnafModModItems {
 	public static final RegistryObject<Item> GOLD_TOKEN_BLOCK = block(FnafModModBlocks.GOLD_TOKEN_BLOCK, null);
 	public static final RegistryObject<Item> BOOLET = REGISTRY.register("boolet", () -> new BooletItem());
 	public static final RegistryObject<Item> FREDDY_SIGN_OFF = REGISTRY.register(FnafModModBlocks.FREDDY_SIGN_OFF.getId().getPath(),
-			() -> new FreddySignOffDisplayItem(FnafModModBlocks.FREDDY_SIGN_OFF.get(), new Item.Properties().tab(FnafModModTabs.TAB_FNAF_BLOCKS)));
+			() -> new FreddySignOffDisplayItem(FnafModModBlocks.FREDDY_SIGN_OFF.get(), new Item.Properties().tab(FnafModModTabs.TAB_DECORATIVE_BLOCKS)));
 	public static final RegistryObject<Item> FREDDY_SIGN_ON = REGISTRY.register(FnafModModBlocks.FREDDY_SIGN_ON.getId().getPath(), () -> new FreddySignOnDisplayItem(FnafModModBlocks.FREDDY_SIGN_ON.get(), new Item.Properties().tab(null)));
 	public static final RegistryObject<Item> GLASS_DOOR = doubleBlock(FnafModModBlocks.GLASS_DOOR, FnafModModTabs.TAB_FNAF_BLOCKS);
 	public static final RegistryObject<Item> MOVIE_CHAIR_2 = block(FnafModModBlocks.MOVIE_CHAIR_2, null);
 	public static final RegistryObject<Item> MOVIE_CHAIR_3 = block(FnafModModBlocks.MOVIE_CHAIR_3, null);
-	public static final RegistryObject<Item> BOOTH_TABLE = block(FnafModModBlocks.BOOTH_TABLE, FnafModModTabs.TAB_FNAF_BLOCKS);
-	public static final RegistryObject<Item> BOOTH_BENCH = block(FnafModModBlocks.BOOTH_BENCH, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> BOOTH_TABLE = block(FnafModModBlocks.BOOTH_TABLE, FnafModModTabs.TAB_DECORATIVE_BLOCKS);
+	public static final RegistryObject<Item> BOOTH_BENCH = block(FnafModModBlocks.BOOTH_BENCH, FnafModModTabs.TAB_DECORATIVE_BLOCKS);
 	public static final RegistryObject<Item> BOOTH_BENCH_2 = block(FnafModModBlocks.BOOTH_BENCH_2, null);
 	public static final RegistryObject<Item> BOOTH_BENCH_3 = block(FnafModModBlocks.BOOTH_BENCH_3, null);
 	public static final RegistryObject<Item> WAITER_HAT_HELMET = REGISTRY.register("waiter_hat_helmet", () -> new WaiterHatItem.Helmet());
+	public static final RegistryObject<Item> CYAN_DOOR = doubleBlock(FnafModModBlocks.CYAN_DOOR, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> PIN_BALL_MACHINE_1 = block(FnafModModBlocks.PIN_BALL_MACHINE_1, FnafModModTabs.TAB_DECORATIVE_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

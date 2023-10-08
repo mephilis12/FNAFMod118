@@ -15,6 +15,7 @@ public class FnafModModTabs {
 	public static CreativeModeTab TAB_MUSIC_DISCS;
 	public static CreativeModeTab TAB_DRAWINGS_POSTERS;
 	public static CreativeModeTab TAB_SUITS;
+	public static CreativeModeTab TAB_DECORATIVE_BLOCKS;
 
 	public static void load() {
 		TAB_FNAF_BLOCKS = new CreativeModeTab("tabfnaf_blocks") {
@@ -87,6 +88,17 @@ public class FnafModModTabs {
 			@Override
 			public ItemStack makeIcon() {
 				return new ItemStack(FnafModModItems.FREDDY_SUIT_HELMET.get());
+			}
+
+			@Override
+			public boolean hasSearchBar() {
+				return false;
+			}
+		};
+		TAB_DECORATIVE_BLOCKS = new CreativeModeTab("tabdecorative_blocks") {
+			@Override
+			public ItemStack makeIcon() {
+				return new ItemStack(FnafModModBlocks.PHONE.get());
 			}
 
 			@Override

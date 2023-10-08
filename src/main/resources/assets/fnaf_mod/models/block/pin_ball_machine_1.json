@@ -1,0 +1,9 @@
+{
+  "parent": "fnaf_mod:custom/pinballgame",
+  "textures": {
+    "all": "fnaf_mod:blocks/pinball",
+    "particle": "fnaf_mod:blocks/pinball",
+    "0": "fnaf_mod:blocks/pinball"
+  },
+  "render_type": "cutout_mipped"
+}

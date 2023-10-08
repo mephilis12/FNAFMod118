@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fnaf_mod:block/pin_ball_machine_1"
+    },
+    "facing=east": {
+      "model": "fnaf_mod:block/pin_ball_machine_1",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fnaf_mod:block/pin_ball_machine_1",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fnaf_mod:block/pin_ball_machine_1",
+      "y": 270
+    }
+  }
+}

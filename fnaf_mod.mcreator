@@ -22107,6 +22107,59 @@
         "el": false
       },
       "path": "~/Items"
+    },
+    {
+      "name": "CyanDoor",
+      "type": "block",
+      "sortid": 1036,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/models/block/cyan_door_bottom_left_open.json",
+          "src/main/java/net/mcreator/fnafmod/block/CyanDoorBlock.java",
+          "src/main/resources/assets/fnaf_mod/models/item/cyan_door.json",
+          "src/main/resources/assets/fnaf_mod/models/block/cyan_door_bottom_right.json",
+          "src/main/resources/assets/fnaf_mod/models/block/cyan_door_bottom_right_open.json",
+          "src/main/resources/assets/fnaf_mod/models/block/cyan_door_top_left.json",
+          "src/main/resources/assets/fnaf_mod/models/block/cyan_door_top_right_open.json",
+          "src/main/resources/assets/fnaf_mod/models/block/cyan_door_top_right.json",
+          "src/main/resources/assets/fnaf_mod/blockstates/cyan_door.json",
+          "src/main/resources/assets/fnaf_mod/models/block/cyan_door_top_left_open.json",
+          "src/main/resources/assets/fnaf_mod/models/block/cyan_door_bottom_left.json"
+        ]
+      },
+      "path": "~/Blocks/BuildingBlockss"
+    },
+    {
+      "name": "DecorativeBlocks",
+      "type": "tab",
+      "sortid": 1037,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "decorative_blocks",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Blocks/DecorativeBlocks"
+    },
+    {
+      "name": "PinBallMachine1",
+      "type": "block",
+      "sortid": 1038,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pin_ball_machine_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/models/block/pin_ball_machine_1.json",
+          "src/main/java/net/mcreator/fnafmod/block/PinBallMachine1Block.java",
+          "src/main/resources/assets/fnaf_mod/models/item/pin_ball_machine_1.json",
+          "src/main/resources/assets/fnaf_mod/blockstates/pin_ball_machine_1.json"
+        ]
+      },
+      "path": "~/Blocks/DecorativeBlocks"
     }
   ],
   "variable_elements": [
@@ -22682,6 +22735,7 @@
       "block.fnaf_mod.white_black_stripe_wall_tile": "White Black Stripe Wall Tiles",
       "subtitles.ovdrhonk": "\"Honk\"",
       "gui.fnaf_mod.wall_change_2.label_opposing_each_other": " Opposing Each Other",
+      "block.fnaf_mod.pin_ball_machine_1": "Pinball Machine",
       "entity.fnaf_mod.springlocked_zombie_fredbear": "Springlocked Zombie Fredbear",
       "entity.fnaf_mod.puppet": "Puppet",
       "effect.fnaf_mod.bleeding": "Bleeding",
@@ -22837,6 +22891,7 @@
       "entity.fnaf_mod.crawling_mangle": "Crawling Mangle",
       "entity.fnaf_mod.nightmarione_statue": "Nightmarionne Statue",
       "block.fnaf_mod.mesh_trash_can": "Mesh Trash Can",
+      "block.fnaf_mod.cyan_door": "Cyan Backstage Door",
       "block.fnaf_mod.big_wall_tile": "Big Wall Tiles",
       "entity.fnaf_mod.hanging_camera": "Hanging Camera",
       "block.fnaf_mod.diagonal_wall_bottom": "Diagonal Wall Bottom",
@@ -23005,6 +23060,7 @@
       "block.fnaf_mod.fnaf_4_wall_bottom_rotable_4": "Tapestry Bottom Rotable Type D",
       "item.fnaf_mod.freddy_spawn_item": "Freddy Fazbear",
       "item.fnaf_mod.pat_pat_spawn_egg": "PatPat Spawn Egg",
+      "itemGroup.tabdecorative_blocks": "Decorative Blocks",
       "entity.fnaf_mod.springtrap": "Springtrap",
       "block.fnaf_mod.fnaf_4_door": "White Wood Door",
       "item.fnaf_mod.shadow_bonnie_spawn_egg": "Shadow Bonnie Spawn Egg",
