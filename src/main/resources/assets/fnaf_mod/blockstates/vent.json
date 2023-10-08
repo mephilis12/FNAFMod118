@@ -1,16 +1,7 @@
 {
   "variants": {
-    "axis=x": {
-      "model": "fnaf_mod:block/vent",
-      "x": 90,
-      "y": 90
-    },
-    "axis=y": {
+    "": {
       "model": "fnaf_mod:block/vent"
-    },
-    "axis=z": {
-      "model": "fnaf_mod:block/vent",
-      "x": 90
     }
   }
 }

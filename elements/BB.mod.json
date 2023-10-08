@@ -2,9 +2,9 @@
   "_fv": 43,
   "_type": "animatedentity",
   "definition": {
-    "mobName": "Spring Bonnie",
+    "mobName": "BB",
     "mobLabel": "",
-    "mobModelTexture": "spring_bonnie_fnaf1.png",
+    "mobModelTexture": "balloonboytexture.png",
     "mobModelGlowTexture": "",
     "visualScale": {
       "fixedValue": 1.0
@@ -18,15 +18,15 @@
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -9682156,
+      "value": -3407872,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -16777216,
+      "value": -16737844,
       "falpha": 0.0
     },
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "CUSTOM:FNAFMobs"
     },
     "isBoss": false,
     "bossBarColor": "PINK",
@@ -85,7 +85,7 @@
     "immuneToWither": true,
     "immuneToDragonBreath": true,
     "mobDrop": {
-      "value": "CUSTOM:SpringBonnie"
+      "value": ""
     },
     "livingSound": {
       "value": ""
@@ -100,18 +100,18 @@
       "value": "CUSTOM:animatronic_step"
     },
     "onMobTickUpdate": {
-      "name": "GoldenFreddyOnEntityTickUpdate"
+      "name": "BBOnEntityTickUpdate"
     },
     "onInitialSpawn": {
-      "name": "PassiveSpringBonnieOnInitialEntitySpawn"
+      "name": "BBOnInitialEntitySpawn"
     },
     "hasAI": true,
     "aiBase": "(none)",
     "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"2621\" y=\"199\"><next><block type=\"wander\"><field name=\"speed\">0.8</field><field name=\"condition\">FreddyFazbearOnEntityTickUpdate,null</field><next><block type=\"look_around\"><field name=\"condition\">FreddyFazbearOnEntityTickUpdate,null</field><next><block type=\"wander_avoid_water\"><field name=\"speed\">0.8</field><field name=\"condition\">FreddyFazbearOnEntityTickUpdate,null</field><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">FreddyFazbearOnEntityTickUpdate,null</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntityMonster</field><field name=\"condition\">FreddyFazbearOnEntityTickUpdate,null</field></block></next></block></next></block></next></block></next></block></next></block></xml>",
-    "model": "bonnie.geo.json",
-    "groupName": "Head",
-    "animation1": "animation.bonnie.idle",
-    "animation2": "animation.bonnie.walk",
+    "model": "balloonboy.geo.json",
+    "groupName": "head",
+    "animation1": "animation.balloonboy.idle",
+    "animation2": "animation.balloonboy.walk",
     "animation3": "",
     "animation4": "",
     "animation5": "",

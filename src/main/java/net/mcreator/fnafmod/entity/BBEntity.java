@@ -18,7 +18,6 @@ import net.minecraftforge.network.NetworkHooks;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.ServerLevelAccessor;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
 import net.minecraft.world.entity.ai.goal.WaterAvoidingRandomStrollGoal;
@@ -48,10 +47,9 @@ import net.minecraft.network.protocol.Packet;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.fnafmod.procedures.PassiveSpringBonnieOnInitialEntitySpawnProcedure;
-import net.mcreator.fnafmod.procedures.GoldenFreddyOnEntityTickUpdateProcedure;
 import net.mcreator.fnafmod.procedures.FreddyFazbearOnEntityTickUpdateProcedure;
-import net.mcreator.fnafmod.init.FnafModModItems;
+import net.mcreator.fnafmod.procedures.BBOnInitialEntitySpawnProcedure;
+import net.mcreator.fnafmod.procedures.BBOnEntityTickUpdateProcedure;
 import net.mcreator.fnafmod.init.FnafModModEntities;
 
 import javax.annotation.Nullable;
@@ -82,7 +80,7 @@ public class BBEntity extends PathfinderMob implements IAnimatable {
 		super.defineSynchedData();
 		this.entityData.define(SHOOT, false);
 		this.entityData.define(ANIMATION, "undefined");
-		this.entityData.define(TEXTURE, "spring_bonnie_fnaf1");
+		this.entityData.define(TEXTURE, "balloonboytexture");
 	}
 
 	public void setTexture(String texture) {
@@ -174,11 +172,6 @@ public class BBEntity extends PathfinderMob implements IAnimatable {
 		return false;
 	}
 
-	protected void dropCustomDeathLoot(DamageSource source, int looting, boolean recentlyHitIn) {
-		super.dropCustomDeathLoot(source, looting, recentlyHitIn);
-		this.spawnAtLocation(new ItemStack(FnafModModItems.SPRING_BONNIE.get()));
-	}
-
 	@Override
 	public void playStepSound(BlockPos pos, BlockState blockIn) {
 		this.playSound(ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("fnaf_mod:animatronic_step")), 0.15f, 1);
@@ -216,14 +209,14 @@ public class BBEntity extends PathfinderMob implements IAnimatable {
 	@Override
 	public SpawnGroupData finalizeSpawn(ServerLevelAccessor world, DifficultyInstance difficulty, MobSpawnType reason, @Nullable SpawnGroupData livingdata, @Nullable CompoundTag tag) {
 		SpawnGroupData retval = super.finalizeSpawn(world, difficulty, reason, livingdata, tag);
-		PassiveSpringBonnieOnInitialEntitySpawnProcedure.execute(world, this);
+		BBOnInitialEntitySpawnProcedure.execute(world, this);
 		return retval;
 	}
 
 	@Override
 	public void baseTick() {
 		super.baseTick();
-		GoldenFreddyOnEntityTickUpdateProcedure.execute(this.level, this.getX(), this.getY(), this.getZ(), this);
+		BBOnEntityTickUpdateProcedure.execute(this.level, this.getX(), this.getY(), this.getZ(), this);
 		this.refreshDimensions();
 	}
 
@@ -257,10 +250,10 @@ public class BBEntity extends PathfinderMob implements IAnimatable {
 			if ((event.isMoving() || !(event.getLimbSwingAmount() > -0.15F && event.getLimbSwingAmount() < 0.15F))
 
 			) {
-				event.getController().setAnimation(new AnimationBuilder().addAnimation("animation.bonnie.walk", EDefaultLoopTypes.LOOP));
+				event.getController().setAnimation(new AnimationBuilder().addAnimation("animation.balloonboy.walk", EDefaultLoopTypes.LOOP));
 				return PlayState.CONTINUE;
 			}
-			event.getController().setAnimation(new AnimationBuilder().addAnimation("animation.bonnie.idle", EDefaultLoopTypes.LOOP));
+			event.getController().setAnimation(new AnimationBuilder().addAnimation("animation.balloonboy.idle", EDefaultLoopTypes.LOOP));
 			return PlayState.CONTINUE;
 		}
 		return PlayState.STOP;

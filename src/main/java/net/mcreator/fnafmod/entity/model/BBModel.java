@@ -14,12 +14,12 @@ import net.mcreator.fnafmod.entity.BBEntity;
 public class BBModel extends AnimatedGeoModel<BBEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(BBEntity entity) {
-		return new ResourceLocation("fnaf_mod", "animations/bonnie.animation.json");
+		return new ResourceLocation("fnaf_mod", "animations/balloonboy.animation.json");
 	}
 
 	@Override
 	public ResourceLocation getModelResource(BBEntity entity) {
-		return new ResourceLocation("fnaf_mod", "geo/bonnie.geo.json");
+		return new ResourceLocation("fnaf_mod", "geo/balloonboy.geo.json");
 	}
 
 	@Override
@@ -30,7 +30,7 @@ public class BBModel extends AnimatedGeoModel<BBEntity> {
 	@Override
 	public void setCustomAnimations(BBEntity animatable, int instanceId, AnimationEvent animationEvent) {
 		super.setCustomAnimations(animatable, instanceId, animationEvent);
-		IBone head = this.getAnimationProcessor().getBone("Head");
+		IBone head = this.getAnimationProcessor().getBone("head");
 		EntityModelData extraData = (EntityModelData) animationEvent.getExtraDataOfType(EntityModelData.class).get(0);
 		AnimationData manager = animatable.getFactory().getOrCreateAnimationData(instanceId);
 		int unpausedMultiplier = !Minecraft.getInstance().isPaused() || manager.shouldPlayWhilePaused ? 1 : 0;
