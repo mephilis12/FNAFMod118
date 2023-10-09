@@ -5,6 +5,12 @@
         "0": "table_cloth"
       },
       "name": "default"
+    },
+    "fnaf2": {
+      "map": {
+        "0": "fnaf2_tablecloth"
+      },
+      "name": "fnaf2"
     }
   }
 }

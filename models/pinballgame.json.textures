@@ -5,6 +5,18 @@
         "0": "pinball"
       },
       "name": "default"
+    },
+    "blacklightcupcake": {
+      "map": {
+        "0": "pinballcupcakeblacklight"
+      },
+      "name": "blacklightcupcake"
+    },
+    "cupcake": {
+      "map": {
+        "0": "pinballcupcake"
+      },
+      "name": "cupcake"
     }
   }
 }

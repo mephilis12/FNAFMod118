@@ -106,6 +106,7 @@ import net.mcreator.fnafmod.block.RedBlackTileSlabCrackedBlock;
 import net.mcreator.fnafmod.block.RedBlackTileSlabBlock;
 import net.mcreator.fnafmod.block.RedBlackTileCrackedBlock;
 import net.mcreator.fnafmod.block.RedBlackTileBlock;
+import net.mcreator.fnafmod.block.PurpleTableClothBlock;
 import net.mcreator.fnafmod.block.PurpleStageBrickTilesBlock;
 import net.mcreator.fnafmod.block.PurpleFanBlock;
 import net.mcreator.fnafmod.block.PurpleCurtainBlock;
@@ -128,6 +129,8 @@ import net.mcreator.fnafmod.block.PlushChicaBlock;
 import net.mcreator.fnafmod.block.PlushBonnieBlock;
 import net.mcreator.fnafmod.block.PizzaBoxOpenBlock;
 import net.mcreator.fnafmod.block.PizzaBoxClosedBlock;
+import net.mcreator.fnafmod.block.PinBallMachine3Block;
+import net.mcreator.fnafmod.block.PinBallMachine2Block;
 import net.mcreator.fnafmod.block.PinBallMachine1Block;
 import net.mcreator.fnafmod.block.PhoneBlock;
 import net.mcreator.fnafmod.block.PartyHatRedBlock;
@@ -684,4 +687,7 @@ public class FnafModModBlocks {
 	public static final RegistryObject<Block> BOOTH_BENCH_3 = REGISTRY.register("booth_bench_3", () -> new BoothBench3Block());
 	public static final RegistryObject<Block> CYAN_DOOR = REGISTRY.register("cyan_door", () -> new CyanDoorBlock());
 	public static final RegistryObject<Block> PIN_BALL_MACHINE_1 = REGISTRY.register("pin_ball_machine_1", () -> new PinBallMachine1Block());
+	public static final RegistryObject<Block> PURPLE_TABLE_CLOTH = REGISTRY.register("purple_table_cloth", () -> new PurpleTableClothBlock());
+	public static final RegistryObject<Block> PIN_BALL_MACHINE_2 = REGISTRY.register("pin_ball_machine_2", () -> new PinBallMachine2Block());
+	public static final RegistryObject<Block> PIN_BALL_MACHINE_3 = REGISTRY.register("pin_ball_machine_3", () -> new PinBallMachine3Block());
 }
