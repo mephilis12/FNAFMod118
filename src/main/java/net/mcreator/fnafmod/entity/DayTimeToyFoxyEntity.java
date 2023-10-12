@@ -168,7 +168,7 @@ public class DayTimeToyFoxyEntity extends PathfinderMob implements IAnimatable {
 	@Override
 	public SpawnGroupData finalizeSpawn(ServerLevelAccessor world, DifficultyInstance difficulty, MobSpawnType reason, @Nullable SpawnGroupData livingdata, @Nullable CompoundTag tag) {
 		SpawnGroupData retval = super.finalizeSpawn(world, difficulty, reason, livingdata, tag);
-		FreddyFazbearOnInitialEntitySpawnProcedure.execute(world, this);
+		FreddyFazbearOnInitialEntitySpawnProcedure.execute(this);
 		return retval;
 	}
 

@@ -6,6 +6,12 @@
     "mobLabel": "",
     "mobModelTexture": "freddyfazbeartexture.png",
     "mobModelGlowTexture": "",
+    "visualScale": {
+      "fixedValue": 1.0
+    },
+    "boundingBoxScale": {
+      "fixedValue": 1.0
+    },
     "modelWidth": 0.6,
     "modelHeight": 1.8,
     "modelShadowSize": 0.5,
@@ -95,9 +101,6 @@
     },
     "onMobTickUpdate": {
       "name": "GoldenFreddyOnEntityTickUpdate"
-    },
-    "onInitialSpawn": {
-      "name": "FreddyFazbearOnInitialEntitySpawn"
     },
     "hasAI": true,
     "aiBase": "(none)",

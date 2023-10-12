@@ -22,6 +22,7 @@ public class FreddyFazbearRenderer extends GeoEntityRenderer<FreddyFazbearEntity
 
 	@Override
 	public RenderType getRenderType(FreddyFazbearEntity entity, float partialTicks, PoseStack stack, MultiBufferSource renderTypeBuffer, VertexConsumer vertexBuilder, int packedLightIn, ResourceLocation textureLocation) {
+		stack.scale(1f, 1f, 1f);
 		return RenderType.entityTranslucent(getTextureLocation(entity));
 	}
 }

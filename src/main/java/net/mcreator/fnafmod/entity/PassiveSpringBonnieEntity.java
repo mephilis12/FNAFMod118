@@ -223,7 +223,7 @@ public class PassiveSpringBonnieEntity extends PathfinderMob implements IAnimata
 	@Override
 	public void baseTick() {
 		super.baseTick();
-		GoldenFreddyOnEntityTickUpdateProcedure.execute(this.level, this.getX(), this.getY(), this.getZ(), this);
+		GoldenFreddyOnEntityTickUpdateProcedure.execute(this.level, this);
 		this.refreshDimensions();
 	}
 

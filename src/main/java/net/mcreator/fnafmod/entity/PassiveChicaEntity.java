@@ -223,7 +223,7 @@ public class PassiveChicaEntity extends PathfinderMob implements IAnimatable {
 	@Override
 	public void baseTick() {
 		super.baseTick();
-		GoldenFreddyOnEntityTickUpdateProcedure.execute(this.level, this.getX(), this.getY(), this.getZ(), this);
+		GoldenFreddyOnEntityTickUpdateProcedure.execute(this.level, this);
 		this.refreshDimensions();
 	}
 
