@@ -1,9 +1,0 @@
-{
-  "parent": "fnaf_mod:custom/baseplate",
-  "textures": {
-    "all": "fnaf_mod:blocks/baseplate",
-    "particle": "fnaf_mod:blocks/baseplate",
-    "0": "fnaf_mod:blocks/baseplate"
-  },
-  "render_type": "cutout_mipped"
-}

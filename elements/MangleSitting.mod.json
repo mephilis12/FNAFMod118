@@ -106,7 +106,7 @@
       "name": "StatueFreddyRightClickedOnEntity"
     },
     "onMobTickUpdate": {
-      "name": "MangleSittingOnEntityTickUpdate"
+      "name": "MangleOnEntityTickUpdate"
     },
     "onInitialSpawn": {
       "name": "MangleSittingOnInitialEntitySpawn"

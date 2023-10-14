@@ -163,7 +163,7 @@ public class StandingDaytimeSpringtrapEntity extends PathfinderMob implements IA
 	@Override
 	public SpawnGroupData finalizeSpawn(ServerLevelAccessor world, DifficultyInstance difficulty, MobSpawnType reason, @Nullable SpawnGroupData livingdata, @Nullable CompoundTag tag) {
 		SpawnGroupData retval = super.finalizeSpawn(world, difficulty, reason, livingdata, tag);
-		FreddyFazbearOnInitialEntitySpawnProcedure.execute(this);
+		FreddyFazbearOnInitialEntitySpawnProcedure.execute(world, this.getX(), this.getY(), this.getZ(), this);
 		return retval;
 	}
 

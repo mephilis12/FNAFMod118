@@ -16,9 +16,9 @@ public class FoxyPiratePlayerCollidesWithThisEntityProcedure {
 			return;
 		double Random = 0;
 		Random = Mth.nextInt(RandomSource.create(), 1, 1000);
-		if (Random == 3) {
+		if (Random == 7) {
 			if (sourceentity instanceof LivingEntity _entity && !_entity.level.isClientSide())
-				_entity.addEffect(new MobEffectInstance(FnafModModMobEffects.BLEEDING.get(), 100, 0, false, false));
+				_entity.addEffect(new MobEffectInstance(FnafModModMobEffects.BLEEDING.get(), 60, 0, false, false));
 		}
 	}
 }

@@ -9,7 +9,6 @@ import net.minecraft.server.level.ServerLevel;
 
 import net.mcreator.fnafmod.init.FnafModModEntities;
 import net.mcreator.fnafmod.entity.FreddyFazbearEntity;
-import net.mcreator.fnafmod.entity.DayTimeFreddyEntity;
 
 public class DayTimeFreddyOnEntityTickUpdateProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {
@@ -23,20 +22,17 @@ public class DayTimeFreddyOnEntityTickUpdateProcedure {
 			entity.getPersistentData().putString("GotCoordinates", "true");
 		}
 		if (!(world instanceof Level _lvl10 && _lvl10.isDay())) {
-			if (entity instanceof DayTimeFreddyEntity) {
-				if (world instanceof ServerLevel _level) {
-					Entity entityToSpawn = new FreddyFazbearEntity(FnafModModEntities.FREDDY_FAZBEAR.get(), _level);
-					entityToSpawn.moveTo((entity.getPersistentData().getDouble("spawnX")), (entity.getPersistentData().getDouble("spawnY")), (entity.getPersistentData().getDouble("spawnZ")), (float) entity.getPersistentData().getDouble("spawnYaw"),
-							0);
-					entityToSpawn.setYBodyRot((float) entity.getPersistentData().getDouble("spawnYaw"));
-					entityToSpawn.setYHeadRot((float) entity.getPersistentData().getDouble("spawnYaw"));
-					if (entityToSpawn instanceof Mob _mobToSpawn)
-						_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
-					world.addFreshEntity(entityToSpawn);
-				}
-				if (!entity.level.isClientSide())
-					entity.discard();
+			if (world instanceof ServerLevel _level) {
+				Entity entityToSpawn = new FreddyFazbearEntity(FnafModModEntities.FREDDY_FAZBEAR.get(), _level);
+				entityToSpawn.moveTo((entity.getPersistentData().getDouble("spawnX")), (entity.getPersistentData().getDouble("spawnY")), (entity.getPersistentData().getDouble("spawnZ")), (float) entity.getPersistentData().getDouble("spawnYaw"), 0);
+				entityToSpawn.setYBodyRot((float) entity.getPersistentData().getDouble("spawnYaw"));
+				entityToSpawn.setYHeadRot((float) entity.getPersistentData().getDouble("spawnYaw"));
+				if (entityToSpawn instanceof Mob _mobToSpawn)
+					_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
+				world.addFreshEntity(entityToSpawn);
 			}
+			if (!entity.level.isClientSide())
+				entity.discard();
 		}
 	}
 }

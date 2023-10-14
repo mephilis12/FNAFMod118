@@ -324,11 +324,6 @@ public class FnafModModItems {
 	public static final RegistryObject<Item> SHELF = REGISTRY.register(FnafModModBlocks.SHELF.getId().getPath(), () -> new ShelfDisplayItem(FnafModModBlocks.SHELF.get(), new Item.Properties().tab(FnafModModTabs.TAB_FNAF_BLOCKS)));
 	public static final RegistryObject<Item> VENT = block(FnafModModBlocks.VENT, FnafModModTabs.TAB_FNAF_BLOCKS);
 	public static final RegistryObject<Item> VENT_HATCH = block(FnafModModBlocks.VENT_HATCH, FnafModModTabs.TAB_FNAF_BLOCKS);
-	public static final RegistryObject<Item> TOY_BONNIE_SPAWN_BLOCK = block(FnafModModBlocks.TOY_BONNIE_SPAWN_BLOCK, FnafModModTabs.TAB_FNAF_BLOCKS);
-	public static final RegistryObject<Item> MANGLE_SPAWN_BLOCK = block(FnafModModBlocks.MANGLE_SPAWN_BLOCK, FnafModModTabs.TAB_FNAF_BLOCKS);
-	public static final RegistryObject<Item> TOY_CHICA_SPAWN_BLOCK = block(FnafModModBlocks.TOY_CHICA_SPAWN_BLOCK, FnafModModTabs.TAB_FNAF_BLOCKS);
-	public static final RegistryObject<Item> TOY_FOXY_SPAWN_BLOCK = block(FnafModModBlocks.TOY_FOXY_SPAWN_BLOCK, FnafModModTabs.TAB_FNAF_BLOCKS);
-	public static final RegistryObject<Item> TOY_FREDDY_SPAWN_BLOCK = block(FnafModModBlocks.TOY_FREDDY_SPAWN_BLOCK, FnafModModTabs.TAB_FNAF_BLOCKS);
 	public static final RegistryObject<Item> CAMERA_SPAWN_EGG = REGISTRY.register("camera_spawn_egg", () -> new ForgeSpawnEggItem(FnafModModEntities.CAMERA, -10066330, -6710887, new Item.Properties().tab(FnafModModTabs.TAB_FNAF_BLOCKS)));
 	public static final RegistryObject<Item> RED_WOOD_DOOR = doubleBlock(FnafModModBlocks.RED_WOOD_DOOR, FnafModModTabs.TAB_FNAF_BLOCKS);
 	public static final RegistryObject<Item> SCREEN = block(FnafModModBlocks.SCREEN, FnafModModTabs.TAB_FNAF_BLOCKS);
@@ -637,11 +632,6 @@ public class FnafModModItems {
 	public static final RegistryObject<Item> FNAF_3_POSTERS_6 = block(FnafModModBlocks.FNAF_3_POSTERS_6, null);
 	public static final RegistryObject<Item> FNAF_3_POSTERS_7 = block(FnafModModBlocks.FNAF_3_POSTERS_7, null);
 	public static final RegistryObject<Item> FNAF_3_POSTERS_8 = block(FnafModModBlocks.FNAF_3_POSTERS_8, null);
-	public static final RegistryObject<Item> TOY_BONNIE_SPAWN_BLOCK_IDLE = block(FnafModModBlocks.TOY_BONNIE_SPAWN_BLOCK_IDLE, null);
-	public static final RegistryObject<Item> MANGLE_SPAWN_BLOCK_IDLE = block(FnafModModBlocks.MANGLE_SPAWN_BLOCK_IDLE, null);
-	public static final RegistryObject<Item> TOY_CHICA_SPAWN_BLOCK_IDLE = block(FnafModModBlocks.TOY_CHICA_SPAWN_BLOCK_IDLE, null);
-	public static final RegistryObject<Item> TOY_FOXY_SPAWN_BLOCK_IDLE = block(FnafModModBlocks.TOY_FOXY_SPAWN_BLOCK_IDLE, null);
-	public static final RegistryObject<Item> TOY_FREDDY_SPAWN_BLOCK_IDLE = block(FnafModModBlocks.TOY_FREDDY_SPAWN_BLOCK_IDLE, null);
 	public static final RegistryObject<Item> GLITCH_BONNIE_CUT_OUT_SPAWN_EGG = REGISTRY.register("glitch_bonnie_cut_out_spawn_egg",
 			() -> new ForgeSpawnEggItem(FnafModModEntities.GLITCH_BONNIE_CUT_OUT, -4810998, -12582330, new Item.Properties().tab(null)));
 	public static final RegistryObject<Item> FLASH_LIGHT_LIGHT = block(FnafModModBlocks.FLASH_LIGHT_LIGHT, null);

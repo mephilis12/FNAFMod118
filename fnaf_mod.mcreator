@@ -2040,6 +2040,22 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -2985,18 +3001,6 @@
             "type": "entity"
           },
           {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
             "name": "world",
             "type": "world"
           }
@@ -3060,10 +3064,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       },
@@ -3084,18 +3084,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
           },
           {
             "name": "world",
@@ -5211,18 +5199,6 @@
             "type": "entity"
           },
           {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
             "name": "world",
             "type": "world"
           }
@@ -5245,18 +5221,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
           },
           {
             "name": "world",
@@ -5283,18 +5247,6 @@
             "type": "entity"
           },
           {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
             "name": "world",
             "type": "world"
           }
@@ -5317,18 +5269,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
           },
           {
             "name": "world",
@@ -5355,18 +5295,6 @@
             "type": "entity"
           },
           {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
             "name": "world",
             "type": "world"
           }
@@ -5391,18 +5319,6 @@
             "type": "entity"
           },
           {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
             "name": "world",
             "type": "world"
           }
@@ -5425,18 +5341,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
           },
           {
             "name": "world",
@@ -5485,18 +5389,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
           },
           {
             "name": "world",
@@ -5559,18 +5451,6 @@
             "type": "entity"
           },
           {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
             "name": "world",
             "type": "world"
           }
@@ -5631,18 +5511,6 @@
             "type": "entity"
           },
           {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
             "name": "world",
             "type": "world"
           }
@@ -5665,18 +5533,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
           },
           {
             "name": "world",
@@ -5739,18 +5595,6 @@
             "type": "entity"
           },
           {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
             "name": "world",
             "type": "world"
           }
@@ -5773,18 +5617,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
           },
           {
             "name": "world",
@@ -11798,104 +11630,6 @@
       "path": "~/Blocks/DecorativeBlocks"
     },
     {
-      "name": "ToyBonnieSpawnBlock",
-      "type": "block",
-      "sortid": 203,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "toy_bonnie_spawn_block",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/fnaf_mod/models/item/toy_bonnie_spawn_block.json",
-          "src/main/java/net/mcreator/fnafmod/block/ToyBonnieSpawnBlockBlock.java",
-          "src/main/resources/assets/fnaf_mod/models/block/toy_bonnie_spawn_block.json",
-          "src/main/resources/assets/fnaf_mod/blockstates/toy_bonnie_spawn_block.json"
-        ]
-      },
-      "path": "~/Spawning Blocks"
-    },
-    {
-      "name": "ToyBonnieSpawnBlockUpdateTick",
-      "type": "procedure",
-      "sortid": 764,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "toy_bonnie_spawn_block_update_tick",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/fnafmod/procedures/ToyBonnieSpawnBlockUpdateTickProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Spawning Blocks"
-    },
-    {
-      "name": "ToyBonnieSpawnBlockIdle",
-      "type": "block",
-      "sortid": 765,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "toy_bonnie_spawn_block_idle",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/fnaf_mod/models/block/toy_bonnie_spawn_block_idle.json",
-          "src/main/resources/assets/fnaf_mod/blockstates/toy_bonnie_spawn_block_idle.json",
-          "src/main/resources/assets/fnaf_mod/models/item/toy_bonnie_spawn_block_idle.json",
-          "src/main/java/net/mcreator/fnafmod/block/ToyBonnieSpawnBlockIdleBlock.java"
-        ]
-      },
-      "path": "~/Spawning Blocks"
-    },
-    {
-      "name": "ToyBonnieSpawnBlockIdleUpdateTick",
-      "type": "procedure",
-      "sortid": 766,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "toy_bonnie_spawn_block_idle_update_tick",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/fnafmod/procedures/ToyBonnieSpawnBlockIdleUpdateTickProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Spawning Blocks"
-    },
-    {
       "name": "CrawlingToyBonnieOnEntityTickUpdate",
       "type": "procedure",
       "sortid": 767,
@@ -11932,55 +11666,6 @@
       "path": "~/Entities/VentCrawler"
     },
     {
-      "name": "MangleSpawnBlock",
-      "type": "block",
-      "sortid": 204,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mangle_spawn_block",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/fnaf_mod/models/block/mangle_spawn_block.json",
-          "src/main/resources/assets/fnaf_mod/models/item/mangle_spawn_block.json",
-          "src/main/resources/assets/fnaf_mod/blockstates/mangle_spawn_block.json",
-          "src/main/java/net/mcreator/fnafmod/block/MangleSpawnBlockBlock.java"
-        ]
-      },
-      "path": "~/Spawning Blocks"
-    },
-    {
-      "name": "MangleSPawnBlockUpdateTick",
-      "type": "procedure",
-      "sortid": 768,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mangle_s_pawn_block_update_tick",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/fnafmod/procedures/MangleSPawnBlockUpdateTickProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Spawning Blocks"
-    },
-    {
       "name": "CrawlingMangleOnEntityTickUpdate",
       "type": "procedure",
       "sortid": 769,
@@ -12015,349 +11700,6 @@
         ]
       },
       "path": "~/Entities/VentCrawler"
-    },
-    {
-      "name": "MangleSpawnBlockIdle",
-      "type": "block",
-      "sortid": 770,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mangle_spawn_block_idle",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/fnaf_mod/models/block/mangle_spawn_block_idle.json",
-          "src/main/resources/assets/fnaf_mod/models/item/mangle_spawn_block_idle.json",
-          "src/main/resources/assets/fnaf_mod/blockstates/mangle_spawn_block_idle.json",
-          "src/main/java/net/mcreator/fnafmod/block/MangleSpawnBlockIdleBlock.java"
-        ]
-      },
-      "path": "~/Spawning Blocks"
-    },
-    {
-      "name": "MangleSpawnBlockIdleUpdateTick",
-      "type": "procedure",
-      "sortid": 771,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mangle_spawn_block_idle_update_tick",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/fnafmod/procedures/MangleSpawnBlockIdleUpdateTickProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Spawning Blocks"
-    },
-    {
-      "name": "ToyChicaSpawnBlock",
-      "type": "block",
-      "sortid": 205,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "toy_chica_spawn_block",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/fnaf_mod/models/block/toy_chica_spawn_block.json",
-          "src/main/resources/assets/fnaf_mod/blockstates/toy_chica_spawn_block.json",
-          "src/main/resources/assets/fnaf_mod/models/item/toy_chica_spawn_block.json",
-          "src/main/java/net/mcreator/fnafmod/block/ToyChicaSpawnBlockBlock.java"
-        ]
-      },
-      "path": "~/Spawning Blocks"
-    },
-    {
-      "name": "ToyChicaSpawnBlockIdle",
-      "type": "block",
-      "sortid": 772,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "toy_chica_spawn_block_idle",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/fnaf_mod/models/block/toy_chica_spawn_block_idle.json",
-          "src/main/java/net/mcreator/fnafmod/block/ToyChicaSpawnBlockIdleBlock.java",
-          "src/main/resources/assets/fnaf_mod/models/item/toy_chica_spawn_block_idle.json",
-          "src/main/resources/assets/fnaf_mod/blockstates/toy_chica_spawn_block_idle.json"
-        ]
-      },
-      "path": "~/Spawning Blocks"
-    },
-    {
-      "name": "ToyChicaSpawnBlockUpdateTick",
-      "type": "procedure",
-      "sortid": 773,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "toy_chica_spawn_block_update_tick",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/fnafmod/procedures/ToyChicaSpawnBlockUpdateTickProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Spawning Blocks"
-    },
-    {
-      "name": "ToyChicaSpawnBlockIdleUpdateTick",
-      "type": "procedure",
-      "sortid": 774,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "toy_chica_spawn_block_idle_update_tick",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/fnafmod/procedures/ToyChicaSpawnBlockIdleUpdateTickProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Spawning Blocks"
-    },
-    {
-      "name": "ToyFoxySpawnBlock",
-      "type": "block",
-      "sortid": 206,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "toy_foxy_spawn_block",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/fnaf_mod/models/item/toy_foxy_spawn_block.json",
-          "src/main/java/net/mcreator/fnafmod/block/ToyFoxySpawnBlockBlock.java",
-          "src/main/resources/assets/fnaf_mod/models/block/toy_foxy_spawn_block.json",
-          "src/main/resources/assets/fnaf_mod/blockstates/toy_foxy_spawn_block.json"
-        ]
-      },
-      "path": "~/Spawning Blocks"
-    },
-    {
-      "name": "ToyFoxySpawnBlockIdle",
-      "type": "block",
-      "sortid": 775,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "toy_foxy_spawn_block_idle",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/fnaf_mod/blockstates/toy_foxy_spawn_block_idle.json",
-          "src/main/resources/assets/fnaf_mod/models/block/toy_foxy_spawn_block_idle.json",
-          "src/main/java/net/mcreator/fnafmod/block/ToyFoxySpawnBlockIdleBlock.java",
-          "src/main/resources/assets/fnaf_mod/models/item/toy_foxy_spawn_block_idle.json"
-        ]
-      },
-      "path": "~/Spawning Blocks"
-    },
-    {
-      "name": "ToyFoxySpawnBlockUpdateTick",
-      "type": "procedure",
-      "sortid": 776,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "toy_foxy_spawn_block_update_tick",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/fnafmod/procedures/ToyFoxySpawnBlockUpdateTickProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Spawning Blocks"
-    },
-    {
-      "name": "ToyFoxySpawnBlockIdleUpdateTick",
-      "type": "procedure",
-      "sortid": 777,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "toy_foxy_spawn_block_idle_update_tick",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/fnafmod/procedures/ToyFoxySpawnBlockIdleUpdateTickProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Spawning Blocks"
-    },
-    {
-      "name": "ToyFreddySpawnBlock",
-      "type": "block",
-      "sortid": 207,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "toy_freddy_spawn_block",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/fnafmod/block/ToyFreddySpawnBlockBlock.java",
-          "src/main/resources/assets/fnaf_mod/models/item/toy_freddy_spawn_block.json",
-          "src/main/resources/assets/fnaf_mod/models/block/toy_freddy_spawn_block.json",
-          "src/main/resources/assets/fnaf_mod/blockstates/toy_freddy_spawn_block.json"
-        ]
-      },
-      "path": "~/Spawning Blocks"
-    },
-    {
-      "name": "ToyFreddySpawnBlockIdle",
-      "type": "block",
-      "sortid": 778,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "toy_freddy_spawn_block_idle",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/fnaf_mod/blockstates/toy_freddy_spawn_block_idle.json",
-          "src/main/java/net/mcreator/fnafmod/block/ToyFreddySpawnBlockIdleBlock.java",
-          "src/main/resources/assets/fnaf_mod/models/item/toy_freddy_spawn_block_idle.json",
-          "src/main/resources/assets/fnaf_mod/models/block/toy_freddy_spawn_block_idle.json"
-        ]
-      },
-      "path": "~/Spawning Blocks"
-    },
-    {
-      "name": "ToyFreddySpawnBlockUpdate",
-      "type": "procedure",
-      "sortid": 779,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "toy_freddy_spawn_block_update",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/fnafmod/procedures/ToyFreddySpawnBlockUpdateProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Spawning Blocks"
-    },
-    {
-      "name": "ToyFreddySpawnBlockIdleUpdateTick",
-      "type": "procedure",
-      "sortid": 780,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "toy_freddy_spawn_block_idle_update_tick",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/fnafmod/procedures/ToyFreddySpawnBlockIdleUpdateTickProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Spawning Blocks"
     },
     {
       "name": "CrawlingToyFoxyOnEntityTickUpdate",
@@ -22203,27 +21545,24 @@
       "path": "~/Tags"
     },
     {
-      "name": "UnwitheredFreddyOnEntityTickUpdate",
+      "name": "DayTimeToyBonnieOnInitialEntitySpawn",
       "type": "procedure",
-      "sortid": 1043,
+      "sortid": 1044,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "unwithered_freddy_on_entity_tick_update",
+      "registry_name": "day_time_toy_bonnie_on_initial_entity_spawn",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fnafmod/procedures/UnwitheredFreddyOnEntityTickUpdateProcedure.java"
+          "src/main/java/net/mcreator/fnafmod/procedures/DayTimeToyBonnieOnInitialEntitySpawnProcedure.java"
         ],
         "dependencies": [
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Entities/DaytimeAnimatronics"
     }
   ],
   "variable_elements": [
@@ -22773,8 +22112,8 @@
       "item.fnaf_mod.toreador_march.desc": "Toreador March - LordSmugDread",
       "gui.fnaf_mod.soda_machine.label_inventory": "Inventory",
       "block.fnaf_mod.stage_light_on": "Stage Light",
-      "entity.fnaf_mod.unwithered_chica": "Un-Withered Chica",
       "entity.fnaf_mod.golden_freddy": "Golden Freddy",
+      "entity.fnaf_mod.unwithered_chica": "Un-Withered Chica",
       "item.fnaf_mod.day_time_bonnie_spawn_egg": "DaytimeBonnie Spawn Egg",
       "entity.fnaf_mod.the_groobler": "The Groobler",
       "entity.fnaf_mod.statue_freddy": "Freddy Statue",
@@ -22783,8 +22122,8 @@
       "block.fnaf_mod.big_purple_stage_brick_tiles": "Big Purple Etched Brick Tiles",
       "entity.fnaf_mod.unwithered_foxy": "Un-Withered Foxy",
       "entity.fnaf_mod.fredbear_animatronic": "Fredbear",
-      "item.fnaf_mod.our_little_horror_story": "Music Disc",
       "entity.fnaf_mod.crawling_toy_foxy": "Crawling Toy Foxy",
+      "item.fnaf_mod.our_little_horror_story": "Music Disc",
       "item.fnaf_mod.spring_bonnie_cut_out_spawn_egg": "Spring Bonnie Cutout Spawn Egg",
       "item.fnaf_mod.bonnie": "Drone Bonnie",
       "entity.fnaf_mod.withered_bonnie": "Withered Bonnie",
@@ -22801,14 +22140,14 @@
       "gui.fnaf_mod.wall_change_2.label_opposing_each_other": " Opposing Each Other",
       "block.fnaf_mod.pin_ball_machine_2": "Pinball Machine Cupcake",
       "block.fnaf_mod.pin_ball_machine_1": "Pinball Machine",
-      "block.fnaf_mod.pin_ball_machine_3": "Pinball Machine Blacklight Cupcake",
       "entity.fnaf_mod.springlocked_zombie_fredbear": "Springlocked Zombie Fredbear",
+      "block.fnaf_mod.pin_ball_machine_3": "Pinball Machine Blacklight Cupcake",
       "entity.fnaf_mod.puppet": "Puppet",
-      "entity.fnaf_mod.shadow_freddy_standing": "Shadow Freddy",
       "effect.fnaf_mod.bleeding": "Bleeding",
+      "entity.fnaf_mod.shadow_freddy_standing": "Shadow Freddy",
       "block.fnaf_mod.white_purple_wall_tile": "White Purple Wall Tiles",
-      "block.fnaf_mod.speaker": "Speaker",
       "block.fnaf_mod.spring_bonnie_plushie": "Spring Bonnie Plushie",
+      "block.fnaf_mod.speaker": "Speaker",
       "block.fnaf_mod.fredbear_floor": "Fredbear\u0027s Floor",
       "item.fnaf_mod.light_blue_plastic": "Light Blue Plastic",
       "item.fnaf_mod.fredbears_freddy_spawn_egg": "Fredbear\u0027s Family Diner Freddy Spawn Egg",
@@ -22820,15 +22159,14 @@
       "block.fnaf_mod.ceiling_block": "Ceiling Block",
       "item.fnaf_mod.fredbear_spring_lock_suit_boots": "Fredbear Spring Lock Boots",
       "entity.fnaf_mod.statue_chica": "Chica Statue",
-      "block.fnaf_mod.toy_freddy_spawn_block": "Toy Freddy Spawn Block",
       "block.fnaf_mod.alternate_big_wall_tile": "Alternate Big Wall Tiles",
       "item.fnaf_mod.phantom_foxy_spawn_egg": "Phantom Foxy Spawn Egg",
       "block.fnaf_mod.golden_freddy_plushie": "Golden Freddy Plushie",
       "item.fnaf_mod.passive_bonnie_spawn_egg": "Bonnie the Bunny Spawn Egg",
       "item.fnaf_mod.glitch_bonnie_animatronic_spawn_egg": "Spring Bonnie? Spawn Egg",
       "item.fnaf_mod.yellow_bear_suit_chestplate": "Yellowbear Body",
-      "entity.fnaf_mod.crawling_springtrap": "Crawling Springtrap",
       "item.fnaf_mod.showtime_madame_macabre_bitemark_remix": "Music Disc",
+      "entity.fnaf_mod.crawling_springtrap": "Crawling Springtrap",
       "block.fnaf_mod.big_white_black_wall_tile": "Big White Wall Tiles",
       "block.fnaf_mod.fnaf_4_wall_top_room": "Tapestry Top Blue",
       "block.fnaf_mod.office_door": "Office Door",
@@ -22839,8 +22177,8 @@
       "block.fnaf_mod.toy_robot": "Toy Robot",
       "item.fnaf_mod.brown_plastic": "Brown Plastic",
       "block.fnaf_mod.white_wall_slab": "White Wall Slab",
-      "block.fnaf_mod.big_black_stripe_dark_wall_tile": "Big Black Stripe Dark Wall Tiles",
       "block.fnaf_mod.orange_speaker_left": "Speaker",
+      "block.fnaf_mod.big_black_stripe_dark_wall_tile": "Big Black Stripe Dark Wall Tiles",
       "block.fnaf_mod.stage_brick_tiles": "Etched Brick Tiles",
       "entity.fnaf_mod.nightmare_fredbear": "Nightmare Fredbear",
       "block.fnaf_mod.plush_freddy": "Freddy Plush",
@@ -22848,8 +22186,8 @@
       "block.fnaf_mod.diner_chair": "Diner Chair {Red}",
       "entity.fnaf_mod.endo_02": "Endo-02",
       "item.fnaf_mod.bonnie_suit_boots": "Bonnie Boots",
-      "item.fnaf_mod.waiter_hat_helmet": "Waiter Hat",
       "entity.fnaf_mod.nightmarionne": "Nightmarionne",
+      "item.fnaf_mod.waiter_hat_helmet": "Waiter Hat",
       "block.fnaf_mod.green_blue_tile_slab_cracked": "Cracked Green Blue Tile Slab",
       "gui.fnaf_mod.wall_change_1.label_opposing_each_other": " Opposing Each Other",
       "block.fnaf_mod.red_black_tile_slab": "Red Black Tile Slab",
@@ -22875,8 +22213,8 @@
       "block.fnaf_mod.party_hat_blue": "Party Hat {Blue}",
       "item.fnaf_mod.crawling_toy_foxy_spawn_egg": "Crawling Toy Foxy Spawn Egg",
       "itemGroup.tabfnaf_blocks": "FNAF Blocks",
-      "entity.fnaf_mod.endo_skeleton": "Endoskeleton",
       "subtitles.a2": "Honk",
+      "entity.fnaf_mod.endo_skeleton": "Endoskeleton",
       "gui.fnaf_mod.camera_gui.button_previous_page": "Previous Page",
       "item.fnaf_mod.glitchtrap_suit_helmet": "Spring Bonnie Costume Head",
       "item.fnaf_mod.bonnie_suit_chestplate": "Bonnie Body",
@@ -22906,11 +22244,11 @@
       "entity.fnaf_mod.phantom_foxy": "Phantom Foxy",
       "gui.fnaf_mod.wall_change_2.label_one_hall_face_rest_room_faces": "One Hall Face Rest Room Faces",
       "block.fnaf_mod.fnaf_3_floor": "Rancid Floor",
-      "item.fnaf_mod.sitting_fredbear_spawn_egg": "Fredbear Spawn Egg",
       "block.fnaf_mod.arcade_machine_foxy_2": "Arcade Machine Foxy",
+      "item.fnaf_mod.sitting_fredbear_spawn_egg": "Fredbear Spawn Egg",
       "item.fnaf_mod.pit_bonnie_suit_leggings": "Into The Pit Bonnie Legs",
-      "block.fnaf_mod.gold_token_block": "Gold Token Block",
       "subtitles.hearme": "Hello Can You Hear Me?",
+      "block.fnaf_mod.gold_token_block": "Gold Token Block",
       "block.fnaf_mod.structure_spawning_block": "Structure Spawning Block (Sam\u0027s Pizzeria)",
       "subtitles.b2": "Honk",
       "block.fnaf_mod.fnaf_4_wall_top_hall": "Tapestry Top Red",
@@ -22944,8 +22282,8 @@
       "subtitles.itsbeensolong": "",
       "item.fnaf_mod.nightmare_fredbear_spawn_egg": "Nightmare Fredbear Spawn Egg",
       "block.fnaf_mod.backstage_door": "Backstage Door",
-      "item.fnaf_mod.office_chair_spawn_egg": "Office Chair Spawn Egg",
       "entity.fnaf_mod.fredbears_chica": "Fredbear\u0027s Family Diner Chica",
+      "item.fnaf_mod.office_chair_spawn_egg": "Office Chair Spawn Egg",
       "block.fnaf_mod.black_white_tile_stairs_cracked": "Cracked Black White Tile Stairs",
       "block.fnaf_mod.alternate_wall_tile": "Alternate Wall Tiles",
       "block.fnaf_mod.small_pipes": "Small Pipes",
@@ -22975,7 +22313,6 @@
       "block.fnaf_mod.chica_head_decoration": "Chica Head Prop",
       "item.fnaf_mod.golden_freddy_spawn_egg": "Golden Freddy Spawn Egg",
       "item.fnaf_mod.battery": "Battery",
-      "block.fnaf_mod.toy_chica_spawn_block": "Toy Chica Spawn Block",
       "entity.fnaf_mod.fredbear_cut_out": "Fredbear Cutout",
       "item.fnaf_mod.springlocked_fredbear_suit_boots": "Fredbear Spring Lock Boots",
       "block.fnaf_mod.error_tile_cracked": "Cracked Missing Texture Tile",
@@ -23006,8 +22343,8 @@
       "block.fnaf_mod.red_white_tile_slab": "Red White Tile Slab",
       "item.fnaf_mod.yellow_bear_suit_helmet": "Yellowbear Head",
       "block.fnaf_mod.diagonal_wall_top": "Diagonal Wall Top",
-      "item.fnaf_mod.crawling_springtrap_spawn_egg": "Crawling Springtrap Spawn Egg",
       "block.fnaf_mod.toy_telephone": "Toy Telephone",
+      "item.fnaf_mod.crawling_springtrap_spawn_egg": "Crawling Springtrap Spawn Egg",
       "item.fnaf_mod.unwithered_foxy_spawn_egg": "Un-Withered Foxy Spawn Egg",
       "block.fnaf_mod.error_tile": "Missing Texture Tile",
       "item.fnaf_mod.bonnie_suit_leggings": "Bonnie Legs",
@@ -23038,8 +22375,8 @@
       "entity.fnaf_mod.passive_freddy": "Freddy Fazbear",
       "entity.fnaf_mod.fredbears_foxy": "Fredbear\u0027s Family Diner Foxy",
       "block.fnaf_mod.fnaf_wall_top_rotable_4": "Tapestry Top Rotable Type D",
-      "block.fnaf_mod.fnaf_wall_top_rotable_2": "Tapestry Top Rotable Type B",
       "block.fnaf_mod.toy_caterpillar": "Toy Caterpillar",
+      "block.fnaf_mod.fnaf_wall_top_rotable_2": "Tapestry Top Rotable Type B",
       "block.fnaf_mod.fnaf_wall_top_rotable_3": "Tapestry Top Rotable Type C",
       "block.fnaf_mod.alternate_big_white_black_striped_wall_tiles": "Alternate Big White Black Striped Wall Tiles",
       "gui.fnaf_mod.camera_gui.label_you_can_have_unlimited_cameras": "You Can Have Unlimited Cameras",
@@ -23052,9 +22389,9 @@
       "item.fnaf_mod.springtrap_spawn_egg": "Springtrap Spawn Egg",
       "item.fnaf_mod.passive_chica_spawn_egg": "Chica the Chicken Spawn Egg",
       "entity.fnaf_mod.glitch_bonnie_animatronic": "Spring Bonnie?",
-      "block.fnaf_mod.cut_stage_bricks": "Cut Etched Bricks",
-      "block.fnaf_mod.closet_right_open_bottom": "Closet Door Right",
       "subtitles.c2alt": "Honk",
+      "block.fnaf_mod.closet_right_open_bottom": "Closet Door Right",
+      "block.fnaf_mod.cut_stage_bricks": "Cut Etched Bricks",
       "item.fnaf_mod.full_hostile_chica_spawn_egg": "Chica Spawn Egg",
       "entity.fnaf_mod.crawling_toy_bonnie": "Crawling Toy Bonnie",
       "block.fnaf_mod.un_withered_chica_head": "Un-Withered Chica Head",
@@ -23065,8 +22402,8 @@
       "item.fnaf_mod.nightmare_bonnie_spawn_egg": "Nightmare Bonnie Spawn Egg",
       "entity.fnaf_mod.withered_foxy": "Withered Foxy",
       "block.fnaf_mod.wires": "Wires",
-      "entity.fnaf_mod.toy_chica": "DayTime Toy Chica",
       "block.fnaf_mod.closet_right_open_top": "Closet Door Right",
+      "entity.fnaf_mod.toy_chica": "DayTime Toy Chica",
       "block.fnaf_mod.big_white_black_striped_wall_tile": "Big White Black Striped Wall Tiles",
       "block.fnaf_mod.poster_3": "Wall Poster 3",
       "block.fnaf_mod.poster_4": "Wall Poster 4",
@@ -23088,8 +22425,8 @@
       "block.fnaf_mod.alternate_big_black_stripe_dark_wall_tile": "Alternate Big Black Striped Dark Wall Tiles",
       "subtitles.cameradown": "",
       "block.fnaf_mod.error_tile_stair": "Missing Texture Tile Stairs",
-      "block.fnaf_mod.balloons": "Balloons",
       "block.fnaf_mod.light_button_on": "Light Button On",
+      "block.fnaf_mod.balloons": "Balloons",
       "item.fnaf_mod.nightmare_freddy_spawn_egg": "Nightmare Freddy Spawn Egg",
       "block.fnaf_mod.alternate_stage_brick_tiles": "Alternate Etched Brick Tiles",
       "block.fnaf_mod.security_door_open": "Office Door",
@@ -23122,7 +22459,6 @@
       "item.fnaf_mod.shadow_remnant": "Shadow Remnant",
       "block.fnaf_mod.fnaf_4_wall_bottom_rotable_2": "Tapestry Bottom Rotable Type B",
       "block.fnaf_mod.fnaf_4_wall_bottom_rotable_3": "Tapestry Bottom Rotable Type C",
-      "block.fnaf_mod.toy_bonnie_spawn_block_idle": "Toy Bonnie Spawn Block Idle",
       "item.fnaf_mod.mangle_spawn_egg": "Mangle Spawn Egg",
       "block.fnaf_mod.fnaf_4_wall_bottom_rotable_4": "Tapestry Bottom Rotable Type D",
       "item.fnaf_mod.freddy_spawn_item": "Freddy Fazbear",
@@ -23210,7 +22546,6 @@
       "block.fnaf_mod.presents": "Presents",
       "block.fnaf_mod.freddy_sign_off": "Freddy Sign",
       "block.fnaf_mod.foxy_head": "Foxy Head",
-      "block.fnaf_mod.toy_chica_spawn_block_idle": "Toy Chica Spawn Block Idle",
       "entity.fnaf_mod.fredbears_bonnie": "Fredbear\u0027s Family Diner Bonnie",
       "entity.fnaf_mod.nightmare_bonnie_statue": "Nightmare Bonnie Statue",
       "entity.fnaf_mod.day_time_puppet": "DayTime Puppet",
@@ -23220,7 +22555,6 @@
       "block.fnaf_mod.big_white_red_wall_tile": "Big White Red Wall Tiles",
       "entity.fnaf_mod.shadow_bonnie": "Shadow Bonnie",
       "entity.fnaf_mod.day_time_toy_foxy": "DayTime Toy Foxy",
-      "block.fnaf_mod.mangle_spawn_block": "Mangle Spawn Block",
       "item.fnaf_mod.bonnie_suit_helmet": "Bonnie Head",
       "block.fnaf_mod.speaker_right": "Speaker",
       "subtitles.ak-sound": "Gunshot",
@@ -23264,14 +22598,11 @@
       "item.fnaf_mod.passive_foxy_spawn_egg": "Foxy the Pirate Spawn Egg",
       "block.fnaf_mod.purple_fan": "Toy Fan",
       "block.fnaf_mod.stage_light_pink_off": "Stage Light",
-      "block.fnaf_mod.toy_bonnie_spawn_block": "Toy Bonnie Spawn Block",
       "item.fnaf_mod.toy_cupcake": "Cupcake",
       "block.fnaf_mod.desk": "Desk (Cupcake)",
-      "block.fnaf_mod.toy_foxy_spawn_block": "Toy Foxy Spawn Block",
       "block.fnaf_mod.alternate_white_red_wall_tile": "Alternate White Red Wall Tiles",
       "entity.fnaf_mod.plushtrap_toy": "Plushtrap Toy",
       "block.fnaf_mod.blue_black_tile_stairs_cracked": "Cracked Blue Black Tile Stairs",
-      "block.fnaf_mod.mangle_spawn_block_idle": "Mangle Spawn Block Idle",
       "block.fnaf_mod.light_button": "Light Button",
       "block.fnaf_mod.door_button_off": "Door Button",
       "block.fnaf_mod.green_blue_tile_cracked": "Cracked Green Blue Tile",
@@ -23340,7 +22671,6 @@
       "block.fnaf_mod.red_white_tile_stair_cracked": "Cracked Red White Tile Stairs",
       "item.fnaf_mod.springlocked_fredbear_suit_chestplate": "Fredbear Spring Lock Body",
       "item.fnaf_mod.foxy_suit_helmet": "Foxy Head",
-      "block.fnaf_mod.toy_freddy_spawn_block_idle": "Toy Freddy Spawn Block Idle",
       "item.fnaf_mod.happiest_day": "Music Disc",
       "block.fnaf_mod.diner_chair_3": "Diner Chair {Green}",
       "block.fnaf_mod.chica_head": "Chica Head",
@@ -23383,7 +22713,6 @@
       "gui.fnaf_mod.camera_gui.label_page_enbtintegerplus2": "Page: \u003cENBT:integer:plus2\u003e",
       "entity.fnaf_mod.jack_o_bonnie": "Jack-O Bonnie",
       "block.fnaf_mod.fnaf_3_posters_3": "Fazbear\u0027s Fright Posters",
-      "block.fnaf_mod.toy_foxy_spawn_block_idle": "Toy Foxy Spawn Block Idle",
       "item.fnaf_mod.nightmare_foxy_statue_spawn_egg": "Nightmare Foxy Statue Spawn Egg",
       "block.fnaf_mod.fnaf_3_posters_2": "Fazbear\u0027s Fright Posters",
       "block.fnaf_mod.fnaf_3_posters_5": "Fazbear\u0027s Fright Posters",
@@ -23622,10 +22951,6 @@
       },
       {
         "name": "Overlays",
-        "children": []
-      },
-      {
-        "name": "Spawning Blocks",
         "children": []
       },
       {
