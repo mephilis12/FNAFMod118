@@ -9543,8 +9543,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Items"
+      }
     },
     {
       "name": "EvilFreddyItemSpawn",
@@ -9594,8 +9593,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Items"
+      }
     },
     {
       "name": "RemnantInfuserRecipes",
@@ -9922,8 +9920,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Items"
+      }
     },
     {
       "name": "ChicaSpawnItemCode",
@@ -9958,8 +9955,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Items"
+      }
     },
     {
       "name": "EvilChicaItem",
@@ -10009,8 +10005,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Items"
+      }
     },
     {
       "name": "StatueFoxyItem",
@@ -10060,8 +10055,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Items"
+      }
     },
     {
       "name": "FoxySpawn",
@@ -10111,8 +10105,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Items"
+      }
     },
     {
       "name": "EvilFoxyItem",
@@ -10162,8 +10155,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Items"
+      }
     },
     {
       "name": "FreddyFazbearLoottable",
@@ -10353,8 +10345,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Items"
+      }
     },
     {
       "name": "BonnieSpawn",
@@ -10404,8 +10395,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Items"
+      }
     },
     {
       "name": "EvilBonnie",
@@ -10455,8 +10445,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Items"
+      }
     },
     {
       "name": "TheCroobler",
@@ -16996,8 +16985,7 @@
             "type": "itemstack"
           }
         ]
-      },
-      "path": "~/Items"
+      }
     },
     {
       "name": "UnWitheredFreddyHead",
@@ -21528,6 +21516,559 @@
         ]
       },
       "path": "~/Entities/DaytimeAnimatronics"
+    },
+    {
+      "name": "ToyFreddySpawnItem",
+      "type": "item",
+      "sortid": 1045,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toy_freddy_spawn_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/models/item/toy_freddy_spawn_item.json",
+          "src/main/java/net/mcreator/fnafmod/item/ToyFreddySpawnItemItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "ToyFreddySpawnItemRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 1046,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toy_freddy_spawn_item_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/procedures/ToyFreddySpawnItemRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ToyBonnieSpawnItem",
+      "type": "item",
+      "sortid": 1047,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toy_bonnie_spawn_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/models/item/toy_bonnie_spawn_item.json",
+          "src/main/java/net/mcreator/fnafmod/item/ToyBonnieSpawnItemItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "ToyBonnieSpawnItemRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 1048,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toy_bonnie_spawn_item_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/procedures/ToyBonnieSpawnItemRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ToyChicaSpawnItem",
+      "type": "item",
+      "sortid": 1049,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toy_chica_spawn_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/item/ToyChicaSpawnItemItem.java",
+          "src/main/resources/assets/fnaf_mod/models/item/toy_chica_spawn_item.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "ToyChicaSpawnItemRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 1050,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toy_chica_spawn_item_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/procedures/ToyChicaSpawnItemRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ToyFoxySpawnItem",
+      "type": "item",
+      "sortid": 1051,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toy_foxy_spawn_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/item/ToyFoxySpawnItemItem.java",
+          "src/main/resources/assets/fnaf_mod/models/item/toy_foxy_spawn_item.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "ToyFoxySpawnItemRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 1052,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toy_foxy_spawn_item_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/procedures/ToyFoxySpawnItemRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MangleSpawnItem",
+      "type": "item",
+      "sortid": 1053,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mangle_spawn_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/models/item/mangle_spawn_item.json",
+          "src/main/java/net/mcreator/fnafmod/item/MangleSpawnItemItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "MangleSpawnItemRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 1054,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mangle_spawn_item_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/procedures/MangleSpawnItemRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BBSpawnItem",
+      "type": "item",
+      "sortid": 1055,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bb_spawn_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/item/BBSpawnItemItem.java",
+          "src/main/resources/assets/fnaf_mod/models/item/bb_spawn_item.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "BBSpawnItemRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 1056,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bb_spawn_item_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/procedures/BBSpawnItemRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PuppetSpawnItem",
+      "type": "item",
+      "sortid": 1057,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "puppet_spawn_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/item/PuppetSpawnItemItem.java",
+          "src/main/resources/assets/fnaf_mod/models/item/puppet_spawn_item.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "PuppetSpawnItemRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 1058,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "puppet_spawn_item_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/procedures/PuppetSpawnItemRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WitheredFreddySpawnItem",
+      "type": "item",
+      "sortid": 1059,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "withered_freddy_spawn_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/models/item/withered_freddy_spawn_item.json",
+          "src/main/java/net/mcreator/fnafmod/item/WitheredFreddySpawnItemItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "WitheredFreddySpawnItemRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 1060,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "withered_freddy_spawn_item_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/procedures/WitheredFreddySpawnItemRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WitheredBonnieSpawnItem",
+      "type": "item",
+      "sortid": 1061,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "withered_bonnie_spawn_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/models/item/withered_bonnie_spawn_item.json",
+          "src/main/java/net/mcreator/fnafmod/item/WitheredBonnieSpawnItemItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "WitheredChicaSpawnItem",
+      "type": "item",
+      "sortid": 1062,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "withered_chica_spawn_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/item/WitheredChicaSpawnItemItem.java",
+          "src/main/resources/assets/fnaf_mod/models/item/withered_chica_spawn_item.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "WitheredFoxySpawnItem",
+      "type": "item",
+      "sortid": 1063,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "withered_foxy_spawn_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/item/WitheredFoxySpawnItemItem.java",
+          "src/main/resources/assets/fnaf_mod/models/item/withered_foxy_spawn_item.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "WitheredBonnieSpawnItemRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 1064,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "withered_bonnie_spawn_item_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/procedures/WitheredBonnieSpawnItemRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "WitheredChicaSpawnItemRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 1065,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "withered_chica_spawn_item_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/procedures/WitheredChicaSpawnItemRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "WitheredFoxySpawnItemRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 1066,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "withered_foxy_spawn_item_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/procedures/WitheredFoxySpawnItemRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items"
     }
   ],
   "variable_elements": [
@@ -22176,11 +22717,13 @@
       "block.fnaf_mod.alternate_white_black_wall_tile": "Alternate White Wall Tiles",
       "block.fnaf_mod.big_movie_wall_tile": "Big Movie Wall Tiles",
       "block.fnaf_mod.party_hat_blue": "Party Hat {Blue}",
+      "item.fnaf_mod.toy_bonnie_spawn_item": "Toy Bonnie",
       "item.fnaf_mod.crawling_toy_foxy_spawn_egg": "Crawling Toy Foxy Spawn Egg",
       "itemGroup.tabfnaf_blocks": "FNAF Blocks",
       "entity.fnaf_mod.endo_skeleton": "Endoskeleton",
       "subtitles.a2": "Honk",
       "gui.fnaf_mod.camera_gui.button_previous_page": "Previous Page",
+      "item.fnaf_mod.mangle_spawn_item": "Mangle",
       "item.fnaf_mod.glitchtrap_suit_helmet": "Spring Bonnie Costume Head",
       "item.fnaf_mod.bonnie_suit_chestplate": "Bonnie Body",
       "subtitles.showtimebitemarkremixbysynoxsis": "",
@@ -22232,6 +22775,7 @@
       "entity.fnaf_mod.crawling_toy_chica": "Crawling Toy Chica",
       "item.fnaf_mod.phantom_mangle_spawn_egg": "Phantom Mangle Spawn Egg",
       "item.fnaf_mod.foxy": "Drone Foxy",
+      "item.fnaf_mod.toy_chica_spawn_item": "Toy Chica",
       "item.fnaf_mod.springlocked_suit_helmet": "Springlocked Spring Bonnie Head",
       "entity.fnaf_mod.spring_locked_zombie_spring_bonnie": "Springlocked Zombie Spring Bonnie",
       "subtitles.e1": "Honk",
@@ -22403,6 +22947,7 @@
       "entity.fnaf_mod.standing_daytime_springtrap": "DayTime Springtrap Standing",
       "block.fnaf_mod.red_black_tile_stair": "Red Black Tile Stairs",
       "block.fnaf_mod.error_tile_stairs_cracked": "Cracked Missing Texture Tile Stairs",
+      "item.fnaf_mod.toy_freddy_spawn_item": "Toy Freddy",
       "block.fnaf_mod.big_stage_brick_tiles": "Big Etched Brick Tiles",
       "block.fnaf_mod.spring_bonnie_head": "Spring Bonnie Head",
       "entity.fnaf_mod.full_hostile_bonnie": "Bonnie The Bunny",
@@ -22556,6 +23101,7 @@
       "item.fnaf_mod.dont_go": "Music Disc",
       "item.fnaf_mod.evil_freddy_item_spawn": "Dark Remnant Infused Freddy",
       "block.fnaf_mod.un_withered_foxy_head": "Un-Withered Foxy Head",
+      "item.fnaf_mod.withered_freddy_spawn_item": "Withered Freddy",
       "item.fnaf_mod.springlocked_zombie_fredbear_spawn_egg": "Springlocked Zombie Fredbear Spawn Egg",
       "block.fnaf_mod.black_white_tile_cracked": "Cracked Black White Tile",
       "block.fnaf_mod.light_button_off": "Light Button Off",
@@ -22674,8 +23220,11 @@
       "block.fnaf_mod.structure_spawning_block_3": "Structure Spawning Block (Classic)",
       "block.fnaf_mod.structure_spawning_block_4": "Structure Spawning Block (Family Diner)",
       "item.fnaf_mod.paint_brush": "Paint Brush",
+      "item.fnaf_mod.toy_foxy_spawn_item": "Toy Foxy",
       "item.fnaf_mod.crawling_toy_chica_spawn_egg": "Crawling Toy Chica Spawn Egg",
+      "item.fnaf_mod.withered_chica_spawn_item": "Withered Chica",
       "gui.fnaf_mod.camera_gui.label_page_enbtintegerplus2": "Page: \u003cENBT:integer:plus2\u003e",
+      "item.fnaf_mod.bb_spawn_item": "BB",
       "entity.fnaf_mod.jack_o_bonnie": "Jack-O Bonnie",
       "block.fnaf_mod.fnaf_3_posters_3": "Fazbear\u0027s Fright Posters",
       "item.fnaf_mod.nightmare_foxy_statue_spawn_egg": "Nightmare Foxy Statue Spawn Egg",
@@ -22806,7 +23355,9 @@
       "block.fnaf_mod.thin_candy_curtain": "Thin Candy Curtain",
       "block.fnaf_mod.locker_top": "Locket Top",
       "item.fnaf_mod.chica_fabric": "Yellow Fabric",
+      "item.fnaf_mod.puppet_spawn_item": "Puppet",
       "block.fnaf_mod.balloon_purple": "Purple  Balloon",
+      "item.fnaf_mod.withered_foxy_spawn_item": "Withered Foxy",
       "itemGroup.tabfnaf_items": "FNAF Items",
       "entity.fnaf_mod.toy_foxy": "Toy Foxy",
       "block.fnaf_mod.party_hat_green": "Party Hat {Green}",
@@ -22823,6 +23374,7 @@
       "block.fnaf_mod.vent": "Vent",
       "item.fnaf_mod.bonnie_guitar": "Bonnie\u0027s Guitar",
       "block.fnaf_mod.fnaf_3_wall_tile": "Rancid Wall Tiles",
+      "item.fnaf_mod.withered_bonnie_spawn_item": "Withered Bonnie",
       "entity.fnaf_mod.sitting_daytime_springtrap": "DayTime SpringtrapSitting",
       "item.fnaf_mod.yellow_bear_suit_leggings": "Yellowbear Legs",
       "item.fnaf_mod.jack_o_chica_spawn_egg": "Jack-O Chica Spawn Egg",
