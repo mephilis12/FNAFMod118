@@ -42,7 +42,7 @@ import net.minecraft.network.syncher.EntityDataAccessor;
 import net.minecraft.network.protocol.Packet;
 import net.minecraft.nbt.CompoundTag;
 
-import net.mcreator.fnafmod.procedures.StatueFreddyRightClickedOnEntityProcedure;
+import net.mcreator.fnafmod.procedures.SittingWitheredBonnieRightClickedOnEntityProcedure;
 import net.mcreator.fnafmod.procedures.SittingWitheredBonnieOnEntityTickUpdateProcedure;
 import net.mcreator.fnafmod.procedures.SittingWitheredBonnieEntityDiesProcedure;
 import net.mcreator.fnafmod.procedures.DedwitheredfreddyOnInitialEntitySpawnProcedure;
@@ -140,7 +140,9 @@ public class SittingWitheredBonnieEntity extends Monster implements IAnimatable 
 	@Override
 	public SpawnGroupData finalizeSpawn(ServerLevelAccessor world, DifficultyInstance difficulty, MobSpawnType reason, @Nullable SpawnGroupData livingdata, @Nullable CompoundTag tag) {
 		SpawnGroupData retval = super.finalizeSpawn(world, difficulty, reason, livingdata, tag);
-		DedwitheredfreddyOnInitialEntitySpawnProcedure.execute(this);
+		DedwitheredfreddyOnInitialEntitySpawnProcedure.execute(
+
+		);
 		return retval;
 	}
 
@@ -155,14 +157,14 @@ public class SittingWitheredBonnieEntity extends Monster implements IAnimatable 
 		Entity entity = this;
 		Level world = this.level;
 
-		StatueFreddyRightClickedOnEntityProcedure.execute(entity, sourceentity);
+		SittingWitheredBonnieRightClickedOnEntityProcedure.execute(world, x, y, z, entity, sourceentity);
 		return retval;
 	}
 
 	@Override
 	public void baseTick() {
 		super.baseTick();
-		SittingWitheredBonnieOnEntityTickUpdateProcedure.execute(this.level, this.getX(), this.getY(), this.getZ(), this);
+		SittingWitheredBonnieOnEntityTickUpdateProcedure.execute(this.level, this);
 		this.refreshDimensions();
 	}
 

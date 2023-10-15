@@ -8,13 +8,11 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.effect.MobEffectInstance;
-import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.fnafmod.init.FnafModModEntities;
 import net.mcreator.fnafmod.init.FnafModModBlocks;
-import net.mcreator.fnafmod.entity.WitheredFoxyEntity;
 import net.mcreator.fnafmod.entity.DayTimeWitheredFoxyEntity;
 import net.mcreator.fnafmod.FnafModMod;
 
@@ -27,31 +25,25 @@ public class WitheredFoxyOnEntityTickUpdateProcedure {
 		double sx = 0;
 		double sy = 0;
 		double sz = 0;
-		if (world instanceof Level _lvl0 && _lvl0.isDay()) {
-			{
-				Entity _ent = entity;
-				_ent.teleportTo((entity.getPersistentData().getDouble("spawnX")), (entity.getPersistentData().getDouble("spawnY")), (entity.getPersistentData().getDouble("spawnZ")));
-				if (_ent instanceof ServerPlayer _serverPlayer)
-					_serverPlayer.connection.teleport((entity.getPersistentData().getDouble("spawnX")), (entity.getPersistentData().getDouble("spawnY")), (entity.getPersistentData().getDouble("spawnZ")), _ent.getYRot(), _ent.getXRot());
-			}
-			if (entity.getPersistentData().getDouble("FNAFTimer") == 0) {
-				if (entity instanceof WitheredFoxyEntity) {
-					if (!entity.level.isClientSide())
-						entity.discard();
-					if (world instanceof ServerLevel _level) {
-						Entity entityToSpawn = new DayTimeWitheredFoxyEntity(FnafModModEntities.DAY_TIME_WITHERED_FOXY.get(), _level);
-						entityToSpawn.moveTo(x, y, z, world.getRandom().nextFloat() * 360F, 0);
-						if (entityToSpawn instanceof Mob _mobToSpawn)
-							_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
-						world.addFreshEntity(entityToSpawn);
-					}
-				}
-			}
+		if (!(entity.getPersistentData().getString("GotCoordinates")).equals("true")) {
+			entity.getPersistentData().putDouble("spawnX", (entity.getX()));
+			entity.getPersistentData().putDouble("spawnY", (entity.getY()));
+			entity.getPersistentData().putDouble("spawnZ", (entity.getZ()));
+			entity.getPersistentData().putDouble("spawnYaw", (entity.getYRot()));
+			entity.getPersistentData().putString("GotCoordinates", "true");
 		}
-		if (entity.getPersistentData().getDouble("FNAFTimer") == 0) {
-			entity.getPersistentData().putDouble("FNAFTimer", 20);
-		} else {
-			entity.getPersistentData().putDouble("FNAFTimer", (entity.getPersistentData().getDouble("FNAFTimer") - 1));
+		if (world instanceof Level _lvl10 && _lvl10.isDay()) {
+			if (world instanceof ServerLevel _level) {
+				Entity entityToSpawn = new DayTimeWitheredFoxyEntity(FnafModModEntities.DAY_TIME_WITHERED_FOXY.get(), _level);
+				entityToSpawn.moveTo((entity.getPersistentData().getDouble("spawnX")), (entity.getPersistentData().getDouble("spawnY")), (entity.getPersistentData().getDouble("spawnZ")), (float) entity.getPersistentData().getDouble("spawnYaw"), 0);
+				entityToSpawn.setYBodyRot((float) entity.getPersistentData().getDouble("spawnYaw"));
+				entityToSpawn.setYHeadRot((float) entity.getPersistentData().getDouble("spawnYaw"));
+				if (entityToSpawn instanceof Mob _mobToSpawn)
+					_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
+				world.addFreshEntity(entityToSpawn);
+			}
+			if (!entity.level.isClientSide())
+				entity.discard();
 		}
 		sx = 0;
 		found = false;

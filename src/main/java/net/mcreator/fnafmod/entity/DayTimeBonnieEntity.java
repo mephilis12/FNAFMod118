@@ -38,7 +38,7 @@ import net.minecraft.network.syncher.EntityDataSerializers;
 import net.minecraft.network.syncher.EntityDataAccessor;
 import net.minecraft.network.protocol.Packet;
 
-import net.mcreator.fnafmod.procedures.StatueFreddyRightClickedOnEntityProcedure;
+import net.mcreator.fnafmod.procedures.DayTimeBonnieRightClickedOnEntityProcedure;
 import net.mcreator.fnafmod.procedures.DayTimeBonnieOnEntityTickUpdateProcedure;
 import net.mcreator.fnafmod.init.FnafModModItems;
 import net.mcreator.fnafmod.init.FnafModModEntities;
@@ -136,7 +136,7 @@ public class DayTimeBonnieEntity extends Monster implements IAnimatable {
 		Entity entity = this;
 		Level world = this.level;
 
-		StatueFreddyRightClickedOnEntityProcedure.execute(entity, sourceentity);
+		DayTimeBonnieRightClickedOnEntityProcedure.execute(world, x, y, z, entity, sourceentity);
 		return retval;
 	}
 

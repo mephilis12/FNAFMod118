@@ -51,7 +51,7 @@ import net.minecraft.network.protocol.Packet;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.fnafmod.procedures.StatueFreddyRightClickedOnEntityProcedure;
+import net.mcreator.fnafmod.procedures.MangleSittingRightClickedOnEntityProcedure;
 import net.mcreator.fnafmod.procedures.MangleSittingOnInitialEntitySpawnProcedure;
 import net.mcreator.fnafmod.procedures.MangleSittingEntityDiesProcedure;
 import net.mcreator.fnafmod.procedures.MangleOnEntityTickUpdateProcedure;
@@ -190,7 +190,7 @@ public class MangleSittingEntity extends PathfinderMob implements IAnimatable {
 		Entity entity = this;
 		Level world = this.level;
 
-		StatueFreddyRightClickedOnEntityProcedure.execute(entity, sourceentity);
+		MangleSittingRightClickedOnEntityProcedure.execute(world, x, y, z, entity, sourceentity);
 		return retval;
 	}
 

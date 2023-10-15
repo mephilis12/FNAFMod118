@@ -42,8 +42,8 @@ import net.minecraft.network.syncher.EntityDataAccessor;
 import net.minecraft.network.protocol.Packet;
 import net.minecraft.nbt.CompoundTag;
 
-import net.mcreator.fnafmod.procedures.StatueFreddyRightClickedOnEntityProcedure;
 import net.mcreator.fnafmod.procedures.DedwitheredfreddyOnInitialEntitySpawnProcedure;
+import net.mcreator.fnafmod.procedures.DayTimeWitheredFoxyRightClickedOnEntityProcedure;
 import net.mcreator.fnafmod.procedures.DayTimeWitheredFoxyOnEntityTickUpdateProcedure;
 import net.mcreator.fnafmod.procedures.DayTimeWitheredFoxyEntityDiesProcedure;
 import net.mcreator.fnafmod.init.FnafModModEntities;
@@ -140,7 +140,9 @@ public class DayTimeWitheredFoxyEntity extends Monster implements IAnimatable {
 	@Override
 	public SpawnGroupData finalizeSpawn(ServerLevelAccessor world, DifficultyInstance difficulty, MobSpawnType reason, @Nullable SpawnGroupData livingdata, @Nullable CompoundTag tag) {
 		SpawnGroupData retval = super.finalizeSpawn(world, difficulty, reason, livingdata, tag);
-		DedwitheredfreddyOnInitialEntitySpawnProcedure.execute(this);
+		DedwitheredfreddyOnInitialEntitySpawnProcedure.execute(
+
+		);
 		return retval;
 	}
 
@@ -155,14 +157,14 @@ public class DayTimeWitheredFoxyEntity extends Monster implements IAnimatable {
 		Entity entity = this;
 		Level world = this.level;
 
-		StatueFreddyRightClickedOnEntityProcedure.execute(entity, sourceentity);
+		DayTimeWitheredFoxyRightClickedOnEntityProcedure.execute(world, x, y, z, entity, sourceentity);
 		return retval;
 	}
 
 	@Override
 	public void baseTick() {
 		super.baseTick();
-		DayTimeWitheredFoxyOnEntityTickUpdateProcedure.execute(this.level, this.getX(), this.getY(), this.getZ(), this);
+		DayTimeWitheredFoxyOnEntityTickUpdateProcedure.execute(this.level, this);
 		this.refreshDimensions();
 	}
 

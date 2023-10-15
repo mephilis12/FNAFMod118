@@ -193,14 +193,16 @@ public class WitheredFreddyEntity extends PathfinderMob implements IAnimatable {
 	@Override
 	public SpawnGroupData finalizeSpawn(ServerLevelAccessor world, DifficultyInstance difficulty, MobSpawnType reason, @Nullable SpawnGroupData livingdata, @Nullable CompoundTag tag) {
 		SpawnGroupData retval = super.finalizeSpawn(world, difficulty, reason, livingdata, tag);
-		WitheredFreddyOnInitialEntitySpawnProcedure.execute(world, this);
+		WitheredFreddyOnInitialEntitySpawnProcedure.execute(
+
+		);
 		return retval;
 	}
 
 	@Override
 	public void baseTick() {
 		super.baseTick();
-		WitheredFreddyOnEntityTickUpdateProcedure.execute(this.level, this.getX(), this.getY(), this.getZ(), this);
+		WitheredFreddyOnEntityTickUpdateProcedure.execute(this.level, this);
 	}
 
 	@Override

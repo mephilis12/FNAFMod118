@@ -208,14 +208,16 @@ public class WitheredChicaEntity extends Monster implements IAnimatable {
 	@Override
 	public SpawnGroupData finalizeSpawn(ServerLevelAccessor world, DifficultyInstance difficulty, MobSpawnType reason, @Nullable SpawnGroupData livingdata, @Nullable CompoundTag tag) {
 		SpawnGroupData retval = super.finalizeSpawn(world, difficulty, reason, livingdata, tag);
-		WitheredFreddyOnInitialEntitySpawnProcedure.execute(world, this);
+		WitheredFreddyOnInitialEntitySpawnProcedure.execute(
+
+		);
 		return retval;
 	}
 
 	@Override
 	public void baseTick() {
 		super.baseTick();
-		WitheredChicaOnEntityTickUpdateProcedure.execute(this.level, this.getX(), this.getY(), this.getZ(), this);
+		WitheredChicaOnEntityTickUpdateProcedure.execute(this.level, this);
 	}
 
 	public static void init() {

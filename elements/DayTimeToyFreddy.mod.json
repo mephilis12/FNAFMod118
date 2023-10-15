@@ -103,7 +103,7 @@
       "name": "DayTimeToyFreddyEntityDies"
     },
     "onRightClickedOn": {
-      "name": "StatueFreddyRightClickedOnEntity"
+      "name": "DayTimeToyFreddyRightClickedOnEntity"
     },
     "onMobTickUpdate": {
       "name": "DayTimeToyFreddyOnEntityTickUpdate"

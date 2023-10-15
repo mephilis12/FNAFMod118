@@ -100,7 +100,7 @@
       "value": ""
     },
     "onRightClickedOn": {
-      "name": "StatueFreddyRightClickedOnEntity"
+      "name": "DayTimeFoxyRightClickedOnEntity"
     },
     "onMobTickUpdate": {
       "name": "DayTimeFoxyOnEntityTickUpdate"

@@ -51,8 +51,8 @@ import net.minecraft.nbt.CompoundTag;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.fnafmod.procedures.ToyFoxyEntityDiesProcedure;
-import net.mcreator.fnafmod.procedures.StatueFreddyRightClickedOnEntityProcedure;
 import net.mcreator.fnafmod.procedures.FreddyFazbearOnInitialEntitySpawnProcedure;
+import net.mcreator.fnafmod.procedures.DayTimeToyFoxyRightClickedOnEntityProcedure;
 import net.mcreator.fnafmod.procedures.DayTimeToyFoxyOnEntityTickUpdateProcedure;
 import net.mcreator.fnafmod.init.FnafModModEntities;
 
@@ -185,7 +185,7 @@ public class DayTimeToyFoxyEntity extends PathfinderMob implements IAnimatable {
 		Entity entity = this;
 		Level world = this.level;
 
-		StatueFreddyRightClickedOnEntityProcedure.execute(entity, sourceentity);
+		DayTimeToyFoxyRightClickedOnEntityProcedure.execute(world, x, y, z, entity, sourceentity);
 		return retval;
 	}
 

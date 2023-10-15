@@ -103,7 +103,7 @@
       "name": "DayTimePuppetEntityDies"
     },
     "onRightClickedOn": {
-      "name": "StatueFreddyRightClickedOnEntity"
+      "name": "DayTimePuppetRightClickedOnEntity"
     },
     "onMobTickUpdate": {
       "name": "DayTimePuppetOnEntityTickUpdate"

@@ -38,7 +38,7 @@ import net.minecraft.network.syncher.EntityDataSerializers;
 import net.minecraft.network.syncher.EntityDataAccessor;
 import net.minecraft.network.protocol.Packet;
 
-import net.mcreator.fnafmod.procedures.StatueFreddyRightClickedOnEntityProcedure;
+import net.mcreator.fnafmod.procedures.DaytimeChicaRightClickedOnEntityProcedure;
 import net.mcreator.fnafmod.procedures.DayTimeChicaOnEntityTickUpdateProcedure;
 import net.mcreator.fnafmod.procedures.DayTimeChicaEntityDiesProcedure;
 import net.mcreator.fnafmod.init.FnafModModItems;
@@ -143,7 +143,7 @@ public class DaytimeChicaEntity extends Monster implements IAnimatable {
 		Entity entity = this;
 		Level world = this.level;
 
-		StatueFreddyRightClickedOnEntityProcedure.execute(entity, sourceentity);
+		DaytimeChicaRightClickedOnEntityProcedure.execute(world, x, y, z, entity, sourceentity);
 		return retval;
 	}
 

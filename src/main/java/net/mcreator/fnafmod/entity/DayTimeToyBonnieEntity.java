@@ -51,7 +51,7 @@ import net.minecraft.network.protocol.Packet;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.fnafmod.procedures.StatueFreddyRightClickedOnEntityProcedure;
+import net.mcreator.fnafmod.procedures.DayTimeToyBonnieRightClickedOnEntityProcedure;
 import net.mcreator.fnafmod.procedures.DayTimeToyBonnieOnInitialEntitySpawnProcedure;
 import net.mcreator.fnafmod.procedures.DayTimeToyBonnieOnEntityTickUpdateProcedure;
 import net.mcreator.fnafmod.procedures.DayTimeToyBonnieEntityDiesProcedure;
@@ -186,7 +186,7 @@ public class DayTimeToyBonnieEntity extends PathfinderMob implements IAnimatable
 		Entity entity = this;
 		Level world = this.level;
 
-		StatueFreddyRightClickedOnEntityProcedure.execute(entity, sourceentity);
+		DayTimeToyBonnieRightClickedOnEntityProcedure.execute(world, x, y, z, entity, sourceentity);
 		return retval;
 	}
 

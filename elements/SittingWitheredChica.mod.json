@@ -103,7 +103,7 @@
       "name": "SittingWitheredChicaEntityDies"
     },
     "onRightClickedOn": {
-      "name": "StatueFreddyRightClickedOnEntity"
+      "name": "SittingWitheredChicaRightClickedOnEntity"
     },
     "onMobTickUpdate": {
       "name": "SittingWitheredChicaOnEntityTickUpdate"

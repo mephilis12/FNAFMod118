@@ -2435,16 +2435,7 @@
         "files": [
           "src/main/java/net/mcreator/fnafmod/procedures/WitheredFreddyOnInitialEntitySpawnProcedure.java"
         ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
+        "dependencies": []
       },
       "path": "~/Code Stuff"
     },
@@ -2459,16 +2450,7 @@
         "files": [
           "src/main/java/net/mcreator/fnafmod/procedures/WitheredFoxyOnInitialEntitySpawnProcedure.java"
         ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
+        "dependencies": []
       },
       "path": "~/Code Stuff"
     },
@@ -3120,18 +3102,6 @@
             "type": "entity"
           },
           {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
             "name": "world",
             "type": "world"
           }
@@ -3154,18 +3124,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
           },
           {
             "name": "world",
@@ -3192,18 +3150,6 @@
             "type": "entity"
           },
           {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
             "name": "world",
             "type": "world"
           }
@@ -3226,18 +3172,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
           },
           {
             "name": "world",
@@ -3264,18 +3198,6 @@
             "type": "entity"
           },
           {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
             "name": "world",
             "type": "world"
           }
@@ -3298,18 +3220,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
           },
           {
             "name": "world",
@@ -3394,12 +3304,7 @@
         "files": [
           "src/main/java/net/mcreator/fnafmod/procedures/DedwitheredfreddyOnInitialEntitySpawnProcedure.java"
         ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
+        "dependencies": []
       },
       "path": "~/Code Stuff"
     },
@@ -5522,18 +5427,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
           },
           {
             "name": "world",
@@ -9492,8 +9385,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Entities/NighttimeAnimatronics/FNAF2"
+      }
     },
     {
       "name": "FreddySpawnItem",
@@ -9543,7 +9435,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Code Stuff"
     },
     {
       "name": "EvilFreddyItemSpawn",
@@ -9593,7 +9486,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Code Stuff"
     },
     {
       "name": "RemnantInfuserRecipes",
@@ -9920,7 +9814,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Code Stuff"
     },
     {
       "name": "ChicaSpawnItemCode",
@@ -9955,7 +9850,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Code Stuff"
     },
     {
       "name": "EvilChicaItem",
@@ -10005,7 +9901,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Code Stuff"
     },
     {
       "name": "StatueFoxyItem",
@@ -10055,7 +9952,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Code Stuff"
     },
     {
       "name": "FoxySpawn",
@@ -10105,7 +10003,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Code Stuff"
     },
     {
       "name": "EvilFoxyItem",
@@ -10155,7 +10054,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Code Stuff"
     },
     {
       "name": "FreddyFazbearLoottable",
@@ -10345,7 +10245,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Code Stuff"
     },
     {
       "name": "BonnieSpawn",
@@ -10395,7 +10296,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Code Stuff"
     },
     {
       "name": "EvilBonnie",
@@ -10445,7 +10347,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Code Stuff"
     },
     {
       "name": "TheCroobler",
@@ -11132,8 +11035,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/Entities/NighttimeAnimatronics/FNAF2"
+      }
     },
     {
       "name": "JJPlayerCollidesWithThisEntity",
@@ -11156,8 +11058,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/Entities/NighttimeAnimatronics/FNAF2"
+      }
     },
     {
       "name": "FoxyPiratePlayerCollidesWithThisEntity",
@@ -11176,8 +11077,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/Entities/NighttimeAnimatronics/FNAF2"
+      }
     },
     {
       "name": "SpringtrapTickUpdate",
@@ -11343,8 +11243,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Entities/NighttimeAnimatronics"
+      }
     },
     {
       "name": "ChildrenDrawings5",
@@ -12963,8 +12862,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Entities/NighttimeAnimatronics"
+      }
     },
     {
       "name": "MangleSittingEntityDies",
@@ -14467,8 +14365,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Entities/NighttimeAnimatronics"
+      }
     },
     {
       "name": "PlushFreddy",
@@ -16985,7 +16882,8 @@
             "type": "itemstack"
           }
         ]
-      }
+      },
+      "path": "~/Code Stuff"
     },
     {
       "name": "UnWitheredFreddyHead",
@@ -17411,8 +17309,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Entities/NighttimeAnimatronics"
+      }
     },
     {
       "name": "SittingNightmareBBOnEntityTickUpdate",
@@ -17447,8 +17344,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Entities/NighttimeAnimatronics"
+      }
     },
     {
       "name": "PlushtrapToy",
@@ -21565,7 +21461,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Code Stuff"
     },
     {
       "name": "ToyBonnieSpawnItem",
@@ -21615,7 +21512,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Code Stuff"
     },
     {
       "name": "ToyChicaSpawnItem",
@@ -21665,7 +21563,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Code Stuff"
     },
     {
       "name": "ToyFoxySpawnItem",
@@ -21715,7 +21614,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Code Stuff"
     },
     {
       "name": "MangleSpawnItem",
@@ -21765,7 +21665,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Code Stuff"
     },
     {
       "name": "BBSpawnItem",
@@ -21815,7 +21716,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Code Stuff"
     },
     {
       "name": "PuppetSpawnItem",
@@ -21865,7 +21767,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Code Stuff"
     },
     {
       "name": "WitheredFreddySpawnItem",
@@ -21915,7 +21818,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Code Stuff"
     },
     {
       "name": "WitheredBonnieSpawnItem",
@@ -22069,6 +21973,606 @@
         ]
       },
       "path": "~/Items"
+    },
+    {
+      "name": "DedWitheredFreddyRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 1067,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ded_withered_freddy_right_clicked_on_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/procedures/DedWitheredFreddyRightClickedOnEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entities/DaytimeAnimatronics"
+    },
+    {
+      "name": "DayTimeWitheredFoxyRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 1068,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "day_time_withered_foxy_right_clicked_on_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/procedures/DayTimeWitheredFoxyRightClickedOnEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entities/DaytimeAnimatronics"
+    },
+    {
+      "name": "SittingWitheredBonnieRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 1069,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sitting_withered_bonnie_right_clicked_on_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/procedures/SittingWitheredBonnieRightClickedOnEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entities/DaytimeAnimatronics"
+    },
+    {
+      "name": "SittingWitheredChicaRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 1070,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sitting_withered_chica_right_clicked_on_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/procedures/SittingWitheredChicaRightClickedOnEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entities/DaytimeAnimatronics"
+    },
+    {
+      "name": "DayTimeFreddyRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 1071,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "day_time_freddy_right_clicked_on_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/procedures/DayTimeFreddyRightClickedOnEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entities/DaytimeAnimatronics"
+    },
+    {
+      "name": "DaytimeChicaRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 1072,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "daytime_chica_right_clicked_on_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/procedures/DaytimeChicaRightClickedOnEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entities/DaytimeAnimatronics"
+    },
+    {
+      "name": "DayTimeBonnieRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 1073,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "day_time_bonnie_right_clicked_on_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/procedures/DayTimeBonnieRightClickedOnEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entities/DaytimeAnimatronics"
+    },
+    {
+      "name": "DayTimeFoxyRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 1074,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "day_time_foxy_right_clicked_on_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/procedures/DayTimeFoxyRightClickedOnEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entities/DaytimeAnimatronics"
+    },
+    {
+      "name": "ToyChicaRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 1075,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toy_chica_right_clicked_on_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/procedures/ToyChicaRightClickedOnEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entities/DaytimeAnimatronics"
+    },
+    {
+      "name": "MangleSittingRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 1076,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mangle_sitting_right_clicked_on_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/procedures/MangleSittingRightClickedOnEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entities/DaytimeAnimatronics"
+    },
+    {
+      "name": "DayTimeToyFreddyRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 1077,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "day_time_toy_freddy_right_clicked_on_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/procedures/DayTimeToyFreddyRightClickedOnEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entities/DaytimeAnimatronics"
+    },
+    {
+      "name": "DayTimeToyBonnieRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 1078,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "day_time_toy_bonnie_right_clicked_on_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/procedures/DayTimeToyBonnieRightClickedOnEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entities/DaytimeAnimatronics"
+    },
+    {
+      "name": "DayTimeToyFoxyRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 1079,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "day_time_toy_foxy_right_clicked_on_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/procedures/DayTimeToyFoxyRightClickedOnEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entities/DaytimeAnimatronics"
+    },
+    {
+      "name": "DayTimePuppetRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 1080,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "day_time_puppet_right_clicked_on_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/procedures/DayTimePuppetRightClickedOnEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entities/DaytimeAnimatronics"
+    },
+    {
+      "name": "DayTimeBBRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 1081,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "day_time_bb_right_clicked_on_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/procedures/DayTimeBBRightClickedOnEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entities/DaytimeAnimatronics"
     }
   ],
   "variable_elements": [

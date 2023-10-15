@@ -6,6 +6,12 @@
     "mobLabel": "",
     "mobModelTexture": "witheredfreddytexture.png",
     "mobModelGlowTexture": "",
+    "visualScale": {
+      "fixedValue": 1.0
+    },
+    "boundingBoxScale": {
+      "fixedValue": 1.0
+    },
     "modelWidth": 0.6,
     "modelHeight": 0.8,
     "modelShadowSize": 0.5,
@@ -97,7 +103,7 @@
       "name": "DedwitheredfreddyEntityDies"
     },
     "onRightClickedOn": {
-      "name": "StatueFreddyRightClickedOnEntity"
+      "name": "DedWitheredFreddyRightClickedOnEntity"
     },
     "onMobTickUpdate": {
       "name": "DedwitheredfreddyOnEntityTickUpdate"

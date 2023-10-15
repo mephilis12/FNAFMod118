@@ -103,7 +103,7 @@
       "name": "DayTimeWitheredFoxyEntityDies"
     },
     "onRightClickedOn": {
-      "name": "StatueFreddyRightClickedOnEntity"
+      "name": "DayTimeWitheredFoxyRightClickedOnEntity"
     },
     "onMobTickUpdate": {
       "name": "DayTimeWitheredFoxyOnEntityTickUpdate"

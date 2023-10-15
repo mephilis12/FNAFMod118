@@ -103,7 +103,7 @@
       "name": "MangleSittingEntityDies"
     },
     "onRightClickedOn": {
-      "name": "StatueFreddyRightClickedOnEntity"
+      "name": "MangleSittingRightClickedOnEntity"
     },
     "onMobTickUpdate": {
       "name": "MangleOnEntityTickUpdate"

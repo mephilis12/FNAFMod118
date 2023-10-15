@@ -100,7 +100,7 @@
       "value": "CUSTOM:animatronic_step"
     },
     "onRightClickedOn": {
-      "name": "StatueFreddyRightClickedOnEntity"
+      "name": "ToyChicaRightClickedOnEntity"
     },
     "onMobTickUpdate": {
       "name": "ToyChicaOnEntityTickUpdate"

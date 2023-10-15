@@ -103,7 +103,7 @@
       "name": "DayTimeBBEntityDies"
     },
     "onRightClickedOn": {
-      "name": "StatueFreddyRightClickedOnEntity"
+      "name": "DayTimeBBRightClickedOnEntity"
     },
     "onMobTickUpdate": {
       "name": "DayTimeBBOnEntityTickUpdate"

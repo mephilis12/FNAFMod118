@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "plush_suit_BB",
+    "texture": "plush_suit_bb",
     "customModelName": "Normal",
     "name": "BB",
     "rarity": "COMMON",
