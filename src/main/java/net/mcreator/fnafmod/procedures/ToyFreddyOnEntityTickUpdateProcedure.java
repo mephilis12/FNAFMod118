@@ -14,19 +14,20 @@ public class ToyFreddyOnEntityTickUpdateProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {
 		if (entity == null)
 			return;
-		if (!(entity.getPersistentData().getString("GotCoordinates")).equals("true")) {
-			entity.getPersistentData().putDouble("spawnX", (entity.getX()));
-			entity.getPersistentData().putDouble("spawnY", (entity.getY()));
-			entity.getPersistentData().putDouble("spawnZ", (entity.getZ()));
-			entity.getPersistentData().putDouble("spawnYaw", (entity.getYRot()));
-			entity.getPersistentData().putString("GotCoordinates", "true");
+		if (!(entity.getPersistentData().getString("GotCoordinates2")).equals("true")) {
+			entity.getPersistentData().putDouble("spawnX2", (entity.getX()));
+			entity.getPersistentData().putDouble("spawnY2", (entity.getY()));
+			entity.getPersistentData().putDouble("spawnZ2", (entity.getZ()));
+			entity.getPersistentData().putDouble("spawnYaw2", (entity.getYRot()));
+			entity.getPersistentData().putString("GotCoordinates2", "true");
 		}
 		if (world instanceof Level _lvl10 && _lvl10.isDay()) {
 			if (world instanceof ServerLevel _level) {
 				Entity entityToSpawn = new DayTimeToyFreddyEntity(FnafModModEntities.DAY_TIME_TOY_FREDDY.get(), _level);
-				entityToSpawn.moveTo((entity.getPersistentData().getDouble("spawnX")), (entity.getPersistentData().getDouble("spawnY")), (entity.getPersistentData().getDouble("spawnZ")), (float) entity.getPersistentData().getDouble("spawnYaw"), 0);
-				entityToSpawn.setYBodyRot((float) entity.getPersistentData().getDouble("spawnYaw"));
-				entityToSpawn.setYHeadRot((float) entity.getPersistentData().getDouble("spawnYaw"));
+				entityToSpawn.moveTo((entity.getPersistentData().getDouble("spawnX2")), (entity.getPersistentData().getDouble("spawnY2")), (entity.getPersistentData().getDouble("spawnZ2")), (float) entity.getPersistentData().getDouble("spawnYaw2"),
+						0);
+				entityToSpawn.setYBodyRot((float) entity.getPersistentData().getDouble("spawnYaw2"));
+				entityToSpawn.setYHeadRot((float) entity.getPersistentData().getDouble("spawnYaw2"));
 				if (entityToSpawn instanceof Mob _mobToSpawn)
 					_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
 				world.addFreshEntity(entityToSpawn);

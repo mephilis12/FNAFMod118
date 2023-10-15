@@ -12,7 +12,7 @@ import net.minecraft.core.BlockPos;
 
 import net.mcreator.fnafmod.init.FnafModModEntities;
 import net.mcreator.fnafmod.init.FnafModModBlocks;
-import net.mcreator.fnafmod.entity.MangleEntity;
+import net.mcreator.fnafmod.entity.MangleSittingEntity;
 import net.mcreator.fnafmod.entity.CrawlingMangleEntity;
 
 import java.util.Comparator;
@@ -30,7 +30,7 @@ public class MangleOnEntityTickUpdateProcedure {
 		}
 		if (world instanceof Level _lvl10 && _lvl10.isDay()) {
 			if (world instanceof ServerLevel _level) {
-				Entity entityToSpawn = new MangleEntity(FnafModModEntities.MANGLE.get(), _level);
+				Entity entityToSpawn = new MangleSittingEntity(FnafModModEntities.MANGLE_SITTING.get(), _level);
 				entityToSpawn.moveTo((entity.getPersistentData().getDouble("spawnX")), (entity.getPersistentData().getDouble("spawnY")), (entity.getPersistentData().getDouble("spawnZ")), (float) entity.getPersistentData().getDouble("spawnYaw"), 0);
 				entityToSpawn.setYBodyRot((float) entity.getPersistentData().getDouble("spawnYaw"));
 				entityToSpawn.setYHeadRot((float) entity.getPersistentData().getDouble("spawnYaw"));

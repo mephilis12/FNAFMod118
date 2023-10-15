@@ -21,7 +21,7 @@ public class DayTimeToyFoxyOnEntityTickUpdateProcedure {
 			entity.getPersistentData().putDouble("spawnYaw", (entity.getYRot()));
 			entity.getPersistentData().putString("GotCoordinates", "true");
 		}
-		if (world instanceof Level _lvl10 && _lvl10.isDay()) {
+		if (!(world instanceof Level _lvl10 && _lvl10.isDay())) {
 			if (world instanceof ServerLevel _level) {
 				Entity entityToSpawn = new ToyFoxyEntity(FnafModModEntities.TOY_FOXY.get(), _level);
 				entityToSpawn.moveTo((entity.getPersistentData().getDouble("spawnX")), (entity.getPersistentData().getDouble("spawnY")), (entity.getPersistentData().getDouble("spawnZ")), (float) entity.getPersistentData().getDouble("spawnYaw"), 0);
