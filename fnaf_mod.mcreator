@@ -12576,8 +12576,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Entities/DaytimeAnimatronics"
+      }
     },
     {
       "name": "SittingWitheredChicaEntityDies",
@@ -12608,8 +12607,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Entities/DaytimeAnimatronics"
+      }
     },
     {
       "name": "SittingWitheredBonnieEntityDies",
@@ -12640,8 +12638,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Entities/DaytimeAnimatronics"
+      }
     },
     {
       "name": "DayTimeWitheredFoxyEntityDies",
@@ -12672,8 +12669,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Entities/DaytimeAnimatronics"
+      }
     },
     {
       "name": "DayTimeChicaEntityDies",
@@ -12704,8 +12700,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Entities/DaytimeAnimatronics"
+      }
     },
     {
       "name": "ToyFreddyLootTable",
@@ -12893,8 +12888,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Entities/DaytimeAnimatronics"
+      }
     },
     {
       "name": "DayTimePuppetEntityDies",
@@ -12925,8 +12919,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Entities/DaytimeAnimatronics"
+      }
     },
     {
       "name": "DayTimeBBEntityDies",
@@ -12957,8 +12950,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Entities/DaytimeAnimatronics"
+      }
     },
     {
       "name": "SittingDaytimeSpringtrapEntityDies",
@@ -12989,8 +12981,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Entities/DaytimeAnimatronics"
+      }
     },
     {
       "name": "DayTimeToyBonnieEntityDies",
@@ -13021,8 +13012,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Entities/DaytimeAnimatronics"
+      }
     },
     {
       "name": "DayTimeToyFreddyEntityDies",
@@ -13053,8 +13043,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Entities/DaytimeAnimatronics"
+      }
     },
     {
       "name": "SpringlockedZombieFredbearEntityDies",

@@ -106,7 +106,7 @@
       "name": "MangleSittingRightClickedOnEntity"
     },
     "onMobTickUpdate": {
-      "name": "MangleOnEntityTickUpdate"
+      "name": "MangleSittingOnEntityTickUpdate"
     },
     "onInitialSpawn": {
       "name": "MangleSittingOnInitialEntitySpawn"

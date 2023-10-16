@@ -53,8 +53,8 @@ import net.minecraft.core.BlockPos;
 
 import net.mcreator.fnafmod.procedures.MangleSittingRightClickedOnEntityProcedure;
 import net.mcreator.fnafmod.procedures.MangleSittingOnInitialEntitySpawnProcedure;
+import net.mcreator.fnafmod.procedures.MangleSittingOnEntityTickUpdateProcedure;
 import net.mcreator.fnafmod.procedures.MangleSittingEntityDiesProcedure;
-import net.mcreator.fnafmod.procedures.MangleOnEntityTickUpdateProcedure;
 import net.mcreator.fnafmod.init.FnafModModEntities;
 
 import javax.annotation.Nullable;
@@ -197,7 +197,7 @@ public class MangleSittingEntity extends PathfinderMob implements IAnimatable {
 	@Override
 	public void baseTick() {
 		super.baseTick();
-		MangleOnEntityTickUpdateProcedure.execute(this.level, this.getX(), this.getY(), this.getZ(), this);
+		MangleSittingOnEntityTickUpdateProcedure.execute(this.level, this);
 		this.refreshDimensions();
 	}
 
