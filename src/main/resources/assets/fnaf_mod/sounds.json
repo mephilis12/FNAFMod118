@@ -445,5 +445,22 @@
         "stream": false
       }
     ]
+  },
+  "springtrapstep": {
+    "subtitle": "subtitles.springtrapstep",
+    "sounds": [
+      {
+        "name": "fnaf_mod:footstep1",
+        "stream": false
+      },
+      {
+        "name": "fnaf_mod:footstep3",
+        "stream": false
+      },
+      {
+        "name": "fnaf_mod:footstep2",
+        "stream": false
+      }
+    ]
   }
 }

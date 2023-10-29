@@ -123,7 +123,7 @@ public class SpringtrapEntity extends Monster implements IAnimatable {
 
 	@Override
 	public void playStepSound(BlockPos pos, BlockState blockIn) {
-		this.playSound(ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("fnaf_mod:animatronic_step")), 0.15f, 1);
+		this.playSound(ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("fnaf_mod:springtrapstep")), 0.15f, 1);
 	}
 
 	@Override
@@ -182,7 +182,7 @@ public class SpringtrapEntity extends Monster implements IAnimatable {
 
 	public static AttributeSupplier.Builder createAttributes() {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
-		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.3);
+		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.2);
 		builder = builder.add(Attributes.MAX_HEALTH, 70);
 		builder = builder.add(Attributes.ARMOR, 0);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 30);
@@ -196,7 +196,7 @@ public class SpringtrapEntity extends Monster implements IAnimatable {
 			if ((event.isMoving() || !(event.getLimbSwingAmount() > -0.15F && event.getLimbSwingAmount() < 0.15F))
 
 			) {
-				event.getController().setAnimation(new AnimationBuilder().addAnimation("animation.springtrap.sprinting", EDefaultLoopTypes.LOOP));
+				event.getController().setAnimation(new AnimationBuilder().addAnimation("animation.springtrap.walk", EDefaultLoopTypes.LOOP));
 				return PlayState.CONTINUE;
 			}
 			event.getController().setAnimation(new AnimationBuilder().addAnimation("animation.springtrap.idle", EDefaultLoopTypes.LOOP));

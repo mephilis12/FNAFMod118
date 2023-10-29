@@ -60,4 +60,5 @@ public class FnafModModSounds {
 	public static final RegistryObject<SoundEvent> NEVERBEALONE = REGISTRY.register("neverbealone", () -> new SoundEvent(new ResourceLocation("fnaf_mod", "neverbealone")));
 	public static final RegistryObject<SoundEvent> AK_SOUND = REGISTRY.register("ak-sound", () -> new SoundEvent(new ResourceLocation("fnaf_mod", "ak-sound")));
 	public static final RegistryObject<SoundEvent> AKRELOAD = REGISTRY.register("akreload", () -> new SoundEvent(new ResourceLocation("fnaf_mod", "akreload")));
+	public static final RegistryObject<SoundEvent> SPRINGTRAPSTEP = REGISTRY.register("springtrapstep", () -> new SoundEvent(new ResourceLocation("fnaf_mod", "springtrapstep")));
 }

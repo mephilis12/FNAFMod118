@@ -54,7 +54,7 @@
     "attackStrength": 30,
     "attackKnockback": 0.0,
     "knockbackResistance": 2.0,
-    "movementSpeed": 0.3,
+    "movementSpeed": 0.19999999999999998,
     "armorBaseValue": 0.0,
     "trackingRange": 64,
     "followRange": 16,
@@ -97,7 +97,7 @@
       "value": "block.anvil.destroy"
     },
     "stepSound": {
-      "value": "CUSTOM:animatronic_step"
+      "value": "CUSTOM:springtrapstep"
     },
     "whenMobIsHurt": {
       "name": "SpringtrapEntityIsHurt"
@@ -114,7 +114,7 @@
     "model": "springtrap.geo.json",
     "groupName": "Head",
     "animation1": "animation.springtrap.idle",
-    "animation2": "animation.springtrap.sprinting",
+    "animation2": "animation.springtrap.walk",
     "animation3": "",
     "animation4": "",
     "animation5": "",
