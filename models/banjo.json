@@ -1,0 +1,122 @@
+{
+	"texture_size": [64, 64],
+	"textures": {
+		"1": "banjo"
+	},
+	"elements": [
+		{
+			"name": "Banjo",
+			"from": [3.25, 0, 0.25],
+			"to": [13.25, 3, 10.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6.25, 6, 1]},
+			"faces": {
+				"north": {"uv": [0, 0.75, 0.75, 3.25], "rotation": 270, "texture": "#1"},
+				"east": {"uv": [3.25, 0.75, 0.75, 0], "texture": "#1"},
+				"south": {"uv": [3.25, 0.75, 4, 3.25], "rotation": 90, "texture": "#1"},
+				"west": {"uv": [5.75, 0, 3.25, 0.75], "rotation": 180, "texture": "#1"},
+				"up": {"uv": [0.75, 0.75, 3.25, 3.25], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [4, 0.75, 6.5, 3.25], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "Banjo",
+			"from": [7.25, 1, 10.25],
+			"to": [9.25, 2, 13.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6.25, 6, 1]},
+			"faces": {
+				"north": {"uv": [0, 5.75, 0.25, 6.25], "rotation": 270, "texture": "#1"},
+				"east": {"uv": [1, 5.75, 0.25, 5.5], "texture": "#1"},
+				"south": {"uv": [1, 5.75, 1.25, 6.25], "rotation": 90, "texture": "#1"},
+				"west": {"uv": [1.75, 5.5, 1, 5.75], "rotation": 180, "texture": "#1"},
+				"up": {"uv": [0.25, 5.75, 1, 6.25], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [1.25, 5.75, 2, 6.25], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "Banjo",
+			"from": [7.25, 2, 10.25],
+			"to": [9.25, 3, 26.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6.25, 6, 1]},
+			"faces": {
+				"north": {"uv": [0, 3.5, 0.25, 4], "rotation": 270, "texture": "#1"},
+				"east": {"uv": [4.25, 3.5, 0.25, 3.25], "texture": "#1"},
+				"south": {"uv": [4.25, 3.5, 4.5, 4], "rotation": 90, "texture": "#1"},
+				"west": {"uv": [8.25, 3.25, 4.25, 3.5], "rotation": 180, "texture": "#1"},
+				"up": {"uv": [0.25, 3.5, 4.25, 4], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [4.5, 3.5, 8.5, 4], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "Banjo",
+			"from": [5.25, 2.5, 20.25],
+			"to": [11.25, 2.5, 31.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6.25, 6, 1]},
+			"faces": {
+				"north": {"uv": [0, 4, 0, 5.5], "rotation": 270, "texture": "#1"},
+				"east": {"uv": [2.75, 4, 0, 4], "texture": "#1"},
+				"south": {"uv": [2.75, 4, 2.75, 5.5], "rotation": 90, "texture": "#1"},
+				"west": {"uv": [5.5, 4, 2.75, 4], "rotation": 180, "texture": "#1"},
+				"up": {"uv": [0, 4, 2.75, 5.5], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [2.75, 4, 5.5, 5.5], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "Banjo",
+			"from": [6.25, 2, 26.25],
+			"to": [10.25, 3, 31.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6.25, 6, 1]},
+			"faces": {
+				"north": {"uv": [5.25, 5.5, 5.5, 6.5], "rotation": 270, "texture": "#1"},
+				"east": {"uv": [6.75, 5.5, 5.5, 5.25], "texture": "#1"},
+				"south": {"uv": [6.75, 5.5, 7, 6.5], "rotation": 90, "texture": "#1"},
+				"west": {"uv": [8, 5.25, 6.75, 5.5], "rotation": 180, "texture": "#1"},
+				"up": {"uv": [5.5, 5.5, 6.75, 6.5], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [7, 5.5, 8.25, 6.5], "rotation": 90, "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -67.5, 0],
+			"translation": [-1.5, 7, -3]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, -67.5, 0],
+			"translation": [-1.5, 7, -3]
+		},
+		"firstperson_righthand": {
+			"rotation": [-86, -67.5, 0],
+			"translation": [0, -0.75, -2]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-86, -67.5, 0],
+			"translation": [0, -0.75, -2]
+		},
+		"ground": {
+			"translation": [0, -1.25, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [30, 157.5, 0],
+			"translation": [-0.5, 1.75, 0],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"head": {
+			"rotation": [89.48, 84.25, 179.52],
+			"translation": [3.5, 5, -4.25]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [-1, -29, -15],
+			"scale": [2, 2, 2]
+		}
+	},
+	"groups": [
+		{
+			"name": "Banjo",
+			"origin": [5.3, 6, 0.9],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4]
+		}
+	]
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "fnaf_mod:custom/pizza_cutter",
+  "textures": {
+    "0": "fnaf_mod:blocks/pizzacutter",
+    "particle": "fnaf_mod:items/pizzacutter"
+  }
+}

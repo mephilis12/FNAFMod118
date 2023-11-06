@@ -44,6 +44,7 @@ import net.mcreator.fnafmod.item.RemnantItem;
 import net.mcreator.fnafmod.item.RedPlasticItem;
 import net.mcreator.fnafmod.item.PuppetSpawnItemItem;
 import net.mcreator.fnafmod.item.PizzaSliceItem;
+import net.mcreator.fnafmod.item.PizzaCutterItem;
 import net.mcreator.fnafmod.item.PitBonnieSuitItem;
 import net.mcreator.fnafmod.item.PinkPlasticItem;
 import net.mcreator.fnafmod.item.PaintBrushItem;
@@ -55,6 +56,7 @@ import net.mcreator.fnafmod.item.MangleSpawnItemItem;
 import net.mcreator.fnafmod.item.MATItem;
 import net.mcreator.fnafmod.item.LightBluePlasticItem;
 import net.mcreator.fnafmod.item.ItsBeenSoLongItem;
+import net.mcreator.fnafmod.item.HookItem;
 import net.mcreator.fnafmod.item.HappiestDayItem;
 import net.mcreator.fnafmod.item.GuardHatItem;
 import net.mcreator.fnafmod.item.GlitchtrapSuitItem;
@@ -95,6 +97,7 @@ import net.mcreator.fnafmod.item.BonnieGuitarItem;
 import net.mcreator.fnafmod.item.BonnieFabricItem;
 import net.mcreator.fnafmod.item.BlackPlasticItem;
 import net.mcreator.fnafmod.item.BatteryItem;
+import net.mcreator.fnafmod.item.BanjoItem;
 import net.mcreator.fnafmod.item.BBSpawnItemItem;
 import net.mcreator.fnafmod.block.display.UnWitheredFreddyHeadDisplayItem;
 import net.mcreator.fnafmod.block.display.UnWitheredFoxyHeadDisplayItem;
@@ -761,6 +764,9 @@ public class FnafModModItems {
 	public static final RegistryObject<Item> WITHERED_BONNIE_SPAWN_ITEM = REGISTRY.register("withered_bonnie_spawn_item", () -> new WitheredBonnieSpawnItemItem());
 	public static final RegistryObject<Item> WITHERED_CHICA_SPAWN_ITEM = REGISTRY.register("withered_chica_spawn_item", () -> new WitheredChicaSpawnItemItem());
 	public static final RegistryObject<Item> WITHERED_FOXY_SPAWN_ITEM = REGISTRY.register("withered_foxy_spawn_item", () -> new WitheredFoxySpawnItemItem());
+	public static final RegistryObject<Item> BANJO = REGISTRY.register("banjo", () -> new BanjoItem());
+	public static final RegistryObject<Item> HOOK = REGISTRY.register("hook", () -> new HookItem());
+	public static final RegistryObject<Item> PIZZA_CUTTER = REGISTRY.register("pizza_cutter", () -> new PizzaCutterItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
