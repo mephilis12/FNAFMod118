@@ -79,7 +79,7 @@ public class FredbearsChicaEntity extends PathfinderMob implements IAnimatable {
 		super.defineSynchedData();
 		this.entityData.define(SHOOT, false);
 		this.entityData.define(ANIMATION, "undefined");
-		this.entityData.define(TEXTURE, "unwithered_chica");
+		this.entityData.define(TEXTURE, "dinerchica");
 	}
 
 	public void setTexture(String texture) {
@@ -181,13 +181,7 @@ public class FredbearsChicaEntity extends PathfinderMob implements IAnimatable {
 
 	private <E extends IAnimatable> PlayState movementPredicate(AnimationEvent<E> event) {
 		if (this.animationprocedure.equals("empty")) {
-			if ((event.isMoving() || !(event.getLimbSwingAmount() > -0.15F && event.getLimbSwingAmount() < 0.15F))
-
-			) {
-				event.getController().setAnimation(new AnimationBuilder().addAnimation("animation.unwitheredchica.walk", EDefaultLoopTypes.LOOP));
-				return PlayState.CONTINUE;
-			}
-			event.getController().setAnimation(new AnimationBuilder().addAnimation("animation.unwitheredchica.idle", EDefaultLoopTypes.LOOP));
+			event.getController().setAnimation(new AnimationBuilder().addAnimation("animation.dinerchica.idle", EDefaultLoopTypes.LOOP));
 			return PlayState.CONTINUE;
 		}
 		return PlayState.STOP;

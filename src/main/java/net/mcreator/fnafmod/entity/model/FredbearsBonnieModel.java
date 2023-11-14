@@ -14,12 +14,12 @@ import net.mcreator.fnafmod.entity.FredbearsBonnieEntity;
 public class FredbearsBonnieModel extends AnimatedGeoModel<FredbearsBonnieEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(FredbearsBonnieEntity entity) {
-		return new ResourceLocation("fnaf_mod", "animations/unwitheredbonnie.animation.json");
+		return new ResourceLocation("fnaf_mod", "animations/dinerbonnie.animation.json");
 	}
 
 	@Override
 	public ResourceLocation getModelResource(FredbearsBonnieEntity entity) {
-		return new ResourceLocation("fnaf_mod", "geo/unwitheredbonnie.geo.json");
+		return new ResourceLocation("fnaf_mod", "geo/dinerbonnie.geo.json");
 	}
 
 	@Override

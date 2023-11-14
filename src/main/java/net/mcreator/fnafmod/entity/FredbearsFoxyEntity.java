@@ -79,7 +79,7 @@ public class FredbearsFoxyEntity extends PathfinderMob implements IAnimatable {
 		super.defineSynchedData();
 		this.entityData.define(SHOOT, false);
 		this.entityData.define(ANIMATION, "undefined");
-		this.entityData.define(TEXTURE, "unwithered_foxy");
+		this.entityData.define(TEXTURE, "dinerfoxy");
 	}
 
 	public void setTexture(String texture) {
@@ -181,13 +181,7 @@ public class FredbearsFoxyEntity extends PathfinderMob implements IAnimatable {
 
 	private <E extends IAnimatable> PlayState movementPredicate(AnimationEvent<E> event) {
 		if (this.animationprocedure.equals("empty")) {
-			if ((event.isMoving() || !(event.getLimbSwingAmount() > -0.15F && event.getLimbSwingAmount() < 0.15F))
-
-			) {
-				event.getController().setAnimation(new AnimationBuilder().addAnimation("animation.witheredfoxy.walk", EDefaultLoopTypes.LOOP));
-				return PlayState.CONTINUE;
-			}
-			event.getController().setAnimation(new AnimationBuilder().addAnimation("animation.witheredfoxy.showtime", EDefaultLoopTypes.LOOP));
+			event.getController().setAnimation(new AnimationBuilder().addAnimation("animation.dinerfoxy.showtime", EDefaultLoopTypes.LOOP));
 			return PlayState.CONTINUE;
 		}
 		return PlayState.STOP;

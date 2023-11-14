@@ -4,7 +4,7 @@
   "definition": {
     "mobName": "Fredbear's Family Diner Bonnie",
     "mobLabel": "",
-    "mobModelTexture": "unwithered_bonnie.png",
+    "mobModelTexture": "dinerbonnie.png",
     "mobModelGlowTexture": "",
     "visualScale": {
       "fixedValue": 1.0
@@ -108,9 +108,9 @@
     "hasAI": true,
     "aiBase": "(none)",
     "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"213\" y=\"69\"></block></xml>",
-    "model": "unwitheredbonnie.geo.json",
+    "model": "dinerbonnie.geo.json",
     "groupName": "Head",
-    "animation1": "animation.unwitheredbonnie.idle",
+    "animation1": "animation.dinerbonnie.idle",
     "animation2": "animation.unwitheredbonnie.walk",
     "animation3": "",
     "animation4": "",
@@ -120,7 +120,7 @@
     "animation8": "",
     "animation9": "",
     "animation10": "",
-    "enable2": true,
+    "enable2": false,
     "enable3": false,
     "enable4": false,
     "enable5": false,

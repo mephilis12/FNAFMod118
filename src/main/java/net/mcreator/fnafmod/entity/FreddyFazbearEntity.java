@@ -46,7 +46,6 @@ import net.minecraft.core.BlockPos;
 
 import net.mcreator.fnafmod.procedures.MaskProtectionTestForTickProcedure;
 import net.mcreator.fnafmod.procedures.GoldenFreddyOnEntityTickUpdateProcedure;
-import net.mcreator.fnafmod.procedures.FreddyFazbearOnEntityTickUpdateProcedure;
 import net.mcreator.fnafmod.init.FnafModModItems;
 import net.mcreator.fnafmod.init.FnafModModEntities;
 
@@ -96,55 +95,14 @@ public class FreddyFazbearEntity extends PathfinderMob implements IAnimatable {
 	@Override
 	protected void registerGoals() {
 		super.registerGoals();
-		this.goalSelector.addGoal(1, new RandomStrollGoal(this, 0.8) {
-			@Override
-			public boolean canUse() {
-				double x = FreddyFazbearEntity.this.getX();
-				double y = FreddyFazbearEntity.this.getY();
-				double z = FreddyFazbearEntity.this.getZ();
-				Entity entity = FreddyFazbearEntity.this;
-				Level world = FreddyFazbearEntity.this.level;
-				return super.canUse() && FreddyFazbearOnEntityTickUpdateProcedure.execute(world);
-			}
-		});
-		this.goalSelector.addGoal(2, new RandomLookAroundGoal(this) {
-			@Override
-			public boolean canUse() {
-				double x = FreddyFazbearEntity.this.getX();
-				double y = FreddyFazbearEntity.this.getY();
-				double z = FreddyFazbearEntity.this.getZ();
-				Entity entity = FreddyFazbearEntity.this;
-				Level world = FreddyFazbearEntity.this.level;
-				return super.canUse() && FreddyFazbearOnEntityTickUpdateProcedure.execute(world);
-			}
-		});
-		this.goalSelector.addGoal(3, new WaterAvoidingRandomStrollGoal(this, 0.8) {
-			@Override
-			public boolean canUse() {
-				double x = FreddyFazbearEntity.this.getX();
-				double y = FreddyFazbearEntity.this.getY();
-				double z = FreddyFazbearEntity.this.getZ();
-				Entity entity = FreddyFazbearEntity.this;
-				Level world = FreddyFazbearEntity.this.level;
-				return super.canUse() && FreddyFazbearOnEntityTickUpdateProcedure.execute(world);
-			}
-		});
+		this.goalSelector.addGoal(1, new RandomStrollGoal(this, 0.8));
+		this.goalSelector.addGoal(2, new RandomLookAroundGoal(this));
+		this.goalSelector.addGoal(3, new WaterAvoidingRandomStrollGoal(this, 0.8));
 		this.goalSelector.addGoal(4, new MeleeAttackGoal(this, 1.2, false) {
 			@Override
 			protected double getAttackReachSqr(LivingEntity entity) {
 				return this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth();
 			}
-
-			@Override
-			public boolean canUse() {
-				double x = FreddyFazbearEntity.this.getX();
-				double y = FreddyFazbearEntity.this.getY();
-				double z = FreddyFazbearEntity.this.getZ();
-				Entity entity = FreddyFazbearEntity.this;
-				Level world = FreddyFazbearEntity.this.level;
-				return super.canUse() && FreddyFazbearOnEntityTickUpdateProcedure.execute(world);
-			}
-
 		});
 		this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, Player.class, false, false) {
 			@Override
@@ -220,8 +178,12 @@ public class FreddyFazbearEntity extends PathfinderMob implements IAnimatable {
 		if (this.animationprocedure.equals("empty")) {
 			if ((event.isMoving() || !(event.getLimbSwingAmount() > -0.15F && event.getLimbSwingAmount() < 0.15F))
 
-			) {
+					&& !this.isAggressive()) {
 				event.getController().setAnimation(new AnimationBuilder().addAnimation("animation.freddyfazbear.walk", EDefaultLoopTypes.LOOP));
+				return PlayState.CONTINUE;
+			}
+			if (this.isAggressive() && event.isMoving()) {
+				event.getController().setAnimation(new AnimationBuilder().addAnimation("animation.freddyfazbear.aggression", EDefaultLoopTypes.LOOP));
 				return PlayState.CONTINUE;
 			}
 			event.getController().setAnimation(new AnimationBuilder().addAnimation("animation.freddyfazbear.idle", EDefaultLoopTypes.LOOP));

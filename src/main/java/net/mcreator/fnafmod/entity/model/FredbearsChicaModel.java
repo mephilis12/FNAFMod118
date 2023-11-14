@@ -14,12 +14,12 @@ import net.mcreator.fnafmod.entity.FredbearsChicaEntity;
 public class FredbearsChicaModel extends AnimatedGeoModel<FredbearsChicaEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(FredbearsChicaEntity entity) {
-		return new ResourceLocation("fnaf_mod", "animations/unwitheredchica.animation.json");
+		return new ResourceLocation("fnaf_mod", "animations/dinerchica.animation.json");
 	}
 
 	@Override
 	public ResourceLocation getModelResource(FredbearsChicaEntity entity) {
-		return new ResourceLocation("fnaf_mod", "geo/unwitheredchica.geo.json");
+		return new ResourceLocation("fnaf_mod", "geo/dinerchica.geo.json");
 	}
 
 	@Override

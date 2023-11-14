@@ -4,7 +4,7 @@
   "definition": {
     "mobName": "Fredbear's Family Diner Freddy",
     "mobLabel": "",
-    "mobModelTexture": "unwithered_freddy.png",
+    "mobModelTexture": "dinerfreddy.png",
     "mobModelGlowTexture": "",
     "visualScale": {
       "fixedValue": 1.0
@@ -108,9 +108,9 @@
     "hasAI": true,
     "aiBase": "(none)",
     "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"213\" y=\"69\"></block></xml>",
-    "model": "witheredfreddy.geo.json",
+    "model": "dinerfreddy.geo.json",
     "groupName": "Head",
-    "animation1": "animation.witheredfreddy.stage",
+    "animation1": "animation.dinerfreddy.stage",
     "animation2": "animation.witheredfreddy.walk",
     "animation3": "",
     "animation4": "",
@@ -120,7 +120,7 @@
     "animation8": "",
     "animation9": "",
     "animation10": "",
-    "enable2": true,
+    "enable2": false,
     "enable3": false,
     "enable4": false,
     "enable5": false,
