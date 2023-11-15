@@ -223,8 +223,12 @@ public class FoxyPirateEntity extends PathfinderMob implements IAnimatable {
 		if (this.animationprocedure.equals("empty")) {
 			if ((event.isMoving() || !(event.getLimbSwingAmount() > -0.15F && event.getLimbSwingAmount() < 0.15F))
 
-			) {
+					&& !this.isAggressive()) {
 				event.getController().setAnimation(new AnimationBuilder().addAnimation("animation.foxy.walk", EDefaultLoopTypes.LOOP));
+				return PlayState.CONTINUE;
+			}
+			if (this.isAggressive() && event.isMoving()) {
+				event.getController().setAnimation(new AnimationBuilder().addAnimation("animation.foxy.aggression", EDefaultLoopTypes.LOOP));
 				return PlayState.CONTINUE;
 			}
 			event.getController().setAnimation(new AnimationBuilder().addAnimation("animation.foxy.idle", EDefaultLoopTypes.LOOP));
