@@ -22853,14 +22853,6 @@
       "subtitle": "Honk"
     },
     {
-      "name": "god",
-      "files": [
-        "funny_bunny"
-      ],
-      "category": "neutral",
-      "subtitle": ""
-    },
-    {
       "name": "ventwalk",
       "files": [
         "ventwalk1"
@@ -23178,10 +23170,35 @@
       ],
       "category": "hostile",
       "subtitle": "step"
+    },
+    {
+      "name": "bod2intro",
+      "files": [
+        "bread_or_dread_2_intro"
+      ],
+      "category": "neutral",
+      "subtitle": "What Have you Done?"
+    },
+    {
+      "name": "god",
+      "files": [
+        "funny_bunny"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "bod2",
+      "files": [
+        "bread_or_dread_2"
+      ],
+      "category": "neutral",
+      "subtitle": "What Have you Brought in This World?"
     }
   ],
   "language_map": {
     "en_us": {
+      "subtitles.bod2": "What Have you Brought in This World?",
       "block.fnaf_mod.black_light_foxy_plushie": "Blacklight Foxy Plushie",
       "entity.fnaf_mod.shadow_freddy": "Shadow Freddy",
       "item.fnaf_mod.its_been_so_long": "Music Disc",
@@ -23599,6 +23616,7 @@
       "block.fnaf_mod.arcade_machine_shadow_freddy": "Arcade Machine ???",
       "entity.fnaf_mod.bonnie_stand": "Bonnie Stand",
       "item.fnaf_mod.nightmarione_statue_spawn_egg": "Nightmarionne Statue Spawn Egg",
+      "subtitles.bod2intro": "What Have you Done?",
       "gui.fnaf_mod.wall_change_2.label_one_room_face_rest_hall_faces": "One Room Face Rest Hall Faces",
       "block.fnaf_mod.fnaf_3_posters": "Fazbear\u0027s Fright Posters",
       "item.fnaf_mod.foxy_suit_leggings": "Foxy Legs",
@@ -23932,6 +23950,7 @@
       "gui.fnaf_mod.wall_change_1.label_type_a": "Type A:",
       "entity.fnaf_mod.passive_bonnie": "Bonnie the Bunny",
       "death.attack.springlocked": "%s Bled out to Death",
+      "subtitles.bod": "What Have you Brought in This World?",
       "block.fnaf_mod.checkered_tile": "Checkered Tile",
       "item.fnaf_mod.pink_plastic": "Pink Plastic",
       "block.fnaf_mod.ovdr_plushie": "Overdrive Plushie",
