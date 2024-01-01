@@ -62,14 +62,6 @@
       }
     ]
   },
-  "god": {
-    "sounds": [
-      {
-        "name": "fnaf_mod:funny_bunny",
-        "stream": false
-      }
-    ]
-  },
   "ventwalk": {
     "subtitle": "subtitles.ventwalk",
     "sounds": [
@@ -459,6 +451,41 @@
       },
       {
         "name": "fnaf_mod:footstep2",
+        "stream": false
+      }
+    ]
+  },
+  "bod2intro": {
+    "subtitle": "subtitles.bod2intro",
+    "sounds": [
+      {
+        "name": "fnaf_mod:bread_or_dread_2_intro",
+        "stream": false
+      }
+    ]
+  },
+  "god": {
+    "sounds": [
+      {
+        "name": "fnaf_mod:funny_bunny",
+        "stream": false
+      }
+    ]
+  },
+  "bod2": {
+    "subtitle": "subtitles.bod2",
+    "sounds": [
+      {
+        "name": "fnaf_mod:bread_or_dread_2",
+        "stream": false
+      }
+    ]
+  },
+  "ballpit": {
+    "subtitle": "subtitles.ballpit",
+    "sounds": [
+      {
+        "name": "fnaf_mod:ballpit",
         "stream": false
       }
     ]

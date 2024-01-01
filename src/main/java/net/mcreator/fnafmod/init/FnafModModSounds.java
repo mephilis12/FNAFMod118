@@ -22,7 +22,6 @@ public class FnafModModSounds {
 	public static final RegistryObject<SoundEvent> HAPPIEST_DAY = REGISTRY.register("happiest_day", () -> new SoundEvent(new ResourceLocation("fnaf_mod", "happiest_day")));
 	public static final RegistryObject<SoundEvent> TOREADOR_MARCH = REGISTRY.register("toreador_march", () -> new SoundEvent(new ResourceLocation("fnaf_mod", "toreador_march")));
 	public static final RegistryObject<SoundEvent> NOSEHONK = REGISTRY.register("nosehonk", () -> new SoundEvent(new ResourceLocation("fnaf_mod", "nosehonk")));
-	public static final RegistryObject<SoundEvent> GOD = REGISTRY.register("god", () -> new SoundEvent(new ResourceLocation("fnaf_mod", "god")));
 	public static final RegistryObject<SoundEvent> VENTWALK = REGISTRY.register("ventwalk", () -> new SoundEvent(new ResourceLocation("fnaf_mod", "ventwalk")));
 	public static final RegistryObject<SoundEvent> FNAF1_SCREAM = REGISTRY.register("fnaf1_scream", () -> new SoundEvent(new ResourceLocation("fnaf_mod", "fnaf1_scream")));
 	public static final RegistryObject<SoundEvent> FNAF2_SCREAM = REGISTRY.register("fnaf2_scream", () -> new SoundEvent(new ResourceLocation("fnaf_mod", "fnaf2_scream")));
@@ -61,4 +60,8 @@ public class FnafModModSounds {
 	public static final RegistryObject<SoundEvent> AK_SOUND = REGISTRY.register("ak-sound", () -> new SoundEvent(new ResourceLocation("fnaf_mod", "ak-sound")));
 	public static final RegistryObject<SoundEvent> AKRELOAD = REGISTRY.register("akreload", () -> new SoundEvent(new ResourceLocation("fnaf_mod", "akreload")));
 	public static final RegistryObject<SoundEvent> SPRINGTRAPSTEP = REGISTRY.register("springtrapstep", () -> new SoundEvent(new ResourceLocation("fnaf_mod", "springtrapstep")));
+	public static final RegistryObject<SoundEvent> BOD2INTRO = REGISTRY.register("bod2intro", () -> new SoundEvent(new ResourceLocation("fnaf_mod", "bod2intro")));
+	public static final RegistryObject<SoundEvent> GOD = REGISTRY.register("god", () -> new SoundEvent(new ResourceLocation("fnaf_mod", "god")));
+	public static final RegistryObject<SoundEvent> BOD2 = REGISTRY.register("bod2", () -> new SoundEvent(new ResourceLocation("fnaf_mod", "bod2")));
+	public static final RegistryObject<SoundEvent> BALLPIT = REGISTRY.register("ballpit", () -> new SoundEvent(new ResourceLocation("fnaf_mod", "ballpit")));
 }

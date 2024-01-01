@@ -33,6 +33,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.fnafmod.init.FnafModModTabs;
 import net.mcreator.fnafmod.init.FnafModModSounds;
+import net.mcreator.fnafmod.init.FnafModModParticleTypes;
 import net.mcreator.fnafmod.init.FnafModModMobEffects;
 import net.mcreator.fnafmod.init.FnafModModMenus;
 import net.mcreator.fnafmod.init.FnafModModItems;
@@ -68,6 +69,7 @@ public class FnafModMod {
 
 		FnafModModMobEffects.REGISTRY.register(bus);
 
+		FnafModModParticleTypes.REGISTRY.register(bus);
 		FnafModModMenus.REGISTRY.register(bus);
 
 		GeckoLib.initialize();

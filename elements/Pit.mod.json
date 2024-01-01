@@ -1,0 +1,33 @@
+{
+  "_fv": 43,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:Bp1"
+      },
+      {
+        "value": "CUSTOM:Bp2"
+      },
+      {
+        "value": "CUSTOM:Bp3"
+      },
+      {
+        "value": "CUSTOM:Bp4"
+      },
+      {
+        "value": "CUSTOM:Bp5"
+      },
+      {
+        "value": "CUSTOM:Bp6"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "pit",
+    "namespace": "mod"
+  }
+}

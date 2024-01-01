@@ -767,6 +767,12 @@ public class FnafModModItems {
 	public static final RegistryObject<Item> BANJO = REGISTRY.register("banjo", () -> new BanjoItem());
 	public static final RegistryObject<Item> HOOK = REGISTRY.register("hook", () -> new HookItem());
 	public static final RegistryObject<Item> PIZZA_CUTTER = REGISTRY.register("pizza_cutter", () -> new PizzaCutterItem());
+	public static final RegistryObject<Item> BP_1 = block(FnafModModBlocks.BP_1, FnafModModTabs.TAB_DECORATIVE_BLOCKS);
+	public static final RegistryObject<Item> BP_2 = block(FnafModModBlocks.BP_2, null);
+	public static final RegistryObject<Item> BP_3 = block(FnafModModBlocks.BP_3, null);
+	public static final RegistryObject<Item> BP_4 = block(FnafModModBlocks.BP_4, null);
+	public static final RegistryObject<Item> BP_5 = block(FnafModModBlocks.BP_5, null);
+	public static final RegistryObject<Item> BP_6 = block(FnafModModBlocks.BP_6, null);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

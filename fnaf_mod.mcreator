@@ -22641,6 +22641,168 @@
         ]
       },
       "path": "~/Recipes"
+    },
+    {
+      "name": "Bp1",
+      "type": "block",
+      "sortid": 1087,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bp_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/models/item/bp_1.json",
+          "src/main/java/net/mcreator/fnafmod/block/Bp1Block.java",
+          "src/main/resources/assets/fnaf_mod/blockstates/bp_1.json",
+          "src/main/resources/assets/fnaf_mod/models/block/bp_1.json"
+        ]
+      },
+      "path": "~/Blocks/Ball Pit"
+    },
+    {
+      "name": "Bp2",
+      "type": "block",
+      "sortid": 1088,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bp_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/blockstates/bp_2.json",
+          "src/main/java/net/mcreator/fnafmod/block/Bp2Block.java",
+          "src/main/resources/assets/fnaf_mod/models/block/bp_2.json",
+          "src/main/resources/assets/fnaf_mod/models/item/bp_2.json"
+        ]
+      },
+      "path": "~/Blocks/Ball Pit"
+    },
+    {
+      "name": "Bp3",
+      "type": "block",
+      "sortid": 1089,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bp_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/models/block/bp_3.json",
+          "src/main/resources/assets/fnaf_mod/blockstates/bp_3.json",
+          "src/main/resources/assets/fnaf_mod/models/item/bp_3.json",
+          "src/main/java/net/mcreator/fnafmod/block/Bp3Block.java"
+        ]
+      },
+      "path": "~/Blocks/Ball Pit"
+    },
+    {
+      "name": "Bp4",
+      "type": "block",
+      "sortid": 1090,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bp_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/models/item/bp_4.json",
+          "src/main/resources/assets/fnaf_mod/models/block/bp_4.json",
+          "src/main/resources/assets/fnaf_mod/blockstates/bp_4.json",
+          "src/main/java/net/mcreator/fnafmod/block/Bp4Block.java"
+        ]
+      },
+      "path": "~/Blocks/Ball Pit"
+    },
+    {
+      "name": "Bp5",
+      "type": "block",
+      "sortid": 1091,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bp_5",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/block/Bp5Block.java",
+          "src/main/resources/assets/fnaf_mod/models/item/bp_5.json",
+          "src/main/resources/assets/fnaf_mod/models/block/bp_5.json",
+          "src/main/resources/assets/fnaf_mod/blockstates/bp_5.json"
+        ]
+      },
+      "path": "~/Blocks/Ball Pit"
+    },
+    {
+      "name": "Bp6",
+      "type": "block",
+      "sortid": 1092,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bp_6",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/models/block/bp_6.json",
+          "src/main/resources/assets/fnaf_mod/blockstates/bp_6.json",
+          "src/main/java/net/mcreator/fnafmod/block/Bp6Block.java",
+          "src/main/resources/assets/fnaf_mod/models/item/bp_6.json"
+        ]
+      },
+      "path": "~/Blocks/Ball Pit"
+    },
+    {
+      "name": "Pit",
+      "type": "tag",
+      "sortid": 1093,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pit",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fnaf_mod/tags/blocks/pit.json"
+        ]
+      },
+      "path": "~/Blocks/Ball Pit"
+    },
+    {
+      "name": "ConnectBalls",
+      "type": "procedure",
+      "sortid": 1094,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "connect_balls",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/procedures/ConnectBallsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/Ball Pit"
+    },
+    {
+      "name": "BallpitParticle",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ballpit_particle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/particles/ballpit_particle.json",
+          "src/main/java/net/mcreator/fnafmod/client/particle/BallpitParticleParticle.java"
+        ]
+      },
+      "path": "~/Blocks/Ball Pit"
     }
   ],
   "variable_elements": [
@@ -23921,7 +24083,10 @@
       "block.fnaf_mod.locket_bottom": "Locker",
       "item.fnaf_mod.flash_light_on": "Flashlight",
       "block.fnaf_mod.stage_light_red_off": "Stage Light",
+      "block.fnaf_mod.bp_1": "Ball Pit",
       "item.fnaf_mod.plushtrap_spawn_egg": "Plushtrap Spawn Egg",
+      "block.fnaf_mod.bp_3": "Ball Pit",
+      "block.fnaf_mod.bp_2": "Ball Pit",
       "block.fnaf_mod.puppet_mask": "Puppet Mask Decoration",
       "item.fnaf_mod.puppet_spawn_egg": "Puppet Spawn Egg",
       "item.fnaf_mod.spring_locked_zombie_spring_bonnie_spawn_egg": "Springlocked Zombie Spring Bonnie Spawn Egg",
@@ -23933,7 +24098,10 @@
       "block.fnaf_mod.structure_spawning_block_12": "Structure Spawning Block (Abandoned Diner)",
       "block.fnaf_mod.structure_spawning_block_11": "Structure Spawning Block (Arcade B)",
       "block.fnaf_mod.structure_spawning_block_10": "Structure Spawning Block (Arcade A)",
+      "block.fnaf_mod.bp_5": "Ball Pit",
+      "block.fnaf_mod.bp_4": "Ball Pit",
       "item.fnaf_mod.freddy_fazbear_spawn_egg": "Freddy Fazbear Spawn Egg",
+      "block.fnaf_mod.bp_6": "Ball Pit",
       "block.fnaf_mod.flash_light_light": "Flash Light Light",
       "block.fnaf_mod.big_checkered_wall_tile": "Big Checkered Wall Tile",
       "block.fnaf_mod.white_red_wall_tile": "White Red Wall Tiles",
@@ -24037,6 +24205,10 @@
           },
           {
             "name": "Posters",
+            "children": []
+          },
+          {
+            "name": "Ball Pit",
             "children": []
           }
         ]
