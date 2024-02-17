@@ -1,21 +1,15 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "01",
-    "23"
+    "ab",
+    "ba"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "minecraft:smooth_sandstone"
     },
-    "1": {
+    "b": {
       "item": "minecraft:dark_prismarine"
-    },
-    "2": {
-      "item": "minecraft:dark_prismarine"
-    },
-    "3": {
-      "item": "minecraft:smooth_sandstone"
     }
   },
   "result": {

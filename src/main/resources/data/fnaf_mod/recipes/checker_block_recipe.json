@@ -1,20 +1,11 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "01",
-    "23"
+    "aa",
+    "aa"
   ],
   "key": {
-    "0": {
-      "item": "fnaf_mod:black_white_tile"
-    },
-    "1": {
-      "item": "fnaf_mod:black_white_tile"
-    },
-    "2": {
-      "item": "fnaf_mod:black_white_tile"
-    },
-    "3": {
+    "a": {
       "item": "fnaf_mod:black_white_tile"
     }
   },

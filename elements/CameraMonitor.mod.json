@@ -1,10 +1,12 @@
 {
-  "_fv": 43,
+  "_fv": 57,
   "_type": "item",
   "definition": {
     "renderType": 1,
     "texture": "cameratablet",
     "customModelName": "monitor:default",
+    "customProperties": {},
+    "states": [],
     "name": "Camera Monitor",
     "rarity": "COMMON",
     "creativeTab": {
@@ -24,8 +26,9 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [],
-    "hasGlow": false,
+    "specialInformation": {
+      "fixedValue": []
+    },
     "guiBoundTo": "CameraGUI",
     "inventorySize": 0,
     "inventoryStackSize": 64,
@@ -35,6 +38,8 @@
     "onRightClickedOnBlock": {
       "name": "CameraMonitorRightclicked"
     },
+    "enableRanged": false,
+    "shootConstantly": false,
     "isFood": false,
     "nutritionalValue": 0,
     "saturation": 0.30000001192092896,

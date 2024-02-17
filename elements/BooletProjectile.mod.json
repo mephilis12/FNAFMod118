@@ -1,0 +1,28 @@
+{
+  "_fv": 57,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "Blocks.AIR"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "CUSTOM:ak-sound"
+    },
+    "igniteFire": false,
+    "power": 3.0,
+    "damage": 4.0,
+    "knockback": 0,
+    "entityModel": "Modelbullet",
+    "customModelTexture": "boolet.png",
+    "onHitsBlock": {
+      "name": "BooletProjectileHitsLivingEntity"
+    },
+    "onHitsEntity": {
+      "name": "BooletProjectileHitsLivingEntity"
+    },
+    "onFlyingTick": {
+      "name": "BooletWhileProjectileFlyingTick"
+    }
+  }
+}

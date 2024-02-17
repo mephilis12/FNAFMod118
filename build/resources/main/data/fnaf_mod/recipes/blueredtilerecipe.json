@@ -1,21 +1,15 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "01",
-    "23"
+    "ab",
+    "ba"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "minecraft:red_concrete"
     },
-    "1": {
+    "b": {
       "item": "minecraft:blue_concrete"
-    },
-    "2": {
-      "item": "minecraft:blue_concrete"
-    },
-    "3": {
-      "item": "minecraft:red_concrete"
     }
   },
   "result": {

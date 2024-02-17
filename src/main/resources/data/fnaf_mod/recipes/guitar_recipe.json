@@ -1,22 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "0  ",
-    " 45",
-    "  8"
+    "a  ",
+    " bc",
+    "  b"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "fnaf_mod:black_plastic"
     },
-    "4": {
+    "b": {
       "item": "fnaf_mod:red_plastic"
     },
-    "5": {
+    "c": {
       "item": "minecraft:string"
-    },
-    "8": {
-      "item": "fnaf_mod:red_plastic"
     }
   },
   "result": {

@@ -1,21 +1,15 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "01",
-    "23"
+    "ab",
+    "ba"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "minecraft:yellow_wool"
     },
-    "1": {
+    "b": {
       "item": "minecraft:white_wool"
-    },
-    "2": {
-      "item": "minecraft:white_wool"
-    },
-    "3": {
-      "item": "minecraft:yellow_wool"
     }
   },
   "result": {

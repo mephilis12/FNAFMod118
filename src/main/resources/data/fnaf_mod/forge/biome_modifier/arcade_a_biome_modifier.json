@@ -1,9 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": [
-    "sunflower_plains",
-    "plains"
-  ],
-  "features": "fnaf_mod:arcade_a",
-  "step": "surface_structures"
-}

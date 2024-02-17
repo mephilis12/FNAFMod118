@@ -1,12 +1,12 @@
 {
-  "_fv": 43,
+  "_fv": 57,
   "_type": "livingentity",
   "definition": {
     "mobName": "Nightmarionne Statue",
     "mobLabel": "",
     "mobModelName": "Modelnightmarionne_statue",
     "mobModelTexture": "nightmarionne.png",
-    "mobModelGlowTexture": "",
+    "modelLayers": [],
     "modelWidth": 0.6,
     "modelHeight": 1.8,
     "modelShadowSize": 0.5,
@@ -57,6 +57,9 @@
     "health": 10,
     "xpAmount": 0,
     "waterMob": true,
+    "breatheUnderwater": {
+      "fixedValue": true
+    },
     "flyingMob": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
@@ -93,6 +96,7 @@
     "stepSound": {
       "value": "CUSTOM:animatronic_step"
     },
+    "entityDataEntries": [],
     "onRightClickedOn": {
       "name": "StatueFreddyRightClickedOnEntity"
     },

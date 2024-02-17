@@ -1,37 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "aaa",
+    "aba",
+    "aaa"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "fnaf_mod:bonnie_fabric"
     },
-    "1": {
-      "item": "fnaf_mod:bonnie_fabric"
-    },
-    "2": {
-      "item": "fnaf_mod:bonnie_fabric"
-    },
-    "3": {
-      "item": "fnaf_mod:bonnie_fabric"
-    },
-    "4": {
+    "b": {
       "tag": "minecraft:wool"
-    },
-    "5": {
-      "item": "fnaf_mod:bonnie_fabric"
-    },
-    "6": {
-      "item": "fnaf_mod:bonnie_fabric"
-    },
-    "7": {
-      "item": "fnaf_mod:bonnie_fabric"
-    },
-    "8": {
-      "item": "fnaf_mod:bonnie_fabric"
     }
   },
   "result": {

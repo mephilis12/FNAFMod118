@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 57,
   "_type": "block",
   "definition": {
     "texture": "plush_overdrive",
@@ -34,7 +34,9 @@
       }
     ],
     "name": "Overdrive Plushie",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "hardness": 0.8,
     "resistance": 0.8,
     "hasGravity": false,
@@ -120,7 +122,7 @@
     "onRightClicked": {
       "name": "OVDRHonk"
     },
-    "spawnWorldTypes": [],
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [
       {

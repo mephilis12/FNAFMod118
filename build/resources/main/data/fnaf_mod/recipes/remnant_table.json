@@ -1,20 +1,14 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "01",
-    "23"
+    "ab",
+    "bb"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "minecraft:iron_nugget"
     },
-    "1": {
-      "tag": "minecraft:planks"
-    },
-    "2": {
-      "tag": "minecraft:planks"
-    },
-    "3": {
+    "b": {
       "tag": "minecraft:planks"
     }
   },

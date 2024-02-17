@@ -1281,81 +1281,6 @@
       "path": "~/Recipes"
     },
     {
-      "name": "Pizzeria1",
-      "type": "structure",
-      "sortid": 431,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pizzeria_1",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/fnafmod/world/features/Pizzeria1Feature.java",
-          "src/main/resources/data/fnaf_mod/forge/biome_modifier/pizzeria_1_biome_modifier.json"
-        ]
-      },
-      "path": "~/Structures"
-    },
-    {
-      "name": "Pizzeria2",
-      "type": "structure",
-      "sortid": 432,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pizzeria_2",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/fnaf_mod/forge/biome_modifier/pizzeria_2_biome_modifier.json",
-          "src/main/java/net/mcreator/fnafmod/world/features/Pizzeria2Feature.java"
-        ]
-      },
-      "path": "~/Structures"
-    },
-    {
-      "name": "Pizzeria3",
-      "type": "structure",
-      "sortid": 433,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pizzeria_3",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/fnaf_mod/forge/biome_modifier/pizzeria_3_biome_modifier.json",
-          "src/main/java/net/mcreator/fnafmod/world/features/Pizzeria3Feature.java"
-        ]
-      },
-      "path": "~/Structures"
-    },
-    {
-      "name": "Fredbear",
-      "type": "structure",
-      "sortid": 434,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "fredbear",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/fnaf_mod/forge/biome_modifier/fredbear_biome_modifier.json",
-          "src/main/java/net/mcreator/fnafmod/world/features/FredbearFeature.java"
-        ]
-      },
-      "path": "~/Structures"
-    },
-    {
-      "name": "Workshop",
-      "type": "structure",
-      "sortid": 435,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "workshop",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/fnaf_mod/forge/biome_modifier/workshop_biome_modifier.json",
-          "src/main/java/net/mcreator/fnafmod/world/features/WorkshopFeature.java"
-        ]
-      },
-      "path": "~/Structures"
-    },
-    {
       "name": "PlushieBonnie",
       "type": "recipe",
       "sortid": 436,
@@ -10122,36 +10047,6 @@
       "path": "~/Structures"
     },
     {
-      "name": "Pizzeria4",
-      "type": "structure",
-      "sortid": 726,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pizzeria_4",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/fnafmod/world/features/Pizzeria4Feature.java",
-          "src/main/resources/data/fnaf_mod/forge/biome_modifier/pizzeria_4_biome_modifier.json"
-        ]
-      },
-      "path": "~/Structures"
-    },
-    {
-      "name": "Pizzeria5",
-      "type": "structure",
-      "sortid": 727,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pizzeria_5",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/fnafmod/world/features/Pizzeria5Feature.java",
-          "src/main/resources/data/fnaf_mod/forge/biome_modifier/pizzeria_5_biome_modifier.json"
-        ]
-      },
-      "path": "~/Structures"
-    },
-    {
       "name": "Shit",
       "type": "procedure",
       "sortid": 728,
@@ -13253,81 +13148,6 @@
         ]
       },
       "path": "~/Structure Spawners"
-    },
-    {
-      "name": "Retro",
-      "type": "structure",
-      "sortid": 845,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "retro",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/fnaf_mod/forge/biome_modifier/retro_biome_modifier.json",
-          "src/main/java/net/mcreator/fnafmod/world/features/RetroFeature.java"
-        ]
-      },
-      "path": "~/Structures"
-    },
-    {
-      "name": "Modern",
-      "type": "structure",
-      "sortid": 846,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "modern",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/fnafmod/world/features/ModernFeature.java",
-          "src/main/resources/data/fnaf_mod/forge/biome_modifier/modern_biome_modifier.json"
-        ]
-      },
-      "path": "~/Structures"
-    },
-    {
-      "name": "Fright",
-      "type": "structure",
-      "sortid": 847,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "fright",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/fnaf_mod/forge/biome_modifier/fright_biome_modifier.json",
-          "src/main/java/net/mcreator/fnafmod/world/features/FrightFeature.java"
-        ]
-      },
-      "path": "~/Structures"
-    },
-    {
-      "name": "ArcadeA",
-      "type": "structure",
-      "sortid": 848,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "arcade_a",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/fnaf_mod/forge/biome_modifier/arcade_a_biome_modifier.json",
-          "src/main/java/net/mcreator/fnafmod/world/features/ArcadeAFeature.java"
-        ]
-      },
-      "path": "~/Structures"
-    },
-    {
-      "name": "ArcadeB",
-      "type": "structure",
-      "sortid": 849,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "arcade_b",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/fnafmod/world/features/ArcadeBFeature.java",
-          "src/main/resources/data/fnaf_mod/forge/biome_modifier/arcade_b_biome_modifier.json"
-        ]
-      },
-      "path": "~/Structures"
     },
     {
       "name": "RemnantTable",
@@ -20161,36 +19981,6 @@
       "path": "~/Structure Spawners"
     },
     {
-      "name": "AbandonedFredbear",
-      "type": "structure",
-      "sortid": 987,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "abandoned_fredbear",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/fnaf_mod/forge/biome_modifier/abandoned_fredbear_biome_modifier.json",
-          "src/main/java/net/mcreator/fnafmod/world/features/AbandonedFredbearFeature.java"
-        ]
-      },
-      "path": "~/Structures"
-    },
-    {
-      "name": "AftonHouse",
-      "type": "structure",
-      "sortid": 988,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "afton_house",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/fnafmod/world/features/AftonHouseFeature.java",
-          "src/main/resources/data/fnaf_mod/forge/biome_modifier/afton_house_biome_modifier.json"
-        ]
-      },
-      "path": "~/Structures"
-    },
-    {
       "name": "CameraGUIValue",
       "type": "procedure",
       "sortid": 989,
@@ -20699,23 +20489,6 @@
         ]
       },
       "path": "~/Blocks/FunctionalBlocks"
-    },
-    {
-      "name": "Boolet",
-      "type": "rangeditem",
-      "sortid": 1014,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "boolet",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/fnafmod/entity/BooletEntity.java",
-          "src/main/java/net/mcreator/fnafmod/client/renderer/BooletRenderer.java",
-          "src/main/java/net/mcreator/fnafmod/item/BooletItem.java",
-          "src/main/resources/assets/fnaf_mod/models/item/boolet.json"
-        ]
-      },
-      "path": "~/Items"
     },
     {
       "name": "TheCrooblerOnEntityTickUpdate",
@@ -22791,6 +22564,258 @@
         ]
       },
       "path": "~/Blocks/Ball Pit"
+    },
+    {
+      "name": "Pizzeria1Feature",
+      "type": "feature",
+      "sortid": 1096,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pizzeria_1_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fnaf_mod/worldgen/configured_feature/pizzeria_1_feature.json",
+          "src/main/resources/data/fnaf_mod/forge/biome_modifier/pizzeria_1_feature_biome_modifier.json",
+          "src/main/resources/data/fnaf_mod/worldgen/placed_feature/pizzeria_1_feature.json"
+        ],
+        "has_nbt_structure": true
+      }
+    },
+    {
+      "name": "Pizzeria2Feature",
+      "type": "feature",
+      "sortid": 1095,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pizzeria_2_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fnaf_mod/worldgen/configured_feature/pizzeria_2_feature.json",
+          "src/main/resources/data/fnaf_mod/forge/biome_modifier/pizzeria_2_feature_biome_modifier.json",
+          "src/main/resources/data/fnaf_mod/worldgen/placed_feature/pizzeria_2_feature.json"
+        ],
+        "has_nbt_structure": true
+      }
+    },
+    {
+      "name": "Pizzeria3Feature",
+      "type": "feature",
+      "sortid": 1097,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pizzeria_3_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fnaf_mod/worldgen/placed_feature/pizzeria_3_feature.json",
+          "src/main/resources/data/fnaf_mod/forge/biome_modifier/pizzeria_3_feature_biome_modifier.json",
+          "src/main/resources/data/fnaf_mod/worldgen/configured_feature/pizzeria_3_feature.json"
+        ],
+        "has_nbt_structure": true
+      }
+    },
+    {
+      "name": "FredbearFeature",
+      "type": "feature",
+      "sortid": 1098,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fredbear_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fnaf_mod/worldgen/placed_feature/fredbear_feature.json",
+          "src/main/resources/data/fnaf_mod/worldgen/configured_feature/fredbear_feature.json",
+          "src/main/resources/data/fnaf_mod/forge/biome_modifier/fredbear_feature_biome_modifier.json"
+        ],
+        "has_nbt_structure": true
+      }
+    },
+    {
+      "name": "WorkshopFeature",
+      "type": "feature",
+      "sortid": 1099,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "workshop_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fnaf_mod/worldgen/placed_feature/workshop_feature.json",
+          "src/main/resources/data/fnaf_mod/worldgen/configured_feature/workshop_feature.json",
+          "src/main/resources/data/fnaf_mod/forge/biome_modifier/workshop_feature_biome_modifier.json"
+        ],
+        "has_nbt_structure": true
+      }
+    },
+    {
+      "name": "Pizzeria4Feature",
+      "type": "feature",
+      "sortid": 1100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pizzeria_4_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fnaf_mod/worldgen/placed_feature/pizzeria_4_feature.json",
+          "src/main/resources/data/fnaf_mod/forge/biome_modifier/pizzeria_4_feature_biome_modifier.json",
+          "src/main/resources/data/fnaf_mod/worldgen/configured_feature/pizzeria_4_feature.json"
+        ],
+        "has_nbt_structure": true
+      }
+    },
+    {
+      "name": "Pizzeria5Feature",
+      "type": "feature",
+      "sortid": 1101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pizzeria_5_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fnaf_mod/worldgen/placed_feature/pizzeria_5_feature.json",
+          "src/main/resources/data/fnaf_mod/forge/biome_modifier/pizzeria_5_feature_biome_modifier.json",
+          "src/main/resources/data/fnaf_mod/worldgen/configured_feature/pizzeria_5_feature.json"
+        ],
+        "has_nbt_structure": true
+      }
+    },
+    {
+      "name": "RetroFeature",
+      "type": "feature",
+      "sortid": 1102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "retro_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fnaf_mod/forge/biome_modifier/retro_feature_biome_modifier.json",
+          "src/main/resources/data/fnaf_mod/worldgen/configured_feature/retro_feature.json",
+          "src/main/resources/data/fnaf_mod/worldgen/placed_feature/retro_feature.json"
+        ],
+        "has_nbt_structure": true
+      }
+    },
+    {
+      "name": "ModernFeature",
+      "type": "feature",
+      "sortid": 1103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "modern_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fnaf_mod/worldgen/placed_feature/modern_feature.json",
+          "src/main/resources/data/fnaf_mod/worldgen/configured_feature/modern_feature.json",
+          "src/main/resources/data/fnaf_mod/forge/biome_modifier/modern_feature_biome_modifier.json"
+        ],
+        "has_nbt_structure": true
+      }
+    },
+    {
+      "name": "FrightFeature",
+      "type": "feature",
+      "sortid": 1104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fright_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fnaf_mod/forge/biome_modifier/fright_feature_biome_modifier.json",
+          "src/main/resources/data/fnaf_mod/worldgen/placed_feature/fright_feature.json",
+          "src/main/resources/data/fnaf_mod/worldgen/configured_feature/fright_feature.json"
+        ],
+        "has_nbt_structure": true
+      }
+    },
+    {
+      "name": "ArcadeAFeature",
+      "type": "feature",
+      "sortid": 1105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcade_a_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fnaf_mod/forge/biome_modifier/arcade_a_feature_biome_modifier.json",
+          "src/main/resources/data/fnaf_mod/worldgen/configured_feature/arcade_a_feature.json",
+          "src/main/resources/data/fnaf_mod/worldgen/placed_feature/arcade_a_feature.json"
+        ],
+        "has_nbt_structure": true
+      }
+    },
+    {
+      "name": "ArcadeBFeature",
+      "type": "feature",
+      "sortid": 1106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcade_b_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fnaf_mod/forge/biome_modifier/arcade_b_feature_biome_modifier.json",
+          "src/main/resources/data/fnaf_mod/worldgen/placed_feature/arcade_b_feature.json",
+          "src/main/resources/data/fnaf_mod/worldgen/configured_feature/arcade_b_feature.json"
+        ],
+        "has_nbt_structure": true
+      }
+    },
+    {
+      "name": "AbandonedFredbearFeature",
+      "type": "feature",
+      "sortid": 1107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abandoned_fredbear_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fnaf_mod/worldgen/placed_feature/abandoned_fredbear_feature.json",
+          "src/main/resources/data/fnaf_mod/worldgen/configured_feature/abandoned_fredbear_feature.json",
+          "src/main/resources/data/fnaf_mod/forge/biome_modifier/abandoned_fredbear_feature_biome_modifier.json"
+        ],
+        "has_nbt_structure": true
+      }
+    },
+    {
+      "name": "AftonHouseFeature",
+      "type": "feature",
+      "sortid": 1108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "afton_house_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fnaf_mod/forge/biome_modifier/afton_house_feature_biome_modifier.json",
+          "src/main/resources/data/fnaf_mod/worldgen/configured_feature/afton_house_feature.json",
+          "src/main/resources/data/fnaf_mod/worldgen/placed_feature/afton_house_feature.json"
+        ],
+        "has_nbt_structure": true
+      }
+    },
+    {
+      "name": "BooletProjectile",
+      "type": "projectile",
+      "sortid": 1110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boolet_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/entity/BooletProjectileEntity.java",
+          "src/main/java/net/mcreator/fnafmod/client/renderer/BooletProjectileRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "Boolet",
+      "type": "item",
+      "sortid": 1109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boolet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/item/BooletItem.java",
+          "src/main/resources/assets/fnaf_mod/models/item/boolet.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -23375,8 +23400,8 @@
       "item.fnaf_mod.toreador_march.desc": "Toreador March - LordSmugDread",
       "gui.fnaf_mod.soda_machine.label_inventory": "Inventory",
       "block.fnaf_mod.stage_light_on": "Stage Light",
-      "entity.fnaf_mod.golden_freddy": "Golden Freddy",
       "entity.fnaf_mod.unwithered_chica": "Un-Withered Chica",
+      "entity.fnaf_mod.golden_freddy": "Golden Freddy",
       "item.fnaf_mod.day_time_bonnie_spawn_egg": "DaytimeBonnie Spawn Egg",
       "entity.fnaf_mod.the_groobler": "The Groobler",
       "entity.fnaf_mod.statue_freddy": "Freddy Statue",
@@ -23385,8 +23410,8 @@
       "block.fnaf_mod.big_purple_stage_brick_tiles": "Big Purple Etched Brick Tiles",
       "entity.fnaf_mod.unwithered_foxy": "Un-Withered Foxy",
       "entity.fnaf_mod.fredbear_animatronic": "Fredbear",
-      "entity.fnaf_mod.crawling_toy_foxy": "Crawling Toy Foxy",
       "item.fnaf_mod.our_little_horror_story": "Music Disc",
+      "entity.fnaf_mod.crawling_toy_foxy": "Crawling Toy Foxy",
       "item.fnaf_mod.spring_bonnie_cut_out_spawn_egg": "Spring Bonnie Cutout Spawn Egg",
       "item.fnaf_mod.bonnie": "Drone Bonnie",
       "entity.fnaf_mod.withered_bonnie": "Withered Bonnie",
@@ -23403,14 +23428,14 @@
       "gui.fnaf_mod.wall_change_2.label_opposing_each_other": " Opposing Each Other",
       "block.fnaf_mod.pin_ball_machine_2": "Pinball Machine Cupcake",
       "block.fnaf_mod.pin_ball_machine_1": "Pinball Machine",
-      "entity.fnaf_mod.springlocked_zombie_fredbear": "Springlocked Zombie Fredbear",
       "block.fnaf_mod.pin_ball_machine_3": "Pinball Machine Blacklight Cupcake",
+      "entity.fnaf_mod.springlocked_zombie_fredbear": "Springlocked Zombie Fredbear",
       "entity.fnaf_mod.puppet": "Puppet",
-      "effect.fnaf_mod.bleeding": "Bleeding",
       "entity.fnaf_mod.shadow_freddy_standing": "Shadow Freddy",
+      "effect.fnaf_mod.bleeding": "Bleeding",
       "block.fnaf_mod.white_purple_wall_tile": "White Purple Wall Tiles",
-      "block.fnaf_mod.spring_bonnie_plushie": "Spring Bonnie Plushie",
       "block.fnaf_mod.speaker": "Speaker",
+      "block.fnaf_mod.spring_bonnie_plushie": "Spring Bonnie Plushie",
       "block.fnaf_mod.fredbear_floor": "Fredbear\u0027s Floor",
       "item.fnaf_mod.light_blue_plastic": "Light Blue Plastic",
       "item.fnaf_mod.fredbears_freddy_spawn_egg": "Fredbear\u0027s Family Diner Freddy Spawn Egg",
@@ -23428,8 +23453,8 @@
       "item.fnaf_mod.passive_bonnie_spawn_egg": "Bonnie the Bunny Spawn Egg",
       "item.fnaf_mod.glitch_bonnie_animatronic_spawn_egg": "Spring Bonnie? Spawn Egg",
       "item.fnaf_mod.yellow_bear_suit_chestplate": "Yellowbear Body",
-      "item.fnaf_mod.showtime_madame_macabre_bitemark_remix": "Music Disc",
       "entity.fnaf_mod.crawling_springtrap": "Crawling Springtrap",
+      "item.fnaf_mod.showtime_madame_macabre_bitemark_remix": "Music Disc",
       "block.fnaf_mod.big_white_black_wall_tile": "Big White Wall Tiles",
       "block.fnaf_mod.fnaf_4_wall_top_room": "Tapestry Top Blue",
       "block.fnaf_mod.office_door": "Office Door",
@@ -23449,8 +23474,8 @@
       "block.fnaf_mod.diner_chair": "Diner Chair {Red}",
       "entity.fnaf_mod.endo_02": "Endo-02",
       "item.fnaf_mod.bonnie_suit_boots": "Bonnie Boots",
-      "entity.fnaf_mod.nightmarionne": "Nightmarionne",
       "item.fnaf_mod.waiter_hat_helmet": "Waiter Hat",
+      "entity.fnaf_mod.nightmarionne": "Nightmarionne",
       "block.fnaf_mod.green_blue_tile_slab_cracked": "Cracked Green Blue Tile Slab",
       "gui.fnaf_mod.wall_change_1.label_opposing_each_other": " Opposing Each Other",
       "block.fnaf_mod.red_black_tile_slab": "Red Black Tile Slab",
@@ -23477,8 +23502,8 @@
       "item.fnaf_mod.toy_bonnie_spawn_item": "Toy Bonnie",
       "item.fnaf_mod.crawling_toy_foxy_spawn_egg": "Crawling Toy Foxy Spawn Egg",
       "itemGroup.tabfnaf_blocks": "FNAF Blocks",
-      "subtitles.a2": "Honk",
       "entity.fnaf_mod.endo_skeleton": "Endoskeleton",
+      "subtitles.a2": "Honk",
       "gui.fnaf_mod.camera_gui.button_previous_page": "Previous Page",
       "item.fnaf_mod.mangle_spawn_item": "Mangle",
       "item.fnaf_mod.glitchtrap_suit_helmet": "Spring Bonnie Costume Head",
@@ -23493,8 +23518,8 @@
       "subtitles.bb": "Balloon Boy",
       "gui.fnaf_mod.wall_change_1.button_d": "D",
       "gui.fnaf_mod.wall_change_1.button_c": "C",
-      "gui.fnaf_mod.wall_change_1.button_b": "B",
       "item.fnaf_mod.hook": "Hook",
+      "gui.fnaf_mod.wall_change_1.button_b": "B",
       "gui.fnaf_mod.wall_change_1.button_a": "A",
       "block.fnaf_mod.fnaf_4_wall_bottom_rotable": "Tapestry Bottom Rotable Type A",
       "gui.fnaf_mod.camera_gui.label_cameras": "Cameras",
@@ -23510,11 +23535,11 @@
       "entity.fnaf_mod.phantom_foxy": "Phantom Foxy",
       "gui.fnaf_mod.wall_change_2.label_one_hall_face_rest_room_faces": "One Hall Face Rest Room Faces",
       "block.fnaf_mod.fnaf_3_floor": "Rancid Floor",
-      "block.fnaf_mod.arcade_machine_foxy_2": "Arcade Machine Foxy",
       "item.fnaf_mod.sitting_fredbear_spawn_egg": "Fredbear Spawn Egg",
+      "block.fnaf_mod.arcade_machine_foxy_2": "Arcade Machine Foxy",
       "item.fnaf_mod.pit_bonnie_suit_leggings": "Into The Pit Bonnie Legs",
-      "subtitles.hearme": "Hello Can You Hear Me?",
       "block.fnaf_mod.gold_token_block": "Gold Token Block",
+      "subtitles.hearme": "Hello Can You Hear Me?",
       "block.fnaf_mod.structure_spawning_block": "Structure Spawning Block (Sam\u0027s Pizzeria)",
       "subtitles.b2": "Honk",
       "block.fnaf_mod.fnaf_4_wall_top_hall": "Tapestry Top Red",
@@ -23549,8 +23574,8 @@
       "subtitles.itsbeensolong": "",
       "item.fnaf_mod.nightmare_fredbear_spawn_egg": "Nightmare Fredbear Spawn Egg",
       "block.fnaf_mod.backstage_door": "Backstage Door",
-      "entity.fnaf_mod.fredbears_chica": "Fredbear\u0027s Family Diner Chica",
       "item.fnaf_mod.office_chair_spawn_egg": "Office Chair Spawn Egg",
+      "entity.fnaf_mod.fredbears_chica": "Fredbear\u0027s Family Diner Chica",
       "block.fnaf_mod.black_white_tile_stairs_cracked": "Cracked Black White Tile Stairs",
       "block.fnaf_mod.alternate_wall_tile": "Alternate Wall Tiles",
       "block.fnaf_mod.small_pipes": "Small Pipes",
@@ -23610,8 +23635,8 @@
       "block.fnaf_mod.red_white_tile_slab": "Red White Tile Slab",
       "item.fnaf_mod.yellow_bear_suit_helmet": "Yellowbear Head",
       "block.fnaf_mod.diagonal_wall_top": "Diagonal Wall Top",
-      "block.fnaf_mod.toy_telephone": "Toy Telephone",
       "item.fnaf_mod.crawling_springtrap_spawn_egg": "Crawling Springtrap Spawn Egg",
+      "block.fnaf_mod.toy_telephone": "Toy Telephone",
       "item.fnaf_mod.unwithered_foxy_spawn_egg": "Un-Withered Foxy Spawn Egg",
       "block.fnaf_mod.error_tile": "Missing Texture Tile",
       "item.fnaf_mod.bonnie_suit_leggings": "Bonnie Legs",
@@ -23642,8 +23667,8 @@
       "entity.fnaf_mod.passive_freddy": "Freddy Fazbear",
       "entity.fnaf_mod.fredbears_foxy": "Fredbear\u0027s Family Diner Foxy",
       "block.fnaf_mod.fnaf_wall_top_rotable_4": "Tapestry Top Rotable Type D",
-      "block.fnaf_mod.toy_caterpillar": "Toy Caterpillar",
       "block.fnaf_mod.fnaf_wall_top_rotable_2": "Tapestry Top Rotable Type B",
+      "block.fnaf_mod.toy_caterpillar": "Toy Caterpillar",
       "block.fnaf_mod.fnaf_wall_top_rotable_3": "Tapestry Top Rotable Type C",
       "block.fnaf_mod.alternate_big_white_black_striped_wall_tiles": "Alternate Big White Black Striped Wall Tiles",
       "gui.fnaf_mod.camera_gui.label_you_can_have_unlimited_cameras": "You Can Have Unlimited Cameras",
@@ -23656,9 +23681,9 @@
       "item.fnaf_mod.springtrap_spawn_egg": "Springtrap Spawn Egg",
       "item.fnaf_mod.passive_chica_spawn_egg": "Chica the Chicken Spawn Egg",
       "entity.fnaf_mod.glitch_bonnie_animatronic": "Spring Bonnie?",
-      "subtitles.c2alt": "Honk",
-      "block.fnaf_mod.closet_right_open_bottom": "Closet Door Right",
       "block.fnaf_mod.cut_stage_bricks": "Cut Etched Bricks",
+      "block.fnaf_mod.closet_right_open_bottom": "Closet Door Right",
+      "subtitles.c2alt": "Honk",
       "item.fnaf_mod.full_hostile_chica_spawn_egg": "Chica Spawn Egg",
       "entity.fnaf_mod.crawling_toy_bonnie": "Crawling Toy Bonnie",
       "block.fnaf_mod.un_withered_chica_head": "Un-Withered Chica Head",
@@ -23669,8 +23694,8 @@
       "item.fnaf_mod.nightmare_bonnie_spawn_egg": "Nightmare Bonnie Spawn Egg",
       "entity.fnaf_mod.withered_foxy": "Withered Foxy",
       "block.fnaf_mod.wires": "Wires",
-      "block.fnaf_mod.closet_right_open_top": "Closet Door Right",
       "entity.fnaf_mod.toy_chica": "DayTime Toy Chica",
+      "block.fnaf_mod.closet_right_open_top": "Closet Door Right",
       "block.fnaf_mod.big_white_black_striped_wall_tile": "Big White Black Striped Wall Tiles",
       "block.fnaf_mod.poster_3": "Wall Poster 3",
       "block.fnaf_mod.poster_4": "Wall Poster 4",
@@ -23692,8 +23717,8 @@
       "block.fnaf_mod.alternate_big_black_stripe_dark_wall_tile": "Alternate Big Black Striped Dark Wall Tiles",
       "subtitles.cameradown": "",
       "block.fnaf_mod.error_tile_stair": "Missing Texture Tile Stairs",
-      "block.fnaf_mod.light_button_on": "Light Button On",
       "block.fnaf_mod.balloons": "Balloons",
+      "block.fnaf_mod.light_button_on": "Light Button On",
       "item.fnaf_mod.nightmare_freddy_spawn_egg": "Nightmare Freddy Spawn Egg",
       "block.fnaf_mod.alternate_stage_brick_tiles": "Alternate Etched Brick Tiles",
       "block.fnaf_mod.security_door_open": "Office Door",
@@ -24355,5 +24380,5 @@
     "modElementsPackage": "net.mcreator.fnafmod",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202300224119
+  "mcreatorVersion": 202300452316
 }

@@ -1,15 +1,15 @@
 {
-  "_fv": 43,
+  "_fv": 57,
   "_type": "livingentity",
   "definition": {
     "mobName": "Hanging Camera",
     "mobLabel": "",
     "mobModelName": "Modelcamera_hanging_Converted",
     "mobModelTexture": "camera.png",
-    "mobModelGlowTexture": "",
     "solidBoundingBox": {
       "fixedValue": false
     },
+    "modelLayers": [],
     "modelWidth": 0.4,
     "modelHeight": 0.7,
     "modelShadowSize": 0.5,
@@ -60,6 +60,9 @@
     "health": 10,
     "xpAmount": 0,
     "waterMob": false,
+    "pushedByFluids": {
+      "fixedValue": true
+    },
     "flyingMob": true,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
@@ -96,6 +99,7 @@
     "stepSound": {
       "value": ""
     },
+    "entityDataEntries": [],
     "onRightClickedOn": {
       "name": "SettingCamera"
     },

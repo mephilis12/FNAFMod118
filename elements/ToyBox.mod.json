@@ -1,15 +1,15 @@
 {
-  "_fv": 43,
+  "_fv": 57,
   "_type": "livingentity",
   "definition": {
     "mobName": "Toy Box",
     "mobLabel": "",
     "mobModelName": "Modeltoybox",
     "mobModelTexture": "toybox.png",
-    "mobModelGlowTexture": "",
     "solidBoundingBox": {
       "fixedValue": true
     },
+    "modelLayers": [],
     "modelWidth": 1.0,
     "modelHeight": 1.5,
     "modelShadowSize": 1.0,
@@ -60,6 +60,9 @@
     "health": 5,
     "xpAmount": 0,
     "waterMob": false,
+    "pushedByFluids": {
+      "fixedValue": true
+    },
     "flyingMob": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
@@ -96,6 +99,7 @@
     "stepSound": {
       "value": ""
     },
+    "entityDataEntries": [],
     "onRightClickedOn": {
       "name": "StatueFreddyRightClickedOnEntity"
     },

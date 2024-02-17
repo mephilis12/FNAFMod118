@@ -1,21 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " 1",
-    "23",
-    " 5"
+    " a",
+    "bc",
+    " d"
   ],
   "key": {
-    "1": {
+    "a": {
       "item": "minecraft:black_wool"
     },
-    "2": {
+    "b": {
       "item": "minecraft:polished_blackstone_button"
     },
-    "3": {
+    "c": {
       "item": "fnaf_mod:black_plastic"
     },
-    "5": {
+    "d": {
       "item": "minecraft:iron_ingot"
     }
   },

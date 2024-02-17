@@ -19,6 +19,7 @@ import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.MobType;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.AreaEffectCloud;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.util.Mth;
@@ -105,31 +106,28 @@ public class PatPatEntity extends Monster {
 	}
 
 	@Override
-	public boolean hurt(DamageSource source, float amount) {
-		if (source.getDirectEntity() instanceof ThrownPotion || source.getDirectEntity() instanceof AreaEffectCloud)
+	public boolean hurt(DamageSource damagesource, float amount) {
+		if (damagesource == DamageSource.IN_FIRE)
 			return false;
-		if (source == DamageSource.CACTUS)
+		if (damagesource.getDirectEntity() instanceof ThrownPotion || damagesource.getDirectEntity() instanceof AreaEffectCloud)
 			return false;
-		if (source == DamageSource.DROWN)
+		if (damagesource == DamageSource.CACTUS)
 			return false;
-		if (source == DamageSource.LIGHTNING_BOLT)
+		if (damagesource == DamageSource.DROWN)
 			return false;
-		if (source.isExplosion())
+		if (damagesource == DamageSource.LIGHTNING_BOLT)
 			return false;
-		if (source == DamageSource.ANVIL)
+		if (damagesource.isExplosion())
 			return false;
-		if (source == DamageSource.DRAGON_BREATH)
+		if (damagesource == DamageSource.ANVIL)
 			return false;
-		if (source == DamageSource.WITHER)
+		if (damagesource == DamageSource.DRAGON_BREATH)
 			return false;
-		if (source.getMsgId().equals("witherSkull"))
+		if (damagesource == DamageSource.WITHER)
 			return false;
-		return super.hurt(source, amount);
-	}
-
-	@Override
-	public boolean canBreatheUnderwater() {
-		return true;
+		if (damagesource.getMsgId().equals("witherSkull"))
+			return false;
+		return super.hurt(damagesource, amount);
 	}
 
 	@Override
@@ -138,8 +136,13 @@ public class PatPatEntity extends Monster {
 	}
 
 	@Override
-	public boolean isPushedByFluid() {
-		return false;
+	public boolean canBreatheUnderwater() {
+		double x = this.getX();
+		double y = this.getY();
+		double z = this.getZ();
+		Level world = this.level;
+		Entity entity = this;
+		return true;
 	}
 
 	public static void init() {

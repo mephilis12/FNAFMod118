@@ -20,7 +20,7 @@ import net.minecraft.core.BlockPos;
 
 import net.mcreator.fnafmod.init.FnafModModEntities;
 import net.mcreator.fnafmod.entity.TheCrooblerEntity;
-import net.mcreator.fnafmod.entity.BooletEntity;
+import net.mcreator.fnafmod.entity.BooletProjectileEntity;
 import net.mcreator.fnafmod.FnafModMod;
 
 import javax.annotation.Nullable;
@@ -47,7 +47,7 @@ public class TheCrooblerOnEntityTickUpdateProcedure {
 					if (!projectileLevel.isClientSide()) {
 						Projectile _entityToSpawn = new Object() {
 							public Projectile getArrow(Level level, Entity shooter, float damage, int knockback) {
-								AbstractArrow entityToSpawn = new BooletEntity(FnafModModEntities.BOOLET.get(), level);
+								AbstractArrow entityToSpawn = new BooletProjectileEntity(FnafModModEntities.BOOLET_PROJECTILE.get(), level);
 								entityToSpawn.setOwner(shooter);
 								entityToSpawn.setBaseDamage(damage);
 								entityToSpawn.setKnockback(knockback);

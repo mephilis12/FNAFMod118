@@ -126,14 +126,16 @@ public class TheCrooblerEntity extends Monster {
 	}
 
 	@Override
-	public boolean hurt(DamageSource source, float amount) {
-		if (source.getDirectEntity() instanceof AbstractArrow)
+	public boolean hurt(DamageSource damagesource, float amount) {
+		if (damagesource == DamageSource.IN_FIRE)
 			return false;
-		if (source == DamageSource.CACTUS)
+		if (damagesource.getDirectEntity() instanceof AbstractArrow)
 			return false;
-		if (source == DamageSource.LIGHTNING_BOLT)
+		if (damagesource == DamageSource.CACTUS)
 			return false;
-		return super.hurt(source, amount);
+		if (damagesource == DamageSource.LIGHTNING_BOLT)
+			return false;
+		return super.hurt(damagesource, amount);
 	}
 
 	@Override

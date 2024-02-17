@@ -1,27 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "012",
-    "345"
+    "aab",
+    "cda"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "minecraft:iron_ingot"
     },
-    "1": {
-      "item": "minecraft:iron_ingot"
-    },
-    "2": {
+    "b": {
       "item": "minecraft:iron_bars"
     },
-    "3": {
+    "c": {
       "item": "minecraft:black_stained_glass"
     },
-    "4": {
+    "d": {
       "item": "fnaf_mod:circuit_board"
-    },
-    "5": {
-      "item": "minecraft:iron_ingot"
     }
   },
   "result": {

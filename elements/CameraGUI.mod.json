@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 57,
   "_type": "gui",
   "definition": {
     "type": 0,
@@ -46,6 +46,7 @@
         "data": {
           "name": "button_camera_1",
           "text": "Camera 1",
+          "isUndecorated": false,
           "onClick": {
             "name": "Cam1Pressed"
           },
@@ -60,6 +61,7 @@
         "data": {
           "name": "button_camera_2",
           "text": "Camera 2",
+          "isUndecorated": false,
           "onClick": {
             "name": "Cam2Pressed"
           },
@@ -74,6 +76,7 @@
         "data": {
           "name": "button_camera_3",
           "text": "Camera 3",
+          "isUndecorated": false,
           "onClick": {
             "name": "Cam3Pressed"
           },
@@ -88,6 +91,7 @@
         "data": {
           "name": "button_camera_4",
           "text": "Camera 4",
+          "isUndecorated": false,
           "onClick": {
             "name": "Cam4Pressed"
           },
@@ -102,6 +106,7 @@
         "data": {
           "name": "button_camera_5",
           "text": "Camera 5",
+          "isUndecorated": false,
           "onClick": {
             "name": "Cam5Pressed"
           },
@@ -191,6 +196,7 @@
         "data": {
           "name": "button_previous_page",
           "text": "Previous Page",
+          "isUndecorated": false,
           "onClick": {
             "name": "Back2Pressed"
           },
@@ -205,6 +211,7 @@
         "data": {
           "name": "button_next_page",
           "text": "Next Page",
+          "isUndecorated": false,
           "onClick": {
             "name": "Add2Pressed"
           },

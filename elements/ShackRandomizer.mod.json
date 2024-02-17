@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 57,
   "_type": "block",
   "definition": {
     "texture": "cracked_purple_tiles",
@@ -34,7 +34,9 @@
       }
     ],
     "name": "Shack Randomizer",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": true,
@@ -123,7 +125,7 @@
     "onBlockAdded": {
       "name": "ShackRandomizerBlockAdded"
     },
-    "spawnWorldTypes": [],
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [
       {

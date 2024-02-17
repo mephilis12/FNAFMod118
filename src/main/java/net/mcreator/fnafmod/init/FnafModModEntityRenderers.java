@@ -122,7 +122,7 @@ import net.mcreator.fnafmod.client.renderer.CrawlingSpringtrapRenderer;
 import net.mcreator.fnafmod.client.renderer.CrawlingMangleRenderer;
 import net.mcreator.fnafmod.client.renderer.ChicaChickenRenderer;
 import net.mcreator.fnafmod.client.renderer.CameraRenderer;
-import net.mcreator.fnafmod.client.renderer.BooletRenderer;
+import net.mcreator.fnafmod.client.renderer.BooletProjectileRenderer;
 import net.mcreator.fnafmod.client.renderer.BonnieStandRenderer;
 import net.mcreator.fnafmod.client.renderer.BonnieBunnyRenderer;
 import net.mcreator.fnafmod.client.renderer.BBRenderer;
@@ -247,6 +247,6 @@ public class FnafModModEntityRenderers {
 		event.registerEntityRenderer(FnafModModEntities.SITTING_DAYTIME_SPRINGTRAP.get(), SittingDaytimeSpringtrapRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.STANDING_DAYTIME_SPRINGTRAP.get(), StandingDaytimeSpringtrapRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.CRAWLING_SPRINGTRAP.get(), CrawlingSpringtrapRenderer::new);
-		event.registerEntityRenderer(FnafModModEntities.BOOLET.get(), BooletRenderer::new);
+		event.registerEntityRenderer(FnafModModEntities.BOOLET_PROJECTILE.get(), BooletProjectileRenderer::new);
 	}
 }

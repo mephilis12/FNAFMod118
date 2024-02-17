@@ -1,11 +1,11 @@
 {
   "replace": false,
   "values": [
-    "fnaf_mod:bp_4",
-    "fnaf_mod:bp_3",
-    "fnaf_mod:bp_6",
-    "fnaf_mod:bp_5",
+    "fnaf_mod:bp_1",
     "fnaf_mod:bp_2",
-    "fnaf_mod:bp_1"
+    "fnaf_mod:bp_3",
+    "fnaf_mod:bp_4",
+    "fnaf_mod:bp_5",
+    "fnaf_mod:bp_6"
   ]
 }

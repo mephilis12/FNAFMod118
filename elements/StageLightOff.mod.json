@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 57,
   "_type": "animatedblock",
   "definition": {
     "texture": "light",
@@ -33,9 +33,6 @@
       }
     ],
     "name": "Stage Light",
-    "specialInfo": [
-      "Green"
-    ],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
@@ -115,6 +112,7 @@
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
+    "generateFeature": false,
     "inventoryOutSlotIDs": [],
     "inventoryInSlotIDs": [],
     "hasEnergyStorage": false,
@@ -128,7 +126,6 @@
     "onRedstoneOn": {
       "name": "StageLightOffRedstoneOn"
     },
-    "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {

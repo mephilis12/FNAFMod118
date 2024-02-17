@@ -13,10 +13,12 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.chat.Component;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
@@ -29,10 +31,15 @@ import java.util.Collections;
 public class Bp1Block extends Block {
 	public Bp1Block() {
 		super(BlockBehaviour.Properties.of(Material.WOOD)
-				.sound(new ForgeSoundType(1.0f, 1.0f, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("fnaf_mod:ballpit")), () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("")),
-						() -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("fnaf_mod:ballpit")), () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("")),
-						() -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation(""))))
+				.sound(new ForgeSoundType(1.0f, 1.0f, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("fnaf_mod:ballpit")), () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("intentionally_empty")),
+						() -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("fnaf_mod:ballpit")), () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("intentionally_empty")),
+						() -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("intentionally_empty"))))
 				.strength(1f, 10f).noCollission());
+	}
+
+	@Override
+	public void appendHoverText(ItemStack itemstack, BlockGetter level, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, level, list, flag);
 	}
 
 	@Override

@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 57,
   "_type": "block",
   "definition": {
     "texture": "pinballcupcakeblacklight",
@@ -151,7 +151,9 @@
       }
     ],
     "name": "Pinball Machine Blacklight Cupcake",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "hardness": 1.6,
     "resistance": 15.0,
     "hasGravity": false,
@@ -234,7 +236,7 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [],
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [
       {

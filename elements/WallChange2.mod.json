@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 57,
   "_type": "gui",
   "definition": {
     "type": 0,
@@ -15,6 +15,7 @@
         "data": {
           "name": "button_a",
           "text": "A",
+          "isUndecorated": false,
           "onClick": {
             "name": "E"
           },
@@ -29,6 +30,7 @@
         "data": {
           "name": "button_b",
           "text": "B",
+          "isUndecorated": false,
           "onClick": {
             "name": "F"
           },
@@ -43,6 +45,7 @@
         "data": {
           "name": "button_c",
           "text": "C",
+          "isUndecorated": false,
           "onClick": {
             "name": "G"
           },
@@ -57,6 +60,7 @@
         "data": {
           "name": "button_d",
           "text": "D",
+          "isUndecorated": false,
           "onClick": {
             "name": "H"
           },

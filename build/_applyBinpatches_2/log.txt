@@ -1,5 +1,5 @@
 Java Launcher: D:\Pylo\MCreator\jdk\bin\java.exe
-Arguments: '--clean, C:\Users\mephilis\.mcreator\gradle\caches\forge_gradle\mcp_repo\net\minecraft\joined\1.19.2-20220805.130853\joined-1.19.2-20220805.130853-srg.jar, --output, D:\Workspace For Now\FNAFMod\build\fg_cache\net\minecraftforge\forge\1.19.2-43.2.0\forge-1.19.2-43.2.0-binpatched.jar, --apply, D:\Workspace For Now\FNAFMod\build\fg_cache\net\minecraftforge\forge\1.19.2-43.2.0\forge-1.19.2-43.2.0-binpatches.lzma'
+Arguments: '--clean, C:\Users\mephilis\.mcreator\gradle\caches\forge_gradle\mcp_repo\net\minecraft\joined\1.19.2-20220805.130853\joined-1.19.2-20220805.130853-srg.jar, --output, D:\Workspace For Now\FNAFMod\build\fg_cache\net\minecraftforge\forge\1.19.2-43.3.7\forge-1.19.2-43.3.7-binpatched.jar, --apply, D:\Workspace For Now\FNAFMod\build\fg_cache\net\minecraftforge\forge\1.19.2-43.3.7\forge-1.19.2-43.3.7-binpatches.lzma'
 Classpath:
  - C:\Users\mephilis\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\binarypatcher\1.1.1\binarypatcher-1.1.1-fatjar.jar
 Working directory: D:\Workspace For Now\FNAFMod\build\_applyBinpatches_2
@@ -7,12 +7,12 @@ Main class: net.minecraftforge.binarypatcher.ConsoleTool
 ====================================
 Applying: 
   Clean:     C:\Users\mephilis\.mcreator\gradle\caches\forge_gradle\mcp_repo\net\minecraft\joined\1.19.2-20220805.130853\joined-1.19.2-20220805.130853-srg.jar
-  Output:    D:\Workspace For Now\FNAFMod\build\fg_cache\net\minecraftforge\forge\1.19.2-43.2.0\forge-1.19.2-43.2.0-binpatched.jar
+  Output:    D:\Workspace For Now\FNAFMod\build\fg_cache\net\minecraftforge\forge\1.19.2-43.3.7\forge-1.19.2-43.3.7-binpatched.jar
   KeepData:  false
   Unpatched: false
   Pack200:   false
   Legacy:    false
-Loading patches file: D:\Workspace For Now\FNAFMod\build\fg_cache\net\minecraftforge\forge\1.19.2-43.2.0\forge-1.19.2-43.2.0-binpatches.lzma
+Loading patches file: D:\Workspace For Now\FNAFMod\build\fg_cache\net\minecraftforge\forge\1.19.2-43.3.7\forge-1.19.2-43.3.7-binpatches.lzma
   Reading patch com.mojang.blaze3d.pipeline.RenderTarget.binpatch
     Checksum: 19e6c00e Exists: true
   Reading patch com.mojang.blaze3d.platform.GlStateManager$BlendState.binpatch
@@ -245,6 +245,10 @@ Loading patches file: D:\Workspace For Now\FNAFMod\build\fg_cache\net\minecraftf
     Checksum: 53a94a7e Exists: true
   Reading patch net.minecraft.client.gui.components.toasts.ToastComponent.binpatch
     Checksum: 498b108f Exists: true
+  Reading patch net.minecraft.client.gui.screens.ConnectScreen$1.binpatch
+    Checksum: 6cb59113 Exists: true
+  Reading patch net.minecraft.client.gui.screens.ConnectScreen.binpatch
+    Checksum: 7fe656ec Exists: true
   Reading patch net.minecraft.client.gui.screens.DeathScreen.binpatch
     Checksum: 30af0341 Exists: true
   Reading patch net.minecraft.client.gui.screens.LoadingOverlay$LogoTexture.binpatch
@@ -257,6 +261,8 @@ Loading patches file: D:\Workspace For Now\FNAFMod\build\fg_cache\net\minecraftf
     Checksum: 699f9659 Exists: true
   Reading patch net.minecraft.client.gui.screens.OptionsScreen.binpatch
     Checksum: 77ca4ef9 Exists: true
+  Reading patch net.minecraft.client.gui.screens.PauseScreen.binpatch
+    Checksum: 3771d2fc Exists: true
   Reading patch net.minecraft.client.gui.screens.Screen$NarratableSearchResult.binpatch
     Checksum: 9c4e73b8 Exists: true
   Reading patch net.minecraft.client.gui.screens.Screen.binpatch
@@ -1137,6 +1143,8 @@ Loading patches file: D:\Workspace For Now\FNAFMod\build\fg_cache\net\minecraftf
     Checksum: 246cbcb5 Exists: true
   Reading patch net.minecraft.server.commands.SpreadPlayersCommand.binpatch
     Checksum: 48af9a38 Exists: true
+  Reading patch net.minecraft.server.commands.SummonCommand.binpatch
+    Checksum: aa2140fd Exists: true
   Reading patch net.minecraft.server.commands.TeleportCommand$LookAt.binpatch
     Checksum: 366f9b93 Exists: true
   Reading patch net.minecraft.server.commands.TeleportCommand.binpatch
@@ -1305,6 +1313,10 @@ Loading patches file: D:\Workspace For Now\FNAFMod\build\fg_cache\net\minecraftf
     Checksum: cbf93089 Exists: true
   Reading patch net.minecraft.tags.TagManager.binpatch
     Checksum: 93904a5d Exists: true
+  Reading patch net.minecraft.util.SpawnUtil$Strategy.binpatch
+    Checksum: cba1ed50 Exists: true
+  Reading patch net.minecraft.util.SpawnUtil.binpatch
+    Checksum: dc233663 Exists: true
   Reading patch net.minecraft.util.datafix.fixes.StructuresBecomeConfiguredFix$Conversion.binpatch
     Checksum: b60ff615 Exists: true
   Reading patch net.minecraft.util.datafix.fixes.StructuresBecomeConfiguredFix.binpatch
@@ -1673,6 +1685,12 @@ Loading patches file: D:\Workspace For Now\FNAFMod\build\fg_cache\net\minecraftf
     Checksum: fe77b5df Exists: true
   Reading patch net.minecraft.world.entity.monster.Spider.binpatch
     Checksum: f98aa418 Exists: true
+  Reading patch net.minecraft.world.entity.monster.Strider$StriderGoToLavaGoal.binpatch
+    Checksum: e89bade6 Exists: true
+  Reading patch net.minecraft.world.entity.monster.Strider$StriderPathNavigation.binpatch
+    Checksum: 4fbfe65e Exists: true
+  Reading patch net.minecraft.world.entity.monster.Strider.binpatch
+    Checksum: 430bccc0 Exists: true
   Reading patch net.minecraft.world.entity.monster.Zombie$ZombieAttackTurtleEggGoal.binpatch
     Checksum: 39c7f3fb Exists: true
   Reading patch net.minecraft.world.entity.monster.Zombie$ZombieGroupData.binpatch
@@ -1871,6 +1889,8 @@ Loading patches file: D:\Workspace For Now\FNAFMod\build\fg_cache\net\minecraftf
     Checksum: 5cc7dc90 Exists: true
   Reading patch net.minecraft.world.item.BucketItem.binpatch
     Checksum: b7a655d7 Exists: true
+  Reading patch net.minecraft.world.item.BundleItem.binpatch
+    Checksum: d15e18eb Exists: true
   Reading patch net.minecraft.world.item.ChorusFruitItem.binpatch
     Checksum: 49436006 Exists: true
   Reading patch net.minecraft.world.item.CreativeModeTab$1.binpatch
@@ -1903,6 +1923,8 @@ Loading patches file: D:\Workspace For Now\FNAFMod\build\fg_cache\net\minecraftf
     Checksum: 49637bb2 Exists: true
   Reading patch net.minecraft.world.item.DiggerItem.binpatch
     Checksum: 21e35a2d Exists: true
+  Reading patch net.minecraft.world.item.DispensibleContainerItem.binpatch
+    Checksum: 767b3bf1 Exists: true
   Reading patch net.minecraft.world.item.DyeColor.binpatch
     Checksum: 7c533189 Exists: true
   Reading patch net.minecraft.world.item.DyeableHorseArmorItem.binpatch
@@ -2299,6 +2321,8 @@ Loading patches file: D:\Workspace For Now\FNAFMod\build\fg_cache\net\minecraftf
     Checksum: 7b515cd8 Exists: true
   Reading patch net.minecraft.world.level.block.StemBlock.binpatch
     Checksum: f3150ba2 Exists: true
+  Reading patch net.minecraft.world.level.block.StemGrownBlock.binpatch
+    Checksum: de0d0158 Exists: true
   Reading patch net.minecraft.world.level.block.SugarCaneBlock.binpatch
     Checksum: fa3c7aeb Exists: true
   Reading patch net.minecraft.world.level.block.SweetBerryBushBlock.binpatch
@@ -2465,6 +2489,8 @@ Loading patches file: D:\Workspace For Now\FNAFMod\build\fg_cache\net\minecraftf
     Checksum: 7eca2ac5 Exists: true
   Reading patch net.minecraft.world.level.levelgen.feature.configurations.TreeConfiguration.binpatch
     Checksum: 88a34ad9 Exists: true
+  Reading patch net.minecraft.world.level.levelgen.feature.treedecorators.AlterGroundDecorator.binpatch
+    Checksum: 9f7d4430 Exists: true
   Reading patch net.minecraft.world.level.levelgen.feature.trunkplacers.TrunkPlacer.binpatch
     Checksum: 9ff40ed0 Exists: true
   Reading patch net.minecraft.world.level.levelgen.structure.Structure$GenerationContext.binpatch
@@ -2483,6 +2509,74 @@ Loading patches file: D:\Workspace For Now\FNAFMod\build\fg_cache\net\minecraftf
     Checksum: b64a7ee Exists: true
   Reading patch net.minecraft.world.level.levelgen.structure.StructureStart.binpatch
     Checksum: b32879d4 Exists: true
+  Reading patch net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$1.binpatch
+    Checksum: e9d2dccd Exists: true
+  Reading patch net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$FitDoubleXRoom.binpatch
+    Checksum: 6d58fd03 Exists: true
+  Reading patch net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$FitDoubleXYRoom.binpatch
+    Checksum: a3eb3195 Exists: true
+  Reading patch net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$FitDoubleYRoom.binpatch
+    Checksum: 6887fb4c Exists: true
+  Reading patch net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$FitDoubleYZRoom.binpatch
+    Checksum: 59483210 Exists: true
+  Reading patch net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$FitDoubleZRoom.binpatch
+    Checksum: 978c19ba Exists: true
+  Reading patch net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$FitSimpleRoom.binpatch
+    Checksum: b15aa743 Exists: true
+  Reading patch net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$FitSimpleTopRoom.binpatch
+    Checksum: a85deef4 Exists: true
+  Reading patch net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$MonumentBuilding.binpatch
+    Checksum: 712bd48e Exists: true
+  Reading patch net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$MonumentRoomFitter.binpatch
+    Checksum: 15016429 Exists: true
+  Reading patch net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$OceanMonumentCoreRoom.binpatch
+    Checksum: 60b559b2 Exists: true
+  Reading patch net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$OceanMonumentDoubleXRoom.binpatch
+    Checksum: f94aa57a Exists: true
+  Reading patch net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$OceanMonumentDoubleXYRoom.binpatch
+    Checksum: 96584ad3 Exists: true
+  Reading patch net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$OceanMonumentDoubleYRoom.binpatch
+    Checksum: 90197015 Exists: true
+  Reading patch net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$OceanMonumentDoubleYZRoom.binpatch
+    Checksum: 4e7a0fcd Exists: true
+  Reading patch net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$OceanMonumentDoubleZRoom.binpatch
+    Checksum: 96910a24 Exists: true
+  Reading patch net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$OceanMonumentEntryRoom.binpatch
+    Checksum: 1908e370 Exists: true
+  Reading patch net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$OceanMonumentPenthouse.binpatch
+    Checksum: 78434455 Exists: true
+  Reading patch net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$OceanMonumentPiece.binpatch
+    Checksum: 4a188592 Exists: true
+  Reading patch net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$OceanMonumentSimpleRoom.binpatch
+    Checksum: 183a1903 Exists: true
+  Reading patch net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$OceanMonumentSimpleTopRoom.binpatch
+    Checksum: 28e38966 Exists: true
+  Reading patch net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$OceanMonumentWingRoom.binpatch
+    Checksum: 8d17c0ea Exists: true
+  Reading patch net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$RoomDefinition.binpatch
+    Checksum: bc7305c1 Exists: true
+  Reading patch net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces.binpatch
+    Checksum: 3fddf16e Exists: true
+  Reading patch net.minecraft.world.level.levelgen.structure.structures.WoodlandMansionPieces$FirstFloorRoomCollection.binpatch
+    Checksum: f08b28e6 Exists: true
+  Reading patch net.minecraft.world.level.levelgen.structure.structures.WoodlandMansionPieces$FloorRoomCollection.binpatch
+    Checksum: 701009f Exists: true
+  Reading patch net.minecraft.world.level.levelgen.structure.structures.WoodlandMansionPieces$MansionGrid.binpatch
+    Checksum: 284d6e10 Exists: true
+  Reading patch net.minecraft.world.level.levelgen.structure.structures.WoodlandMansionPieces$MansionPiecePlacer.binpatch
+    Checksum: 730c473e Exists: true
+  Reading patch net.minecraft.world.level.levelgen.structure.structures.WoodlandMansionPieces$PlacementData.binpatch
+    Checksum: c659d8d8 Exists: true
+  Reading patch net.minecraft.world.level.levelgen.structure.structures.WoodlandMansionPieces$SecondFloorRoomCollection.binpatch
+    Checksum: 2b7c46a3 Exists: true
+  Reading patch net.minecraft.world.level.levelgen.structure.structures.WoodlandMansionPieces$SimpleGrid.binpatch
+    Checksum: aa5d648f Exists: true
+  Reading patch net.minecraft.world.level.levelgen.structure.structures.WoodlandMansionPieces$ThirdFloorRoomCollection.binpatch
+    Checksum: 28a4e8a4 Exists: true
+  Reading patch net.minecraft.world.level.levelgen.structure.structures.WoodlandMansionPieces$WoodlandMansionPiece.binpatch
+    Checksum: 701646e7 Exists: true
+  Reading patch net.minecraft.world.level.levelgen.structure.structures.WoodlandMansionPieces.binpatch
+    Checksum: 6aecf2af Exists: true
   Reading patch net.minecraft.world.level.levelgen.structure.templatesystem.StructureProcessor.binpatch
     Checksum: b642f88b Exists: true
   Reading patch net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplate$1.binpatch
@@ -2726,12 +2820,15 @@ Processing: C:\Users\mephilis\.mcreator\gradle\caches\forge_gradle\mcp_repo\net\
   Patching net/minecraft/client/gui/components/DebugScreenOverlay 1/1
   Patching net/minecraft/client/gui/components/toasts/ToastComponent$ToastInstance 1/1
   Patching net/minecraft/client/gui/components/toasts/ToastComponent 1/1
+  Patching net/minecraft/client/gui/screens/ConnectScreen$1 1/1
+  Patching net/minecraft/client/gui/screens/ConnectScreen 1/1
   Patching net/minecraft/client/gui/screens/DeathScreen 1/1
   Patching net/minecraft/client/gui/screens/LoadingOverlay$LogoTexture 1/1
   Patching net/minecraft/client/gui/screens/LoadingOverlay 1/1
   Patching net/minecraft/client/gui/screens/MenuScreens$ScreenConstructor 1/1
   Patching net/minecraft/client/gui/screens/MenuScreens 1/1
   Patching net/minecraft/client/gui/screens/OptionsScreen 1/1
+  Patching net/minecraft/client/gui/screens/PauseScreen 1/1
   Patching net/minecraft/client/gui/screens/Screen$NarratableSearchResult 1/1
   Patching net/minecraft/client/gui/screens/Screen 1/1
   Patching net/minecraft/client/gui/screens/TitleScreen$1 1/1
@@ -3172,6 +3269,7 @@ Processing: C:\Users\mephilis\.mcreator\gradle\caches\forge_gradle\mcp_repo\net\
   Patching net/minecraft/server/ServerAdvancementManager 1/1
   Patching net/minecraft/server/commands/SpreadPlayersCommand$Position 1/1
   Patching net/minecraft/server/commands/SpreadPlayersCommand 1/1
+  Patching net/minecraft/server/commands/SummonCommand 1/1
   Patching net/minecraft/server/commands/TeleportCommand$LookAt 1/1
   Patching net/minecraft/server/commands/TeleportCommand 1/1
   Patching net/minecraft/server/dedicated/DedicatedServer$1 1/1
@@ -3256,6 +3354,8 @@ Processing: C:\Users\mephilis\.mcreator\gradle\caches\forge_gradle\mcp_repo\net\
   Patching net/minecraft/tags/TagLoader 1/1
   Patching net/minecraft/tags/TagManager$LoadResult 1/1
   Patching net/minecraft/tags/TagManager 1/1
+  Patching net/minecraft/util/SpawnUtil$Strategy 1/1
+  Patching net/minecraft/util/SpawnUtil 1/1
   Patching net/minecraft/util/datafix/fixes/StructuresBecomeConfiguredFix$Conversion 1/1
   Patching net/minecraft/util/datafix/fixes/StructuresBecomeConfiguredFix 1/1
   Patching net/minecraft/util/datafix/schemas/V2832 1/1
@@ -3440,6 +3540,9 @@ Processing: C:\Users\mephilis\.mcreator\gradle\caches\forge_gradle\mcp_repo\net\
   Patching net/minecraft/world/entity/monster/Spider$SpiderEffectsGroupData 1/1
   Patching net/minecraft/world/entity/monster/Spider$SpiderTargetGoal 1/1
   Patching net/minecraft/world/entity/monster/Spider 1/1
+  Patching net/minecraft/world/entity/monster/Strider$StriderGoToLavaGoal 1/1
+  Patching net/minecraft/world/entity/monster/Strider$StriderPathNavigation 1/1
+  Patching net/minecraft/world/entity/monster/Strider 1/1
   Patching net/minecraft/world/entity/monster/Zombie$ZombieAttackTurtleEggGoal 1/1
   Patching net/minecraft/world/entity/monster/Zombie$ZombieGroupData 1/1
   Patching net/minecraft/world/entity/monster/Zombie 1/1
@@ -3539,6 +3642,7 @@ Processing: C:\Users\mephilis\.mcreator\gradle\caches\forge_gradle\mcp_repo\net\
   Patching net/minecraft/world/item/BoneMealItem 1/1
   Patching net/minecraft/world/item/BowItem 1/1
   Patching net/minecraft/world/item/BucketItem 1/1
+  Patching net/minecraft/world/item/BundleItem 1/1
   Patching net/minecraft/world/item/ChorusFruitItem 1/1
   Patching net/minecraft/world/item/CreativeModeTab$1 1/1
   Patching net/minecraft/world/item/CreativeModeTab$10 1/1
@@ -3555,6 +3659,7 @@ Processing: C:\Users\mephilis\.mcreator\gradle\caches\forge_gradle\mcp_repo\net\
   Patching net/minecraft/world/item/CreativeModeTab 1/1
   Patching net/minecraft/world/item/CrossbowItem 1/1
   Patching net/minecraft/world/item/DiggerItem 1/1
+  Patching net/minecraft/world/item/DispensibleContainerItem 1/1
   Patching net/minecraft/world/item/DyeColor 1/1
   Patching net/minecraft/world/item/DyeableHorseArmorItem 1/1
   Patching net/minecraft/world/item/ElytraItem 1/1
@@ -3750,6 +3855,7 @@ Processing: C:\Users\mephilis\.mcreator\gradle\caches\forge_gradle\mcp_repo\net\
   Patching net/minecraft/world/level/block/StairBlock$1 1/1
   Patching net/minecraft/world/level/block/StairBlock 1/1
   Patching net/minecraft/world/level/block/StemBlock 1/1
+  Patching net/minecraft/world/level/block/StemGrownBlock 1/1
   Patching net/minecraft/world/level/block/SugarCaneBlock 1/1
   Patching net/minecraft/world/level/block/SweetBerryBushBlock 1/1
   Patching net/minecraft/world/level/block/TallGrassBlock 1/1
@@ -3833,6 +3939,7 @@ Processing: C:\Users\mephilis\.mcreator\gradle\caches\forge_gradle\mcp_repo\net\
   Patching net/minecraft/world/level/levelgen/feature/MonsterRoomFeature 1/1
   Patching net/minecraft/world/level/levelgen/feature/configurations/TreeConfiguration$TreeConfigurationBuilder 1/1
   Patching net/minecraft/world/level/levelgen/feature/configurations/TreeConfiguration 1/1
+  Patching net/minecraft/world/level/levelgen/feature/treedecorators/AlterGroundDecorator 1/1
   Patching net/minecraft/world/level/levelgen/feature/trunkplacers/TrunkPlacer 1/1
   Patching net/minecraft/world/level/levelgen/structure/Structure$GenerationContext 1/1
   Patching net/minecraft/world/level/levelgen/structure/Structure$GenerationStub 1/1
@@ -3842,6 +3949,40 @@ Processing: C:\Users\mephilis\.mcreator\gradle\caches\forge_gradle\mcp_repo\net\
   Patching net/minecraft/world/level/levelgen/structure/StructurePiece$BlockSelector 1/1
   Patching net/minecraft/world/level/levelgen/structure/StructurePiece 1/1
   Patching net/minecraft/world/level/levelgen/structure/StructureStart 1/1
+  Patching net/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$1 1/1
+  Patching net/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$FitDoubleXRoom 1/1
+  Patching net/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$FitDoubleXYRoom 1/1
+  Patching net/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$FitDoubleYRoom 1/1
+  Patching net/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$FitDoubleYZRoom 1/1
+  Patching net/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$FitDoubleZRoom 1/1
+  Patching net/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$FitSimpleRoom 1/1
+  Patching net/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$FitSimpleTopRoom 1/1
+  Patching net/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$MonumentBuilding 1/1
+  Patching net/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$MonumentRoomFitter 1/1
+  Patching net/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentCoreRoom 1/1
+  Patching net/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentDoubleXRoom 1/1
+  Patching net/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentDoubleXYRoom 1/1
+  Patching net/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentDoubleYRoom 1/1
+  Patching net/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentDoubleYZRoom 1/1
+  Patching net/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentDoubleZRoom 1/1
+  Patching net/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentEntryRoom 1/1
+  Patching net/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentPenthouse 1/1
+  Patching net/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentPiece 1/1
+  Patching net/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentSimpleRoom 1/1
+  Patching net/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentSimpleTopRoom 1/1
+  Patching net/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentWingRoom 1/1
+  Patching net/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$RoomDefinition 1/1
+  Patching net/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces 1/1
+  Patching net/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$FirstFloorRoomCollection 1/1
+  Patching net/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$FloorRoomCollection 1/1
+  Patching net/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$MansionGrid 1/1
+  Patching net/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$MansionPiecePlacer 1/1
+  Patching net/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$PlacementData 1/1
+  Patching net/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$SecondFloorRoomCollection 1/1
+  Patching net/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$SimpleGrid 1/1
+  Patching net/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$ThirdFloorRoomCollection 1/1
+  Patching net/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$WoodlandMansionPiece 1/1
+  Patching net/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces 1/1
   Patching net/minecraft/world/level/levelgen/structure/templatesystem/StructureProcessor 1/1
   Patching net/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate$1 1/1
   Patching net/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate$Palette 1/1

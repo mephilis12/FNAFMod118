@@ -1,37 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "aaa",
+    "aba",
+    "aaa"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "fnaf_mod:yellow_plastic"
     },
-    "1": {
-      "item": "fnaf_mod:yellow_plastic"
-    },
-    "2": {
-      "item": "fnaf_mod:yellow_plastic"
-    },
-    "3": {
-      "item": "fnaf_mod:yellow_plastic"
-    },
-    "4": {
+    "b": {
       "item": "minecraft:iron_door"
-    },
-    "5": {
-      "item": "fnaf_mod:yellow_plastic"
-    },
-    "6": {
-      "item": "fnaf_mod:yellow_plastic"
-    },
-    "7": {
-      "item": "fnaf_mod:yellow_plastic"
-    },
-    "8": {
-      "item": "fnaf_mod:yellow_plastic"
     }
   },
   "result": {

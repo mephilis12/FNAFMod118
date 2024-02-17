@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 57,
   "_type": "block",
   "definition": {
     "texture": "moviechair",
@@ -34,7 +34,9 @@
       }
     ],
     "name": "Movie Chair",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "hardness": 1.2,
     "resistance": 10.0,
     "hasGravity": false,
@@ -120,7 +122,7 @@
     "onRightClicked": {
       "name": "MovieChair3OnBlockRightClicked"
     },
-    "spawnWorldTypes": [],
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [
       {

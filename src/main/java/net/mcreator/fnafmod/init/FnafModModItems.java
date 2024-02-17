@@ -736,7 +736,6 @@ public class FnafModModItems {
 	public static final RegistryObject<Item> YELLOW_BEAR_SUIT_LEGGINGS = REGISTRY.register("yellow_bear_suit_leggings", () -> new YellowBearSuitItem.Leggings());
 	public static final RegistryObject<Item> YELLOW_BEAR_SUIT_BOOTS = REGISTRY.register("yellow_bear_suit_boots", () -> new YellowBearSuitItem.Boots());
 	public static final RegistryObject<Item> GOLD_TOKEN_BLOCK = block(FnafModModBlocks.GOLD_TOKEN_BLOCK, null);
-	public static final RegistryObject<Item> BOOLET = REGISTRY.register("boolet", () -> new BooletItem());
 	public static final RegistryObject<Item> FREDDY_SIGN_OFF = REGISTRY.register(FnafModModBlocks.FREDDY_SIGN_OFF.getId().getPath(),
 			() -> new FreddySignOffDisplayItem(FnafModModBlocks.FREDDY_SIGN_OFF.get(), new Item.Properties().tab(FnafModModTabs.TAB_DECORATIVE_BLOCKS)));
 	public static final RegistryObject<Item> FREDDY_SIGN_ON = REGISTRY.register(FnafModModBlocks.FREDDY_SIGN_ON.getId().getPath(), () -> new FreddySignOnDisplayItem(FnafModModBlocks.FREDDY_SIGN_ON.get(), new Item.Properties().tab(null)));
@@ -773,6 +772,7 @@ public class FnafModModItems {
 	public static final RegistryObject<Item> BP_4 = block(FnafModModBlocks.BP_4, null);
 	public static final RegistryObject<Item> BP_5 = block(FnafModModBlocks.BP_5, null);
 	public static final RegistryObject<Item> BP_6 = block(FnafModModBlocks.BP_6, null);
+	public static final RegistryObject<Item> BOOLET = REGISTRY.register("boolet", () -> new BooletItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

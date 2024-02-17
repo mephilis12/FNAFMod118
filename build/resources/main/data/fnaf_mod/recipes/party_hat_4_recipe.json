@@ -1,37 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "aba",
+    "bbb",
+    "bcb"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "minecraft:blue_dye"
     },
-    "1": {
+    "b": {
       "item": "minecraft:paper"
     },
-    "2": {
-      "item": "minecraft:blue_dye"
-    },
-    "3": {
-      "item": "minecraft:paper"
-    },
-    "4": {
-      "item": "minecraft:paper"
-    },
-    "5": {
-      "item": "minecraft:paper"
-    },
-    "6": {
-      "item": "minecraft:paper"
-    },
-    "7": {
+    "c": {
       "item": "minecraft:string"
-    },
-    "8": {
-      "item": "minecraft:paper"
     }
   },
   "result": {

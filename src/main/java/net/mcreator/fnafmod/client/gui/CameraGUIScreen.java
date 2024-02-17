@@ -57,7 +57,7 @@ public class CameraGUIScreen extends AbstractContainerScreen<CameraGUIMenu> {
 		RenderSystem.defaultBlendFunc();
 
 		RenderSystem.setShaderTexture(0, new ResourceLocation("fnaf_mod:textures/screens/cameratabletgui.png"));
-		this.blit(ms, this.leftPos + 0, this.topPos + 0, 0, 0, 260, 160, 260, 160);
+		this.blit(ms, this.leftPos + -1, this.topPos + 0, 0, 0, 260, 160, 260, 160);
 
 		RenderSystem.disableBlend();
 	}

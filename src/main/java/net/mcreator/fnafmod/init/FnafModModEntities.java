@@ -129,7 +129,7 @@ import net.mcreator.fnafmod.entity.CrawlingSpringtrapEntity;
 import net.mcreator.fnafmod.entity.CrawlingMangleEntity;
 import net.mcreator.fnafmod.entity.ChicaChickenEntity;
 import net.mcreator.fnafmod.entity.CameraEntity;
-import net.mcreator.fnafmod.entity.BooletEntity;
+import net.mcreator.fnafmod.entity.BooletProjectileEntity;
 import net.mcreator.fnafmod.entity.BonnieStandEntity;
 import net.mcreator.fnafmod.entity.BonnieBunnyEntity;
 import net.mcreator.fnafmod.entity.BBEntity;
@@ -594,8 +594,8 @@ public class FnafModModEntities {
 			EntityType.Builder.<CrawlingSpringtrapEntity>of(CrawlingSpringtrapEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CrawlingSpringtrapEntity::new)
 
 					.sized(0.8f, 0.8f));
-	public static final RegistryObject<EntityType<BooletEntity>> BOOLET = register("projectile_boolet",
-			EntityType.Builder.<BooletEntity>of(BooletEntity::new, MobCategory.MISC).setCustomClientFactory(BooletEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<BooletProjectileEntity>> BOOLET_PROJECTILE = register("projectile_boolet_projectile", EntityType.Builder.<BooletProjectileEntity>of(BooletProjectileEntity::new, MobCategory.MISC)
+			.setCustomClientFactory(BooletProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));

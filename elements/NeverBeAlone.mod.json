@@ -1,15 +1,17 @@
 {
-  "_fv": 43,
+  "_fv": 57,
   "_type": "musicdisc",
   "definition": {
     "name": "Music Disc",
+    "rarity": "RARE",
     "texture": "bealone",
     "description": "Never Be Alone Funky Mix - SomethingFunky",
     "creativeTab": {
       "value": "CUSTOM:MusicDiscs"
     },
-    "specialInfo": [],
-    "hasGlow": false,
+    "specialInformation": {
+      "fixedValue": []
+    },
     "music": {
       "value": "CUSTOM:neverbealone"
     },

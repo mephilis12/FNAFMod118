@@ -1,24 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " 12",
-    "345"
+    " ab",
+    "cbb"
   ],
   "key": {
-    "1": {
+    "a": {
       "item": "minecraft:yellow_wool"
     },
-    "2": {
+    "b": {
       "item": "minecraft:blue_wool"
     },
-    "3": {
+    "c": {
       "item": "minecraft:black_wool"
-    },
-    "4": {
-      "item": "minecraft:blue_wool"
-    },
-    "5": {
-      "item": "minecraft:blue_wool"
     }
   },
   "result": {

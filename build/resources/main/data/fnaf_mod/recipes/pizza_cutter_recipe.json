@@ -1,18 +1,15 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "0",
-    "1",
-    "2"
+    "a",
+    "b",
+    "b"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "minecraft:iron_ingot"
     },
-    "1": {
-      "item": "fnaf_mod:pink_plastic"
-    },
-    "2": {
+    "b": {
       "item": "fnaf_mod:pink_plastic"
     }
   },

@@ -1,21 +1,15 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "01",
-    "23"
+    "ab",
+    "ba"
   ],
   "key": {
-    "0": {
+    "a": {
       "tag": "minecraft:wool"
     },
-    "1": {
+    "b": {
       "item": "minecraft:light_blue_terracotta"
-    },
-    "2": {
-      "item": "minecraft:light_blue_terracotta"
-    },
-    "3": {
-      "tag": "minecraft:wool"
     }
   },
   "result": {

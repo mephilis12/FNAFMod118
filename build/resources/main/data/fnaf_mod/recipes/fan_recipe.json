@@ -1,24 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " 1 ",
-    "345",
-    " 7 "
+    " a ",
+    "aba",
+    " c "
   ],
   "key": {
-    "1": {
+    "a": {
       "item": "minecraft:iron_ingot"
     },
-    "3": {
-      "item": "minecraft:iron_ingot"
-    },
-    "4": {
+    "b": {
       "item": "fnaf_mod:black_plastic"
     },
-    "5": {
-      "item": "minecraft:iron_ingot"
-    },
-    "7": {
+    "c": {
       "item": "minecraft:iron_bars"
     }
   },

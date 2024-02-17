@@ -13,8 +13,6 @@
  */
 package net.mcreator.fnafmod;
 
-import software.bernie.geckolib3.GeckoLib;
-
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
@@ -31,13 +29,13 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.fnafmod.world.features.StructureFeature;
 import net.mcreator.fnafmod.init.FnafModModTabs;
 import net.mcreator.fnafmod.init.FnafModModSounds;
 import net.mcreator.fnafmod.init.FnafModModParticleTypes;
 import net.mcreator.fnafmod.init.FnafModModMobEffects;
 import net.mcreator.fnafmod.init.FnafModModMenus;
 import net.mcreator.fnafmod.init.FnafModModItems;
-import net.mcreator.fnafmod.init.FnafModModFeatures;
 import net.mcreator.fnafmod.init.FnafModModEntities;
 import net.mcreator.fnafmod.init.FnafModModBlocks;
 import net.mcreator.fnafmod.init.FnafModModBlockEntities;
@@ -65,14 +63,14 @@ public class FnafModMod {
 		FnafModModItems.REGISTRY.register(bus);
 		FnafModModEntities.REGISTRY.register(bus);
 		FnafModModBlockEntities.REGISTRY.register(bus);
-		FnafModModFeatures.REGISTRY.register(bus);
+
+		StructureFeature.REGISTRY.register(bus);
 
 		FnafModModMobEffects.REGISTRY.register(bus);
 
 		FnafModModParticleTypes.REGISTRY.register(bus);
 		FnafModModMenus.REGISTRY.register(bus);
 
-		GeckoLib.initialize();
 	}
 
 	private static final String PROTOCOL_VERSION = "1";

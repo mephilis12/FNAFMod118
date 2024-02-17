@@ -1,13 +1,13 @@
 {
   "replace": false,
   "values": [
-    "fnaf_mod:nightmare_freddy",
-    "fnaf_mod:nightmare_bonnie",
     "fnaf_mod:nightmare_bb",
-    "fnaf_mod:nightmare_mangle",
-    "fnaf_mod:nightmare_fredbear",
-    "fnaf_mod:plushtrap",
+    "fnaf_mod:nightmare_bonnie",
     "fnaf_mod:nightmare_chica",
-    "fnaf_mod:nightmare_foxy"
+    "fnaf_mod:nightmare_foxy",
+    "fnaf_mod:nightmare_fredbear",
+    "fnaf_mod:nightmare_freddy",
+    "fnaf_mod:nightmare_mangle",
+    "fnaf_mod:plushtrap"
   ]
 }

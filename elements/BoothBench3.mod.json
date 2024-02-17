@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 57,
   "_type": "block",
   "definition": {
     "texture": "booth_bench",
@@ -61,7 +61,9 @@
       }
     ],
     "name": "Booth Bench",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "hardness": 1.6,
     "resistance": 15.0,
     "hasGravity": false,
@@ -147,7 +149,7 @@
     "onRightClicked": {
       "name": "BoothBench3OnBlockRightClicked"
     },
-    "spawnWorldTypes": [],
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [
       {

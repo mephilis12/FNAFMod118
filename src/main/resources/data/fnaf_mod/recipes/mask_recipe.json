@@ -1,34 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "012",
-    "3 5",
-    "678"
+    "aba",
+    "a a",
+    "aaa"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "minecraft:brown_wool"
     },
-    "1": {
+    "b": {
       "item": "minecraft:gray_wool"
-    },
-    "2": {
-      "item": "minecraft:brown_wool"
-    },
-    "3": {
-      "item": "minecraft:brown_wool"
-    },
-    "5": {
-      "item": "minecraft:brown_wool"
-    },
-    "6": {
-      "item": "minecraft:brown_wool"
-    },
-    "7": {
-      "item": "minecraft:brown_wool"
-    },
-    "8": {
-      "item": "minecraft:brown_wool"
     }
   },
   "result": {

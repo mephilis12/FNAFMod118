@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 57,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
@@ -30,10 +30,18 @@
     "bodyName": "Spring Lock Suit Body",
     "leggingsName": "Spring Lock Suit Legs",
     "bootsName": "Spring Lock Suit Boots",
-    "helmetSpecialInfo": [],
-    "bodySpecialInfo": [],
-    "leggingsSpecialInfo": [],
-    "bootsSpecialInfo": [],
+    "helmetSpecialInformation": {
+      "fixedValue": []
+    },
+    "bodySpecialInformation": {
+      "fixedValue": []
+    },
+    "leggingsSpecialInformation": {
+      "fixedValue": []
+    },
+    "bootsSpecialInformation": {
+      "fixedValue": []
+    },
     "helmetModelName": "ModelSpringBonnieMask",
     "helmetModelPart": "Head",
     "helmetModelTexture": "spring_bonnie_head.png",

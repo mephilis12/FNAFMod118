@@ -1,11 +1,12 @@
 {
-  "_fv": 43,
+  "_fv": 57,
   "_type": "animatedentity",
   "definition": {
     "mobName": "Withered Foxy",
     "mobLabel": "",
     "mobModelTexture": "witheredfoxytexture.png",
     "mobModelGlowTexture": "",
+    "entityDataEntries": [],
     "modelWidth": 0.6,
     "modelHeight": 1.9000000000000001,
     "modelShadowSize": 0.5,

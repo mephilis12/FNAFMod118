@@ -1,24 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " 1 ",
-    "345",
-    " 7 "
+    " a ",
+    "bcb",
+    " c "
   ],
   "key": {
-    "1": {
+    "a": {
       "item": "fnaf_mod:freddy_head"
     },
-    "3": {
+    "b": {
       "item": "fnaf_mod:freddy_fabric"
     },
-    "4": {
-      "item": "minecraft:iron_ingot"
-    },
-    "5": {
-      "item": "fnaf_mod:freddy_fabric"
-    },
-    "7": {
+    "c": {
       "item": "minecraft:iron_ingot"
     }
   },

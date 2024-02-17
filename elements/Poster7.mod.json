@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 57,
   "_type": "block",
   "definition": {
     "texture": "toy_freddy_poster",
@@ -34,9 +34,11 @@
       }
     ],
     "name": "Wall Poster 7",
-    "specialInfo": [
-      "Poster of Toy Freddy!"
-    ],
+    "specialInformation": {
+      "fixedValue": [
+        "Poster of Toy Freddy!"
+      ]
+    },
     "hardness": 0.8,
     "resistance": 0.8,
     "hasGravity": false,
@@ -119,7 +121,7 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [],
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [
       {

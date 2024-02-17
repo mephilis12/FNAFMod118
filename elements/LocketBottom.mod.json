@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 57,
   "_type": "block",
   "definition": {
     "texture": "lockerbottom",
@@ -34,7 +34,9 @@
       }
     ],
     "name": "Locker",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "hardness": 5.0,
     "resistance": 6.0,
     "hasGravity": false,
@@ -123,7 +125,7 @@
     "onBlockPlayedBy": {
       "name": "LocketBottomBlockIsPlacedBy"
     },
-    "spawnWorldTypes": [],
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [
       {

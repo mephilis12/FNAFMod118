@@ -1,20 +1,14 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "01",
-    "23"
+    "aa",
+    "bb"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "minecraft:red_concrete"
     },
-    "1": {
-      "item": "minecraft:red_concrete"
-    },
-    "2": {
-      "item": "fnaf_mod:white_wall"
-    },
-    "3": {
+    "b": {
       "item": "fnaf_mod:white_wall"
     }
   },

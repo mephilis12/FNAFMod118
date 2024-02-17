@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 57,
   "_type": "block",
   "definition": {
     "texture": "bonniechica",
@@ -34,10 +34,12 @@
       }
     ],
     "name": "Fazbear's Fright Posters",
-    "specialInfo": [
-      "Posters from Fazbear's Fright",
-      "(Right Click to Change)"
-    ],
+    "specialInformation": {
+      "fixedValue": [
+        "Posters from Fazbear's Fright",
+        "(Right Click to Change)"
+      ]
+    },
     "hardness": 0.8,
     "resistance": 0.8,
     "hasGravity": false,
@@ -123,7 +125,7 @@
     "onRightClicked": {
       "name": "FNAF3PostersOnBlockRightClicked"
     },
-    "spawnWorldTypes": [],
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [
       {

@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 57,
   "_type": "block",
   "definition": {
     "texture": "light_button",
@@ -34,9 +34,11 @@
       }
     ],
     "name": "Light Button Off",
-    "specialInfo": [
-      "If you have this item place and break it again"
-    ],
+    "specialInformation": {
+      "fixedValue": [
+        "If you have this item place and break it again"
+      ]
+    },
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
@@ -122,7 +124,7 @@
     "onRightClicked": {
       "name": "LightButtonOffOnBlockRightClicked"
     },
-    "spawnWorldTypes": [],
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [
       {

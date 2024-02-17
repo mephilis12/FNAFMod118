@@ -1,33 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "01 ",
-    "345",
-    "678"
+    "aa ",
+    "aba",
+    "acd"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "fnaf_mod:pink_plastic"
     },
-    "1": {
-      "item": "fnaf_mod:pink_plastic"
-    },
-    "3": {
-      "item": "fnaf_mod:pink_plastic"
-    },
-    "4": {
+    "b": {
       "item": "minecraft:black_stained_glass_pane"
     },
-    "5": {
-      "item": "fnaf_mod:pink_plastic"
-    },
-    "6": {
-      "item": "fnaf_mod:pink_plastic"
-    },
-    "7": {
+    "c": {
       "item": "fnaf_mod:circuit_board"
     },
-    "8": {
+    "d": {
       "item": "minecraft:leather"
     }
   },

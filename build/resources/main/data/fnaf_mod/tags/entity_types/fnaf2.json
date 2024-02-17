@@ -1,18 +1,18 @@
 {
   "replace": false,
   "values": [
-    "fnaf_mod:toy_freddy",
-    "fnaf_mod:crawling_toy_foxy",
-    "fnaf_mod:toy_foxy",
-    "fnaf_mod:withered_chica",
     "fnaf_mod:crawling_mangle",
-    "fnaf_mod:withered_freddy",
-    "fnaf_mod:mangle",
-    "fnaf_mod:crawling_toy_chica",
-    "fnaf_mod:withered_bonnie",
-    "fnaf_mod:nightime_toy_chica",
-    "fnaf_mod:withered_foxy",
     "fnaf_mod:crawling_toy_bonnie",
-    "fnaf_mod:toy_bonnie"
+    "fnaf_mod:crawling_toy_chica",
+    "fnaf_mod:crawling_toy_foxy",
+    "fnaf_mod:toy_bonnie",
+    "fnaf_mod:toy_foxy",
+    "fnaf_mod:toy_freddy",
+    "fnaf_mod:withered_bonnie",
+    "fnaf_mod:withered_chica",
+    "fnaf_mod:withered_foxy",
+    "fnaf_mod:withered_freddy",
+    "fnaf_mod:nightime_toy_chica",
+    "fnaf_mod:mangle"
   ]
 }

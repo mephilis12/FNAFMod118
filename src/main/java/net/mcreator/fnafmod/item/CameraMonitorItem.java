@@ -9,6 +9,7 @@ import net.minecraftforge.common.capabilities.ForgeCapabilities;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.item.UseAnim;
+import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
@@ -31,6 +32,8 @@ import net.mcreator.fnafmod.init.FnafModModTabs;
 
 import javax.annotation.Nullable;
 
+import java.util.List;
+
 import io.netty.buffer.Unpooled;
 
 public class CameraMonitorItem extends Item {
@@ -44,12 +47,13 @@ public class CameraMonitorItem extends Item {
 	}
 
 	@Override
+	public void appendHoverText(ItemStack itemstack, Level level, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, level, list, flag);
+	}
+
+	@Override
 	public InteractionResultHolder<ItemStack> use(Level world, Player entity, InteractionHand hand) {
 		InteractionResultHolder<ItemStack> ar = super.use(world, entity, hand);
-		ItemStack itemstack = ar.getObject();
-		double x = entity.getX();
-		double y = entity.getY();
-		double z = entity.getZ();
 		if (entity instanceof ServerPlayer serverPlayer) {
 			NetworkHooks.openScreen(serverPlayer, new MenuProvider() {
 				@Override
@@ -69,8 +73,7 @@ public class CameraMonitorItem extends Item {
 				buf.writeByte(hand == InteractionHand.MAIN_HAND ? 0 : 1);
 			});
 		}
-
-		CameraMonitorRightclickedProcedure.execute(world, x, y, z, entity);
+		CameraMonitorRightclickedProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ(), entity);
 		return ar;
 	}
 
@@ -88,9 +91,8 @@ public class CameraMonitorItem extends Item {
 
 	@Override
 	public CompoundTag getShareTag(ItemStack stack) {
-		CompoundTag nbt = super.getShareTag(stack);
-		if (nbt != null)
-			stack.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> nbt.put("Inventory", ((ItemStackHandler) capability).serializeNBT()));
+		CompoundTag nbt = stack.getOrCreateTag();
+		stack.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> nbt.put("Inventory", ((ItemStackHandler) capability).serializeNBT()));
 		return nbt;
 	}
 

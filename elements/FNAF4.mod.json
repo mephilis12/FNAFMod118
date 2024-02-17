@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 57,
   "_type": "tag",
   "definition": {
     "type": "Entities",
@@ -33,6 +33,7 @@
       }
     ],
     "biomes": [],
+    "damageTypes": [],
     "name": "fnaf4",
     "namespace": "mod"
   }

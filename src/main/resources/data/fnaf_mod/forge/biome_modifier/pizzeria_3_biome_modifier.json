@@ -1,9 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": [
-    "sunflower_plains",
-    "plains"
-  ],
-  "features": "fnaf_mod:pizzeria_3",
-  "step": "surface_structures"
-}

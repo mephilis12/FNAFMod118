@@ -1,0 +1,12 @@
+{
+  "type": "fnaf_mod:structure_feature",
+  "config": {
+    "structure": "fnaf_mod:thisisnothingcompletely",
+    "ignored_blocks": "minecraft:structure_block",
+    "offset": [
+      0,
+      2,
+      0
+    ]
+  }
+}

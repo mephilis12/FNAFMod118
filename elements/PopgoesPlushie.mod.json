@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 57,
   "_type": "block",
   "definition": {
     "texture": "popgo_plushie",
@@ -34,9 +34,11 @@
       }
     ],
     "name": "Popgoes Plushie",
-    "specialInfo": [
-      "Thank You Kane Carter"
-    ],
+    "specialInformation": {
+      "fixedValue": [
+        "Thank You Kane Carter"
+      ]
+    },
     "hardness": 0.8,
     "resistance": 0.8,
     "hasGravity": false,
@@ -122,7 +124,7 @@
     "onRightClicked": {
       "name": "PopgoesPlushieOnBlockRightClicked"
     },
-    "spawnWorldTypes": [],
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
