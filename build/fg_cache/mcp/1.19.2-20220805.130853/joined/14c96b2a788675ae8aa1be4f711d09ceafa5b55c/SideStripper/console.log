@@ -1,0 +1,9 @@
+JVM:         D:\Downloads\MCreator.2023.2.Windows.64bit\MCreator20232\jdk\bin\java.exe
+JVM Args:    
+Run Args:    "--strip", "--input", "D:\Workspace For Now\FNAFMod\build\fg_cache\mcp\1.19.2-20220805.130853\joined\14c96b2a788675ae8aa1be4f711d09ceafa5b55c\AccessTransformer\output.jar", "--output", "D:\Workspace For Now\FNAFMod\build\fg_cache\mcp\1.19.2-20220805.130853\joined\14c96b2a788675ae8aa1be4f711d09ceafa5b55c\SideStripper\output.jar", "--data", "D:\Workspace For Now\FNAFMod\build\fg_cache\mcp\1.19.2-20220805.130853\joined\14c96b2a788675ae8aa1be4f711d09ceafa5b55c\SideStripper\string_data.sas"
+Classpath:   C:\Users\mephilis\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\mergetool\1.1.6\mergetool-1.1.6-fatjar.jar
+Working Dir: D:\Workspace For Now\FNAFMod\build\fg_cache\mcp\1.19.2-20220805.130853\joined\14c96b2a788675ae8aa1be4f711d09ceafa5b55c\SideStripper
+Main Class:  net.minecraftforge.mergetool.ConsoleMerger
+Input:  D:\Workspace For Now\FNAFMod\build\fg_cache\mcp\1.19.2-20220805.130853\joined\14c96b2a788675ae8aa1be4f711d09ceafa5b55c\AccessTransformer\output.jar
+Output: D:\Workspace For Now\FNAFMod\build\fg_cache\mcp\1.19.2-20220805.130853\joined\14c96b2a788675ae8aa1be4f711d09ceafa5b55c\SideStripper\output.jar
+Data:   D:\Workspace For Now\FNAFMod\build\fg_cache\mcp\1.19.2-20220805.130853\joined\14c96b2a788675ae8aa1be4f711d09ceafa5b55c\SideStripper\string_data.sas

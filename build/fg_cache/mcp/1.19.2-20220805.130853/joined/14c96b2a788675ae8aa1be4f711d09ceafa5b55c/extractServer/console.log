@@ -1,0 +1,13 @@
+JVM:         D:\Downloads\MCreator.2023.2.Windows.64bit\MCreator20232\jdk\bin\java.exe
+JVM Args:    
+Run Args:    "--task", "bundler_extract", "--input", "D:\Workspace For Now\FNAFMod\build\fg_cache\mcp\1.19.2-20220805.130853\joined\14c96b2a788675ae8aa1be4f711d09ceafa5b55c\downloadServer\server.jar", "--output", "D:\Workspace For Now\FNAFMod\build\fg_cache\mcp\1.19.2-20220805.130853\joined\14c96b2a788675ae8aa1be4f711d09ceafa5b55c\extractServer\output.jar", "--jar-only"
+Classpath:   C:\Users\mephilis\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\installertools\1.3.0\installertools-1.3.0-fatjar.jar
+Working Dir: D:\Workspace For Now\FNAFMod\build\fg_cache\mcp\1.19.2-20220805.130853\joined\14c96b2a788675ae8aa1be4f711d09ceafa5b55c\extractServer
+Main Class:  net.minecraftforge.installertools.ConsoleTool
+Task: BUNDLER_EXTRACT
+Input:   D:\Workspace For Now\FNAFMod\build\fg_cache\mcp\1.19.2-20220805.130853\joined\14c96b2a788675ae8aa1be4f711d09ceafa5b55c\downloadServer\server.jar
+Output:  D:\Workspace For Now\FNAFMod\build\fg_cache\mcp\1.19.2-20220805.130853\joined\14c96b2a788675ae8aa1be4f711d09ceafa5b55c\extractServer\output.jar
+All:     false
+JarOnly: true
+Libs:    false
+Extracted: versions/1.19.2/server-1.19.2.jar
