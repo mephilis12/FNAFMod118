@@ -41,6 +41,7 @@ import net.mcreator.fnafmod.client.renderer.SittingPlushtrapRenderer;
 import net.mcreator.fnafmod.client.renderer.SittingNightmareBBRenderer;
 import net.mcreator.fnafmod.client.renderer.SittingFredbearRenderer;
 import net.mcreator.fnafmod.client.renderer.SittingDaytimeSpringtrapRenderer;
+import net.mcreator.fnafmod.client.renderer.SitEntityRenderer;
 import net.mcreator.fnafmod.client.renderer.ShadowFreddyStandingRenderer;
 import net.mcreator.fnafmod.client.renderer.ShadowFreddyRenderer;
 import net.mcreator.fnafmod.client.renderer.ShadowBonnieRenderer;
@@ -248,5 +249,6 @@ public class FnafModModEntityRenderers {
 		event.registerEntityRenderer(FnafModModEntities.STANDING_DAYTIME_SPRINGTRAP.get(), StandingDaytimeSpringtrapRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.CRAWLING_SPRINGTRAP.get(), CrawlingSpringtrapRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.BOOLET_PROJECTILE.get(), BooletProjectileRenderer::new);
+		event.registerEntityRenderer(FnafModModEntities.SIT_ENTITY.get(), SitEntityRenderer::new);
 	}
 }

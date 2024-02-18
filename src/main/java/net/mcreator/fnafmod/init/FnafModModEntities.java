@@ -48,6 +48,7 @@ import net.mcreator.fnafmod.entity.SittingPlushtrapEntity;
 import net.mcreator.fnafmod.entity.SittingNightmareBBEntity;
 import net.mcreator.fnafmod.entity.SittingFredbearEntity;
 import net.mcreator.fnafmod.entity.SittingDaytimeSpringtrapEntity;
+import net.mcreator.fnafmod.entity.SitEntityEntity;
 import net.mcreator.fnafmod.entity.ShadowFreddyStandingEntity;
 import net.mcreator.fnafmod.entity.ShadowFreddyEntity;
 import net.mcreator.fnafmod.entity.ShadowBonnieEntity;
@@ -596,6 +597,10 @@ public class FnafModModEntities {
 					.sized(0.8f, 0.8f));
 	public static final RegistryObject<EntityType<BooletProjectileEntity>> BOOLET_PROJECTILE = register("projectile_boolet_projectile", EntityType.Builder.<BooletProjectileEntity>of(BooletProjectileEntity::new, MobCategory.MISC)
 			.setCustomClientFactory(BooletProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<SitEntityEntity>> SIT_ENTITY = register("sit_entity",
+			EntityType.Builder.<SitEntityEntity>of(SitEntityEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SitEntityEntity::new)
+
+					.sized(0.4f, 0.4f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -720,6 +725,7 @@ public class FnafModModEntities {
 			SittingDaytimeSpringtrapEntity.init();
 			StandingDaytimeSpringtrapEntity.init();
 			CrawlingSpringtrapEntity.init();
+			SitEntityEntity.init();
 		});
 	}
 
@@ -841,5 +847,6 @@ public class FnafModModEntities {
 		event.put(SITTING_DAYTIME_SPRINGTRAP.get(), SittingDaytimeSpringtrapEntity.createAttributes().build());
 		event.put(STANDING_DAYTIME_SPRINGTRAP.get(), StandingDaytimeSpringtrapEntity.createAttributes().build());
 		event.put(CRAWLING_SPRINGTRAP.get(), CrawlingSpringtrapEntity.createAttributes().build());
+		event.put(SIT_ENTITY.get(), SitEntityEntity.createAttributes().build());
 	}
 }

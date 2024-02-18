@@ -1,11 +1,11 @@
 {
   "type": "fnaf_mod:structure_feature",
   "config": {
-    "structure": "fnaf_mod:air_1",
+    "structure": "fnaf_mod:pizzeria_1",
     "ignored_blocks": "minecraft:structure_block",
     "offset": [
       0,
-      2,
+      -4,
       0
     ]
   }

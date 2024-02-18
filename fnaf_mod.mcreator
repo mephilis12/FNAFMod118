@@ -22816,6 +22816,75 @@
           "src/main/resources/assets/fnaf_mod/models/item/boolet.json"
         ]
       }
+    },
+    {
+      "name": "SitEntity",
+      "type": "livingentity",
+      "sortid": 1111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sit_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/entity/SitEntityEntity.java",
+          "src/main/java/net/mcreator/fnafmod/client/renderer/SitEntityRenderer.java",
+          "src/main/resources/data/fnaf_mod/forge/biome_modifier/sit_entity_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "SitEntityOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 1112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sit_entity_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/procedures/SitEntityOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SitCode",
+      "type": "procedure",
+      "sortid": 1113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sit_code",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/procedures/SitCodeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -23568,6 +23637,7 @@
       "gui.fnaf_mod.camera_gui.label_to_set_a_camera": "Right-click Cam",
       "block.fnaf_mod.balloon_blue": "Light Blue Balloon",
       "block.fnaf_mod.fan": "Fan",
+      "entity.fnaf_mod.sit_entity": "Sit Entity",
       "item.fnaf_mod.glitchtrap_suit_chestplate": "Spring Bonnie Costume Body",
       "block.fnaf_mod.purple_table_cloth": "Purple Table Cloth",
       "item.fnaf_mod.shadow_freddy_standing_spawn_egg": "Shadow Freddy Spawn Egg",

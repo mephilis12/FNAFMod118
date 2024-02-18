@@ -38,6 +38,7 @@ import net.mcreator.fnafmod.client.model.ModelFredbearFNAF4;
 import net.mcreator.fnafmod.client.model.ModelFoxyMask;
 import net.mcreator.fnafmod.client.model.ModelCutoutSpringBonnie;
 import net.mcreator.fnafmod.client.model.ModelCutoutFredbear;
+import net.mcreator.fnafmod.client.model.ModelCustomModel;
 import net.mcreator.fnafmod.client.model.ModelChicaMask;
 import net.mcreator.fnafmod.client.model.ModelBonnieStand;
 import net.mcreator.fnafmod.client.model.ModelBonnieMask;
@@ -54,6 +55,7 @@ public class FnafModModModels {
 		event.registerLayerDefinition(Modeloffice_chair_dark.LAYER_LOCATION, Modeloffice_chair_dark::createBodyLayer);
 		event.registerLayerDefinition(ModelStandBonnie.LAYER_LOCATION, ModelStandBonnie::createBodyLayer);
 		event.registerLayerDefinition(ModelNightmareFredbear.LAYER_LOCATION, ModelNightmareFredbear::createBodyLayer);
+		event.registerLayerDefinition(ModelCustomModel.LAYER_LOCATION, ModelCustomModel::createBodyLayer);
 		event.registerLayerDefinition(ModelCutoutFredbear.LAYER_LOCATION, ModelCutoutFredbear::createBodyLayer);
 		event.registerLayerDefinition(ModelNightmare_Bonnie_Statue.LAYER_LOCATION, ModelNightmare_Bonnie_Statue::createBodyLayer);
 		event.registerLayerDefinition(Modelnightmarionne_statue.LAYER_LOCATION, Modelnightmarionne_statue::createBodyLayer);
