@@ -2,27 +2,27 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "poster1"
+        "0": "letsparty1"
       },
       "name": "default"
     },
-    "shadow": {
+    "goldenfreddy": {
       "map": {
-        "0": "dark"
+        "0": "letsparty3"
       },
-      "name": "shadow"
+      "name": "goldenfreddy"
     },
-    "fredbear1": {
+    "letsparty2": {
       "map": {
-        "0": "poster2"
+        "0": "letsparty2"
       },
-      "name": "fredbear1"
+      "name": "letsparty2"
     },
-    "fredbear2": {
+    "nebraska": {
       "map": {
-        "0": "poster3"
+        "0": "poster_visitnebraska"
       },
-      "name": "fredbear2"
+      "name": "nebraska"
     }
   }
 }

@@ -773,6 +773,37 @@ public class FnafModModItems {
 	public static final RegistryObject<Item> BP_5 = block(FnafModModBlocks.BP_5, null);
 	public static final RegistryObject<Item> BP_6 = block(FnafModModBlocks.BP_6, null);
 	public static final RegistryObject<Item> BOOLET = REGISTRY.register("boolet", () -> new BooletItem());
+	public static final RegistryObject<Item> MOVIE_POSTER_1 = block(FnafModModBlocks.MOVIE_POSTER_1, FnafModModTabs.TAB_DRAWINGS_POSTERS);
+	public static final RegistryObject<Item> MOVIE_POSTER_2 = block(FnafModModBlocks.MOVIE_POSTER_2, FnafModModTabs.TAB_DRAWINGS_POSTERS);
+	public static final RegistryObject<Item> MOVIE_POSTER_3 = block(FnafModModBlocks.MOVIE_POSTER_3, FnafModModTabs.TAB_DRAWINGS_POSTERS);
+	public static final RegistryObject<Item> MOVIE_POSTER_4 = block(FnafModModBlocks.MOVIE_POSTER_4, FnafModModTabs.TAB_DRAWINGS_POSTERS);
+	public static final RegistryObject<Item> MOVIE_POSTER_5 = block(FnafModModBlocks.MOVIE_POSTER_5, FnafModModTabs.TAB_DRAWINGS_POSTERS);
+	public static final RegistryObject<Item> POSTER_8 = block(FnafModModBlocks.POSTER_8, FnafModModTabs.TAB_DRAWINGS_POSTERS);
+	public static final RegistryObject<Item> POSTER_9 = block(FnafModModBlocks.POSTER_9, FnafModModTabs.TAB_DRAWINGS_POSTERS);
+	public static final RegistryObject<Item> POSTER_10 = block(FnafModModBlocks.POSTER_10, FnafModModTabs.TAB_DRAWINGS_POSTERS);
+	public static final RegistryObject<Item> LIME_CURTAIN = block(FnafModModBlocks.LIME_CURTAIN, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> THIN_LIME_CURTAIN = block(FnafModModBlocks.THIN_LIME_CURTAIN, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> CARROT_CURTAIN = block(FnafModModBlocks.CARROT_CURTAIN, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> THIN_CARROT_CURTAIN = block(FnafModModBlocks.THIN_CARROT_CURTAIN, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> SKY_CURTAIN = block(FnafModModBlocks.SKY_CURTAIN, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> THIN_SKY_CURTAIN = block(FnafModModBlocks.THIN_SKY_CURTAIN, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> OAK_CURTAIN = block(FnafModModBlocks.OAK_CURTAIN, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> THIN_OAK_CURTAIN = block(FnafModModBlocks.THIN_OAK_CURTAIN, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> LICORICE_CURTAIN = block(FnafModModBlocks.LICORICE_CURTAIN, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> THIN_LICORICE_CURTAIN = block(FnafModModBlocks.THIN_LICORICE_CURTAIN, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> BUBBLEGUM_CURTAIN = block(FnafModModBlocks.BUBBLEGUM_CURTAIN, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> THIN_BUBBLE_GUM_CURTAIN = block(FnafModModBlocks.THIN_BUBBLE_GUM_CURTAIN, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> SWAMP_CURTAIN = block(FnafModModBlocks.SWAMP_CURTAIN, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> THIN_SWAMP_CURTAIN = block(FnafModModBlocks.THIN_SWAMP_CURTAIN, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> ASH_CURTAIN = block(FnafModModBlocks.ASH_CURTAIN, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> THIN_ASH_CURTAIN = block(FnafModModBlocks.THIN_ASH_CURTAIN, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> ROCK_CURTAIN = block(FnafModModBlocks.ROCK_CURTAIN, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> THIN_ROCK_CURTAIN = block(FnafModModBlocks.THIN_ROCK_CURTAIN, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> CLOUD_CURTAIN = block(FnafModModBlocks.CLOUD_CURTAIN, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> THIN_CLOUD_CURTAIN = block(FnafModModBlocks.THIN_CLOUD_CURTAIN, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> MINT_CURTAIN = block(FnafModModBlocks.MINT_CURTAIN, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> THIN_MINT_CURTAIN = block(FnafModModBlocks.THIN_MINT_CURTAIN, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> VISIT_NEBRASKA_POSTER = block(FnafModModBlocks.VISIT_NEBRASKA_POSTER, FnafModModTabs.TAB_DRAWINGS_POSTERS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

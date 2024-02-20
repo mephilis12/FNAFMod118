@@ -16,7 +16,7 @@
       "item": "minecraft:iron_ingot"
     },
     "d": {
-      "tag": "forge:ores/quartz"
+      "item": "minecraft:polished_andesite"
     }
   },
   "result": {

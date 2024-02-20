@@ -42,7 +42,7 @@ public class BoothBench2OnBlockRightClickedProcedure {
 				}
 				world.setBlock(_bp, _bs, 3);
 			}
-		} else {
+		} else if (!entity.isPassenger()) {
 			if ((new Object() {
 				public Direction getDirection(BlockPos pos) {
 					BlockState _bs = world.getBlockState(pos);

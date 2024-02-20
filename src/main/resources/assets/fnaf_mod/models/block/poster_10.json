@@ -1,0 +1,9 @@
+{
+  "parent": "fnaf_mod:custom/posterf1",
+  "textures": {
+    "all": "fnaf_mod:blocks/letsparty3",
+    "particle": "fnaf_mod:blocks/letsparty3",
+    "0": "fnaf_mod:blocks/letsparty3"
+  },
+  "render_type": "solid"
+}

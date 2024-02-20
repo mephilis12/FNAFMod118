@@ -1,0 +1,9 @@
+{
+  "parent": "fnaf_mod:custom/posterf1",
+  "textures": {
+    "all": "fnaf_mod:blocks/poster_ihaveasandinmyhare",
+    "particle": "fnaf_mod:blocks/poster_ihaveasandinmyhare",
+    "0": "fnaf_mod:blocks/poster_ihaveasandinmyhare"
+  },
+  "render_type": "solid"
+}

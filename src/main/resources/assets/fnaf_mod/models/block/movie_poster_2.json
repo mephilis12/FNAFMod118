@@ -1,0 +1,9 @@
+{
+  "parent": "fnaf_mod:custom/posterf1",
+  "textures": {
+    "all": "fnaf_mod:blocks/poster_smileforthecamera",
+    "particle": "fnaf_mod:blocks/poster_smileforthecamera",
+    "0": "fnaf_mod:blocks/poster_smileforthecamera"
+  },
+  "render_type": "solid"
+}

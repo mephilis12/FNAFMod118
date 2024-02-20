@@ -1,0 +1,9 @@
+{
+  "parent": "fnaf_mod:custom/posterf1",
+  "textures": {
+    "all": "fnaf_mod:blocks/poster_foxysavesthekingdom",
+    "particle": "fnaf_mod:blocks/poster_foxysavesthekingdom",
+    "0": "fnaf_mod:blocks/poster_foxysavesthekingdom"
+  },
+  "render_type": "solid"
+}

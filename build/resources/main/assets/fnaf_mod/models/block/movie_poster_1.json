@@ -1,0 +1,9 @@
+{
+  "parent": "fnaf_mod:custom/posterf1",
+  "textures": {
+    "all": "fnaf_mod:blocks/poster_leaningtowerofpizzzaaa",
+    "particle": "fnaf_mod:blocks/poster_leaningtowerofpizzzaaa",
+    "0": "fnaf_mod:blocks/poster_leaningtowerofpizzzaaa"
+  },
+  "render_type": "solid"
+}

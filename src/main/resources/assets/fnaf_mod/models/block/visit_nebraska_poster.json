@@ -1,0 +1,9 @@
+{
+  "parent": "fnaf_mod:custom/posterf1",
+  "textures": {
+    "all": "fnaf_mod:blocks/poster_visitnebraska",
+    "particle": "fnaf_mod:blocks/poster_visitnebraska",
+    "0": "fnaf_mod:blocks/poster_visitnebraska"
+  },
+  "render_type": "solid"
+}

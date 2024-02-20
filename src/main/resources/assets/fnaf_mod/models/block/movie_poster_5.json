@@ -1,0 +1,9 @@
+{
+  "parent": "fnaf_mod:custom/posterf1",
+  "textures": {
+    "all": "fnaf_mod:blocks/poster_freddyfazbearspizza",
+    "particle": "fnaf_mod:blocks/poster_freddyfazbearspizza",
+    "0": "fnaf_mod:blocks/poster_freddyfazbearspizza"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fnaf_mod:blocks/curtainlightblue",
+    "up": "fnaf_mod:blocks/curtainlightblue",
+    "north": "fnaf_mod:blocks/curtainlightblue",
+    "east": "fnaf_mod:blocks/curtainlightblue",
+    "south": "fnaf_mod:blocks/curtainlightblue",
+    "west": "fnaf_mod:blocks/curtainlightblue",
+    "particle": "fnaf_mod:blocks/curtainlightblue"
+  },
+  "render_type": "solid"
+}

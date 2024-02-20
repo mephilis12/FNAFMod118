@@ -22885,6 +22885,577 @@
           }
         ]
       }
+    },
+    {
+      "name": "MoviePoster1",
+      "type": "block",
+      "sortid": 1114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "movie_poster_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/blockstates/movie_poster_1.json",
+          "src/main/resources/assets/fnaf_mod/models/item/movie_poster_1.json",
+          "src/main/resources/assets/fnaf_mod/models/block/movie_poster_1.json",
+          "src/main/java/net/mcreator/fnafmod/block/MoviePoster1Block.java"
+        ]
+      },
+      "path": "~/Blocks/Posters"
+    },
+    {
+      "name": "MoviePoster2",
+      "type": "block",
+      "sortid": 1115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "movie_poster_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/models/block/movie_poster_2.json",
+          "src/main/resources/assets/fnaf_mod/blockstates/movie_poster_2.json",
+          "src/main/java/net/mcreator/fnafmod/block/MoviePoster2Block.java",
+          "src/main/resources/assets/fnaf_mod/models/item/movie_poster_2.json"
+        ]
+      },
+      "path": "~/Blocks/Posters"
+    },
+    {
+      "name": "MoviePoster3",
+      "type": "block",
+      "sortid": 1116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "movie_poster_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/blockstates/movie_poster_3.json",
+          "src/main/resources/assets/fnaf_mod/models/item/movie_poster_3.json",
+          "src/main/java/net/mcreator/fnafmod/block/MoviePoster3Block.java",
+          "src/main/resources/assets/fnaf_mod/models/block/movie_poster_3.json"
+        ]
+      },
+      "path": "~/Blocks/Posters"
+    },
+    {
+      "name": "MoviePoster4",
+      "type": "block",
+      "sortid": 1117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "movie_poster_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/block/MoviePoster4Block.java",
+          "src/main/resources/assets/fnaf_mod/blockstates/movie_poster_4.json",
+          "src/main/resources/assets/fnaf_mod/models/block/movie_poster_4.json",
+          "src/main/resources/assets/fnaf_mod/models/item/movie_poster_4.json"
+        ]
+      },
+      "path": "~/Blocks/Posters"
+    },
+    {
+      "name": "MoviePoster5",
+      "type": "block",
+      "sortid": 1118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "movie_poster_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/models/item/movie_poster_5.json",
+          "src/main/resources/assets/fnaf_mod/models/block/movie_poster_5.json",
+          "src/main/resources/assets/fnaf_mod/blockstates/movie_poster_5.json",
+          "src/main/java/net/mcreator/fnafmod/block/MoviePoster5Block.java"
+        ]
+      },
+      "path": "~/Blocks/Posters"
+    },
+    {
+      "name": "Poster8",
+      "type": "block",
+      "sortid": 1119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poster_8",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/models/item/poster_8.json",
+          "src/main/resources/assets/fnaf_mod/models/block/poster_8.json",
+          "src/main/java/net/mcreator/fnafmod/block/Poster8Block.java",
+          "src/main/resources/assets/fnaf_mod/blockstates/poster_8.json"
+        ]
+      },
+      "path": "~/Blocks/Posters"
+    },
+    {
+      "name": "Poster9",
+      "type": "block",
+      "sortid": 1120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poster_9",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/models/block/poster_9.json",
+          "src/main/resources/assets/fnaf_mod/blockstates/poster_9.json",
+          "src/main/resources/assets/fnaf_mod/models/item/poster_9.json",
+          "src/main/java/net/mcreator/fnafmod/block/Poster9Block.java"
+        ]
+      },
+      "path": "~/Blocks/Posters"
+    },
+    {
+      "name": "Poster10",
+      "type": "block",
+      "sortid": 1121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poster_10",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/models/block/poster_10.json",
+          "src/main/java/net/mcreator/fnafmod/block/Poster10Block.java",
+          "src/main/resources/assets/fnaf_mod/blockstates/poster_10.json",
+          "src/main/resources/assets/fnaf_mod/models/item/poster_10.json"
+        ]
+      },
+      "path": "~/Blocks/Posters"
+    },
+    {
+      "name": "LimeCurtain",
+      "type": "block",
+      "sortid": 1122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_curtain",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/models/item/lime_curtain.json",
+          "src/main/resources/assets/fnaf_mod/blockstates/lime_curtain.json",
+          "src/main/resources/assets/fnaf_mod/models/block/lime_curtain.json",
+          "src/main/java/net/mcreator/fnafmod/block/LimeCurtainBlock.java"
+        ]
+      },
+      "path": "~/Blocks/BuildingBlockss"
+    },
+    {
+      "name": "ThinLimeCurtain",
+      "type": "block",
+      "sortid": 1123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thin_lime_curtain",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/block/ThinLimeCurtainBlock.java",
+          "src/main/resources/assets/fnaf_mod/models/block/thin_lime_curtain_side_alt.json",
+          "src/main/resources/assets/fnaf_mod/models/block/thin_lime_curtain_side.json",
+          "src/main/resources/assets/fnaf_mod/blockstates/thin_lime_curtain.json",
+          "src/main/resources/assets/fnaf_mod/models/item/thin_lime_curtain.json",
+          "src/main/resources/assets/fnaf_mod/models/block/thin_lime_curtain_noside_alt.json",
+          "src/main/resources/assets/fnaf_mod/models/block/thin_lime_curtain_post.json",
+          "src/main/resources/assets/fnaf_mod/models/block/thin_lime_curtain_noside.json"
+        ]
+      },
+      "path": "~/Blocks/BuildingBlockss"
+    },
+    {
+      "name": "CarrotCurtain",
+      "type": "block",
+      "sortid": 1124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carrot_curtain",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/models/block/carrot_curtain.json",
+          "src/main/java/net/mcreator/fnafmod/block/CarrotCurtainBlock.java",
+          "src/main/resources/assets/fnaf_mod/models/item/carrot_curtain.json",
+          "src/main/resources/assets/fnaf_mod/blockstates/carrot_curtain.json"
+        ]
+      },
+      "path": "~/Blocks/BuildingBlockss"
+    },
+    {
+      "name": "ThinCarrotCurtain",
+      "type": "block",
+      "sortid": 1125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thin_carrot_curtain",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/block/ThinCarrotCurtainBlock.java",
+          "src/main/resources/assets/fnaf_mod/blockstates/thin_carrot_curtain.json",
+          "src/main/resources/assets/fnaf_mod/models/block/thin_carrot_curtain_post.json",
+          "src/main/resources/assets/fnaf_mod/models/block/thin_carrot_curtain_noside_alt.json",
+          "src/main/resources/assets/fnaf_mod/models/block/thin_carrot_curtain_noside.json",
+          "src/main/resources/assets/fnaf_mod/models/block/thin_carrot_curtain_side_alt.json",
+          "src/main/resources/assets/fnaf_mod/models/item/thin_carrot_curtain.json",
+          "src/main/resources/assets/fnaf_mod/models/block/thin_carrot_curtain_side.json"
+        ]
+      },
+      "path": "~/Blocks/BuildingBlockss"
+    },
+    {
+      "name": "SkyCurtain",
+      "type": "block",
+      "sortid": 1126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sky_curtain",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/models/block/sky_curtain.json",
+          "src/main/resources/assets/fnaf_mod/models/item/sky_curtain.json",
+          "src/main/resources/assets/fnaf_mod/blockstates/sky_curtain.json",
+          "src/main/java/net/mcreator/fnafmod/block/SkyCurtainBlock.java"
+        ]
+      },
+      "path": "~/Blocks/BuildingBlockss"
+    },
+    {
+      "name": "ThinSkyCurtain",
+      "type": "block",
+      "sortid": 1127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thin_sky_curtain",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/blockstates/thin_sky_curtain.json",
+          "src/main/resources/assets/fnaf_mod/models/block/thin_sky_curtain_noside.json",
+          "src/main/java/net/mcreator/fnafmod/block/ThinSkyCurtainBlock.java",
+          "src/main/resources/assets/fnaf_mod/models/block/thin_sky_curtain_post.json",
+          "src/main/resources/assets/fnaf_mod/models/block/thin_sky_curtain_side_alt.json",
+          "src/main/resources/assets/fnaf_mod/models/block/thin_sky_curtain_noside_alt.json",
+          "src/main/resources/assets/fnaf_mod/models/item/thin_sky_curtain.json",
+          "src/main/resources/assets/fnaf_mod/models/block/thin_sky_curtain_side.json"
+        ]
+      },
+      "path": "~/Blocks/BuildingBlockss"
+    },
+    {
+      "name": "OakCurtain",
+      "type": "block",
+      "sortid": 1128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_curtain",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/models/block/oak_curtain.json",
+          "src/main/resources/assets/fnaf_mod/models/item/oak_curtain.json",
+          "src/main/java/net/mcreator/fnafmod/block/OakCurtainBlock.java",
+          "src/main/resources/assets/fnaf_mod/blockstates/oak_curtain.json"
+        ]
+      },
+      "path": "~/Blocks/BuildingBlockss"
+    },
+    {
+      "name": "ThinOakCurtain",
+      "type": "block",
+      "sortid": 1129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thin_oak_curtain",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/block/ThinOakCurtainBlock.java",
+          "src/main/resources/assets/fnaf_mod/models/block/thin_oak_curtain_post.json",
+          "src/main/resources/assets/fnaf_mod/models/block/thin_oak_curtain_noside_alt.json",
+          "src/main/resources/assets/fnaf_mod/models/item/thin_oak_curtain.json",
+          "src/main/resources/assets/fnaf_mod/models/block/thin_oak_curtain_side_alt.json",
+          "src/main/resources/assets/fnaf_mod/models/block/thin_oak_curtain_noside.json",
+          "src/main/resources/assets/fnaf_mod/blockstates/thin_oak_curtain.json",
+          "src/main/resources/assets/fnaf_mod/models/block/thin_oak_curtain_side.json"
+        ]
+      },
+      "path": "~/Blocks/BuildingBlockss"
+    },
+    {
+      "name": "LicoriceCurtain",
+      "type": "block",
+      "sortid": 1130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "licorice_curtain",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/blockstates/licorice_curtain.json",
+          "src/main/resources/assets/fnaf_mod/models/block/licorice_curtain.json",
+          "src/main/java/net/mcreator/fnafmod/block/LicoriceCurtainBlock.java",
+          "src/main/resources/assets/fnaf_mod/models/item/licorice_curtain.json"
+        ]
+      },
+      "path": "~/Blocks/BuildingBlockss"
+    },
+    {
+      "name": "ThinLicoriceCurtain",
+      "type": "block",
+      "sortid": 1131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thin_licorice_curtain",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/models/item/thin_licorice_curtain.json",
+          "src/main/resources/assets/fnaf_mod/models/block/thin_licorice_curtain_noside_alt.json",
+          "src/main/resources/assets/fnaf_mod/blockstates/thin_licorice_curtain.json",
+          "src/main/resources/assets/fnaf_mod/models/block/thin_licorice_curtain_post.json",
+          "src/main/resources/assets/fnaf_mod/models/block/thin_licorice_curtain_noside.json",
+          "src/main/java/net/mcreator/fnafmod/block/ThinLicoriceCurtainBlock.java",
+          "src/main/resources/assets/fnaf_mod/models/block/thin_licorice_curtain_side_alt.json",
+          "src/main/resources/assets/fnaf_mod/models/block/thin_licorice_curtain_side.json"
+        ]
+      },
+      "path": "~/Blocks/BuildingBlockss"
+    },
+    {
+      "name": "BubblegumCurtain",
+      "type": "block",
+      "sortid": 1132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bubblegum_curtain",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/blockstates/bubblegum_curtain.json",
+          "src/main/java/net/mcreator/fnafmod/block/BubblegumCurtainBlock.java",
+          "src/main/resources/assets/fnaf_mod/models/item/bubblegum_curtain.json",
+          "src/main/resources/assets/fnaf_mod/models/block/bubblegum_curtain.json"
+        ]
+      },
+      "path": "~/Blocks/BuildingBlockss"
+    },
+    {
+      "name": "ThinBubbleGumCurtain",
+      "type": "block",
+      "sortid": 1133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thin_bubble_gum_curtain",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/block/ThinBubbleGumCurtainBlock.java",
+          "src/main/resources/assets/fnaf_mod/models/item/thin_bubble_gum_curtain.json",
+          "src/main/resources/assets/fnaf_mod/blockstates/thin_bubble_gum_curtain.json",
+          "src/main/resources/assets/fnaf_mod/models/block/thin_bubble_gum_curtain_post.json",
+          "src/main/resources/assets/fnaf_mod/models/block/thin_bubble_gum_curtain_side.json",
+          "src/main/resources/assets/fnaf_mod/models/block/thin_bubble_gum_curtain_side_alt.json",
+          "src/main/resources/assets/fnaf_mod/models/block/thin_bubble_gum_curtain_noside_alt.json",
+          "src/main/resources/assets/fnaf_mod/models/block/thin_bubble_gum_curtain_noside.json"
+        ]
+      },
+      "path": "~/Blocks/BuildingBlockss"
+    },
+    {
+      "name": "SwampCurtain",
+      "type": "block",
+      "sortid": 1134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swamp_curtain",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/models/block/swamp_curtain.json",
+          "src/main/resources/assets/fnaf_mod/models/item/swamp_curtain.json",
+          "src/main/resources/assets/fnaf_mod/blockstates/swamp_curtain.json",
+          "src/main/java/net/mcreator/fnafmod/block/SwampCurtainBlock.java"
+        ]
+      },
+      "path": "~/Blocks/BuildingBlockss"
+    },
+    {
+      "name": "ThinSwampCurtain",
+      "type": "block",
+      "sortid": 1135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thin_swamp_curtain",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/models/item/thin_swamp_curtain.json",
+          "src/main/java/net/mcreator/fnafmod/block/ThinSwampCurtainBlock.java",
+          "src/main/resources/assets/fnaf_mod/models/block/thin_swamp_curtain_side.json",
+          "src/main/resources/assets/fnaf_mod/blockstates/thin_swamp_curtain.json",
+          "src/main/resources/assets/fnaf_mod/models/block/thin_swamp_curtain_noside.json",
+          "src/main/resources/assets/fnaf_mod/models/block/thin_swamp_curtain_noside_alt.json",
+          "src/main/resources/assets/fnaf_mod/models/block/thin_swamp_curtain_side_alt.json",
+          "src/main/resources/assets/fnaf_mod/models/block/thin_swamp_curtain_post.json"
+        ]
+      },
+      "path": "~/Blocks/BuildingBlockss"
+    },
+    {
+      "name": "AshCurtain",
+      "type": "block",
+      "sortid": 1136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_curtain",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/block/AshCurtainBlock.java",
+          "src/main/resources/assets/fnaf_mod/models/item/ash_curtain.json",
+          "src/main/resources/assets/fnaf_mod/models/block/ash_curtain.json",
+          "src/main/resources/assets/fnaf_mod/blockstates/ash_curtain.json"
+        ]
+      },
+      "path": "~/Blocks/BuildingBlockss"
+    },
+    {
+      "name": "ThinAshCurtain",
+      "type": "block",
+      "sortid": 1137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thin_ash_curtain",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/models/item/thin_ash_curtain.json",
+          "src/main/resources/assets/fnaf_mod/models/block/thin_ash_curtain_side_alt.json",
+          "src/main/resources/assets/fnaf_mod/models/block/thin_ash_curtain_noside.json",
+          "src/main/java/net/mcreator/fnafmod/block/ThinAshCurtainBlock.java",
+          "src/main/resources/assets/fnaf_mod/models/block/thin_ash_curtain_side.json",
+          "src/main/resources/assets/fnaf_mod/models/block/thin_ash_curtain_post.json",
+          "src/main/resources/assets/fnaf_mod/models/block/thin_ash_curtain_noside_alt.json",
+          "src/main/resources/assets/fnaf_mod/blockstates/thin_ash_curtain.json"
+        ]
+      },
+      "path": "~/Blocks/BuildingBlockss"
+    },
+    {
+      "name": "RockCurtain",
+      "type": "block",
+      "sortid": 1138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rock_curtain",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/models/item/rock_curtain.json",
+          "src/main/resources/assets/fnaf_mod/blockstates/rock_curtain.json",
+          "src/main/resources/assets/fnaf_mod/models/block/rock_curtain.json",
+          "src/main/java/net/mcreator/fnafmod/block/RockCurtainBlock.java"
+        ]
+      },
+      "path": "~/Blocks/BuildingBlockss"
+    },
+    {
+      "name": "ThinRockCurtain",
+      "type": "block",
+      "sortid": 1139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thin_rock_curtain",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/blockstates/thin_rock_curtain.json",
+          "src/main/resources/assets/fnaf_mod/models/item/thin_rock_curtain.json",
+          "src/main/resources/assets/fnaf_mod/models/block/thin_rock_curtain_side.json",
+          "src/main/resources/assets/fnaf_mod/models/block/thin_rock_curtain_side_alt.json",
+          "src/main/resources/assets/fnaf_mod/models/block/thin_rock_curtain_post.json",
+          "src/main/resources/assets/fnaf_mod/models/block/thin_rock_curtain_noside_alt.json",
+          "src/main/java/net/mcreator/fnafmod/block/ThinRockCurtainBlock.java",
+          "src/main/resources/assets/fnaf_mod/models/block/thin_rock_curtain_noside.json"
+        ]
+      },
+      "path": "~/Blocks/BuildingBlockss"
+    },
+    {
+      "name": "CloudCurtain",
+      "type": "block",
+      "sortid": 1140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cloud_curtain",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/models/block/cloud_curtain.json",
+          "src/main/resources/assets/fnaf_mod/blockstates/cloud_curtain.json",
+          "src/main/resources/assets/fnaf_mod/models/item/cloud_curtain.json",
+          "src/main/java/net/mcreator/fnafmod/block/CloudCurtainBlock.java"
+        ]
+      },
+      "path": "~/Blocks/BuildingBlockss"
+    },
+    {
+      "name": "ThinCloudCurtain",
+      "type": "block",
+      "sortid": 1141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thin_cloud_curtain",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/models/block/thin_cloud_curtain_side.json",
+          "src/main/resources/assets/fnaf_mod/models/item/thin_cloud_curtain.json",
+          "src/main/resources/assets/fnaf_mod/models/block/thin_cloud_curtain_noside.json",
+          "src/main/java/net/mcreator/fnafmod/block/ThinCloudCurtainBlock.java",
+          "src/main/resources/assets/fnaf_mod/models/block/thin_cloud_curtain_side_alt.json",
+          "src/main/resources/assets/fnaf_mod/models/block/thin_cloud_curtain_post.json",
+          "src/main/resources/assets/fnaf_mod/models/block/thin_cloud_curtain_noside_alt.json",
+          "src/main/resources/assets/fnaf_mod/blockstates/thin_cloud_curtain.json"
+        ]
+      },
+      "path": "~/Blocks/BuildingBlockss"
+    },
+    {
+      "name": "MintCurtain",
+      "type": "block",
+      "sortid": 1142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mint_curtain",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/block/MintCurtainBlock.java",
+          "src/main/resources/assets/fnaf_mod/models/item/mint_curtain.json",
+          "src/main/resources/assets/fnaf_mod/blockstates/mint_curtain.json",
+          "src/main/resources/assets/fnaf_mod/models/block/mint_curtain.json"
+        ]
+      },
+      "path": "~/Blocks/BuildingBlockss"
+    },
+    {
+      "name": "ThinMintCurtain",
+      "type": "block",
+      "sortid": 1143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thin_mint_curtain",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/models/block/thin_mint_curtain_noside.json",
+          "src/main/resources/assets/fnaf_mod/models/block/thin_mint_curtain_noside_alt.json",
+          "src/main/resources/assets/fnaf_mod/models/block/thin_mint_curtain_side.json",
+          "src/main/resources/assets/fnaf_mod/models/block/thin_mint_curtain_side_alt.json",
+          "src/main/resources/assets/fnaf_mod/models/item/thin_mint_curtain.json",
+          "src/main/java/net/mcreator/fnafmod/block/ThinMintCurtainBlock.java",
+          "src/main/resources/assets/fnaf_mod/models/block/thin_mint_curtain_post.json",
+          "src/main/resources/assets/fnaf_mod/blockstates/thin_mint_curtain.json"
+        ]
+      },
+      "path": "~/Blocks/BuildingBlockss"
+    },
+    {
+      "name": "VisitNebraskaPoster",
+      "type": "block",
+      "sortid": 1144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "visit_nebraska_poster",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/models/item/visit_nebraska_poster.json",
+          "src/main/resources/assets/fnaf_mod/models/block/visit_nebraska_poster.json",
+          "src/main/java/net/mcreator/fnafmod/block/VisitNebraskaPosterBlock.java",
+          "src/main/resources/assets/fnaf_mod/blockstates/visit_nebraska_poster.json"
+        ]
+      },
+      "path": "~/Blocks/Posters"
     }
   ],
   "variable_elements": [
@@ -23462,6 +24033,7 @@
       "block.fnaf_mod.movie_wall": "Movie Wall",
       "subtitles.ventwalk": "Something In the Vents",
       "block.fnaf_mod.closet_left_bottom": "Closet Door Left",
+      "block.fnaf_mod.licorice_curtain": "Licorice Curtain",
       "block.fnaf_mod.alternate_purple_stage_brick_tiles": "Alternate Purple Etched Brick Tiles",
       "entity.fnaf_mod.day_time_toy_freddy": "DayTime Toy Freddy",
       "block.fnaf_mod.phone": "Phone",
@@ -23469,8 +24041,8 @@
       "item.fnaf_mod.toreador_march.desc": "Toreador March - LordSmugDread",
       "gui.fnaf_mod.soda_machine.label_inventory": "Inventory",
       "block.fnaf_mod.stage_light_on": "Stage Light",
-      "entity.fnaf_mod.unwithered_chica": "Un-Withered Chica",
       "entity.fnaf_mod.golden_freddy": "Golden Freddy",
+      "entity.fnaf_mod.unwithered_chica": "Un-Withered Chica",
       "item.fnaf_mod.day_time_bonnie_spawn_egg": "DaytimeBonnie Spawn Egg",
       "entity.fnaf_mod.the_groobler": "The Groobler",
       "entity.fnaf_mod.statue_freddy": "Freddy Statue",
@@ -23479,8 +24051,8 @@
       "block.fnaf_mod.big_purple_stage_brick_tiles": "Big Purple Etched Brick Tiles",
       "entity.fnaf_mod.unwithered_foxy": "Un-Withered Foxy",
       "entity.fnaf_mod.fredbear_animatronic": "Fredbear",
-      "item.fnaf_mod.our_little_horror_story": "Music Disc",
       "entity.fnaf_mod.crawling_toy_foxy": "Crawling Toy Foxy",
+      "item.fnaf_mod.our_little_horror_story": "Music Disc",
       "item.fnaf_mod.spring_bonnie_cut_out_spawn_egg": "Spring Bonnie Cutout Spawn Egg",
       "item.fnaf_mod.bonnie": "Drone Bonnie",
       "entity.fnaf_mod.withered_bonnie": "Withered Bonnie",
@@ -23496,15 +24068,16 @@
       "subtitles.ovdrhonk": "\"Honk\"",
       "gui.fnaf_mod.wall_change_2.label_opposing_each_other": " Opposing Each Other",
       "block.fnaf_mod.pin_ball_machine_2": "Pinball Machine Cupcake",
+      "block.fnaf_mod.thin_mint_curtain": "Thin Mint Curtain",
       "block.fnaf_mod.pin_ball_machine_1": "Pinball Machine",
-      "block.fnaf_mod.pin_ball_machine_3": "Pinball Machine Blacklight Cupcake",
       "entity.fnaf_mod.springlocked_zombie_fredbear": "Springlocked Zombie Fredbear",
+      "block.fnaf_mod.pin_ball_machine_3": "Pinball Machine Blacklight Cupcake",
       "entity.fnaf_mod.puppet": "Puppet",
-      "entity.fnaf_mod.shadow_freddy_standing": "Shadow Freddy",
       "effect.fnaf_mod.bleeding": "Bleeding",
+      "entity.fnaf_mod.shadow_freddy_standing": "Shadow Freddy",
       "block.fnaf_mod.white_purple_wall_tile": "White Purple Wall Tiles",
-      "block.fnaf_mod.speaker": "Speaker",
       "block.fnaf_mod.spring_bonnie_plushie": "Spring Bonnie Plushie",
+      "block.fnaf_mod.speaker": "Speaker",
       "block.fnaf_mod.fredbear_floor": "Fredbear\u0027s Floor",
       "item.fnaf_mod.light_blue_plastic": "Light Blue Plastic",
       "item.fnaf_mod.fredbears_freddy_spawn_egg": "Fredbear\u0027s Family Diner Freddy Spawn Egg",
@@ -23520,10 +24093,11 @@
       "item.fnaf_mod.phantom_foxy_spawn_egg": "Phantom Foxy Spawn Egg",
       "block.fnaf_mod.golden_freddy_plushie": "Golden Freddy Plushie",
       "item.fnaf_mod.passive_bonnie_spawn_egg": "Bonnie the Bunny Spawn Egg",
+      "block.fnaf_mod.swamp_curtain": "Swamp Curtain",
       "item.fnaf_mod.glitch_bonnie_animatronic_spawn_egg": "Spring Bonnie? Spawn Egg",
       "item.fnaf_mod.yellow_bear_suit_chestplate": "Yellowbear Body",
-      "entity.fnaf_mod.crawling_springtrap": "Crawling Springtrap",
       "item.fnaf_mod.showtime_madame_macabre_bitemark_remix": "Music Disc",
+      "entity.fnaf_mod.crawling_springtrap": "Crawling Springtrap",
       "block.fnaf_mod.big_white_black_wall_tile": "Big White Wall Tiles",
       "block.fnaf_mod.fnaf_4_wall_top_room": "Tapestry Top Blue",
       "block.fnaf_mod.office_door": "Office Door",
@@ -23543,8 +24117,8 @@
       "block.fnaf_mod.diner_chair": "Diner Chair {Red}",
       "entity.fnaf_mod.endo_02": "Endo-02",
       "item.fnaf_mod.bonnie_suit_boots": "Bonnie Boots",
-      "item.fnaf_mod.waiter_hat_helmet": "Waiter Hat",
       "entity.fnaf_mod.nightmarionne": "Nightmarionne",
+      "item.fnaf_mod.waiter_hat_helmet": "Waiter Hat",
       "block.fnaf_mod.green_blue_tile_slab_cracked": "Cracked Green Blue Tile Slab",
       "gui.fnaf_mod.wall_change_1.label_opposing_each_other": " Opposing Each Other",
       "block.fnaf_mod.red_black_tile_slab": "Red Black Tile Slab",
@@ -23563,6 +24137,7 @@
       "block.fnaf_mod.movie_wall_tile": "Movie Wall Tiles",
       "item.fnaf_mod.phantom_bb_spawn_egg": "Phantom Balloon Boy Spawn Egg",
       "block.fnaf_mod.bonnie_head": "Bonnie Head",
+      "block.fnaf_mod.oak_curtain": "Oak Curtain",
       "item.fnaf_mod.flash_light": "Flashlight",
       "item.fnaf_mod.spring_lock_suit_chestplate": "Spring Lock Suit Body",
       "block.fnaf_mod.alternate_white_black_wall_tile": "Alternate White Wall Tiles",
@@ -23571,8 +24146,8 @@
       "item.fnaf_mod.toy_bonnie_spawn_item": "Toy Bonnie",
       "item.fnaf_mod.crawling_toy_foxy_spawn_egg": "Crawling Toy Foxy Spawn Egg",
       "itemGroup.tabfnaf_blocks": "FNAF Blocks",
-      "entity.fnaf_mod.endo_skeleton": "Endoskeleton",
       "subtitles.a2": "Honk",
+      "entity.fnaf_mod.endo_skeleton": "Endoskeleton",
       "gui.fnaf_mod.camera_gui.button_previous_page": "Previous Page",
       "item.fnaf_mod.mangle_spawn_item": "Mangle",
       "item.fnaf_mod.glitchtrap_suit_helmet": "Spring Bonnie Costume Head",
@@ -23582,13 +24157,19 @@
       "item.fnaf_mod.toy_bonnie_spawn_egg": "Toy Bonnie Spawn Egg",
       "subtitles.neverbealone": "Never Be Alone Funky Mix",
       "block.fnaf_mod.speaker_left": "Speaker",
+      "block.fnaf_mod.movie_poster_1": "Movie Poster 1",
       "block.fnaf_mod.black_stripe_dark_wall_tile": "Black Stripe Dark Wall Tiles",
+      "block.fnaf_mod.movie_poster_4": "Movie Poster 4",
+      "block.fnaf_mod.movie_poster_5": "Movie Poster 5",
+      "block.fnaf_mod.movie_poster_2": "Movie Poster 2",
+      "block.fnaf_mod.movie_poster_3": "Movie Poster 3",
       "block.fnaf_mod.fnaf_wall_top_rotable": "Tapestry Top Rotable Type A",
+      "block.fnaf_mod.poster_10": "Wall Poster 9",
       "subtitles.bb": "Balloon Boy",
       "gui.fnaf_mod.wall_change_1.button_d": "D",
       "gui.fnaf_mod.wall_change_1.button_c": "C",
-      "item.fnaf_mod.hook": "Hook",
       "gui.fnaf_mod.wall_change_1.button_b": "B",
+      "item.fnaf_mod.hook": "Hook",
       "gui.fnaf_mod.wall_change_1.button_a": "A",
       "block.fnaf_mod.fnaf_4_wall_bottom_rotable": "Tapestry Bottom Rotable Type A",
       "gui.fnaf_mod.camera_gui.label_cameras": "Cameras",
@@ -23604,11 +24185,11 @@
       "entity.fnaf_mod.phantom_foxy": "Phantom Foxy",
       "gui.fnaf_mod.wall_change_2.label_one_hall_face_rest_room_faces": "One Hall Face Rest Room Faces",
       "block.fnaf_mod.fnaf_3_floor": "Rancid Floor",
-      "item.fnaf_mod.sitting_fredbear_spawn_egg": "Fredbear Spawn Egg",
       "block.fnaf_mod.arcade_machine_foxy_2": "Arcade Machine Foxy",
+      "item.fnaf_mod.sitting_fredbear_spawn_egg": "Fredbear Spawn Egg",
       "item.fnaf_mod.pit_bonnie_suit_leggings": "Into The Pit Bonnie Legs",
-      "block.fnaf_mod.gold_token_block": "Gold Token Block",
       "subtitles.hearme": "Hello Can You Hear Me?",
+      "block.fnaf_mod.gold_token_block": "Gold Token Block",
       "block.fnaf_mod.structure_spawning_block": "Structure Spawning Block (Sam\u0027s Pizzeria)",
       "subtitles.b2": "Honk",
       "block.fnaf_mod.fnaf_4_wall_top_hall": "Tapestry Top Red",
@@ -23635,6 +24216,7 @@
       "subtitles.d2": "Honk",
       "item.fnaf_mod.statue_bonnie_spawn_egg": "Bonnie Statue Spawn Egg",
       "gui.fnaf_mod.camera_gui.label_to_set_a_camera": "Right-click Cam",
+      "block.fnaf_mod.mint_curtain": "Mint Curtain",
       "block.fnaf_mod.balloon_blue": "Light Blue Balloon",
       "block.fnaf_mod.fan": "Fan",
       "entity.fnaf_mod.sit_entity": "Sit Entity",
@@ -23644,8 +24226,8 @@
       "subtitles.itsbeensolong": "",
       "item.fnaf_mod.nightmare_fredbear_spawn_egg": "Nightmare Fredbear Spawn Egg",
       "block.fnaf_mod.backstage_door": "Backstage Door",
-      "item.fnaf_mod.office_chair_spawn_egg": "Office Chair Spawn Egg",
       "entity.fnaf_mod.fredbears_chica": "Fredbear\u0027s Family Diner Chica",
+      "item.fnaf_mod.office_chair_spawn_egg": "Office Chair Spawn Egg",
       "block.fnaf_mod.black_white_tile_stairs_cracked": "Cracked Black White Tile Stairs",
       "block.fnaf_mod.alternate_wall_tile": "Alternate Wall Tiles",
       "block.fnaf_mod.small_pipes": "Small Pipes",
@@ -23654,6 +24236,7 @@
       "item.fnaf_mod.toy_chica_spawn_egg": "DayTime Toy Chica Spawn Egg",
       "item.fnaf_mod.pit_bonnie_suit_helmet": "Into The Pit Bonnie Head",
       "block.fnaf_mod.arcade_machine_bonnie": "Arcade Machine Bonnie",
+      "block.fnaf_mod.thin_bubble_gum_curtain": "Thin Bubblegum Curtain",
       "block.fnaf_mod.fnaf_1_celebrate": "Celebrate Poster Classic",
       "entity.fnaf_mod.crawling_mangle": "Crawling Mangle",
       "entity.fnaf_mod.nightmarione_statue": "Nightmarionne Statue",
@@ -23675,6 +24258,7 @@
       "block.fnaf_mod.chica_head_decoration": "Chica Head Prop",
       "item.fnaf_mod.golden_freddy_spawn_egg": "Golden Freddy Spawn Egg",
       "item.fnaf_mod.battery": "Battery",
+      "block.fnaf_mod.lime_curtain": "Lime Curtain",
       "entity.fnaf_mod.fredbear_cut_out": "Fredbear Cutout",
       "item.fnaf_mod.springlocked_fredbear_suit_boots": "Fredbear Spring Lock Boots",
       "block.fnaf_mod.error_tile_cracked": "Cracked Missing Texture Tile",
@@ -23705,8 +24289,8 @@
       "block.fnaf_mod.red_white_tile_slab": "Red White Tile Slab",
       "item.fnaf_mod.yellow_bear_suit_helmet": "Yellowbear Head",
       "block.fnaf_mod.diagonal_wall_top": "Diagonal Wall Top",
-      "item.fnaf_mod.crawling_springtrap_spawn_egg": "Crawling Springtrap Spawn Egg",
       "block.fnaf_mod.toy_telephone": "Toy Telephone",
+      "item.fnaf_mod.crawling_springtrap_spawn_egg": "Crawling Springtrap Spawn Egg",
       "item.fnaf_mod.unwithered_foxy_spawn_egg": "Un-Withered Foxy Spawn Egg",
       "block.fnaf_mod.error_tile": "Missing Texture Tile",
       "item.fnaf_mod.bonnie_suit_leggings": "Bonnie Legs",
@@ -23716,6 +24300,7 @@
       "gui.fnaf_mod.camera_gui.button_camera_3": "Camera 3",
       "entity.fnaf_mod.daytime_chica": "DaytimeChica",
       "gui.fnaf_mod.camera_gui.button_camera_5": "Camera 5",
+      "block.fnaf_mod.thin_oak_curtain": "Thin Oak Curtain",
       "item.fnaf_mod.endo_02_spawn_egg": "Endo-02 Spawn Egg",
       "block.fnaf_mod.movie_chair_2": "Movie Chair",
       "block.fnaf_mod.movie_chair_3": "Movie Chair",
@@ -23737,23 +24322,25 @@
       "entity.fnaf_mod.passive_freddy": "Freddy Fazbear",
       "entity.fnaf_mod.fredbears_foxy": "Fredbear\u0027s Family Diner Foxy",
       "block.fnaf_mod.fnaf_wall_top_rotable_4": "Tapestry Top Rotable Type D",
-      "block.fnaf_mod.fnaf_wall_top_rotable_2": "Tapestry Top Rotable Type B",
       "block.fnaf_mod.toy_caterpillar": "Toy Caterpillar",
+      "block.fnaf_mod.fnaf_wall_top_rotable_2": "Tapestry Top Rotable Type B",
       "block.fnaf_mod.fnaf_wall_top_rotable_3": "Tapestry Top Rotable Type C",
       "block.fnaf_mod.alternate_big_white_black_striped_wall_tiles": "Alternate Big White Black Striped Wall Tiles",
       "gui.fnaf_mod.camera_gui.label_you_can_have_unlimited_cameras": "You Can Have Unlimited Cameras",
       "block.fnaf_mod.alternate_white_black_stripe_wall_tile": "Alternate White Black Stripe Wall Tiles",
       "item.fnaf_mod.red_plastic": "Red Plastic",
       "block.fnaf_mod.poster_7": "Wall Poster 7",
+      "block.fnaf_mod.poster_8": "Wall Poster 8",
       "block.fnaf_mod.poster_5": "Wall Poster 5",
       "block.fnaf_mod.poster_6": "Wall Poster 6",
       "item.fnaf_mod.day_time_foxy_spawn_egg": "DaytimeFoxy Spawn Egg",
       "item.fnaf_mod.springtrap_spawn_egg": "Springtrap Spawn Egg",
+      "block.fnaf_mod.poster_9": "Wall Poster 9",
       "item.fnaf_mod.passive_chica_spawn_egg": "Chica the Chicken Spawn Egg",
       "entity.fnaf_mod.glitch_bonnie_animatronic": "Spring Bonnie?",
-      "block.fnaf_mod.cut_stage_bricks": "Cut Etched Bricks",
-      "block.fnaf_mod.closet_right_open_bottom": "Closet Door Right",
       "subtitles.c2alt": "Honk",
+      "block.fnaf_mod.closet_right_open_bottom": "Closet Door Right",
+      "block.fnaf_mod.cut_stage_bricks": "Cut Etched Bricks",
       "item.fnaf_mod.full_hostile_chica_spawn_egg": "Chica Spawn Egg",
       "entity.fnaf_mod.crawling_toy_bonnie": "Crawling Toy Bonnie",
       "block.fnaf_mod.un_withered_chica_head": "Un-Withered Chica Head",
@@ -23764,14 +24351,16 @@
       "item.fnaf_mod.nightmare_bonnie_spawn_egg": "Nightmare Bonnie Spawn Egg",
       "entity.fnaf_mod.withered_foxy": "Withered Foxy",
       "block.fnaf_mod.wires": "Wires",
-      "entity.fnaf_mod.toy_chica": "DayTime Toy Chica",
       "block.fnaf_mod.closet_right_open_top": "Closet Door Right",
+      "entity.fnaf_mod.toy_chica": "DayTime Toy Chica",
       "block.fnaf_mod.big_white_black_striped_wall_tile": "Big White Black Striped Wall Tiles",
       "block.fnaf_mod.poster_3": "Wall Poster 3",
       "block.fnaf_mod.poster_4": "Wall Poster 4",
       "block.fnaf_mod.poster_1": "Wall Poster 1",
       "block.fnaf_mod.poster_2": "Wall Poster 2",
       "block.fnaf_mod.black_purple_wall_tile": "Black Purple Wall Tiles",
+      "block.fnaf_mod.rock_curtain": "Rock Curtain",
+      "block.fnaf_mod.sky_curtain": "Sky Curtain",
       "block.fnaf_mod.big_black_striped_stage_brick_tiles": "Big Black Striped Etched Brick Tiles",
       "block.fnaf_mod.big_movie_exterior_wall_tiles": "Big Movie Exterior Wall Tiles",
       "entity.fnaf_mod.jack_o_chica": "Jack-O Chica",
@@ -23787,8 +24376,8 @@
       "block.fnaf_mod.alternate_big_black_stripe_dark_wall_tile": "Alternate Big Black Striped Dark Wall Tiles",
       "subtitles.cameradown": "",
       "block.fnaf_mod.error_tile_stair": "Missing Texture Tile Stairs",
-      "block.fnaf_mod.balloons": "Balloons",
       "block.fnaf_mod.light_button_on": "Light Button On",
+      "block.fnaf_mod.balloons": "Balloons",
       "item.fnaf_mod.nightmare_freddy_spawn_egg": "Nightmare Freddy Spawn Egg",
       "block.fnaf_mod.alternate_stage_brick_tiles": "Alternate Etched Brick Tiles",
       "block.fnaf_mod.security_door_open": "Office Door",
@@ -23895,6 +24484,7 @@
       "block.fnaf_mod.movie_exterior_wall_tile": "Movie Exterior Wall Tiles",
       "gui.fnaf_mod.wall_change_1.label_one_room_face_rest_hall_faces": "One Room Face Rest Hall Faces",
       "block.fnaf_mod.orange_speaker": "Speaker",
+      "block.fnaf_mod.thin_cloud_curtain": "Thin Cloud Curtain",
       "item.fnaf_mod.freddy_suit_leggings": "Freddy Legs",
       "item.fnaf_mod.sitting_spring_bonnie_spawn_egg": "Sitting Spring Bonnie Spawn Egg",
       "item.fnaf_mod.nightime_toy_chica_spawn_egg": "Toy Chica Spawn Egg",
@@ -23913,6 +24503,7 @@
       "entity.fnaf_mod.fredbears_bonnie": "Fredbear\u0027s Family Diner Bonnie",
       "entity.fnaf_mod.nightmare_bonnie_statue": "Nightmare Bonnie Statue",
       "entity.fnaf_mod.day_time_puppet": "DayTime Puppet",
+      "block.fnaf_mod.thin_carrot_curtain": "Thin Carrot Curtain",
       "block.fnaf_mod.red_black_tile_stairs_cracked": "Cracked Red Black Tile Stairs",
       "subtitles.god": "",
       "block.fnaf_mod.checkered_wall_tile": "Checkered Wall Tile",
@@ -23992,10 +24583,12 @@
       "block.fnaf_mod.green_blue_tile_stair": "Green Blue Tile Stairs",
       "item.fnaf_mod.fredbear_item": "Drone Fredbear",
       "item.fnaf_mod.endo_skeleton_spawn_egg": "Endoskeleton Spawn Egg",
+      "block.fnaf_mod.thin_ash_curtain": "Thin Ash Curtain",
       "item.fnaf_mod.unwithered_chica_spawn_egg": "Un-Withered Chica Spawn Egg",
       "item.fnaf_mod.chica_suit_helmet": "Chica Head",
       "item.fnaf_mod.day_time_bb_spawn_egg": "DayTime BB Spawn Egg",
       "entity.fnaf_mod.freddy_fazbear": "Freddy Fazbear",
+      "block.fnaf_mod.cloud_curtain": "Cloud Curtain",
       "entity.fnaf_mod.day_time_toy_bonnie": "DayTime Toy Bonnie",
       "block.fnaf_mod.red_white_tile_cracked": "Cracked Red White Tile",
       "subtitles.animatronic_step": "Footstep",
@@ -24009,15 +24602,18 @@
       "item.fnaf_mod.dont_go.desc": "Don\u0027t Go - LordSmugDread",
       "block.fnaf_mod.error_tile_slab_cracked": "Cracked Missing Texture Tile Slab",
       "item.fnaf_mod.phantom_freddy_spawn_egg": "Phantom Freddy Spawn Egg",
+      "block.fnaf_mod.bubblegum_curtain": "Licorice Curtain",
       "block.fnaf_mod.endo_block": "Endo Block",
       "itemGroup.tabdrawings_posters": "Drawings and Posters",
       "block.fnaf_mod.sconce": "Sconce",
       "item.fnaf_mod.day_time_freddy_spawn_egg": "DaytimeFreddy Spawn Egg",
       "item.fnaf_mod.phantom_puppet_spawn_egg": "Phantom Puppet Spawn Egg",
       "entity.fnaf_mod.withered_chica": "Withered Chica",
+      "block.fnaf_mod.carrot_curtain": "Carrot Curtain",
       "block.fnaf_mod.alternate_black_stripe_dark_wall_tile": "Alternate Black Stripe Dark Wall Tiles",
       "block.fnaf_mod.red_blue_tile_stairs_cracked": "Cracked Red Blue Tile Stairs",
       "gamerule.doPhantomsSpawn": "Do Phantoms  Spawn",
+      "block.fnaf_mod.thin_rock_curtain": "Thin Rock Curtain",
       "entity.fnaf_mod.toy_bonnie": "Toy Bonnie",
       "item.fnaf_mod.sitting_nightmare_bb_spawn_egg": "Nightmare Balloon Boy Spawn Egg",
       "entity.fnaf_mod.phantom_bb": "Phantom Balloon Boy",
@@ -24042,6 +24638,7 @@
       "block.fnaf_mod.diner_chair_3": "Diner Chair {Green}",
       "block.fnaf_mod.chica_head": "Chica Head",
       "entity.fnaf_mod.mangle_sitting": "DayTime Mangle",
+      "block.fnaf_mod.ash_curtain": "Ash Curtain",
       "block.fnaf_mod.diner_chair_2": "Diner Chair {Blue}",
       "block.fnaf_mod.diner_chair_5": "Diner Chair {Yellow}",
       "entity.fnaf_mod.passive_spring_bonnie": "Spring Bonnie",
@@ -24070,6 +24667,7 @@
       "block.fnaf_mod.table_cloth": "Table Cloth",
       "item.fnaf_mod.remnant": "Remnant",
       "block.fnaf_mod.structure_spawning_block_7": "Structure Spawning Block (Retro)",
+      "block.fnaf_mod.thin_licorice_curtain": "Thin Licorice Curtain",
       "block.fnaf_mod.structure_spawning_block_8": "Structure Spawning Block (Modern)",
       "block.fnaf_mod.structure_spawning_block_2": "Structure Spawning Block (Vents)",
       "subtitles.ourlittlehorrorstory": "",
@@ -24168,6 +24766,7 @@
       "block.fnaf_mod.stage_light_red_off": "Stage Light",
       "block.fnaf_mod.bp_1": "Ball Pit",
       "item.fnaf_mod.plushtrap_spawn_egg": "Plushtrap Spawn Egg",
+      "block.fnaf_mod.visit_nebraska_poster": "Visit Nebraska Poster",
       "block.fnaf_mod.bp_3": "Ball Pit",
       "block.fnaf_mod.bp_2": "Ball Pit",
       "block.fnaf_mod.puppet_mask": "Puppet Mask Decoration",
@@ -24207,9 +24806,11 @@
       "gui.fnaf_mod.wall_change_1.label_type_d": "Type D:",
       "gui.fnaf_mod.wall_change_1.label_type_b": "Type B:",
       "gui.fnaf_mod.wall_change_1.label_type_c": "Type C:",
+      "block.fnaf_mod.thin_swamp_curtain": "Thin Swamp Curtain",
       "gui.fnaf_mod.wall_change_1.label_type_a": "Type A:",
       "entity.fnaf_mod.passive_bonnie": "Bonnie the Bunny",
       "death.attack.springlocked": "%s Bled out to Death",
+      "block.fnaf_mod.thin_sky_curtain": "Thin Sky Curtain",
       "subtitles.bod": "What Have you Brought in This World?",
       "block.fnaf_mod.checkered_tile": "Checkered Tile",
       "item.fnaf_mod.pink_plastic": "Pink Plastic",
@@ -24252,7 +24853,8 @@
       "block.fnaf_mod.purple_curtain": "Purple Curtain",
       "block.fnaf_mod.green_blue_tile": "Green Blue Tile",
       "block.fnaf_mod.fnaf_3_wall": "Rancid Wall",
-      "item.fnaf_mod.fazbear_showtime": "Music Disc"
+      "item.fnaf_mod.fazbear_showtime": "Music Disc",
+      "block.fnaf_mod.thin_lime_curtain": "Thin Lime Curtain"
     }
   },
   "foldersRoot": {

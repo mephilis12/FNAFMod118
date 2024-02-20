@@ -66,10 +66,10 @@ public class BoothBench3Block extends Block {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> Shapes.or(box(0, 0, 0, 16, 5, 14), box(0, 5, 2, 16, 8, 15), box(0, 5, 0, 16, 23, 2), box(0, 8, 2, 16, 22, 4));
-			case NORTH -> Shapes.or(box(0, 0, 2, 16, 5, 16), box(0, 5, 1, 16, 8, 14), box(0, 5, 14, 16, 23, 16), box(0, 8, 12, 16, 22, 14));
-			case EAST -> Shapes.or(box(0, 0, 0, 14, 5, 16), box(2, 5, 0, 15, 8, 16), box(0, 5, 0, 2, 23, 16), box(2, 8, 0, 4, 22, 16));
-			case WEST -> Shapes.or(box(2, 0, 0, 16, 5, 16), box(1, 5, 0, 14, 8, 16), box(14, 5, 0, 16, 23, 16), box(12, 8, 0, 14, 22, 16));
+			default -> box(0, 0, 0, 16, 5, 14);
+			case NORTH -> box(0, 0, 2, 16, 5, 16);
+			case EAST -> box(0, 0, 0, 14, 5, 16);
+			case WEST -> box(2, 0, 0, 16, 5, 16);
 		};
 	}
 
