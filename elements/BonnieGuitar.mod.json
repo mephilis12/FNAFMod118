@@ -3,8 +3,8 @@
   "_type": "item",
   "definition": {
     "renderType": 1,
-    "texture": "guitar",
-    "customModelName": "bonnies_guitar_rework:default",
+    "texture": "newguitar",
+    "customModelName": "newguitar:default",
     "customProperties": {},
     "states": [],
     "name": "Bonnie's Guitar",
@@ -29,11 +29,17 @@
     "specialInformation": {
       "fixedValue": []
     },
+    "glowCondition": {
+      "fixedValue": false
+    },
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "enableRanged": false,
     "shootConstantly": false,
+    "projectile": {
+      "value": "CUSTOM:BooletProjectile"
+    },
     "isFood": false,
     "nutritionalValue": 4,
     "saturation": 0.3,

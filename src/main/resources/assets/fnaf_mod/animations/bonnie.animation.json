@@ -505,100 +505,60 @@
 			"loop": true,
 			"bones": {
 				"EarR": {
-					"rotation": {
-						"vector": [5, 0, 0]
-					}
+					"rotation": [5.02097, 13.53462, -11.36832]
 				},
 				"Top": {
-					"rotation": {
-						"vector": [35, 0, 0]
-					}
+					"rotation": [45, 0, 0]
 				},
 				"EarL": {
-					"rotation": {
-						"vector": [2.5, 0, 0]
-					}
+					"rotation": [2.43936, -8.14015, 14.66804]
 				},
 				"Top2": {
-					"rotation": {
-						"vector": [32.5, 0, 0]
-					}
+					"rotation": [95, 0, 0]
 				},
 				"Eyelids": {
-					"rotation": {
-						"vector": [-5, 0, 0]
-					},
-					"position": {
-						"vector": [0, -0.05, 0]
-					}
+					"rotation": [-5, 0, 0],
+					"position": [0, -0.05, 0]
 				},
 				"Jaw": {
-					"rotation": {
-						"vector": [12.5, 0, 0]
-					}
+					"rotation": [12.5, 0, 0]
 				},
 				"ArmL": {
-					"rotation": {
-						"vector": [-31.28685, 22.98993, -27.112]
-					}
+					"rotation": [-14.5496, 30.33553, -28.80817]
 				},
 				"LarmL": {
-					"rotation": {
-						"vector": [-42.5, 0, 0]
-					}
+					"rotation": [-49.52145, 0.26456, 7.95542]
 				},
 				"ArmR": {
-					"rotation": {
-						"vector": [-7.6734, -26.48829, 26.80857]
-					}
+					"rotation": [-10.92324, -29.9839, 42.38334]
 				},
 				"LarmR": {
-					"rotation": {
-						"vector": [-40.14168, -7.15102, 2.26708]
-					}
+					"rotation": [-72.38917, -11.92029, 0.74423]
 				},
 				"Guitar": {
-					"rotation": {
-						"vector": [5, 0, -17.5]
-					},
-					"position": {
-						"vector": [0, 0, 0]
-					}
+					"rotation": [7.82508, -26.40816, -2.31114],
+					"position": [0.8, 0, 0]
 				},
 				"LegL": {
-					"rotation": {
-						"vector": [0.55404, -12.48791, -2.56062]
-					}
+					"rotation": [0.55404, -12.48791, -2.56062]
 				},
 				"LowL": {
-					"rotation": {
-						"vector": [0, 0, 2.5]
-					}
+					"rotation": [0, 0, 2.5]
 				},
 				"LegR": {
-					"rotation": {
-						"vector": [0.44067, 9.99038, 2.53852]
-					}
+					"rotation": [0.44067, 9.99038, 2.53852]
 				},
 				"LfootR": {
-					"rotation": {
-						"vector": [0, 0, -2.5]
-					}
+					"rotation": [0, 0, -2.5]
 				},
 				"HandL": {
-					"rotation": {
-						"vector": [-75.65143, -110.59067, -76.53361]
-					}
+					"rotation": [-67.39435, -144.97084, -101.18603]
 				},
 				"HandR": {
-					"rotation": {
-						"vector": [2.71994, -19.82169, -7.97532]
-					}
+					"rotation": [-2.18082, -24.81586, -8.2364]
 				},
 				"Head": {
-					"rotation": {
-						"vector": [0, 0, 5]
-					}
+					"rotation": [0, 0, -7.5]
 				}
 			}
 		},

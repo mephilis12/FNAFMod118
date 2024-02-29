@@ -489,5 +489,45 @@
         "stream": false
       }
     ]
+  },
+  "eightbittravel": {
+    "sounds": [
+      {
+        "name": "fnaf_mod:8bit_travel",
+        "stream": false
+      }
+    ]
+  },
+  "icebiometemp": {
+    "sounds": [
+      {
+        "name": "fnaf_mod:icebiometemp",
+        "stream": false
+      }
+    ]
+  },
+  "lilygeartemp": {
+    "sounds": [
+      {
+        "name": "fnaf_mod:lakebiometemp",
+        "stream": false
+      }
+    ]
+  },
+  "pinwheeltemp": {
+    "sounds": [
+      {
+        "name": "fnaf_mod:pinwheeltemp",
+        "stream": false
+      }
+    ]
+  },
+  "blacktombyardtemp": {
+    "sounds": [
+      {
+        "name": "fnaf_mod:graveyardtemp",
+        "stream": false
+      }
+    ]
   }
 }

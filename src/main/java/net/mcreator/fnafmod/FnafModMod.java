@@ -39,6 +39,7 @@ import net.mcreator.fnafmod.init.FnafModModItems;
 import net.mcreator.fnafmod.init.FnafModModEntities;
 import net.mcreator.fnafmod.init.FnafModModBlocks;
 import net.mcreator.fnafmod.init.FnafModModBlockEntities;
+import net.mcreator.fnafmod.init.FnafModModBiomes;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -70,6 +71,7 @@ public class FnafModMod {
 
 		FnafModModParticleTypes.REGISTRY.register(bus);
 		FnafModModMenus.REGISTRY.register(bus);
+		FnafModModBiomes.REGISTRY.register(bus);
 
 	}
 
