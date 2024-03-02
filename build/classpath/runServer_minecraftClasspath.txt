@@ -1,10 +1,10 @@
-C:\Users\mephilis\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.19.2-43.3.7_mapped_official_1.19.2\forge-1.19.2-43.3.7_mapped_official_1.19.2-recomp.jar
+D:\Workspace For Now\FNAFMod\build\fg_cache\net\minecraftforge\forge\1.19.2-43.3.5_mapped_official_1.19.2\forge-1.19.2-43.3.5_mapped_official_1.19.2-recomp.jar
 C:\Users\mephilis\.mcreator\gradle\caches\forge_gradle\minecraft_repo\versions\1.19.2\client-extra.jar
-C:\Users\mephilis\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.19.2-43.3.7\2768830b2246afc11e45c435d5f7bdcb9ab4431\javafmllanguage-1.19.2-43.3.7.jar
-C:\Users\mephilis\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.19.2-43.3.7\64fbd736a2de399db2565b8ae1a94b1d211c6fb7\lowcodelanguage-1.19.2-43.3.7.jar
-C:\Users\mephilis\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.19.2-43.3.7\ce411f6d96831ebc36f6e17ace0fcee3a4ca462a\mclanguage-1.19.2-43.3.7.jar
-C:\Users\mephilis\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.19.2-43.3.7\92c74233945e6893544a2e2b6694252250bb3db4\fmlcore-1.19.2-43.3.7.jar
-C:\Users\mephilis\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlloader\1.19.2-43.3.7\3fe99c14bf274690356367c2e9400b4c40357eb3\fmlloader-1.19.2-43.3.7.jar
+C:\Users\mephilis\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.19.2-43.3.5\55755cd045eae96aa3db8022691862f4a61d5212\javafmllanguage-1.19.2-43.3.5.jar
+C:\Users\mephilis\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.19.2-43.3.5\b4af46fd18e45dd794c753c4f4c931bd2ca9b32d\lowcodelanguage-1.19.2-43.3.5.jar
+C:\Users\mephilis\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.19.2-43.3.5\e86ce0c5b6a44bd5d0025928b5c220f5abe20a37\mclanguage-1.19.2-43.3.5.jar
+C:\Users\mephilis\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.19.2-43.3.5\9ff627ecdc4d91b2e935e8f3358c97ba91ab7851\fmlcore-1.19.2-43.3.5.jar
+C:\Users\mephilis\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlloader\1.19.2-43.3.5\6c2c277bb01f4307dce958576b97132cf276507e\fmlloader-1.19.2-43.3.5.jar
 C:\Users\mephilis\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarSelector\0.3.16\2a31421fb5e267249da103a644f23afb43d158af\JarJarSelector-0.3.16.jar
 C:\Users\mephilis\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarMetadata\0.3.16\f62c8c898dffc8666f5097a8587ed72095e8e83a\JarJarMetadata-0.3.16.jar
 C:\Users\mephilis\.mcreator\gradle\caches\modules-2\files-2.1\com.google.guava\guava\31.0.1-jre\119ea2b2bc205b138974d351777b20f02b92704b\guava-31.0.1-jre.jar

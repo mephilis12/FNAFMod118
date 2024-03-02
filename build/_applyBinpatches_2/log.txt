@@ -1,5 +1,5 @@
 Java Launcher: D:\Pylo\MCreator\jdk\bin\java.exe
-Arguments: '--clean, C:\Users\mephilis\.mcreator\gradle\caches\forge_gradle\mcp_repo\net\minecraft\joined\1.19.2-20220805.130853\joined-1.19.2-20220805.130853-srg.jar, --output, D:\Workspace For Now\FNAFMod\build\fg_cache\net\minecraftforge\forge\1.19.2-43.3.7\forge-1.19.2-43.3.7-binpatched.jar, --apply, D:\Workspace For Now\FNAFMod\build\fg_cache\net\minecraftforge\forge\1.19.2-43.3.7\forge-1.19.2-43.3.7-binpatches.lzma'
+Arguments: '--clean, C:\Users\mephilis\.mcreator\gradle\caches\forge_gradle\mcp_repo\net\minecraft\joined\1.19.2-20220805.130853\joined-1.19.2-20220805.130853-srg.jar, --output, D:\Workspace For Now\FNAFMod\build\fg_cache\net\minecraftforge\forge\1.19.2-43.3.5\forge-1.19.2-43.3.5-binpatched.jar, --apply, D:\Workspace For Now\FNAFMod\build\fg_cache\net\minecraftforge\forge\1.19.2-43.3.5\forge-1.19.2-43.3.5-binpatches.lzma'
 Classpath:
  - C:\Users\mephilis\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\binarypatcher\1.1.1\binarypatcher-1.1.1-fatjar.jar
 Working directory: D:\Workspace For Now\FNAFMod\build\_applyBinpatches_2
@@ -7,12 +7,12 @@ Main class: net.minecraftforge.binarypatcher.ConsoleTool
 ====================================
 Applying: 
   Clean:     C:\Users\mephilis\.mcreator\gradle\caches\forge_gradle\mcp_repo\net\minecraft\joined\1.19.2-20220805.130853\joined-1.19.2-20220805.130853-srg.jar
-  Output:    D:\Workspace For Now\FNAFMod\build\fg_cache\net\minecraftforge\forge\1.19.2-43.3.7\forge-1.19.2-43.3.7-binpatched.jar
+  Output:    D:\Workspace For Now\FNAFMod\build\fg_cache\net\minecraftforge\forge\1.19.2-43.3.5\forge-1.19.2-43.3.5-binpatched.jar
   KeepData:  false
   Unpatched: false
   Pack200:   false
   Legacy:    false
-Loading patches file: D:\Workspace For Now\FNAFMod\build\fg_cache\net\minecraftforge\forge\1.19.2-43.3.7\forge-1.19.2-43.3.7-binpatches.lzma
+Loading patches file: D:\Workspace For Now\FNAFMod\build\fg_cache\net\minecraftforge\forge\1.19.2-43.3.5\forge-1.19.2-43.3.5-binpatches.lzma
   Reading patch com.mojang.blaze3d.pipeline.RenderTarget.binpatch
     Checksum: 19e6c00e Exists: true
   Reading patch com.mojang.blaze3d.platform.GlStateManager$BlendState.binpatch

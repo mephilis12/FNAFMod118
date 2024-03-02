@@ -31,7 +31,7 @@ import java.util.List;
 
 public class BlacktombYardBiome {
 	public static Biome createBiome() {
-		BiomeSpecialEffects effects = new BiomeSpecialEffects.Builder().fogColor(12638463).waterColor(4159204).waterFogColor(329011).skyColor(7972607).foliageColorOverride(-3355444).grassColorOverride(-13421773)
+		BiomeSpecialEffects effects = new BiomeSpecialEffects.Builder().fogColor(-13947345).waterColor(-12293516).waterFogColor(-14271680).skyColor(-13947345).foliageColorOverride(-3355444).grassColorOverride(-13421773)
 				.ambientLoopSound(ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("fnaf_mod:blacktombyardtemp"))).ambientParticle(new AmbientParticleSettings(ParticleTypes.ASH, 0.005f)).build();
 		BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder();
 		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION,

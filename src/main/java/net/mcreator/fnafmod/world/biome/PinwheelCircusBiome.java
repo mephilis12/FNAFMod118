@@ -13,7 +13,7 @@ import net.minecraft.data.worldgen.BiomeDefaultFeatures;
 public class PinwheelCircusBiome {
 	public static Biome createBiome() {
 		BiomeSpecialEffects effects = new BiomeSpecialEffects.Builder().fogColor(12638463).waterColor(4159204).waterFogColor(329011).skyColor(7972607).foliageColorOverride(-16724992).grassColorOverride(-16724992)
-				.ambientLoopSound(ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("fnaf_mod:pinwheeltemp"))).build();
+				.ambientLoopSound(ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("fnaf_mod:eightbittraveltwoo"))).build();
 		BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder();
 		BiomeDefaultFeatures.addDefaultCarversAndLakes(biomeGenerationSettings);
 		BiomeDefaultFeatures.addDefaultOres(biomeGenerationSettings);

@@ -14,11 +14,11 @@ import net.minecraft.data.worldgen.BiomeDefaultFeatures;
 import java.util.List;
 
 public class LiligearLakeBiome {
-	public static final List<Climate.ParameterPoint> UNDERGROUND_PARAMETER_POINTS = List.of(new Climate.ParameterPoint(Climate.Parameter.span(0f, 0.8f), Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(-1.0001f, -1f),
-			Climate.Parameter.span(-0.5f, 0f), Climate.Parameter.span(0.2f, 0.9f), Climate.Parameter.span(0f, 1f), 0));
+	public static final List<Climate.ParameterPoint> UNDERGROUND_PARAMETER_POINTS = List.of(new Climate.ParameterPoint(Climate.Parameter.span(0f, 0.8f), Climate.Parameter.span(-0.9f, 0.5f), Climate.Parameter.span(-1f, -0.1f),
+			Climate.Parameter.span(-0.5f, 0f), Climate.Parameter.span(0.2f, 0.9f), Climate.Parameter.span(-2f, 1f), 0));
 
 	public static Biome createBiome() {
-		BiomeSpecialEffects effects = new BiomeSpecialEffects.Builder().fogColor(12638463).waterColor(-10053121).waterFogColor(329011).skyColor(7972607).foliageColorOverride(10387789).grassColorOverride(9470285)
+		BiomeSpecialEffects effects = new BiomeSpecialEffects.Builder().fogColor(12638463).waterColor(-10053121).waterFogColor(329011).skyColor(7972607).foliageColorOverride(-16711834).grassColorOverride(-16711834)
 				.ambientLoopSound(ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("fnaf_mod:lilygeartemp"))).build();
 		BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder();
 		BiomeDefaultFeatures.addDefaultCarversAndLakes(biomeGenerationSettings);

@@ -1,5 +1,5 @@
 Java Launcher: D:\Pylo\MCreator\jdk\bin\java.exe
-Arguments: '--inJar, D:\Workspace For Now\FNAFMod\build\fg_cache\net\minecraftforge\forge\1.19.2-43.3.7\forge-1.19.2-43.3.7-injected.jar, --outJar, D:\Workspace For Now\FNAFMod\build\fg_cache\net\minecraftforge\forge\1.19.2-43.3.7_mapped_official_1.19.2\forge-1.19.2-43.3.7_mapped_official_1.19.2.jar, --logFile, accesstransform.log, --atFile, D:\Workspace For Now\FNAFMod\src\main\resources\META-INF\accesstransformer.cfg, --atFile, D:\Workspace For Now\FNAFMod\build\_atJar_4\parent_at.cfg'
+Arguments: '--inJar, D:\Workspace For Now\FNAFMod\build\fg_cache\net\minecraftforge\forge\1.19.2-43.3.5\forge-1.19.2-43.3.5-injected.jar, --outJar, D:\Workspace For Now\FNAFMod\build\fg_cache\net\minecraftforge\forge\1.19.2-43.3.5_mapped_official_1.19.2\forge-1.19.2-43.3.5_mapped_official_1.19.2.jar, --logFile, accesstransform.log, --atFile, D:\Workspace For Now\FNAFMod\src\main\resources\META-INF\accesstransformer.cfg, --atFile, D:\Workspace For Now\FNAFMod\build\_atJar_4\parent_at.cfg'
 Classpath:
  - C:\Users\mephilis\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\accesstransformers\8.0.7\accesstransformers-8.0.7-fatjar.jar
 Working directory: D:\Workspace For Now\FNAFMod\build\_atJar_4

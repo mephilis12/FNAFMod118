@@ -529,5 +529,13 @@
         "stream": false
       }
     ]
+  },
+  "eightbittraveltwoo": {
+    "sounds": [
+      {
+        "name": "fnaf_mod:pinwheel_circus",
+        "stream": false
+      }
+    ]
   }
 }

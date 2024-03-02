@@ -52,7 +52,7 @@
       "max": 0.5
     },
     "genContinentalness": {
-      "min": 0.2995,
+      "min": 0.5,
       "max": 1.0
     },
     "genErosion": {
