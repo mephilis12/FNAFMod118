@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "fnaf_mod:choppy_woods",
+    "fnaf_mod:fazbear_hills"
+  ],
+  "spawners": {
+    "type": "fnaf_mod:adventure_freddy",
+    "weight": 10,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

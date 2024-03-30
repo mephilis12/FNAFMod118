@@ -134,6 +134,9 @@ import net.mcreator.fnafmod.entity.BooletProjectileEntity;
 import net.mcreator.fnafmod.entity.BonnieStandEntity;
 import net.mcreator.fnafmod.entity.BonnieBunnyEntity;
 import net.mcreator.fnafmod.entity.BBEntity;
+import net.mcreator.fnafmod.entity.AdventureMangleEntity;
+import net.mcreator.fnafmod.entity.AdventureLolbitEntity;
+import net.mcreator.fnafmod.entity.AdventureFreddyEntity;
 import net.mcreator.fnafmod.FnafModMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -601,6 +604,18 @@ public class FnafModModEntities {
 			EntityType.Builder.<SitEntityEntity>of(SitEntityEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SitEntityEntity::new)
 
 					.sized(0.4f, 0.4f));
+	public static final RegistryObject<EntityType<AdventureLolbitEntity>> ADVENTURE_LOLBIT = register("adventure_lolbit",
+			EntityType.Builder.<AdventureLolbitEntity>of(AdventureLolbitEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(AdventureLolbitEntity::new)
+
+					.sized(0.6f, 0.9f));
+	public static final RegistryObject<EntityType<AdventureFreddyEntity>> ADVENTURE_FREDDY = register("adventure_freddy",
+			EntityType.Builder.<AdventureFreddyEntity>of(AdventureFreddyEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(AdventureFreddyEntity::new)
+
+					.sized(0.6f, 0.9f));
+	public static final RegistryObject<EntityType<AdventureMangleEntity>> ADVENTURE_MANGLE = register("adventure_mangle",
+			EntityType.Builder.<AdventureMangleEntity>of(AdventureMangleEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(AdventureMangleEntity::new)
+
+					.sized(0.6f, 0.9f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -726,6 +741,9 @@ public class FnafModModEntities {
 			StandingDaytimeSpringtrapEntity.init();
 			CrawlingSpringtrapEntity.init();
 			SitEntityEntity.init();
+			AdventureLolbitEntity.init();
+			AdventureFreddyEntity.init();
+			AdventureMangleEntity.init();
 		});
 	}
 
@@ -848,5 +866,8 @@ public class FnafModModEntities {
 		event.put(STANDING_DAYTIME_SPRINGTRAP.get(), StandingDaytimeSpringtrapEntity.createAttributes().build());
 		event.put(CRAWLING_SPRINGTRAP.get(), CrawlingSpringtrapEntity.createAttributes().build());
 		event.put(SIT_ENTITY.get(), SitEntityEntity.createAttributes().build());
+		event.put(ADVENTURE_LOLBIT.get(), AdventureLolbitEntity.createAttributes().build());
+		event.put(ADVENTURE_FREDDY.get(), AdventureFreddyEntity.createAttributes().build());
+		event.put(ADVENTURE_MANGLE.get(), AdventureMangleEntity.createAttributes().build());
 	}
 }

@@ -224,15 +224,6 @@
       }
     ]
   },
-  "ovdrhonk": {
-    "subtitle": "subtitles.ovdrhonk",
-    "sounds": [
-      {
-        "name": "fnaf_mod:overdrivehonk",
-        "stream": false
-      }
-    ]
-  },
   "freddle": {
     "subtitle": "subtitles.freddle",
     "sounds": [
@@ -534,6 +525,15 @@
     "sounds": [
       {
         "name": "fnaf_mod:pinwheel_circus",
+        "stream": false
+      }
+    ]
+  },
+  "ohno": {
+    "subtitle": "subtitles.ohno",
+    "sounds": [
+      {
+        "name": "fnaf_mod:ohno",
         "stream": false
       }
     ]

@@ -127,6 +127,9 @@ import net.mcreator.fnafmod.client.renderer.BooletProjectileRenderer;
 import net.mcreator.fnafmod.client.renderer.BonnieStandRenderer;
 import net.mcreator.fnafmod.client.renderer.BonnieBunnyRenderer;
 import net.mcreator.fnafmod.client.renderer.BBRenderer;
+import net.mcreator.fnafmod.client.renderer.AdventureMangleRenderer;
+import net.mcreator.fnafmod.client.renderer.AdventureLolbitRenderer;
+import net.mcreator.fnafmod.client.renderer.AdventureFreddyRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class FnafModModEntityRenderers {
@@ -250,5 +253,8 @@ public class FnafModModEntityRenderers {
 		event.registerEntityRenderer(FnafModModEntities.CRAWLING_SPRINGTRAP.get(), CrawlingSpringtrapRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.BOOLET_PROJECTILE.get(), BooletProjectileRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.SIT_ENTITY.get(), SitEntityRenderer::new);
+		event.registerEntityRenderer(FnafModModEntities.ADVENTURE_LOLBIT.get(), AdventureLolbitRenderer::new);
+		event.registerEntityRenderer(FnafModModEntities.ADVENTURE_FREDDY.get(), AdventureFreddyRenderer::new);
+		event.registerEntityRenderer(FnafModModEntities.ADVENTURE_MANGLE.get(), AdventureMangleRenderer::new);
 	}
 }

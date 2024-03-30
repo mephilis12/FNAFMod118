@@ -5,11 +5,6 @@
 			"loop": true,
 			"animation_length": 1.08,
 			"bones": {
-				"Pelvis": {
-					"position": {
-						"vector": [0, -0.5, 0]
-					}
-				},
 				"Body": {
 					"rotation": {
 						"0.0": {
@@ -288,6 +283,11 @@
 				"Banjo": {
 					"scale": {
 						"vector": [0, 0, 0]
+					}
+				},
+				"Pelvis": {
+					"position": {
+						"vector": [0, -0.5, 0]
 					}
 				}
 			}

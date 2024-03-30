@@ -36,7 +36,6 @@ public class FnafModModSounds {
 	public static final RegistryObject<SoundEvent> OURLITTLEHORRORSTORY = REGISTRY.register("ourlittlehorrorstory", () -> new SoundEvent(new ResourceLocation("fnaf_mod", "ourlittlehorrorstory")));
 	public static final RegistryObject<SoundEvent> SHOWTIMEFUNKY = REGISTRY.register("showtimefunky", () -> new SoundEvent(new ResourceLocation("fnaf_mod", "showtimefunky")));
 	public static final RegistryObject<SoundEvent> ITSBEENSOLONG = REGISTRY.register("itsbeensolong", () -> new SoundEvent(new ResourceLocation("fnaf_mod", "itsbeensolong")));
-	public static final RegistryObject<SoundEvent> OVDRHONK = REGISTRY.register("ovdrhonk", () -> new SoundEvent(new ResourceLocation("fnaf_mod", "ovdrhonk")));
 	public static final RegistryObject<SoundEvent> FREDDLE = REGISTRY.register("freddle", () -> new SoundEvent(new ResourceLocation("fnaf_mod", "freddle")));
 	public static final RegistryObject<SoundEvent> HEARME = REGISTRY.register("hearme", () -> new SoundEvent(new ResourceLocation("fnaf_mod", "hearme")));
 	public static final RegistryObject<SoundEvent> C1 = REGISTRY.register("c1", () -> new SoundEvent(new ResourceLocation("fnaf_mod", "c1")));
@@ -70,4 +69,5 @@ public class FnafModModSounds {
 	public static final RegistryObject<SoundEvent> PINWHEELTEMP = REGISTRY.register("pinwheeltemp", () -> new SoundEvent(new ResourceLocation("fnaf_mod", "pinwheeltemp")));
 	public static final RegistryObject<SoundEvent> BLACKTOMBYARDTEMP = REGISTRY.register("blacktombyardtemp", () -> new SoundEvent(new ResourceLocation("fnaf_mod", "blacktombyardtemp")));
 	public static final RegistryObject<SoundEvent> EIGHTBITTRAVELTWOO = REGISTRY.register("eightbittraveltwoo", () -> new SoundEvent(new ResourceLocation("fnaf_mod", "eightbittraveltwoo")));
+	public static final RegistryObject<SoundEvent> OHNO = REGISTRY.register("ohno", () -> new SoundEvent(new ResourceLocation("fnaf_mod", "ohno")));
 }

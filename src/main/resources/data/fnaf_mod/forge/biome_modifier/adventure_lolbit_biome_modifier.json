@@ -1,0 +1,17 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "fnaf_mod:blacktomb_yard",
+    "fnaf_mod:choppy_woods",
+    "fnaf_mod:dusting_fields",
+    "fnaf_mod:fazbear_hills",
+    "fnaf_mod:liligear_lake",
+    "fnaf_mod:pinwheel_circus"
+  ],
+  "spawners": {
+    "type": "fnaf_mod:adventure_lolbit",
+    "weight": 5,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

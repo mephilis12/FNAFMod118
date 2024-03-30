@@ -82,7 +82,8 @@
     "defaultFeatures": [
       "Caves",
       "Ores",
-      "ForestGrass"
+      "ForestGrass",
+      "ForestFlowers"
     ],
     "spawnStronghold": false,
     "spawnMineshaft": false,
@@ -104,6 +105,16 @@
     "spawnBastionRemnant": false,
     "spawnEndCity": false,
     "spawnRuinedPortal": "NONE",
-    "spawnEntries": []
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntitySpider"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 3,
+        "spawnType": "monster"
+      }
+    ]
   }
 }

@@ -7,6 +7,7 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.mcreator.fnafmod.init.FnafModModBlockEntities;
+import net.mcreator.fnafmod.block.renderer.VassDollTileRenderer;
 import net.mcreator.fnafmod.block.renderer.UnWitheredFreddyHeadTileRenderer;
 import net.mcreator.fnafmod.block.renderer.UnWitheredFoxyHeadTileRenderer;
 import net.mcreator.fnafmod.block.renderer.UnWitheredChicaHeadTileRenderer;
@@ -66,5 +67,6 @@ public class ClientListener {
 		event.registerBlockEntityRenderer(FnafModModBlockEntities.STAGE_LIGHT_RED_ON.get(), StageLightRedOnTileRenderer::new);
 		event.registerBlockEntityRenderer(FnafModModBlockEntities.FREDDY_SIGN_OFF.get(), FreddySignOffTileRenderer::new);
 		event.registerBlockEntityRenderer(FnafModModBlockEntities.FREDDY_SIGN_ON.get(), FreddySignOnTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafModModBlockEntities.VASS_DOLL.get(), VassDollTileRenderer::new);
 	}
 }

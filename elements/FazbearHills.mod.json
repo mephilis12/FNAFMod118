@@ -81,7 +81,8 @@
     },
     "defaultFeatures": [
       "Caves",
-      "Ores"
+      "Ores",
+      "ForestGrass"
     ],
     "spawnStronghold": false,
     "spawnMineshaft": false,
@@ -103,6 +104,34 @@
     "spawnBastionRemnant": false,
     "spawnEndCity": false,
     "spawnRuinedPortal": "NONE",
-    "spawnEntries": []
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntitySheep"
+        },
+        "minGroup": 2,
+        "maxGroup": 5,
+        "weight": 7,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityCow"
+        },
+        "minGroup": 1,
+        "maxGroup": 3,
+        "weight": 3,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntitySpider"
+        },
+        "minGroup": 1,
+        "maxGroup": 3,
+        "weight": 2,
+        "spawnType": "monster"
+      }
+    ]
   }
 }

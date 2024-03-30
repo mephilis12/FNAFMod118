@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.fnafmod.block.entity.VendingBottomBlockEntity;
+import net.mcreator.fnafmod.block.entity.VassDollTileEntity;
 import net.mcreator.fnafmod.block.entity.UnWitheredFreddyHeadTileEntity;
 import net.mcreator.fnafmod.block.entity.UnWitheredFoxyHeadTileEntity;
 import net.mcreator.fnafmod.block.entity.UnWitheredChicaHeadTileEntity;
@@ -108,6 +109,7 @@ public class FnafModModBlockEntities {
 	public static final RegistryObject<BlockEntityType<FreddySignOffTileEntity>> FREDDY_SIGN_OFF = REGISTRY.register("freddy_sign_off",
 			() -> BlockEntityType.Builder.of(FreddySignOffTileEntity::new, FnafModModBlocks.FREDDY_SIGN_OFF.get()).build(null));
 	public static final RegistryObject<BlockEntityType<FreddySignOnTileEntity>> FREDDY_SIGN_ON = REGISTRY.register("freddy_sign_on", () -> BlockEntityType.Builder.of(FreddySignOnTileEntity::new, FnafModModBlocks.FREDDY_SIGN_ON.get()).build(null));
+	public static final RegistryObject<BlockEntityType<VassDollTileEntity>> VASS_DOLL = REGISTRY.register("vass_doll", () -> BlockEntityType.Builder.of(VassDollTileEntity::new, FnafModModBlocks.VASS_DOLL.get()).build(null));
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));

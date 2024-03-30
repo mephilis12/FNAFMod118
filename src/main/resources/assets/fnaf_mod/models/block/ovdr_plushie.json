@@ -1,9 +1,0 @@
-{
-  "parent": "fnaf_mod:custom/plushie_overdrive",
-  "textures": {
-    "all": "fnaf_mod:blocks/plush_overdrive",
-    "particle": "fnaf_mod:blocks/plush_overdrive",
-    "1": "fnaf_mod:blocks/plush_overdrive"
-  },
-  "render_type": "cutout"
-}

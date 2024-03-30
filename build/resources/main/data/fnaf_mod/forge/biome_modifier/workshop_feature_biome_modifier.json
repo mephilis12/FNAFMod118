@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "#is_overworld",
-  "features": "fnaf_mod:workshop_feature",
-  "step": "surface_structures"
-}

@@ -27,6 +27,7 @@ import net.mcreator.fnafmod.block.VentHatchBlock;
 import net.mcreator.fnafmod.block.VentBlock;
 import net.mcreator.fnafmod.block.VendingTopBlock;
 import net.mcreator.fnafmod.block.VendingBottomBlock;
+import net.mcreator.fnafmod.block.VassDollBlock;
 import net.mcreator.fnafmod.block.UnWitheredFreddyHeadBlock;
 import net.mcreator.fnafmod.block.UnWitheredFoxyHeadBlock;
 import net.mcreator.fnafmod.block.UnWitheredChicaHeadBlock;
@@ -150,7 +151,6 @@ import net.mcreator.fnafmod.block.PartyHatBlueBlock;
 import net.mcreator.fnafmod.block.PaperPalFreddyBlock;
 import net.mcreator.fnafmod.block.PaperPalBonnieBlock;
 import net.mcreator.fnafmod.block.PaperPalBlock;
-import net.mcreator.fnafmod.block.OvdrPlushieBlock;
 import net.mcreator.fnafmod.block.OrangeSpeakerLeftBlock;
 import net.mcreator.fnafmod.block.OrangeSpeakerBlock;
 import net.mcreator.fnafmod.block.OrangeSpeakeRightBlock;
@@ -544,7 +544,6 @@ public class FnafModModBlocks {
 	public static final RegistryObject<Block> PLUSH_FOXY = REGISTRY.register("plush_foxy", () -> new PlushFoxyBlock());
 	public static final RegistryObject<Block> PLUSH_FREDBEAR = REGISTRY.register("plush_fredbear", () -> new PlushFredbearBlock());
 	public static final RegistryObject<Block> POPGOES_PLUSHIE = REGISTRY.register("popgoes_plushie", () -> new PopgoesPlushieBlock());
-	public static final RegistryObject<Block> OVDR_PLUSHIE = REGISTRY.register("ovdr_plushie", () -> new OvdrPlushieBlock());
 	public static final RegistryObject<Block> ARCADE_MACHINE_BONNIE = REGISTRY.register("arcade_machine_bonnie", () -> new ArcadeMachineBonnieBlock());
 	public static final RegistryObject<Block> ARCADE_MACHINE_FREDDY = REGISTRY.register("arcade_machine_freddy", () -> new ArcadeMachineFreddyBlock());
 	public static final RegistryObject<Block> ARCADE_MACHINE_FOXY_2 = REGISTRY.register("arcade_machine_foxy_2", () -> new ArcadeMachineFoxy2Block());
@@ -744,4 +743,5 @@ public class FnafModModBlocks {
 	public static final RegistryObject<Block> MINT_CURTAIN = REGISTRY.register("mint_curtain", () -> new MintCurtainBlock());
 	public static final RegistryObject<Block> THIN_MINT_CURTAIN = REGISTRY.register("thin_mint_curtain", () -> new ThinMintCurtainBlock());
 	public static final RegistryObject<Block> VISIT_NEBRASKA_POSTER = REGISTRY.register("visit_nebraska_poster", () -> new VisitNebraskaPosterBlock());
+	public static final RegistryObject<Block> VASS_DOLL = REGISTRY.register("vass_doll", () -> new VassDollBlock());
 }
