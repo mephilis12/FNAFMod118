@@ -811,6 +811,79 @@
 					}
 				}
 			}
+		},
+		"animation.puppet.shadowpose": {
+			"loop": true,
+			"bones": {
+				"Pivot": {
+					"rotation": {
+						"vector": [5, 0, 0]
+					},
+					"position": {
+						"vector": [0, -15, 7]
+					}
+				},
+				"Body": {
+					"rotation": {
+						"vector": [17.5, 0, 0]
+					}
+				},
+				"Head": {
+					"rotation": {
+						"vector": [12.5, 0, 0]
+					}
+				},
+				"right_arm": {
+					"rotation": {
+						"vector": [-12.50848, 0.21881, -0.35234]
+					}
+				},
+				"right_lower_arm": {
+					"rotation": {
+						"vector": [-20, 0, 0]
+					}
+				},
+				"right_hand": {
+					"rotation": {
+						"vector": [-109.31011, 75.23177, -189.35222]
+					}
+				},
+				"left_arm": {
+					"rotation": {
+						"vector": [-12.37481, -0.31242, 2.04791]
+					}
+				},
+				"left_lower_arm": {
+					"rotation": {
+						"vector": [-32.5, 0, 0]
+					}
+				},
+				"left_hand": {
+					"rotation": {
+						"vector": [-125, -82.5, -180]
+					}
+				},
+				"left_leg": {
+					"rotation": {
+						"vector": [-62.5, 0, 0]
+					}
+				},
+				"left_lower_leg": {
+					"rotation": {
+						"vector": [146.93115, -34.83316, 4.98695]
+					}
+				},
+				"right_leg": {
+					"rotation": {
+						"vector": [-65, 0, 0]
+					}
+				},
+				"right_lower_leg": {
+					"rotation": {
+						"vector": [150.02362, 1.2497, 2.16541]
+					}
+				}
+			}
 		}
 	}
 }

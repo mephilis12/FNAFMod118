@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "fnaf_mod:blacktomb_yard",
+    "fnaf_mod:pinwheel_circus"
+  ],
+  "spawners": {
+    "type": "fnaf_mod:adventure_nightmare_fredbear",
+    "weight": 5,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

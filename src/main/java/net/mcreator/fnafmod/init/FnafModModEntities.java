@@ -134,6 +134,9 @@ import net.mcreator.fnafmod.entity.BooletProjectileEntity;
 import net.mcreator.fnafmod.entity.BonnieStandEntity;
 import net.mcreator.fnafmod.entity.BonnieBunnyEntity;
 import net.mcreator.fnafmod.entity.BBEntity;
+import net.mcreator.fnafmod.entity.AdventureWitheredChicaEntity;
+import net.mcreator.fnafmod.entity.AdventureSpringtrapEntity;
+import net.mcreator.fnafmod.entity.AdventureNightmareFredbearEntity;
 import net.mcreator.fnafmod.entity.AdventureMangleEntity;
 import net.mcreator.fnafmod.entity.AdventureLolbitEntity;
 import net.mcreator.fnafmod.entity.AdventureFreddyEntity;
@@ -616,6 +619,20 @@ public class FnafModModEntities {
 			EntityType.Builder.<AdventureMangleEntity>of(AdventureMangleEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(AdventureMangleEntity::new)
 
 					.sized(0.6f, 0.9f));
+	public static final RegistryObject<EntityType<AdventureWitheredChicaEntity>> ADVENTURE_WITHERED_CHICA = register("adventure_withered_chica",
+			EntityType.Builder.<AdventureWitheredChicaEntity>of(AdventureWitheredChicaEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(AdventureWitheredChicaEntity::new)
+
+					.sized(0.6f, 0.9f));
+	public static final RegistryObject<EntityType<AdventureSpringtrapEntity>> ADVENTURE_SPRINGTRAP = register("adventure_springtrap",
+			EntityType.Builder.<AdventureSpringtrapEntity>of(AdventureSpringtrapEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(AdventureSpringtrapEntity::new)
+
+					.sized(0.6f, 0.9f));
+	public static final RegistryObject<EntityType<AdventureNightmareFredbearEntity>> ADVENTURE_NIGHTMARE_FREDBEAR = register("adventure_nightmare_fredbear",
+			EntityType.Builder.<AdventureNightmareFredbearEntity>of(AdventureNightmareFredbearEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.setCustomClientFactory(AdventureNightmareFredbearEntity::new)
+
+					.sized(0.6f, 0.9f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -744,6 +761,9 @@ public class FnafModModEntities {
 			AdventureLolbitEntity.init();
 			AdventureFreddyEntity.init();
 			AdventureMangleEntity.init();
+			AdventureWitheredChicaEntity.init();
+			AdventureSpringtrapEntity.init();
+			AdventureNightmareFredbearEntity.init();
 		});
 	}
 
@@ -869,5 +889,8 @@ public class FnafModModEntities {
 		event.put(ADVENTURE_LOLBIT.get(), AdventureLolbitEntity.createAttributes().build());
 		event.put(ADVENTURE_FREDDY.get(), AdventureFreddyEntity.createAttributes().build());
 		event.put(ADVENTURE_MANGLE.get(), AdventureMangleEntity.createAttributes().build());
+		event.put(ADVENTURE_WITHERED_CHICA.get(), AdventureWitheredChicaEntity.createAttributes().build());
+		event.put(ADVENTURE_SPRINGTRAP.get(), AdventureSpringtrapEntity.createAttributes().build());
+		event.put(ADVENTURE_NIGHTMARE_FREDBEAR.get(), AdventureNightmareFredbearEntity.createAttributes().build());
 	}
 }

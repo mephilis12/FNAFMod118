@@ -114,6 +114,15 @@
         "maxGroup": 1,
         "weight": 3,
         "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityChicken"
+        },
+        "minGroup": 1,
+        "maxGroup": 4,
+        "weight": 11,
+        "spawnType": "creature"
       }
     ]
   }

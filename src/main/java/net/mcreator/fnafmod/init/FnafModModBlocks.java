@@ -39,6 +39,7 @@ import net.mcreator.fnafmod.block.ToyCaterpillarBlock;
 import net.mcreator.fnafmod.block.TopNormalBlock;
 import net.mcreator.fnafmod.block.ThinSwampCurtainBlock;
 import net.mcreator.fnafmod.block.ThinSkyCurtainBlock;
+import net.mcreator.fnafmod.block.ThinRoseCurtainBlock;
 import net.mcreator.fnafmod.block.ThinRockCurtainBlock;
 import net.mcreator.fnafmod.block.ThinPurpleCurtainBlock;
 import net.mcreator.fnafmod.block.ThinOakCurtainBlock;
@@ -93,6 +94,7 @@ import net.mcreator.fnafmod.block.ShackRandomizerBlock;
 import net.mcreator.fnafmod.block.SecurityDoorOpenBlock;
 import net.mcreator.fnafmod.block.ScreenBlock;
 import net.mcreator.fnafmod.block.SconceBlock;
+import net.mcreator.fnafmod.block.RoseCurtainBlock;
 import net.mcreator.fnafmod.block.RockCurtainBlock;
 import net.mcreator.fnafmod.block.RemantInfuserBlock;
 import net.mcreator.fnafmod.block.RedWoodDoorBlock;
@@ -744,4 +746,6 @@ public class FnafModModBlocks {
 	public static final RegistryObject<Block> THIN_MINT_CURTAIN = REGISTRY.register("thin_mint_curtain", () -> new ThinMintCurtainBlock());
 	public static final RegistryObject<Block> VISIT_NEBRASKA_POSTER = REGISTRY.register("visit_nebraska_poster", () -> new VisitNebraskaPosterBlock());
 	public static final RegistryObject<Block> VASS_DOLL = REGISTRY.register("vass_doll", () -> new VassDollBlock());
+	public static final RegistryObject<Block> ROSE_CURTAIN = REGISTRY.register("rose_curtain", () -> new RoseCurtainBlock());
+	public static final RegistryObject<Block> THIN_ROSE_CURTAIN = REGISTRY.register("thin_rose_curtain", () -> new ThinRoseCurtainBlock());
 }

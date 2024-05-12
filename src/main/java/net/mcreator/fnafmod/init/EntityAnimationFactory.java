@@ -105,6 +105,9 @@ import net.mcreator.fnafmod.entity.CrawlingMangleEntity;
 import net.mcreator.fnafmod.entity.ChicaChickenEntity;
 import net.mcreator.fnafmod.entity.BonnieBunnyEntity;
 import net.mcreator.fnafmod.entity.BBEntity;
+import net.mcreator.fnafmod.entity.AdventureWitheredChicaEntity;
+import net.mcreator.fnafmod.entity.AdventureSpringtrapEntity;
+import net.mcreator.fnafmod.entity.AdventureNightmareFredbearEntity;
 import net.mcreator.fnafmod.entity.AdventureMangleEntity;
 import net.mcreator.fnafmod.entity.AdventureLolbitEntity;
 import net.mcreator.fnafmod.entity.AdventureFreddyEntity;
@@ -836,6 +839,27 @@ public class EntityAnimationFactory {
 				}
 			}
 			if (event.getEntity() instanceof AdventureMangleEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof AdventureWitheredChicaEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof AdventureSpringtrapEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof AdventureNightmareFredbearEntity syncable) {
 				String animation = syncable.getSyncedAnimation();
 				if (!animation.equals("undefined")) {
 					syncable.setAnimation("undefined");

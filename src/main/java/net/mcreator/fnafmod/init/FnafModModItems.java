@@ -809,8 +809,16 @@ public class FnafModModItems {
 	public static final RegistryObject<Item> ADVENTURE_FREDDY_SPAWN_EGG = REGISTRY.register("adventure_freddy_spawn_egg",
 			() -> new ForgeSpawnEggItem(FnafModModEntities.ADVENTURE_FREDDY, -8962531, -3779574, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 	public static final RegistryObject<Item> ADVENTURE_MANGLE_SPAWN_EGG = REGISTRY.register("adventure_mangle_spawn_egg",
-			() -> new ForgeSpawnEggItem(FnafModModEntities.ADVENTURE_MANGLE, -329223, -26368, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+			() -> new ForgeSpawnEggItem(FnafModModEntities.ADVENTURE_MANGLE, -329223, -2228026, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 	public static final RegistryObject<Item> VASS_DOLL = REGISTRY.register(FnafModModBlocks.VASS_DOLL.getId().getPath(), () -> new VassDollDisplayItem(FnafModModBlocks.VASS_DOLL.get(), new Item.Properties().tab(FnafModModTabs.TAB_FNAF_BLOCKS)));
+	public static final RegistryObject<Item> ROSE_CURTAIN = block(FnafModModBlocks.ROSE_CURTAIN, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> THIN_ROSE_CURTAIN = block(FnafModModBlocks.THIN_ROSE_CURTAIN, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> ADVENTURE_WITHERED_CHICA_SPAWN_EGG = REGISTRY.register("adventure_withered_chica_spawn_egg",
+			() -> new ForgeSpawnEggItem(FnafModModEntities.ADVENTURE_WITHERED_CHICA, -2707456, -26368, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+	public static final RegistryObject<Item> ADVENTURE_SPRINGTRAP_SPAWN_EGG = REGISTRY.register("adventure_springtrap_spawn_egg",
+			() -> new ForgeSpawnEggItem(FnafModModEntities.ADVENTURE_SPRINGTRAP, -8686288, -6057956, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+	public static final RegistryObject<Item> ADVENTURE_NIGHTMARE_FREDBEAR_SPAWN_EGG = REGISTRY.register("adventure_nightmare_fredbear_spawn_egg",
+			() -> new ForgeSpawnEggItem(FnafModModEntities.ADVENTURE_NIGHTMARE_FREDBEAR, -8686288, -6057956, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

@@ -124,7 +124,7 @@
         "minGroup": 1,
         "maxGroup": 3,
         "weight": 10,
-        "spawnType": "ambient"
+        "spawnType": "monster"
       },
       {
         "entity": {

@@ -126,6 +126,33 @@
         "maxGroup": 1,
         "weight": 1,
         "spawnType": "waterCreature"
+      },
+      {
+        "entity": {
+          "value": "EntitySheep"
+        },
+        "minGroup": 1,
+        "maxGroup": 4,
+        "weight": 12,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityPig"
+        },
+        "minGroup": 1,
+        "maxGroup": 4,
+        "weight": 2,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntitySlime"
+        },
+        "minGroup": 1,
+        "maxGroup": 2,
+        "weight": 4,
+        "spawnType": "monster"
       }
     ]
   }

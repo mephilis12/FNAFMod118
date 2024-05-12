@@ -47,7 +47,9 @@ public class DustingFieldsBiome {
 		BiomeDefaultFeatures.addSurfaceFreezing(biomeGenerationSettings);
 		BiomeDefaultFeatures.addMossyStoneBlock(biomeGenerationSettings);
 		MobSpawnSettings.Builder mobSpawnInfo = new MobSpawnSettings.Builder();
-		mobSpawnInfo.addSpawn(MobCategory.CREATURE, new MobSpawnSettings.SpawnerData(EntityType.GOAT, 1, 1, 1));
+		mobSpawnInfo.addSpawn(MobCategory.CREATURE, new MobSpawnSettings.SpawnerData(EntityType.GOAT, 6, 1, 5));
+		mobSpawnInfo.addSpawn(MobCategory.CREATURE, new MobSpawnSettings.SpawnerData(EntityType.FOX, 12, 1, 4));
+		mobSpawnInfo.addSpawn(MobCategory.MONSTER, new MobSpawnSettings.SpawnerData(EntityType.STRAY, 2, 1, 1));
 		return new Biome.BiomeBuilder().precipitation(Biome.Precipitation.SNOW).temperature(0f).downfall(1f).specialEffects(effects).mobSpawnSettings(mobSpawnInfo.build()).generationSettings(biomeGenerationSettings.build()).build();
 	}
 }

@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "fnaf_mod:blocks/rose_curtain"
+  },
+  "render_type": "solid"
+}

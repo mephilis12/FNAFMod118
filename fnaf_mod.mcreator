@@ -23401,6 +23401,124 @@
           }
         ]
       }
+    },
+    {
+      "name": "RoseCurtain",
+      "type": "block",
+      "sortid": 1157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rose_curtain",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/blockstates/rose_curtain.json",
+          "src/main/resources/assets/fnaf_mod/models/block/rose_curtain.json",
+          "src/main/resources/assets/fnaf_mod/models/item/rose_curtain.json",
+          "src/main/java/net/mcreator/fnafmod/block/RoseCurtainBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "ThinRoseCurtain",
+      "type": "block",
+      "sortid": 1158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thin_rose_curtain",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fnaf_mod/models/block/thin_rose_curtain_noside_alt.json",
+          "src/main/resources/assets/fnaf_mod/blockstates/thin_rose_curtain.json",
+          "src/main/resources/assets/fnaf_mod/models/block/thin_rose_curtain_noside.json",
+          "src/main/resources/assets/fnaf_mod/models/block/thin_rose_curtain_post.json",
+          "src/main/resources/assets/fnaf_mod/models/item/thin_rose_curtain.json",
+          "src/main/java/net/mcreator/fnafmod/block/ThinRoseCurtainBlock.java",
+          "src/main/resources/assets/fnaf_mod/models/block/thin_rose_curtain_side.json",
+          "src/main/resources/assets/fnaf_mod/models/block/thin_rose_curtain_side_alt.json"
+        ]
+      }
+    },
+    {
+      "name": "AdventureWitheredChica",
+      "type": "animatedentity",
+      "sortid": 1159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adventure_withered_chica",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fnaf_mod/forge/biome_modifier/adventure_withered_chica_biome_modifier.json",
+          "src/main/java/net/mcreator/fnafmod/entity/model/AdventureWitheredChicaModel.java",
+          "src/main/java/net/mcreator/fnafmod/client/renderer/AdventureWitheredChicaRenderer.java",
+          "src/main/resources/assets/fnaf_mod/models/item/adventure_withered_chica_spawn_egg.json",
+          "src/main/java/net/mcreator/fnafmod/entity/AdventureWitheredChicaEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "AdventureSpringtrap",
+      "type": "animatedentity",
+      "sortid": 1160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adventure_springtrap",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/entity/model/AdventureSpringtrapModel.java",
+          "src/main/resources/data/fnaf_mod/forge/biome_modifier/adventure_springtrap_biome_modifier.json",
+          "src/main/java/net/mcreator/fnafmod/client/renderer/AdventureSpringtrapRenderer.java",
+          "src/main/java/net/mcreator/fnafmod/entity/AdventureSpringtrapEntity.java",
+          "src/main/resources/assets/fnaf_mod/models/item/adventure_springtrap_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "AdventureNightmareFredbear",
+      "type": "animatedentity",
+      "sortid": 1161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adventure_nightmare_fredbear",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/entity/model/AdventureNightmareFredbearModel.java",
+          "src/main/resources/assets/fnaf_mod/models/item/adventure_nightmare_fredbear_spawn_egg.json",
+          "src/main/java/net/mcreator/fnafmod/client/renderer/AdventureNightmareFredbearRenderer.java",
+          "src/main/resources/data/fnaf_mod/forge/biome_modifier/adventure_nightmare_fredbear_biome_modifier.json",
+          "src/main/java/net/mcreator/fnafmod/entity/AdventureNightmareFredbearEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "BreadbearSpawn",
+      "type": "procedure",
+      "sortid": 1162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "breadbear_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fnafmod/procedures/BreadbearSpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -24100,6 +24218,7 @@
       "entity.fnaf_mod.withered_golden_freddy": "Withered Golden Freddy",
       "item.fnaf_mod.fredbear_animatronic_spawn_egg": "Fredbear Spawn Egg",
       "block.fnaf_mod.un_withered_bonnie_head": "Un-Withered Bonnie Head",
+      "block.fnaf_mod.rose_curtain": "Rose Curtain",
       "item.fnaf_mod.fredbear_spring_lock_suit_chestplate": "Fredbear Spring Lock Body",
       "subtitles.lilygeartemp": "",
       "block.fnaf_mod.toy_robot": "Toy Robot",
@@ -24354,6 +24473,7 @@
       "item.fnaf_mod.freddy": "Drone Freddy",
       "block.fnaf_mod.alternate_white_purple_wall_tiles": "Alternate White Purple Wall Tiles",
       "item.fnaf_mod.nightmare_bonnie_spawn_egg": "Nightmare Bonnie Spawn Egg",
+      "block.fnaf_mod.thin_rose_curtain": "Thin Rose Curtain",
       "entity.fnaf_mod.withered_foxy": "Withered Foxy",
       "block.fnaf_mod.wires": "Wires",
       "entity.fnaf_mod.toy_chica": "DayTime Toy Chica",
@@ -24565,6 +24685,7 @@
       "block.fnaf_mod.purple_fan": "Toy Fan",
       "block.fnaf_mod.stage_light_pink_off": "Stage Light",
       "item.fnaf_mod.toy_cupcake": "Cupcake",
+      "entity.fnaf_mod.adventure_springtrap": "Adventure Springtrap",
       "block.fnaf_mod.desk": "Desk (Cupcake)",
       "block.fnaf_mod.alternate_white_red_wall_tile": "Alternate White Red Wall Tiles",
       "entity.fnaf_mod.plushtrap_toy": "Plushtrap Toy",
@@ -24578,6 +24699,7 @@
       "item.fnaf_mod.spring_lock_suit_helmet": "Spring Lock Suit Head",
       "key.fnaf_mod.exit_camera": "Exit Camera",
       "entity.fnaf_mod.phantom_mangle": "Phantom Mangle",
+      "item.fnaf_mod.adventure_nightmare_fredbear_spawn_egg": "Adventure Nightmare Fredbear Spawn Egg",
       "item.fnaf_mod.toreador_march": "Music Disc",
       "item.fnaf_mod.toy_freddy_spawn_egg": "Toy Freddy  Spawn Egg",
       "block.fnaf_mod.checkered_white_wall_tile": "Checkered White Wall Tile",
@@ -24589,6 +24711,7 @@
       "entity.fnaf_mod.full_hostile_freddy": "Freddy Fazbear",
       "item.fnaf_mod.toy_box_spawn_egg": "Toy Box Spawn Egg",
       "block.fnaf_mod.booth_bench": "Booth Bench",
+      "item.fnaf_mod.adventure_springtrap_spawn_egg": "Adventure Springtrap Spawn Egg",
       "biome.fnaf_mod.liligear_lake": "Liligear Lake",
       "biome.fnaf_mod.dusting_fields": "Dusting Fields",
       "block.fnaf_mod.green_blue_tile_stair": "Green Blue Tile Stairs",
@@ -24635,6 +24758,7 @@
       "entity.fnaf_mod.sitting_fredbear": "Fredbear",
       "item.fnaf_mod.showtime_madame_macabre_bitemark_remix.desc": "Showtime Bitemark Remix - Original By Madame Macabre Remixed By Synoxsis",
       "subtitles.springtrapstep": "step",
+      "entity.fnaf_mod.adventure_withered_chica": "Adventure Withered Chica",
       "item.fnaf_mod.nightmare_mangle_spawn_egg": "Nightmare Mangle Spawn Egg",
       "block.fnaf_mod.stage_light_off": "Stage Light",
       "block.fnaf_mod.alternate_big_rancid_wall_tiles": "Alternate Big Rancid Wall Tiles",
@@ -24719,6 +24843,7 @@
       "item.fnaf_mod.glitchtrap_suit_leggings": "Spring Bonnie Costume Leggings",
       "entity.fnaf_mod.passive_chica": "Chica the Chicken",
       "entity.fnaf_mod.nightmare_freddy": "Nightmare Freddy",
+      "item.fnaf_mod.adventure_withered_chica_spawn_egg": "Adventure Withered Chica Spawn Egg",
       "item.fnaf_mod.statue_freddy_item": "Statue Freddy",
       "item.fnaf_mod.freddy_suit_helmet": "Freddy Head",
       "entity.fnaf_mod.phantom_chica": "Phantom Chica",
@@ -24831,6 +24956,7 @@
       "subtitles.pinwheeltemp": "",
       "block.fnaf_mod.fnaf_4_wall_bottom_hall": "Tapestry Bottom Orange",
       "item.fnaf_mod.phantom_chica_spawn_egg": "Phantom Chica Spawn Egg",
+      "entity.fnaf_mod.adventure_nightmare_fredbear": "Adventure Nightmare Fredbear",
       "block.fnaf_mod.thin_candy_curtain": "Thin Candy Curtain",
       "block.fnaf_mod.locker_top": "Locket Top",
       "item.fnaf_mod.chica_fabric": "Yellow Fabric",

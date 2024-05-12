@@ -103,6 +103,16 @@
     "spawnBastionRemnant": false,
     "spawnEndCity": false,
     "spawnRuinedPortal": "NONE",
-    "spawnEntries": []
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntityPig"
+        },
+        "minGroup": 1,
+        "maxGroup": 4,
+        "weight": 9,
+        "spawnType": "creature"
+      }
+    ]
   }
 }

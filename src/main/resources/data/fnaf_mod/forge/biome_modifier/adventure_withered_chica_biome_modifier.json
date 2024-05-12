@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "fnaf_mod:dusting_fields",
+    "fnaf_mod:choppy_woods"
+  ],
+  "spawners": {
+    "type": "fnaf_mod:adventure_withered_chica",
+    "weight": 5,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

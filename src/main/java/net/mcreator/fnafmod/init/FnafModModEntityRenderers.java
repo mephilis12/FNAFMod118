@@ -127,6 +127,9 @@ import net.mcreator.fnafmod.client.renderer.BooletProjectileRenderer;
 import net.mcreator.fnafmod.client.renderer.BonnieStandRenderer;
 import net.mcreator.fnafmod.client.renderer.BonnieBunnyRenderer;
 import net.mcreator.fnafmod.client.renderer.BBRenderer;
+import net.mcreator.fnafmod.client.renderer.AdventureWitheredChicaRenderer;
+import net.mcreator.fnafmod.client.renderer.AdventureSpringtrapRenderer;
+import net.mcreator.fnafmod.client.renderer.AdventureNightmareFredbearRenderer;
 import net.mcreator.fnafmod.client.renderer.AdventureMangleRenderer;
 import net.mcreator.fnafmod.client.renderer.AdventureLolbitRenderer;
 import net.mcreator.fnafmod.client.renderer.AdventureFreddyRenderer;
@@ -256,5 +259,8 @@ public class FnafModModEntityRenderers {
 		event.registerEntityRenderer(FnafModModEntities.ADVENTURE_LOLBIT.get(), AdventureLolbitRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.ADVENTURE_FREDDY.get(), AdventureFreddyRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.ADVENTURE_MANGLE.get(), AdventureMangleRenderer::new);
+		event.registerEntityRenderer(FnafModModEntities.ADVENTURE_WITHERED_CHICA.get(), AdventureWitheredChicaRenderer::new);
+		event.registerEntityRenderer(FnafModModEntities.ADVENTURE_SPRINGTRAP.get(), AdventureSpringtrapRenderer::new);
+		event.registerEntityRenderer(FnafModModEntities.ADVENTURE_NIGHTMARE_FREDBEAR.get(), AdventureNightmareFredbearRenderer::new);
 	}
 }
