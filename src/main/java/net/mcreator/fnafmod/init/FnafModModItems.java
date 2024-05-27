@@ -819,6 +819,12 @@ public class FnafModModItems {
 			() -> new ForgeSpawnEggItem(FnafModModEntities.ADVENTURE_SPRINGTRAP, -8686288, -6057956, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 	public static final RegistryObject<Item> ADVENTURE_NIGHTMARE_FREDBEAR_SPAWN_EGG = REGISTRY.register("adventure_nightmare_fredbear_spawn_egg",
 			() -> new ForgeSpawnEggItem(FnafModModEntities.ADVENTURE_NIGHTMARE_FREDBEAR, -8686288, -6057956, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+	public static final RegistryObject<Item> KITCHEN_DOOR = doubleBlock(FnafModModBlocks.KITCHEN_DOOR, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> BLACK_LIGHT_FREDBEAR_PLUSH = block(FnafModModBlocks.BLACK_LIGHT_FREDBEAR_PLUSH, null);
+	public static final RegistryObject<Item> TOY_FREDDY_PLUSHIE = block(FnafModModBlocks.TOY_FREDDY_PLUSHIE, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> TOY_BONNIE_PLUSHIE = block(FnafModModBlocks.TOY_BONNIE_PLUSHIE, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> TOY_FOXY_PLUSHIE = block(FnafModModBlocks.TOY_FOXY_PLUSHIE, FnafModModTabs.TAB_FNAF_BLOCKS);
+	public static final RegistryObject<Item> TOY_CHICA_PLUSHIE = block(FnafModModBlocks.TOY_CHICA_PLUSHIE, FnafModModTabs.TAB_FNAF_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

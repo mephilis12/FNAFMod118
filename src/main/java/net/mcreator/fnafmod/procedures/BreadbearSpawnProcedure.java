@@ -22,7 +22,9 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.fnafmod.init.FnafModModEntities;
 import net.mcreator.fnafmod.init.FnafModModBlocks;
+import net.mcreator.fnafmod.entity.BreadbearEntity;
 import net.mcreator.fnafmod.FnafModMod;
 
 import javax.annotation.Nullable;
@@ -45,8 +47,6 @@ public class BreadbearSpawnProcedure {
 				&& (world.getBlockState(new BlockPos(x + 1, y - 1, z))).getBlock() == Blocks.LEVER && (world.getBlockState(new BlockPos(x - 1, y - 1, z))).getBlock() == Blocks.LEVER
 				|| (world.getBlockState(new BlockPos(x, y, z))).getBlock() == FnafModModBlocks.FREDBEAR_HEAD.get() && (world.getBlockState(new BlockPos(x, y - 1, z))).getBlock() == FnafModModBlocks.GOLD_TOKEN_BLOCK.get()
 						&& (world.getBlockState(new BlockPos(x, y - 1, z + 1))).getBlock() == Blocks.LEVER && (world.getBlockState(new BlockPos(x, y - 1, z - 1))).getBlock() == Blocks.LEVER) {
-			world.setBlock(new BlockPos(x, y, z), Blocks.AIR.defaultBlockState(), 3);
-			world.setBlock(new BlockPos(x, y - 1, z), Blocks.AIR.defaultBlockState(), 3);
 			{
 				BlockPos _bp = new BlockPos(x - 1, y - 1, z);
 				BlockState _bs = Blocks.AIR.defaultBlockState();
@@ -103,6 +103,8 @@ public class BreadbearSpawnProcedure {
 				}
 				world.setBlock(_bp, _bs, 3);
 			}
+			world.setBlock(new BlockPos(x, y, z), Blocks.AIR.defaultBlockState(), 3);
+			world.setBlock(new BlockPos(x, y - 1, z), Blocks.AIR.defaultBlockState(), 3);
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
 					_level.playSound(null, new BlockPos(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("fnaf_mod:bod2intro")), SoundSource.HOSTILE, 1, 1);
@@ -112,13 +114,13 @@ public class BreadbearSpawnProcedure {
 			}
 			if (!world.isClientSide() && world.getServer() != null)
 				world.getServer().getPlayerList().broadcastSystemMessage(Component.literal("What Have you done?"), false);
-			FnafModMod.queueServerWork(360, () -> {
+			FnafModMod.queueServerWork(200, () -> {
 				if (!world.isClientSide() && world.getServer() != null)
 					world.getServer().getPlayerList().broadcastSystemMessage(Component.literal("You Know what have you Awakened?"), false);
-				FnafModMod.queueServerWork(40, () -> {
+				FnafModMod.queueServerWork(50, () -> {
 					if (world instanceof ServerLevel _level) {
 						Entity entityToSpawn = new LightningBolt(EntityType.LIGHTNING_BOLT, _level);
-						entityToSpawn.moveTo(x, y, z, 0, 0);
+						entityToSpawn.moveTo(x, (y - 1), z, 0, 0);
 						entityToSpawn.setYBodyRot(0);
 						entityToSpawn.setYHeadRot(0);
 						entityToSpawn.setDeltaMovement(0, 0, 0);
@@ -128,10 +130,10 @@ public class BreadbearSpawnProcedure {
 					}
 					if (!world.isClientSide() && world.getServer() != null)
 						world.getServer().getPlayerList().broadcastSystemMessage(Component.literal("You made a Huge Mistake.."), false);
-					FnafModMod.queueServerWork(40, () -> {
+					FnafModMod.queueServerWork(60, () -> {
 						if (world instanceof ServerLevel _level) {
 							Entity entityToSpawn = new LightningBolt(EntityType.LIGHTNING_BOLT, _level);
-							entityToSpawn.moveTo(x, y, z, 0, 0);
+							entityToSpawn.moveTo(x, (y - 1), z, 0, 0);
 							entityToSpawn.setYBodyRot(0);
 							entityToSpawn.setYHeadRot(0);
 							entityToSpawn.setDeltaMovement(0, 0, 0);
@@ -141,10 +143,10 @@ public class BreadbearSpawnProcedure {
 						}
 						if (!world.isClientSide() && world.getServer() != null)
 							world.getServer().getPlayerList().broadcastSystemMessage(Component.literal("You shall feel my wrath..."), false);
-						FnafModMod.queueServerWork(40, () -> {
+						FnafModMod.queueServerWork(60, () -> {
 							if (world instanceof ServerLevel _level) {
 								Entity entityToSpawn = new LightningBolt(EntityType.LIGHTNING_BOLT, _level);
-								entityToSpawn.moveTo(x, y, z, 0, 0);
+								entityToSpawn.moveTo(x, (y - 1), z, 0, 0);
 								entityToSpawn.setYBodyRot(0);
 								entityToSpawn.setYHeadRot(0);
 								entityToSpawn.setDeltaMovement(0, 0, 0);
@@ -170,7 +172,7 @@ public class BreadbearSpawnProcedure {
 								FnafModMod.queueServerWork(40, () -> {
 									if (world instanceof ServerLevel _level) {
 										Entity entityToSpawn = new LightningBolt(EntityType.LIGHTNING_BOLT, _level);
-										entityToSpawn.moveTo(x, y, z, 0, 0);
+										entityToSpawn.moveTo(x, (y - 1), z, 0, 0);
 										entityToSpawn.setYBodyRot(0);
 										entityToSpawn.setYHeadRot(0);
 										entityToSpawn.setDeltaMovement(0, 0, 0);
@@ -180,7 +182,19 @@ public class BreadbearSpawnProcedure {
 									}
 									FnafModMod.queueServerWork(40, () -> {
 										if (!world.isClientSide() && world.getServer() != null)
-											world.getServer().getPlayerList().broadcastSystemMessage(Component.literal("Breadbear!"), false);
+											world.getServer().getPlayerList().broadcastSystemMessage(Component.literal("Breadbear, The Devourer of Virgins!"), false);
+										if (!world.isClientSide()) {
+											if (world instanceof ServerLevel _level) {
+												Entity entityToSpawn = new BreadbearEntity(FnafModModEntities.BREADBEAR.get(), _level);
+												entityToSpawn.moveTo(x, (y - 1), z, 0, 0);
+												entityToSpawn.setYBodyRot(0);
+												entityToSpawn.setYHeadRot(0);
+												entityToSpawn.setDeltaMovement(0, 0, 0);
+												if (entityToSpawn instanceof Mob _mobToSpawn)
+													_mobToSpawn.finalizeSpawn(_level, world.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
+												world.addFreshEntity(entityToSpawn);
+											}
+										}
 									});
 								});
 							});

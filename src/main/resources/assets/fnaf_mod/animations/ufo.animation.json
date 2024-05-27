@@ -1,0 +1,110 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.ufo.walk": {
+			"loop": true,
+			"animation_length": 1.44,
+			"bones": {
+				"mini_fo": {
+					"rotation": {
+						"vector": [15, 0, 0]
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.56": {
+							"vector": [0, -2, 0],
+							"easing": "linear"
+						},
+						"1.08": {
+							"vector": [0, 2, 0],
+							"easing": "linear"
+						},
+						"1.44": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"r_eye": {
+					"position": {
+						"vector": [0, 0.5, 0]
+					}
+				},
+				"l_eye": {
+					"position": {
+						"vector": [0, 0.5, 0]
+					}
+				},
+				"ufo": {
+					"rotation": {
+						"vector": [12.5, 0, 0]
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.56": {
+							"vector": [0, -2, 0],
+							"easing": "linear"
+						},
+						"1.08": {
+							"vector": [0, 2, 0],
+							"easing": "linear"
+						},
+						"1.44": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						}
+					}
+				}
+			}
+		},
+		"animation.ufo.idle": {
+			"loop": true,
+			"animation_length": 1.44,
+			"bones": {
+				"mini_fo": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.56": {
+							"vector": [0, -2, 0],
+							"easing": "linear"
+						},
+						"1.08": {
+							"vector": [0, 2, 0],
+							"easing": "linear"
+						},
+						"1.44": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"ufo": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.56": {
+							"vector": [0, -2, 0],
+							"easing": "linear"
+						},
+						"1.08": {
+							"vector": [0, 2, 0],
+							"easing": "linear"
+						},
+						"1.44": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

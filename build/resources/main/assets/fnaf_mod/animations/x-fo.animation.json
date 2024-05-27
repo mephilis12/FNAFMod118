@@ -1,0 +1,69 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.xfo.idle": {
+			"loop": true,
+			"animation_length": 1.44,
+			"bones": {
+				"x_fo": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.56": {
+							"vector": [0, -2, 0],
+							"easing": "linear"
+						},
+						"1.08": {
+							"vector": [0, 2, 0],
+							"easing": "linear"
+						},
+						"1.44": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						}
+					}
+				}
+			}
+		},
+		"animation.xfo.walk": {
+			"loop": true,
+			"animation_length": 1.44,
+			"bones": {
+				"x_fo": {
+					"rotation": {
+						"vector": [12.5, 0, 0]
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.56": {
+							"vector": [0, -2, 0],
+							"easing": "linear"
+						},
+						"1.08": {
+							"vector": [0, 2, 0],
+							"easing": "linear"
+						},
+						"1.44": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"LeftEye": {
+					"position": {
+						"vector": [0, 0.25, 0]
+					}
+				},
+				"RightEye": {
+					"position": {
+						"vector": [0, 0.25, 0]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

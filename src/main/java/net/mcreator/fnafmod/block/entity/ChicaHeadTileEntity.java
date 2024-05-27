@@ -59,13 +59,15 @@ public class ChicaHeadTileEntity extends RandomizableContainerBlockEntity implem
 
 	private <E extends BlockEntity & IAnimatable> PlayState procedurePredicate(AnimationEvent<E> event) {
 		String animationprocedure = ("" + ((this.getBlockState()).getBlock().getStateDefinition().getProperty("animation") instanceof IntegerProperty _getip1 ? (this.getBlockState()).getValue(_getip1) : 0));
-		if (!(animationprocedure.equals("0")) && event.getController().getAnimationState().equals(software.bernie.geckolib3.core.AnimationState.Stopped)) {
+		if (!animationprocedure.equals("0") && event.getController().getAnimationState().equals(software.bernie.geckolib3.core.AnimationState.Stopped)) {
 			event.getController().setAnimation(new AnimationBuilder().addAnimation(animationprocedure, EDefaultLoopTypes.PLAY_ONCE));
 			if (event.getController().getAnimationState().equals(software.bernie.geckolib3.core.AnimationState.Stopped)) {
 				if (this.getBlockState().getBlock().getStateDefinition().getProperty("animation") instanceof IntegerProperty _integerProp)
 					level.setBlock(this.getBlockPos(), this.getBlockState().setValue(_integerProp, 0), 3);
 				event.getController().markNeedsReload();
 			}
+		} else if (animationprocedure.equals("0")) {
+			return PlayState.STOP;
 		}
 		return PlayState.CONTINUE;
 	}

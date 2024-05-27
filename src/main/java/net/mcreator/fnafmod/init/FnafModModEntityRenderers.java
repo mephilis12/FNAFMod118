@@ -123,6 +123,7 @@ import net.mcreator.fnafmod.client.renderer.CrawlingSpringtrapRenderer;
 import net.mcreator.fnafmod.client.renderer.CrawlingMangleRenderer;
 import net.mcreator.fnafmod.client.renderer.ChicaChickenRenderer;
 import net.mcreator.fnafmod.client.renderer.CameraRenderer;
+import net.mcreator.fnafmod.client.renderer.BreadbearRenderer;
 import net.mcreator.fnafmod.client.renderer.BooletProjectileRenderer;
 import net.mcreator.fnafmod.client.renderer.BonnieStandRenderer;
 import net.mcreator.fnafmod.client.renderer.BonnieBunnyRenderer;
@@ -262,5 +263,6 @@ public class FnafModModEntityRenderers {
 		event.registerEntityRenderer(FnafModModEntities.ADVENTURE_WITHERED_CHICA.get(), AdventureWitheredChicaRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.ADVENTURE_SPRINGTRAP.get(), AdventureSpringtrapRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.ADVENTURE_NIGHTMARE_FREDBEAR.get(), AdventureNightmareFredbearRenderer::new);
+		event.registerEntityRenderer(FnafModModEntities.BREADBEAR.get(), BreadbearRenderer::new);
 	}
 }

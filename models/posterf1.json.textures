@@ -23,6 +23,60 @@
         "0": "poster_visitnebraska"
       },
       "name": "nebraska"
+    },
+    "fb1": {
+      "map": {
+        "0": "poster2"
+      },
+      "name": "fb1"
+    },
+    "fb2": {
+      "map": {
+        "0": "poster3"
+      },
+      "name": "fb2"
+    },
+    "sb": {
+      "map": {
+        "0": "poster1"
+      },
+      "name": "sb"
+    },
+    "m1": {
+      "map": {
+        "0": "poster_freddyfazbearspizza"
+      },
+      "name": "m1"
+    },
+    "m2": {
+      "map": {
+        "0": "poster_leaningtowerofpizzzaaa"
+      },
+      "name": "m2"
+    },
+    "m3": {
+      "map": {
+        "0": "poster_ihaveasandinmyhare"
+      },
+      "name": "m3"
+    },
+    "m4": {
+      "map": {
+        "0": "poster_smileforthecamera"
+      },
+      "name": "m4"
+    },
+    "m5": {
+      "map": {
+        "0": "poster_foxysavesthekingdom"
+      },
+      "name": "m5"
+    },
+    "bl": {
+      "map": {
+        "0": "dark"
+      },
+      "name": "bl"
     }
   }
 }

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "toy_freddy_plushie"
+      },
+      "name": "default"
+    }
+  }
+}

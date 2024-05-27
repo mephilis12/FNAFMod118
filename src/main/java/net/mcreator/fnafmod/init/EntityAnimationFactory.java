@@ -103,6 +103,7 @@ import net.mcreator.fnafmod.entity.CrawlingToyBonnieEntity;
 import net.mcreator.fnafmod.entity.CrawlingSpringtrapEntity;
 import net.mcreator.fnafmod.entity.CrawlingMangleEntity;
 import net.mcreator.fnafmod.entity.ChicaChickenEntity;
+import net.mcreator.fnafmod.entity.BreadbearEntity;
 import net.mcreator.fnafmod.entity.BonnieBunnyEntity;
 import net.mcreator.fnafmod.entity.BBEntity;
 import net.mcreator.fnafmod.entity.AdventureWitheredChicaEntity;
@@ -860,6 +861,13 @@ public class EntityAnimationFactory {
 				}
 			}
 			if (event.getEntity() instanceof AdventureNightmareFredbearEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof BreadbearEntity syncable) {
 				String animation = syncable.getSyncedAnimation();
 				if (!animation.equals("undefined")) {
 					syncable.setAnimation("undefined");

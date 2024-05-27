@@ -130,6 +130,7 @@ import net.mcreator.fnafmod.entity.CrawlingSpringtrapEntity;
 import net.mcreator.fnafmod.entity.CrawlingMangleEntity;
 import net.mcreator.fnafmod.entity.ChicaChickenEntity;
 import net.mcreator.fnafmod.entity.CameraEntity;
+import net.mcreator.fnafmod.entity.BreadbearEntity;
 import net.mcreator.fnafmod.entity.BooletProjectileEntity;
 import net.mcreator.fnafmod.entity.BonnieStandEntity;
 import net.mcreator.fnafmod.entity.BonnieBunnyEntity;
@@ -633,6 +634,8 @@ public class FnafModModEntities {
 					.setCustomClientFactory(AdventureNightmareFredbearEntity::new)
 
 					.sized(0.6f, 0.9f));
+	public static final RegistryObject<EntityType<BreadbearEntity>> BREADBEAR = register("breadbear", EntityType.Builder.<BreadbearEntity>of(BreadbearEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+			.setUpdateInterval(3).setCustomClientFactory(BreadbearEntity::new).fireImmune().sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -764,6 +767,7 @@ public class FnafModModEntities {
 			AdventureWitheredChicaEntity.init();
 			AdventureSpringtrapEntity.init();
 			AdventureNightmareFredbearEntity.init();
+			BreadbearEntity.init();
 		});
 	}
 
@@ -892,5 +896,6 @@ public class FnafModModEntities {
 		event.put(ADVENTURE_WITHERED_CHICA.get(), AdventureWitheredChicaEntity.createAttributes().build());
 		event.put(ADVENTURE_SPRINGTRAP.get(), AdventureSpringtrapEntity.createAttributes().build());
 		event.put(ADVENTURE_NIGHTMARE_FREDBEAR.get(), AdventureNightmareFredbearEntity.createAttributes().build());
+		event.put(BREADBEAR.get(), BreadbearEntity.createAttributes().build());
 	}
 }

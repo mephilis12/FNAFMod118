@@ -537,5 +537,14 @@
         "stream": false
       }
     ]
+  },
+  "breadhurt": {
+    "subtitle": "subtitles.breadhurt",
+    "sounds": [
+      {
+        "name": "fnaf_mod:ramogus_hurt",
+        "stream": false
+      }
+    ]
   }
 }

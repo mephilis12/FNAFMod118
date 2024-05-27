@@ -70,4 +70,5 @@ public class FnafModModSounds {
 	public static final RegistryObject<SoundEvent> BLACKTOMBYARDTEMP = REGISTRY.register("blacktombyardtemp", () -> new SoundEvent(new ResourceLocation("fnaf_mod", "blacktombyardtemp")));
 	public static final RegistryObject<SoundEvent> EIGHTBITTRAVELTWOO = REGISTRY.register("eightbittraveltwoo", () -> new SoundEvent(new ResourceLocation("fnaf_mod", "eightbittraveltwoo")));
 	public static final RegistryObject<SoundEvent> OHNO = REGISTRY.register("ohno", () -> new SoundEvent(new ResourceLocation("fnaf_mod", "ohno")));
+	public static final RegistryObject<SoundEvent> BREADHURT = REGISTRY.register("breadhurt", () -> new SoundEvent(new ResourceLocation("fnaf_mod", "breadhurt")));
 }

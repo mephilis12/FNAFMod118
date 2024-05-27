@@ -1,0 +1,98 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.medpod2.walk": {
+			"loop": true,
+			"animation_length": 1.44,
+			"bones": {
+				"bone": {
+					"rotation": {
+						"vector": [12.5, 0, 0]
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.56": {
+							"vector": [0, -2, 0],
+							"easing": "linear"
+						},
+						"1.08": {
+							"vector": [0, 2, 0],
+							"easing": "linear"
+						},
+						"1.44": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"eye_l": {
+					"position": {
+						"vector": [0, 0.5, 0]
+					}
+				},
+				"eye_r": {
+					"position": {
+						"vector": [0, 0.5, 0]
+					}
+				},
+				"r_eye": {
+					"position": {
+						"vector": [0, 0.5, 0]
+					}
+				},
+				"l_eye": {
+					"position": {
+						"vector": [0, 0.5, 0]
+					}
+				}
+			}
+		},
+		"animation.medpod2.idle": {
+			"loop": true,
+			"animation_length": 1.44,
+			"bones": {
+				"medpod1": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.56": {
+							"vector": [0, -2, 0],
+							"easing": "linear"
+						},
+						"1.08": {
+							"vector": [0, 2, 0],
+							"easing": "linear"
+						},
+						"1.44": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"bone": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.56": {
+							"vector": [0, -2, 0],
+							"easing": "linear"
+						},
+						"1.08": {
+							"vector": [0, 2, 0],
+							"easing": "linear"
+						},
+						"1.44": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

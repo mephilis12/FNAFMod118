@@ -6,11 +6,17 @@
       },
       "name": "default"
     },
-    "blacklight": {
+    "blacklightfoxy": {
       "map": {
         "2": "blacklight_foxy_plushie"
       },
-      "name": "blacklight"
+      "name": "blacklightfoxy"
+    },
+    "toyfoxy": {
+      "map": {
+        "2": "toy_foxy_plushie"
+      },
+      "name": "toyfoxy"
     }
   }
 }
