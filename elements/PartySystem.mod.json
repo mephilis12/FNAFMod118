@@ -1,0 +1,148 @@
+{
+  "_fv": 57,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 122,
+    "height": 66,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_adventure_withered_chica_icon",
+          "image": "adventure_withered_chica_icon.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "WChicaSelect"
+          },
+          "displayCondition": {
+            "name": "AWChiGui"
+          },
+          "x": 186,
+          "y": 103
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_adventure_freddy_icon",
+          "image": "adventure__freddy_icon.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "FreddySelect"
+          },
+          "displayCondition": {
+            "name": "AFredGui"
+          },
+          "x": 168,
+          "y": 103
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_adventure_mangle_icon",
+          "image": "adventure__mangle_icon.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "MangleSelect"
+          },
+          "displayCondition": {
+            "name": "AMangGUI"
+          },
+          "x": 204,
+          "y": 103
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_adventure_springtrap_icon",
+          "image": "adventure__springtrap_icon.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "SpringtrapSelect"
+          },
+          "displayCondition": {
+            "name": "ASprGui"
+          },
+          "x": 222,
+          "y": 103
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_adventure_fredbear_icon",
+          "image": "adventure__fredbear_icon.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "FredbearSelect"
+          },
+          "displayCondition": {
+            "name": "AFredbGui"
+          },
+          "x": 240,
+          "y": 103
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_select_a_party_member",
+          "text": {
+            "fixedValue": "Select a party member!"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 157,
+          "y": 91
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_reset",
+          "text": "Reset",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ResetButtonAction"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 157,
+          "y": 129
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_party_list",
+          "text": {
+            "fixedValue": "",
+            "name": "PartyList"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 219,
+          "y": 134
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 22,
+      "oy": 14,
+      "snapOnGrid": false
+    }
+  }
+}

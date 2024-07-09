@@ -24,6 +24,11 @@ import net.mcreator.fnafmod.client.renderer.ToyChicaRenderer;
 import net.mcreator.fnafmod.client.renderer.ToyBoxRenderer;
 import net.mcreator.fnafmod.client.renderer.ToyBonnieRenderer;
 import net.mcreator.fnafmod.client.renderer.TheCrooblerRenderer;
+import net.mcreator.fnafmod.client.renderer.TameableSpringtrapRenderer;
+import net.mcreator.fnafmod.client.renderer.TameableMangleRenderer;
+import net.mcreator.fnafmod.client.renderer.TameableFredbearRenderer;
+import net.mcreator.fnafmod.client.renderer.TameableChicaRenderer;
+import net.mcreator.fnafmod.client.renderer.TameableAdventureFreddyRenderer;
 import net.mcreator.fnafmod.client.renderer.StatueFreddyRenderer;
 import net.mcreator.fnafmod.client.renderer.StatueFoxyRenderer;
 import net.mcreator.fnafmod.client.renderer.StatueChicaRenderer;
@@ -45,6 +50,7 @@ import net.mcreator.fnafmod.client.renderer.SitEntityRenderer;
 import net.mcreator.fnafmod.client.renderer.ShadowFreddyStandingRenderer;
 import net.mcreator.fnafmod.client.renderer.ShadowFreddyRenderer;
 import net.mcreator.fnafmod.client.renderer.ShadowBonnieRenderer;
+import net.mcreator.fnafmod.client.renderer.SecretNightmareFredbearRenderer;
 import net.mcreator.fnafmod.client.renderer.PuppetRenderer;
 import net.mcreator.fnafmod.client.renderer.PlushtrapToyRenderer;
 import net.mcreator.fnafmod.client.renderer.PlushtrapRenderer;
@@ -264,5 +270,11 @@ public class FnafModModEntityRenderers {
 		event.registerEntityRenderer(FnafModModEntities.ADVENTURE_SPRINGTRAP.get(), AdventureSpringtrapRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.ADVENTURE_NIGHTMARE_FREDBEAR.get(), AdventureNightmareFredbearRenderer::new);
 		event.registerEntityRenderer(FnafModModEntities.BREADBEAR.get(), BreadbearRenderer::new);
+		event.registerEntityRenderer(FnafModModEntities.SECRET_NIGHTMARE_FREDBEAR.get(), SecretNightmareFredbearRenderer::new);
+		event.registerEntityRenderer(FnafModModEntities.TAMEABLE_ADVENTURE_FREDDY.get(), TameableAdventureFreddyRenderer::new);
+		event.registerEntityRenderer(FnafModModEntities.TAMEABLE_MANGLE.get(), TameableMangleRenderer::new);
+		event.registerEntityRenderer(FnafModModEntities.TAMEABLE_CHICA.get(), TameableChicaRenderer::new);
+		event.registerEntityRenderer(FnafModModEntities.TAMEABLE_SPRINGTRAP.get(), TameableSpringtrapRenderer::new);
+		event.registerEntityRenderer(FnafModModEntities.TAMEABLE_FREDBEAR.get(), TameableFredbearRenderer::new);
 	}
 }

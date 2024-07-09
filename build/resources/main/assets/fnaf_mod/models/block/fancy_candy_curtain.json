@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fnaf_mod:blocks/starless_candy_curtain",
+    "up": "fnaf_mod:blocks/starless_candy_curtain",
+    "north": "fnaf_mod:blocks/ffps_curtain",
+    "east": "fnaf_mod:blocks/ffps_curtain",
+    "south": "fnaf_mod:blocks/ffps_curtain",
+    "west": "fnaf_mod:blocks/ffps_curtain",
+    "particle": "fnaf_mod:blocks/starless_candy_curtain"
+  },
+  "render_type": "solid"
+}

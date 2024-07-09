@@ -15,6 +15,8 @@ import net.mcreator.fnafmod.world.inventory.WallChange2Menu;
 import net.mcreator.fnafmod.world.inventory.WallChange1Menu;
 import net.mcreator.fnafmod.world.inventory.SodaMachineMenu;
 import net.mcreator.fnafmod.world.inventory.RemnantInfuserMenu;
+import net.mcreator.fnafmod.world.inventory.PartySystemMenu;
+import net.mcreator.fnafmod.world.inventory.LolbitShopMenu;
 import net.mcreator.fnafmod.world.inventory.LockerMenu;
 import net.mcreator.fnafmod.world.inventory.JumpscareMenu;
 import net.mcreator.fnafmod.world.inventory.CameraGUIMenu;
@@ -29,4 +31,6 @@ public class FnafModModMenus {
 	public static final RegistryObject<MenuType<CameraGUIMenu>> CAMERA_GUI = REGISTRY.register("camera_gui", () -> IForgeMenuType.create(CameraGUIMenu::new));
 	public static final RegistryObject<MenuType<SodaMachineMenu>> SODA_MACHINE = REGISTRY.register("soda_machine", () -> IForgeMenuType.create(SodaMachineMenu::new));
 	public static final RegistryObject<MenuType<JumpscareMenu>> JUMPSCARE = REGISTRY.register("jumpscare", () -> IForgeMenuType.create(JumpscareMenu::new));
+	public static final RegistryObject<MenuType<PartySystemMenu>> PARTY_SYSTEM = REGISTRY.register("party_system", () -> IForgeMenuType.create(PartySystemMenu::new));
+	public static final RegistryObject<MenuType<LolbitShopMenu>> LOLBIT_SHOP = REGISTRY.register("lolbit_shop", () -> IForgeMenuType.create(LolbitShopMenu::new));
 }

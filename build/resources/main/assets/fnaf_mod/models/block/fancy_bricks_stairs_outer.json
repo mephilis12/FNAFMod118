@@ -1,0 +1,10 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "particle": "fnaf_mod:blocks/interiorbricks",
+    "bottom": "fnaf_mod:blocks/interiorbricks",
+    "top": "fnaf_mod:blocks/interiorbricks",
+    "side": "fnaf_mod:blocks/interiorbricks"
+  },
+  "render_type": "solid"
+}

@@ -13,6 +13,8 @@ import net.mcreator.fnafmod.block.renderer.UnWitheredFoxyHeadTileRenderer;
 import net.mcreator.fnafmod.block.renderer.UnWitheredChicaHeadTileRenderer;
 import net.mcreator.fnafmod.block.renderer.UnWitheredBonnieHeadTileRenderer;
 import net.mcreator.fnafmod.block.renderer.TrashCanTileRenderer;
+import net.mcreator.fnafmod.block.renderer.ToyFreddySignOnTileRenderer;
+import net.mcreator.fnafmod.block.renderer.ToyFreddySignOffTileRenderer;
 import net.mcreator.fnafmod.block.renderer.StageLightRedOnTileRenderer;
 import net.mcreator.fnafmod.block.renderer.StageLightRedOffTileRenderer;
 import net.mcreator.fnafmod.block.renderer.StageLightPinkOnTileRenderer;
@@ -22,18 +24,25 @@ import net.mcreator.fnafmod.block.renderer.StageLightOrangeOffTileRenderer;
 import net.mcreator.fnafmod.block.renderer.StageLightOnTileRenderer;
 import net.mcreator.fnafmod.block.renderer.StageLightOffTileRenderer;
 import net.mcreator.fnafmod.block.renderer.SpringBonnieHeadTileRenderer;
+import net.mcreator.fnafmod.block.renderer.SpringBonnieDecorTileRenderer;
 import net.mcreator.fnafmod.block.renderer.ShelfTileRenderer;
+import net.mcreator.fnafmod.block.renderer.RetroFreddySignTileRenderer;
+import net.mcreator.fnafmod.block.renderer.RetroFreddySignOnTileRenderer;
 import net.mcreator.fnafmod.block.renderer.MeshTrashCanTileRenderer;
 import net.mcreator.fnafmod.block.renderer.FreddySignOnTileRenderer;
 import net.mcreator.fnafmod.block.renderer.FreddySignOffTileRenderer;
 import net.mcreator.fnafmod.block.renderer.FreddyHeadTileRenderer;
+import net.mcreator.fnafmod.block.renderer.FredbearSignTileRenderer;
 import net.mcreator.fnafmod.block.renderer.FredbearHeadTileRenderer;
 import net.mcreator.fnafmod.block.renderer.FoxyHeadTileRenderer;
 import net.mcreator.fnafmod.block.renderer.FoxyHeadDecorationTileRenderer;
 import net.mcreator.fnafmod.block.renderer.EndoBlockTileRenderer;
 import net.mcreator.fnafmod.block.renderer.ChicaHeadTileRenderer;
 import net.mcreator.fnafmod.block.renderer.ChicaHeadDecorationTileRenderer;
+import net.mcreator.fnafmod.block.renderer.CenteredFreddySignTileRenderer;
+import net.mcreator.fnafmod.block.renderer.CenteredFreddySignOnTileRenderer;
 import net.mcreator.fnafmod.block.renderer.BonnieHeadTileRenderer;
+import net.mcreator.fnafmod.block.renderer.BephDollTileRenderer;
 import net.mcreator.fnafmod.FnafModMod;
 
 @Mod.EventBusSubscriber(modid = FnafModMod.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -68,5 +77,14 @@ public class ClientListener {
 		event.registerBlockEntityRenderer(FnafModModBlockEntities.FREDDY_SIGN_OFF.get(), FreddySignOffTileRenderer::new);
 		event.registerBlockEntityRenderer(FnafModModBlockEntities.FREDDY_SIGN_ON.get(), FreddySignOnTileRenderer::new);
 		event.registerBlockEntityRenderer(FnafModModBlockEntities.VASS_DOLL.get(), VassDollTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafModModBlockEntities.CENTERED_FREDDY_SIGN.get(), CenteredFreddySignTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafModModBlockEntities.CENTERED_FREDDY_SIGN_ON.get(), CenteredFreddySignOnTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafModModBlockEntities.BEPH_DOLL.get(), BephDollTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafModModBlockEntities.TOY_FREDDY_SIGN_OFF.get(), ToyFreddySignOffTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafModModBlockEntities.TOY_FREDDY_SIGN_ON.get(), ToyFreddySignOnTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafModModBlockEntities.RETRO_FREDDY_SIGN.get(), RetroFreddySignTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafModModBlockEntities.RETRO_FREDDY_SIGN_ON.get(), RetroFreddySignOnTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafModModBlockEntities.SPRING_BONNIE_DECOR.get(), SpringBonnieDecorTileRenderer::new);
+		event.registerBlockEntityRenderer(FnafModModBlockEntities.FREDBEAR_SIGN.get(), FredbearSignTileRenderer::new);
 	}
 }

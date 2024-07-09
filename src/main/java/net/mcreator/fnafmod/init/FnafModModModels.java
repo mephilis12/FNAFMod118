@@ -12,6 +12,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.mcreator.fnafmod.client.model.Modeltoybox;
 import net.mcreator.fnafmod.client.model.Modeloffice_chair_dark;
 import net.mcreator.fnafmod.client.model.Modelnightmarionne_statue;
+import net.mcreator.fnafmod.client.model.Modelfredbearstand;
 import net.mcreator.fnafmod.client.model.Modelcamera_hanging_Converted;
 import net.mcreator.fnafmod.client.model.Modelcamera;
 import net.mcreator.fnafmod.client.model.Modelbullet;
@@ -47,6 +48,7 @@ import net.mcreator.fnafmod.client.model.ModelBonnieMask;
 public class FnafModModModels {
 	@SubscribeEvent
 	public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
+		event.registerLayerDefinition(Modelfredbearstand.LAYER_LOCATION, Modelfredbearstand::createBodyLayer);
 		event.registerLayerDefinition(ModelFredbearMask.LAYER_LOCATION, ModelFredbearMask::createBodyLayer);
 		event.registerLayerDefinition(ModelBonnieStand.LAYER_LOCATION, ModelBonnieStand::createBodyLayer);
 		event.registerLayerDefinition(ModelGlitchtrap_Mask.LAYER_LOCATION, ModelGlitchtrap_Mask::createBodyLayer);

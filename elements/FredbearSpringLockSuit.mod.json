@@ -7,9 +7,9 @@
     "enableBody": true,
     "textureBody": "fb_torso",
     "enableLeggings": true,
-    "textureLeggings": "sb_pants",
+    "textureLeggings": "fb_pants",
     "enableBoots": true,
-    "textureBoots": "sb_boots",
+    "textureBoots": "fb_boots",
     "onHelmetTick": {
       "name": "Springlocked"
     },
@@ -70,6 +70,18 @@
     "bodyImmuneToFire": false,
     "leggingsImmuneToFire": false,
     "bootsImmuneToFire": false,
+    "helmetPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bodyPiglinNeutral": {
+      "fixedValue": false
+    },
+    "leggingsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bootsPiglinNeutral": {
+      "fixedValue": false
+    },
     "maxDamage": 0,
     "damageValueHelmet": 0,
     "damageValueBody": 0,

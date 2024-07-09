@@ -3,7 +3,7 @@
   "textures": {
     "all": "fnaf_mod:blocks/partyhatpurple",
     "particle": "fnaf_mod:blocks/partyhatpurple",
-    "3": "fnaf_mod:blocks/partyhatpurple"
+    "0": "fnaf_mod:blocks/partyhatpurple"
   },
   "render_type": "cutout"
 }

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fnaf_mod:blocks/darkaquatiles",
+    "up": "fnaf_mod:blocks/darkaquatiles",
+    "north": "fnaf_mod:blocks/darkaquatiles",
+    "east": "fnaf_mod:blocks/darkaquatiles",
+    "south": "fnaf_mod:blocks/darkaquatiles",
+    "west": "fnaf_mod:blocks/darkaquatiles",
+    "particle": "fnaf_mod:blocks/darkaquatiles"
+  },
+  "render_type": "solid"
+}

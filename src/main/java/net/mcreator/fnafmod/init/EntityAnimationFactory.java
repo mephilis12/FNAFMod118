@@ -17,6 +17,11 @@ import net.mcreator.fnafmod.entity.ToyFreddyEntity;
 import net.mcreator.fnafmod.entity.ToyFoxyEntity;
 import net.mcreator.fnafmod.entity.ToyChicaEntity;
 import net.mcreator.fnafmod.entity.ToyBonnieEntity;
+import net.mcreator.fnafmod.entity.TameableSpringtrapEntity;
+import net.mcreator.fnafmod.entity.TameableMangleEntity;
+import net.mcreator.fnafmod.entity.TameableFredbearEntity;
+import net.mcreator.fnafmod.entity.TameableChicaEntity;
+import net.mcreator.fnafmod.entity.TameableAdventureFreddyEntity;
 import net.mcreator.fnafmod.entity.StatueFreddyEntity;
 import net.mcreator.fnafmod.entity.StatueFoxyEntity;
 import net.mcreator.fnafmod.entity.StatueChicaEntity;
@@ -34,6 +39,7 @@ import net.mcreator.fnafmod.entity.SittingDaytimeSpringtrapEntity;
 import net.mcreator.fnafmod.entity.ShadowFreddyStandingEntity;
 import net.mcreator.fnafmod.entity.ShadowFreddyEntity;
 import net.mcreator.fnafmod.entity.ShadowBonnieEntity;
+import net.mcreator.fnafmod.entity.SecretNightmareFredbearEntity;
 import net.mcreator.fnafmod.entity.PuppetEntity;
 import net.mcreator.fnafmod.entity.PlushtrapEntity;
 import net.mcreator.fnafmod.entity.PhantomPuppetEntity;
@@ -868,6 +874,48 @@ public class EntityAnimationFactory {
 				}
 			}
 			if (event.getEntity() instanceof BreadbearEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof SecretNightmareFredbearEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof TameableAdventureFreddyEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof TameableMangleEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof TameableChicaEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof TameableSpringtrapEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof TameableFredbearEntity syncable) {
 				String animation = syncable.getSyncedAnimation();
 				if (!animation.equals("undefined")) {
 					syncable.setAnimation("undefined");

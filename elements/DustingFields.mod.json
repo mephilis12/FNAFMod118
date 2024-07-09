@@ -21,7 +21,7 @@
       "falpha": 0.0
     },
     "ambientSound": {
-      "value": "CUSTOM:icebiometemp"
+      "value": "CUSTOM:ice_cave"
     },
     "additionsSound": {
       "value": ""

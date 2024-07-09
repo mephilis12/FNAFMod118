@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "fnaf_mod:blocks/darkaquatiles",
+    "bottom": "fnaf_mod:blocks/darkaquatiles",
+    "top": "fnaf_mod:blocks/darkaquatiles",
+    "side": "fnaf_mod:blocks/darkaquatiles"
+  },
+  "render_type": "solid"
+}

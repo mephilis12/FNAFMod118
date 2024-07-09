@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fnaf_mod:blocks/interiorbricks",
+    "up": "fnaf_mod:blocks/interiorbricks",
+    "north": "fnaf_mod:blocks/interiorbricks",
+    "east": "fnaf_mod:blocks/interiorbricks",
+    "south": "fnaf_mod:blocks/interiorbricks",
+    "west": "fnaf_mod:blocks/interiorbricks",
+    "particle": "fnaf_mod:blocks/interiorbricks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "fnaf_mod:pinwheel_circus",
+  "features": "fnaf_mod:glitch_tree",
+  "step": "surface_structures"
+}

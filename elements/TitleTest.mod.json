@@ -1,0 +1,31 @@
+{
+  "_fv": 57,
+  "_type": "overlay",
+  "definition": {
+    "priority": "HIGH",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "e.png",
+          "use1Xscale": true,
+          "anchorPoint": "CENTER",
+          "x": 312,
+          "y": 8
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "MainMenu",
+    "displayCondition": {
+      "name": "TitleTestDisplayOverlayIngame"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

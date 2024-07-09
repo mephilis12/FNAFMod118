@@ -1,0 +1,50 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.fredbearsign",
+				"texture_width": 256,
+				"texture_height": 256,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bb_main2",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-9, 18, 3], "size": [35, 20, 1], "uv": [0, 42]},
+						{"origin": [-11, 18, 5], "size": [39, 18, 1], "uv": [0, 23]},
+						{"origin": [-9, 36, 5], "size": [35, 3, 1], "uv": [0, 63]},
+						{"origin": [-7, 39, 5], "size": [31, 3, 1], "uv": [66, 67]},
+						{"origin": [-13, 18, 2], "size": [2, 19, 4], "uv": [0, 73], "mirror": true},
+						{"origin": [28, 18, 2], "size": [2, 19, 4], "uv": [0, 73]},
+						{"origin": [-11, 36, 2], "size": [2, 4, 4], "uv": [72, 58]},
+						{"origin": [-9, 39, 2], "size": [2, 4, 4], "uv": [72, 58]},
+						{"origin": [-7, 42, 2], "size": [31, 2, 4], "uv": [0, 67]},
+						{"origin": [24, 39, 2], "size": [2, 4, 4], "uv": [72, 58]},
+						{"origin": [26, 36, 2], "size": [2, 4, 4], "uv": [72, 58]}
+					]
+				},
+				{
+					"name": "bb_main",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-24, 2, 1], "size": [64, 16, 7], "uv": [0, 0]},
+						{"origin": [-1, 0, 1], "size": [18, 2, 7], "uv": [63, 71]}
+					]
+				},
+				{
+					"name": "bone",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [30, 18, 2], "size": [10, 4, 4], "uv": [72, 50]},
+						{"origin": [-24, 18, 2], "size": [11, 4, 4], "uv": [72, 42]}
+					]
+				}
+			]
+		}
+	]
+}

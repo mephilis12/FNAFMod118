@@ -1,0 +1,8 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "fnaf_mod:blocks/darkaquatiles",
+    "particle": "fnaf_mod:blocks/darkaquatiles"
+  },
+  "render_type": "solid"
+}

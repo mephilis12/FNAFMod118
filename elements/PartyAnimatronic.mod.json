@@ -1,0 +1,31 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Entities",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [
+      {
+        "value": "CUSTOM:TameableAdventureFreddy"
+      },
+      {
+        "value": "CUSTOM:TameableChica"
+      },
+      {
+        "value": "CUSTOM:TameableFredbear"
+      },
+      {
+        "value": "CUSTOM:TameableMangle"
+      },
+      {
+        "value": "CUSTOM:TameableSpringtrap"
+      }
+    ],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "party_animatronic",
+    "namespace": "minecraft"
+  }
+}

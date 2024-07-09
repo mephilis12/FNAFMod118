@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fnaf_mod:blocks/glitched_azalea_leaves",
+    "up": "fnaf_mod:blocks/glitched_azalea_leaves",
+    "north": "fnaf_mod:blocks/glitched_azalea_leaves",
+    "east": "fnaf_mod:blocks/glitched_azalea_leaves",
+    "south": "fnaf_mod:blocks/glitched_azalea_leaves",
+    "west": "fnaf_mod:blocks/glitched_azalea_leaves",
+    "particle": "fnaf_mod:blocks/glitched_azalea_leaves"
+  },
+  "render_type": "cutout"
+}

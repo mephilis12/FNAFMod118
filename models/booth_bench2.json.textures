@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "booth_bench"
+        "2": "booth_bench"
       },
       "name": "default"
     }

@@ -24,12 +24,21 @@
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": 4.0,
+        "mx": 3.0,
         "my": 0.0,
         "mz": 11.0,
-        "Mx": 12.0,
-        "My": 15.0,
+        "Mx": 14.0,
+        "My": 11.0,
         "Mz": 16.0,
+        "subtract": false
+      },
+      {
+        "mx": 5.0,
+        "my": 1.0,
+        "mz": 9.0,
+        "Mx": 12.0,
+        "My": 14.0,
+        "Mz": 11.0,
         "subtract": false
       }
     ],
@@ -42,7 +51,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:FNAFBlocks"
+      "value": "CUSTOM:DecorativeBlocks"
     },
     "destroyTool": "Not specified",
     "customDrop": {

@@ -19,11 +19,11 @@
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -8686288,
+      "value": -2259419,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -6057956,
+      "value": -3407668,
       "falpha": 0.0
     },
     "creativeTab": {
@@ -33,7 +33,7 @@
     "bossBarColor": "PINK",
     "bossBarType": "PROGRESS",
     "equipmentMainHand": {
-      "value": ""
+      "value": "CUSTOM:AdvNightmareFredbear"
     },
     "equipmentOffHand": {
       "value": ""

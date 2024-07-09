@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fnaf_mod:block/fancy_bricks_slab"
+    },
+    "type=top": {
+      "model": "fnaf_mod:block/fancy_bricks_slab_top"
+    },
+    "type=double": {
+      "model": "fnaf_mod:block/fancy_bricks_slab_full"
+    }
+  }
+}

@@ -18,6 +18,8 @@ import net.mcreator.fnafmod.block.entity.UnWitheredFoxyHeadTileEntity;
 import net.mcreator.fnafmod.block.entity.UnWitheredChicaHeadTileEntity;
 import net.mcreator.fnafmod.block.entity.UnWitheredBonnieHeadTileEntity;
 import net.mcreator.fnafmod.block.entity.TrashCanTileEntity;
+import net.mcreator.fnafmod.block.entity.ToyFreddySignOnTileEntity;
+import net.mcreator.fnafmod.block.entity.ToyFreddySignOffTileEntity;
 import net.mcreator.fnafmod.block.entity.StageLightRedOnTileEntity;
 import net.mcreator.fnafmod.block.entity.StageLightRedOffTileEntity;
 import net.mcreator.fnafmod.block.entity.StageLightPinkOnTileEntity;
@@ -27,7 +29,12 @@ import net.mcreator.fnafmod.block.entity.StageLightOrangeOffTileEntity;
 import net.mcreator.fnafmod.block.entity.StageLightOnTileEntity;
 import net.mcreator.fnafmod.block.entity.StageLightOffTileEntity;
 import net.mcreator.fnafmod.block.entity.SpringBonnieHeadTileEntity;
+import net.mcreator.fnafmod.block.entity.SpringBonnieDecorTileEntity;
+import net.mcreator.fnafmod.block.entity.SilverLockerTopBlockEntity;
+import net.mcreator.fnafmod.block.entity.SilverLockerBottomBlockEntity;
 import net.mcreator.fnafmod.block.entity.ShelfTileEntity;
+import net.mcreator.fnafmod.block.entity.RetroFreddySignTileEntity;
+import net.mcreator.fnafmod.block.entity.RetroFreddySignOnTileEntity;
 import net.mcreator.fnafmod.block.entity.RemantInfuserBlockEntity;
 import net.mcreator.fnafmod.block.entity.PlushFreddyBlockEntity;
 import net.mcreator.fnafmod.block.entity.PlushFredbearBlockEntity;
@@ -40,6 +47,7 @@ import net.mcreator.fnafmod.block.entity.LockerTopBlockEntity;
 import net.mcreator.fnafmod.block.entity.FreddySignOnTileEntity;
 import net.mcreator.fnafmod.block.entity.FreddySignOffTileEntity;
 import net.mcreator.fnafmod.block.entity.FreddyHeadTileEntity;
+import net.mcreator.fnafmod.block.entity.FredbearSignTileEntity;
 import net.mcreator.fnafmod.block.entity.FredbearHeadTileEntity;
 import net.mcreator.fnafmod.block.entity.FoxyHeadTileEntity;
 import net.mcreator.fnafmod.block.entity.FoxyHeadDecorationTileEntity;
@@ -50,7 +58,10 @@ import net.mcreator.fnafmod.block.entity.Desk3BlockEntity;
 import net.mcreator.fnafmod.block.entity.Desk2BlockEntity;
 import net.mcreator.fnafmod.block.entity.ChicaHeadTileEntity;
 import net.mcreator.fnafmod.block.entity.ChicaHeadDecorationTileEntity;
+import net.mcreator.fnafmod.block.entity.CenteredFreddySignTileEntity;
+import net.mcreator.fnafmod.block.entity.CenteredFreddySignOnTileEntity;
 import net.mcreator.fnafmod.block.entity.BonnieHeadTileEntity;
+import net.mcreator.fnafmod.block.entity.BephDollTileEntity;
 import net.mcreator.fnafmod.FnafModMod;
 
 public class FnafModModBlockEntities {
@@ -110,6 +121,24 @@ public class FnafModModBlockEntities {
 			() -> BlockEntityType.Builder.of(FreddySignOffTileEntity::new, FnafModModBlocks.FREDDY_SIGN_OFF.get()).build(null));
 	public static final RegistryObject<BlockEntityType<FreddySignOnTileEntity>> FREDDY_SIGN_ON = REGISTRY.register("freddy_sign_on", () -> BlockEntityType.Builder.of(FreddySignOnTileEntity::new, FnafModModBlocks.FREDDY_SIGN_ON.get()).build(null));
 	public static final RegistryObject<BlockEntityType<VassDollTileEntity>> VASS_DOLL = REGISTRY.register("vass_doll", () -> BlockEntityType.Builder.of(VassDollTileEntity::new, FnafModModBlocks.VASS_DOLL.get()).build(null));
+	public static final RegistryObject<BlockEntityType<?>> SILVER_LOCKER_BOTTOM = register("silver_locker_bottom", FnafModModBlocks.SILVER_LOCKER_BOTTOM, SilverLockerBottomBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> SILVER_LOCKER_TOP = register("silver_locker_top", FnafModModBlocks.SILVER_LOCKER_TOP, SilverLockerTopBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<CenteredFreddySignTileEntity>> CENTERED_FREDDY_SIGN = REGISTRY.register("centered_freddy_sign",
+			() -> BlockEntityType.Builder.of(CenteredFreddySignTileEntity::new, FnafModModBlocks.CENTERED_FREDDY_SIGN.get()).build(null));
+	public static final RegistryObject<BlockEntityType<CenteredFreddySignOnTileEntity>> CENTERED_FREDDY_SIGN_ON = REGISTRY.register("centered_freddy_sign_on",
+			() -> BlockEntityType.Builder.of(CenteredFreddySignOnTileEntity::new, FnafModModBlocks.CENTERED_FREDDY_SIGN_ON.get()).build(null));
+	public static final RegistryObject<BlockEntityType<BephDollTileEntity>> BEPH_DOLL = REGISTRY.register("beph_doll", () -> BlockEntityType.Builder.of(BephDollTileEntity::new, FnafModModBlocks.BEPH_DOLL.get()).build(null));
+	public static final RegistryObject<BlockEntityType<ToyFreddySignOffTileEntity>> TOY_FREDDY_SIGN_OFF = REGISTRY.register("toy_freddy_sign_off",
+			() -> BlockEntityType.Builder.of(ToyFreddySignOffTileEntity::new, FnafModModBlocks.TOY_FREDDY_SIGN_OFF.get()).build(null));
+	public static final RegistryObject<BlockEntityType<ToyFreddySignOnTileEntity>> TOY_FREDDY_SIGN_ON = REGISTRY.register("toy_freddy_sign_on",
+			() -> BlockEntityType.Builder.of(ToyFreddySignOnTileEntity::new, FnafModModBlocks.TOY_FREDDY_SIGN_ON.get()).build(null));
+	public static final RegistryObject<BlockEntityType<RetroFreddySignTileEntity>> RETRO_FREDDY_SIGN = REGISTRY.register("retro_freddy_sign",
+			() -> BlockEntityType.Builder.of(RetroFreddySignTileEntity::new, FnafModModBlocks.RETRO_FREDDY_SIGN.get()).build(null));
+	public static final RegistryObject<BlockEntityType<RetroFreddySignOnTileEntity>> RETRO_FREDDY_SIGN_ON = REGISTRY.register("retro_freddy_sign_on",
+			() -> BlockEntityType.Builder.of(RetroFreddySignOnTileEntity::new, FnafModModBlocks.RETRO_FREDDY_SIGN_ON.get()).build(null));
+	public static final RegistryObject<BlockEntityType<SpringBonnieDecorTileEntity>> SPRING_BONNIE_DECOR = REGISTRY.register("spring_bonnie_decor",
+			() -> BlockEntityType.Builder.of(SpringBonnieDecorTileEntity::new, FnafModModBlocks.SPRING_BONNIE_DECOR.get()).build(null));
+	public static final RegistryObject<BlockEntityType<FredbearSignTileEntity>> FREDBEAR_SIGN = REGISTRY.register("fredbear_sign", () -> BlockEntityType.Builder.of(FredbearSignTileEntity::new, FnafModModBlocks.FREDBEAR_SIGN.get()).build(null));
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));

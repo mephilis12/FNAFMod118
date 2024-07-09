@@ -34,7 +34,7 @@ import java.util.List;
 public class DustingFieldsBiome {
 	public static Biome createBiome() {
 		BiomeSpecialEffects effects = new BiomeSpecialEffects.Builder().fogColor(12638463).waterColor(4159204).waterFogColor(329011).skyColor(7972607).foliageColorOverride(-3355444).grassColorOverride(-3355444)
-				.ambientLoopSound(ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("fnaf_mod:icebiometemp"))).ambientParticle(new AmbientParticleSettings(ParticleTypes.SNOWFLAKE, 0.01f)).build();
+				.ambientLoopSound(ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("fnaf_mod:ice_cave"))).ambientParticle(new AmbientParticleSettings(ParticleTypes.SNOWFLAKE, 0.01f)).build();
 		BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder();
 		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION,
 				PlacementUtils.register("fnaf_mod:tree_dusting_fields",

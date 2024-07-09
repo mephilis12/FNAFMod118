@@ -4,5 +4,5 @@
     "bottom": "fnaf_mod:blocks/kitchendoorbottom",
     "top": "fnaf_mod:blocks/kitchendoortop"
   },
-  "render_type": "solid"
+  "render_type": "translucent"
 }

@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "2": "sconce"
+        "0": "sconce"
       },
       "name": "default"
     }

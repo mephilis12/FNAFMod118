@@ -33,7 +33,7 @@
     "bossBarColor": "PINK",
     "bossBarType": "PROGRESS",
     "equipmentMainHand": {
-      "value": ""
+      "value": "CUSTOM:AdvFreddy"
     },
     "equipmentOffHand": {
       "value": ""

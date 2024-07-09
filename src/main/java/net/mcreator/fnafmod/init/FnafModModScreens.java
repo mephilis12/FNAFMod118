@@ -15,6 +15,8 @@ import net.mcreator.fnafmod.client.gui.WallChange2Screen;
 import net.mcreator.fnafmod.client.gui.WallChange1Screen;
 import net.mcreator.fnafmod.client.gui.SodaMachineScreen;
 import net.mcreator.fnafmod.client.gui.RemnantInfuserScreen;
+import net.mcreator.fnafmod.client.gui.PartySystemScreen;
+import net.mcreator.fnafmod.client.gui.LolbitShopScreen;
 import net.mcreator.fnafmod.client.gui.LockerScreen;
 import net.mcreator.fnafmod.client.gui.JumpscareScreen;
 import net.mcreator.fnafmod.client.gui.CameraGUIScreen;
@@ -31,6 +33,8 @@ public class FnafModModScreens {
 			MenuScreens.register(FnafModModMenus.CAMERA_GUI.get(), CameraGUIScreen::new);
 			MenuScreens.register(FnafModModMenus.SODA_MACHINE.get(), SodaMachineScreen::new);
 			MenuScreens.register(FnafModModMenus.JUMPSCARE.get(), JumpscareScreen::new);
+			MenuScreens.register(FnafModModMenus.PARTY_SYSTEM.get(), PartySystemScreen::new);
+			MenuScreens.register(FnafModModMenus.LOLBIT_SHOP.get(), LolbitShopScreen::new);
 		});
 	}
 }

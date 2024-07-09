@@ -1,0 +1,9 @@
+{
+  "feature": "fnaf_mod:glitch_tree",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 20
+    }
+  ]
+}

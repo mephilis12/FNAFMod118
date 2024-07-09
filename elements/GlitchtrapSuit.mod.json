@@ -3,13 +3,13 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "sb_head",
+    "textureHelmet": "gt_head",
     "enableBody": true,
-    "textureBody": "sb_torso",
+    "textureBody": "gt_torso",
     "enableLeggings": true,
-    "textureLeggings": "sb_pants",
+    "textureLeggings": "gt_pants",
     "enableBoots": true,
-    "textureBoots": "sb_boots",
+    "textureBoots": "gt_boots",
     "creativeTab": {
       "value": "CUSTOM:Suits"
     },
@@ -58,6 +58,18 @@
     "bodyImmuneToFire": false,
     "leggingsImmuneToFire": false,
     "bootsImmuneToFire": false,
+    "helmetPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bodyPiglinNeutral": {
+      "fixedValue": false
+    },
+    "leggingsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bootsPiglinNeutral": {
+      "fixedValue": false
+    },
     "maxDamage": 25,
     "damageValueHelmet": 0,
     "damageValueBody": 0,

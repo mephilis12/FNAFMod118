@@ -13,6 +13,7 @@ import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.SpawnPlacements;
+import net.minecraft.world.entity.PathfinderMob;
 import net.minecraft.world.entity.MobType;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.EntityType;
@@ -27,7 +28,7 @@ import net.minecraft.network.protocol.Packet;
 import net.mcreator.fnafmod.procedures.SitEntityOnEntityTickUpdateProcedure;
 import net.mcreator.fnafmod.init.FnafModModEntities;
 
-public class SitEntityEntity extends Monster {
+public class SitEntityEntity extends PathfinderMob {
 	public SitEntityEntity(PlayMessages.SpawnEntity packet, Level world) {
 		this(FnafModModEntities.SIT_ENTITY.get(), world);
 	}

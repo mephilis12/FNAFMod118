@@ -1,0 +1,26 @@
+{
+  "_fv": 57,
+  "_type": "structure",
+  "definition": {
+    "structure": "hillstree2",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      },
+      {
+        "value": "Blocks.AIR"
+      }
+    ],
+    "spacing": 8,
+    "separation": 5,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:FazbearHills"
+      }
+    ],
+    "surfaceDetectionType": "MOTION_BLOCKING_NO_LEAVES",
+    "terrainAdaptation": "beard_thin",
+    "generationStep": "SURFACE_STRUCTURES"
+  }
+}

@@ -59,10 +59,10 @@ public class SconceBlock extends Block {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> box(4, 0, 0, 12, 15, 5);
-			case NORTH -> box(4, 0, 11, 12, 15, 16);
-			case EAST -> box(0, 0, 4, 5, 15, 12);
-			case WEST -> box(11, 0, 4, 16, 15, 12);
+			default -> Shapes.or(box(2, 0, 0, 13, 11, 5), box(4, 1, 5, 11, 14, 7));
+			case NORTH -> Shapes.or(box(3, 0, 11, 14, 11, 16), box(5, 1, 9, 12, 14, 11));
+			case EAST -> Shapes.or(box(0, 0, 3, 5, 11, 14), box(5, 1, 5, 7, 14, 12));
+			case WEST -> Shapes.or(box(11, 0, 2, 16, 11, 13), box(9, 1, 4, 11, 14, 11));
 		};
 	}
 

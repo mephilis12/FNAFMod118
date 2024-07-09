@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_glass_pane_side",
+  "textures": {
+    "edge": "fnaf_mod:blocks/transparency",
+    "pane": "fnaf_mod:blocks/starstreamernature"
+  },
+  "render_type": "cutout"
+}

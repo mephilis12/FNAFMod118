@@ -546,5 +546,30 @@
         "stream": false
       }
     ]
+  },
+  "ice_cave": {
+    "sounds": [
+      {
+        "name": "fnaf_mod:ice_cave",
+        "stream": true
+      }
+    ]
+  },
+  "nightmaredamage": {
+    "subtitle": "subtitles.nightmaredamage",
+    "sounds": [
+      {
+        "name": "fnaf_mod:nighmare_spook",
+        "stream": false
+      }
+    ]
+  },
+  "shop": {
+    "sounds": [
+      {
+        "name": "fnaf_mod:shop",
+        "stream": false
+      }
+    ]
   }
 }

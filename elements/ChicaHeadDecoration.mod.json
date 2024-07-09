@@ -33,12 +33,15 @@
       }
     ],
     "name": "Chica Head Prop",
+    "specialInformation": {
+      "fixedValue": []
+    },
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:FNAFBlocks"
+      "value": "CUSTOM:DecorativeBlocks"
     },
     "destroyTool": "Not specified",
     "customDrop": {
@@ -124,11 +127,7 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "restrictionBiomes": [],
-    "blocksToReplace": [
-      {
-        "value": "Blocks.STONE"
-      }
-    ],
+    "blocksToReplace": [],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,

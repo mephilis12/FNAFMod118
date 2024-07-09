@@ -1,0 +1,9 @@
+{
+  "parent": "fnaf_mod:custom/table_cloth",
+  "textures": {
+    "all": "fnaf_mod:blocks/curtain_purple",
+    "particle": "fnaf_mod:blocks/curtain_purple",
+    "0": "fnaf_mod:blocks/curtain_purple"
+  },
+  "render_type": "cutout"
+}

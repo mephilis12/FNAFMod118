@@ -1,0 +1,64 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"0": {
+			"loop": true,
+			"bones": {
+				"Head": {
+					"rotation": {
+						"vector": [2.02746, 3.35162, -11.80873]
+					}
+				},
+				"Left_Arm": {
+					"rotation": {
+						"vector": [0, 0, 2.5]
+					}
+				},
+				"Right_Arm": {
+					"rotation": {
+						"vector": [0, 0, -2.5]
+					}
+				},
+				"Chibi": {
+					"rotation": {
+						"vector": [0, -27.5, 0]
+					},
+					"position": {
+						"vector": [0, -7, 2]
+					}
+				},
+				"Left_Leg": {
+					"rotation": {
+						"vector": [-90, -22.5, 0]
+					},
+					"position": {
+						"vector": [0, 1, -2]
+					}
+				},
+				"Right_Leg": {
+					"rotation": {
+						"vector": [-90, 17.5, 0]
+					},
+					"position": {
+						"vector": [0, 1, -2]
+					}
+				},
+				"Eyebrows": {
+					"position": {
+						"vector": [0, -0.25, 0]
+					}
+				},
+				"RightEyebrow": {
+					"rotation": {
+						"vector": [0, 0, -2.5]
+					}
+				},
+				"LeftEyebrow": {
+					"rotation": {
+						"vector": [0, 0, 2.5]
+					}
+				}
+			}
+		}
+	}
+}

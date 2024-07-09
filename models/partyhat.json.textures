@@ -2,25 +2,25 @@
   "mappings": {
     "default": {
       "map": {
-        "3": "partyhatred"
+        "0": "partyhatred"
       },
       "name": "default"
     },
     "green": {
       "map": {
-        "3": "partyhatgreen"
+        "0": "partyhatgreen"
       },
       "name": "green"
     },
     "blue": {
       "map": {
-        "3": "partyhatblue"
+        "0": "partyhatblue"
       },
       "name": "blue"
     },
     "purple": {
       "map": {
-        "3": "partyhatpurple"
+        "0": "partyhatpurple"
       },
       "name": "purple"
     }

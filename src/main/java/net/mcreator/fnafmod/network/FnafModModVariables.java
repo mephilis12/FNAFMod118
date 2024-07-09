@@ -36,6 +36,11 @@ import java.util.function.Supplier;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class FnafModModVariables {
+	public static double TitleCheck = 1.0;
+	public static boolean Image1 = false;
+	public static boolean Image2 = false;
+	public static boolean Image3 = false;
+
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {
 		FnafModMod.addNetworkMessage(SavedDataSyncMessage.class, SavedDataSyncMessage::buffer, SavedDataSyncMessage::new, SavedDataSyncMessage::handler);
@@ -76,6 +81,18 @@ public class FnafModModVariables {
 			clone.CanPoison = original.CanPoison;
 			clone.FlashLightDamage = original.FlashLightDamage;
 			clone.PlayerCamera = original.PlayerCamera;
+			clone.UnlockedFreddy = original.UnlockedFreddy;
+			clone.UnlockedWitheredChica = original.UnlockedWitheredChica;
+			clone.UnlockedMangle = original.UnlockedMangle;
+			clone.UnlockedSpringtrap = original.UnlockedSpringtrap;
+			clone.UnlockedFredbear = original.UnlockedFredbear;
+			clone.Party1 = original.Party1;
+			clone.Party2 = original.Party2;
+			clone.Party3 = original.Party3;
+			clone.Party4 = original.Party4;
+			clone.PartyAmount = original.PartyAmount;
+			clone.Spawned = original.Spawned;
+			clone.CanFightScott = original.CanFightScott;
 			if (!event.isWasDeath()) {
 				clone.goldenkill = original.goldenkill;
 				clone.WitheredGoldenFreddyJumpscare = original.WitheredGoldenFreddyJumpscare;
@@ -295,6 +312,18 @@ public class FnafModModVariables {
 		public boolean NightmarionneKill = false;
 		public boolean NightmareKill = false;
 		public boolean PlayerCamera = false;
+		public boolean UnlockedFreddy = false;
+		public boolean UnlockedWitheredChica = false;
+		public boolean UnlockedMangle = false;
+		public boolean UnlockedSpringtrap = false;
+		public boolean UnlockedFredbear = false;
+		public String Party1 = "Null";
+		public String Party2 = "Null";
+		public String Party3 = "Null";
+		public String Party4 = "Null";
+		public double PartyAmount = 0;
+		public boolean Spawned = false;
+		public boolean CanFightScott = false;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -321,6 +350,18 @@ public class FnafModModVariables {
 			nbt.putBoolean("NightmarionneKill", NightmarionneKill);
 			nbt.putBoolean("NightmareKill", NightmareKill);
 			nbt.putBoolean("PlayerCamera", PlayerCamera);
+			nbt.putBoolean("UnlockedFreddy", UnlockedFreddy);
+			nbt.putBoolean("UnlockedWitheredChica", UnlockedWitheredChica);
+			nbt.putBoolean("UnlockedMangle", UnlockedMangle);
+			nbt.putBoolean("UnlockedSpringtrap", UnlockedSpringtrap);
+			nbt.putBoolean("UnlockedFredbear", UnlockedFredbear);
+			nbt.putString("Party1", Party1);
+			nbt.putString("Party2", Party2);
+			nbt.putString("Party3", Party3);
+			nbt.putString("Party4", Party4);
+			nbt.putDouble("PartyAmount", PartyAmount);
+			nbt.putBoolean("Spawned", Spawned);
+			nbt.putBoolean("CanFightScott", CanFightScott);
 			return nbt;
 		}
 
@@ -344,6 +385,18 @@ public class FnafModModVariables {
 			NightmarionneKill = nbt.getBoolean("NightmarionneKill");
 			NightmareKill = nbt.getBoolean("NightmareKill");
 			PlayerCamera = nbt.getBoolean("PlayerCamera");
+			UnlockedFreddy = nbt.getBoolean("UnlockedFreddy");
+			UnlockedWitheredChica = nbt.getBoolean("UnlockedWitheredChica");
+			UnlockedMangle = nbt.getBoolean("UnlockedMangle");
+			UnlockedSpringtrap = nbt.getBoolean("UnlockedSpringtrap");
+			UnlockedFredbear = nbt.getBoolean("UnlockedFredbear");
+			Party1 = nbt.getString("Party1");
+			Party2 = nbt.getString("Party2");
+			Party3 = nbt.getString("Party3");
+			Party4 = nbt.getString("Party4");
+			PartyAmount = nbt.getDouble("PartyAmount");
+			Spawned = nbt.getBoolean("Spawned");
+			CanFightScott = nbt.getBoolean("CanFightScott");
 		}
 	}
 
@@ -386,6 +439,18 @@ public class FnafModModVariables {
 					variables.NightmarionneKill = message.data.NightmarionneKill;
 					variables.NightmareKill = message.data.NightmareKill;
 					variables.PlayerCamera = message.data.PlayerCamera;
+					variables.UnlockedFreddy = message.data.UnlockedFreddy;
+					variables.UnlockedWitheredChica = message.data.UnlockedWitheredChica;
+					variables.UnlockedMangle = message.data.UnlockedMangle;
+					variables.UnlockedSpringtrap = message.data.UnlockedSpringtrap;
+					variables.UnlockedFredbear = message.data.UnlockedFredbear;
+					variables.Party1 = message.data.Party1;
+					variables.Party2 = message.data.Party2;
+					variables.Party3 = message.data.Party3;
+					variables.Party4 = message.data.Party4;
+					variables.PartyAmount = message.data.PartyAmount;
+					variables.Spawned = message.data.Spawned;
+					variables.CanFightScott = message.data.CanFightScott;
 				}
 			});
 			context.setPacketHandled(true);

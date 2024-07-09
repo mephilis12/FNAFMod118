@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "fnaf_mod:tameable_adventure_freddy",
+    "fnaf_mod:tameable_chica",
+    "fnaf_mod:tameable_fredbear",
+    "fnaf_mod:tameable_mangle",
+    "fnaf_mod:tameable_springtrap"
+  ]
+}

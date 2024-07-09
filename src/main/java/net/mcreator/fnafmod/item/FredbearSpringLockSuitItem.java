@@ -113,6 +113,11 @@ public abstract class FredbearSpringLockSuitItem extends ArmorItem {
 		}
 
 		@Override
+		public boolean makesPiglinsNeutral(ItemStack itemstack, LivingEntity entity) {
+			return false;
+		}
+
+		@Override
 		public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
 			SpringlockedProcedure.execute(entity);
 		}
@@ -152,6 +157,11 @@ public abstract class FredbearSpringLockSuitItem extends ArmorItem {
 		}
 
 		@Override
+		public boolean makesPiglinsNeutral(ItemStack itemstack, LivingEntity entity) {
+			return false;
+		}
+
+		@Override
 		public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
 			SpringlockedProcedure.execute(entity);
 		}
@@ -173,6 +183,11 @@ public abstract class FredbearSpringLockSuitItem extends ArmorItem {
 		}
 
 		@Override
+		public boolean makesPiglinsNeutral(ItemStack itemstack, LivingEntity entity) {
+			return false;
+		}
+
+		@Override
 		public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
 			SpringlockedProcedure.execute(entity);
 		}
@@ -191,6 +206,11 @@ public abstract class FredbearSpringLockSuitItem extends ArmorItem {
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "fnaf_mod:textures/entities/fredbear_layer_1.png";
+		}
+
+		@Override
+		public boolean makesPiglinsNeutral(ItemStack itemstack, LivingEntity entity) {
+			return false;
 		}
 
 		@Override

@@ -3,7 +3,7 @@
   "textures": {
     "all": "fnaf_mod:blocks/booth_bench",
     "particle": "fnaf_mod:blocks/booth_bench",
-    "0": "fnaf_mod:blocks/booth_bench"
+    "2": "fnaf_mod:blocks/booth_bench"
   },
   "render_type": "cutout_mipped"
 }

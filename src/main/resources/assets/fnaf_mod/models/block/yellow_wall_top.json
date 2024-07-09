@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fnaf_mod:blocks/yellowwallpaper",
+    "up": "fnaf_mod:blocks/yellowwallpaper",
+    "north": "fnaf_mod:blocks/yellowwallpapertop",
+    "east": "fnaf_mod:blocks/yellowwallpapertop",
+    "south": "fnaf_mod:blocks/yellowwallpapertop",
+    "west": "fnaf_mod:blocks/yellowwallpapertop",
+    "particle": "fnaf_mod:blocks/yellowwallpaper"
+  },
+  "render_type": "solid"
+}

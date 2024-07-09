@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fnaf_mod:blocks/silverlockerbottom",
+    "up": "fnaf_mod:blocks/silverlockertop",
+    "north": "fnaf_mod:blocks/silverlockerfrontbottom",
+    "east": "fnaf_mod:blocks/silverlockersidebottom",
+    "south": "fnaf_mod:blocks/silverlockersidebottom",
+    "west": "fnaf_mod:blocks/silverlockersidebottom",
+    "particle": "fnaf_mod:blocks/silverlockerbottom"
+  },
+  "render_type": "solid"
+}
